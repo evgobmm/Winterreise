@@ -32,17 +32,18 @@
         {
           "segments": [
             { "ru": "Тут", "de": "Da" },
-            { "ru": "я", "de": "ich" },
             { "ru": "подумал", "de": "dacht'" },
+            { "ru": "я", "de": "ich" },
             { "ru": "уже", "de": "schon" },
             { "ru": "в своём", "de": "in meinem" },
-            { "ru": "безумии,", "de": "Wähne" }
+            { "ru": "заблуждении,", "de": "Wähne" }
           ],
           "annotations": []
         },
         {
           "segments": [
-            { "ru": "Что он", "de": "Sie" },
+            { "ru": "Что", "de": "" },
+            { "ru": "он", "de": "Sie" },
             { "ru": "освистывает", "de": "pfiff... aus" },
             { "ru": "бедного", "de": "den armen" },
             { "ru": "беглеца.", "de": "Flüchtling" }
@@ -61,34 +62,39 @@
       "lines_ru": [
         {
           "segments": [
-            { "ru": "Ему бы", "de": "Er hätt'... sollen" },
+            { "ru": "Ему", "de": "Er" },
+            { "ru": "следовало бы", "de": "hätt'... sollen" },
+            { "ru": "это", "de": "es" },
             { "ru": "раньше", "de": "eher" },
-            { "ru": "заметить", "de": "bemerken" }
+            { "ru": "заметить,", "de": "bemerken" }
           ],
           "annotations": []
         },
         {
           "segments": [
-            { "ru": "Вывеску,", "de": "aufgestecktes Schild" },
-            { "ru": "выставленную", "de": "aufgestecktes" },
-            { "ru": "на доме —", "de": "Des Hauses" }
+            { "ru": "Дома", "de": "Des Hauses" },
+            { "ru": "водружённую", "de": "aufgestecktes" },
+            { "ru": "вывеску,", "de": "Schild" }
           ],
           "annotations": []
         },
         {
           "segments": [
-            { "ru": "Тогда бы", "de": "So hätt' er" },
-            { "ru": "он никогда", "de": "nimmer" },
-            { "ru": "не стал", "de": "" },
-            { "ru": "искать", "de": "suchen wollen" }
+            { "ru": "Тогда", "de": "So" },
+            { "ru": "бы", "de": "hätt'" },
+            { "ru": "он", "de": "er" },
+            { "ru": "вовек", "de": "nimmer" },
+            { "ru": "не захотел", "de": "wollen" },
+            { "ru": "искать", "de": "suchen" }
           ],
           "annotations": []
         },
         {
           "segments": [
-            { "ru": "В этом доме", "de": "Im Haus" },
-            { "ru": "верную", "de": "treues" },
-            { "ru": "возлюбленную.", "de": "Frauenbild" }
+            { "ru": "В доме", "de": "Im Haus" },
+            { "ru": "некий", "de": "ein" },
+            { "ru": "верный", "de": "treues" },
+            { "ru": "образ женщины.", "de": "Frauenbild" }
           ],
           "annotations": []
         }
@@ -123,18 +129,21 @@
         },
         {
           "segments": [
-            { "ru": "Какое", "de": "Was" },
-            { "ru": "им дело", "de": "fragen sie" },
-            { "ru": "до", "de": "nach" },
+            { "ru": "Что", "de": "Was" },
+            { "ru": "спрашивают", "de": "fragen" },
+            { "ru": "они", "de": "sie" },
+            { "ru": "о", "de": "nach" },
             { "ru": "моих", "de": "meinen" },
-            { "ru": "страданий?", "de": "Schmerzen" }
+            { "ru": "страданиях?", "de": "Schmerzen" }
           ],
           "annotations": []
         },
         {
           "segments": [
             { "ru": "Их", "de": "Ihr" },
-            { "ru": "дочь —", "de": "Kind" },
+            { "ru": "дитя", "de": "Kind" },
+            { "ru": "есть", "de": "ist" },
+            { "ru": "некая", "de": "eine" },
             { "ru": "богатая", "de": "reiche" },
             { "ru": "невеста.", "de": "Braut" }
           ],
