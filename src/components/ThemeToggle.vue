@@ -27,9 +27,6 @@ function applyTheme() {
 
 <style scoped>
 .theme-toggle {
-  position: absolute;
-  top: 16px;
-  right: 16px;
   background: none;
   border: 1px solid var(--border);
   border-radius: 50%;

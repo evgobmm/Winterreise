@@ -6,7 +6,9 @@
     {
       "lines_de": [
         "Der Wind spielt mit der Wetterfahne",
-        "Auf meines schönen Liebchens Haus."
+        "Auf meines schönen Liebchens Haus.",
+        "Da dacht' ich schon in meinem Wähne,",
+        "Sie pfiff' den armen Flüchtling aus."
       ],
       "lines_ru": [
         {
@@ -31,15 +33,7 @@
               "text": "«Моей прекрасной милой» — Liebchen, ласковое обращение, буквально «милочка». Герой говорит о возлюбленной, из чьего дома он уходит."
             }
           ]
-        }
-      ]
-    },
-    {
-      "lines_de": [
-        "Da dacht' ich schon in meinem Wähne,",
-        "Sie pfiff' den armen Flüchtling aus."
-      ],
-      "lines_ru": [
+        },
         {
           "segments": [
             { "ru": "И я", "de": "" },
@@ -73,7 +67,9 @@
     {
       "lines_de": [
         "Er hätt' es eher bemerken sollen,",
-        "Des Hauses aufgestecktes Schild,"
+        "Des Hauses aufgestecktes Schild,",
+        "So hätt' er nimmer suchen wollen",
+        "Im Haus ein treues Frauenbild."
       ],
       "lines_ru": [
         {
@@ -96,15 +92,7 @@
               "text": "Schild — вывеска, щит, герб. Флюгер уподобляется вывеске, предупреждающей о непостоянстве хозяев."
             }
           ]
-        }
-      ]
-    },
-    {
-      "lines_de": [
-        "So hätt' er nimmer suchen wollen",
-        "Im Haus ein treues Frauenbild."
-      ],
-      "lines_ru": [
+        },
         {
           "segments": [
             { "ru": "Тогда бы", "de": "So hätt' er" },
@@ -132,7 +120,9 @@
     {
       "lines_de": [
         "Der Wind spielt drinnen mit den Herzen",
-        "Wie auf dem Dach, nur nicht so laut."
+        "Wie auf dem Dach, nur nicht so laut.",
+        "Was fragen sie nach meinen Schmerzen?",
+        "Ihr Kind ist eine reiche Braut."
       ],
       "lines_ru": [
         {
@@ -153,15 +143,7 @@
             { "ru": "громко.", "de": "laut" }
           ],
           "annotations": []
-        }
-      ]
-    },
-    {
-      "lines_de": [
-        "Was fragen sie nach meinen Schmerzen?",
-        "Ihr Kind ist eine reiche Braut."
-      ],
-      "lines_ru": [
+        },
         {
           "segments": [
             { "ru": "Какое", "de": "Was" },

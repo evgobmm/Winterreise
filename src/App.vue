@@ -23,13 +23,15 @@ const currentSongFile = computed(() => {
         :current="currentSongNumber"
         @select="currentSongNumber = $event"
       />
-      <label class="annotations-checkbox">
-        <input type="checkbox" v-model="showAnnotations" />
-        Пояснения
-      </label>
     </aside>
     <main class="content">
-      <ThemeToggle />
+      <div class="toolbar">
+        <label class="annotations-checkbox">
+          <input type="checkbox" v-model="showAnnotations" />
+          Пояснения
+        </label>
+        <ThemeToggle />
+      </div>
       <SongView
         v-if="currentSongFile"
         :song-file="currentSongFile"

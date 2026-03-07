@@ -54,13 +54,18 @@ body {
   margin-top: 48px;
 }
 
+.toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
 .annotations-checkbox {
   display: flex;
   align-items: center;
-  gap: 8px;
-  margin-top: 20px;
-  padding-top: 16px;
-  border-top: 1px solid var(--border);
+  gap: 6px;
   font-size: 0.85rem;
   color: var(--text-secondary);
   cursor: pointer;

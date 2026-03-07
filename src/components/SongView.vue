@@ -52,8 +52,12 @@ function getNoteOffset(stanzaIndex, lineIndex) {
 <template>
   <article v-if="song" class="song-view">
     <header class="song-header">
-      <h2>{{ song.title_de }}</h2>
-      <p class="song-title-ru">{{ song.title_ru }}</p>
+      <div class="col-de">
+        <h2>{{ song.title_de }}</h2>
+      </div>
+      <div class="col-ru">
+        <h2 class="title-ru">{{ song.title_ru }}</h2>
+      </div>
     </header>
 
     <div class="song-body">
@@ -91,6 +95,8 @@ function getNoteOffset(stanzaIndex, lineIndex) {
 
 <style scoped>
 .song-header {
+  display: flex;
+  gap: 40px;
   margin-bottom: 32px;
 }
 
@@ -99,14 +105,13 @@ function getNoteOffset(stanzaIndex, lineIndex) {
   font-style: italic;
 }
 
-.song-title-ru {
-  font-size: 1.1rem;
+.title-ru {
+  font-weight: normal;
   color: var(--text-secondary);
-  margin-top: 4px;
 }
 
 .stanza {
-  margin-bottom: 32px;
+  margin-bottom: 28px;
 }
 
 .line-pair {
