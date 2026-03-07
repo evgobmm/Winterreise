@@ -7,6 +7,8 @@ import songsIndex from './data/index.json'
 
 const currentSongNumber = ref(2)
 const showAnnotations = ref(true)
+const showLang = ref(true)
+const showMeaning = ref(true)
 
 const currentSongFile = computed(() => {
   const song = songsIndex.find(s => s.number === currentSongNumber.value)
@@ -26,16 +28,30 @@ const currentSongFile = computed(() => {
     </aside>
     <main class="content">
       <div class="toolbar">
-        <label class="annotations-checkbox">
-          <input type="checkbox" v-model="showAnnotations" />
-          Пояснения
-        </label>
+        <div class="annotations-controls">
+          <label class="annotations-checkbox">
+            <input type="checkbox" v-model="showAnnotations" />
+            Пояснения
+          </label>
+          <template v-if="showAnnotations">
+            <label class="annotations-sub meaning-check">
+              <input type="checkbox" v-model="showMeaning" />
+              Смысл
+            </label>
+            <label class="annotations-sub lang-check">
+              <input type="checkbox" v-model="showLang" />
+              Язык
+            </label>
+          </template>
+        </div>
         <ThemeToggle />
       </div>
       <SongView
         v-if="currentSongFile"
         :song-file="currentSongFile"
         :show-annotations="showAnnotations"
+        :show-lang="showLang"
+        :show-meaning="showMeaning"
       />
       <p v-else class="placeholder">Выберите песню из списка</p>
     </main>

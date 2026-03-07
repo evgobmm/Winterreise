@@ -7,7 +7,9 @@ const songModules = import.meta.glob('../data/songs/*.json', { eager: true })
 
 const props = defineProps({
   songFile: String,
-  showAnnotations: Boolean
+  showAnnotations: Boolean,
+  showLang: Boolean,
+  showMeaning: Boolean
 })
 
 const song = computed(() => {
@@ -17,35 +19,45 @@ const song = computed(() => {
   return mod ? mod.default : null
 })
 
-const allAnnotations = computed(() => {
+function collectAnnotations(type) {
   if (!song.value) return []
   const result = []
   let noteIndex = 1
   for (const stanza of song.value.stanzas) {
     for (const line of stanza.lines_ru) {
       for (const ann of (line.annotations || [])) {
-        result.push({
-          index: noteIndex++,
-          text: ann.text,
-          segments: line.segments.slice(ann.segment_range[0], ann.segment_range[1] + 1)
-        })
+        if ((ann.type || 'meaning') === type) {
+          result.push({
+            index: noteIndex++,
+            text: ann.text,
+            type: ann.type || 'meaning',
+            segments: line.segments.slice(ann.segment_range[0], ann.segment_range[1] + 1)
+          })
+        }
       }
     }
   }
   return result
-})
+}
 
-function getNoteOffset(stanzaIndex, lineIndex) {
-  if (!song.value) return 0
-  let count = 0
+const langAnnotations = computed(() => collectAnnotations('lang'))
+const meaningAnnotations = computed(() => collectAnnotations('meaning'))
+
+function getOffsets(stanzaIndex, lineIndex) {
+  if (!song.value) return { lang: 0, meaning: 0 }
+  let lang = 0
+  let meaning = 0
   for (let s = 0; s < song.value.stanzas.length; s++) {
     const stanza = song.value.stanzas[s]
     for (let l = 0; l < stanza.lines_ru.length; l++) {
-      if (s === stanzaIndex && l === lineIndex) return count
-      count += (stanza.lines_ru[l].annotations || []).length
+      if (s === stanzaIndex && l === lineIndex) return { lang, meaning }
+      for (const ann of (stanza.lines_ru[l].annotations || [])) {
+        if ((ann.type || 'meaning') === 'lang') lang++
+        else meaning++
+      }
     }
   }
-  return count
+  return { lang, meaning }
 }
 </script>
 
@@ -79,17 +91,31 @@ function getNoteOffset(stanzaIndex, lineIndex) {
           <div class="col-ru">
             <InterlinearLine
               :line="lineRu"
-              :note-offset="getNoteOffset(si, li)"
+              :lang-offset="getOffsets(si, li).lang"
+              :meaning-offset="getOffsets(si, li).meaning"
             />
           </div>
         </div>
       </div>
     </div>
 
-    <AnnotationsPanel
-      v-if="showAnnotations && allAnnotations.length"
-      :annotations="allAnnotations"
-    />
+    <div
+      v-if="showAnnotations && (langAnnotations.length || meaningAnnotations.length)"
+      class="annotations-columns"
+    >
+      <AnnotationsPanel
+        v-if="showMeaning && meaningAnnotations.length"
+        :annotations="meaningAnnotations"
+        type="meaning"
+        title="Смысл"
+      />
+      <AnnotationsPanel
+        v-if="showLang && langAnnotations.length"
+        :annotations="langAnnotations"
+        type="lang"
+        title="Язык"
+      />
+    </div>
   </article>
 </template>
 
@@ -136,5 +162,18 @@ function getNoteOffset(stanzaIndex, lineIndex) {
   font-style: italic;
   color: var(--text);
   line-height: 1.5;
+}
+
+.annotations-columns {
+  display: flex;
+  gap: 40px;
+  margin-top: 32px;
+  padding-top: 24px;
+  border-top: 1px solid var(--border);
+}
+
+.annotations-columns > * {
+  flex: 1;
+  min-width: 0;
 }
 </style>

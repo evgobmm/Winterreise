@@ -9,6 +9,10 @@
   --link: #5a3a1a;
   --de-text: #888;
   --annotation-bg: #f5f0e8;
+  --color-lang: #2e6da4;
+  --color-meaning: #8b4513;
+  --highlight-lang: #e8f0fa;
+  --highlight-meaning: #fff3cd;
 }
 
 [data-theme="dark"] {
@@ -22,4 +26,8 @@
   --link: #c4915e;
   --de-text: #777;
   --annotation-bg: #2a2520;
+  --color-lang: #6aaddf;
+  --color-meaning: #c4915e;
+  --highlight-lang: #1a2a3a;
+  --highlight-meaning: #3a3520;
 }

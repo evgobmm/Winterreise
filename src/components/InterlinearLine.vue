@@ -4,15 +4,20 @@ import FootnoteMark from './FootnoteMark.vue'
 
 const props = defineProps({
   line: Object,
-  noteOffset: Number
+  langOffset: Number,
+  meaningOffset: Number
 })
 
 const hoveredAnn = ref(null)
 
 const segmentInfo = computed(() => {
+  const langCount = { value: 0 }
+  const meaningCount = { value: 0 }
+
   return props.line.segments.map((seg, i) => {
     let annLocalIndex = null
-    let annGlobalIndex = null
+    let annType = null
+    let annDisplayIndex = null
     let annText = null
     let isLast = false
     if (props.line.annotations) {
@@ -20,16 +25,33 @@ const segmentInfo = computed(() => {
         const ann = props.line.annotations[a]
         if (i >= ann.segment_range[0] && i <= ann.segment_range[1]) {
           annLocalIndex = a
-          annGlobalIndex = props.noteOffset + a + 1
+          annType = ann.type || 'meaning'
           annText = ann.text
           isLast = i === ann.segment_range[1]
           break
         }
       }
     }
-    return { seg, annLocalIndex, annGlobalIndex, annText, isLast }
+
+    if (isLast) {
+      if (annType === 'lang') {
+        annDisplayIndex = props.langOffset + countBefore('lang', annLocalIndex) + 1
+      } else if (annType === 'meaning') {
+        annDisplayIndex = props.meaningOffset + countBefore('meaning', annLocalIndex) + 1
+      }
+    }
+
+    return { seg, annLocalIndex, annType, annDisplayIndex, annText, isLast }
   })
 })
+
+function countBefore(type, localIndex) {
+  let count = 0
+  for (let a = 0; a < localIndex; a++) {
+    if ((props.line.annotations[a].type || 'meaning') === type) count++
+  }
+  return count
+}
 </script>
 
 <template>
@@ -40,7 +62,8 @@ const segmentInfo = computed(() => {
       class="segment"
       :class="{
         annotated: info.annLocalIndex !== null,
-        highlighted: hoveredAnn !== null && info.annLocalIndex === hoveredAnn
+        'highlighted-lang': hoveredAnn !== null && info.annLocalIndex === hoveredAnn && info.annType === 'lang',
+        'highlighted-meaning': hoveredAnn !== null && info.annLocalIndex === hoveredAnn && info.annType === 'meaning'
       }"
       @mouseenter="info.annLocalIndex !== null && (hoveredAnn = info.annLocalIndex)"
       @mouseleave="hoveredAnn = null"
@@ -49,13 +72,15 @@ const segmentInfo = computed(() => {
         <span class="ru-word">{{ info.seg.ru }}</span>
         <FootnoteMark
           v-if="info.isLast"
-          :index="info.annGlobalIndex"
+          :index="info.annDisplayIndex"
+          :type="info.annType"
         />
       </span>
       <span class="de-gloss">{{ info.seg.de || '\u00A0' }}</span>
       <span
         v-if="info.isLast && hoveredAnn === info.annLocalIndex"
         class="tooltip"
+        :class="'tooltip-' + info.annType"
       >
         {{ info.annText }}
       </span>
@@ -92,8 +117,12 @@ const segmentInfo = computed(() => {
   transition: background 0.15s;
 }
 
-.segment.highlighted {
-  background: var(--highlight);
+.segment.highlighted-lang {
+  background: var(--highlight-lang);
+}
+
+.segment.highlighted-meaning {
+  background: var(--highlight-meaning);
 }
 
 .ru-word {
@@ -124,5 +153,13 @@ const segmentInfo = computed(() => {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
   z-index: 100;
   pointer-events: none;
+}
+
+.tooltip-lang {
+  border-left: 3px solid var(--color-lang);
+}
+
+.tooltip-meaning {
+  border-left: 3px solid var(--color-meaning);
 }
 </style>
