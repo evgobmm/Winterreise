@@ -1,5 +1,5 @@
 <script setup>
-import { ref, watch, computed } from 'vue'
+import { ref, computed } from 'vue'
 import InterlinearLine from './InterlinearLine.vue'
 import AnnotationsPanel from './AnnotationsPanel.vue'
 
@@ -8,6 +8,8 @@ const songModules = import.meta.glob('../data/songs/*.json', { eager: true })
 const props = defineProps({
   songFile: String
 })
+
+const showAnnotations = ref(false)
 
 const song = computed(() => {
   if (!props.songFile) return null
@@ -61,17 +63,19 @@ function getNoteOffset(stanzaIndex, lineIndex) {
         :key="si"
         class="stanza"
       >
-        <div class="stanza-columns">
+        <div
+          v-for="(lineRu, li) in stanza.lines_ru"
+          :key="li"
+          class="line-pair"
+        >
           <div class="col-de">
-            <p v-for="(line, li) in stanza.lines_de" :key="li" class="line-de">
-              {{ line }}
+            <p v-if="stanza.lines_de[li]" class="line-de">
+              {{ stanza.lines_de[li] }}
             </p>
           </div>
           <div class="col-ru">
             <InterlinearLine
-              v-for="(line, li) in stanza.lines_ru"
-              :key="li"
-              :line="line"
+              :line="lineRu"
               :note-offset="getNoteOffset(si, li)"
             />
           </div>
@@ -79,8 +83,17 @@ function getNoteOffset(stanzaIndex, lineIndex) {
       </div>
     </div>
 
-    <AnnotationsPanel
+    <button
       v-if="allAnnotations.length"
+      class="annotations-toggle"
+      @click="showAnnotations = !showAnnotations"
+    >
+      {{ showAnnotations ? 'Скрыть пояснения' : 'Показать пояснения' }}
+      ({{ allAnnotations.length }})
+    </button>
+
+    <AnnotationsPanel
+      v-if="showAnnotations && allAnnotations.length"
       :annotations="allAnnotations"
     />
   </article>
@@ -103,17 +116,20 @@ function getNoteOffset(stanzaIndex, lineIndex) {
 }
 
 .stanza {
-  margin-bottom: 28px;
+  margin-bottom: 32px;
 }
 
-.stanza-columns {
+.line-pair {
   display: flex;
   gap: 40px;
+  align-items: flex-start;
+  margin-bottom: 8px;
 }
 
 .col-de {
-  flex: 1;
-  min-width: 0;
+  flex: 0 0 340px;
+  display: flex;
+  align-items: flex-start;
 }
 
 .col-ru {
@@ -124,7 +140,23 @@ function getNoteOffset(stanzaIndex, lineIndex) {
 .line-de {
   font-style: italic;
   color: var(--text);
-  margin-bottom: 4px;
   line-height: 1.5;
+}
+
+.annotations-toggle {
+  margin-top: 24px;
+  padding: 8px 16px;
+  background: none;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  color: var(--text-secondary);
+  font-family: inherit;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.annotations-toggle:hover {
+  background: var(--highlight);
+  color: var(--text);
 }
 </style>

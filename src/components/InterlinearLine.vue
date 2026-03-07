@@ -31,12 +31,14 @@ function isLastInAnnotation(segIndex) {
       class="segment"
       :class="{ annotated: getAnnotationIndex(i) !== null }"
     >
-      <span class="ru-word">{{ seg.ru }}</span>
-      <FootnoteMark
-        v-if="isLastInAnnotation(i)"
-        :index="getAnnotationIndex(i)"
-      />
-      <span v-if="seg.de" class="de-gloss">{{ seg.de }}</span>
+      <span class="ru-row">
+        <span class="ru-word">{{ seg.ru }}</span>
+        <FootnoteMark
+          v-if="isLastInAnnotation(i)"
+          :index="getAnnotationIndex(i)"
+        />
+      </span>
+      <span class="de-gloss">{{ seg.de || '\u00A0' }}</span>
     </span>
   </div>
 </template>
@@ -45,8 +47,8 @@ function isLastInAnnotation(segIndex) {
 .interlinear-line {
   display: flex;
   flex-wrap: wrap;
-  gap: 12px 16px;
-  margin-bottom: 12px;
+  gap: 4px 16px;
+  margin-bottom: 8px;
   align-items: flex-start;
 }
 
@@ -54,7 +56,11 @@ function isLastInAnnotation(segIndex) {
   display: inline-flex;
   flex-direction: column;
   align-items: flex-start;
-  position: relative;
+}
+
+.ru-row {
+  display: inline-flex;
+  align-items: baseline;
 }
 
 .segment.annotated {
