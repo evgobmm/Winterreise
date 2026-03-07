@@ -1,0 +1,192 @@
+{
+  "number": 2,
+  "title_de": "Die Wetterfahne",
+  "title_ru": "Флюгер",
+  "stanzas": [
+    {
+      "lines_de": [
+        "Der Wind spielt mit der Wetterfahne",
+        "Auf meines schönen Liebchens Haus."
+      ],
+      "lines_ru": [
+        {
+          "segments": [
+            { "ru": "Ветер", "de": "Der Wind" },
+            { "ru": "играет", "de": "spielt" },
+            { "ru": "с", "de": "mit" },
+            { "ru": "флюгером", "de": "der Wetterfahne" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "На доме", "de": "Auf... Haus" },
+            { "ru": "моей", "de": "meines" },
+            { "ru": "прекрасной", "de": "schönen" },
+            { "ru": "милой.", "de": "Liebchens" }
+          ],
+          "annotations": [
+            {
+              "segment_range": [1, 3],
+              "text": "«Моей прекрасной милой» — Liebchen, ласковое обращение, буквально «милочка». Герой говорит о возлюбленной, из чьего дома он уходит."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lines_de": [
+        "Da dacht' ich schon in meinem Wähne,",
+        "Sie pfiff' den armen Flüchtling aus."
+      ],
+      "lines_ru": [
+        {
+          "segments": [
+            { "ru": "И я", "de": "" },
+            { "ru": "подумал", "de": "dacht' ich" },
+            { "ru": "в своём", "de": "in meinem" },
+            { "ru": "безумии,", "de": "Wähne" }
+          ],
+          "annotations": [
+            {
+              "segment_range": [3, 3],
+              "text": "Wahn — безумие, бред, заблуждение. Герой осознаёт, что его восприятие искажено."
+            }
+          ]
+        },
+        {
+          "segments": [
+            { "ru": "Что он", "de": "Sie" },
+            { "ru": "освистывает", "de": "pfiff... aus" },
+            { "ru": "бедного", "de": "den armen" },
+            { "ru": "беглеца.", "de": "Flüchtling" }
+          ],
+          "annotations": [
+            {
+              "segment_range": [1, 1],
+              "text": "Auspfeifen — освистывать, выражать презрение. Флюгер скрипит на ветру, и герою кажется, будто он насмехается над ним."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lines_de": [
+        "Er hätt' es eher bemerken sollen,",
+        "Des Hauses aufgestecktes Schild,"
+      ],
+      "lines_ru": [
+        {
+          "segments": [
+            { "ru": "Ему бы", "de": "Er hätt'... sollen" },
+            { "ru": "раньше", "de": "eher" },
+            { "ru": "заметить", "de": "bemerken" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Вывеску,", "de": "aufgestecktes Schild" },
+            { "ru": "выставленную", "de": "aufgestecktes" },
+            { "ru": "на доме —", "de": "Des Hauses" }
+          ],
+          "annotations": [
+            {
+              "segment_range": [0, 0],
+              "text": "Schild — вывеска, щит, герб. Флюгер уподобляется вывеске, предупреждающей о непостоянстве хозяев."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lines_de": [
+        "So hätt' er nimmer suchen wollen",
+        "Im Haus ein treues Frauenbild."
+      ],
+      "lines_ru": [
+        {
+          "segments": [
+            { "ru": "Тогда бы", "de": "So hätt' er" },
+            { "ru": "он никогда", "de": "nimmer" },
+            { "ru": "не стал", "de": "" },
+            { "ru": "искать", "de": "suchen wollen" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "В этом доме", "de": "Im Haus" },
+            { "ru": "верную", "de": "treues" },
+            { "ru": "возлюбленную.", "de": "Frauenbild" }
+          ],
+          "annotations": [
+            {
+              "segment_range": [2, 2],
+              "text": "Frauenbild — буквально «образ женщины». Устаревшее поэтическое слово для обозначения возлюбленной."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lines_de": [
+        "Der Wind spielt drinnen mit den Herzen",
+        "Wie auf dem Dach, nur nicht so laut."
+      ],
+      "lines_ru": [
+        {
+          "segments": [
+            { "ru": "Ветер", "de": "Der Wind" },
+            { "ru": "играет", "de": "spielt" },
+            { "ru": "внутри", "de": "drinnen" },
+            { "ru": "с сердцами,", "de": "mit den Herzen" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Как", "de": "Wie" },
+            { "ru": "на крыше,", "de": "auf dem Dach" },
+            { "ru": "только", "de": "nur" },
+            { "ru": "не так", "de": "nicht so" },
+            { "ru": "громко.", "de": "laut" }
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "lines_de": [
+        "Was fragen sie nach meinen Schmerzen?",
+        "Ihr Kind ist eine reiche Braut."
+      ],
+      "lines_ru": [
+        {
+          "segments": [
+            { "ru": "Какое", "de": "Was" },
+            { "ru": "им дело", "de": "fragen sie" },
+            { "ru": "до", "de": "nach" },
+            { "ru": "моих", "de": "meinen" },
+            { "ru": "страданий?", "de": "Schmerzen" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Их", "de": "Ihr" },
+            { "ru": "дочь —", "de": "Kind" },
+            { "ru": "богатая", "de": "reiche" },
+            { "ru": "невеста.", "de": "Braut" }
+          ],
+          "annotations": [
+            {
+              "segment_range": [1, 3],
+              "text": "Родители выдают дочь за богатого жениха. Kind здесь — «дитя», «дочь». Braut — невеста, но также просто «девушка на выданье»."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
