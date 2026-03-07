@@ -1,15 +1,14 @@
 <script setup>
-import { ref, computed } from 'vue'
+import { computed } from 'vue'
 import InterlinearLine from './InterlinearLine.vue'
 import AnnotationsPanel from './AnnotationsPanel.vue'
 
 const songModules = import.meta.glob('../data/songs/*.json', { eager: true })
 
 const props = defineProps({
-  songFile: String
+  songFile: String,
+  showAnnotations: Boolean
 })
-
-const showAnnotations = ref(false)
 
 const song = computed(() => {
   if (!props.songFile) return null
@@ -83,15 +82,6 @@ function getNoteOffset(stanzaIndex, lineIndex) {
       </div>
     </div>
 
-    <button
-      v-if="allAnnotations.length"
-      class="annotations-toggle"
-      @click="showAnnotations = !showAnnotations"
-    >
-      {{ showAnnotations ? 'Скрыть пояснения' : 'Показать пояснения' }}
-      ({{ allAnnotations.length }})
-    </button>
-
     <AnnotationsPanel
       v-if="showAnnotations && allAnnotations.length"
       :annotations="allAnnotations"
@@ -141,22 +131,5 @@ function getNoteOffset(stanzaIndex, lineIndex) {
   font-style: italic;
   color: var(--text);
   line-height: 1.5;
-}
-
-.annotations-toggle {
-  margin-top: 24px;
-  padding: 8px 16px;
-  background: none;
-  border: 1px solid var(--border);
-  border-radius: 4px;
-  color: var(--text-secondary);
-  font-family: inherit;
-  font-size: 0.9rem;
-  cursor: pointer;
-}
-
-.annotations-toggle:hover {
-  background: var(--highlight);
-  color: var(--text);
 }
 </style>

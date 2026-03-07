@@ -6,6 +6,7 @@ import ThemeToggle from './components/ThemeToggle.vue'
 import songsIndex from './data/index.json'
 
 const currentSongNumber = ref(2)
+const showAnnotations = ref(true)
 
 const currentSongFile = computed(() => {
   const song = songsIndex.find(s => s.number === currentSongNumber.value)
@@ -22,12 +23,17 @@ const currentSongFile = computed(() => {
         :current="currentSongNumber"
         @select="currentSongNumber = $event"
       />
+      <label class="annotations-checkbox">
+        <input type="checkbox" v-model="showAnnotations" />
+        Пояснения
+      </label>
     </aside>
     <main class="content">
       <ThemeToggle />
       <SongView
         v-if="currentSongFile"
         :song-file="currentSongFile"
+        :show-annotations="showAnnotations"
       />
       <p v-else class="placeholder">Выберите песню из списка</p>
     </main>
