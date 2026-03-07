@@ -58,10 +58,15 @@ function isLastInAnnotation(segIndex) {
 }
 
 .segment.annotated {
-  background: var(--highlight);
   border-radius: 2px;
   padding: 1px 3px;
   margin: -1px -3px;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+.segment.annotated:hover {
+  background: var(--highlight);
 }
 
 .ru-word {
