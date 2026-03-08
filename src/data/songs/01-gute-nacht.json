@@ -18,8 +18,9 @@
         {
           "segments": [
             { "ru": "Чужим", "de": "Fremd" },
-            { "ru": "пришёл", "de": "bin... eingezogen" },
-            { "ru": "я,", "de": "ich" }
+            { "ru": "", "de": "bin" },
+            { "ru": "я", "de": "ich" },
+            { "ru": "пришёл,", "de": "eingezogen" }
           ],
           "annotations": []
         },
