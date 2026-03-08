@@ -216,6 +216,8 @@ npm run preview
 
 6. **Liebchen = любимая** (не «милая»). Lieb- от Liebe (любовь).
 
+7. **Аннотации: всегда показывай текст пользователю перед добавлением в JSON.** Не коммить аннотации без утверждения.
+
 ## Admin Authentication
 
 - URL: `https://<user>.github.io/winterreise/?admin=<SECRET_KEY>`
