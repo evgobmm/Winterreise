@@ -15,47 +15,52 @@ const emit = defineEmits(['hoverAnn'])
 
 const segmentInfo = computed(() => {
   return props.line.segments.map((seg, i) => {
-    let annKey = null
-    let annType = null
-    let annDisplayIndex = null
-    let annText = null
-    let isLast = false
-    let annLocalIndex = null
+    const annKeys = []
+    let primaryKey = null
+    let primaryType = null
+    let primaryLocalIndex = null
+    let footnote = null
 
     if (props.line.annotations) {
       for (let a = 0; a < props.line.annotations.length; a++) {
         const ann = props.line.annotations[a]
         if (i >= ann.segment_range[0] && i <= ann.segment_range[1]) {
-          annLocalIndex = a
-          annKey = `${props.annKeyPrefix}-${a}`
-          annType = ann.type || 'meaning'
-          annText = ann.text
-          isLast = i === ann.segment_range[1] && !(ann.line_span && ann.line_span > 1)
-          break
+          const key = `${props.annKeyPrefix}-${a}`
+          const type = ann.type || 'meaning'
+          annKeys.push({ key, type })
+
+          if (primaryKey === null) {
+            primaryKey = key
+            primaryType = type
+            primaryLocalIndex = a
+          }
+
+          const isLastOfThis = i === ann.segment_range[1] && !(ann.line_span && ann.line_span > 1)
+          if (isLastOfThis) {
+            let displayIndex
+            if (type === 'lang') {
+              displayIndex = props.langOffset + countBefore('lang', a) + 1
+            } else {
+              displayIndex = props.meaningOffset + countBefore('meaning', a) + 1
+            }
+            footnote = { key, type, displayIndex, text: ann.text }
+          }
         }
       }
     }
 
-    if (annKey === null && props.inheritedAnnotations.length > 0) {
-      const inh = props.inheritedAnnotations[0]
-      annKey = inh.key
-      annType = inh.type
+    for (const inh of props.inheritedAnnotations) {
+      annKeys.push({ key: inh.key, type: inh.type })
+      if (primaryKey === null) {
+        primaryKey = inh.key
+        primaryType = inh.type
+      }
       if (inh.isLastSpannedLine && i === props.line.segments.length - 1) {
-        isLast = true
-        annDisplayIndex = inh.displayIndex
-        annText = inh.text
+        footnote = { key: inh.key, type: inh.type, displayIndex: inh.displayIndex, text: inh.text }
       }
     }
 
-    if (isLast && annLocalIndex !== null) {
-      if (annType === 'lang') {
-        annDisplayIndex = props.langOffset + countBefore('lang', annLocalIndex) + 1
-      } else if (annType === 'meaning') {
-        annDisplayIndex = props.meaningOffset + countBefore('meaning', annLocalIndex) + 1
-      }
-    }
-
-    return { seg, annKey, annType, annDisplayIndex, annText, isLast }
+    return { seg, annKeys, primaryKey, primaryType, footnote }
   })
 })
 
@@ -75,28 +80,28 @@ function countBefore(type, localIndex) {
       :key="i"
       class="segment"
       :class="{
-        annotated: info.annKey !== null,
-        'highlighted-lang': hoveredAnnKey !== null && info.annKey === hoveredAnnKey && info.annType === 'lang',
-        'highlighted-meaning': hoveredAnnKey !== null && info.annKey === hoveredAnnKey && info.annType === 'meaning'
+        annotated: info.annKeys.length > 0,
+        'highlighted-lang': info.annKeys.some(a => a.key === hoveredAnnKey && a.type === 'lang'),
+        'highlighted-meaning': info.annKeys.some(a => a.key === hoveredAnnKey && a.type === 'meaning')
       }"
-      @mouseenter="info.annKey !== null && emit('hoverAnn', info.annKey)"
+      @mouseenter="info.primaryKey !== null && emit('hoverAnn', info.primaryKey)"
       @mouseleave="emit('hoverAnn', null)"
     >
       <span class="ru-row">
         <span class="ru-word">{{ info.seg.ru }}</span>
         <FootnoteMark
-          v-if="info.isLast"
-          :index="info.annDisplayIndex"
-          :type="info.annType"
+          v-if="info.footnote"
+          :index="info.footnote.displayIndex"
+          :type="info.footnote.type"
         />
       </span>
       <span class="de-gloss">{{ info.seg.de || '\u00A0' }}</span>
       <span
-        v-if="info.isLast && hoveredAnnKey === info.annKey"
+        v-if="info.footnote && hoveredAnnKey === info.footnote.key"
         class="tooltip"
-        :class="'tooltip-' + info.annType"
+        :class="'tooltip-' + info.footnote.type"
       >
-        {{ info.annText }}
+        {{ info.footnote.text }}
       </span>
     </span>
   </div>
