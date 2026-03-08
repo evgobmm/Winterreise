@@ -93,7 +93,7 @@
       "lines_de": [
         "Ich kann zu meiner Reisen",
         "Nicht wählen mit der Zeit:",
-        "Muß selbst den Weg mir weisen",
+        "Muss selbst den Weg mir weisen",
         "In dieser Dunkelheit.",
         "Es zieht ein Mondenschatten",
         "Als mein Gefährte mit,",
@@ -122,7 +122,7 @@
         },
         {
           "segments": [
-            { "ru": "Должен", "de": "Muß" },
+            { "ru": "Должен", "de": "Muss" },
             { "ru": "сам", "de": "selbst" },
             { "ru": "путь", "de": "den Weg" },
             { "ru": "себе", "de": "mir" },
@@ -178,8 +178,8 @@
     {
       "lines_de": [
         "Was soll ich länger weilen,",
-        "Daß man mich trieb' hinaus?",
-        "Laß irre Hunde heulen",
+        "Dass man mich trieb' hinaus?",
+        "Lass irre Hunde heulen",
         "Vor ihres Herren Haus!",
         "Die Liebe liebt das Wandern,",
         "Gott hat sie so gemacht —",
@@ -199,7 +199,7 @@
         },
         {
           "segments": [
-            { "ru": "Чтобы", "de": "Daß" },
+            { "ru": "Чтобы", "de": "Dass" },
             { "ru": "", "de": "man" },
             { "ru": "меня", "de": "mich" },
             { "ru": "гнали", "de": "trieb'" },
@@ -209,7 +209,7 @@
         },
         {
           "segments": [
-            { "ru": "Пусть", "de": "Laß" },
+            { "ru": "Пусть", "de": "Lass" },
             { "ru": "бешеные", "de": "irre" },
             { "ru": "псы", "de": "Hunde" },
             { "ru": "воют", "de": "heulen" }
