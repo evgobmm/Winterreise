@@ -137,8 +137,7 @@
         },
         {
           "segments": [
-            { "ru": "", "de": "Es" },
-            { "ru": "Следует", "de": "zieht... mit" },
+            { "ru": "Следует", "de": "Es zieht... mit" },
             { "ru": "лунная тень", "de": "ein Mondenschatten" }
           ],
           "annotations": []
@@ -196,8 +195,7 @@
         {
           "segments": [
             { "ru": "Чтобы", "de": "Dass" },
-            { "ru": "", "de": "man" },
-            { "ru": "меня", "de": "mich" },
+            { "ru": "меня", "de": "man mich" },
             { "ru": "гнали", "de": "trieb" },
             { "ru": "прочь?", "de": "hinaus" }
           ],
