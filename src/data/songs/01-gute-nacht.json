@@ -6,7 +6,7 @@
     {
       "lines_de": [
         "Fremd bin ich eingezogen,",
-        "Fremd zieh ich wieder aus.",
+        "Fremd zieh' ich wieder aus.",
         "Der Mai war mir gewogen",
         "Mit manchem Blumenstrauß.",
         "Das Mädchen sprach von Liebe,",
@@ -27,7 +27,7 @@
         {
           "segments": [
             { "ru": "Чужим", "de": "Fremd" },
-            { "ru": "выхожу", "de": "zieh... aus" },
+            { "ru": "выхожу", "de": "zieh'... aus" },
             { "ru": "я", "de": "ich" },
             { "ru": "снова.", "de": "wieder" }
           ],
@@ -98,7 +98,7 @@
         "Es zieht ein Mondenschatten",
         "Als mein Gefährte mit,",
         "Und auf den weißen Matten",
-        "Such ich des Wildes Tritt."
+        "Such' ich des Wildes Tritt."
       ],
       "lines_ru": [
         {
@@ -166,7 +166,7 @@
         },
         {
           "segments": [
-            { "ru": "Ищу", "de": "Such" },
+            { "ru": "Ищу", "de": "Such'" },
             { "ru": "я", "de": "ich" },
             { "ru": "зверя", "de": "des Wildes" },
             { "ru": "след.", "de": "Tritt" }
@@ -178,7 +178,7 @@
     {
       "lines_de": [
         "Was soll ich länger weilen,",
-        "Dass man mich trieb' hinaus?",
+        "Dass man mich trieb hinaus?",
         "Lass irre Hunde heulen",
         "Vor ihres Herren Haus!",
         "Die Liebe liebt das Wandern,",
@@ -202,7 +202,7 @@
             { "ru": "Чтобы", "de": "Dass" },
             { "ru": "", "de": "man" },
             { "ru": "меня", "de": "mich" },
-            { "ru": "гнали", "de": "trieb'" },
+            { "ru": "гнали", "de": "trieb" },
             { "ru": "прочь?", "de": "hinaus" }
           ],
           "annotations": []
@@ -266,13 +266,13 @@
     {
       "lines_de": [
         "Will dich im Traum nicht stören,",
-        "Wär' schad' um deine Ruh',",
+        "Wär' schad um deine Ruh',",
         "Sollst meinen Tritt nicht hören —",
         "Sacht, sacht die Türe zu!",
-        "Ich schreibe nur im Gehen",
+        "Schreib' im Vorübergehen",
         "An's Tor dir gute Nacht,",
         "Damit du mögest sehen,",
-        "Ich hab' an dich gedacht."
+        "An dich hab' ich gedacht."
       ],
       "lines_ru": [
         {
@@ -289,7 +289,7 @@
         {
           "segments": [
             { "ru": "Было бы", "de": "Wär'" },
-            { "ru": "жаль", "de": "schad'" },
+            { "ru": "жаль", "de": "schad" },
             { "ru": "", "de": "um" },
             { "ru": "твоего", "de": "deine" },
             { "ru": "покоя,", "de": "Ruh'" }
@@ -317,11 +317,8 @@
         },
         {
           "segments": [
-            { "ru": "Я", "de": "Ich" },
-            { "ru": "пишу", "de": "schreibe" },
-            { "ru": "лишь", "de": "nur" },
-            { "ru": "на", "de": "im" },
-            { "ru": "ходу", "de": "Gehen" }
+            { "ru": "Напишу", "de": "Schreib'" },
+            { "ru": "мимоходом", "de": "im Vorübergehen" }
           ],
           "annotations": []
         },
@@ -346,10 +343,10 @@
         },
         {
           "segments": [
-            { "ru": "Я", "de": "Ich" },
-            { "ru": "", "de": "hab'" },
-            { "ru": "о", "de": "an" },
+            { "ru": "О", "de": "An" },
             { "ru": "тебе", "de": "dich" },
+            { "ru": "", "de": "hab'" },
+            { "ru": "я", "de": "ich" },
             { "ru": "думал.", "de": "gedacht" }
           ],
           "annotations": []
