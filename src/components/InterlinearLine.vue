@@ -30,7 +30,7 @@ const segmentInfo = computed(() => {
           annKey = `${props.annKeyPrefix}-${a}`
           annType = ann.type || 'meaning'
           annText = ann.text
-          isLast = i === ann.segment_range[1]
+          isLast = i === ann.segment_range[1] && !(ann.line_span && ann.line_span > 1)
           break
         }
       }
@@ -40,6 +40,11 @@ const segmentInfo = computed(() => {
       const inh = props.inheritedAnnotations[0]
       annKey = inh.key
       annType = inh.type
+      if (inh.isLastSpannedLine && i === props.line.segments.length - 1) {
+        isLast = true
+        annDisplayIndex = inh.displayIndex
+        annText = inh.text
+      }
     }
 
     if (isLast && annLocalIndex !== null) {

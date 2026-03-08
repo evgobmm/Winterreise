@@ -50,12 +50,28 @@ function getInheritedAnnotations(stanzaIndex, lineIndex) {
   const stanza = song.value.stanzas[stanzaIndex]
   const result = []
   for (let l = 0; l < lineIndex; l++) {
-    for (let a = 0; a < (stanza.lines_ru[l].annotations || []).length; a++) {
-      const ann = stanza.lines_ru[l].annotations[a]
-      if ((ann.line_span || 1) + l > lineIndex) {
+    const lineAnns = stanza.lines_ru[l].annotations || []
+    for (let a = 0; a < lineAnns.length; a++) {
+      const ann = lineAnns[a]
+      const span = ann.line_span || 1
+      if (l + span > lineIndex) {
+        const isLastSpannedLine = (l + span - 1 === lineIndex)
+        const type = ann.type || 'meaning'
+        let displayIndex = null
+        if (isLastSpannedLine) {
+          const offsets = getOffsets(stanzaIndex, l)
+          let countBefore = 0
+          for (let b = 0; b < a; b++) {
+            if ((lineAnns[b].type || 'meaning') === type) countBefore++
+          }
+          displayIndex = (type === 'lang' ? offsets.lang : offsets.meaning) + countBefore + 1
+        }
         result.push({
           key: `${stanzaIndex}-${l}-${a}`,
-          type: ann.type || 'meaning'
+          type,
+          isLastSpannedLine,
+          displayIndex,
+          text: ann.text
         })
       }
     }
