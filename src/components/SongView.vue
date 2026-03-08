@@ -1,5 +1,5 @@
 <script setup>
-import { computed } from 'vue'
+import { ref, computed } from 'vue'
 import InterlinearLine from './InterlinearLine.vue'
 import AnnotationsPanel from './AnnotationsPanel.vue'
 
@@ -42,6 +42,26 @@ function collectAnnotations(type) {
 
 const langAnnotations = computed(() => collectAnnotations('lang'))
 const meaningAnnotations = computed(() => collectAnnotations('meaning'))
+
+const hoveredAnnKey = ref(null)
+
+function getInheritedAnnotations(stanzaIndex, lineIndex) {
+  if (!song.value) return []
+  const stanza = song.value.stanzas[stanzaIndex]
+  const result = []
+  for (let l = 0; l < lineIndex; l++) {
+    for (let a = 0; a < (stanza.lines_ru[l].annotations || []).length; a++) {
+      const ann = stanza.lines_ru[l].annotations[a]
+      if ((ann.line_span || 1) + l > lineIndex) {
+        result.push({
+          key: `${stanzaIndex}-${l}-${a}`,
+          type: ann.type || 'meaning'
+        })
+      }
+    }
+  }
+  return result
+}
 
 function getOffsets(stanzaIndex, lineIndex) {
   if (!song.value) return { lang: 0, meaning: 0 }
@@ -93,6 +113,10 @@ function getOffsets(stanzaIndex, lineIndex) {
               :line="lineRu"
               :lang-offset="getOffsets(si, li).lang"
               :meaning-offset="getOffsets(si, li).meaning"
+              :inherited-annotations="getInheritedAnnotations(si, li)"
+              :hovered-ann-key="hoveredAnnKey"
+              :ann-key-prefix="`${si}-${li}`"
+              @hover-ann="hoveredAnnKey = $event"
             />
           </div>
         </div>

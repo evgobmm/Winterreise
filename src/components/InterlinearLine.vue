@@ -1,30 +1,33 @@
 <script setup>
-import { ref, computed } from 'vue'
+import { computed } from 'vue'
 import FootnoteMark from './FootnoteMark.vue'
 
 const props = defineProps({
   line: Object,
   langOffset: Number,
-  meaningOffset: Number
+  meaningOffset: Number,
+  inheritedAnnotations: { type: Array, default: () => [] },
+  hoveredAnnKey: { type: String, default: null },
+  annKeyPrefix: String
 })
 
-const hoveredAnn = ref(null)
+const emit = defineEmits(['hoverAnn'])
 
 const segmentInfo = computed(() => {
-  const langCount = { value: 0 }
-  const meaningCount = { value: 0 }
-
   return props.line.segments.map((seg, i) => {
-    let annLocalIndex = null
+    let annKey = null
     let annType = null
     let annDisplayIndex = null
     let annText = null
     let isLast = false
+    let annLocalIndex = null
+
     if (props.line.annotations) {
       for (let a = 0; a < props.line.annotations.length; a++) {
         const ann = props.line.annotations[a]
         if (i >= ann.segment_range[0] && i <= ann.segment_range[1]) {
           annLocalIndex = a
+          annKey = `${props.annKeyPrefix}-${a}`
           annType = ann.type || 'meaning'
           annText = ann.text
           isLast = i === ann.segment_range[1]
@@ -33,7 +36,13 @@ const segmentInfo = computed(() => {
       }
     }
 
-    if (isLast) {
+    if (annKey === null && props.inheritedAnnotations.length > 0) {
+      const inh = props.inheritedAnnotations[0]
+      annKey = inh.key
+      annType = inh.type
+    }
+
+    if (isLast && annLocalIndex !== null) {
       if (annType === 'lang') {
         annDisplayIndex = props.langOffset + countBefore('lang', annLocalIndex) + 1
       } else if (annType === 'meaning') {
@@ -41,7 +50,7 @@ const segmentInfo = computed(() => {
       }
     }
 
-    return { seg, annLocalIndex, annType, annDisplayIndex, annText, isLast }
+    return { seg, annKey, annType, annDisplayIndex, annText, isLast }
   })
 })
 
@@ -61,12 +70,12 @@ function countBefore(type, localIndex) {
       :key="i"
       class="segment"
       :class="{
-        annotated: info.annLocalIndex !== null,
-        'highlighted-lang': hoveredAnn !== null && info.annLocalIndex === hoveredAnn && info.annType === 'lang',
-        'highlighted-meaning': hoveredAnn !== null && info.annLocalIndex === hoveredAnn && info.annType === 'meaning'
+        annotated: info.annKey !== null,
+        'highlighted-lang': hoveredAnnKey !== null && info.annKey === hoveredAnnKey && info.annType === 'lang',
+        'highlighted-meaning': hoveredAnnKey !== null && info.annKey === hoveredAnnKey && info.annType === 'meaning'
       }"
-      @mouseenter="info.annLocalIndex !== null && (hoveredAnn = info.annLocalIndex)"
-      @mouseleave="hoveredAnn = null"
+      @mouseenter="info.annKey !== null && emit('hoverAnn', info.annKey)"
+      @mouseleave="emit('hoverAnn', null)"
     >
       <span class="ru-row">
         <span class="ru-word">{{ info.seg.ru }}</span>
@@ -78,7 +87,7 @@ function countBefore(type, localIndex) {
       </span>
       <span class="de-gloss">{{ info.seg.de || '\u00A0' }}</span>
       <span
-        v-if="info.isLast && hoveredAnn === info.annLocalIndex"
+        v-if="info.isLast && hoveredAnnKey === info.annKey"
         class="tooltip"
         :class="'tooltip-' + info.annType"
       >
