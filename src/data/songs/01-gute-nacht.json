@@ -1,0 +1,360 @@
+{
+  "number": 1,
+  "title_de": "Gute Nacht",
+  "title_ru": "Спокойной ночи",
+  "stanzas": [
+    {
+      "lines_de": [
+        "Fremd bin ich eingezogen,",
+        "Fremd zieh ich wieder aus.",
+        "Der Mai war mir gewogen",
+        "Mit manchem Blumenstrauß.",
+        "Das Mädchen sprach von Liebe,",
+        "Die Mutter gar von Eh' —",
+        "Nun ist die Welt so trübe,",
+        "Der Weg gehüllt in Schnee."
+      ],
+      "lines_ru": [
+        {
+          "segments": [
+            { "ru": "Чужим", "de": "Fremd" },
+            { "ru": "", "de": "bin" },
+            { "ru": "я", "de": "ich" },
+            { "ru": "вошёл,", "de": "eingezogen" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Чужим", "de": "Fremd" },
+            { "ru": "выхожу", "de": "zieh... aus" },
+            { "ru": "я", "de": "ich" },
+            { "ru": "снова.", "de": "wieder" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Май", "de": "Der Mai" },
+            { "ru": "был", "de": "war" },
+            { "ru": "мне", "de": "mir" },
+            { "ru": "благосклонен", "de": "gewogen" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "С", "de": "Mit" },
+            { "ru": "не одним", "de": "manchem" },
+            { "ru": "букетом цветов.", "de": "Blumenstrauß" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Девушка", "de": "Das Mädchen" },
+            { "ru": "говорила", "de": "sprach" },
+            { "ru": "о", "de": "von" },
+            { "ru": "любви,", "de": "Liebe" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Мать", "de": "Die Mutter" },
+            { "ru": "даже", "de": "gar" },
+            { "ru": "о", "de": "von" },
+            { "ru": "браке —", "de": "Eh'" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Теперь", "de": "Nun" },
+            { "ru": "—", "de": "ist" },
+            { "ru": "мир", "de": "die Welt" },
+            { "ru": "так", "de": "so" },
+            { "ru": "хмур,", "de": "trübe" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Путь", "de": "Der Weg" },
+            { "ru": "укутан", "de": "gehüllt" },
+            { "ru": "в", "de": "in" },
+            { "ru": "снег.", "de": "Schnee" }
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "lines_de": [
+        "Ich kann zu meiner Reisen",
+        "Nicht wählen mit der Zeit:",
+        "Muß selbst den Weg mir weisen",
+        "In dieser Dunkelheit.",
+        "Es zieht ein Mondenschatten",
+        "Als mein Gefährte mit,",
+        "Und auf den weißen Matten",
+        "Such ich des Wildes Tritt."
+      ],
+      "lines_ru": [
+        {
+          "segments": [
+            { "ru": "Я", "de": "Ich" },
+            { "ru": "могу", "de": "kann" },
+            { "ru": "для", "de": "zu" },
+            { "ru": "своего", "de": "meiner" },
+            { "ru": "путешествия", "de": "Reisen" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Не", "de": "Nicht" },
+            { "ru": "выбирать", "de": "wählen" },
+            { "ru": "со", "de": "mit" },
+            { "ru": "временем:", "de": "der Zeit" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Должен", "de": "Muß" },
+            { "ru": "сам", "de": "selbst" },
+            { "ru": "путь", "de": "den Weg" },
+            { "ru": "себе", "de": "mir" },
+            { "ru": "указать", "de": "weisen" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "В", "de": "In" },
+            { "ru": "этой", "de": "dieser" },
+            { "ru": "темноте.", "de": "Dunkelheit" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "", "de": "Es" },
+            { "ru": "Тянется", "de": "zieht" },
+            { "ru": "лунная тень", "de": "ein Mondenschatten" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Как", "de": "Als" },
+            { "ru": "мой", "de": "mein" },
+            { "ru": "спутник", "de": "Gefährte" },
+            { "ru": "вслед,", "de": "mit" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "И", "de": "Und" },
+            { "ru": "по", "de": "auf" },
+            { "ru": "белым", "de": "den weißen" },
+            { "ru": "лугам", "de": "Matten" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Ищу", "de": "Such" },
+            { "ru": "я", "de": "ich" },
+            { "ru": "зверя", "de": "des Wildes" },
+            { "ru": "след.", "de": "Tritt" }
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "lines_de": [
+        "Was soll ich länger weilen,",
+        "Daß man mich trieb' hinaus?",
+        "Laß irre Hunde heulen",
+        "Vor ihres Herren Haus!",
+        "Die Liebe liebt das Wandern,",
+        "Gott hat sie so gemacht —",
+        "Von einem zu dem andern —",
+        "Fein Liebchen, gute Nacht!"
+      ],
+      "lines_ru": [
+        {
+          "segments": [
+            { "ru": "Зачем", "de": "Was" },
+            { "ru": "должен", "de": "soll" },
+            { "ru": "я", "de": "ich" },
+            { "ru": "дольше", "de": "länger" },
+            { "ru": "медлить,", "de": "weilen" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Чтобы", "de": "Daß" },
+            { "ru": "", "de": "man" },
+            { "ru": "меня", "de": "mich" },
+            { "ru": "гнали", "de": "trieb'" },
+            { "ru": "прочь?", "de": "hinaus" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Пусть", "de": "Laß" },
+            { "ru": "бешеные", "de": "irre" },
+            { "ru": "псы", "de": "Hunde" },
+            { "ru": "воют", "de": "heulen" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "У", "de": "Vor" },
+            { "ru": "своего", "de": "ihres" },
+            { "ru": "хозяина", "de": "Herren" },
+            { "ru": "дома!", "de": "Haus" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Любовь", "de": "Die Liebe" },
+            { "ru": "любит", "de": "liebt" },
+            { "ru": "странствие,", "de": "das Wandern" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Бог", "de": "Gott" },
+            { "ru": "", "de": "hat" },
+            { "ru": "её", "de": "sie" },
+            { "ru": "так", "de": "so" },
+            { "ru": "создал —", "de": "gemacht" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "От", "de": "Von" },
+            { "ru": "одного", "de": "einem" },
+            { "ru": "к", "de": "zu" },
+            { "ru": "другому —", "de": "dem andern" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Милая", "de": "Fein" },
+            { "ru": "любимая,", "de": "Liebchen" },
+            { "ru": "спокойной", "de": "gute" },
+            { "ru": "ночи!", "de": "Nacht" }
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "lines_de": [
+        "Will dich im Traum nicht stören,",
+        "Wär' schad' um deine Ruh',",
+        "Sollst meinen Tritt nicht hören —",
+        "Sacht, sacht die Türe zu!",
+        "Ich schreibe nur im Gehen",
+        "An's Tor dir gute Nacht,",
+        "Damit du mögest sehen,",
+        "Ich hab' an dich gedacht."
+      ],
+      "lines_ru": [
+        {
+          "segments": [
+            { "ru": "Хочу", "de": "Will" },
+            { "ru": "тебя", "de": "dich" },
+            { "ru": "во", "de": "im" },
+            { "ru": "сне", "de": "Traum" },
+            { "ru": "не", "de": "nicht" },
+            { "ru": "тревожить,", "de": "stören" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Было бы", "de": "Wär'" },
+            { "ru": "жаль", "de": "schad'" },
+            { "ru": "", "de": "um" },
+            { "ru": "твоего", "de": "deine" },
+            { "ru": "покоя,", "de": "Ruh'" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Должна", "de": "Sollst" },
+            { "ru": "моих", "de": "meinen" },
+            { "ru": "шагов", "de": "Tritt" },
+            { "ru": "не", "de": "nicht" },
+            { "ru": "слышать —", "de": "hören" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Тихо,", "de": "Sacht" },
+            { "ru": "тихо", "de": "sacht" },
+            { "ru": "дверь", "de": "die Türe" },
+            { "ru": "прикрою!", "de": "zu" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Я", "de": "Ich" },
+            { "ru": "пишу", "de": "schreibe" },
+            { "ru": "лишь", "de": "nur" },
+            { "ru": "на", "de": "im" },
+            { "ru": "ходу", "de": "Gehen" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "На", "de": "An's" },
+            { "ru": "ворота", "de": "Tor" },
+            { "ru": "тебе", "de": "dir" },
+            { "ru": "спокойной", "de": "gute" },
+            { "ru": "ночи,", "de": "Nacht" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Чтобы", "de": "Damit" },
+            { "ru": "ты", "de": "du" },
+            { "ru": "могла", "de": "mögest" },
+            { "ru": "увидеть,", "de": "sehen" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Я", "de": "Ich" },
+            { "ru": "", "de": "hab'" },
+            { "ru": "о", "de": "an" },
+            { "ru": "тебе", "de": "dich" },
+            { "ru": "думал.", "de": "gedacht" }
+          ],
+          "annotations": []
+        }
+      ]
+    }
+  ]
+}

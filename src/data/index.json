@@ -1,5 +1,5 @@
 [
-  { "number": 1, "title_de": "Gute Nacht", "title_ru": "Спокойной ночи", "file": "01-gute-nacht.json", "ready": false },
+  { "number": 1, "title_de": "Gute Nacht", "title_ru": "Спокойной ночи", "file": "01-gute-nacht.json", "ready": true },
   { "number": 2, "title_de": "Die Wetterfahne", "title_ru": "Флюгер", "file": "02-die-wetterfahne.json", "ready": true },
   { "number": 3, "title_de": "Gefrorne Tränen", "title_ru": "Застывшие слёзы", "file": "03-gefrorne-traenen.json", "ready": false },
   { "number": 4, "title_de": "Erstarrung", "title_ru": "Оцепенение", "file": "04-erstarrung.json", "ready": false },
