@@ -105,7 +105,7 @@
             { "ru": "могу", "de": "kann" },
             { "ru": "для", "de": "zu" },
             { "ru": "своего", "de": "meiner" },
-            { "ru": "путешествия", "de": "Reisen" }
+            { "ru": "странствия", "de": "Reisen" }
           ],
           "annotations": []
         },
@@ -113,8 +113,7 @@
           "segments": [
             { "ru": "Не", "de": "Nicht" },
             { "ru": "выбирать", "de": "wählen" },
-            { "ru": "со", "de": "mit" },
-            { "ru": "временем:", "de": "der Zeit" }
+            { "ru": "время:", "de": "mit der Zeit" }
           ],
           "annotations": []
         },
@@ -139,7 +138,7 @@
         {
           "segments": [
             { "ru": "", "de": "Es" },
-            { "ru": "Тянется", "de": "zieht" },
+            { "ru": "Следует", "de": "zieht... mit" },
             { "ru": "лунная тень", "de": "ein Mondenschatten" }
           ],
           "annotations": []
@@ -148,17 +147,16 @@
           "segments": [
             { "ru": "Как", "de": "Als" },
             { "ru": "мой", "de": "mein" },
-            { "ru": "спутник", "de": "Gefährte" },
-            { "ru": "вслед,", "de": "mit" }
+            { "ru": "спутник,", "de": "Gefährte" }
           ],
           "annotations": []
         },
         {
           "segments": [
             { "ru": "И", "de": "Und" },
-            { "ru": "по", "de": "auf" },
-            { "ru": "белым", "de": "den weißen" },
-            { "ru": "лугам", "de": "Matten" }
+            { "ru": "на", "de": "auf" },
+            { "ru": "белых", "de": "den weißen" },
+            { "ru": "лугах", "de": "Matten" }
           ],
           "annotations": []
         },
@@ -234,10 +232,9 @@
         {
           "segments": [
             { "ru": "Бог", "de": "Gott" },
-            { "ru": "", "de": "hat" },
             { "ru": "её", "de": "sie" },
             { "ru": "так", "de": "so" },
-            { "ru": "создал —", "de": "gemacht" }
+            { "ru": "создал —", "de": "hat... gemacht" }
           ],
           "annotations": []
         },
@@ -288,8 +285,7 @@
           "segments": [
             { "ru": "Было бы", "de": "Wär'" },
             { "ru": "жаль", "de": "schad" },
-            { "ru": "", "de": "um" },
-            { "ru": "твоего", "de": "deine" },
+            { "ru": "твоего", "de": "um deine" },
             { "ru": "покоя,", "de": "Ruh'" }
           ],
           "annotations": []
@@ -343,9 +339,8 @@
           "segments": [
             { "ru": "О", "de": "An" },
             { "ru": "тебе", "de": "dich" },
-            { "ru": "", "de": "hab'" },
             { "ru": "я", "de": "ich" },
-            { "ru": "думал.", "de": "gedacht" }
+            { "ru": "думал.", "de": "hab'... gedacht" }
           ],
           "annotations": []
         }
