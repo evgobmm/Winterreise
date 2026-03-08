@@ -88,7 +88,7 @@ function countBefore(type, localIndex) {
       @mouseleave="emit('hoverAnn', null)"
     >
       <span class="ru-row">
-        <span class="ru-word">{{ info.seg.ru }}</span>
+        <span class="ru-word">{{ info.seg.ru || '\u00A0' }}</span>
         <FootnoteMark
           v-if="info.footnote"
           :index="info.footnote.displayIndex"

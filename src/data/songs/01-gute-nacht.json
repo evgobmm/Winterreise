@@ -18,16 +18,15 @@
         {
           "segments": [
             { "ru": "Чужим", "de": "Fremd" },
-            { "ru": "", "de": "bin" },
-            { "ru": "я", "de": "ich" },
-            { "ru": "вошёл,", "de": "eingezogen" }
+            { "ru": "пришёл", "de": "bin... eingezogen" },
+            { "ru": "я,", "de": "ich" }
           ],
           "annotations": []
         },
         {
           "segments": [
             { "ru": "Чужим", "de": "Fremd" },
-            { "ru": "выхожу", "de": "zieh'... aus" },
+            { "ru": "ухожу", "de": "zieh'... aus" },
             { "ru": "я", "de": "ich" },
             { "ru": "снова.", "de": "wieder" }
           ],
@@ -37,7 +36,7 @@
           "segments": [
             { "ru": "Май", "de": "Der Mai" },
             { "ru": "был", "de": "war" },
-            { "ru": "мне", "de": "mir" },
+            { "ru": "ко мне", "de": "mir" },
             { "ru": "благосклонен", "de": "gewogen" }
           ],
           "annotations": []
@@ -74,16 +73,15 @@
             { "ru": "—", "de": "ist" },
             { "ru": "мир", "de": "die Welt" },
             { "ru": "так", "de": "so" },
-            { "ru": "хмур,", "de": "trübe" }
+            { "ru": "сумрачен,", "de": "trübe" }
           ],
           "annotations": []
         },
         {
           "segments": [
             { "ru": "Путь", "de": "Der Weg" },
-            { "ru": "укутан", "de": "gehüllt" },
-            { "ru": "в", "de": "in" },
-            { "ru": "снег.", "de": "Schnee" }
+            { "ru": "окутан", "de": "gehüllt" },
+            { "ru": "снегом.", "de": "in Schnee" }
           ],
           "annotations": []
         }
