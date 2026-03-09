@@ -187,13 +187,13 @@
             { "ru": "Зачем", "de": "Was" },
             { "ru": "мне", "de": "soll ich" },
             { "ru": "дольше", "de": "länger" },
-            { "ru": "медлить,", "de": "weilen" }
+            { "ru": "медлить, —", "de": "weilen" }
           ],
           "annotations": []
         },
         {
           "segments": [
-            { "ru": "— Чтобы", "de": "Dass" },
+            { "ru": "Чтобы", "de": "Dass" },
             { "ru": "меня", "de": "man mich" },
             { "ru": "погнали", "de": "trieb" },
             { "ru": "прочь?", "de": "hinaus" }
