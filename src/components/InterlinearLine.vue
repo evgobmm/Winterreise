@@ -50,13 +50,19 @@ const segmentInfo = computed(() => {
     }
 
     for (const inh of props.inheritedAnnotations) {
-      annKeys.push({ key: inh.key, type: inh.type })
-      if (primaryKey === null) {
-        primaryKey = inh.key
-        primaryType = inh.type
+      const inRange = !inh.segmentRange || (i >= inh.segmentRange[0] && i <= inh.segmentRange[1])
+      if (inRange) {
+        annKeys.push({ key: inh.key, type: inh.type })
+        if (primaryKey === null) {
+          primaryKey = inh.key
+          primaryType = inh.type
+        }
       }
-      if (inh.isLastSpannedLine && i === props.line.segments.length - 1) {
-        footnote = { key: inh.key, type: inh.type, displayIndex: inh.displayIndex, text: inh.text }
+      if (inh.isLastSpannedLine) {
+        const lastSeg = inh.segmentRange ? inh.segmentRange[1] : props.line.segments.length - 1
+        if (i === lastSeg) {
+          footnote = { key: inh.key, type: inh.type, displayIndex: inh.displayIndex, text: inh.text }
+        }
       }
     }
 

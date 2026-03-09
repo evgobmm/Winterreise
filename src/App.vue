@@ -5,7 +5,7 @@ import SongView from './components/SongView.vue'
 import ThemeToggle from './components/ThemeToggle.vue'
 import songsIndex from './data/index.json'
 
-const currentSongNumber = ref(2)
+const currentSongNumber = ref(1)
 const showAnnotations = ref(true)
 const showLang = ref(true)
 const showMeaning = ref(true)

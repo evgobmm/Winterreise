@@ -24,14 +24,25 @@ function collectAnnotations(type) {
   const result = []
   let noteIndex = 1
   for (const stanza of song.value.stanzas) {
-    for (const line of stanza.lines_ru) {
+    for (let l = 0; l < stanza.lines_ru.length; l++) {
+      const line = stanza.lines_ru[l]
       for (const ann of (line.annotations || [])) {
         if ((ann.type || 'meaning') === type) {
+          const segments = line.segments.slice(ann.segment_range[0], ann.segment_range[1] + 1)
+          if (ann.continuation_ranges) {
+            for (let c = 0; c < ann.continuation_ranges.length; c++) {
+              const nextLine = stanza.lines_ru[l + c + 1]
+              if (nextLine) {
+                const cr = ann.continuation_ranges[c]
+                segments.push(...nextLine.segments.slice(cr[0], cr[1] + 1))
+              }
+            }
+          }
           result.push({
             index: noteIndex++,
             text: ann.text,
             type: ann.type || 'meaning',
-            segments: line.segments.slice(ann.segment_range[0], ann.segment_range[1] + 1)
+            segments
           })
         }
       }
@@ -66,12 +77,15 @@ function getInheritedAnnotations(stanzaIndex, lineIndex) {
           }
           displayIndex = (type === 'lang' ? offsets.lang : offsets.meaning) + countBefore + 1
         }
+        const contIndex = lineIndex - l - 1
+        const segmentRange = ann.continuation_ranges ? ann.continuation_ranges[contIndex] : null
         result.push({
           key: `${stanzaIndex}-${l}-${a}`,
           type,
           isLastSpannedLine,
           displayIndex,
-          text: ann.text
+          text: ann.text,
+          segmentRange
         })
       }
     }
