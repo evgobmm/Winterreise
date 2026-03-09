@@ -97,7 +97,13 @@
             { "ru": "окутан", "de": "gehüllt" },
             { "ru": "снегом.", "de": "in Schnee" }
           ],
-          "annotations": []
+          "annotations": [
+            {
+              "type": "lang",
+              "segment_range": [2, 2],
+              "text": "Буквально «окутан в снег» (gehüllt in Schnee)."
+            }
+          ]
         }
       ]
     },
