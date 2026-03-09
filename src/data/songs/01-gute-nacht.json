@@ -105,7 +105,7 @@
             { "ru": "могу", "de": "kann" },
             { "ru": "для", "de": "zu" },
             { "ru": "своего", "de": "meiner" },
-            { "ru": "странствия", "de": "Reisen" }
+            { "ru": "путешествия", "de": "Reisen" }
           ],
           "annotations": []
         },
@@ -185,8 +185,7 @@
         {
           "segments": [
             { "ru": "Зачем", "de": "Was" },
-            { "ru": "должен", "de": "soll" },
-            { "ru": "я", "de": "ich" },
+            { "ru": "мне", "de": "soll ich" },
             { "ru": "дольше", "de": "länger" },
             { "ru": "медлить,", "de": "weilen" }
           ],
@@ -194,9 +193,9 @@
         },
         {
           "segments": [
-            { "ru": "Чтобы", "de": "Dass" },
+            { "ru": "— Чтобы", "de": "Dass" },
             { "ru": "меня", "de": "man mich" },
-            { "ru": "гнали", "de": "trieb" },
+            { "ru": "погнали", "de": "trieb" },
             { "ru": "прочь?", "de": "hinaus" }
           ],
           "annotations": []
@@ -212,10 +211,10 @@
         },
         {
           "segments": [
-            { "ru": "У", "de": "Vor" },
+            { "ru": "Перед", "de": "Vor" },
+            { "ru": "домом", "de": "Haus" },
             { "ru": "своего", "de": "ihres" },
-            { "ru": "хозяина", "de": "Herren" },
-            { "ru": "дома!", "de": "Haus" }
+            { "ru": "хозяина!", "de": "Herren" }
           ],
           "annotations": []
         },
