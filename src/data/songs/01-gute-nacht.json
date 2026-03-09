@@ -234,9 +234,10 @@
         {
           "segments": [
             { "ru": "Зачем", "de": "Was" },
-            { "ru": "мне", "de": "soll ich" },
+            { "ru": "должен", "de": "soll" },
+            { "ru": "я", "de": "ich" },
             { "ru": "дольше", "de": "länger" },
-            { "ru": "медлить, —", "de": "weilen" }
+            { "ru": "оставаться, —", "de": "weilen" }
           ],
           "annotations": []
         },
