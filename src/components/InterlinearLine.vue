@@ -57,11 +57,11 @@ const segmentInfo = computed(() => {
           primaryKey = inh.key
           primaryType = inh.type
         }
-      }
-      if (inh.isLastSpannedLine) {
-        const lastSeg = inh.segmentRange ? inh.segmentRange[1] : props.line.segments.length - 1
-        if (i === lastSeg) {
-          footnote = { key: inh.key, type: inh.type, displayIndex: inh.displayIndex, text: inh.text }
+        if (inh.isLastSpannedLine) {
+          const lastSeg = inh.segmentRange ? inh.segmentRange[1] : props.line.segments.length - 1
+          if (i === lastSeg) {
+            footnote = { key: inh.key, type: inh.type, displayIndex: inh.displayIndex, text: inh.text }
+          }
         }
       }
     }
