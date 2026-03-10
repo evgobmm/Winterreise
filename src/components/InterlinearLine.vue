@@ -90,7 +90,7 @@ function countBefore(type, localIndex) {
         'highlighted-lang': info.annKeys.some(a => a.key === hoveredAnnKey && a.type === 'lang'),
         'highlighted-meaning': info.annKeys.some(a => a.key === hoveredAnnKey && a.type === 'meaning')
       }"
-      @mouseenter="info.primaryKey !== null && emit('hoverAnn', info.primaryKey)"
+      @mouseenter="emit('hoverAnn', info.footnote ? info.footnote.key : info.primaryKey)"
       @mouseleave="emit('hoverAnn', null)"
     >
       <span class="ru-row">
