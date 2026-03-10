@@ -1,0 +1,142 @@
+{
+  "number": 3,
+  "title_de": "Gefrorne Tränen",
+  "title_ru": "Замёрзшие слёзы",
+  "stanzas": [
+    {
+      "lines_de": [
+        "Gefrorne Tropfen fallen",
+        "Von meinen Wangen ab:",
+        "Ob es mir denn entgangen,",
+        "Dass ich geweinet hab'?"
+      ],
+      "lines_ru": [
+        {
+          "segments": [
+            { "ru": "Замёрзшие", "de": "Gefrorne" },
+            { "ru": "капли", "de": "Tropfen" },
+            { "ru": "падают", "de": "fallen... ab" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "С", "de": "Von" },
+            { "ru": "моих", "de": "meinen" },
+            { "ru": "щёк:", "de": "Wangen" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Неужели", "de": "Ob... denn" },
+            { "ru": "от меня", "de": "mir" },
+            { "ru": "ускользнуло,", "de": "es... entgangen" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Что", "de": "Dass" },
+            { "ru": "я", "de": "ich" },
+            { "ru": "плакал?", "de": "geweinet hab'" }
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "lines_de": [
+        "Ei Tränen, meine Tränen,",
+        "Und seid ihr gar so lau,",
+        "Dass ihr erstarrt zu Eise,",
+        "Wie kühler Morgentau?"
+      ],
+      "lines_ru": [
+        {
+          "segments": [
+            { "ru": "Эх", "de": "Ei" },
+            { "ru": "слёзы,", "de": "Tränen" },
+            { "ru": "мои", "de": "meine" },
+            { "ru": "слёзы,", "de": "Tränen" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "И", "de": "Und" },
+            { "ru": "неужели", "de": "gar" },
+            { "ru": "вы", "de": "seid ihr" },
+            { "ru": "так", "de": "so" },
+            { "ru": "теплы,", "de": "lau" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Что", "de": "Dass" },
+            { "ru": "вы", "de": "ihr" },
+            { "ru": "застываете", "de": "erstarrt" },
+            { "ru": "в", "de": "zu" },
+            { "ru": "лёд,", "de": "Eise" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Как", "de": "Wie" },
+            { "ru": "прохладная", "de": "kühler" },
+            { "ru": "утренняя роса?", "de": "Morgentau" }
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "lines_de": [
+        "Und dringt doch aus der Quelle",
+        "Der Brust so glühend heiß,",
+        "Als wolltet ihr zerschmelzen",
+        "Des ganzen Winters Eis."
+      ],
+      "lines_ru": [
+        {
+          "segments": [
+            { "ru": "А", "de": "Und" },
+            { "ru": "ведь", "de": "doch" },
+            { "ru": "бьёте", "de": "dringt" },
+            { "ru": "из", "de": "aus" },
+            { "ru": "источника", "de": "der Quelle" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Груди", "de": "Der Brust" },
+            { "ru": "так", "de": "so" },
+            { "ru": "обжигающе", "de": "glühend" },
+            { "ru": "горячо,", "de": "heiß" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Словно", "de": "Als" },
+            { "ru": "хотите", "de": "wolltet" },
+            { "ru": "вы", "de": "ihr" },
+            { "ru": "растопить", "de": "zerschmelzen" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Всей", "de": "des ganzen" },
+            { "ru": "зимы", "de": "Winters" },
+            { "ru": "лёд.", "de": "Eis" }
+          ],
+          "annotations": []
+        }
+      ]
+    }
+  ]
+}
