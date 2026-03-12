@@ -79,10 +79,11 @@
         {
           "segments": [
             { "ru": "И", "de": "Und" },
-            { "ru": "неужели", "de": "gar" },
-            { "ru": "вы", "de": "seid ihr" },
+            { "ru": "—", "de": "seid" },
+            { "ru": "вы", "de": "ihr" },
+            { "ru": "вправду", "de": "gar" },
             { "ru": "так", "de": "so" },
-            { "ru": "теплы,", "de": "lau" }
+            { "ru": "негорячи,", "de": "lau" }
           ],
           "annotations": []
         },
@@ -90,9 +91,7 @@
           "segments": [
             { "ru": "Что", "de": "Dass" },
             { "ru": "вы", "de": "ihr" },
-            { "ru": "застываете", "de": "erstarrt" },
-            { "ru": "в", "de": "zu" },
-            { "ru": "лёд,", "de": "Eise" }
+            { "ru": "леденеете,", "de": "erstarrt zu Eise" }
           ],
           "annotations": []
         },
