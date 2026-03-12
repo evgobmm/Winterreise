@@ -354,7 +354,7 @@
     {
       "lines_de": [
         "Will dich im Traum nicht stören,",
-        "Wär' schad um deine Ruh',",
+        "Wär' schad' um deine Ruh',",
         "Sollst meinen Tritt nicht hören —",
         "Sacht, sacht die Türe zu!",
         "Schreib' im Vorübergehen",
@@ -385,7 +385,7 @@
         {
           "segments": [
             { "ru": "Было бы", "de": "Wär'" },
-            { "ru": "жаль", "de": "schad" },
+            { "ru": "жаль", "de": "schad'" },
             { "ru": "твоего", "de": "um deine" },
             { "ru": "покоя,", "de": "Ruh'" }
           ],
