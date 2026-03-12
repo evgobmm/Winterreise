@@ -1,11 +1,11 @@
 {
   "number": 3,
-  "title_de": "Gefrorne Tränen",
+  "title_de": "Gefror'ne Tränen",
   "title_ru": "Замёрзшие слёзы",
   "stanzas": [
     {
       "lines_de": [
-        "Gefrorne Tropfen fallen",
+        "Gefror'ne Tropfen fallen",
         "Von meinen Wangen ab:",
         "Ob es mir denn entgangen,",
         "Dass ich geweinet hab'?"
@@ -13,7 +13,7 @@
       "lines_ru": [
         {
           "segments": [
-            { "ru": "Замёрзшие", "de": "Gefrorne" },
+            { "ru": "Замёрзшие", "de": "Gefror'ne" },
             { "ru": "капли", "de": "Tropfen" },
             { "ru": "падают", "de": "fallen... ab" }
           ],
@@ -94,7 +94,7 @@
     },
     {
       "lines_de": [
-        "Und dringt doch aus der Quelle",
+        "Und / Ihr dringt doch aus der Quelle",
         "Der Brust so glühend heiß,",
         "Als wolltet ihr zerschmelzen",
         "Des ganzen Winters Eis."
@@ -102,7 +102,7 @@
       "lines_ru": [
         {
           "segments": [
-            { "ru": "А", "de": "Und" },
+            { "ru": "А / Вы", "de": "Und / Ihr" },
             { "ru": "ведь", "de": "doch" },
             { "ru": "бьёте", "de": "dringt" },
             { "ru": "из", "de": "aus" },
