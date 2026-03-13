@@ -120,7 +120,7 @@
         {
           "segments": [
             { "ru": "На доме", "de": "Des Hauses" },
-            { "ru": "выставленный", "de": "aufgestecktes" },
+            { "ru": "водружённый", "de": "aufgestecktes" },
             { "ru": "знак,", "de": "Schild" }
           ],
           "annotations": [
