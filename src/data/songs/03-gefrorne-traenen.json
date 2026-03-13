@@ -145,7 +145,7 @@
           "segments": [
             { "ru": "В груди", "de": "Der Brust" },
             { "ru": "так", "de": "so" },
-            { "ru": "обжигающе", "de": "glühend" },
+            { "ru": "пылающе", "de": "glühend" },
             { "ru": "горячо,", "de": "heiß" }
           ],
           "annotations": []
@@ -153,8 +153,8 @@
         {
           "segments": [
             { "ru": "Словно", "de": "Als" },
-            { "ru": "хотите", "de": "wolltet" },
             { "ru": "вы", "de": "ihr" },
+            { "ru": "хотели бы", "de": "wolltet" },
             { "ru": "растопить", "de": "zerschmelzen" }
           ],
           "annotations": []
