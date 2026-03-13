@@ -2,7 +2,7 @@
   { "number": 1, "title_de": "Gute Nacht", "title_ru": "Спокойной ночи", "file": "01-gute-nacht.json", "ready": true },
   { "number": 2, "title_de": "Die Wetterfahne", "title_ru": "Флюгер", "file": "02-die-wetterfahne.json", "ready": true },
   { "number": 3, "title_de": "Gefror'ne Tränen", "title_ru": "Замёрзшие слёзы", "file": "03-gefrorne-traenen.json", "ready": true },
-  { "number": 4, "title_de": "Erstarrung", "title_ru": "Оцепенение", "file": "04-erstarrung.json", "ready": false },
+  { "number": 4, "title_de": "Erstarrung", "title_ru": "Оцепенение", "file": "04-erstarrung.json", "ready": true },
   { "number": 5, "title_de": "Der Lindenbaum", "title_ru": "Липа", "file": "05-der-lindenbaum.json", "ready": false },
   { "number": 6, "title_de": "Wasserflut", "title_ru": "Водный поток", "file": "06-wasserflut.json", "ready": false },
   { "number": 7, "title_de": "Auf dem Flusse", "title_ru": "На реке", "file": "07-auf-dem-flusse.json", "ready": false },

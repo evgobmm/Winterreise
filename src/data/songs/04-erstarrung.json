@@ -1,0 +1,241 @@
+{
+  "number": 4,
+  "title_de": "Erstarrung",
+  "title_ru": "Оцепенение",
+  "stanzas": [
+    {
+      "lines_de": [
+        "Ich such' im Schnee vergebens",
+        "Nach ihrer Tritte Spur,",
+        "Wo sie an meinem Arme",
+        "Durchstrich die grüne Flur."
+      ],
+      "lines_ru": [
+        {
+          "segments": [
+            { "ru": "Я", "de": "Ich" },
+            { "ru": "ищу", "de": "such'" },
+            { "ru": "в", "de": "im" },
+            { "ru": "снегу", "de": "Schnee" },
+            { "ru": "тщетно", "de": "vergebens" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "След", "de": "Nach... Spur" },
+            { "ru": "её", "de": "ihrer" },
+            { "ru": "шагов,", "de": "Tritte" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Где", "de": "Wo" },
+            { "ru": "она", "de": "sie" },
+            { "ru": "на", "de": "an" },
+            { "ru": "моей", "de": "meinem" },
+            { "ru": "руке", "de": "Arme" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Прошла", "de": "Durchstrich" },
+            { "ru": "зелёным", "de": "die grüne" },
+            { "ru": "лугом.", "de": "Flur" }
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "lines_de": [
+        "Ich will den Boden küssen,",
+        "Durchdringen Eis und Schnee",
+        "Mit meinen heißen Tränen,",
+        "Bis ich die Erde seh'."
+      ],
+      "lines_ru": [
+        {
+          "segments": [
+            { "ru": "Я", "de": "Ich" },
+            { "ru": "хочу", "de": "will" },
+            { "ru": "землю", "de": "den Boden" },
+            { "ru": "целовать,", "de": "küssen" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Пронзить", "de": "Durchdringen" },
+            { "ru": "лёд", "de": "Eis" },
+            { "ru": "и", "de": "und" },
+            { "ru": "снег", "de": "Schnee" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Своими", "de": "Mit meinen" },
+            { "ru": "горячими", "de": "heißen" },
+            { "ru": "слезами,", "de": "Tränen" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Пока", "de": "Bis" },
+            { "ru": "я", "de": "ich" },
+            { "ru": "землю", "de": "die Erde" },
+            { "ru": "не увижу.", "de": "seh'" }
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "lines_de": [
+        "Wo find' ich eine Blüte,",
+        "Wo find' ich grünes Gras?",
+        "Die Blumen sind erstorben,",
+        "Der Rasen sieht so blass."
+      ],
+      "lines_ru": [
+        {
+          "segments": [
+            { "ru": "Где", "de": "Wo" },
+            { "ru": "найду", "de": "find'" },
+            { "ru": "я", "de": "ich" },
+            { "ru": "цветок,", "de": "eine Blüte" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Где", "de": "Wo" },
+            { "ru": "найду", "de": "find'" },
+            { "ru": "я", "de": "ich" },
+            { "ru": "зелёную", "de": "grünes" },
+            { "ru": "траву?", "de": "Gras" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Цветы", "de": "Die Blumen" },
+            { "ru": "—", "de": "sind" },
+            { "ru": "мертвы,", "de": "erstorben" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Лужайка", "de": "Der Rasen" },
+            { "ru": "выглядит", "de": "sieht" },
+            { "ru": "так", "de": "so" },
+            { "ru": "бледно.", "de": "blass" }
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "lines_de": [
+        "Soll denn kein Angedenken",
+        "Ich nehmen mit von hier?",
+        "Wenn meine Schmerzen schweigen,",
+        "Wer sagt mir dann von ihr?"
+      ],
+      "lines_ru": [
+        {
+          "segments": [
+            { "ru": "Неужели", "de": "Soll denn" },
+            { "ru": "никакого", "de": "kein" },
+            { "ru": "воспоминания", "de": "Angedenken" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "мне", "de": "Ich" },
+            { "ru": "не взять", "de": "nehmen" },
+            { "ru": "с собой", "de": "mit" },
+            { "ru": "отсюда?", "de": "von hier" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Когда", "de": "Wenn" },
+            { "ru": "мои", "de": "meine" },
+            { "ru": "страдания", "de": "Schmerzen" },
+            { "ru": "умолкнут,", "de": "schweigen" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Кто", "de": "Wer" },
+            { "ru": "скажет", "de": "sagt" },
+            { "ru": "мне", "de": "mir" },
+            { "ru": "тогда", "de": "dann" },
+            { "ru": "о", "de": "von" },
+            { "ru": "ней?", "de": "ihr" }
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "lines_de": [
+        "Mein Herz ist wie erstorben,",
+        "Kalt starrt ihr Bild darin:",
+        "Schmilzt je das Herz mir wieder,",
+        "Fließt auch ihr Bild dahin."
+      ],
+      "lines_ru": [
+        {
+          "segments": [
+            { "ru": "Моё", "de": "Mein" },
+            { "ru": "сердце", "de": "Herz" },
+            { "ru": "—", "de": "ist" },
+            { "ru": "словно", "de": "wie" },
+            { "ru": "мертво,", "de": "erstorben" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Холодно", "de": "Kalt" },
+            { "ru": "застыл", "de": "starrt" },
+            { "ru": "её", "de": "ihr" },
+            { "ru": "образ", "de": "Bild" },
+            { "ru": "в нём:", "de": "darin" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Если", "de": "" },
+            { "ru": "растает", "de": "Schmilzt" },
+            { "ru": "когда-нибудь", "de": "je" },
+            { "ru": "сердце", "de": "das Herz" },
+            { "ru": "моё", "de": "mir" },
+            { "ru": "вновь,", "de": "wieder" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Утечёт", "de": "Fließt... dahin" },
+            { "ru": "и", "de": "auch" },
+            { "ru": "её", "de": "ihr" },
+            { "ru": "образ.", "de": "Bild" }
+          ],
+          "annotations": []
+        }
+      ]
+    }
+  ]
+}
