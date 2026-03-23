@@ -23,9 +23,9 @@
         },
         {
           "segments": [
-            { "ru": "Её", "de": "Nach ihrer" },
+            { "ru": "её", "de": "ihrer" },
             { "ru": "шагов", "de": "Tritte" },
-            { "ru": "след,", "de": "Spur" }
+            { "ru": "след,", "de": "Nach... Spur" }
           ],
           "annotations": []
         },
