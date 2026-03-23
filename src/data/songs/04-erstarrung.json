@@ -14,7 +14,7 @@
         {
           "segments": [
             { "ru": "Я", "de": "Ich" },
-            { "ru": "ищу", "de": "such'" },
+            { "ru": "ищу", "de": "such'... nach" },
             { "ru": "в", "de": "im" },
             { "ru": "снегу", "de": "Schnee" },
             { "ru": "тщетно", "de": "vergebens" }
@@ -25,7 +25,7 @@
           "segments": [
             { "ru": "её", "de": "ihrer" },
             { "ru": "шагов", "de": "Tritte" },
-            { "ru": "след,", "de": "Nach... Spur" }
+            { "ru": "след,", "de": "Spur" }
           ],
           "annotations": []
         },
