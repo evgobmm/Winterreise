@@ -19,7 +19,13 @@
             { "ru": "снегу", "de": "Schnee" },
             { "ru": "тщетно", "de": "vergebens" }
           ],
-          "annotations": []
+          "annotations": [
+            {
+              "type": "lang",
+              "segment_range": [1, 1],
+              "text": "Suchen nach, в отличие от простого suchen, подчёркивает напряжённость поиска."
+            }
+          ]
         },
         {
           "segments": [
