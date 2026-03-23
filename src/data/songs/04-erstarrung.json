@@ -39,10 +39,16 @@
           "segments": [
             { "ru": "Где", "de": "Wo" },
             { "ru": "она", "de": "sie" },
-            { "ru": "под руку", "de": "an... Arme" },
-            { "ru": "со мной", "de": "meinem" }
+            { "ru": "со мной", "de": "meinem" },
+            { "ru": "под руку", "de": "an... Arme" }
           ],
-          "annotations": []
+          "annotations": [
+            {
+              "type": "lang",
+              "segment_range": [2, 3],
+              "text": "An meinem Arme — буквально «на моей руке». То есть по смыслу «опираясь на мою руку», «под руку»."
+            }
+          ]
         },
         {
           "segments": [
