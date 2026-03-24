@@ -167,9 +167,15 @@
             { "ru": "Словно", "de": "Als" },
             { "ru": "вы", "de": "ihr" },
             { "ru": "хотели бы", "de": "wolltet" },
-            { "ru": "растопить", "de": "zerschmelzen" }
+            { "ru": "истопить", "de": "zerschmelzen" }
           ],
-          "annotations": []
+          "annotations": [
+            {
+              "type": "lang",
+              "segment_range": [3, 3],
+              "text": "Zerschmelzen — не просто schmelzen (растопить), а zer- + schmelzen: расплавить полностью, истопить до конца. Приставка zer- означает разрушение до конца (ср. zerbrechen — разбить, zerstören — разрушить). «Истопить» передаёт это через приставку ис- (довести до конца: испепелить, иссушить)."
+            }
+          ]
         },
         {
           "segments": [
