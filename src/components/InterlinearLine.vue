@@ -121,7 +121,7 @@ function countBefore(type, localIndex) {
   flex-wrap: wrap;
   gap: 4px 16px;
   margin-bottom: 8px;
-  align-items: flex-start;
+  align-items: flex-end;
 }
 
 .segment {

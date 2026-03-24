@@ -93,18 +93,21 @@ function getInheritedAnnotations(stanzaIndex, lineIndex) {
   return result
 }
 
-function getLineDeVariant(stanza, lineIndex) {
+function getLineDeParts(stanza, lineIndex) {
   const line = stanza.lines_ru[lineIndex]
-  if (!line) return null
-  const hasVariant = line.segments.some(s => s.variant_de)
-  if (!hasVariant) return null
-  let variantLine = stanza.lines_de[lineIndex]
-  for (const seg of line.segments) {
-    if (seg.variant_de && seg.de) {
-      variantLine = variantLine.replace(seg.de, seg.variant_de)
-    }
+  const lineDe = stanza.lines_de[lineIndex]
+  if (!line || !lineDe) return null
+  const variantSeg = line.segments.find(s => s.variant_de)
+  if (!variantSeg) return null
+  const mainWord = variantSeg.de
+  const idx = lineDe.indexOf(mainWord)
+  if (idx === -1) return null
+  return {
+    before: lineDe.substring(0, idx),
+    main: mainWord,
+    variant: variantSeg.variant_de,
+    after: lineDe.substring(idx + mainWord.length)
   }
-  return variantLine
 }
 
 function getOffsets(stanzaIndex, lineIndex) {
@@ -148,11 +151,13 @@ function getOffsets(stanzaIndex, lineIndex) {
           class="line-pair"
         >
           <div class="col-de">
-            <p v-if="getLineDeVariant(stanza, li)" class="line-de line-de-variant">
-              {{ getLineDeVariant(stanza, li) }}
-            </p>
             <p v-if="stanza.lines_de[li]" class="line-de">
-              {{ stanza.lines_de[li] }}
+              <template v-if="getLineDeParts(stanza, li)">
+                {{ getLineDeParts(stanza, li).before }}<span class="de-variant-stack"><span class="de-variant-word">{{ getLineDeParts(stanza, li).variant }}</span><span>{{ getLineDeParts(stanza, li).main }}</span></span>{{ getLineDeParts(stanza, li).after }}
+              </template>
+              <template v-else>
+                {{ stanza.lines_de[li] }}
+              </template>
             </p>
           </div>
           <div class="col-ru">
@@ -235,7 +240,12 @@ function getOffsets(stanzaIndex, lineIndex) {
   line-height: 1.5;
 }
 
-.line-de-variant {
+.de-variant-stack {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  vertical-align: bottom;
+  line-height: 1.3;
 }
 
 .annotations-columns {
