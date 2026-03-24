@@ -29,7 +29,7 @@ const segmentInfo = computed(() => {
           const key = `${props.annKeyPrefix}-${a}`
           const type = ann.type || 'meaning'
           const isVariant = ann.target === 'variant'
-          annKeys.push({ key, type })
+          annKeys.push({ key, type, isVariant })
 
           if (primaryKey === null) {
             primaryKey = key
@@ -94,8 +94,9 @@ function countBefore(type, localIndex) {
       class="segment"
       :class="{
         annotated: info.annKeys.length > 0,
-        'highlighted-lang': info.annKeys.some(a => a.key === hoveredAnnKey && a.type === 'lang'),
-        'highlighted-meaning': info.annKeys.some(a => a.key === hoveredAnnKey && a.type === 'meaning')
+        'highlighted-lang': info.annKeys.some(a => a.key === hoveredAnnKey && a.type === 'lang' && !a.isVariant),
+        'highlighted-meaning': info.annKeys.some(a => a.key === hoveredAnnKey && a.type === 'meaning' && !a.isVariant),
+        'highlighted-variant': info.annKeys.some(a => a.key === hoveredAnnKey && a.isVariant)
       }"
     >
       <span class="ru-row"
@@ -177,6 +178,13 @@ function countBefore(type, localIndex) {
 
 .segment.highlighted-meaning {
   background: var(--highlight-meaning);
+}
+
+.segment.highlighted-variant .variant-ru {
+  background: var(--highlight-meaning);
+  border-radius: 2px;
+  padding: 0 2px;
+  margin: 0 -2px;
 }
 
 .ru-word {
