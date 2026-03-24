@@ -174,9 +174,6 @@ function countBefore(type, localIndex) {
 }
 
 .variant-de {
-  position: absolute;
-  bottom: 100%;
-  left: 0;
   font-size: 0.75rem;
   color: var(--de-text);
   font-style: italic;
