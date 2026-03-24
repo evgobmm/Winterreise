@@ -20,6 +20,7 @@ const segmentInfo = computed(() => {
     let primaryType = null
     let primaryLocalIndex = null
     let footnote = null
+    let variantFootnote = null
 
     if (props.line.annotations) {
       for (let a = 0; a < props.line.annotations.length; a++) {
@@ -27,6 +28,7 @@ const segmentInfo = computed(() => {
         if (i >= ann.segment_range[0] && i <= ann.segment_range[1]) {
           const key = `${props.annKeyPrefix}-${a}`
           const type = ann.type || 'meaning'
+          const isVariant = ann.target === 'variant'
           annKeys.push({ key, type })
 
           if (primaryKey === null) {
@@ -43,7 +45,12 @@ const segmentInfo = computed(() => {
             } else {
               displayIndex = props.meaningOffset + countBefore('meaning', a) + 1
             }
-            footnote = { key, type, displayIndex, text: ann.text }
+            const fn = { key, type, displayIndex, text: ann.text }
+            if (isVariant) {
+              variantFootnote = fn
+            } else {
+              footnote = fn
+            }
           }
         }
       }
@@ -66,7 +73,7 @@ const segmentInfo = computed(() => {
       }
     }
 
-    return { seg, annKeys, primaryKey, primaryType, footnote }
+    return { seg, annKeys, primaryKey, primaryType, footnote, variantFootnote }
   })
 })
 
@@ -105,6 +112,11 @@ function countBefore(type, localIndex) {
       <span class="de-gloss">
         <template v-if="info.seg.variant_de">{{ info.seg.de }} / {{ info.seg.variant_de }}</template>
         <template v-else>{{ info.seg.de || '\u00A0' }}</template>
+        <FootnoteMark
+          v-if="info.variantFootnote"
+          :index="info.variantFootnote.displayIndex"
+          :type="info.variantFootnote.type"
+        />
       </span>
       <span
         v-if="info.footnote && hoveredAnnKey === info.footnote.key"
@@ -112,6 +124,13 @@ function countBefore(type, localIndex) {
         :class="'tooltip-' + info.footnote.type"
       >
         {{ info.footnote.text }}
+      </span>
+      <span
+        v-if="info.variantFootnote && hoveredAnnKey === info.variantFootnote.key"
+        class="tooltip"
+        :class="'tooltip-' + info.variantFootnote.type"
+      >
+        {{ info.variantFootnote.text }}
       </span>
     </span>
   </div>
