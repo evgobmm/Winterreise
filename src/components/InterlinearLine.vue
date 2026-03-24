@@ -159,15 +159,13 @@ function countBefore(type, localIndex) {
 
 .variant-ru {
   font-size: 1rem;
-  color: var(--text-secondary, #888);
-  opacity: 0.6;
+  color: var(--text);
 }
 
 .variant-de {
   font-size: 0.75rem;
-  color: var(--text-secondary, #888);
+  color: var(--de-text);
   font-style: italic;
-  opacity: 0.6;
 }
 
 .de-gloss {

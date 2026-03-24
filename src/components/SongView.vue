@@ -93,6 +93,20 @@ function getInheritedAnnotations(stanzaIndex, lineIndex) {
   return result
 }
 
+function getLineDeVariant(stanza, lineIndex) {
+  const line = stanza.lines_ru[lineIndex]
+  if (!line) return null
+  const hasVariant = line.segments.some(s => s.variant_de)
+  if (!hasVariant) return null
+  let variantLine = stanza.lines_de[lineIndex]
+  for (const seg of line.segments) {
+    if (seg.variant_de && seg.de) {
+      variantLine = variantLine.replace(seg.de, seg.variant_de)
+    }
+  }
+  return variantLine
+}
+
 function getOffsets(stanzaIndex, lineIndex) {
   if (!song.value) return { lang: 0, meaning: 0 }
   let lang = 0
@@ -134,6 +148,9 @@ function getOffsets(stanzaIndex, lineIndex) {
           class="line-pair"
         >
           <div class="col-de">
+            <p v-if="getLineDeVariant(stanza, li)" class="line-de line-de-variant">
+              {{ getLineDeVariant(stanza, li) }}
+            </p>
             <p v-if="stanza.lines_de[li]" class="line-de">
               {{ stanza.lines_de[li] }}
             </p>
@@ -216,6 +233,9 @@ function getOffsets(stanzaIndex, lineIndex) {
   font-style: italic;
   color: var(--text);
   line-height: 1.5;
+}
+
+.line-de-variant {
 }
 
 .annotations-columns {
