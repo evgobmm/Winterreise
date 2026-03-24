@@ -162,7 +162,7 @@ function countBefore(type, localIndex) {
 
 .variant-ru {
   position: absolute;
-  bottom: 100%;
+  top: -1.2rem;
   left: 0;
   font-size: 1rem;
   color: var(--text);
