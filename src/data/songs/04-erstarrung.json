@@ -29,7 +29,7 @@
         },
         {
           "segments": [
-            { "ru": "её", "de": "ihrer" },
+            { "ru": "Её", "de": "ihrer" },
             { "ru": "шагов", "de": "Tritte" },
             { "ru": "след,", "de": "Spur" }
           ],
@@ -195,7 +195,7 @@
         },
         {
           "segments": [
-            { "ru": "мне", "de": "Ich" },
+            { "ru": "Мне", "de": "Ich" },
             { "ru": "не взять", "de": "nehmen" },
             { "ru": "с собой", "de": "mit" },
             { "ru": "отсюда?", "de": "von hier" }
