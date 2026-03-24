@@ -97,11 +97,21 @@ function countBefore(type, localIndex) {
         'highlighted-lang': info.annKeys.some(a => a.key === hoveredAnnKey && a.type === 'lang'),
         'highlighted-meaning': info.annKeys.some(a => a.key === hoveredAnnKey && a.type === 'meaning')
       }"
-      @mouseenter="emit('hoverAnn', info.footnote ? info.footnote.key : info.primaryKey)"
-      @mouseleave="emit('hoverAnn', null)"
     >
-      <span class="ru-row">
-        <span v-if="info.seg.variant_ru" class="variant-ru">{{ info.seg.variant_ru }}</span>
+      <span class="ru-row"
+        @mouseenter="emit('hoverAnn', info.footnote ? info.footnote.key : info.primaryKey)"
+        @mouseleave="emit('hoverAnn', null)"
+      >
+        <span v-if="info.seg.variant_ru" class="variant-ru"
+          @mouseenter.stop="emit('hoverAnn', info.variantFootnote ? info.variantFootnote.key : info.primaryKey)"
+          @mouseleave.stop="emit('hoverAnn', null)"
+        >{{ info.seg.variant_ru }}
+          <FootnoteMark
+            v-if="info.variantFootnote"
+            :index="info.variantFootnote.displayIndex"
+            :type="info.variantFootnote.type"
+          />
+        </span>
         <span class="ru-word">{{ info.seg.ru || '\u00A0' }}</span>
         <FootnoteMark
           v-if="info.footnote"
@@ -112,11 +122,6 @@ function countBefore(type, localIndex) {
       <span class="de-gloss">
         <template v-if="info.seg.variant_de">{{ info.seg.de }} / {{ info.seg.variant_de }}</template>
         <template v-else>{{ info.seg.de || '\u00A0' }}</template>
-        <FootnoteMark
-          v-if="info.variantFootnote"
-          :index="info.variantFootnote.displayIndex"
-          :type="info.variantFootnote.type"
-        />
       </span>
       <span
         v-if="info.footnote && hoveredAnnKey === info.footnote.key"
