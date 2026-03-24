@@ -102,9 +102,9 @@ function countBefore(type, localIndex) {
           :type="info.footnote.type"
         />
       </span>
-      <span class="de-row">
-        <span v-if="info.seg.variant_de" class="variant-de">{{ info.seg.variant_de }}</span>
-        <span class="de-gloss">{{ info.seg.de || '\u00A0' }}</span>
+      <span class="de-gloss">
+        <template v-if="info.seg.variant_de">{{ info.seg.de }} / {{ info.seg.variant_de }}</template>
+        <template v-else>{{ info.seg.de || '\u00A0' }}</template>
       </span>
       <span
         v-if="info.footnote && hoveredAnnKey === info.footnote.key"
@@ -139,10 +139,6 @@ function countBefore(type, localIndex) {
   position: relative;
 }
 
-.de-row {
-  position: relative;
-}
-
 .segment.annotated {
   border-radius: 2px;
   padding: 1px 3px;
@@ -170,13 +166,6 @@ function countBefore(type, localIndex) {
   left: 0;
   font-size: 1rem;
   color: var(--text);
-  white-space: nowrap;
-}
-
-.variant-de {
-  font-size: 0.75rem;
-  color: var(--de-text);
-  font-style: italic;
   white-space: nowrap;
 }
 
