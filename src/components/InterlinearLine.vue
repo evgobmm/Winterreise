@@ -93,8 +93,8 @@ function countBefore(type, localIndex) {
       @mouseenter="emit('hoverAnn', info.footnote ? info.footnote.key : info.primaryKey)"
       @mouseleave="emit('hoverAnn', null)"
     >
-      <span v-if="info.seg.variant_ru" class="variant-ru">{{ info.seg.variant_ru }}</span>
       <span class="ru-row">
+        <span v-if="info.seg.variant_ru" class="variant-ru">{{ info.seg.variant_ru }}</span>
         <span class="ru-word">{{ info.seg.ru || '\u00A0' }}</span>
         <FootnoteMark
           v-if="info.footnote"
@@ -102,8 +102,10 @@ function countBefore(type, localIndex) {
           :type="info.footnote.type"
         />
       </span>
-      <span v-if="info.seg.variant_de" class="variant-de">{{ info.seg.variant_de }}</span>
-      <span class="de-gloss">{{ info.seg.de || '\u00A0' }}</span>
+      <span class="de-row">
+        <span v-if="info.seg.variant_de" class="variant-de">{{ info.seg.variant_de }}</span>
+        <span class="de-gloss">{{ info.seg.de || '\u00A0' }}</span>
+      </span>
       <span
         v-if="info.footnote && hoveredAnnKey === info.footnote.key"
         class="tooltip"
@@ -121,7 +123,7 @@ function countBefore(type, localIndex) {
   flex-wrap: wrap;
   gap: 4px 16px;
   margin-bottom: 8px;
-  align-items: flex-end;
+  align-items: flex-start;
 }
 
 .segment {
@@ -134,6 +136,11 @@ function countBefore(type, localIndex) {
 .ru-row {
   display: inline-flex;
   align-items: baseline;
+  position: relative;
+}
+
+.de-row {
+  position: relative;
 }
 
 .segment.annotated {
@@ -158,14 +165,22 @@ function countBefore(type, localIndex) {
 }
 
 .variant-ru {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
   font-size: 1rem;
   color: var(--text);
+  white-space: nowrap;
 }
 
 .variant-de {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
   font-size: 0.75rem;
   color: var(--de-text);
   font-style: italic;
+  white-space: nowrap;
 }
 
 .de-gloss {
