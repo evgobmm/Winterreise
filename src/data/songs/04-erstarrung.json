@@ -254,7 +254,7 @@
             { "ru": "сердце", "de": "Herz" },
             { "ru": "—", "de": "ist" },
             { "ru": "словно", "de": "wie" },
-            { "ru": "угасшее,", "de": "erstorben" }
+            { "ru": "угасшее,", "de": "erstorben", "variant_de": "erfroren", "variant_ru": "замёрзшее," }
           ],
           "annotations": []
         },

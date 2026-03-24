@@ -93,6 +93,7 @@ function countBefore(type, localIndex) {
       @mouseenter="emit('hoverAnn', info.footnote ? info.footnote.key : info.primaryKey)"
       @mouseleave="emit('hoverAnn', null)"
     >
+      <span v-if="info.seg.variant_ru" class="variant-ru">{{ info.seg.variant_ru }}</span>
       <span class="ru-row">
         <span class="ru-word">{{ info.seg.ru || '\u00A0' }}</span>
         <FootnoteMark
@@ -101,6 +102,7 @@ function countBefore(type, localIndex) {
           :type="info.footnote.type"
         />
       </span>
+      <span v-if="info.seg.variant_de" class="variant-de">{{ info.seg.variant_de }}</span>
       <span class="de-gloss">{{ info.seg.de || '\u00A0' }}</span>
       <span
         v-if="info.footnote && hoveredAnnKey === info.footnote.key"
@@ -153,6 +155,19 @@ function countBefore(type, localIndex) {
 .ru-word {
   font-size: 1rem;
   color: var(--text);
+}
+
+.variant-ru {
+  font-size: 1rem;
+  color: var(--text-secondary, #888);
+  opacity: 0.6;
+}
+
+.variant-de {
+  font-size: 0.75rem;
+  color: var(--text-secondary, #888);
+  font-style: italic;
+  opacity: 0.6;
 }
 
 .de-gloss {
