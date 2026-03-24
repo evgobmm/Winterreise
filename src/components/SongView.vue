@@ -241,11 +241,15 @@ function getOffsets(stanzaIndex, lineIndex) {
 }
 
 .de-variant-stack {
-  display: inline-flex;
-  flex-direction: column;
-  align-items: flex-start;
-  vertical-align: bottom;
-  line-height: 1.3;
+  position: relative;
+  display: inline;
+}
+
+.de-variant-word {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  white-space: nowrap;
 }
 
 .annotations-columns {
