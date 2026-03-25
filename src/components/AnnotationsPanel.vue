@@ -24,7 +24,7 @@ function toSuperscript(n) {
     >
       <span class="annotation-index" :class="'index-' + type">{{ toSuperscript(ann.index) }}</span>
       <span class="annotation-ref">
-        {{ ann.segments.map(s => s.ru).join(' ') }}
+        {{ ann.segments.map(s => ann.target === 'variant' ? (s.variant_ru || s.ru) : s.ru).join(' ') }}
       </span>
       <span class="annotation-dash"> — </span>
       <span class="annotation-text">{{ ann.text }}</span>

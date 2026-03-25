@@ -42,6 +42,7 @@ function collectAnnotations(type) {
             index: noteIndex++,
             text: ann.text,
             type: ann.type || 'meaning',
+            target: ann.target || null,
             segments
           })
         }
