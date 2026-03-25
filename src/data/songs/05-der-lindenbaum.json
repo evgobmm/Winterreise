@@ -1,0 +1,283 @@
+{
+  "number": 5,
+  "title_de": "Der Lindenbaum",
+  "title_ru": "Липа",
+  "stanzas": [
+    {
+      "lines_de": [
+        "Am Brunnen vor dem Tore,",
+        "Da steht ein Lindenbaum;",
+        "Ich träumt' in seinem Schatten",
+        "So manchen süßen Traum."
+      ],
+      "lines_ru": [
+        {
+          "segments": [
+            { "ru": "У", "de": "Am" },
+            { "ru": "колодца", "de": "Brunnen" },
+            { "ru": "перед", "de": "vor" },
+            { "ru": "воротами,", "de": "dem Tore" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Там", "de": "Da" },
+            { "ru": "стоит", "de": "steht" },
+            { "ru": "липа;", "de": "ein Lindenbaum" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Я", "de": "Ich" },
+            { "ru": "грезил", "de": "träumt'" },
+            { "ru": "в", "de": "in" },
+            { "ru": "её", "de": "seinem" },
+            { "ru": "тени", "de": "Schatten" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Не один", "de": "So manchen" },
+            { "ru": "сладкий", "de": "süßen" },
+            { "ru": "сон.", "de": "Traum" }
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "lines_de": [
+        "Ich schnitt in seine Rinde",
+        "So manches liebe Wort;",
+        "Es zog in Freud' und Leide",
+        "Zu ihm mich immer fort."
+      ],
+      "lines_ru": [
+        {
+          "segments": [
+            { "ru": "Я", "de": "Ich" },
+            { "ru": "вырезал", "de": "schnitt" },
+            { "ru": "в", "de": "in" },
+            { "ru": "её", "de": "seine" },
+            { "ru": "коре", "de": "Rinde" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Не одно", "de": "So manches" },
+            { "ru": "ласковое", "de": "liebe" },
+            { "ru": "слово;", "de": "Wort" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Тянуло", "de": "Es zog" },
+            { "ru": "в", "de": "in" },
+            { "ru": "радости", "de": "Freud'" },
+            { "ru": "и", "de": "und" },
+            { "ru": "горе", "de": "Leide" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "К", "de": "Zu" },
+            { "ru": "ней", "de": "ihm" },
+            { "ru": "меня", "de": "mich" },
+            { "ru": "всегда.", "de": "immer fort" }
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "lines_de": [
+        "Ich musst' auch heute wandern",
+        "Vorbei in tiefer Nacht,",
+        "Da hab' ich noch im Dunkeln",
+        "Die Augen zugemacht."
+      ],
+      "lines_ru": [
+        {
+          "segments": [
+            { "ru": "Я", "de": "Ich" },
+            { "ru": "должен был", "de": "musst'" },
+            { "ru": "и", "de": "auch" },
+            { "ru": "сегодня", "de": "heute" },
+            { "ru": "пройти", "de": "wandern" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Мимо", "de": "Vorbei" },
+            { "ru": "глубокой", "de": "in tiefer" },
+            { "ru": "ночью,", "de": "Nacht" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Тут", "de": "Da" },
+            { "ru": "я", "de": "hab' ich" },
+            { "ru": "ещё", "de": "noch" },
+            { "ru": "в", "de": "im" },
+            { "ru": "темноте", "de": "Dunkeln" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Глаза", "de": "Die Augen" },
+            { "ru": "закрыл.", "de": "zugemacht" }
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "lines_de": [
+        "Und seine Zweige rauschten,",
+        "Als riefen sie mir zu:",
+        "Komm her zu mir, Geselle,",
+        "Hier findst du deine Ruh'!"
+      ],
+      "lines_ru": [
+        {
+          "segments": [
+            { "ru": "И", "de": "Und" },
+            { "ru": "её", "de": "seine" },
+            { "ru": "ветви", "de": "Zweige" },
+            { "ru": "шелестели,", "de": "rauschten" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Словно", "de": "Als" },
+            { "ru": "звали", "de": "riefen... zu" },
+            { "ru": "они", "de": "sie" },
+            { "ru": "меня:", "de": "mir" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Приди", "de": "Komm her" },
+            { "ru": "ко", "de": "zu" },
+            { "ru": "мне,", "de": "mir" },
+            { "ru": "друг,", "de": "Geselle" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Здесь", "de": "Hier" },
+            { "ru": "найдёшь", "de": "findst" },
+            { "ru": "ты", "de": "du" },
+            { "ru": "свой", "de": "deine" },
+            { "ru": "покой!", "de": "Ruh'" }
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "lines_de": [
+        "Die kalten Winde bliesen",
+        "Mir grad' ins Angesicht;",
+        "Der Hut flog mir vom Kopfe,",
+        "Ich wendete mich nicht."
+      ],
+      "lines_ru": [
+        {
+          "segments": [
+            { "ru": "Холодные", "de": "Die kalten" },
+            { "ru": "ветры", "de": "Winde" },
+            { "ru": "дули", "de": "bliesen" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Мне", "de": "Mir" },
+            { "ru": "прямо", "de": "grad'" },
+            { "ru": "в", "de": "ins" },
+            { "ru": "лицо;", "de": "Angesicht" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Шляпа", "de": "Der Hut" },
+            { "ru": "слетела", "de": "flog" },
+            { "ru": "у меня", "de": "mir" },
+            { "ru": "с", "de": "vom" },
+            { "ru": "головы,", "de": "Kopfe" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Я", "de": "Ich" },
+            { "ru": "не", "de": "nicht" },
+            { "ru": "обернулся.", "de": "wendete mich" }
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "lines_de": [
+        "Nun bin ich manche Stunde",
+        "Entfernt von jenem Ort,",
+        "Und immer hör' ich's rauschen:",
+        "Du fändest Ruhe dort!"
+      ],
+      "lines_ru": [
+        {
+          "segments": [
+            { "ru": "Теперь", "de": "Nun" },
+            { "ru": "я", "de": "bin ich" },
+            { "ru": "не один", "de": "manche" },
+            { "ru": "час", "de": "Stunde" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Удалён", "de": "Entfernt" },
+            { "ru": "от", "de": "von" },
+            { "ru": "того", "de": "jenem" },
+            { "ru": "места,", "de": "Ort" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "И", "de": "Und" },
+            { "ru": "всё", "de": "immer" },
+            { "ru": "слышу", "de": "hör'" },
+            { "ru": "я", "de": "ich" },
+            { "ru": "шелест:", "de": "'s rauschen" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Ты", "de": "Du" },
+            { "ru": "нашёл бы", "de": "fändest" },
+            { "ru": "покой", "de": "Ruhe" },
+            { "ru": "там!", "de": "dort" }
+          ],
+          "annotations": []
+        }
+      ]
+    }
+  ]
+}
