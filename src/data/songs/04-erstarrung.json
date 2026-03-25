@@ -294,8 +294,7 @@
             { "ru": "Если", "de": "" },
             { "ru": "растает", "de": "Schmilzt" },
             { "ru": "хоть когда-нибудь", "de": "je" },
-            { "ru": "сердце", "de": "das Herz" },
-            { "ru": "моё", "de": "mir" },
+            { "ru": "сердце моё", "de": "das Herz mir" },
             { "ru": "вновь,", "de": "wieder" }
           ],
           "annotations": [
