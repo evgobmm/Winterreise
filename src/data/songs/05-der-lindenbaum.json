@@ -28,9 +28,9 @@
         },
         {
           "segments": [
-            { "ru": "Тут", "de": "Da" },
+            { "ru": "Там", "de": "Da" },
             { "ru": "стоит", "de": "steht" },
-            { "ru": "липа;", "de": "ein Lindenbaum" }
+            { "ru": "липовое дерево;", "de": "ein Lindenbaum" }
           ],
           "annotations": []
         },
@@ -39,7 +39,7 @@
             { "ru": "Я", "de": "Ich" },
             { "ru": "грезил", "de": "träumt'" },
             { "ru": "в", "de": "in" },
-            { "ru": "её", "de": "seinem" },
+            { "ru": "его", "de": "seinem" },
             { "ru": "тени", "de": "Schatten" }
           ],
           "annotations": []
@@ -67,7 +67,7 @@
             { "ru": "Я", "de": "Ich" },
             { "ru": "вырезал", "de": "schnitt" },
             { "ru": "в", "de": "in" },
-            { "ru": "её", "de": "seine" },
+            { "ru": "его", "de": "seine" },
             { "ru": "коре", "de": "Rinde" }
           ],
           "annotations": []
@@ -93,7 +93,7 @@
         {
           "segments": [
             { "ru": "К", "de": "Zu" },
-            { "ru": "ней", "de": "ihm" },
+            { "ru": "нему", "de": "ihm" },
             { "ru": "меня", "de": "mich" },
             { "ru": "всегда.", "de": "immer fort" }
           ],
@@ -157,7 +157,7 @@
         {
           "segments": [
             { "ru": "И", "de": "Und" },
-            { "ru": "её", "de": "seine" },
+            { "ru": "его", "de": "seine" },
             { "ru": "ветви", "de": "Zweige" },
             { "ru": "шелестели,", "de": "rauschten" }
           ],
