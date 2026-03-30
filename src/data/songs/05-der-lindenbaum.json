@@ -42,19 +42,24 @@
         },
         {
           "segments": [
-            { "ru": "Я", "de": "Ich" },
-            { "ru": "грезил", "de": "träumt'" },
+            { "ru": "Мне снился", "de": "Ich träumt'" },
             { "ru": "в", "de": "in" },
             { "ru": "его", "de": "seinem" },
             { "ru": "тени", "de": "Schatten" }
           ],
-          "annotations": []
+          "annotations": [
+            {
+              "type": "lang",
+              "segment_range": [0, 0],
+              "text": "Дословно — «я грезил». Но «грезить сон» по-русски не говорят, поэтому переводим «мне снился»."
+            }
+          ]
         },
         {
           "segments": [
-            { "ru": "Не один", "de": "So manchen" },
-            { "ru": "сладкий", "de": "süßen" },
-            { "ru": "сон.", "de": "Traum" }
+            { "ru": "Немало", "de": "So manchen" },
+            { "ru": "сладких", "de": "süßen" },
+            { "ru": "снов.", "de": "Traum" }
           ],
           "annotations": []
         }
@@ -80,9 +85,9 @@
         },
         {
           "segments": [
-            { "ru": "Не одно", "de": "So manches" },
-            { "ru": "ласковое", "de": "liebe" },
-            { "ru": "слово;", "de": "Wort" }
+            { "ru": "Немало", "de": "So manches" },
+            { "ru": "ласковых", "de": "liebe" },
+            { "ru": "слов;", "de": "Wort" }
           ],
           "annotations": []
         },
