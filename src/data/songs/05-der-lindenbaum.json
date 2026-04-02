@@ -147,7 +147,7 @@
         {
           "segments": [
             { "ru": "Тут", "de": "Da" },
-            { "ru": "я", "de": "hab' ich" },
+            { "ru": "я", "de": "ich" },
             { "ru": "ещё", "de": "noch" },
             { "ru": "в", "de": "im" },
             { "ru": "темноте", "de": "Dunkeln" }
@@ -157,7 +157,7 @@
         {
           "segments": [
             { "ru": "Глаза", "de": "Die Augen" },
-            { "ru": "закрыл.", "de": "zugemacht" }
+            { "ru": "зажмурил.", "de": "hab'... zugemacht" }
           ],
           "annotations": []
         }
