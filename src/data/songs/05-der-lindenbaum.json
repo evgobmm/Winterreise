@@ -285,15 +285,16 @@
         {
           "segments": [
             { "ru": "Теперь", "de": "Nun" },
-            { "ru": "я", "de": "bin ich" },
-            { "ru": "не один", "de": "manche" },
-            { "ru": "час", "de": "Stunde" }
+            { "ru": "я", "de": "ich" },
+            { "ru": "на", "de": "" },
+            { "ru": "много", "de": "manche" },
+            { "ru": "часов", "de": "Stunde" }
           ],
           "annotations": []
         },
         {
           "segments": [
-            { "ru": "Удалён", "de": "Entfernt" },
+            { "ru": "Удалён", "de": "bin... Entfernt" },
             { "ru": "от", "de": "von" },
             { "ru": "того", "de": "jenem" },
             { "ru": "места,", "de": "Ort" }
