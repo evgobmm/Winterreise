@@ -152,12 +152,18 @@
             { "ru": "в", "de": "im" },
             { "ru": "темноте", "de": "Dunkeln" }
           ],
-          "annotations": []
+          "annotations": [
+            {
+              "type": "lang",
+              "segment_range": [2, 2],
+              "text": "У noch здесь как минимум два смысла: «даже» (и так темно, а герой ещё и закрывает глаза) и «вдобавок» (ко всему прочему закрыл глаза). Русское «ещё» сохраняет ту же двойственность."
+            }
+          ]
         },
         {
           "segments": [
             { "ru": "Глаза", "de": "Die Augen" },
-            { "ru": "зажмурил.", "de": "hab'... zugemacht" }
+            { "ru": "закрыл.", "de": "hab'... zugemacht" }
           ],
           "annotations": []
         }
@@ -176,7 +182,7 @@
             { "ru": "И", "de": "Und" },
             { "ru": "его", "de": "seine" },
             { "ru": "ветви", "de": "Zweige" },
-            { "ru": "шелестели,", "de": "rauschten" }
+            { "ru": "шумели,", "de": "rauschten" }
           ],
           "annotations": []
         },
@@ -194,7 +200,7 @@
             { "ru": "Приди", "de": "Komm her" },
             { "ru": "ко", "de": "zu" },
             { "ru": "мне,", "de": "mir" },
-            { "ru": "друг,", "de": "Geselle" }
+            { "ru": "дружище,", "de": "Geselle" }
           ],
           "annotations": []
         },
@@ -287,7 +293,7 @@
             { "ru": "всё", "de": "immer" },
             { "ru": "слышу", "de": "hör'" },
             { "ru": "я", "de": "ich" },
-            { "ru": "шелест:", "de": "'s rauschen" }
+            { "ru": "как шумит:", "de": "'s rauschen" }
           ],
           "annotations": []
         },
