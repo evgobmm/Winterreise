@@ -59,8 +59,10 @@ const hoveredAnnKey = ref(null)
 
 function getInheritedAnnotations(stanzaIndex, lineIndex) {
   if (!song.value) return []
-  const stanza = song.value.stanzas[stanzaIndex]
   const result = []
+
+  // Same stanza: lines before current
+  const stanza = song.value.stanzas[stanzaIndex]
   for (let l = 0; l < lineIndex; l++) {
     const lineAnns = stanza.lines_ru[l].annotations || []
     for (let a = 0; a < lineAnns.length; a++) {
@@ -91,6 +93,47 @@ function getInheritedAnnotations(stanzaIndex, lineIndex) {
       }
     }
   }
+
+  // Previous stanza: annotations that overflow into this stanza
+  if (stanzaIndex > 0) {
+    const prevStanza = song.value.stanzas[stanzaIndex - 1]
+    const prevLineCount = prevStanza.lines_ru.length
+    for (let l = 0; l < prevLineCount; l++) {
+      const lineAnns = prevStanza.lines_ru[l].annotations || []
+      for (let a = 0; a < lineAnns.length; a++) {
+        const ann = lineAnns[a]
+        const span = ann.line_span || 1
+        const linesInPrev = prevLineCount - l
+        if (span > linesInPrev) {
+          const overflowCount = span - linesInPrev
+          if (lineIndex < overflowCount) {
+            const isLastSpannedLine = (lineIndex === overflowCount - 1)
+            const type = ann.type || 'meaning'
+            let displayIndex = null
+            if (isLastSpannedLine) {
+              const offsets = getOffsets(stanzaIndex - 1, l)
+              let countBefore = 0
+              for (let b = 0; b < a; b++) {
+                if ((lineAnns[b].type || 'meaning') === type) countBefore++
+              }
+              displayIndex = (type === 'lang' ? offsets.lang : offsets.meaning) + countBefore + 1
+            }
+            const contIndex = (linesInPrev - 1) + lineIndex
+            const segmentRange = ann.continuation_ranges ? ann.continuation_ranges[contIndex] : null
+            result.push({
+              key: `${stanzaIndex - 1}-${l}-${a}`,
+              type,
+              isLastSpannedLine,
+              displayIndex,
+              text: ann.text,
+              segmentRange
+            })
+          }
+        }
+      }
+    }
+  }
+
   return result
 }
 
