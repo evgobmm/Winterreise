@@ -73,8 +73,7 @@
         },
         {
           "segments": [
-            { "ru": "Подует", "de": "Weht" },
-            { "ru": "оттуда", "de": "daher" },
+            { "ru": "Повеет", "de": "Weht daher" },
             { "ru": "тёплый", "de": "ein lauer" },
             { "ru": "ветер,", "de": "Wind" }
           ],
@@ -84,7 +83,7 @@
           "segments": [
             { "ru": "И", "de": "Und" },
             { "ru": "лёд", "de": "das Eis" },
-            { "ru": "раскалывается", "de": "zerspringt" },
+            { "ru": "расколется", "de": "zerspringt" },
             { "ru": "на", "de": "in" },
             { "ru": "льдины,", "de": "Schollen" }
           ],
