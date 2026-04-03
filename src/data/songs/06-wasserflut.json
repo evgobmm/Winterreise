@@ -74,7 +74,7 @@
         {
           "segments": [
             { "ru": "Повеет", "de": "Weht daher" },
-            { "ru": "тёплый", "de": "ein lauer" },
+            { "ru": "тепловатый", "de": "ein lauer" },
             { "ru": "ветер,", "de": "Wind" }
           ],
           "annotations": []
@@ -94,7 +94,7 @@
             { "ru": "И", "de": "Und" },
             { "ru": "мягкий", "de": "der weiche" },
             { "ru": "снег", "de": "Schnee" },
-            { "ru": "растает.", "de": "zerrinnt" }
+            { "ru": "истает.", "de": "zerrinnt" }
           ],
           "annotations": []
         }
