@@ -19,7 +19,7 @@ const currentSongFile = computed(() => {
 <template>
   <div class="app">
     <aside class="sidebar">
-      <h1 class="app-title">Winterreise<br><small>Зимний путь</small></h1>
+      <h1 class="app-title">Winterreise<br><small>Зимнее путешествие</small></h1>
       <SongList
         :songs="songsIndex"
         :current="currentSongNumber"
