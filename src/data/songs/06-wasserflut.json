@@ -1,0 +1,200 @@
+{
+  "number": 6,
+  "title_de": "Wasserflut",
+  "title_ru": "Водный поток",
+  "stanzas": [
+    {
+      "lines_de": [
+        "Manche Trän' aus meinen Augen",
+        "Ist gefallen in den Schnee;",
+        "Seine kalten Flocken saugen",
+        "Durstig ein das heiße Weh."
+      ],
+      "lines_ru": [
+        {
+          "segments": [
+            { "ru": "Не одна", "de": "Manche" },
+            { "ru": "слеза", "de": "Trän'" },
+            { "ru": "из", "de": "aus" },
+            { "ru": "моих", "de": "meinen" },
+            { "ru": "глаз", "de": "Augen" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Упала", "de": "Ist gefallen" },
+            { "ru": "в", "de": "in" },
+            { "ru": "снег;", "de": "den Schnee" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Его", "de": "Seine" },
+            { "ru": "холодные", "de": "kalten" },
+            { "ru": "хлопья", "de": "Flocken" },
+            { "ru": "впитывают", "de": "saugen... ein" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "С жаждой", "de": "Durstig" },
+            { "ru": "горячее", "de": "das heiße" },
+            { "ru": "горе.", "de": "Weh" }
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "lines_de": [
+        "Wenn die Gräser sprossen wollen,",
+        "Weht daher ein lauer Wind,",
+        "Und das Eis zerspringt in Schollen,",
+        "Und der weiche Schnee zerrinnt."
+      ],
+      "lines_ru": [
+        {
+          "segments": [
+            { "ru": "Когда", "de": "Wenn" },
+            { "ru": "травы", "de": "die Gräser" },
+            { "ru": "прорасти", "de": "sprossen" },
+            { "ru": "захотят,", "de": "wollen" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Подует", "de": "Weht" },
+            { "ru": "оттуда", "de": "daher" },
+            { "ru": "тёплый", "de": "ein lauer" },
+            { "ru": "ветер,", "de": "Wind" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "И", "de": "Und" },
+            { "ru": "лёд", "de": "das Eis" },
+            { "ru": "раскалывается", "de": "zerspringt" },
+            { "ru": "на", "de": "in" },
+            { "ru": "льдины,", "de": "Schollen" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "И", "de": "Und" },
+            { "ru": "мягкий", "de": "der weiche" },
+            { "ru": "снег", "de": "Schnee" },
+            { "ru": "растает.", "de": "zerrinnt" }
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "lines_de": [
+        "Schnee, du weißt von meinem Sehnen:",
+        "Sag, wohin doch geht dein Lauf?",
+        "Folge nach nur meinen Tränen,",
+        "Nimmt dich bald das Bächlein auf."
+      ],
+      "lines_ru": [
+        {
+          "segments": [
+            { "ru": "Снег,", "de": "Schnee" },
+            { "ru": "ты", "de": "du" },
+            { "ru": "знаешь", "de": "weißt" },
+            { "ru": "о", "de": "von" },
+            { "ru": "моей", "de": "meinem" },
+            { "ru": "тоске:", "de": "Sehnen" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Скажи,", "de": "Sag" },
+            { "ru": "куда", "de": "wohin" },
+            { "ru": "же", "de": "doch" },
+            { "ru": "бежит", "de": "geht" },
+            { "ru": "твой", "de": "dein" },
+            { "ru": "бег?", "de": "Lauf" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Следуй", "de": "Folge... nach" },
+            { "ru": "лишь", "de": "nur" },
+            { "ru": "за моими", "de": "meinen" },
+            { "ru": "слезами,", "de": "Tränen" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Примет", "de": "Nimmt... auf" },
+            { "ru": "тебя", "de": "dich" },
+            { "ru": "скоро", "de": "bald" },
+            { "ru": "ручеёк.", "de": "das Bächlein" }
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "lines_de": [
+        "Wirst mit ihm die Stadt durchziehen,",
+        "Muntre Straßen ein und aus:",
+        "Fühlst du meine Tränen glühen,",
+        "Da ist meiner Liebsten Haus."
+      ],
+      "lines_ru": [
+        {
+          "segments": [
+            { "ru": "Пройдёшь", "de": "Wirst... durchziehen" },
+            { "ru": "с", "de": "mit" },
+            { "ru": "ним", "de": "ihm" },
+            { "ru": "город,", "de": "die Stadt" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "По", "de": "" },
+            { "ru": "весёлым", "de": "Muntre" },
+            { "ru": "улицам", "de": "Straßen" },
+            { "ru": "взад", "de": "ein" },
+            { "ru": "и", "de": "und" },
+            { "ru": "вперёд:", "de": "aus" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Почувствуешь", "de": "Fühlst" },
+            { "ru": "ты,", "de": "du" },
+            { "ru": "как", "de": "" },
+            { "ru": "мои", "de": "meine" },
+            { "ru": "слёзы", "de": "Tränen" },
+            { "ru": "пылают,", "de": "glühen" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Тут", "de": "Da" },
+            { "ru": "—", "de": "ist" },
+            { "ru": "моей", "de": "meiner" },
+            { "ru": "любимой", "de": "Liebsten" },
+            { "ru": "дом.", "de": "Haus" }
+          ],
+          "annotations": []
+        }
+      ]
+    }
+  ]
+}
