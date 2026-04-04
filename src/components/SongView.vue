@@ -21,9 +21,10 @@ const song = computed(() => {
 
 function collectAnnotations(type) {
   if (!song.value) return []
-  const result = []
-  let noteIndex = 1
-  for (const stanza of song.value.stanzas) {
+  const items = []
+  const stanzas = song.value.stanzas
+  for (let s = 0; s < stanzas.length; s++) {
+    const stanza = stanzas[s]
     for (let l = 0; l < stanza.lines_ru.length; l++) {
       const line = stanza.lines_ru[l]
       for (const ann of (line.annotations || [])) {
@@ -38,18 +39,28 @@ function collectAnnotations(type) {
               }
             }
           }
-          result.push({
-            index: noteIndex++,
+          const span = ann.line_span || 1
+          const linesInStanza = stanza.lines_ru.length
+          let footStanza = s
+          let footLine = l + span - 1
+          if (footLine >= linesInStanza) {
+            footStanza = s + 1
+            footLine = footLine - linesInStanza
+          }
+          items.push({
             text: ann.text,
             type: ann.type || 'meaning',
             target: ann.target || null,
-            segments
+            segments,
+            footStanza,
+            footLine
           })
         }
       }
     }
   }
-  return result
+  items.sort((a, b) => a.footStanza !== b.footStanza ? a.footStanza - b.footStanza : a.footLine - b.footLine)
+  return items.map((item, i) => ({ ...item, index: i + 1 }))
 }
 
 const langAnnotations = computed(() => collectAnnotations('lang'))
