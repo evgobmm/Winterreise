@@ -4,8 +4,7 @@ import FootnoteMark from './FootnoteMark.vue'
 
 const props = defineProps({
   line: Object,
-  langOffset: Number,
-  meaningOffset: Number,
+  annNumberMap: { type: Map, default: () => new Map() },
   inheritedAnnotations: { type: Array, default: () => [] },
   hoveredAnnKey: { type: String, default: null },
   annKeyPrefix: String
@@ -39,12 +38,7 @@ const segmentInfo = computed(() => {
 
           const isLastOfThis = i === ann.segment_range[1] && !(ann.line_span && ann.line_span > 1)
           if (isLastOfThis) {
-            let displayIndex
-            if (type === 'lang') {
-              displayIndex = props.langOffset + countBefore('lang', a) + 1
-            } else {
-              displayIndex = props.meaningOffset + countBefore('meaning', a) + 1
-            }
+            const displayIndex = props.annNumberMap.get(key) || 0
             const fn = { key, type, displayIndex, text: ann.text }
             if (isVariant) {
               variantFootnote = fn
@@ -77,13 +71,6 @@ const segmentInfo = computed(() => {
   })
 })
 
-function countBefore(type, localIndex) {
-  let count = 0
-  for (let a = 0; a < localIndex; a++) {
-    if ((props.line.annotations[a].type || 'meaning') === type) count++
-  }
-  return count
-}
 </script>
 
 <template>

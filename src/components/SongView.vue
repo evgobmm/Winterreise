@@ -19,6 +19,36 @@ const song = computed(() => {
   return mod ? mod.default : null
 })
 
+// Build a global map: "stanzaIdx-lineIdx-annIdx" -> display number, sorted by footnote position
+const annNumberMap = computed(() => {
+  if (!song.value) return new Map()
+  const byType = { lang: [], meaning: [] }
+  const stanzas = song.value.stanzas
+  for (let s = 0; s < stanzas.length; s++) {
+    const stanza = stanzas[s]
+    for (let l = 0; l < stanza.lines_ru.length; l++) {
+      for (let a = 0; a < (stanza.lines_ru[l].annotations || []).length; a++) {
+        const ann = stanza.lines_ru[l].annotations[a]
+        const type = ann.type || 'meaning'
+        const span = ann.line_span || 1
+        const linesInStanza = stanza.lines_ru.length
+        let footS = s, footL = l + span - 1
+        if (footL >= linesInStanza) {
+          footS = s + 1
+          footL = footL - linesInStanza
+        }
+        byType[type].push({ key: `${s}-${l}-${a}`, footS, footL })
+      }
+    }
+  }
+  const result = new Map()
+  for (const type of ['lang', 'meaning']) {
+    byType[type].sort((a, b) => a.footS !== b.footS ? a.footS - b.footS : a.footL - b.footL)
+    byType[type].forEach((item, i) => { result.set(item.key, i + 1) })
+  }
+  return result
+})
+
 function collectAnnotations(type) {
   if (!song.value) return []
   const items = []
@@ -27,7 +57,8 @@ function collectAnnotations(type) {
     const stanza = stanzas[s]
     for (let l = 0; l < stanza.lines_ru.length; l++) {
       const line = stanza.lines_ru[l]
-      for (const ann of (line.annotations || [])) {
+      for (let a = 0; a < (line.annotations || []).length; a++) {
+        const ann = line.annotations[a]
         if ((ann.type || 'meaning') === type) {
           const segments = line.segments.slice(ann.segment_range[0], ann.segment_range[1] + 1)
           if (ann.continuation_ranges) {
@@ -39,28 +70,20 @@ function collectAnnotations(type) {
               }
             }
           }
-          const span = ann.line_span || 1
-          const linesInStanza = stanza.lines_ru.length
-          let footStanza = s
-          let footLine = l + span - 1
-          if (footLine >= linesInStanza) {
-            footStanza = s + 1
-            footLine = footLine - linesInStanza
-          }
+          const displayNum = annNumberMap.value.get(`${s}-${l}-${a}`) || 0
           items.push({
             text: ann.text,
             type: ann.type || 'meaning',
             target: ann.target || null,
             segments,
-            footStanza,
-            footLine
+            displayNum
           })
         }
       }
     }
   }
-  items.sort((a, b) => a.footStanza !== b.footStanza ? a.footStanza - b.footStanza : a.footLine - b.footLine)
-  return items.map((item, i) => ({ ...item, index: i + 1 }))
+  items.sort((a, b) => a.displayNum - b.displayNum)
+  return items.map(item => ({ ...item, index: item.displayNum }))
 }
 
 const langAnnotations = computed(() => collectAnnotations('lang'))
@@ -84,12 +107,7 @@ function getInheritedAnnotations(stanzaIndex, lineIndex) {
         const type = ann.type || 'meaning'
         let displayIndex = null
         if (isLastSpannedLine) {
-          const offsets = getOffsets(stanzaIndex, l)
-          let countBefore = 0
-          for (let b = 0; b < a; b++) {
-            if ((lineAnns[b].type || 'meaning') === type) countBefore++
-          }
-          displayIndex = (type === 'lang' ? offsets.lang : offsets.meaning) + countBefore + 1
+          displayIndex = annNumberMap.value.get(`${stanzaIndex}-${l}-${a}`) || 0
         }
         const contIndex = lineIndex - l - 1
         const segmentRange = ann.continuation_ranges ? ann.continuation_ranges[contIndex] : null
@@ -122,12 +140,7 @@ function getInheritedAnnotations(stanzaIndex, lineIndex) {
             const type = ann.type || 'meaning'
             let displayIndex = null
             if (isLastSpannedLine) {
-              const offsets = getOffsets(stanzaIndex - 1, l)
-              let countBefore = 0
-              for (let b = 0; b < a; b++) {
-                if ((lineAnns[b].type || 'meaning') === type) countBefore++
-              }
-              displayIndex = (type === 'lang' ? offsets.lang : offsets.meaning) + countBefore + 1
+              displayIndex = annNumberMap.value.get(`${stanzaIndex - 1}-${l}-${a}`) || 0
             }
             const contIndex = (linesInPrev - 1) + lineIndex
             const segmentRange = ann.continuation_ranges ? ann.continuation_ranges[contIndex] : null
@@ -163,23 +176,6 @@ function getLineDeParts(stanza, lineIndex) {
     variant: variantSeg.variant_de,
     after: lineDe.substring(idx + mainWord.length)
   }
-}
-
-function getOffsets(stanzaIndex, lineIndex) {
-  if (!song.value) return { lang: 0, meaning: 0 }
-  let lang = 0
-  let meaning = 0
-  for (let s = 0; s < song.value.stanzas.length; s++) {
-    const stanza = song.value.stanzas[s]
-    for (let l = 0; l < stanza.lines_ru.length; l++) {
-      if (s === stanzaIndex && l === lineIndex) return { lang, meaning }
-      for (const ann of (stanza.lines_ru[l].annotations || [])) {
-        if ((ann.type || 'meaning') === 'lang') lang++
-        else meaning++
-      }
-    }
-  }
-  return { lang, meaning }
 }
 </script>
 
@@ -218,11 +214,10 @@ function getOffsets(stanzaIndex, lineIndex) {
           <div class="col-ru">
             <InterlinearLine
               :line="lineRu"
-              :lang-offset="getOffsets(si, li).lang"
-              :meaning-offset="getOffsets(si, li).meaning"
+              :ann-number-map="annNumberMap"
+              :ann-key-prefix="`${si}-${li}`"
               :inherited-annotations="getInheritedAnnotations(si, li)"
               :hovered-ann-key="hoveredAnnKey"
-              :ann-key-prefix="`${si}-${li}`"
               @hover-ann="hoveredAnnKey = $event"
             />
           </div>
