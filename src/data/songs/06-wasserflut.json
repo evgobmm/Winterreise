@@ -173,29 +173,27 @@
       "lines_ru": [
         {
           "segments": [
-            { "ru": "Пройдёшь", "de": "Wirst... durchziehen" },
-            { "ru": "с", "de": "mit" },
+            { "ru": "С", "de": "mit" },
             { "ru": "ним", "de": "ihm" },
-            { "ru": "город,", "de": "die Stadt" }
+            { "ru": "город", "de": "die Stadt" },
+            { "ru": "пройдёшь —", "de": "Wirst... durchziehen" }
           ],
           "annotations": []
         },
         {
           "segments": [
-            { "ru": "По", "de": "" },
-            { "ru": "весёлым", "de": "Muntre" },
-            { "ru": "улицам", "de": "Straßen" },
+            { "ru": "Весёлые", "de": "Muntre" },
+            { "ru": "улицы", "de": "Straßen" },
             { "ru": "взад", "de": "ein" },
             { "ru": "и", "de": "und" },
-            { "ru": "вперёд:", "de": "aus" }
+            { "ru": "вперёд —", "de": "aus" }
           ],
           "annotations": []
         },
         {
           "segments": [
             { "ru": "Почувствуешь", "de": "Fühlst" },
-            { "ru": "ты,", "de": "du" },
-            { "ru": "как", "de": "" },
+            { "ru": "ты:", "de": "du" },
             { "ru": "мои", "de": "meine" },
             { "ru": "слёзы", "de": "Tränen" },
             { "ru": "пылают,", "de": "glühen" }
