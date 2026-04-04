@@ -147,10 +147,11 @@
         },
         {
           "segments": [
-            { "ru": "Примет", "de": "Nimmt... auf" },
+            { "ru": "Возьмёт", "de": "Nimmt" },
             { "ru": "тебя", "de": "dich" },
             { "ru": "скоро", "de": "bald" },
-            { "ru": "ручеёк.", "de": "das Bächlein" }
+            { "ru": "ручеёк", "de": "das Bächlein" },
+            { "ru": "в себя.", "de": "auf" }
           ],
           "annotations": []
         }
