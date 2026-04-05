@@ -133,7 +133,7 @@ const segmentInfo = computed(() => {
 .interlinear-line {
   display: flex;
   flex-wrap: wrap;
-  gap: 4px 16px;
+  gap: 4px 10px;
   margin-bottom: 8px;
   align-items: flex-start;
 }
