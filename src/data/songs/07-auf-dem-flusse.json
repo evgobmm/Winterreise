@@ -1,0 +1,233 @@
+{
+  "number": 7,
+  "title_de": "Auf dem Flusse",
+  "title_ru": "На реке",
+  "stanzas": [
+    {
+      "lines_de": [
+        "Der du so lustig rauschtest,",
+        "Du heller, wilder Fluss,",
+        "Wie still bist du geworden,",
+        "Gibst keinen Scheidegruß."
+      ],
+      "lines_ru": [
+        {
+          "segments": [
+            { "ru": "Ты, что", "de": "Der du" },
+            { "ru": "так", "de": "so" },
+            { "ru": "весело", "de": "lustig" },
+            { "ru": "шумела,", "de": "rauschtest" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Ты,", "de": "Du" },
+            { "ru": "светлая,", "de": "heller" },
+            { "ru": "бурная", "de": "wilder" },
+            { "ru": "река,", "de": "Fluss" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Как", "de": "Wie" },
+            { "ru": "тиха", "de": "still" },
+            { "ru": "ты", "de": "du" },
+            { "ru": "стала,", "de": "bist... geworden" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Не", "de": "keinen" },
+            { "ru": "даришь", "de": "Gibst" },
+            { "ru": "прощального привета.", "de": "Scheidegruß" }
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "lines_de": [
+        "Mit harter, starrer Rinde",
+        "Hast du dich überdeckt,",
+        "Liegst kalt und unbeweglich",
+        "Im Sande ausgestreckt."
+      ],
+      "lines_ru": [
+        {
+          "segments": [
+            { "ru": "Жёсткой,", "de": "Mit harter" },
+            { "ru": "застывшей", "de": "starrer" },
+            { "ru": "коркой", "de": "Rinde" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Ты", "de": "du" },
+            { "ru": "себя", "de": "dich" },
+            { "ru": "покрыла,", "de": "Hast... überdeckt" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Лежишь", "de": "Liegst" },
+            { "ru": "холодная", "de": "kalt" },
+            { "ru": "и", "de": "und" },
+            { "ru": "неподвижная", "de": "unbeweglich" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "В", "de": "Im" },
+            { "ru": "песке", "de": "Sande" },
+            { "ru": "распростёртая.", "de": "ausgestreckt" }
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "lines_de": [
+        "In deine Decke grab' ich",
+        "Mit einem spitzen Stein",
+        "Den Namen meiner Liebsten",
+        "Und Stund' und Tag hinein:"
+      ],
+      "lines_ru": [
+        {
+          "segments": [
+            { "ru": "В", "de": "In" },
+            { "ru": "твой", "de": "deine" },
+            { "ru": "покров", "de": "Decke" },
+            { "ru": "врезаю", "de": "grab'... hinein" },
+            { "ru": "я", "de": "ich" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Острым", "de": "Mit einem spitzen" },
+            { "ru": "камнем", "de": "Stein" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Имя", "de": "Den Namen" },
+            { "ru": "своей", "de": "meiner" },
+            { "ru": "любимой", "de": "Liebsten" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "И", "de": "Und" },
+            { "ru": "час", "de": "Stund'" },
+            { "ru": "и", "de": "und" },
+            { "ru": "день:", "de": "Tag" }
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "lines_de": [
+        "Den Tag des ersten Grußes,",
+        "Den Tag, an dem ich ging;",
+        "Um Nam' und Zahlen windet",
+        "Sich ein zerbrochner Ring."
+      ],
+      "lines_ru": [
+        {
+          "segments": [
+            { "ru": "День", "de": "Den Tag" },
+            { "ru": "первого", "de": "des ersten" },
+            { "ru": "привета,", "de": "Grußes" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "День,", "de": "Den Tag" },
+            { "ru": "в который", "de": "an dem" },
+            { "ru": "я", "de": "ich" },
+            { "ru": "ушёл;", "de": "ging" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Вокруг", "de": "Um" },
+            { "ru": "имени", "de": "Nam'" },
+            { "ru": "и", "de": "und" },
+            { "ru": "чисел", "de": "Zahlen" },
+            { "ru": "вьётся", "de": "windet sich" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Разбитое", "de": "ein zerbrochner" },
+            { "ru": "кольцо.", "de": "Ring" }
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "lines_de": [
+        "Mein Herz, in diesem Bache",
+        "Erkennst du nun dein Bild?",
+        "Ob's unter seiner Rinde",
+        "Wohl auch so reißend schwillt?"
+      ],
+      "lines_ru": [
+        {
+          "segments": [
+            { "ru": "Моё", "de": "Mein" },
+            { "ru": "сердце,", "de": "Herz" },
+            { "ru": "в", "de": "in" },
+            { "ru": "этом", "de": "diesem" },
+            { "ru": "ручье", "de": "Bache" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Узнаёшь", "de": "Erkennst" },
+            { "ru": "ли", "de": "" },
+            { "ru": "ты", "de": "du" },
+            { "ru": "теперь", "de": "nun" },
+            { "ru": "своё", "de": "dein" },
+            { "ru": "отражение?", "de": "Bild" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Не", "de": "Ob's" },
+            { "ru": "под", "de": "unter" },
+            { "ru": "его", "de": "seiner" },
+            { "ru": "ли", "de": "wohl" },
+            { "ru": "коркой", "de": "Rinde" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Тоже", "de": "auch" },
+            { "ru": "так", "de": "so" },
+            { "ru": "бурно", "de": "reißend" },
+            { "ru": "вздувается?", "de": "schwillt" }
+          ],
+          "annotations": []
+        }
+      ]
+    }
+  ]
+}
