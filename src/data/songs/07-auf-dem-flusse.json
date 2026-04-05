@@ -1,7 +1,7 @@
 {
   "number": 7,
   "title_de": "Auf dem Flusse",
-  "title_ru": "На реке",
+  "title_ru": "На речке",
   "stanzas": [
     {
       "lines_de": [
@@ -25,7 +25,7 @@
             { "ru": "Ты,", "de": "Du" },
             { "ru": "светлая,", "de": "heller" },
             { "ru": "бурная", "de": "wilder" },
-            { "ru": "река,", "de": "Fluss" }
+            { "ru": "речка,", "de": "Fluss" }
           ],
           "annotations": []
         },

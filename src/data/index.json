@@ -5,7 +5,7 @@
   { "number": 4, "title_de": "Erstarrung", "title_ru": "Оцепенение", "file": "04-erstarrung.json", "ready": true },
   { "number": 5, "title_de": "Der Lindenbaum", "title_ru": "Липовое дерево", "file": "05-der-lindenbaum.json", "ready": true },
   { "number": 6, "title_de": "Wasserflut", "title_ru": "Потоп", "file": "06-wasserflut.json", "ready": true },
-  { "number": 7, "title_de": "Auf dem Flusse", "title_ru": "На реке", "file": "07-auf-dem-flusse.json", "ready": true },
+  { "number": 7, "title_de": "Auf dem Flusse", "title_ru": "На речке", "file": "07-auf-dem-flusse.json", "ready": true },
   { "number": 8, "title_de": "Rückblick", "title_ru": "Взгляд назад", "file": "08-rueckblick.json", "ready": false },
   { "number": 9, "title_de": "Irrlicht", "title_ru": "Блуждающий огонь", "file": "09-irrlicht.json", "ready": false },
   { "number": 10, "title_de": "Rast", "title_ru": "Отдых", "file": "10-rast.json", "ready": false },
