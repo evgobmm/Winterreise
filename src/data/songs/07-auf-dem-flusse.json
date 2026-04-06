@@ -264,9 +264,9 @@
         {
           "segments": [
             { "ru": "Тоже", "de": "auch" },
-            { "ru": "так", "de": "so" },
-            { "ru": "неудержимо", "de": "reißend" },
-            { "ru": "вздувается?", "de": "schwillt" }
+            { "ru": "так,", "de": "so" },
+            { "ru": "прорываясь,", "de": "reißend" },
+            { "ru": "вздымается?", "de": "schwillt" }
           ],
           "annotations": []
         }
