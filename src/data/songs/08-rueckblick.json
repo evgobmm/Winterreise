@@ -1,0 +1,252 @@
+{
+  "number": 8,
+  "title_de": "Rückblick",
+  "title_ru": "Взгляд назад",
+  "stanzas": [
+    {
+      "lines_de": [
+        "Es brennt mir unter beiden Sohlen,",
+        "Tret' ich auch schon auf Eis und Schnee.",
+        "Ich möcht' nicht wieder Atem holen,",
+        "Bis ich nicht mehr die Türme seh'."
+      ],
+      "lines_ru": [
+        {
+          "segments": [
+            { "ru": "Жжёт", "de": "Es brennt" },
+            { "ru": "мне", "de": "mir" },
+            { "ru": "под", "de": "unter" },
+            { "ru": "обеими", "de": "beiden" },
+            { "ru": "подошвами,", "de": "Sohlen" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Хоть", "de": "auch" },
+            { "ru": "я", "de": "ich" },
+            { "ru": "ступаю", "de": "Tret'" },
+            { "ru": "уже", "de": "schon" },
+            { "ru": "по", "de": "auf" },
+            { "ru": "льду", "de": "Eis" },
+            { "ru": "и", "de": "und" },
+            { "ru": "снегу.", "de": "Schnee" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Я", "de": "Ich" },
+            { "ru": "не хотел бы", "de": "möcht' nicht" },
+            { "ru": "снова", "de": "wieder" },
+            { "ru": "перевести дух,", "de": "Atem holen" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Пока", "de": "Bis" },
+            { "ru": "я", "de": "ich" },
+            { "ru": "не перестану видеть", "de": "nicht mehr... seh'" },
+            { "ru": "башен.", "de": "die Türme" }
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "lines_de": [
+        "Hab' mich an jeden Stein gestoßen,",
+        "So eilt' ich zu der Stadt hinaus;",
+        "Die Krähen warfen Bäll' und Schloßen",
+        "Auf meinen Hut von jedem Haus."
+      ],
+      "lines_ru": [
+        {
+          "segments": [
+            { "ru": "Натыкался", "de": "Hab' mich... gestoßen" },
+            { "ru": "на", "de": "an" },
+            { "ru": "каждый", "de": "jeden" },
+            { "ru": "камень,", "de": "Stein" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Так", "de": "So" },
+            { "ru": "спешил", "de": "eilt'" },
+            { "ru": "я", "de": "ich" },
+            { "ru": "из", "de": "zu... hinaus" },
+            { "ru": "города;", "de": "der Stadt" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Вороны", "de": "Die Krähen" },
+            { "ru": "бросали", "de": "warfen" },
+            { "ru": "снежки", "de": "Bäll'" },
+            { "ru": "и", "de": "und" },
+            { "ru": "градинки", "de": "Schloßen" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "На", "de": "Auf" },
+            { "ru": "мою", "de": "meinen" },
+            { "ru": "шляпу", "de": "Hut" },
+            { "ru": "с", "de": "von" },
+            { "ru": "каждого", "de": "jedem" },
+            { "ru": "дома.", "de": "Haus" }
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "lines_de": [
+        "Wie anders hast du mich empfangen,",
+        "Du Stadt der Unbeständigkeit!",
+        "An deinen blanken Fenstern sangen",
+        "Die Lerch' und Nachtigall im Streit."
+      ],
+      "lines_ru": [
+        {
+          "segments": [
+            { "ru": "Как", "de": "Wie" },
+            { "ru": "иначе", "de": "anders" },
+            { "ru": "ты", "de": "du" },
+            { "ru": "меня", "de": "mich" },
+            { "ru": "принял,", "de": "hast... empfangen" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Ты,", "de": "Du" },
+            { "ru": "город", "de": "Stadt" },
+            { "ru": "непостоянства!", "de": "der Unbeständigkeit" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "У", "de": "An" },
+            { "ru": "твоих", "de": "deinen" },
+            { "ru": "светлых", "de": "blanken" },
+            { "ru": "окон", "de": "Fenstern" },
+            { "ru": "пели", "de": "sangen" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Жаворонок", "de": "Die Lerch'" },
+            { "ru": "и", "de": "und" },
+            { "ru": "соловей", "de": "Nachtigall" },
+            { "ru": "наперебой.", "de": "im Streit" }
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "lines_de": [
+        "Die runden Lindenbäume blühten,",
+        "Die klaren Rinnen rauschten hell,",
+        "Und ach, zwei Mädchenaugen glühten! —",
+        "Da war's geschehn um dich, Gesell!"
+      ],
+      "lines_ru": [
+        {
+          "segments": [
+            { "ru": "Круглые", "de": "Die runden" },
+            { "ru": "липы", "de": "Lindenbäume" },
+            { "ru": "цвели,", "de": "blühten" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Прозрачные", "de": "Die klaren" },
+            { "ru": "ручейки", "de": "Rinnen" },
+            { "ru": "журчали", "de": "rauschten" },
+            { "ru": "звонко,", "de": "hell" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "И", "de": "Und" },
+            { "ru": "ах,", "de": "ach" },
+            { "ru": "два", "de": "zwei" },
+            { "ru": "девичьих глаза", "de": "Mädchenaugen" },
+            { "ru": "пылали! —", "de": "glühten" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Тут", "de": "Da" },
+            { "ru": "и пришёл конец", "de": "war's geschehn um" },
+            { "ru": "тебе,", "de": "dich" },
+            { "ru": "брат!", "de": "Gesell" }
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "lines_de": [
+        "Kömmt mir der Tag in die Gedanken,",
+        "Möcht' ich noch einmal rückwärts sehn,",
+        "Möcht' ich zurücke wieder wanken,",
+        "Vor ihrem Hause stille stehn."
+      ],
+      "lines_ru": [
+        {
+          "segments": [
+            { "ru": "Когда", "de": "" },
+            { "ru": "приходит", "de": "Kömmt" },
+            { "ru": "мне", "de": "mir" },
+            { "ru": "тот день", "de": "der Tag" },
+            { "ru": "на ум,", "de": "in die Gedanken" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Хотел бы", "de": "Möcht'" },
+            { "ru": "я", "de": "ich" },
+            { "ru": "ещё", "de": "noch" },
+            { "ru": "раз", "de": "einmal" },
+            { "ru": "назад", "de": "rückwärts" },
+            { "ru": "взглянуть,", "de": "sehn" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Хотел бы", "de": "Möcht'" },
+            { "ru": "я", "de": "ich" },
+            { "ru": "вспять", "de": "zurücke" },
+            { "ru": "снова", "de": "wieder" },
+            { "ru": "побрести,", "de": "wanken" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Перед", "de": "Vor" },
+            { "ru": "её", "de": "ihrem" },
+            { "ru": "домом", "de": "Hause" },
+            { "ru": "тихо", "de": "stille" },
+            { "ru": "стоять.", "de": "stehn" }
+          ],
+          "annotations": []
+        }
+      ]
+    }
+  ]
+}
