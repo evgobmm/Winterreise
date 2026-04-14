@@ -54,7 +54,20 @@
             { "ru": "дыхание", "de": "Atem" },
             { "ru": "переводить,", "de": "holen" }
           ],
-          "annotations": []
+          "annotations": [
+            {
+              "type": "lang",
+              "segment_range": [0, 4],
+              "line_span": 2,
+              "continuation_ranges": [[0, 4]],
+              "text": "По смыслу: «я не буду отдыхать, пока башни не скроются из виду»."
+            },
+            {
+              "type": "lang",
+              "segment_range": [3, 4],
+              "text": "Atem holen — дословно «дыхание доставать» (holen — доставать, забирать)."
+            }
+          ]
         },
         {
           "segments": [
@@ -64,7 +77,13 @@
             { "ru": "башни", "de": "die Türme" },
             { "ru": "видеть.", "de": "seh'" }
           ],
-          "annotations": []
+          "annotations": [
+            {
+              "type": "lang",
+              "segment_range": [2, 2],
+              "text": "Nicht mehr... seh' — дословно «больше не вижу»; по-русски передать буквально не получается."
+            }
+          ]
         }
       ]
     },
