@@ -209,7 +209,7 @@
         {
           "segments": [
             { "ru": "Круглые", "de": "Die runden" },
-            { "ru": "липы", "de": "Lindenbäume" },
+            { "ru": "липовые деревья", "de": "Lindenbäume" },
             { "ru": "цвели,", "de": "blühten" }
           ],
           "annotations": []
@@ -217,8 +217,8 @@
         {
           "segments": [
             { "ru": "Прозрачные", "de": "Die klaren" },
-            { "ru": "ручейки", "de": "Rinnen" },
-            { "ru": "журчали", "de": "rauschten" },
+            { "ru": "канавки", "de": "Rinnen" },
+            { "ru": "шумели", "de": "rauschten" },
             { "ru": "звонко,", "de": "hell" }
           ],
           "annotations": []
@@ -238,7 +238,7 @@
             { "ru": "Тут", "de": "Da" },
             { "ru": "и пришёл конец", "de": "war's geschehn um" },
             { "ru": "тебе,", "de": "dich" },
-            { "ru": "брат!", "de": "Gesell" }
+            { "ru": "дружище!", "de": "Gesell" }
           ],
           "annotations": []
         }
