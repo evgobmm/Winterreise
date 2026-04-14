@@ -270,7 +270,8 @@
             { "ru": "приходит", "de": "Kömmt" },
             { "ru": "мне", "de": "mir" },
             { "ru": "тот день", "de": "der Tag" },
-            { "ru": "на ум,", "de": "in die Gedanken" }
+            { "ru": "в", "de": "in" },
+            { "ru": "мысли,", "de": "die Gedanken" }
           ],
           "annotations": []
         },
@@ -289,7 +290,7 @@
           "segments": [
             { "ru": "Хотел бы", "de": "Möcht'" },
             { "ru": "я", "de": "ich" },
-            { "ru": "вспять", "de": "zurücke" },
+            { "ru": "обратно", "de": "zurücke" },
             { "ru": "снова", "de": "wieder" },
             { "ru": "побрести,", "de": "wanken" }
           ],
