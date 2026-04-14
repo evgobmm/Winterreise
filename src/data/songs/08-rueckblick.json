@@ -294,7 +294,13 @@
             { "ru": "снова", "de": "wieder" },
             { "ru": "побрести,", "de": "wanken" }
           ],
-          "annotations": []
+          "annotations": [
+            {
+              "type": "lang",
+              "segment_range": [4, 4],
+              "text": "Wanken — идти шатаясь, неуверенно держась на ногах. Точного глагола с таким смыслом в русском нет."
+            }
+          ]
         },
         {
           "segments": [
