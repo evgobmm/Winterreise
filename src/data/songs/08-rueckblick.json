@@ -180,7 +180,7 @@
           "segments": [
             { "ru": "У", "de": "An" },
             { "ru": "твоих", "de": "deinen" },
-            { "ru": "светлых", "de": "blanken" },
+            { "ru": "блестящих", "de": "blanken" },
             { "ru": "окон", "de": "Fenstern" },
             { "ru": "пели", "de": "sangen" }
           ],
@@ -191,7 +191,8 @@
             { "ru": "Жаворонок", "de": "Die Lerch'" },
             { "ru": "и", "de": "und" },
             { "ru": "соловей", "de": "Nachtigall" },
-            { "ru": "наперебой.", "de": "im Streit" }
+            { "ru": "в", "de": "im" },
+            { "ru": "споре.", "de": "Streit" }
           ],
           "annotations": []
         }
