@@ -37,13 +37,24 @@ const annNumberMap = computed(() => {
           footS = s + 1
           footL = footL - linesInStanza
         }
-        byType[type].push({ key: `${s}-${l}-${a}`, footS, footL })
+        let footSeg = ann.segment_range[1]
+        if (span > 1) {
+          if (ann.continuation_ranges && ann.continuation_ranges.length > 0) {
+            footSeg = ann.continuation_ranges[ann.continuation_ranges.length - 1][1]
+          } else {
+            const footStanza = stanzas[footS]
+            if (footStanza && footStanza.lines_ru[footL]) {
+              footSeg = footStanza.lines_ru[footL].segments.length - 1
+            }
+          }
+        }
+        byType[type].push({ key: `${s}-${l}-${a}`, footS, footL, footSeg })
       }
     }
   }
   const result = new Map()
   for (const type of ['lang', 'meaning']) {
-    byType[type].sort((a, b) => a.footS !== b.footS ? a.footS - b.footS : a.footL - b.footL)
+    byType[type].sort((a, b) => a.footS !== b.footS ? a.footS - b.footS : a.footL !== b.footL ? a.footL - b.footL : a.footSeg - b.footSeg)
     byType[type].forEach((item, i) => { result.set(item.key, i + 1) })
   }
   return result
