@@ -109,8 +109,9 @@
             { "ru": "Так", "de": "So" },
             { "ru": "спешил", "de": "eilt'" },
             { "ru": "я", "de": "ich" },
-            { "ru": "из", "de": "zu... hinaus" },
-            { "ru": "города;", "de": "der Stadt" }
+            { "ru": "из", "de": "zu" },
+            { "ru": "города", "de": "der Stadt" },
+            { "ru": "прочь;", "de": "hinaus" }
           ],
           "annotations": []
         },
