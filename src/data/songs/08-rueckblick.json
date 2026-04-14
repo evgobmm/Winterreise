@@ -97,10 +97,10 @@
       "lines_ru": [
         {
           "segments": [
-            { "ru": "На", "de": "an" },
+            { "ru": "О", "de": "an" },
             { "ru": "каждый", "de": "jeden" },
             { "ru": "камень", "de": "Stein" },
-            { "ru": "натыкался,", "de": "Hab' mich... gestoßen" }
+            { "ru": "ударялся,", "de": "Hab' mich... gestoßen" }
           ],
           "annotations": []
         },
