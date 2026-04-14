@@ -78,9 +78,10 @@ function collectAnnotations(type) {
           const segments = line.segments.slice(ann.segment_range[0], ann.segment_range[1] + 1)
           if (ann.continuation_ranges) {
             for (let c = 0; c < ann.continuation_ranges.length; c++) {
+              const cr = ann.continuation_ranges[c]
+              if (cr === null) continue
               const nextLine = stanza.lines_ru[l + c + 1]
               if (nextLine) {
-                const cr = ann.continuation_ranges[c]
                 segments.push(...nextLine.segments.slice(cr[0], cr[1] + 1))
               }
             }
