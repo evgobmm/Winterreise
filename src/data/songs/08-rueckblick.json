@@ -212,7 +212,13 @@
             { "ru": "липовые деревья", "de": "Lindenbäume" },
             { "ru": "цвели,", "de": "blühten" }
           ],
-          "annotations": []
+          "annotations": [
+            {
+              "type": "lang",
+              "segment_range": [0, 0],
+              "text": "Липы отличаются характерной округлой, куполообразной кроной."
+            }
+          ]
         },
         {
           "segments": [
