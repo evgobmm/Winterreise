@@ -25,7 +25,7 @@
           "segments": [
             { "ru": "Хоть", "de": "auch" },
             { "ru": "я", "de": "ich" },
-            { "ru": "ступаю", "de": "Tret'" },
+            { "ru": "шагаю", "de": "Tret'" },
             { "ru": "уже", "de": "schon" },
             { "ru": "по", "de": "auf" },
             { "ru": "льду", "de": "Eis" },
@@ -39,7 +39,8 @@
             { "ru": "Я", "de": "Ich" },
             { "ru": "не хотел бы", "de": "möcht' nicht" },
             { "ru": "снова", "de": "wieder" },
-            { "ru": "перевести дух,", "de": "Atem holen" }
+            { "ru": "дыхание", "de": "Atem" },
+            { "ru": "переводить,", "de": "holen" }
           ],
           "annotations": []
         },
@@ -47,8 +48,9 @@
           "segments": [
             { "ru": "Пока", "de": "Bis" },
             { "ru": "я", "de": "ich" },
-            { "ru": "не перестану видеть", "de": "nicht mehr... seh'" },
-            { "ru": "башен.", "de": "die Türme" }
+            { "ru": "не перестану", "de": "nicht mehr" },
+            { "ru": "башни", "de": "die Türme" },
+            { "ru": "видеть.", "de": "seh'" }
           ],
           "annotations": []
         }
