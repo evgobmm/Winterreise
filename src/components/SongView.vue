@@ -40,7 +40,11 @@ const annNumberMap = computed(() => {
         let footSeg = ann.segment_range[1]
         if (span > 1) {
           if (ann.continuation_ranges && ann.continuation_ranges.length > 0) {
-            footSeg = ann.continuation_ranges[ann.continuation_ranges.length - 1][1]
+            let lastRange = null
+            for (let ci = ann.continuation_ranges.length - 1; ci >= 0; ci--) {
+              if (ann.continuation_ranges[ci] !== null) { lastRange = ann.continuation_ranges[ci]; break }
+            }
+            footSeg = lastRange ? lastRange[1] : ann.segment_range[1]
           } else {
             const footStanza = stanzas[footS]
             if (footStanza && footStanza.lines_ru[footL]) {
@@ -122,6 +126,7 @@ function getInheritedAnnotations(stanzaIndex, lineIndex) {
         }
         const contIndex = lineIndex - l - 1
         const segmentRange = ann.continuation_ranges ? ann.continuation_ranges[contIndex] : null
+        if (ann.continuation_ranges && segmentRange === null) continue
         result.push({
           key: `${stanzaIndex}-${l}-${a}`,
           type,
@@ -155,6 +160,7 @@ function getInheritedAnnotations(stanzaIndex, lineIndex) {
             }
             const contIndex = (linesInPrev - 1) + lineIndex
             const segmentRange = ann.continuation_ranges ? ann.continuation_ranges[contIndex] : null
+            if (ann.continuation_ranges && segmentRange === null) continue
             result.push({
               key: `${stanzaIndex - 1}-${l}-${a}`,
               type,
