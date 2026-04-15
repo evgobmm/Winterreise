@@ -15,7 +15,7 @@
           "segments": [
             { "ru": "В", "de": "In" },
             { "ru": "глубочайшие", "de": "die tiefsten" },
-            { "ru": "скальные глуби", "de": "Felsengründe" }
+            { "ru": "скальные глуби:", "de": "Felsengründe" }
           ],
           "annotations": []
         },
@@ -39,11 +39,10 @@
         },
         {
           "segments": [
-            { "ru": "Лежит", "de": "Liegt" },
-            { "ru": "не", "de": "nicht" },
-            { "ru": "тяжело", "de": "schwer" },
-            { "ru": "мне", "de": "mir" },
-            { "ru": "на уме.", "de": "in dem Sinn" }
+            { "ru": "Не", "de": "nicht" },
+            { "ru": "тяготит", "de": "Liegt... schwer" },
+            { "ru": "мой", "de": "mir" },
+            { "ru": "ум.", "de": "in dem Sinn" }
           ],
           "annotations": []
         }
