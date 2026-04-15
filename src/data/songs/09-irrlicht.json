@@ -15,8 +15,7 @@
           "segments": [
             { "ru": "В", "de": "In" },
             { "ru": "глубочайшие", "de": "die tiefsten" },
-            { "ru": "скальные", "de": "Felsen" },
-            { "ru": "глуби", "de": "Gründe" }
+            { "ru": "скальные глуби", "de": "Felsengründe" }
           ],
           "annotations": []
         },
