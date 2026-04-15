@@ -7,7 +7,7 @@
   { "number": 6, "title_de": "Wasserflut", "title_ru": "Потоп", "file": "06-wasserflut.json", "ready": true },
   { "number": 7, "title_de": "Auf dem Flusse", "title_ru": "На речке", "file": "07-auf-dem-flusse.json", "ready": true },
   { "number": 8, "title_de": "Rückblick", "title_ru": "Взгляд назад", "file": "08-rueckblick.json", "ready": true },
-  { "number": 9, "title_de": "Irrlicht", "title_ru": "Блуждающий огонь", "file": "09-irrlicht.json", "ready": false },
+  { "number": 9, "title_de": "Irrlicht", "title_ru": "Блуждающий огонь", "file": "09-irrlicht.json", "ready": true },
   { "number": 10, "title_de": "Rast", "title_ru": "Отдых", "file": "10-rast.json", "ready": false },
   { "number": 11, "title_de": "Frühlingstraum", "title_ru": "Весенний сон", "file": "11-fruehlingstraum.json", "ready": false },
   { "number": 12, "title_de": "Einsamkeit", "title_ru": "Одиночество", "file": "12-einsamkeit.json", "ready": false },

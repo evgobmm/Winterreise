@@ -1,0 +1,148 @@
+{
+  "number": 9,
+  "title_de": "Irrlicht",
+  "title_ru": "Блуждающий огонь",
+  "stanzas": [
+    {
+      "lines_de": [
+        "In die tiefsten Felsengründe",
+        "Lockte mich ein Irrlicht hin.",
+        "Wie ich einen Ausgang finde,",
+        "Liegt nicht schwer mir in dem Sinn."
+      ],
+      "lines_ru": [
+        {
+          "segments": [
+            { "ru": "В", "de": "In" },
+            { "ru": "глубочайшие", "de": "die tiefsten" },
+            { "ru": "скальные", "de": "Felsen" },
+            { "ru": "глуби", "de": "Gründe" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Заманил", "de": "Lockte" },
+            { "ru": "меня", "de": "mich" },
+            { "ru": "блуждающий огонь", "de": "ein Irrlicht" },
+            { "ru": "туда.", "de": "hin" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Как", "de": "Wie" },
+            { "ru": "я", "de": "ich" },
+            { "ru": "выход", "de": "einen Ausgang" },
+            { "ru": "найду,", "de": "finde" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Лежит", "de": "Liegt" },
+            { "ru": "не", "de": "nicht" },
+            { "ru": "тяжело", "de": "schwer" },
+            { "ru": "мне", "de": "mir" },
+            { "ru": "на уме.", "de": "in dem Sinn" }
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "lines_de": [
+        "Bin gewohnt das Irregehen,",
+        "'s führt ja jeder Weg zum Ziel.",
+        "Unsre Freuden, unsre Wehen,",
+        "Alles eines Irrlichts Spiel!"
+      ],
+      "lines_ru": [
+        {
+          "segments": [
+            { "ru": "Привык", "de": "Bin gewohnt" },
+            { "ru": "блуждать,", "de": "das Irregehen" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Ведёт", "de": "'s führt" },
+            { "ru": "ведь", "de": "ja" },
+            { "ru": "каждый", "de": "jeder" },
+            { "ru": "путь", "de": "Weg" },
+            { "ru": "к", "de": "zum" },
+            { "ru": "цели.", "de": "Ziel" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Наши", "de": "Unsre" },
+            { "ru": "радости,", "de": "Freuden" },
+            { "ru": "наши", "de": "unsre" },
+            { "ru": "горести,", "de": "Wehen" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Всё", "de": "Alles" },
+            { "ru": "—", "de": "" },
+            { "ru": "блуждающего огня", "de": "eines Irrlichts" },
+            { "ru": "игра!", "de": "Spiel" }
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "lines_de": [
+        "Durch des Bergstroms trockne Rinnen",
+        "Wind' ich ruhig mich hinab.",
+        "Jeder Strom wird's Meer gewinnen,",
+        "Jedes Leiden auch sein Grab."
+      ],
+      "lines_ru": [
+        {
+          "segments": [
+            { "ru": "Через", "de": "Durch" },
+            { "ru": "горного потока", "de": "des Bergstroms" },
+            { "ru": "сухие", "de": "trockne" },
+            { "ru": "канавки", "de": "Rinnen" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Вьюсь", "de": "Wind'... mich" },
+            { "ru": "я", "de": "ich" },
+            { "ru": "спокойно", "de": "ruhig" },
+            { "ru": "вниз.", "de": "hinab" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Каждый", "de": "Jeder" },
+            { "ru": "поток", "de": "Strom" },
+            { "ru": "море", "de": "'s Meer" },
+            { "ru": "обретёт,", "de": "wird... gewinnen" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Каждое", "de": "Jedes" },
+            { "ru": "страдание", "de": "Leiden" },
+            { "ru": "—", "de": "" },
+            { "ru": "и", "de": "auch" },
+            { "ru": "свою", "de": "sein" },
+            { "ru": "могилу.", "de": "Grab" }
+          ],
+          "annotations": []
+        }
+      ]
+    }
+  ]
+}
