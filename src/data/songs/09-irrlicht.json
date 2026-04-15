@@ -21,10 +21,9 @@
         },
         {
           "segments": [
-            { "ru": "Заманил", "de": "Lockte" },
+            { "ru": "Заманил", "de": "Lockte... hin" },
             { "ru": "меня", "de": "mich" },
-            { "ru": "блуждающий огонь", "de": "ein Irrlicht" },
-            { "ru": "туда.", "de": "hin" }
+            { "ru": "блуждающий огонь.", "de": "ein Irrlicht" }
           ],
           "annotations": []
         },
