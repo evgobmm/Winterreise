@@ -71,7 +71,7 @@
       "lines_de": [
         "Bin gewohnt das Irregehen,",
         "'s führt ja jeder Weg zum Ziel.",
-        "Unsre Freuden, unsre Wehen,",
+        "Unsre Freuden, unsre Leiden,",
         "Alles eines Irrlichts Spiel!"
       ],
       "lines_ru": [
@@ -98,7 +98,7 @@
             { "ru": "Наши", "de": "Unsre" },
             { "ru": "радости,", "de": "Freuden" },
             { "ru": "наши", "de": "unsre" },
-            { "ru": "горести,", "de": "Wehen" }
+            { "ru": "страдания,", "de": "Leiden" }
           ],
           "annotations": []
         },
