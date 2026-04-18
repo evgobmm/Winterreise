@@ -139,10 +139,10 @@
       "lines_ru": [
         {
           "segments": [
-            { "ru": "Через", "de": "Durch" },
-            { "ru": "горной реки", "de": "des Bergstroms" },
-            { "ru": "сухие", "de": "trockne" },
-            { "ru": "канавки", "de": "Rinnen" }
+            { "ru": "По", "de": "Durch" },
+            { "ru": "сухим", "de": "trockne" },
+            { "ru": "руслам", "de": "Rinnen" },
+            { "ru": "горной реки", "de": "des Bergstroms" }
           ],
           "annotations": []
         },
