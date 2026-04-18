@@ -236,6 +236,9 @@ function getLineDeParts(stanza, lineIndex) {
               :ann-key-prefix="`${si}-${li}`"
               :inherited-annotations="getInheritedAnnotations(si, li)"
               :hovered-ann-key="hoveredAnnKey"
+              :show-annotations="showAnnotations"
+              :show-lang="showLang"
+              :show-meaning="showMeaning"
               @hover-ann="hoveredAnnKey = $event"
             />
           </div>

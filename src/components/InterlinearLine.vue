@@ -7,8 +7,18 @@ const props = defineProps({
   annNumberMap: { type: Map, default: () => new Map() },
   inheritedAnnotations: { type: Array, default: () => [] },
   hoveredAnnKey: { type: String, default: null },
-  annKeyPrefix: String
+  annKeyPrefix: String,
+  showAnnotations: { type: Boolean, default: true },
+  showLang: { type: Boolean, default: true },
+  showMeaning: { type: Boolean, default: true }
 })
+
+function fnVisible(fn) {
+  if (!fn || !props.showAnnotations) return false
+  if (fn.type === 'lang') return props.showLang
+  if (fn.type === 'meaning') return props.showMeaning
+  return true
+}
 
 const emit = defineEmits(['hoverAnn'])
 
@@ -95,14 +105,14 @@ const segmentInfo = computed(() => {
           @mouseleave.stop="emit('hoverAnn', null)"
         >{{ info.seg.variant_ru }}
           <FootnoteMark
-            v-if="info.variantFootnote"
+            v-if="fnVisible(info.variantFootnote)"
             :index="info.variantFootnote.displayIndex"
             :type="info.variantFootnote.type"
           />
         </span>
         <span class="ru-word">{{ info.seg.ru || '\u00A0' }}</span>
         <FootnoteMark
-          v-if="info.footnote"
+          v-if="fnVisible(info.footnote)"
           :index="info.footnote.displayIndex"
           :type="info.footnote.type"
         />
