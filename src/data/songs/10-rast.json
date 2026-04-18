@@ -1,0 +1,204 @@
+{
+  "number": 10,
+  "title_de": "Rast",
+  "title_ru": "Отдых",
+  "stanzas": [
+    {
+      "lines_de": [
+        "Nun merk' ich erst, wie müd' ich bin,",
+        "Da ich zur Ruh' mich lege;",
+        "Das Wandern hielt mich munter hin",
+        "Auf unwirtbarem Wege."
+      ],
+      "lines_ru": [
+        {
+          "segments": [
+            { "ru": "Теперь", "de": "Nun" },
+            { "ru": "замечаю", "de": "merk'" },
+            { "ru": "я", "de": "ich" },
+            { "ru": "впервые,", "de": "erst" },
+            { "ru": "как", "de": "wie" },
+            { "ru": "я", "de": "ich" },
+            { "ru": "устал,", "de": "müd'... bin" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Когда", "de": "Da" },
+            { "ru": "я", "de": "ich" },
+            { "ru": "на", "de": "zur" },
+            { "ru": "покой", "de": "Ruh'" },
+            { "ru": "ложусь;", "de": "mich lege" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Странствие", "de": "Das Wandern" },
+            { "ru": "держало", "de": "hielt... hin" },
+            { "ru": "меня", "de": "mich" },
+            { "ru": "бодрым", "de": "munter" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "На", "de": "Auf" },
+            { "ru": "негостеприимном", "de": "unwirtbarem" },
+            { "ru": "пути.", "de": "Wege" }
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "lines_de": [
+        "Die Füße frugen nicht nach Rast,",
+        "Es war zu kalt zum Stehen,",
+        "Der Rücken fühlte keine Last,",
+        "Der Sturm half fort mich wehen."
+      ],
+      "lines_ru": [
+        {
+          "segments": [
+            { "ru": "Ноги", "de": "Die Füße" },
+            { "ru": "не", "de": "nicht" },
+            { "ru": "спрашивали", "de": "frugen" },
+            { "ru": "об", "de": "nach" },
+            { "ru": "отдыхе,", "de": "Rast" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Было", "de": "Es war" },
+            { "ru": "слишком", "de": "zu" },
+            { "ru": "холодно", "de": "kalt" },
+            { "ru": "для", "de": "zum" },
+            { "ru": "стояния,", "de": "Stehen" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Спина", "de": "Der Rücken" },
+            { "ru": "не", "de": "" },
+            { "ru": "чувствовала", "de": "fühlte" },
+            { "ru": "никакой", "de": "keine" },
+            { "ru": "ноши,", "de": "Last" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Буря", "de": "Der Sturm" },
+            { "ru": "помогала", "de": "half" },
+            { "ru": "сдувать", "de": "fort... wehen" },
+            { "ru": "меня.", "de": "mich" }
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "lines_de": [
+        "In eines Köhlers engem Haus",
+        "Hab' Obdach ich gefunden;",
+        "Doch meine Glieder ruh'n nicht aus:",
+        "So brennen ihre Wunden."
+      ],
+      "lines_ru": [
+        {
+          "segments": [
+            { "ru": "В", "de": "In" },
+            { "ru": "тесном", "de": "engem" },
+            { "ru": "доме", "de": "Haus" },
+            { "ru": "угольщика", "de": "eines Köhlers" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Приют", "de": "Obdach" },
+            { "ru": "я", "de": "ich" },
+            { "ru": "нашёл;", "de": "Hab'... gefunden" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Но", "de": "Doch" },
+            { "ru": "мои", "de": "meine" },
+            { "ru": "члены", "de": "Glieder" },
+            { "ru": "не", "de": "nicht" },
+            { "ru": "отдыхают:", "de": "ruh'n... aus" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Так", "de": "So" },
+            { "ru": "горят", "de": "brennen" },
+            { "ru": "их", "de": "ihre" },
+            { "ru": "раны.", "de": "Wunden" }
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "lines_de": [
+        "Auch du, mein Herz, in Kampf und Sturm",
+        "So wild und so verwegen,",
+        "Fühlst in der Still' erst deinen Wurm",
+        "Mit heißem Stich sich regen!"
+      ],
+      "lines_ru": [
+        {
+          "segments": [
+            { "ru": "И", "de": "Auch" },
+            { "ru": "ты,", "de": "du" },
+            { "ru": "моё", "de": "mein" },
+            { "ru": "сердце,", "de": "Herz" },
+            { "ru": "в", "de": "in" },
+            { "ru": "борьбе", "de": "Kampf" },
+            { "ru": "и", "de": "und" },
+            { "ru": "буре", "de": "Sturm" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Такое", "de": "So" },
+            { "ru": "дикое", "de": "wild" },
+            { "ru": "и", "de": "und" },
+            { "ru": "такое", "de": "so" },
+            { "ru": "дерзкое,", "de": "verwegen" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Чувствуешь", "de": "Fühlst" },
+            { "ru": "в", "de": "in" },
+            { "ru": "тишине", "de": "der Still'" },
+            { "ru": "впервые", "de": "erst" },
+            { "ru": "своего", "de": "deinen" },
+            { "ru": "червя", "de": "Wurm" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "С", "de": "Mit" },
+            { "ru": "горячим", "de": "heißem" },
+            { "ru": "уколом", "de": "Stich" },
+            { "ru": "шевелиться!", "de": "sich regen" }
+          ],
+          "annotations": []
+        }
+      ]
+    }
+  ]
+}
