@@ -1,7 +1,7 @@
 {
   "number": 10,
   "title_de": "Rast",
-  "title_ru": "Отдых",
+  "title_ru": "Привал",
   "stanzas": [
     {
       "lines_de": [
@@ -66,7 +66,7 @@
             { "ru": "не", "de": "nicht" },
             { "ru": "спрашивали", "de": "frugen" },
             { "ru": "об", "de": "nach" },
-            { "ru": "отдыхе,", "de": "Rast" }
+            { "ru": "привале,", "de": "Rast" }
           ],
           "annotations": []
         },
