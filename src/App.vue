@@ -27,25 +27,6 @@ const currentSongFile = computed(() => {
       />
     </aside>
     <main class="content">
-      <div class="toolbar">
-        <div class="annotations-controls">
-          <label class="annotations-checkbox">
-            <input type="checkbox" v-model="showAnnotations" />
-            Пояснения
-          </label>
-          <template v-if="showAnnotations">
-            <label class="annotations-sub meaning-check">
-              <input type="checkbox" v-model="showMeaning" />
-              Смысл
-            </label>
-            <label class="annotations-sub lang-check">
-              <input type="checkbox" v-model="showLang" />
-              Язык
-            </label>
-          </template>
-        </div>
-        <ThemeToggle />
-      </div>
       <SongView
         v-if="currentSongFile"
         :song-file="currentSongFile"
@@ -55,5 +36,30 @@ const currentSongFile = computed(() => {
       />
       <p v-else class="placeholder">Выберите песню из списка</p>
     </main>
+    <aside class="settings">
+      <div class="theme-wrap">
+        <ThemeToggle />
+      </div>
+      <div class="annotations-controls">
+        <label class="annotations-checkbox">
+          <input type="checkbox" v-model="showAnnotations" />
+          Пояснения
+        </label>
+        <label
+          class="annotations-sub meaning-check"
+          :class="{ disabled: !showAnnotations }"
+        >
+          <input type="checkbox" v-model="showMeaning" :disabled="!showAnnotations" />
+          Смысл
+        </label>
+        <label
+          class="annotations-sub lang-check"
+          :class="{ disabled: !showAnnotations }"
+        >
+          <input type="checkbox" v-model="showLang" :disabled="!showAnnotations" />
+          Язык
+        </label>
+      </div>
+    </aside>
   </div>
 </template>

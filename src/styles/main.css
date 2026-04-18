@@ -12,7 +12,8 @@ body {
 }
 
 .app {
-  display: flex;
+  display: grid;
+  grid-template-columns: 260px 1fr 200px;
   min-height: 100vh;
 }
 
@@ -42,7 +43,6 @@ body {
 }
 
 .content {
-  flex: 1;
   padding: 32px 48px;
   max-width: 900px;
   position: relative;
@@ -54,18 +54,25 @@ body {
   margin-top: 48px;
 }
 
-.toolbar {
+.settings {
+  padding: 32px 16px;
+  position: sticky;
+  top: 0;
+  align-self: start;
   display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  gap: 16px;
-  margin-bottom: 16px;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.theme-wrap {
+  display: flex;
+  justify-content: center;
 }
 
 .annotations-controls {
   display: flex;
-  align-items: center;
-  gap: 12px;
+  flex-direction: column;
+  gap: 8px;
 }
 
 .annotations-checkbox {
@@ -85,6 +92,7 @@ body {
   display: flex;
   align-items: center;
   gap: 4px;
+  padding-left: 20px;
   font-size: 0.8rem;
   cursor: pointer;
 }
@@ -93,10 +101,25 @@ body {
   cursor: pointer;
 }
 
+.annotations-sub.disabled {
+  opacity: 0.4;
+  cursor: default;
+}
+
+.annotations-sub.disabled input {
+  cursor: default;
+}
+
 .meaning-check {
   color: var(--color-meaning);
 }
 
 .lang-check {
   color: var(--color-lang);
+}
+
+@media print {
+  .settings {
+    display: none;
+  }
 }
