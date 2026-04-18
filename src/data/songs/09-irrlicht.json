@@ -140,7 +140,7 @@
         {
           "segments": [
             { "ru": "Через", "de": "Durch" },
-            { "ru": "горного потока", "de": "des Bergstroms" },
+            { "ru": "горной реки", "de": "des Bergstroms" },
             { "ru": "сухие", "de": "trockne" },
             { "ru": "канавки", "de": "Rinnen" }
           ],
@@ -157,8 +157,8 @@
         },
         {
           "segments": [
-            { "ru": "Каждый", "de": "Jeder" },
-            { "ru": "поток", "de": "Strom" },
+            { "ru": "Каждая", "de": "Jeder" },
+            { "ru": "река", "de": "Strom" },
             { "ru": "море", "de": "'s Meer" },
             { "ru": "обретёт,", "de": "wird... gewinnen" }
           ],
