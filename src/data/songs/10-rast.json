@@ -75,9 +75,8 @@
           "segments": [
             { "ru": "Ноги", "de": "Die Füße" },
             { "ru": "не", "de": "nicht" },
-            { "ru": "спрашивали", "de": "frugen" },
-            { "ru": "об", "de": "nach" },
-            { "ru": "привале,", "de": "Rast" }
+            { "ru": "просили", "de": "frugen... nach" },
+            { "ru": "привала,", "de": "Rast" }
           ],
           "annotations": []
         },
@@ -85,9 +84,9 @@
           "segments": [
             { "ru": "Было", "de": "Es war" },
             { "ru": "слишком", "de": "zu" },
-            { "ru": "холодно", "de": "kalt" },
-            { "ru": "для", "de": "zum" },
-            { "ru": "стояния,", "de": "Stehen" }
+            { "ru": "холодно,", "de": "kalt" },
+            { "ru": "чтобы", "de": "zum" },
+            { "ru": "стоять,", "de": "Stehen" }
           ],
           "annotations": []
         },
@@ -97,16 +96,17 @@
             { "ru": "не", "de": "" },
             { "ru": "чувствовала", "de": "fühlte" },
             { "ru": "никакой", "de": "keine" },
-            { "ru": "ноши,", "de": "Last" }
+            { "ru": "тяжести,", "de": "Last" }
           ],
           "annotations": []
         },
         {
           "segments": [
             { "ru": "Буря", "de": "Der Sturm" },
-            { "ru": "помогала", "de": "half" },
-            { "ru": "сдувать", "de": "fort... wehen" },
-            { "ru": "меня.", "de": "mich" }
+            { "ru": "помогла", "de": "half" },
+            { "ru": "сзади", "de": "" },
+            { "ru": "меня", "de": "mich" },
+            { "ru": "поддувая.", "de": "fort... wehen" }
           ],
           "annotations": []
         }
