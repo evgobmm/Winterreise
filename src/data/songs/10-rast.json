@@ -103,10 +103,11 @@
         {
           "segments": [
             { "ru": "Буря", "de": "Der Sturm" },
-            { "ru": "помогла", "de": "half" },
-            { "ru": "сзади", "de": "" },
+            { "ru": "помогала,", "de": "half" },
+            { "ru": "сзади", "de": "fort" },
+            { "ru": "на", "de": "" },
             { "ru": "меня", "de": "mich" },
-            { "ru": "поддувая.", "de": "fort... wehen" }
+            { "ru": "дуя.", "de": "wehen" }
           ],
           "annotations": []
         }
