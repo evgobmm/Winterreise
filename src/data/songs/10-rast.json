@@ -241,8 +241,9 @@
         },
         {
           "segments": [
-            { "ru": "Горячим", "de": "heißem" },
-            { "ru": "уколом", "de": "Mit... Stich" },
+            { "ru": "С", "de": "Mit" },
+            { "ru": "горячим", "de": "heißem" },
+            { "ru": "жалом", "de": "Stich" },
             { "ru": "встрепенётся!", "de": "sich regen" }
           ],
           "annotations": []
