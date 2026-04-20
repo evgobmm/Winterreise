@@ -164,7 +164,8 @@
             { "ru": "мои", "de": "meine" },
             { "ru": "члены", "de": "Glieder" },
             { "ru": "не", "de": "nicht" },
-            { "ru": "отдыхают:", "de": "ruh'n... aus" }
+            { "ru": "отдыхают", "de": "ruh'n" },
+            { "ru": "до конца:", "de": "aus" }
           ],
           "annotations": []
         },
