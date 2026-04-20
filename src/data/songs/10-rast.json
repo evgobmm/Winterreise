@@ -177,7 +177,7 @@
           ],
           "annotations": [
             {
-              "type": "lang",
+              "type": "meaning",
               "segment_range": [0, 5],
               "line_span": 2,
               "continuation_ranges": [[0, 3]],
@@ -230,20 +230,20 @@
         {
           "segments": [
             { "ru": "Чувствуешь", "de": "Fühlst" },
+            { "ru": "лишь", "de": "erst" },
             { "ru": "в", "de": "in" },
-            { "ru": "тишине", "de": "der Still'" },
-            { "ru": "впервые", "de": "erst" },
-            { "ru": "своего", "de": "deinen" },
-            { "ru": "червя", "de": "Wurm" }
+            { "ru": "тишине,", "de": "der Still'" },
+            { "ru": "как", "de": "" },
+            { "ru": "твой", "de": "deinen" },
+            { "ru": "червь", "de": "Wurm" }
           ],
           "annotations": []
         },
         {
           "segments": [
-            { "ru": "С", "de": "Mit" },
-            { "ru": "горячим", "de": "heißem" },
-            { "ru": "уколом", "de": "Stich" },
-            { "ru": "шевелиться!", "de": "sich regen" }
+            { "ru": "Горячим", "de": "heißem" },
+            { "ru": "уколом", "de": "Mit... Stich" },
+            { "ru": "встрепенётся!", "de": "sich regen" }
           ],
           "annotations": []
         }
