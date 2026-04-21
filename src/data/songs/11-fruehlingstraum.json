@@ -1,0 +1,297 @@
+{
+  "number": 11,
+  "title_de": "Frühlingstraum",
+  "title_ru": "Весенний сон",
+  "stanzas": [
+    {
+      "lines_de": [
+        "Ich träumte von bunten Blumen,",
+        "So wie sie wohl blühen im Mai;",
+        "Ich träumte von grünen Wiesen,",
+        "Von lustigem Vogelgeschrei."
+      ],
+      "lines_ru": [
+        {
+          "segments": [
+            { "ru": "Я", "de": "Ich" },
+            { "ru": "грезил", "de": "träumte" },
+            { "ru": "о", "de": "von" },
+            { "ru": "пёстрых", "de": "bunten" },
+            { "ru": "цветах,", "de": "Blumen" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Так,", "de": "So" },
+            { "ru": "как", "de": "wie" },
+            { "ru": "они,", "de": "sie" },
+            { "ru": "должно быть,", "de": "wohl" },
+            { "ru": "цветут", "de": "blühen" },
+            { "ru": "в", "de": "im" },
+            { "ru": "мае;", "de": "Mai" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Я", "de": "Ich" },
+            { "ru": "грезил", "de": "träumte" },
+            { "ru": "о", "de": "von" },
+            { "ru": "зелёных", "de": "grünen" },
+            { "ru": "лугах,", "de": "Wiesen" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "О", "de": "Von" },
+            { "ru": "весёлом", "de": "lustigem" },
+            { "ru": "птичьем гаме.", "de": "Vogelgeschrei" }
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "lines_de": [
+        "Und als die Hähne krähten,",
+        "Da ward mein Auge wach;",
+        "Da war es kalt und finster,",
+        "Es schrien die Raben vom Dach."
+      ],
+      "lines_ru": [
+        {
+          "segments": [
+            { "ru": "И", "de": "Und" },
+            { "ru": "когда", "de": "als" },
+            { "ru": "петухи", "de": "die Hähne" },
+            { "ru": "кричали,", "de": "krähten" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Тут", "de": "Da" },
+            { "ru": "пробудилось", "de": "ward... wach" },
+            { "ru": "моё", "de": "mein" },
+            { "ru": "око;", "de": "Auge" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Тут", "de": "Da" },
+            { "ru": "было", "de": "war es" },
+            { "ru": "холодно", "de": "kalt" },
+            { "ru": "и", "de": "und" },
+            { "ru": "темно,", "de": "finster" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Кричали", "de": "Es schrien" },
+            { "ru": "вороны", "de": "die Raben" },
+            { "ru": "с", "de": "vom" },
+            { "ru": "крыши.", "de": "Dach" }
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "lines_de": [
+        "Doch an den Fensterscheiben,",
+        "Wer malte die Blätter da?",
+        "Ihr lacht wohl über den Träumer,",
+        "Der Blumen im Winter sah?"
+      ],
+      "lines_ru": [
+        {
+          "segments": [
+            { "ru": "Но", "de": "Doch" },
+            { "ru": "на", "de": "an" },
+            { "ru": "оконных стёклах,", "de": "den Fensterscheiben" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Кто", "de": "Wer" },
+            { "ru": "нарисовал", "de": "malte" },
+            { "ru": "листья", "de": "die Blätter" },
+            { "ru": "тут?", "de": "da" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Вы", "de": "Ihr" },
+            { "ru": "смеётесь,", "de": "lacht" },
+            { "ru": "должно быть,", "de": "wohl" },
+            { "ru": "над", "de": "über" },
+            { "ru": "мечтателем,", "de": "den Träumer" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Который", "de": "Der" },
+            { "ru": "цветы", "de": "Blumen" },
+            { "ru": "зимой", "de": "im Winter" },
+            { "ru": "видел?", "de": "sah" }
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "lines_de": [
+        "Ich träumte von Lieb um Liebe,",
+        "Von einer schönen Maid,",
+        "Von Herzen und von Küssen,",
+        "Von Wonne und Seligkeit."
+      ],
+      "lines_ru": [
+        {
+          "segments": [
+            { "ru": "Я", "de": "Ich" },
+            { "ru": "грезил", "de": "träumte" },
+            { "ru": "о", "de": "von" },
+            { "ru": "любви", "de": "Lieb" },
+            { "ru": "за", "de": "um" },
+            { "ru": "любовь,", "de": "Liebe" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "О", "de": "Von" },
+            { "ru": "прекрасной", "de": "einer schönen" },
+            { "ru": "деве,", "de": "Maid" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "О", "de": "Von" },
+            { "ru": "сердцах", "de": "Herzen" },
+            { "ru": "и", "de": "und" },
+            { "ru": "о", "de": "von" },
+            { "ru": "поцелуях,", "de": "Küssen" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "О", "de": "Von" },
+            { "ru": "восторге", "de": "Wonne" },
+            { "ru": "и", "de": "und" },
+            { "ru": "блаженстве.", "de": "Seligkeit" }
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "lines_de": [
+        "Und als die Hähne krähten,",
+        "Da ward mein Herze wach;",
+        "Nun sitz' ich hier alleine",
+        "Und denke dem Traume nach."
+      ],
+      "lines_ru": [
+        {
+          "segments": [
+            { "ru": "И", "de": "Und" },
+            { "ru": "когда", "de": "als" },
+            { "ru": "петухи", "de": "die Hähne" },
+            { "ru": "кричали,", "de": "krähten" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Тут", "de": "Da" },
+            { "ru": "пробудилось", "de": "ward... wach" },
+            { "ru": "моё", "de": "mein" },
+            { "ru": "сердце;", "de": "Herze" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Теперь", "de": "Nun" },
+            { "ru": "сижу", "de": "sitz'" },
+            { "ru": "я", "de": "ich" },
+            { "ru": "здесь", "de": "hier" },
+            { "ru": "одиноко", "de": "alleine" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "И", "de": "Und" },
+            { "ru": "размышляю", "de": "denke... nach" },
+            { "ru": "о", "de": "" },
+            { "ru": "сне.", "de": "dem Traume" }
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "lines_de": [
+        "Die Augen schließ' ich wieder,",
+        "Noch schlägt das Herz so warm.",
+        "Wann grünt ihr Blätter am Fenster?",
+        "Wann halt' ich mein Liebchen im Arm?"
+      ],
+      "lines_ru": [
+        {
+          "segments": [
+            { "ru": "Глаза", "de": "Die Augen" },
+            { "ru": "закрываю", "de": "schließ'" },
+            { "ru": "я", "de": "ich" },
+            { "ru": "снова,", "de": "wieder" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Ещё", "de": "Noch" },
+            { "ru": "бьётся", "de": "schlägt" },
+            { "ru": "сердце", "de": "das Herz" },
+            { "ru": "так", "de": "so" },
+            { "ru": "тепло.", "de": "warm" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Когда", "de": "Wann" },
+            { "ru": "зазеленеете", "de": "grünt" },
+            { "ru": "вы,", "de": "ihr" },
+            { "ru": "листья,", "de": "Blätter" },
+            { "ru": "на", "de": "am" },
+            { "ru": "окне?", "de": "Fenster" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Когда", "de": "Wann" },
+            { "ru": "буду держать", "de": "halt'" },
+            { "ru": "я", "de": "ich" },
+            { "ru": "свою", "de": "mein" },
+            { "ru": "любимую", "de": "Liebchen" },
+            { "ru": "в", "de": "im" },
+            { "ru": "объятиях?", "de": "Arm" }
+          ],
+          "annotations": []
+        }
+      ]
+    }
+  ]
+}
