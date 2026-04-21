@@ -14,7 +14,7 @@
         {
           "segments": [
             { "ru": "Мне", "de": "Ich" },
-            { "ru": "снились", "de": "träumte... von" },
+            { "ru": "снились", "de": "träumte von" },
             { "ru": "пёстрые", "de": "bunten" },
             { "ru": "цветы,", "de": "Blumen" }
           ],
@@ -35,7 +35,7 @@
         {
           "segments": [
             { "ru": "Мне", "de": "Ich" },
-            { "ru": "снились", "de": "träumte... von" },
+            { "ru": "снились", "de": "träumte von" },
             { "ru": "зелёные", "de": "grünen" },
             { "ru": "луга,", "de": "Wiesen" }
           ],
@@ -154,7 +154,7 @@
         {
           "segments": [
             { "ru": "Мне", "de": "Ich" },
-            { "ru": "снилась", "de": "träumte... von" },
+            { "ru": "снилась", "de": "träumte von" },
             { "ru": "любовь", "de": "Lieb" },
             { "ru": "за", "de": "um" },
             { "ru": "любовь,", "de": "Liebe" }
