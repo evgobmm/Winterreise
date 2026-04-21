@@ -69,16 +69,16 @@
             { "ru": "И", "de": "Und" },
             { "ru": "когда", "de": "als" },
             { "ru": "петухи", "de": "die Hähne" },
-            { "ru": "кричали,", "de": "krähten" }
+            { "ru": "прокукарекали,", "de": "krähten" }
           ],
           "annotations": []
         },
         {
           "segments": [
             { "ru": "Тут", "de": "Da" },
-            { "ru": "пробудилось", "de": "ward... wach" },
-            { "ru": "моё", "de": "mein" },
-            { "ru": "око;", "de": "Auge" }
+            { "ru": "мой", "de": "mein" },
+            { "ru": "глаз", "de": "Auge" },
+            { "ru": "пробудился;", "de": "ward... wach" }
           ],
           "annotations": []
         },
@@ -95,7 +95,7 @@
         {
           "segments": [
             { "ru": "Кричали", "de": "Es schrien" },
-            { "ru": "вороны", "de": "die Raben" },
+            { "ru": "во́роны", "de": "die Raben" },
             { "ru": "с", "de": "vom" },
             { "ru": "крыши.", "de": "Dach" }
           ],
@@ -205,16 +205,16 @@
             { "ru": "И", "de": "Und" },
             { "ru": "когда", "de": "als" },
             { "ru": "петухи", "de": "die Hähne" },
-            { "ru": "кричали,", "de": "krähten" }
+            { "ru": "прокукарекали,", "de": "krähten" }
           ],
           "annotations": []
         },
         {
           "segments": [
             { "ru": "Тут", "de": "Da" },
-            { "ru": "пробудилось", "de": "ward... wach" },
             { "ru": "моё", "de": "mein" },
-            { "ru": "сердце;", "de": "Herze" }
+            { "ru": "сердце", "de": "Herze" },
+            { "ru": "пробудилось;", "de": "ward... wach" }
           ],
           "annotations": []
         },
