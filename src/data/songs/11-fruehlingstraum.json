@@ -13,11 +13,10 @@
       "lines_ru": [
         {
           "segments": [
-            { "ru": "Я", "de": "Ich" },
-            { "ru": "грезил", "de": "träumte" },
-            { "ru": "о", "de": "von" },
-            { "ru": "пёстрых", "de": "bunten" },
-            { "ru": "цветах,", "de": "Blumen" }
+            { "ru": "Мне", "de": "Ich" },
+            { "ru": "снились", "de": "träumte... von" },
+            { "ru": "пёстрые", "de": "bunten" },
+            { "ru": "цветы,", "de": "Blumen" }
           ],
           "annotations": []
         },
@@ -35,19 +34,17 @@
         },
         {
           "segments": [
-            { "ru": "Я", "de": "Ich" },
-            { "ru": "грезил", "de": "träumte" },
-            { "ru": "о", "de": "von" },
-            { "ru": "зелёных", "de": "grünen" },
-            { "ru": "лугах,", "de": "Wiesen" }
+            { "ru": "Мне", "de": "Ich" },
+            { "ru": "снились", "de": "träumte... von" },
+            { "ru": "зелёные", "de": "grünen" },
+            { "ru": "луга,", "de": "Wiesen" }
           ],
           "annotations": []
         },
         {
           "segments": [
-            { "ru": "О", "de": "Von" },
-            { "ru": "весёлом", "de": "lustigem" },
-            { "ru": "птичьем гаме.", "de": "Vogelgeschrei" }
+            { "ru": "Весёлый", "de": "Von lustigem" },
+            { "ru": "птичий гам.", "de": "Vogelgeschrei" }
           ],
           "annotations": []
         }
@@ -156,10 +153,9 @@
       "lines_ru": [
         {
           "segments": [
-            { "ru": "Я", "de": "Ich" },
-            { "ru": "грезил", "de": "träumte" },
-            { "ru": "о", "de": "von" },
-            { "ru": "любви", "de": "Lieb" },
+            { "ru": "Мне", "de": "Ich" },
+            { "ru": "снилась", "de": "träumte... von" },
+            { "ru": "любовь", "de": "Lieb" },
             { "ru": "за", "de": "um" },
             { "ru": "любовь,", "de": "Liebe" }
           ],
@@ -167,28 +163,24 @@
         },
         {
           "segments": [
-            { "ru": "О", "de": "Von" },
-            { "ru": "прекрасной", "de": "einer schönen" },
-            { "ru": "деве,", "de": "Maid" }
+            { "ru": "Прекрасная", "de": "Von einer schönen" },
+            { "ru": "дева,", "de": "Maid" }
           ],
           "annotations": []
         },
         {
           "segments": [
-            { "ru": "О", "de": "Von" },
-            { "ru": "сердцах", "de": "Herzen" },
+            { "ru": "Сердца", "de": "Von Herzen" },
             { "ru": "и", "de": "und" },
-            { "ru": "о", "de": "von" },
-            { "ru": "поцелуях,", "de": "Küssen" }
+            { "ru": "поцелуи,", "de": "von Küssen" }
           ],
           "annotations": []
         },
         {
           "segments": [
-            { "ru": "О", "de": "Von" },
-            { "ru": "восторге", "de": "Wonne" },
+            { "ru": "Восторг", "de": "Von Wonne" },
             { "ru": "и", "de": "und" },
-            { "ru": "блаженстве.", "de": "Seligkeit" }
+            { "ru": "блаженство.", "de": "Seligkeit" }
           ],
           "annotations": []
         }
