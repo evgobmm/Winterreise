@@ -7,7 +7,7 @@
       "lines_de": [
         "Der Wind spielt mit der Wetterfahne",
         "Auf meines schönen Liebchens Haus.",
-        "Da dacht' ich schon in meinem Wähne,",
+        "Da dacht' ich schon in meinem Wahne,",
         "Sie pfiff' den armen Flüchtling aus."
       ],
       "lines_ru": [
@@ -49,7 +49,7 @@
             { "ru": "уже", "de": "schon" },
             { "ru": "в", "de": "in" },
             { "ru": "своём", "de": "meinem" },
-            { "ru": "бреду,", "de": "Wähne" }
+            { "ru": "бреду,", "de": "Wahne" }
           ],
           "annotations": [
             {
@@ -172,7 +172,7 @@
     },
     {
       "lines_de": [
-        "Der Wind spielt drinnen mit den Herzen",
+        "Der Wind spielt drinnen mit den Herzen,",
         "Wie auf dem Dach, nur nicht so laut.",
         "Was fragen sie nach meinen Schmerzen?",
         "Ihr Kind ist eine reiche Braut."
