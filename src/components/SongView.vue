@@ -1,5 +1,5 @@
 <script setup>
-import { ref, computed } from 'vue'
+import { ref, computed, nextTick } from 'vue'
 import InterlinearLine from './InterlinearLine.vue'
 import AnnotationsPanel from './AnnotationsPanel.vue'
 
@@ -112,6 +112,9 @@ const meaningAnnotations = computed(() => collectAnnotations('meaning'))
 
 const hoveredAnnKey = ref(null)
 const hoveredY = ref(16)
+const tooltipRef = ref(null)
+const tooltipReady = ref(false)
+let lastKey = null
 
 const annDataByKey = computed(() => {
   const map = new Map()
@@ -130,18 +133,32 @@ const annDataByKey = computed(() => {
   return map
 })
 
-const TOOLTIP_MAX_HEIGHT = 360
 const TOOLTIP_MARGIN = 16
 
 function handleHover(payload) {
   if (!payload) {
     hoveredAnnKey.value = null
+    tooltipReady.value = false
+    lastKey = null
     return
   }
   hoveredAnnKey.value = payload.key
-  const vh = window.innerHeight
-  const clamped = Math.min(payload.y, vh - TOOLTIP_MAX_HEIGHT - TOOLTIP_MARGIN)
-  hoveredY.value = Math.max(TOOLTIP_MARGIN, clamped)
+  if (payload.key === lastKey) return
+  lastKey = payload.key
+  hoveredY.value = Math.max(TOOLTIP_MARGIN, payload.y)
+  tooltipReady.value = false
+  nextTick(() => {
+    if (!tooltipRef.value) return
+    const h = tooltipRef.value.offsetHeight
+    const vh = window.innerHeight
+    if (h > vh - TOOLTIP_MARGIN * 2) {
+      hoveredY.value = TOOLTIP_MARGIN
+    } else {
+      const maxTop = vh - h - TOOLTIP_MARGIN
+      hoveredY.value = Math.max(TOOLTIP_MARGIN, Math.min(payload.y, maxTop))
+    }
+    tooltipReady.value = true
+  })
 }
 
 const hoveredTooltip = computed(() => {
@@ -295,8 +312,13 @@ function getLineDeParts(stanza, lineIndex) {
 
     <div
       v-if="hoveredTooltip"
+      :key="hoveredAnnKey"
+      ref="tooltipRef"
       class="hover-tooltip"
-      :class="'hover-tooltip-' + hoveredTooltip.type"
+      :class="[
+        'hover-tooltip-' + hoveredTooltip.type,
+        { 'is-ready': tooltipReady }
+      ]"
       :style="{ top: hoveredY + 'px' }"
     >
       {{ hoveredTooltip.text }}
@@ -394,10 +416,9 @@ function getLineDeParts(stanza, lineIndex) {
 
 .hover-tooltip {
   position: fixed;
-  right: 16px;
+  left: calc(260px + 900px + 16px);
   width: 300px;
-  max-height: 360px;
-  overflow-y: auto;
+  max-width: calc(100vw - 260px - 900px - 32px);
   background: var(--bg);
   border: 1px solid var(--border);
   border-radius: 6px;
@@ -409,6 +430,12 @@ function getLineDeParts(stanza, lineIndex) {
   z-index: 100;
   pointer-events: none;
   white-space: pre-wrap;
+  opacity: 0;
+  transition: opacity 0.08s;
+}
+
+.hover-tooltip.is-ready {
+  opacity: 1;
 }
 
 .hover-tooltip-lang {
