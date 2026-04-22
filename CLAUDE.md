@@ -10,29 +10,6 @@
 
 ### Страница (публичный режим)
 
-```
-┌──────────┬────────────────────────────────────┐
-│ Меню     │  Die Wetterfahne · Флюгер     [☀]  │
-│          │                                    │
-│ 1. Gute  │  ┌─ Оригинал ──┬─ Перевод ───────┐│
-│    Nacht │  │              │                 ││
-│ 2. Die   │  │ Der Wind     │ Ветер   играет  ││
-│  ►Wetter │  │ spielt mit   │ Der W.  spielt  ││
-│    fahne │  │ der Wetter-  │                 ││
-│ 3. ...   │  │ fahne        │ с    флюгером   ││
-│          │  │              │ mit  der Wetter. ││
-│          │  │ Auf meines   │                 ││
-│          │  │ schönen      │ На доме моей  ¹ ││
-│          │  │ Liebchens    │ Auf  meines     ││
-│          │  │ Haus.        │ прекрасной милой││
-│          │  │              │ schönen Liebch. ││
-│          │  │              │ Haus            ││
-│          │  └──────────────┴─────────────────┘│
-│ [Поиск]  │  ── Пояснения ──────────────────── │
-│          │  ¹ «моей прекрасной милой» — ...    │
-└──────────┴────────────────────────────────────┘
-```
-
 - **Левая колонка**: немецкий оригинал (строфами, как в стихотворении)
 - **Правая колонка**: русский перевод, под каждым русским словом/группой — соответствующее немецкое слово/группа мелким шрифтом
 - **Сноски**: нумерованные (`¹`, `²`, `³`...) у отмеченных фрагментов. Нумерация сквозная в пределах песни. Наведение — подсветка текста, который был заранее аннотирован как фрагмент. Клик — всплывающее пояснение
@@ -69,10 +46,7 @@
   "title_ru": "Флюгер",
   "stanzas": [
     {
-      "lines_de": [
-        "Der Wind spielt mit der Wetterfahne",
-        "Auf meines schönen Liebchens Haus."
-      ],
+      "lines_de": ["Der Wind spielt mit der Wetterfahne"],
       "lines_ru": [
         {
           "segments": [
@@ -81,20 +55,8 @@
             { "ru": "с", "de": "mit" },
             { "ru": "флюгером", "de": "der Wetterfahne" }
           ],
-          "annotations": []
-        },
-        {
-          "segments": [
-            { "ru": "На доме", "de": "Auf... Haus" },
-            { "ru": "моей", "de": "meines" },
-            { "ru": "прекрасной", "de": "schönen" },
-            { "ru": "милой.", "de": "Liebchens" }
-          ],
           "annotations": [
-            {
-              "segment_range": [1, 3],
-              "text": "Liebchen — ласковое обращение, буквально «милочка». Герой говорит о возлюбленной, из чьего дома он уходит."
-            }
+            { "type": "lang", "segment_range": [3, 3], "text": "..." }
           ]
         }
       ]
@@ -123,64 +85,12 @@
 
 ### Project Structure
 
-```
-winterreise/
-  CLAUDE.md
-  .claude/
-    docs/                    # Документация для Claude Code
-  package.json
-  vite.config.js
-  index.html
-  src/
-    main.js
-    App.vue
-    components/
-      SongList.vue           # Меню песен (sidebar)
-      SongView.vue           # Основной вид: оригинал + перевод
-      InterlinearLine.vue    # Строка с подстрочником
-      FootnoteMark.vue       # Номер сноски (суперскрипт) + попап пояснения
-      AnnotationsPanel.vue   # Блок всех пояснений внизу
-      SearchBar.vue          # Поиск по текстам
-      ThemeToggle.vue        # Переключатель темы
-      admin/
-        InlineEditor.vue     # Inline-редактирование сегментов
-        AnnotationEditor.vue # Редактор аннотаций
-        SaveButton.vue       # Сохранение через GitHub API
-    data/
-      songs/
-        02-die-wetterfahne.json
-        ...                  # 01-24, по мере заполнения
-      index.json             # Метаданные: номер, title_de, title_ru, ready: bool
-    utils/
-      github-api.js          # GitHub Contents API (read/write/commit)
-      search.js              # Полнотекстовый поиск
-      print.js               # Подготовка к печати
-    styles/
-      main.css               # Основные стили
-      print.css              # Стили для печати
-      theme.css              # CSS-переменные для тем
-  public/
-    favicon.ico
-  .github/
-    workflows/
-      deploy.yml             # GitHub Pages deploy on push
-```
-
-## Commands
-
-```bash
-# Установка
-npm install
-
-# Разработка (локальный сервер)
-npm run dev
-
-# Сборка для продакшена
-npm run build
-
-# Превью продакшен-сборки
-npm run preview
-```
+- `src/data/songs/*.json` — по одному файлу на песню (01–24)
+- `src/data/index.json` — метаданные (number, title_de, title_ru, ready)
+- `src/components/` — Vue-компоненты: SongList, SongView, InterlinearLine, FootnoteMark, AnnotationsPanel, SearchBar, ThemeToggle; `admin/` (InlineEditor, AnnotationEditor, SaveButton)
+- `src/styles/` — CSS: main.css, print.css, theme.css
+- `src/utils/` — github-api.js (Contents API), search.js, print.js
+- `.github/workflows/deploy.yml` — GitHub Pages deploy
 
 ## Development Guidelines
 
@@ -191,14 +101,6 @@ npm run preview
 - Без TypeScript (plain JS для простоты)
 - Без UI-фреймворков (чистый CSS)
 - **Никогда не менять структуру данных (сегменты, аннотации) ради верстки.** Если строка не умещается — чинить CSS/код, не объединять сегменты
-
-## Content Workflow
-
-1. Находим/создаём перевод песни
-2. Размечаем подстрочник (слово↔слово или группа↔группа)
-3. Добавляем аннотации к интересным местам
-4. Сохраняем JSON (через админку или Claude Code)
-5. Push → GitHub Actions → сайт обновляется
 
 ## Translation Rules (Правила подстрочного перевода)
 
