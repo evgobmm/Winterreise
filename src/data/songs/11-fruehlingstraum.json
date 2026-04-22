@@ -71,7 +71,15 @@
             { "ru": "петухи", "de": "die Hähne" },
             { "ru": "прокукарекали,", "de": "krähten" }
           ],
-          "annotations": []
+          "annotations": [
+            {
+              "type": "meaning",
+              "segment_range": [0, 3],
+              "line_span": 4,
+              "continuation_ranges": [[0, 3], [0, 4], [0, 3]],
+              "text": "Герой, видимо, проснулся в хижине углежога, в которую пришёл в прошлой песне."
+            }
+          ]
         },
         {
           "segments": [
