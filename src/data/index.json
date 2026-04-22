@@ -10,7 +10,7 @@
   { "number": 9, "title_de": "Irrlicht", "title_ru": "Блуждающий огонь", "file": "09-irrlicht.json", "ready": true },
   { "number": 10, "title_de": "Rast", "title_ru": "Привал", "file": "10-rast.json", "ready": true },
   { "number": 11, "title_de": "Frühlingstraum", "title_ru": "Весенний сон-мечта", "file": "11-fruehlingstraum.json", "ready": true },
-  { "number": 12, "title_de": "Einsamkeit", "title_ru": "Одиночество", "file": "12-einsamkeit.json", "ready": false },
+  { "number": 12, "title_de": "Einsamkeit", "title_ru": "Одиночество", "file": "12-einsamkeit.json", "ready": true },
   { "number": 13, "title_de": "Die Post", "title_ru": "Почта", "file": "13-die-post.json", "ready": false },
   { "number": 14, "title_de": "Der greise Kopf", "title_ru": "Седая голова", "file": "14-der-greise-kopf.json", "ready": false },
   { "number": 15, "title_de": "Die Krähe", "title_ru": "Ворона", "file": "15-die-kraehe.json", "ready": false },

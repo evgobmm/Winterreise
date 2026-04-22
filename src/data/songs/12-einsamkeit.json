@@ -1,0 +1,144 @@
+{
+  "number": 12,
+  "title_de": "Einsamkeit",
+  "title_ru": "Одиночество",
+  "stanzas": [
+    {
+      "lines_de": [
+        "Wie eine trübe Wolke",
+        "Durch heit're Lüfte geht,",
+        "Wenn in der Tanne Wipfel",
+        "Ein mattes Lüftchen weht:"
+      ],
+      "lines_ru": [
+        {
+          "segments": [
+            { "ru": "Как", "de": "Wie" },
+            { "ru": "мрачная", "de": "eine trübe" },
+            { "ru": "туча", "de": "Wolke" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "По", "de": "Durch" },
+            { "ru": "ясным", "de": "heit're" },
+            { "ru": "высям", "de": "Lüfte" },
+            { "ru": "идёт,", "de": "geht" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Когда", "de": "Wenn" },
+            { "ru": "в", "de": "in" },
+            { "ru": "вершине", "de": "Wipfel" },
+            { "ru": "ели", "de": "der Tanne" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Слабый", "de": "Ein mattes" },
+            { "ru": "ветерок", "de": "Lüftchen" },
+            { "ru": "веет:", "de": "weht" }
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "lines_de": [
+        "So zieh' ich meine Straße",
+        "Dahin mit trägem Fuß,",
+        "Durch helles, frohes Leben,",
+        "Einsam und ohne Gruß."
+      ],
+      "lines_ru": [
+        {
+          "segments": [
+            { "ru": "Так", "de": "So" },
+            { "ru": "иду", "de": "zieh'" },
+            { "ru": "я", "de": "ich" },
+            { "ru": "своей", "de": "meine" },
+            { "ru": "дорогой", "de": "Straße" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Прочь", "de": "Dahin" },
+            { "ru": "медлительной", "de": "trägem" },
+            { "ru": "ногой,", "de": "mit... Fuß" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Сквозь", "de": "Durch" },
+            { "ru": "светлую,", "de": "helles," },
+            { "ru": "радостную", "de": "frohes" },
+            { "ru": "жизнь,", "de": "Leben" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Одиноко", "de": "Einsam" },
+            { "ru": "и", "de": "und" },
+            { "ru": "без", "de": "ohne" },
+            { "ru": "приветствия.", "de": "Gruß" }
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "lines_de": [
+        "Ach, dass die Luft so ruhig!",
+        "Ach, dass die Welt so licht!",
+        "Als noch die Stürme tobten,",
+        "War ich so elend nicht."
+      ],
+      "lines_ru": [
+        {
+          "segments": [
+            { "ru": "Ах,", "de": "Ach," },
+            { "ru": "как", "de": "dass... so" },
+            { "ru": "спокоен", "de": "ruhig" },
+            { "ru": "воздух!", "de": "die Luft" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Ах,", "de": "Ach," },
+            { "ru": "как", "de": "dass... so" },
+            { "ru": "светел", "de": "licht" },
+            { "ru": "мир!", "de": "die Welt" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Когда", "de": "Als" },
+            { "ru": "ещё", "de": "noch" },
+            { "ru": "бушевали", "de": "tobten" },
+            { "ru": "бури,", "de": "die Stürme" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Не", "de": "nicht" },
+            { "ru": "был", "de": "War" },
+            { "ru": "я", "de": "ich" },
+            { "ru": "так", "de": "so" },
+            { "ru": "несчастен.", "de": "elend" }
+          ],
+          "annotations": []
+        }
+      ]
+    }
+  ]
+}
