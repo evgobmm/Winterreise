@@ -133,7 +133,15 @@
             { "ru": "на", "de": "an" },
             { "ru": "оконных стёклах,", "de": "den Fensterscheiben" }
           ],
-          "annotations": []
+          "annotations": [
+            {
+              "type": "meaning",
+              "segment_range": [0, 2],
+              "line_span": 2,
+              "continuation_ranges": [[0, 3]],
+              "text": "Имеются в виду морозные узоры на стекле, в очертаниях которых можно угадывать листья."
+            }
+          ]
         },
         {
           "segments": [
