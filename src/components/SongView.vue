@@ -111,6 +111,48 @@ const langAnnotations = computed(() => collectAnnotations('lang'))
 const meaningAnnotations = computed(() => collectAnnotations('meaning'))
 
 const hoveredAnnKey = ref(null)
+const hoveredY = ref(16)
+
+const annDataByKey = computed(() => {
+  const map = new Map()
+  if (!song.value) return map
+  const stanzas = song.value.stanzas
+  for (let s = 0; s < stanzas.length; s++) {
+    const stanza = stanzas[s]
+    for (let l = 0; l < stanza.lines_ru.length; l++) {
+      const anns = stanza.lines_ru[l].annotations || []
+      for (let a = 0; a < anns.length; a++) {
+        const ann = anns[a]
+        map.set(`${s}-${l}-${a}`, { text: ann.text, type: ann.type || 'meaning' })
+      }
+    }
+  }
+  return map
+})
+
+const TOOLTIP_MAX_HEIGHT = 360
+const TOOLTIP_MARGIN = 16
+
+function handleHover(payload) {
+  if (!payload) {
+    hoveredAnnKey.value = null
+    return
+  }
+  hoveredAnnKey.value = payload.key
+  const vh = window.innerHeight
+  const clamped = Math.min(payload.y, vh - TOOLTIP_MAX_HEIGHT - TOOLTIP_MARGIN)
+  hoveredY.value = Math.max(TOOLTIP_MARGIN, clamped)
+}
+
+const hoveredTooltip = computed(() => {
+  if (!hoveredAnnKey.value) return null
+  const data = annDataByKey.value.get(hoveredAnnKey.value)
+  if (!data) return null
+  if (!props.showAnnotations) return null
+  if (data.type === 'lang' && !props.showLang) return null
+  if (data.type === 'meaning' && !props.showMeaning) return null
+  return data
+})
 
 function getInheritedAnnotations(stanzaIndex, lineIndex) {
   if (!song.value) return []
@@ -244,11 +286,20 @@ function getLineDeParts(stanza, lineIndex) {
               :show-annotations="showAnnotations"
               :show-lang="showLang"
               :show-meaning="showMeaning"
-              @hover-ann="hoveredAnnKey = $event"
+              @hover-ann="handleHover"
             />
           </div>
         </div>
       </div>
+    </div>
+
+    <div
+      v-if="hoveredTooltip"
+      class="hover-tooltip"
+      :class="'hover-tooltip-' + hoveredTooltip.type"
+      :style="{ top: hoveredY + 'px' }"
+    >
+      {{ hoveredTooltip.text }}
     </div>
 
     <div
@@ -339,5 +390,38 @@ function getLineDeParts(stanza, lineIndex) {
 .annotations-columns > * {
   flex: 1;
   min-width: 0;
+}
+
+.hover-tooltip {
+  position: fixed;
+  right: 16px;
+  width: 300px;
+  max-height: 360px;
+  overflow-y: auto;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 8px 12px;
+  font-size: 0.85rem;
+  line-height: 1.4;
+  color: var(--text);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  z-index: 100;
+  pointer-events: none;
+  white-space: pre-wrap;
+}
+
+.hover-tooltip-lang {
+  border-left: 3px solid var(--color-lang);
+}
+
+.hover-tooltip-meaning {
+  border-left: 3px solid var(--color-meaning);
+}
+
+@media print {
+  .hover-tooltip {
+    display: none;
+  }
 }
 </style>

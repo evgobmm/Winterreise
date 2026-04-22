@@ -22,6 +22,14 @@ function fnVisible(fn) {
 
 const emit = defineEmits(['hoverAnn'])
 
+function onHover(key, event) {
+  emit('hoverAnn', { key, y: event.currentTarget.getBoundingClientRect().top })
+}
+
+function onLeave() {
+  emit('hoverAnn', null)
+}
+
 const segmentInfo = computed(() => {
   return props.line.segments.map((seg, i) => {
     const annKeys = []
@@ -97,12 +105,12 @@ const segmentInfo = computed(() => {
       }"
     >
       <span class="ru-row"
-        @mouseenter="emit('hoverAnn', info.footnote ? info.footnote.key : info.primaryKey)"
-        @mouseleave="emit('hoverAnn', null)"
+        @mouseenter="onHover(info.footnote ? info.footnote.key : info.primaryKey, $event)"
+        @mouseleave="onLeave"
       >
         <span v-if="info.seg.variant_ru" class="variant-ru"
-          @mouseenter.stop="emit('hoverAnn', info.variantFootnote ? info.variantFootnote.key : info.primaryKey)"
-          @mouseleave.stop="emit('hoverAnn', null)"
+          @mouseenter.stop="onHover(info.variantFootnote ? info.variantFootnote.key : info.primaryKey, $event)"
+          @mouseleave.stop="onLeave"
         >{{ info.seg.variant_ru }}
           <FootnoteMark
             v-if="fnVisible(info.variantFootnote)"
@@ -120,20 +128,6 @@ const segmentInfo = computed(() => {
       <span class="de-gloss">
         <template v-if="info.seg.variant_de">{{ info.seg.de }} / {{ info.seg.variant_de }}</template>
         <template v-else>{{ info.seg.de || '\u00A0' }}</template>
-      </span>
-      <span
-        v-if="info.footnote && hoveredAnnKey === info.footnote.key"
-        class="tooltip"
-        :class="'tooltip-' + info.footnote.type"
-      >
-        {{ info.footnote.text }}
-      </span>
-      <span
-        v-if="info.variantFootnote && hoveredAnnKey === info.variantFootnote.key"
-        class="tooltip"
-        :class="'tooltip-' + info.variantFootnote.type"
-      >
-        {{ info.variantFootnote.text }}
       </span>
     </span>
   </div>
@@ -205,29 +199,4 @@ const segmentInfo = computed(() => {
   white-space: nowrap;
 }
 
-.tooltip {
-  position: absolute;
-  top: 100%;
-  left: 0;
-  margin-top: 6px;
-  background: var(--bg);
-  border: 1px solid var(--border);
-  border-radius: 6px;
-  padding: 8px 12px;
-  font-size: 0.85rem;
-  line-height: 1.4;
-  color: var(--text);
-  width: 300px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-  z-index: 100;
-  pointer-events: none;
-}
-
-.tooltip-lang {
-  border-left: 3px solid var(--color-lang);
-}
-
-.tooltip-meaning {
-  border-left: 3px solid var(--color-meaning);
-}
 </style>
