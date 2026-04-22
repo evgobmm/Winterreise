@@ -1,7 +1,7 @@
 {
   "number": 11,
   "title_de": "Frühlingstraum",
-  "title_ru": "Весенний сон",
+  "title_ru": "Весенний сон-мечта",
   "stanzas": [
     {
       "lines_de": [
@@ -271,7 +271,7 @@
             { "ru": "И", "de": "Und" },
             { "ru": "размышляю", "de": "denke... nach" },
             { "ru": "о", "de": "" },
-            { "ru": "сне.", "de": "dem Traume" }
+            { "ru": "сне-мечте.", "de": "dem Traume" }
           ],
           "annotations": []
         }
