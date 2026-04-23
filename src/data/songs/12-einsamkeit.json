@@ -41,7 +41,7 @@
           "segments": [
             { "ru": "Слабый", "de": "Ein mattes" },
             { "ru": "ветерок", "de": "Lüftchen" },
-            { "ru": "веет:", "de": "weht" }
+            { "ru": "дует:", "de": "weht" }
           ],
           "annotations": []
         }
@@ -75,10 +75,10 @@
         },
         {
           "segments": [
-            { "ru": "Сквозь", "de": "Durch" },
-            { "ru": "светлую,", "de": "helles," },
-            { "ru": "радостную", "de": "frohes" },
-            { "ru": "жизнь,", "de": "Leben" }
+            { "ru": "По", "de": "Durch" },
+            { "ru": "светлой,", "de": "helles," },
+            { "ru": "радостной", "de": "frohes" },
+            { "ru": "жизни,", "de": "Leben" }
           ],
           "annotations": []
         },
