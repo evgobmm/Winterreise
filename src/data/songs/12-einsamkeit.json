@@ -23,7 +23,7 @@
           "segments": [
             { "ru": "По", "de": "Durch" },
             { "ru": "ясно-весёлым", "de": "heit're" },
-            { "ru": "высям", "de": "Lüfte" },
+            { "ru": "воздушным просторам", "de": "Lüfte" },
             { "ru": "идёт,", "de": "geht" }
           ],
           "annotations": []
@@ -40,8 +40,8 @@
         {
           "segments": [
             { "ru": "Слабый", "de": "Ein mattes" },
-            { "ru": "ветерок", "de": "Lüftchen" },
-            { "ru": "дует:", "de": "weht" }
+            { "ru": "воздушный ветерок", "de": "Lüftchen" },
+            { "ru": "веет:", "de": "weht" }
           ],
           "annotations": []
         }
