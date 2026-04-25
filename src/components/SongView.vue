@@ -2,6 +2,7 @@
 import { ref, computed, nextTick } from 'vue'
 import InterlinearLine from './InterlinearLine.vue'
 import AnnotationsPanel from './AnnotationsPanel.vue'
+import FootnoteMark from './FootnoteMark.vue'
 
 const songModules = import.meta.glob('../data/songs/*.json', { eager: true })
 
@@ -23,6 +24,11 @@ const song = computed(() => {
 const annNumberMap = computed(() => {
   if (!song.value) return new Map()
   const byType = { lang: [], meaning: [] }
+  const titleAnns = song.value.title_annotations || []
+  for (let a = 0; a < titleAnns.length; a++) {
+    const type = titleAnns[a].type || 'meaning'
+    byType[type].push({ key: `title-${a}`, footS: -1, footL: 0, footSeg: a })
+  }
   const stanzas = song.value.stanzas
   for (let s = 0; s < stanzas.length; s++) {
     const stanza = stanzas[s]
@@ -67,6 +73,20 @@ const annNumberMap = computed(() => {
 function collectAnnotations(type) {
   if (!song.value) return []
   const items = []
+  const titleAnns = song.value.title_annotations || []
+  for (let a = 0; a < titleAnns.length; a++) {
+    const ann = titleAnns[a]
+    if ((ann.type || 'meaning') === type) {
+      const displayNum = annNumberMap.value.get(`title-${a}`) || 0
+      items.push({
+        text: ann.text,
+        type: ann.type || 'meaning',
+        target: null,
+        segments: [{ ru: song.value.title_ru, de: song.value.title_de }],
+        displayNum
+      })
+    }
+  }
   const stanzas = song.value.stanzas
   for (let s = 0; s < stanzas.length; s++) {
     const stanza = stanzas[s]
@@ -119,6 +139,11 @@ let lastKey = null
 const annDataByKey = computed(() => {
   const map = new Map()
   if (!song.value) return map
+  const titleAnns = song.value.title_annotations || []
+  for (let a = 0; a < titleAnns.length; a++) {
+    const ann = titleAnns[a]
+    map.set(`title-${a}`, { text: ann.text, type: ann.type || 'meaning' })
+  }
   const stanzas = song.value.stanzas
   for (let s = 0; s < stanzas.length; s++) {
     const stanza = stanzas[s]
@@ -243,6 +268,24 @@ function getInheritedAnnotations(stanzaIndex, lineIndex) {
   return result
 }
 
+const titleFootnotes = computed(() => {
+  if (!song.value) return []
+  const titleAnns = song.value.title_annotations || []
+  return titleAnns.map((ann, a) => {
+    const type = ann.type || 'meaning'
+    return {
+      key: `title-${a}`,
+      type,
+      displayIndex: annNumberMap.value.get(`title-${a}`) || 0,
+      visible: props.showAnnotations && (type === 'lang' ? props.showLang : props.showMeaning)
+    }
+  })
+})
+
+function onTitleHover(key, event) {
+  handleHover({ key, y: event.currentTarget.getBoundingClientRect().top })
+}
+
 function getLineDeParts(stanza, lineIndex) {
   const line = stanza.lines_ru[lineIndex]
   const lineDe = stanza.lines_de[lineIndex]
@@ -265,10 +308,28 @@ function getLineDeParts(stanza, lineIndex) {
   <article v-if="song" class="song-view">
     <header class="song-header">
       <div class="col-de">
-        <h2>{{ song.title_de }}</h2>
+        <h2
+          :class="{
+            'title-highlighted-lang': titleFootnotes.some(fn => fn.visible && fn.key === hoveredAnnKey && fn.type === 'lang'),
+            'title-highlighted-meaning': titleFootnotes.some(fn => fn.visible && fn.key === hoveredAnnKey && fn.type === 'meaning')
+          }"
+        >{{ song.title_de }}</h2>
       </div>
       <div class="col-ru">
-        <h2 class="title-ru">{{ song.title_ru }}</h2>
+        <h2
+          class="title-ru"
+          :class="{
+            'title-highlighted-lang': titleFootnotes.some(fn => fn.visible && fn.key === hoveredAnnKey && fn.type === 'lang'),
+            'title-highlighted-meaning': titleFootnotes.some(fn => fn.visible && fn.key === hoveredAnnKey && fn.type === 'meaning')
+          }"
+          @mouseenter="titleFootnotes.find(fn => fn.visible) ? onTitleHover(titleFootnotes.find(fn => fn.visible).key, $event) : null"
+          @mouseleave="handleHover(null)"
+        >{{ song.title_ru }}<FootnoteMark
+          v-for="fn in titleFootnotes.filter(f => f.visible)"
+          :key="fn.key"
+          :index="fn.displayIndex"
+          :type="fn.type"
+        /></h2>
       </div>
     </header>
 
@@ -359,6 +420,20 @@ function getLineDeParts(stanza, lineIndex) {
 .title-ru {
   font-weight: normal;
   color: var(--text-secondary);
+}
+
+.title-highlighted-lang {
+  background: var(--highlight-lang);
+  border-radius: 2px;
+  padding: 0 4px;
+  margin: 0 -4px;
+}
+
+.title-highlighted-meaning {
+  background: var(--highlight-meaning);
+  border-radius: 2px;
+  padding: 0 4px;
+  margin: 0 -4px;
 }
 
 .stanza {
