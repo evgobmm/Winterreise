@@ -48,9 +48,6 @@ function toSuperscript(n) {
 }
 
 .annotation-item {
-  display: flex;
-  align-items: baseline;
-  gap: 4px;
   margin-bottom: 10px;
   font-size: 0.9rem;
   line-height: 1.5;
@@ -78,7 +75,5 @@ function toSuperscript(n) {
 .annotation-text {
   color: var(--text-secondary);
   white-space: pre-line;
-  flex: 1;
-  min-width: 0;
 }
 </style>
