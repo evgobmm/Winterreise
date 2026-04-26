@@ -75,5 +75,6 @@ function toSuperscript(n) {
 .annotation-text {
   color: var(--text-secondary);
   white-space: pre-line;
+  text-align: justify;
 }
 </style>
