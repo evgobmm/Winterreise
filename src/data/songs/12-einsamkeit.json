@@ -20,7 +20,7 @@
         {
           "segments": [
             { "ru": "Как", "de": "Wie" },
-            { "ru": "мрачная", "de": "eine trübe" },
+            { "ru": "сумрачная", "de": "eine trübe" },
             { "ru": "туча", "de": "Wolke" }
           ],
           "annotations": []
