@@ -1,0 +1,156 @@
+{
+  "number": 13,
+  "title_de": "Die Post",
+  "title_ru": "Почта",
+  "stanzas": [
+    {
+      "lines_de": [
+        "Von der Straße her ein Posthorn klingt.",
+        "Was hat es, dass es so hoch aufspringt,",
+        "Mein Herz?"
+      ],
+      "lines_ru": [
+        {
+          "segments": [
+            { "ru": "С", "de": "Von... her" },
+            { "ru": "улицы", "de": "der Straße" },
+            { "ru": "доносится", "de": "klingt" },
+            { "ru": "почтовый рожок.", "de": "ein Posthorn" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Что", "de": "Was" },
+            { "ru": "с ним,", "de": "hat es" },
+            { "ru": "что", "de": "dass" },
+            { "ru": "оно", "de": "es" },
+            { "ru": "так", "de": "so" },
+            { "ru": "высоко", "de": "hoch" },
+            { "ru": "подпрыгивает,", "de": "aufspringt" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Моё", "de": "Mein" },
+            { "ru": "сердце?", "de": "Herz" }
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "lines_de": [
+        "Die Post bringt keinen Brief für dich:",
+        "Was drängst du denn so wunderlich,",
+        "Mein Herz?"
+      ],
+      "lines_ru": [
+        {
+          "segments": [
+            { "ru": "Почта", "de": "Die Post" },
+            { "ru": "не", "de": "" },
+            { "ru": "приносит", "de": "bringt" },
+            { "ru": "никакого", "de": "keinen" },
+            { "ru": "письма", "de": "Brief" },
+            { "ru": "для", "de": "für" },
+            { "ru": "тебя:", "de": "dich" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Что", "de": "Was" },
+            { "ru": "же", "de": "denn" },
+            { "ru": "ты", "de": "du" },
+            { "ru": "так", "de": "so" },
+            { "ru": "странно", "de": "wunderlich" },
+            { "ru": "рвёшься,", "de": "drängst" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Моё", "de": "Mein" },
+            { "ru": "сердце?", "de": "Herz" }
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "lines_de": [
+        "Nun ja, die Post kommt aus der Stadt,",
+        "Wo ich ein liebes Liebchen hatt',",
+        "Mein Herz!"
+      ],
+      "lines_ru": [
+        {
+          "segments": [
+            { "ru": "Ну да,", "de": "Nun ja," },
+            { "ru": "почта", "de": "die Post" },
+            { "ru": "приходит", "de": "kommt" },
+            { "ru": "из", "de": "aus" },
+            { "ru": "города,", "de": "der Stadt" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Где", "de": "Wo" },
+            { "ru": "у меня", "de": "ich" },
+            { "ru": "была", "de": "hatt'" },
+            { "ru": "дорогая", "de": "ein liebes" },
+            { "ru": "любимая,", "de": "Liebchen" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Моё", "de": "Mein" },
+            { "ru": "сердце!", "de": "Herz" }
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "lines_de": [
+        "Willst wohl einmal hinüber sehn,",
+        "Und fragen, wie es dort mag gehn,",
+        "Mein Herz?"
+      ],
+      "lines_ru": [
+        {
+          "segments": [
+            { "ru": "Хочешь,", "de": "Willst" },
+            { "ru": "наверное,", "de": "wohl" },
+            { "ru": "разок", "de": "einmal" },
+            { "ru": "взглянуть", "de": "sehn" },
+            { "ru": "туда,", "de": "hinüber" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "И", "de": "Und" },
+            { "ru": "спросить,", "de": "fragen" },
+            { "ru": "как", "de": "wie" },
+            { "ru": "там", "de": "dort" },
+            { "ru": "идут", "de": "mag gehn" },
+            { "ru": "дела,", "de": "es" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Моё", "de": "Mein" },
+            { "ru": "сердце?", "de": "Herz" }
+          ],
+          "annotations": []
+        }
+      ]
+    }
+  ]
+}
