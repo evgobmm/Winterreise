@@ -136,18 +136,18 @@
         {
           "segments": [
             { "ru": "Ах,", "de": "Ach," },
-            { "ru": "как", "de": "dass... so" },
-            { "ru": "спокоен", "de": "ruhig" },
-            { "ru": "воздух!", "de": "die Luft" }
+            { "ru": "как же", "de": "dass... so" },
+            { "ru": "воздух", "de": "die Luft" },
+            { "ru": "спокоен!", "de": "ruhig" }
           ],
           "annotations": []
         },
         {
           "segments": [
             { "ru": "Ах,", "de": "Ach," },
-            { "ru": "как", "de": "dass... so" },
-            { "ru": "лучезарен", "de": "licht" },
-            { "ru": "мир!", "de": "die Welt" }
+            { "ru": "как же", "de": "dass... so" },
+            { "ru": "мир", "de": "die Welt" },
+            { "ru": "лучезарен!", "de": "licht" }
           ],
           "annotations": []
         },
@@ -155,8 +155,8 @@
           "segments": [
             { "ru": "Когда", "de": "Als" },
             { "ru": "ещё", "de": "noch" },
-            { "ru": "бушевали", "de": "tobten" },
-            { "ru": "бури,", "de": "die Stürme" }
+            { "ru": "бури", "de": "die Stürme" },
+            { "ru": "бушевали,", "de": "tobten" }
           ],
           "annotations": []
         },
