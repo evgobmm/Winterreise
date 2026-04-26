@@ -79,9 +79,9 @@
         },
         {
           "segments": [
-            { "ru": "Прочь", "de": "Dahin" },
-            { "ru": "медлительной", "de": "trägem" },
-            { "ru": "ногой,", "de": "mit... Fuß" }
+            { "ru": "Дальше", "de": "Dahin" },
+            { "ru": "вялым", "de": "trägem" },
+            { "ru": "шагом,", "de": "mit... Fuß" }
           ],
           "annotations": []
         },
