@@ -130,7 +130,7 @@
         "Ach, dass die Luft so ruhig!",
         "Ach, dass die Welt so licht!",
         "Als noch die Stürme tobten,",
-        "War ich so elend nicht."
+        "War ich so elend, so elend nicht."
       ],
       "lines_ru": [
         {
@@ -165,6 +165,8 @@
             { "ru": "Не", "de": "nicht" },
             { "ru": "был", "de": "War" },
             { "ru": "я", "de": "ich" },
+            { "ru": "так", "de": "so" },
+            { "ru": "жалок,", "de": "elend" },
             { "ru": "так", "de": "so" },
             { "ru": "несчастен.", "de": "elend" }
           ],
