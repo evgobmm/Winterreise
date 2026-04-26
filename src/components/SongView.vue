@@ -37,11 +37,10 @@ const annNumberMap = computed(() => {
         const ann = stanza.lines_ru[l].annotations[a]
         const type = ann.type || 'meaning'
         const span = ann.line_span || 1
-        const linesInStanza = stanza.lines_ru.length
         let footS = s, footL = l + span - 1
-        if (footL >= linesInStanza) {
-          footS = s + 1
-          footL = footL - linesInStanza
+        while (footS < stanzas.length && footL >= stanzas[footS].lines_ru.length) {
+          footL -= stanzas[footS].lines_ru.length
+          footS++
         }
         let footSeg = ann.segment_range[1]
         if (span > 1) {
@@ -200,66 +199,49 @@ function getInheritedAnnotations(stanzaIndex, lineIndex) {
   if (!song.value) return []
   const result = []
 
-  // Same stanza: lines before current
-  const stanza = song.value.stanzas[stanzaIndex]
-  for (let l = 0; l < lineIndex; l++) {
-    const lineAnns = stanza.lines_ru[l].annotations || []
-    for (let a = 0; a < lineAnns.length; a++) {
-      const ann = lineAnns[a]
-      const span = ann.line_span || 1
-      if (l + span > lineIndex) {
-        const isLastSpannedLine = (l + span - 1 === lineIndex)
-        const type = ann.type || 'meaning'
-        let displayIndex = null
-        if (isLastSpannedLine) {
-          displayIndex = annNumberMap.value.get(`${stanzaIndex}-${l}-${a}`) || 0
-        }
-        const contIndex = lineIndex - l - 1
-        const segmentRange = ann.continuation_ranges ? ann.continuation_ranges[contIndex] : null
-        if (ann.continuation_ranges && segmentRange === null) continue
-        result.push({
-          key: `${stanzaIndex}-${l}-${a}`,
-          type,
-          isLastSpannedLine,
-          displayIndex,
-          text: ann.text,
-          segmentRange
-        })
-      }
-    }
-  }
+  const stanzas = song.value.stanzas
 
-  // Previous stanza: annotations that overflow into this stanza
-  if (stanzaIndex > 0) {
-    const prevStanza = song.value.stanzas[stanzaIndex - 1]
+  // Check all stanzas at or before current; for each anchor, compute distance to current line.
+  for (let prevS = 0; prevS <= stanzaIndex; prevS++) {
+    const prevStanza = stanzas[prevS]
     const prevLineCount = prevStanza.lines_ru.length
-    for (let l = 0; l < prevLineCount; l++) {
+    const lineLimit = (prevS === stanzaIndex) ? lineIndex : prevLineCount
+    for (let l = 0; l < lineLimit; l++) {
       const lineAnns = prevStanza.lines_ru[l].annotations || []
       for (let a = 0; a < lineAnns.length; a++) {
         const ann = lineAnns[a]
         const span = ann.line_span || 1
-        const linesInPrev = prevLineCount - l
-        if (span > linesInPrev) {
-          const overflowCount = span - linesInPrev
-          if (lineIndex < overflowCount) {
-            const isLastSpannedLine = (lineIndex === overflowCount - 1)
-            const type = ann.type || 'meaning'
-            let displayIndex = null
-            if (isLastSpannedLine) {
-              displayIndex = annNumberMap.value.get(`${stanzaIndex - 1}-${l}-${a}`) || 0
-            }
-            const contIndex = (linesInPrev - 1) + lineIndex
-            const segmentRange = ann.continuation_ranges ? ann.continuation_ranges[contIndex] : null
-            if (ann.continuation_ranges && segmentRange === null) continue
-            result.push({
-              key: `${stanzaIndex - 1}-${l}-${a}`,
-              type,
-              isLastSpannedLine,
-              displayIndex,
-              text: ann.text,
-              segmentRange
-            })
+
+        // Distance from anchor (prevS, l) to current line (stanzaIndex, lineIndex), 0-indexed.
+        let distance
+        if (prevS === stanzaIndex) {
+          distance = lineIndex - l
+        } else {
+          distance = prevLineCount - l
+          for (let ts = prevS + 1; ts < stanzaIndex; ts++) {
+            distance += stanzas[ts].lines_ru.length
           }
+          distance += lineIndex
+        }
+
+        if (distance >= 1 && distance < span) {
+          const isLastSpannedLine = (distance === span - 1)
+          const type = ann.type || 'meaning'
+          let displayIndex = null
+          if (isLastSpannedLine) {
+            displayIndex = annNumberMap.value.get(`${prevS}-${l}-${a}`) || 0
+          }
+          const contIndex = distance - 1
+          const segmentRange = ann.continuation_ranges ? ann.continuation_ranges[contIndex] : null
+          if (ann.continuation_ranges && segmentRange === null) continue
+          result.push({
+            key: `${prevS}-${l}-${a}`,
+            type,
+            isLastSpannedLine,
+            displayIndex,
+            text: ann.text,
+            segmentRange
+          })
         }
       }
     }
