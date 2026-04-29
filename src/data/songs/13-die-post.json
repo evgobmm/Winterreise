@@ -69,12 +69,12 @@
         },
         {
           "segments": [
-            { "ru": "Что", "de": "Was" },
+            { "ru": "Чего", "de": "Was" },
             { "ru": "же", "de": "denn" },
+            { "ru": "рвёшься", "de": "drängst" },
             { "ru": "ты", "de": "du" },
             { "ru": "так", "de": "so" },
-            { "ru": "странно", "de": "wunderlich" },
-            { "ru": "рвёшься,", "de": "drängst" }
+            { "ru": "странно,", "de": "wunderlich" }
           ],
           "annotations": []
         },
