@@ -12,10 +12,10 @@
       "lines_ru": [
         {
           "segments": [
-            { "ru": "С", "de": "Von... her" },
+            { "ru": "С", "de": "Von" },
             { "ru": "улицы", "de": "der Straße" },
-            { "ru": "доносится", "de": "klingt" },
-            { "ru": "почтовый рожок.", "de": "ein Posthorn" }
+            { "ru": "почтовый рожок", "de": "ein Posthorn" },
+            { "ru": "доносится.", "de": "klingt... her" }
           ],
           "annotations": []
         },
