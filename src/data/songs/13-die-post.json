@@ -168,7 +168,13 @@
             { "ru": "там", "de": "dort" },
             { "ru": "идут,", "de": "mag gehn" }
           ],
-          "annotations": []
+          "annotations": [
+            {
+              "type": "lang",
+              "segment_range": [2, 5],
+              "text": "wie es dort mag gehn — дословно «как оно там может идти»."
+            }
+          ]
         },
         {
           "segments": [
