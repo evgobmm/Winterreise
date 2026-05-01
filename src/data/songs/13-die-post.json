@@ -165,16 +165,11 @@
             { "ru": "спросить,", "de": "fragen" },
             { "ru": "как", "de": "wie" },
             { "ru": "дела", "de": "es" },
-            { "ru": "там", "de": "dort" },
-            { "ru": "идут,", "de": "mag gehn" }
+            { "ru": "там,", "de": "dort" },
+            { "ru": "должно быть,", "de": "mag" },
+            { "ru": "идут,", "de": "gehn" }
           ],
-          "annotations": [
-            {
-              "type": "lang",
-              "segment_range": [2, 5],
-              "text": "Wie es dort mag gehn — дословно «как оно там может идти»."
-            }
-          ]
+          "annotations": []
         },
         {
           "segments": [
