@@ -127,9 +127,9 @@
           "segments": [
             { "ru": "Где", "de": "Wo" },
             { "ru": "у меня", "de": "ich" },
-            { "ru": "была", "de": "hatt'" },
-            { "ru": "дорогая", "de": "ein liebes" },
-            { "ru": "любимая,", "de": "Liebchen" }
+            { "ru": "милая", "de": "ein liebes" },
+            { "ru": "любимая", "de": "Liebchen" },
+            { "ru": "была,", "de": "hatt'" }
           ],
           "annotations": []
         },
