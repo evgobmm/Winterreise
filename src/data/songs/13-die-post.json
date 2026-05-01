@@ -154,8 +154,8 @@
             { "ru": "Хочешь,", "de": "Willst" },
             { "ru": "наверное,", "de": "wohl" },
             { "ru": "разок", "de": "einmal" },
-            { "ru": "взглянуть", "de": "sehn" },
-            { "ru": "туда,", "de": "hinüber" }
+            { "ru": "туда", "de": "hinüber" },
+            { "ru": "посмотреть,", "de": "sehn" }
           ],
           "annotations": []
         },
@@ -164,9 +164,9 @@
             { "ru": "И", "de": "Und" },
             { "ru": "спросить,", "de": "fragen" },
             { "ru": "как", "de": "wie" },
+            { "ru": "дела", "de": "es" },
             { "ru": "там", "de": "dort" },
-            { "ru": "идут", "de": "mag gehn" },
-            { "ru": "дела,", "de": "es" }
+            { "ru": "идут,", "de": "mag gehn" }
           ],
           "annotations": []
         },
