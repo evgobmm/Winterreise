@@ -1,0 +1,147 @@
+{
+  "number": 14,
+  "title_de": "Der greise Kopf",
+  "title_ru": "Седая голова",
+  "stanzas": [
+    {
+      "lines_de": [
+        "Der Reif hat einen weißen Schein",
+        "Mir über's Haar gestreuet.",
+        "Da glaubt' ich schon ein Greis zu sein,",
+        "Und hab' mich sehr gefreuet."
+      ],
+      "lines_ru": [
+        {
+          "segments": [
+            { "ru": "Иней", "de": "Der Reif" },
+            { "ru": "белый", "de": "einen weißen" },
+            { "ru": "блеск", "de": "Schein" },
+            { "ru": "мне", "de": "Mir" },
+            { "ru": "по", "de": "über's" },
+            { "ru": "волосам", "de": "Haar" },
+            { "ru": "рассыпал.", "de": "hat... gestreuet" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Тут", "de": "Da" },
+            { "ru": "поверил", "de": "glaubt'" },
+            { "ru": "я,", "de": "ich" },
+            { "ru": "что", "de": "" },
+            { "ru": "уже", "de": "schon" },
+            { "ru": "—", "de": "zu sein" },
+            { "ru": "старец,", "de": "ein Greis" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "И", "de": "Und" },
+            { "ru": "очень", "de": "sehr" },
+            { "ru": "обрадовался.", "de": "hab' mich... gefreuet" }
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "lines_de": [
+        "Doch bald ist er hinweggetaut,",
+        "Hab' wieder schwarze Haare,",
+        "Dass mir's vor meiner Jugend graut —",
+        "Wie weit noch bis zur Bahre!"
+      ],
+      "lines_ru": [
+        {
+          "segments": [
+            { "ru": "Однако", "de": "Doch" },
+            { "ru": "вскоре", "de": "bald" },
+            { "ru": "он", "de": "er" },
+            { "ru": "истаял,", "de": "ist hinweggetaut" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "У меня", "de": "Hab'" },
+            { "ru": "снова", "de": "wieder" },
+            { "ru": "чёрные", "de": "schwarze" },
+            { "ru": "волосы,", "de": "Haare" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Что", "de": "Dass" },
+            { "ru": "мне", "de": "mir's" },
+            { "ru": "от", "de": "vor" },
+            { "ru": "моей", "de": "meiner" },
+            { "ru": "юности", "de": "Jugend" },
+            { "ru": "страшно —", "de": "graut" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Как", "de": "Wie" },
+            { "ru": "далеко", "de": "weit" },
+            { "ru": "ещё", "de": "noch" },
+            { "ru": "до", "de": "bis zur" },
+            { "ru": "гроба!", "de": "Bahre" }
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "lines_de": [
+        "Vom Abendrot zum Morgenlicht",
+        "Ward mancher Kopf zum Greise.",
+        "Wer glaubt's? Und meiner ward es nicht",
+        "Auf dieser ganzen Reise!"
+      ],
+      "lines_ru": [
+        {
+          "segments": [
+            { "ru": "От", "de": "Vom" },
+            { "ru": "вечерней зари", "de": "Abendrot" },
+            { "ru": "до", "de": "zum" },
+            { "ru": "утреннего света", "de": "Morgenlicht" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Стала", "de": "Ward" },
+            { "ru": "иная", "de": "mancher" },
+            { "ru": "голова", "de": "Kopf" },
+            { "ru": "старцем.", "de": "zum Greise" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Кто", "de": "Wer" },
+            { "ru": "поверит этому?", "de": "glaubt's" },
+            { "ru": "А", "de": "Und" },
+            { "ru": "моя", "de": "meiner" },
+            { "ru": "такой", "de": "es" },
+            { "ru": "не", "de": "nicht" },
+            { "ru": "стала", "de": "ward" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "За", "de": "Auf" },
+            { "ru": "всё", "de": "ganzen" },
+            { "ru": "это", "de": "dieser" },
+            { "ru": "путешествие!", "de": "Reise" }
+          ],
+          "annotations": []
+        }
+      ]
+    }
+  ]
+}
