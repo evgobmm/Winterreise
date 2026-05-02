@@ -14,7 +14,6 @@
         {
           "segments": [
             { "ru": "Иней", "de": "Der Reif" },
-            { "ru": "рассыпал", "de": "hat... gestreuet" },
             { "ru": "белый", "de": "einen weißen" },
             { "ru": "блеск", "de": "Schein" }
           ],
@@ -24,7 +23,8 @@
           "segments": [
             { "ru": "Мне", "de": "Mir" },
             { "ru": "по", "de": "über's" },
-            { "ru": "волосам.", "de": "Haar" }
+            { "ru": "волосам", "de": "Haar" },
+            { "ru": "рассыпал.", "de": "hat... gestreuet" }
           ],
           "annotations": []
         },
