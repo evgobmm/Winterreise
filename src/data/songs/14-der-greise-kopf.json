@@ -30,14 +30,14 @@
             { "ru": "Мне", "de": "Mir" },
             { "ru": "по", "de": "über's" },
             { "ru": "волосам", "de": "Haar" },
-            { "ru": "рассыпал.", "de": "hat... gestreuet", "variant_de": "hatt'... gestreuet" }
+            { "ru": "рассыпал.", "de": "hat... gestreuet" }
           ],
           "annotations": []
         },
         {
           "segments": [
             { "ru": "Тут", "de": "Da" },
-            { "ru": "поверил", "de": "glaubt'", "variant_de": "meint'", "variant_ru": "полагал" },
+            { "ru": "поверил", "de": "glaubt'" },
             { "ru": "я,", "de": "ich" },
             { "ru": "что", "de": "" },
             { "ru": "уже", "de": "schon" },
