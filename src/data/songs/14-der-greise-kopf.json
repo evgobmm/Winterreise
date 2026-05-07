@@ -119,9 +119,9 @@
         {
           "segments": [
             { "ru": "Стала", "de": "Ward" },
-            { "ru": "иная", "de": "mancher" },
+            { "ru": "не одна", "de": "mancher" },
             { "ru": "голова", "de": "Kopf" },
-            { "ru": "старцем.", "de": "zum Greise" }
+            { "ru": "седой.", "de": "zum Greise" }
           ],
           "annotations": []
         },
