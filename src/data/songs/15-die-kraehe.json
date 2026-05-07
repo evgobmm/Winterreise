@@ -21,7 +21,7 @@
         },
         {
           "segments": [
-            { "ru": "из", "de": "Aus" },
+            { "ru": "Из", "de": "Aus" },
             { "ru": "города", "de": "der Stadt" },
             { "ru": "потянулась,", "de": "war... gezogen" }
           ],
@@ -36,7 +36,7 @@
         },
         {
           "segments": [
-            { "ru": "вокруг", "de": "Um" },
+            { "ru": "Вокруг", "de": "Um" },
             { "ru": "моей", "de": "mein" },
             { "ru": "главы", "de": "Haupt" },
             { "ru": "летала.", "de": "Ist... geflogen" }
@@ -83,7 +83,7 @@
         },
         {
           "segments": [
-            { "ru": "моё", "de": "Meinen" },
+            { "ru": "Моё", "de": "Meinen" },
             { "ru": "тело", "de": "Leib" },
             { "ru": "схватить?", "de": "zu fassen" }
           ],
@@ -111,7 +111,7 @@
         },
         {
           "segments": [
-            { "ru": "с", "de": "An" },
+            { "ru": "С", "de": "An" },
             { "ru": "посохом странника.", "de": "dem Wanderstabe" }
           ],
           "annotations": []
@@ -128,7 +128,7 @@
         },
         {
           "segments": [
-            { "ru": "верность", "de": "Treue" },
+            { "ru": "Верность", "de": "Treue" },
             { "ru": "до", "de": "bis zum" },
             { "ru": "могилы!", "de": "Grabe" }
           ],
