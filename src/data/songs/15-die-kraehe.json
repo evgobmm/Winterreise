@@ -1,0 +1,140 @@
+{
+  "number": 15,
+  "title_de": "Die Krähe",
+  "title_ru": "Ворона",
+  "stanzas": [
+    {
+      "lines_de": [
+        "Eine Krähe war mit mir",
+        "Aus der Stadt gezogen,",
+        "Ist bis heute für und für",
+        "Um mein Haupt geflogen."
+      ],
+      "lines_ru": [
+        {
+          "segments": [
+            { "ru": "Ворона", "de": "Eine Krähe" },
+            { "ru": "со", "de": "mit" },
+            { "ru": "мной", "de": "mir" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "из", "de": "Aus" },
+            { "ru": "города", "de": "der Stadt" },
+            { "ru": "отправилась,", "de": "war... gezogen" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "До сих пор", "de": "bis heute" },
+            { "ru": "непрестанно", "de": "für und für" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "вокруг", "de": "Um" },
+            { "ru": "моей", "de": "mein" },
+            { "ru": "главы", "de": "Haupt" },
+            { "ru": "летала.", "de": "Ist... geflogen" }
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "lines_de": [
+        "Krähe, wunderliches Tier,",
+        "Willst mich nicht verlassen?",
+        "Meinst wohl, bald als Beute hier",
+        "Meinen Leib zu fassen?"
+      ],
+      "lines_ru": [
+        {
+          "segments": [
+            { "ru": "Ворона,", "de": "Krähe" },
+            { "ru": "странное", "de": "wunderliches" },
+            { "ru": "существо,", "de": "Tier" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Не", "de": "nicht" },
+            { "ru": "хочешь", "de": "Willst" },
+            { "ru": "меня", "de": "mich" },
+            { "ru": "покинуть?", "de": "verlassen" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Думаешь,", "de": "Meinst" },
+            { "ru": "наверное,", "de": "wohl" },
+            { "ru": "вскоре", "de": "bald" },
+            { "ru": "как", "de": "als" },
+            { "ru": "добычу", "de": "Beute" },
+            { "ru": "здесь", "de": "hier" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "моё", "de": "Meinen" },
+            { "ru": "тело", "de": "Leib" },
+            { "ru": "схватить?", "de": "zu fassen" }
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "lines_de": [
+        "Nun, es wird nicht weit mehr gehn",
+        "An dem Wanderstabe.",
+        "Krähe, lass mich endlich sehn",
+        "Treue bis zum Grabe!"
+      ],
+      "lines_ru": [
+        {
+          "segments": [
+            { "ru": "Ну,", "de": "Nun" },
+            { "ru": "не", "de": "nicht" },
+            { "ru": "далеко", "de": "weit" },
+            { "ru": "уже", "de": "mehr" },
+            { "ru": "идти", "de": "es wird... gehn" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "с", "de": "An" },
+            { "ru": "посохом странника.", "de": "dem Wanderstabe" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Ворона,", "de": "Krähe" },
+            { "ru": "дай", "de": "lass" },
+            { "ru": "мне", "de": "mich" },
+            { "ru": "наконец", "de": "endlich" },
+            { "ru": "увидеть", "de": "sehn" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "верность", "de": "Treue" },
+            { "ru": "до", "de": "bis zum" },
+            { "ru": "могилы!", "de": "Grabe" }
+          ],
+          "annotations": []
+        }
+      ]
+    }
+  ]
+}
