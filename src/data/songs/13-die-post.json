@@ -121,7 +121,7 @@
       "lines_ru": [
         {
           "segments": [
-            { "ru": "Ну да,", "de": "Nun ja," },
+            { "ru": "Ну да,", "de": "Nun ja" },
             { "ru": "почта", "de": "die Post" },
             { "ru": "приходит", "de": "kommt" },
             { "ru": "из", "de": "aus" },
