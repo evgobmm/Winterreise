@@ -83,8 +83,8 @@
         },
         {
           "segments": [
-            { "ru": "Моё", "de": "Meinen" },
-            { "ru": "тело", "de": "Leib" },
+            { "ru": "Мою", "de": "Meinen" },
+            { "ru": "плоть", "de": "Leib" },
             { "ru": "схватить?", "de": "zu fassen" }
           ],
           "annotations": []
