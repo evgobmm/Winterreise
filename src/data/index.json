@@ -14,7 +14,7 @@
   { "number": 13, "title_de": "Die Post", "title_ru": "Почта", "file": "13-die-post.json", "ready": true },
   { "number": 14, "title_de": "Der greise Kopf", "title_ru": "Седая голова", "file": "14-der-greise-kopf.json", "ready": true },
   { "number": 15, "title_de": "Die Krähe", "title_ru": "Ворона", "file": "15-die-kraehe.json", "ready": true },
-  { "number": 16, "title_de": "Letzte Hoffnung", "title_ru": "Последняя надежда", "file": "16-letzte-hoffnung.json", "ready": false },
+  { "number": 16, "title_de": "Letzte Hoffnung", "title_ru": "Последняя надежда", "file": "16-letzte-hoffnung.json", "ready": true },
   { "number": 17, "title_de": "Im Dorfe", "title_ru": "В деревне", "file": "17-im-dorfe.json", "ready": false },
   { "number": 18, "title_de": "Der stürmische Morgen", "title_ru": "Бурное утро", "file": "18-der-stuermische-morgen.json", "ready": false },
   { "number": 19, "title_de": "Täuschung", "title_ru": "Обман", "file": "19-taeuschung.json", "ready": false },

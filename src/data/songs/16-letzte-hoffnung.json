@@ -1,0 +1,148 @@
+{
+  "number": 16,
+  "title_de": "Letzte Hoffnung",
+  "title_ru": "Последняя надежда",
+  "stanzas": [
+    {
+      "lines_de": [
+        "Hie und da ist an den Bäumen",
+        "Manches bunte Blatt zu sehn,",
+        "Und ich bleibe vor den Bäumen",
+        "Oftmals in Gedanken stehn."
+      ],
+      "lines_ru": [
+        {
+          "segments": [
+            { "ru": "Здесь и там", "de": "Hie und da" },
+            { "ru": "на", "de": "an" },
+            { "ru": "деревьях", "de": "den Bäumen" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Не один", "de": "Manches" },
+            { "ru": "пёстрый", "de": "bunte" },
+            { "ru": "лист", "de": "Blatt" },
+            { "ru": "можно увидеть,", "de": "ist... zu sehn" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "И", "de": "Und" },
+            { "ru": "я", "de": "ich" },
+            { "ru": "перед", "de": "vor" },
+            { "ru": "деревьями", "de": "den Bäumen" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Часто", "de": "Oftmals" },
+            { "ru": "в", "de": "in" },
+            { "ru": "раздумьях", "de": "Gedanken" },
+            { "ru": "останавливаюсь.", "de": "bleibe... stehn" }
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "lines_de": [
+        "Schaue nach dem einen Blatte,",
+        "Hänge meine Hoffnung dran;",
+        "Spielt der Wind mit meinem Blatte,",
+        "Zittr' ich, was ich zittern kann."
+      ],
+      "lines_ru": [
+        {
+          "segments": [
+            { "ru": "Смотрю на", "de": "Schaue... nach" },
+            { "ru": "один", "de": "dem einen" },
+            { "ru": "лист,", "de": "Blatte" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Вешаю", "de": "Hänge" },
+            { "ru": "свою", "de": "meine" },
+            { "ru": "надежду", "de": "Hoffnung" },
+            { "ru": "на него;", "de": "dran" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Играет", "de": "Spielt" },
+            { "ru": "ветер", "de": "der Wind" },
+            { "ru": "с", "de": "mit" },
+            { "ru": "моим", "de": "meinem" },
+            { "ru": "листом,", "de": "Blatte" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Дрожу", "de": "Zittr'" },
+            { "ru": "я,", "de": "ich" },
+            { "ru": "всем чем", "de": "was" },
+            { "ru": "дрожать", "de": "zittern" },
+            { "ru": "могу.", "de": "ich... kann" }
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "lines_de": [
+        "Ach, und fällt das Blatt zu Boden,",
+        "Fällt mit ihm die Hoffnung ab;",
+        "Fall' ich selber mit zu Boden,",
+        "Wein' auf meiner Hoffnung Grab."
+      ],
+      "lines_ru": [
+        {
+          "segments": [
+            { "ru": "Ах,", "de": "Ach" },
+            { "ru": "и", "de": "und" },
+            { "ru": "если", "de": "" },
+            { "ru": "падает", "de": "fällt" },
+            { "ru": "лист", "de": "das Blatt" },
+            { "ru": "на землю,", "de": "zu Boden" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Опадает", "de": "Fällt... ab" },
+            { "ru": "с", "de": "mit" },
+            { "ru": "ним", "de": "ihm" },
+            { "ru": "надежда;", "de": "die Hoffnung" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Падаю", "de": "Fall'" },
+            { "ru": "я", "de": "ich" },
+            { "ru": "сам", "de": "selber" },
+            { "ru": "с ним", "de": "mit" },
+            { "ru": "на землю,", "de": "zu Boden" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Плачу", "de": "Wein'" },
+            { "ru": "на могиле", "de": "auf... Grab" },
+            { "ru": "моей", "de": "meiner" },
+            { "ru": "надежды.", "de": "Hoffnung" }
+          ],
+          "annotations": []
+        }
+      ]
+    }
+  ]
+}
