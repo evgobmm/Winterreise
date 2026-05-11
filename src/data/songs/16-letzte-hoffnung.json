@@ -103,9 +103,9 @@
           "segments": [
             { "ru": "Дрожу", "de": "Zittr'" },
             { "ru": "я,", "de": "ich" },
-            { "ru": "всем чем", "de": "was" },
+            { "ru": "как только", "de": "was ich" },
             { "ru": "дрожать", "de": "zittern" },
-            { "ru": "могу.", "de": "ich... kann" }
+            { "ru": "могу.", "de": "kann" }
           ],
           "annotations": []
         }
