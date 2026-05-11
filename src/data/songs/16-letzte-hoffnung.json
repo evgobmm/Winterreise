@@ -148,7 +148,8 @@
         },
         {
           "segments": [
-            { "ru": "Падаю", "de": "Fall'" },
+            { "ru": "Когда", "de": "" },
+            { "ru": "падаю", "de": "Fall'" },
             { "ru": "я", "de": "ich" },
             { "ru": "сам", "de": "selber" },
             { "ru": "с ним", "de": "mit" },
@@ -159,9 +160,10 @@
         {
           "segments": [
             { "ru": "Плачу", "de": "Wein'" },
-            { "ru": "на могиле", "de": "auf... Grab" },
+            { "ru": "на", "de": "auf" },
             { "ru": "моей", "de": "meiner" },
-            { "ru": "надежды.", "de": "Hoffnung" }
+            { "ru": "надежды", "de": "Hoffnung" },
+            { "ru": "могиле.", "de": "Grab" }
           ],
           "annotations": []
         }
