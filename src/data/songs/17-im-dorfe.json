@@ -1,0 +1,162 @@
+{
+  "number": 17,
+  "title_de": "Im Dorfe",
+  "title_ru": "В деревне",
+  "stanzas": [
+    {
+      "lines_de": [
+        "Es bellen die Hunde, es rasseln die Ketten,",
+        "Es schlafen die Menschen in ihren Betten,",
+        "Träumen sich manches, was sie nicht haben,",
+        "Tun sich im Guten und Argen erlaben:"
+      ],
+      "lines_ru": [
+        {
+          "segments": [
+            { "ru": "Лают", "de": "Es bellen" },
+            { "ru": "псы,", "de": "die Hunde" },
+            { "ru": "гремят", "de": "es rasseln" },
+            { "ru": "цепи,", "de": "die Ketten" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Спят", "de": "Es schlafen" },
+            { "ru": "люди", "de": "die Menschen" },
+            { "ru": "в", "de": "in" },
+            { "ru": "своих", "de": "ihren" },
+            { "ru": "постелях,", "de": "Betten" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Снится им", "de": "Träumen sich" },
+            { "ru": "не одно,", "de": "manches" },
+            { "ru": "чего", "de": "was" },
+            { "ru": "у них", "de": "sie" },
+            { "ru": "нет,", "de": "nicht haben" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Услаждают", "de": "Tun... erlaben" },
+            { "ru": "себя", "de": "sich" },
+            { "ru": "в", "de": "im" },
+            { "ru": "добром", "de": "Guten" },
+            { "ru": "и", "de": "und" },
+            { "ru": "злом:", "de": "Argen" }
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "lines_de": [
+        "Und morgen früh ist alles zerflossen.",
+        "Je nun, sie haben ihr Teil genossen,",
+        "Und hoffen, was sie noch übrig ließen,",
+        "Doch wieder zu finden auf ihren Kissen."
+      ],
+      "lines_ru": [
+        {
+          "segments": [
+            { "ru": "А", "de": "Und" },
+            { "ru": "завтра утром", "de": "morgen früh" },
+            { "ru": "всё", "de": "alles" },
+            { "ru": "растеклось.", "de": "ist... zerflossen" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Ну что ж,", "de": "Je nun" },
+            { "ru": "они", "de": "sie" },
+            { "ru": "своей", "de": "ihr" },
+            { "ru": "долей", "de": "Teil" },
+            { "ru": "насладились,", "de": "haben... genossen" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "И", "de": "Und" },
+            { "ru": "надеются,", "de": "hoffen" },
+            { "ru": "что", "de": "was" },
+            { "ru": "они", "de": "sie" },
+            { "ru": "ещё", "de": "noch" },
+            { "ru": "про запас", "de": "übrig" },
+            { "ru": "оставили,", "de": "ließen" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Однако", "de": "Doch" },
+            { "ru": "снова", "de": "wieder" },
+            { "ru": "найти", "de": "zu finden" },
+            { "ru": "на", "de": "auf" },
+            { "ru": "своих", "de": "ihren" },
+            { "ru": "подушках.", "de": "Kissen" }
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "lines_de": [
+        "Bellt mich nur fort, ihr wachen Hunde,",
+        "Lasst mich nicht ruhn in der Schlummerstunde!",
+        "Ich bin zu Ende mit allen Träumen,",
+        "Was will ich unter den Schläfern säumen?"
+      ],
+      "lines_ru": [
+        {
+          "segments": [
+            { "ru": "Лайте", "de": "Bellt" },
+            { "ru": "меня", "de": "mich" },
+            { "ru": "только", "de": "nur" },
+            { "ru": "прочь,", "de": "fort" },
+            { "ru": "вы,", "de": "ihr" },
+            { "ru": "бодрствующие", "de": "wachen" },
+            { "ru": "псы,", "de": "Hunde" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Не давайте", "de": "Lasst... nicht" },
+            { "ru": "мне", "de": "mich" },
+            { "ru": "покоиться", "de": "ruhn" },
+            { "ru": "в", "de": "in" },
+            { "ru": "час дремы!", "de": "der Schlummerstunde" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Я", "de": "Ich" },
+            { "ru": "покончил", "de": "bin zu Ende" },
+            { "ru": "со", "de": "mit" },
+            { "ru": "всеми", "de": "allen" },
+            { "ru": "снами-мечтами,", "de": "Träumen" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Что", "de": "Was" },
+            { "ru": "хочу", "de": "will" },
+            { "ru": "я", "de": "ich" },
+            { "ru": "среди", "de": "unter" },
+            { "ru": "спящих", "de": "den Schläfern" },
+            { "ru": "медлить?", "de": "säumen" }
+          ],
+          "annotations": []
+        }
+      ]
+    }
+  ]
+}
