@@ -67,7 +67,8 @@
       "lines_ru": [
         {
           "segments": [
-            { "ru": "Смотрю на", "de": "Schaue... nach" },
+            { "ru": "Гляжу", "de": "Schaue" },
+            { "ru": "на", "de": "nach" },
             { "ru": "один", "de": "dem einen" },
             { "ru": "лист,", "de": "Blatte" }
           ],
@@ -75,7 +76,7 @@
         },
         {
           "segments": [
-            { "ru": "Вешаю", "de": "Hänge" },
+            { "ru": "Возлагаю", "de": "Hänge" },
             { "ru": "свою", "de": "meine" },
             { "ru": "надежду", "de": "Hoffnung" },
             { "ru": "на него;", "de": "dran" }
