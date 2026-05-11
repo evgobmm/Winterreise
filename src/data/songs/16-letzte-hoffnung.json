@@ -91,7 +91,8 @@
         },
         {
           "segments": [
-            { "ru": "Играет", "de": "Spielt" },
+            { "ru": "Когда", "de": "" },
+            { "ru": "играет", "de": "Spielt" },
             { "ru": "ветер", "de": "der Wind" },
             { "ru": "с", "de": "mit" },
             { "ru": "моим", "de": "meinem" },
