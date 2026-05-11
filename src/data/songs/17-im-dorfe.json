@@ -48,12 +48,13 @@
         },
         {
           "segments": [
-            { "ru": "Услаждают", "de": "Tun... erlaben" },
+            { "ru": "Знай", "de": "Tun" },
             { "ru": "себя", "de": "sich" },
             { "ru": "в", "de": "im" },
             { "ru": "добром", "de": "Guten" },
             { "ru": "и", "de": "und" },
-            { "ru": "злом:", "de": "Argen" }
+            { "ru": "злом", "de": "Argen" },
+            { "ru": "услаждают:", "de": "erlaben" }
           ],
           "annotations": []
         }
