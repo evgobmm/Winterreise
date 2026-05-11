@@ -81,10 +81,11 @@
       "lines_ru": [
         {
           "segments": [
-            { "ru": "А", "de": "Und" },
-            { "ru": "завтра утром", "de": "morgen früh" },
+            { "ru": "И", "de": "Und" },
+            { "ru": "завтра", "de": "morgen" },
+            { "ru": "утром", "de": "früh" },
             { "ru": "всё", "de": "alles" },
-            { "ru": "растеклось.", "de": "ist... zerflossen" }
+            { "ru": "растечётся.", "de": "ist... zerflossen" }
           ],
           "annotations": []
         },
@@ -101,8 +102,8 @@
         {
           "segments": [
             { "ru": "И", "de": "Und" },
-            { "ru": "надеются,", "de": "hoffen" },
-            { "ru": "что", "de": "was" },
+            { "ru": "надеются", "de": "hoffen" },
+            { "ru": "то, что", "de": "was" },
             { "ru": "они", "de": "sie" },
             { "ru": "ещё", "de": "noch" },
             { "ru": "про запас", "de": "übrig" },
@@ -112,7 +113,7 @@
         },
         {
           "segments": [
-            { "ru": "Однако", "de": "Doch" },
+            { "ru": "Всё же", "de": "Doch" },
             { "ru": "снова", "de": "wieder" },
             { "ru": "найти", "de": "zu finden" },
             { "ru": "на", "de": "auf" },
