@@ -129,20 +129,31 @@ function collectAnnotations(type) {
 const langAnnotations = computed(() => collectAnnotations('lang'))
 const meaningAnnotations = computed(() => collectAnnotations('meaning'))
 
+const TOOLTIP_VERT_MARGIN = 16
+const TOOLTIP_HORIZ_GAP = 16
+const SETTINGS_COLUMN = 200
+const SETTINGS_RESERVE = SETTINGS_COLUMN + TOOLTIP_HORIZ_GAP
+const TOOLTIP_MIN_WIDTH = 240
+const TOOLTIP_MAX_WIDTH = 420
+
 const hoveredAnnKey = ref(null)
-const hoveredY = ref(16)
+const hoveredY = ref(TOOLTIP_VERT_MARGIN)
 const tooltipRef = ref(null)
 const tooltipReady = ref(false)
 const articleRef = ref(null)
 const tooltipLeft = ref(0)
-const tooltipMaxWidth = ref(300)
+const tooltipWidth = ref(TOOLTIP_MIN_WIDTH)
 let lastKey = null
 
 function updateTooltipPosition() {
   if (!articleRef.value) return
   const rect = articleRef.value.getBoundingClientRect()
-  tooltipLeft.value = rect.right + 16
-  tooltipMaxWidth.value = Math.max(200, window.innerWidth - rect.right - 32)
+  const desiredLeft = rect.right + TOOLTIP_HORIZ_GAP
+  const rightBoundary = window.innerWidth - SETTINGS_RESERVE
+  const naturalWidth = rightBoundary - desiredLeft
+  const width = Math.min(TOOLTIP_MAX_WIDTH, Math.max(TOOLTIP_MIN_WIDTH, naturalWidth))
+  tooltipLeft.value = Math.max(TOOLTIP_HORIZ_GAP, Math.min(desiredLeft, rightBoundary - width))
+  tooltipWidth.value = width
 }
 
 onMounted(() => {
@@ -176,8 +187,6 @@ const annDataByKey = computed(() => {
   return map
 })
 
-const TOOLTIP_MARGIN = 16
-
 function handleHover(payload) {
   if (!payload) {
     hoveredAnnKey.value = null
@@ -189,17 +198,17 @@ function handleHover(payload) {
   hoveredAnnKey.value = payload.key
   if (payload.key === lastKey) return
   lastKey = payload.key
-  hoveredY.value = Math.max(TOOLTIP_MARGIN, payload.y)
+  hoveredY.value = Math.max(TOOLTIP_VERT_MARGIN, payload.y)
   tooltipReady.value = false
   nextTick(() => {
     if (!tooltipRef.value) return
     const h = tooltipRef.value.offsetHeight
     const vh = window.innerHeight
-    if (h > vh - TOOLTIP_MARGIN * 2) {
-      hoveredY.value = TOOLTIP_MARGIN
+    if (h > vh - TOOLTIP_VERT_MARGIN * 2) {
+      hoveredY.value = TOOLTIP_VERT_MARGIN
     } else {
-      const maxTop = vh - h - TOOLTIP_MARGIN
-      hoveredY.value = Math.max(TOOLTIP_MARGIN, Math.min(payload.y, maxTop))
+      const maxTop = vh - h - TOOLTIP_VERT_MARGIN
+      hoveredY.value = Math.max(TOOLTIP_VERT_MARGIN, Math.min(payload.y, maxTop))
     }
     tooltipReady.value = true
   })
@@ -382,7 +391,7 @@ function getLineDeParts(stanza, lineIndex) {
         'hover-tooltip-' + hoveredTooltip.type,
         { 'is-ready': tooltipReady }
       ]"
-      :style="{ top: hoveredY + 'px', left: tooltipLeft + 'px', maxWidth: tooltipMaxWidth + 'px' }"
+      :style="{ top: hoveredY + 'px', left: tooltipLeft + 'px', width: tooltipWidth + 'px' }"
     >
       {{ hoveredTooltip.text }}
     </div>
@@ -493,7 +502,6 @@ function getLineDeParts(stanza, lineIndex) {
 
 .hover-tooltip {
   position: fixed;
-  width: 300px;
   background: var(--bg);
   border: 1px solid var(--border);
   border-radius: 6px;
