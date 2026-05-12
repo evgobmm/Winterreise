@@ -473,9 +473,9 @@ function getLineDeParts(stanza, lineIndex) {
 
 .hover-tooltip {
   position: fixed;
-  left: calc(260px + 900px + 16px);
+  left: calc(260px + 1080px + 16px);
   width: 300px;
-  max-width: calc(100vw - 260px - 900px - 32px);
+  max-width: calc(100vw - 260px - 1080px - 32px);
   background: var(--bg);
   border: 1px solid var(--border);
   border-radius: 6px;
