@@ -133,7 +133,7 @@
       "lines_ru": [
         {
           "segments": [
-            { "ru": "Лайте", "de": "Bellt" },
+            { "ru": "Лая, гоните", "de": "Bellt" },
             { "ru": "меня", "de": "mich" },
             { "ru": "только", "de": "nur" },
             { "ru": "прочь,", "de": "fort" },
@@ -149,7 +149,7 @@
             { "ru": "мне", "de": "mich" },
             { "ru": "покоиться", "de": "ruhn" },
             { "ru": "в", "de": "in" },
-            { "ru": "час дремы!", "de": "der Schlummerstunde" }
+            { "ru": "дрёмы час!", "de": "der Schlummerstunde" }
           ],
           "annotations": []
         },
@@ -165,9 +165,8 @@
         },
         {
           "segments": [
-            { "ru": "Что", "de": "Was" },
-            { "ru": "хочу", "de": "will" },
-            { "ru": "я", "de": "ich" },
+            { "ru": "Зачем", "de": "Was" },
+            { "ru": "мне", "de": "will ich" },
             { "ru": "среди", "de": "unter" },
             { "ru": "спящих", "de": "den Schläfern" },
             { "ru": "медлить?", "de": "säumen" }
