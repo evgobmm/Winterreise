@@ -21,15 +21,15 @@
         },
         {
           "segments": [
-            { "ru": "Небес", "de": "Des Himmels" },
-            { "ru": "серое", "de": "graues" },
-            { "ru": "платье,", "de": "Kleid" }
+            { "ru": "Неба", "de": "Des Himmels" },
+            { "ru": "серую", "de": "graues" },
+            { "ru": "одежду!", "de": "Kleid" }
           ],
           "annotations": []
         },
         {
           "segments": [
-            { "ru": "Облаков обрывки", "de": "Die Wolkenfetzen" },
+            { "ru": "Облаков клочья", "de": "Die Wolkenfetzen" },
             { "ru": "треплются", "de": "flattern" }
           ],
           "annotations": []
