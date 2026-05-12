@@ -75,7 +75,15 @@
             { "ru": "красные", "de": "rote" },
             { "ru": "огненные пламена", "de": "Feuerflammen" }
           ],
-          "annotations": []
+          "annotations": [
+            {
+              "type": "meaning",
+              "segment_range": [0, 2],
+              "line_span": 2,
+              "continuation_ranges": [[0, 2]],
+              "text": "Имеется в виду, что утреннее солнце («огненные» языки «пламени») заполняет промежутки между «клочьями облаков»."
+            }
+          ]
         },
         {
           "segments": [
