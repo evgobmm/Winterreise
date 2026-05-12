@@ -121,7 +121,7 @@
           "segments": [
             { "ru": "Это", "de": "Es" },
             { "ru": "—", "de": "ist" },
-            { "ru": "ничто иное, как", "de": "nichts als" },
+            { "ru": "не что иное, как", "de": "nichts als" },
             { "ru": "зима,", "de": "der Winter" }
           ],
           "annotations": []
