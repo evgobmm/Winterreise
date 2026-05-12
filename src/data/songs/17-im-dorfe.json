@@ -165,11 +165,11 @@
         },
         {
           "segments": [
-            { "ru": "Зачем", "de": "Was" },
+            { "ru": "Что", "de": "Was" },
             { "ru": "мне", "de": "will ich" },
             { "ru": "среди", "de": "unter" },
             { "ru": "спящих", "de": "den Schläfern" },
-            { "ru": "медлить?", "de": "säumen" }
+            { "ru": "мешкать?", "de": "säumen" }
           ],
           "annotations": []
         }
