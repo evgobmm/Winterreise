@@ -201,6 +201,9 @@ const annDataByKey = computed(() => {
   return map
 })
 
+const TOOLTIP_WIDTH_STEP = 40
+const TOOLTIP_FIT_HARD_MAX = 720
+
 function handleHover(payload) {
   if (!payload) {
     hoveredAnnKey.value = null
@@ -214,11 +217,28 @@ function handleHover(payload) {
   lastKey = payload.key
   hoveredY.value = Math.max(TOOLTIP_VERT_MARGIN, payload.y)
   tooltipReady.value = false
-  nextTick(() => {
+  nextTick(async () => {
     if (!tooltipRef.value) return
-    const h = tooltipRef.value.offsetHeight
     const vh = window.innerHeight
-    if (h > vh - TOOLTIP_VERT_MARGIN * 2) {
+    const maxHeight = vh - TOOLTIP_VERT_MARGIN * 2
+    const screenMax = window.innerWidth - TOOLTIP_HORIZ_GAP * 2
+    const fitMax = Math.min(TOOLTIP_FIT_HARD_MAX, screenMax)
+
+    let h = tooltipRef.value.offsetHeight
+
+    // If too tall, widen step-by-step until it fits or we hit the hard max
+    while (h > maxHeight && tooltipWidth.value < fitMax) {
+      tooltipWidth.value = Math.min(tooltipWidth.value + TOOLTIP_WIDTH_STEP, fitMax)
+      const screenRight = window.innerWidth - TOOLTIP_HORIZ_GAP
+      if (tooltipLeft.value + tooltipWidth.value > screenRight) {
+        tooltipLeft.value = Math.max(TOOLTIP_HORIZ_GAP, screenRight - tooltipWidth.value)
+      }
+      await nextTick()
+      if (!tooltipRef.value) return
+      h = tooltipRef.value.offsetHeight
+    }
+
+    if (h > maxHeight) {
       hoveredY.value = TOOLTIP_VERT_MARGIN
     } else {
       const maxTop = vh - h - TOOLTIP_VERT_MARGIN
