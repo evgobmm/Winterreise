@@ -1,5 +1,5 @@
 <script setup>
-import { ref, computed, nextTick } from 'vue'
+import { ref, computed, nextTick, onMounted, onUnmounted } from 'vue'
 import InterlinearLine from './InterlinearLine.vue'
 import AnnotationsPanel from './AnnotationsPanel.vue'
 import FootnoteMark from './FootnoteMark.vue'
@@ -133,7 +133,26 @@ const hoveredAnnKey = ref(null)
 const hoveredY = ref(16)
 const tooltipRef = ref(null)
 const tooltipReady = ref(false)
+const articleRef = ref(null)
+const tooltipLeft = ref(0)
+const tooltipMaxWidth = ref(300)
 let lastKey = null
+
+function updateTooltipPosition() {
+  if (!articleRef.value) return
+  const rect = articleRef.value.getBoundingClientRect()
+  tooltipLeft.value = rect.right + 16
+  tooltipMaxWidth.value = Math.max(200, window.innerWidth - rect.right - 32)
+}
+
+onMounted(() => {
+  updateTooltipPosition()
+  window.addEventListener('resize', updateTooltipPosition)
+})
+
+onUnmounted(() => {
+  window.removeEventListener('resize', updateTooltipPosition)
+})
 
 const annDataByKey = computed(() => {
   const map = new Map()
@@ -166,6 +185,7 @@ function handleHover(payload) {
     lastKey = null
     return
   }
+  updateTooltipPosition()
   hoveredAnnKey.value = payload.key
   if (payload.key === lastKey) return
   lastKey = payload.key
@@ -287,7 +307,7 @@ function getLineDeParts(stanza, lineIndex) {
 </script>
 
 <template>
-  <article v-if="song" class="song-view">
+  <article v-if="song" class="song-view" ref="articleRef">
     <header class="song-header">
       <div class="col-de">
         <h2
@@ -362,7 +382,7 @@ function getLineDeParts(stanza, lineIndex) {
         'hover-tooltip-' + hoveredTooltip.type,
         { 'is-ready': tooltipReady }
       ]"
-      :style="{ top: hoveredY + 'px' }"
+      :style="{ top: hoveredY + 'px', left: tooltipLeft + 'px', maxWidth: tooltipMaxWidth + 'px' }"
     >
       {{ hoveredTooltip.text }}
     </div>
@@ -473,9 +493,7 @@ function getLineDeParts(stanza, lineIndex) {
 
 .hover-tooltip {
   position: fixed;
-  left: calc(260px + 1080px + 16px);
   width: 300px;
-  max-width: calc(100vw - 260px - 1080px - 32px);
   background: var(--bg);
   border: 1px solid var(--border);
   border-radius: 6px;
