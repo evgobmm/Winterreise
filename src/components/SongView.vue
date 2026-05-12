@@ -147,12 +147,12 @@ let lastKey = null
 
 function getContentRight() {
   if (!articleRef.value) return null
-  const elements = articleRef.value.querySelectorAll('.col-ru .segment, .col-ru h2')
-  if (elements.length === 0) {
+  const segments = articleRef.value.querySelectorAll('.col-ru .segment')
+  if (segments.length === 0) {
     return articleRef.value.getBoundingClientRect().right
   }
   let maxRight = 0
-  for (const el of elements) {
+  for (const el of segments) {
     const r = el.getBoundingClientRect().right
     if (r > maxRight) maxRight = r
   }
