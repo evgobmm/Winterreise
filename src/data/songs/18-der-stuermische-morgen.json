@@ -63,7 +63,7 @@
         },
         {
           "segments": [
-            { "ru": "Проходят", "de": "Ziehn... hin" },
+            { "ru": "Пролегают", "de": "Ziehn... hin" },
             { "ru": "между", "de": "zwischen" },
             { "ru": "ними,", "de": "ihnen" }
           ],
@@ -81,9 +81,9 @@
         {
           "segments": [
             { "ru": "Как раз", "de": "So recht" },
+            { "ru": "мне", "de": "meinem" },
             { "ru": "по", "de": "nach" },
-            { "ru": "моему", "de": "meinem" },
-            { "ru": "нраву.", "de": "Sinn" }
+            { "ru": "душе.", "de": "Sinn" }
           ],
           "annotations": []
         }
