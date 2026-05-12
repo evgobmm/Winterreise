@@ -1,0 +1,141 @@
+{
+  "number": 18,
+  "title_de": "Der stürmische Morgen",
+  "title_ru": "Бурное утро",
+  "stanzas": [
+    {
+      "lines_de": [
+        "Wie hat der Sturm zerrissen",
+        "Des Himmels graues Kleid,",
+        "Die Wolkenfetzen flattern",
+        "Umher in mattem Streit."
+      ],
+      "lines_ru": [
+        {
+          "segments": [
+            { "ru": "Как", "de": "Wie" },
+            { "ru": "буря", "de": "der Sturm" },
+            { "ru": "разорвала", "de": "hat... zerrissen" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Небес", "de": "Des Himmels" },
+            { "ru": "серое", "de": "graues" },
+            { "ru": "платье,", "de": "Kleid" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Облаков обрывки", "de": "Die Wolkenfetzen" },
+            { "ru": "треплются", "de": "flattern" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Кругом", "de": "Umher" },
+            { "ru": "в", "de": "in" },
+            { "ru": "вялом", "de": "mattem" },
+            { "ru": "споре.", "de": "Streit" }
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "lines_de": [
+        "Und rote Feuerflammen",
+        "Ziehn zwischen ihnen hin,",
+        "Das nenn ich einen Morgen",
+        "So recht nach meinem Sinn."
+      ],
+      "lines_ru": [
+        {
+          "segments": [
+            { "ru": "И", "de": "Und" },
+            { "ru": "красные", "de": "rote" },
+            { "ru": "огненные пламена", "de": "Feuerflammen" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Проходят", "de": "Ziehn... hin" },
+            { "ru": "между", "de": "zwischen" },
+            { "ru": "ними,", "de": "ihnen" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Это", "de": "Das" },
+            { "ru": "называю", "de": "nenn" },
+            { "ru": "я", "de": "ich" },
+            { "ru": "утром", "de": "einen Morgen" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Как раз", "de": "So recht" },
+            { "ru": "по", "de": "nach" },
+            { "ru": "моему", "de": "meinem" },
+            { "ru": "настроению.", "de": "Sinn" }
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "lines_de": [
+        "Mein Herz sieht an dem Himmel",
+        "Gemalt sein eignes Bild,",
+        "Es ist nichts als der Winter,",
+        "Der Winter kalt und wild."
+      ],
+      "lines_ru": [
+        {
+          "segments": [
+            { "ru": "Моё", "de": "Mein" },
+            { "ru": "сердце", "de": "Herz" },
+            { "ru": "видит,", "de": "sieht" },
+            { "ru": "как", "de": "" },
+            { "ru": "на", "de": "an dem" },
+            { "ru": "небе", "de": "Himmel" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Нарисован", "de": "Gemalt" },
+            { "ru": "свой", "de": "sein" },
+            { "ru": "собственный", "de": "eignes" },
+            { "ru": "образ,", "de": "Bild" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Это", "de": "Es" },
+            { "ru": "—", "de": "ist" },
+            { "ru": "ничто иное, как", "de": "nichts als" },
+            { "ru": "зима,", "de": "der Winter" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Зима", "de": "Der Winter" },
+            { "ru": "холодная", "de": "kalt" },
+            { "ru": "и", "de": "und" },
+            { "ru": "буйная.", "de": "wild" }
+          ],
+          "annotations": []
+        }
+      ]
+    }
+  ]
+}
