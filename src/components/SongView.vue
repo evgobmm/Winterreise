@@ -145,15 +145,22 @@ const tooltipLeft = ref(0)
 const tooltipWidth = ref(TOOLTIP_MIN_WIDTH)
 let lastKey = null
 
-function getColRuRight() {
+function getContentRight() {
   if (!articleRef.value) return null
-  const colRu = articleRef.value.querySelector('.col-ru')
-  if (colRu) return colRu.getBoundingClientRect().right
-  return articleRef.value.getBoundingClientRect().right
+  const elements = articleRef.value.querySelectorAll('.col-ru .segment, .col-ru h2')
+  if (elements.length === 0) {
+    return articleRef.value.getBoundingClientRect().right
+  }
+  let maxRight = 0
+  for (const el of elements) {
+    const r = el.getBoundingClientRect().right
+    if (r > maxRight) maxRight = r
+  }
+  return maxRight
 }
 
 function updateTooltipPosition() {
-  const right = getColRuRight()
+  const right = getContentRight()
   if (right == null) return
   const desiredLeft = right + TOOLTIP_HORIZ_GAP
   const rightBoundary = window.innerWidth - SETTINGS_RESERVE
