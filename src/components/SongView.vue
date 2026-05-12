@@ -130,11 +130,11 @@ const langAnnotations = computed(() => collectAnnotations('lang'))
 const meaningAnnotations = computed(() => collectAnnotations('meaning'))
 
 const TOOLTIP_VERT_MARGIN = 16
-const TOOLTIP_HORIZ_GAP = 16
+const TOOLTIP_HORIZ_GAP = 8
 const SETTINGS_COLUMN = 200
 const SETTINGS_RESERVE = SETTINGS_COLUMN + TOOLTIP_HORIZ_GAP
-const TOOLTIP_MIN_WIDTH = 240
-const TOOLTIP_MAX_WIDTH = 420
+const TOOLTIP_MIN_WIDTH = 200
+const TOOLTIP_MAX_WIDTH = 280
 
 const hoveredAnnKey = ref(null)
 const hoveredY = ref(TOOLTIP_VERT_MARGIN)
@@ -145,10 +145,17 @@ const tooltipLeft = ref(0)
 const tooltipWidth = ref(TOOLTIP_MIN_WIDTH)
 let lastKey = null
 
+function getColRuRight() {
+  if (!articleRef.value) return null
+  const colRu = articleRef.value.querySelector('.col-ru')
+  if (colRu) return colRu.getBoundingClientRect().right
+  return articleRef.value.getBoundingClientRect().right
+}
+
 function updateTooltipPosition() {
-  if (!articleRef.value) return
-  const rect = articleRef.value.getBoundingClientRect()
-  const desiredLeft = rect.right + TOOLTIP_HORIZ_GAP
+  const right = getColRuRight()
+  if (right == null) return
+  const desiredLeft = right + TOOLTIP_HORIZ_GAP
   const rightBoundary = window.innerWidth - SETTINGS_RESERVE
   const naturalWidth = rightBoundary - desiredLeft
   const width = Math.min(TOOLTIP_MAX_WIDTH, Math.max(TOOLTIP_MIN_WIDTH, naturalWidth))
