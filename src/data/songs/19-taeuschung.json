@@ -19,9 +19,9 @@
       "lines_ru": [
         {
           "segments": [
-            { "ru": "Свет", "de": "Ein Licht" },
+            { "ru": "Огонь", "de": "Ein Licht" },
             { "ru": "танцует", "de": "tanzt" },
-            { "ru": "приветливо", "de": "freundlich" },
+            { "ru": "дружелюбно", "de": "freundlich" },
             { "ru": "передо мной,", "de": "vor mir her" }
           ],
           "annotations": []
@@ -31,9 +31,15 @@
             { "ru": "Я", "de": "Ich" },
             { "ru": "следую за", "de": "folg'... nach" },
             { "ru": "ним", "de": "ihm" },
-            { "ru": "вкривь и вкось;", "de": "die Kreuz und Quer" }
+            { "ru": "то туда, то сюда;", "de": "die Kreuz und Quer" }
           ],
-          "annotations": []
+          "annotations": [
+            {
+              "type": "lang",
+              "segment_range": [3, 3],
+              "text": "Дословно — «крест и поперёк». Эта немецкая идиома описывает движение в разных направлениях, где попеременно меняются стороны."
+            }
+          ]
         },
         {
           "segments": [
