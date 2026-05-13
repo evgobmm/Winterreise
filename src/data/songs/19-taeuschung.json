@@ -1,0 +1,130 @@
+{
+  "number": 19,
+  "title_de": "Täuschung",
+  "title_ru": "Обман",
+  "stanzas": [
+    {
+      "lines_de": [
+        "Ein Licht tanzt freundlich vor mir her,",
+        "Ich folg' ihm nach die Kreuz und Quer;",
+        "Ich folg' ihm gern, und seh's ihm an,",
+        "Dass es verlockt den Wandersmann."
+      ],
+      "lines_ru": [
+        {
+          "segments": [
+            { "ru": "Свет", "de": "Ein Licht" },
+            { "ru": "танцует", "de": "tanzt" },
+            { "ru": "приветливо", "de": "freundlich" },
+            { "ru": "передо мной,", "de": "vor mir her" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Я", "de": "Ich" },
+            { "ru": "следую за", "de": "folg'... nach" },
+            { "ru": "ним", "de": "ihm" },
+            { "ru": "вкривь и вкось;", "de": "die Kreuz und Quer" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Я", "de": "Ich" },
+            { "ru": "следую за", "de": "folg'" },
+            { "ru": "ним", "de": "ihm" },
+            { "ru": "охотно,", "de": "gern" },
+            { "ru": "и", "de": "und" },
+            { "ru": "вижу", "de": "seh's... an" },
+            { "ru": "по нему,", "de": "ihm" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Что", "de": "Dass" },
+            { "ru": "он", "de": "es" },
+            { "ru": "заманивает", "de": "verlockt" },
+            { "ru": "странника.", "de": "den Wandersmann" }
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "lines_de": [
+        "Ach! wer wie ich so elend ist,",
+        "Gibt gern sich hin der bunten List,",
+        "Die hinter Eis und Nacht und Graus",
+        "Ihm weist ein helles, warmes Haus.",
+        "Und eine liebe Seele drin —",
+        "Nur Täuschung ist für mich Gewinn!"
+      ],
+      "lines_ru": [
+        {
+          "segments": [
+            { "ru": "Ах!", "de": "Ach" },
+            { "ru": "кто,", "de": "wer" },
+            { "ru": "как", "de": "wie" },
+            { "ru": "я,", "de": "ich" },
+            { "ru": "так", "de": "so" },
+            { "ru": "жалок,", "de": "elend ist" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Отдаётся", "de": "Gibt... sich hin" },
+            { "ru": "охотно", "de": "gern" },
+            { "ru": "пёстрой", "de": "der bunten" },
+            { "ru": "хитрости,", "de": "List" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Которая", "de": "Die" },
+            { "ru": "за", "de": "hinter" },
+            { "ru": "льдом", "de": "Eis" },
+            { "ru": "и", "de": "und" },
+            { "ru": "ночью", "de": "Nacht" },
+            { "ru": "и", "de": "und" },
+            { "ru": "ужасом", "de": "Graus" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Ему", "de": "Ihm" },
+            { "ru": "показывает", "de": "weist" },
+            { "ru": "светлый,", "de": "ein helles" },
+            { "ru": "тёплый", "de": "warmes" },
+            { "ru": "дом.", "de": "Haus" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "И", "de": "Und" },
+            { "ru": "милую", "de": "eine liebe" },
+            { "ru": "душу", "de": "Seele" },
+            { "ru": "внутри —", "de": "drin" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Только", "de": "Nur" },
+            { "ru": "обман", "de": "Täuschung" },
+            { "ru": "—", "de": "ist" },
+            { "ru": "для", "de": "für" },
+            { "ru": "меня", "de": "mich" },
+            { "ru": "выгода!", "de": "Gewinn" }
+          ],
+          "annotations": []
+        }
+      ]
+    }
+  ]
+}
