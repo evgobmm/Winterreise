@@ -153,9 +153,11 @@
         },
         {
           "segments": [
-            { "ru": "Следуй", "de": "Folge nach" },
+            { "ru": "Следуй", "de": "Folge" },
+            { "ru": "вслед", "de": "nach" },
             { "ru": "лишь", "de": "nur" },
-            { "ru": "за моими", "de": "meinen" },
+            { "ru": "за", "de": "" },
+            { "ru": "моими", "de": "meinen" },
             { "ru": "слезами,", "de": "Tränen" }
           ],
           "annotations": []
