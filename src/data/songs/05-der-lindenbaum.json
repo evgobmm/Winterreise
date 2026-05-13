@@ -286,9 +286,9 @@
           "segments": [
             { "ru": "Теперь", "de": "Nun" },
             { "ru": "я", "de": "ich" },
+            { "ru": "—", "de": "bin" },
             { "ru": "не на один", "de": "manche" },
-            { "ru": "час", "de": "Stunde" },
-            { "ru": "—", "de": "bin" }
+            { "ru": "час", "de": "Stunde" }
           ],
           "annotations": [
             {
