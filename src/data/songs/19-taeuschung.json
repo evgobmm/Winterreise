@@ -12,7 +12,7 @@
         "Ach! wer wie ich so elend ist,",
         "Gibt gern sich hin der bunten List,",
         "Die hinter Eis und Nacht und Graus",
-        "Ihm weist ein helles, warmes Haus.",
+        "Ihm weist ein helles, warmes Haus,",
         "Und eine liebe Seele drin —",
         "Nur Täuschung ist für mich Gewinn!"
       ],
@@ -109,7 +109,7 @@
             { "ru": "показывает", "de": "weist" },
             { "ru": "светлый,", "de": "ein helles" },
             { "ru": "тёплый", "de": "warmes" },
-            { "ru": "дом.", "de": "Haus" }
+            { "ru": "дом,", "de": "Haus" }
           ],
           "annotations": []
         },
