@@ -77,16 +77,17 @@
             { "ru": "как", "de": "wie" },
             { "ru": "я,", "de": "ich" },
             { "ru": "так", "de": "so" },
-            { "ru": "жалок,", "de": "elend ist" }
+            { "ru": "жалок-несчастен,", "de": "elend ist" }
           ],
           "annotations": []
         },
         {
           "segments": [
-            { "ru": "Отдаётся", "de": "Gibt... sich hin" },
+            { "ru": "Тот", "de": "" },
+            { "ru": "предаётся", "de": "Gibt... sich hin" },
             { "ru": "охотно", "de": "gern" },
             { "ru": "пёстрой", "de": "der bunten" },
-            { "ru": "хитрости,", "de": "List" }
+            { "ru": "уловке,", "de": "List" }
           ],
           "annotations": []
         },
