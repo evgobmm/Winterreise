@@ -86,7 +86,8 @@
         },
         {
           "segments": [
-            { "ru": "Повеет", "de": "Weht daher" },
+            { "ru": "Повеет", "de": "Weht" },
+            { "ru": "сюда", "de": "daher" },
             { "ru": "тепловатый", "de": "ein lauer" },
             { "ru": "ветер,", "de": "Wind" }
           ],
