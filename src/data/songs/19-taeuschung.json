@@ -1,7 +1,7 @@
 {
   "number": 19,
   "title_de": "Täuschung",
-  "title_ru": "Обман",
+  "title_ru": "Обман-иллюзия",
   "stanzas": [
     {
       "lines_de": [
@@ -77,14 +77,14 @@
             { "ru": "как", "de": "wie" },
             { "ru": "я,", "de": "ich" },
             { "ru": "так", "de": "so" },
-            { "ru": "жалок-несчастен,", "de": "elend ist" }
+            { "ru": "жалок-несчастен,", "de": "elend" },
+            { "ru": "тот", "de": "ist" }
           ],
           "annotations": []
         },
         {
           "segments": [
-            { "ru": "Тот", "de": "" },
-            { "ru": "предаётся", "de": "Gibt... sich hin" },
+            { "ru": "Предаётся", "de": "Gibt... sich hin" },
             { "ru": "охотно", "de": "gern" },
             { "ru": "пёстрой", "de": "der bunten" },
             { "ru": "уловке,", "de": "List" }
@@ -125,11 +125,11 @@
         {
           "segments": [
             { "ru": "Только", "de": "Nur" },
-            { "ru": "обман", "de": "Täuschung" },
+            { "ru": "обман-иллюзия", "de": "Täuschung" },
             { "ru": "—", "de": "ist" },
             { "ru": "для", "de": "für" },
             { "ru": "меня", "de": "mich" },
-            { "ru": "выгода!", "de": "Gewinn" }
+            { "ru": "обретение!", "de": "Gewinn" }
           ],
           "annotations": []
         }
