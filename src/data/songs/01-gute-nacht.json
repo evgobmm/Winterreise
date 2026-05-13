@@ -43,7 +43,8 @@
           "segments": [
             { "ru": "Май", "de": "Der Mai" },
             { "ru": "был", "de": "war" },
-            { "ru": "ко мне", "de": "mir" },
+            { "ru": "ко", "de": "" },
+            { "ru": "мне", "de": "mir" },
             { "ru": "благосклонен", "de": "gewogen" }
           ],
           "annotations": []
