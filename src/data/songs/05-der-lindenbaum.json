@@ -287,7 +287,8 @@
             { "ru": "Теперь", "de": "Nun" },
             { "ru": "я", "de": "ich" },
             { "ru": "не на один", "de": "manche" },
-            { "ru": "час", "de": "Stunde" }
+            { "ru": "час", "de": "Stunde" },
+            { "ru": "—", "de": "bin" }
           ],
           "annotations": [
             {
@@ -300,7 +301,7 @@
         },
         {
           "segments": [
-            { "ru": "Удалён", "de": "bin... Entfernt" },
+            { "ru": "Отдалён", "de": "Entfernt" },
             { "ru": "от", "de": "von" },
             { "ru": "того", "de": "jenem" },
             { "ru": "места,", "de": "Ort" }
