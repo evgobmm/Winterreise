@@ -77,14 +77,14 @@
             { "ru": "как", "de": "wie" },
             { "ru": "я,", "de": "ich" },
             { "ru": "так", "de": "so" },
-            { "ru": "жалок-несчастен,", "de": "elend" },
-            { "ru": "тот", "de": "ist" }
+            { "ru": "жалок-несчастен,", "de": "elend ist" }
           ],
           "annotations": []
         },
         {
           "segments": [
-            { "ru": "Предаётся", "de": "Gibt... sich hin" },
+            { "ru": "Тот", "de": "" },
+            { "ru": "предаётся", "de": "Gibt... sich hin" },
             { "ru": "охотно", "de": "gern" },
             { "ru": "пёстрой", "de": "der bunten" },
             { "ru": "уловке,", "de": "List" }
@@ -95,9 +95,9 @@
           "segments": [
             { "ru": "Которая", "de": "Die" },
             { "ru": "за", "de": "hinter" },
-            { "ru": "льдом", "de": "Eis" },
+            { "ru": "льдом,", "de": "Eis" },
             { "ru": "и", "de": "und" },
-            { "ru": "ночью", "de": "Nacht" },
+            { "ru": "ночью,", "de": "Nacht" },
             { "ru": "и", "de": "und" },
             { "ru": "ужасом", "de": "Graus" }
           ],
