@@ -172,7 +172,7 @@
             { "ru": "Неподвижно", "de": "Unverrückt" },
             { "ru": "перед", "de": "vor" },
             { "ru": "моим", "de": "meinem" },
-            { "ru": "взглядом;", "de": "Blick" }
+            { "ru": "взором;", "de": "Blick" }
           ],
           "annotations": []
         },
@@ -193,7 +193,7 @@
             { "ru": "ещё", "de": "noch" },
             { "ru": "никто", "de": "Keiner" },
             { "ru": "не", "de": "" },
-            { "ru": "уходил", "de": "ging" },
+            { "ru": "ходил", "de": "ging" },
             { "ru": "обратно.", "de": "zurück" }
           ],
           "annotations": []
