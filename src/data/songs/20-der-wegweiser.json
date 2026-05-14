@@ -35,13 +35,13 @@
             { "ru": "Ищу", "de": "Suche" },
             { "ru": "себе", "de": "mir" },
             { "ru": "потаённые", "de": "versteckte" },
-            { "ru": "тропки", "de": "Stege" }
+            { "ru": "тропы", "de": "Stege" }
           ],
           "annotations": []
         },
         {
           "segments": [
-            { "ru": "Сквозь", "de": "Durch" },
+            { "ru": "Через", "de": "Durch" },
             { "ru": "заснеженные", "de": "verschneite" },
             { "ru": "скальные высоты?", "de": "Felsenhöhn" }
           ],
