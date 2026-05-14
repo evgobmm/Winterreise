@@ -70,10 +70,10 @@
         {
           "segments": [
             { "ru": "Чтобы", "de": "Dass" },
-            { "ru": "я", "de": "ich" },
+            { "ru": "мне", "de": "ich" },
             { "ru": "людей", "de": "Menschen" },
-            { "ru": "должен был бы", "de": "sollte" },
-            { "ru": "избегать —", "de": "scheun" }
+            { "ru": "надлежало бы", "de": "sollte" },
+            { "ru": "сторониться —", "de": "scheun" }
           ],
           "annotations": []
         },
@@ -81,7 +81,7 @@
           "segments": [
             { "ru": "Какое", "de": "Welch" },
             { "ru": "безрассудное", "de": "ein törichtes" },
-            { "ru": "желание", "de": "Verlangen" }
+            { "ru": "влечение", "de": "Verlangen" }
           ],
           "annotations": []
         },
