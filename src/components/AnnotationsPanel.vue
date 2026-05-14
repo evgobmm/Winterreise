@@ -26,7 +26,7 @@ function toSuperscript(n) {
       <span class="annotation-ref">
         {{ ann.segments.map(s => ann.target === 'variant' ? (s.variant_ru || s.ru) : s.ru).join(' ') }}
       </span>
-      <span class="annotation-dash"> — </span>
+      <span class="annotation-sep"> ‖ </span>
       <span class="annotation-text">{{ ann.text }}</span>
     </div>
   </section>
@@ -68,7 +68,7 @@ function toSuperscript(n) {
   color: var(--text);
 }
 
-.annotation-dash {
+.annotation-sep {
   color: var(--text-secondary);
 }
 
