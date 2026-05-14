@@ -79,8 +79,8 @@
         },
         {
           "segments": [
-            { "ru": "Какое", "de": "Welch ein" },
-            { "ru": "безрассудное", "de": "törichtes" },
+            { "ru": "Какое", "de": "Welch" },
+            { "ru": "безрассудное", "de": "ein törichtes" },
             { "ru": "желание", "de": "Verlangen" }
           ],
           "annotations": []
