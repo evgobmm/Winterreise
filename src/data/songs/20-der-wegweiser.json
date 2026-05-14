@@ -122,9 +122,9 @@
         },
         {
           "segments": [
-            { "ru": "Указывают", "de": "Weisen... zu" },
-            { "ru": "на", "de": "auf" },
-            { "ru": "города,", "de": "die Städte" }
+            { "ru": "Указывают", "de": "Weisen" },
+            { "ru": "в стороны", "de": "auf... zu" },
+            { "ru": "городов,", "de": "die Städte" }
           ],
           "annotations": []
         },
@@ -133,7 +133,8 @@
             { "ru": "А", "de": "Und" },
             { "ru": "я", "de": "ich" },
             { "ru": "странствую", "de": "wandre" },
-            { "ru": "безмерно,", "de": "sonder Maßen" }
+            { "ru": "без", "de": "sonder" },
+            { "ru": "меры,", "de": "Maßen" }
           ],
           "annotations": []
         },
