@@ -161,10 +161,8 @@
         {
           "segments": [
             { "ru": "Один указатель", "de": "Einen Weiser" },
-            { "ru": "я", "de": "ich" },
-            { "ru": "вижу,", "de": "seh'" },
-            { "ru": "как", "de": "" },
-            { "ru": "он", "de": "" },
+            { "ru": "вижу", "de": "seh'" },
+            { "ru": "я:", "de": "ich" },
             { "ru": "стоит", "de": "stehen" }
           ],
           "annotations": []
