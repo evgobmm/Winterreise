@@ -13,17 +13,36 @@ const props = defineProps({
   showMeaning: { type: Boolean, default: true }
 })
 
-function fnVisible(fn) {
-  if (!fn || !props.showAnnotations) return false
-  if (fn.type === 'lang') return props.showLang
-  if (fn.type === 'meaning') return props.showMeaning
+function isVisible(annOrFn) {
+  if (!annOrFn || !props.showAnnotations) return false
+  if (annOrFn.type === 'lang') return props.showLang
+  if (annOrFn.type === 'meaning') return props.showMeaning
   return true
 }
 
 const emit = defineEmits(['hoverAnn'])
 
-function onHover(key, event) {
-  emit('hoverAnn', { key, y: event.currentTarget.getBoundingClientRect().top })
+function onHover(info, isVariantHover, event) {
+  let key = null
+  if (isVariantHover) {
+    if (info.variantFootnote && isVisible(info.variantFootnote)) {
+      key = info.variantFootnote.key
+    } else {
+      const variantAnn = info.annKeys.find(a => a.isVariant && isVisible(a))
+      const mainAnn = info.annKeys.find(a => !a.isVariant && isVisible(a))
+      key = (variantAnn && variantAnn.key) || (mainAnn && mainAnn.key) || null
+    }
+  } else {
+    if (info.footnote && isVisible(info.footnote)) {
+      key = info.footnote.key
+    } else {
+      const mainAnn = info.annKeys.find(a => !a.isVariant && isVisible(a))
+      key = (mainAnn && mainAnn.key) || null
+    }
+  }
+  if (key) {
+    emit('hoverAnn', { key, y: event.currentTarget.getBoundingClientRect().top })
+  }
 }
 
 function onLeave() {
@@ -98,33 +117,33 @@ const segmentInfo = computed(() => {
       :key="i"
       class="segment"
       :class="{
-        annotated: info.annKeys.length > 0,
-        'highlighted-lang': info.annKeys.some(a => a.key === hoveredAnnKey && a.type === 'lang' && !a.isVariant),
-        'highlighted-meaning': info.annKeys.some(a => a.key === hoveredAnnKey && a.type === 'meaning' && !a.isVariant),
+        annotated: info.annKeys.some(a => isVisible(a)),
+        'highlighted-lang': info.annKeys.some(a => a.key === hoveredAnnKey && a.type === 'lang' && !a.isVariant && isVisible(a)),
+        'highlighted-meaning': info.annKeys.some(a => a.key === hoveredAnnKey && a.type === 'meaning' && !a.isVariant && isVisible(a)),
         'highlighted-variant':
-          info.annKeys.some(a => a.key === hoveredAnnKey && a.isVariant)
+          info.annKeys.some(a => a.key === hoveredAnnKey && a.isVariant && isVisible(a))
           || (info.seg.variant_ru
-              && !info.annKeys.some(a => a.isVariant)
-              && info.annKeys.some(a => a.key === hoveredAnnKey && !a.isVariant))
+              && !info.annKeys.some(a => a.isVariant && isVisible(a))
+              && info.annKeys.some(a => a.key === hoveredAnnKey && !a.isVariant && isVisible(a)))
       }"
     >
       <span class="ru-row"
-        @mouseenter="onHover(info.footnote ? info.footnote.key : info.primaryKey, $event)"
+        @mouseenter="onHover(info, false, $event)"
         @mouseleave="onLeave"
       >
         <span v-if="info.seg.variant_ru" class="variant-ru"
-          @mouseenter.stop="onHover(info.variantFootnote ? info.variantFootnote.key : info.primaryKey, $event)"
+          @mouseenter.stop="onHover(info, true, $event)"
           @mouseleave.stop="onLeave"
         >{{ info.seg.variant_ru }}
           <FootnoteMark
-            v-if="fnVisible(info.variantFootnote)"
+            v-if="isVisible(info.variantFootnote)"
             :index="info.variantFootnote.displayIndex"
             :type="info.variantFootnote.type"
           />
         </span>
         <span class="ru-word">{{ info.seg.ru || '\u00A0' }}</span>
         <FootnoteMark
-          v-if="fnVisible(info.footnote)"
+          v-if="isVisible(info.footnote)"
           :index="info.footnote.displayIndex"
           :type="info.footnote.type"
         />
