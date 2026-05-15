@@ -178,6 +178,20 @@ const segmentInfo = computed(() => {
   margin: 0 -2px;
 }
 
+.segment.highlighted-meaning .variant-ru {
+  background: var(--highlight-meaning);
+  border-radius: 2px;
+  padding: 0 2px;
+  margin: 0 -2px;
+}
+
+.segment.highlighted-lang .variant-ru {
+  background: var(--highlight-lang);
+  border-radius: 2px;
+  padding: 0 2px;
+  margin: 0 -2px;
+}
+
 .ru-word {
   font-size: 1rem;
   color: var(--text);
