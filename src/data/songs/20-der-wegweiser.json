@@ -137,7 +137,7 @@
             { "ru": "Указатели", "de": "Weiser" },
             { "ru": "стоят", "de": "stehen" },
             { "ru": "на", "de": "auf" },
-            { "ru": "путях,", "de": "den Wegen", "variant_de": "den Straßen", "variant_ru": "дорогах" }
+            { "ru": "путях,", "de": "den Wegen", "variant_de": "Straßen", "variant_ru": "дорогах" }
           ],
           "annotations": []
         },
