@@ -13,7 +13,7 @@ body {
 
 .app {
   display: grid;
-  grid-template-columns: 260px 1fr 200px;
+  grid-template-columns: 260px 1fr auto 200px;
   min-height: 100vh;
 }
 
@@ -64,12 +64,17 @@ body {
   gap: 24px;
 }
 
-.credit {
+.credit-column {
+  padding: 32px 16px;
+  position: sticky;
+  top: 0;
+  align-self: start;
   text-align: center;
   font-size: 0.85rem;
   font-style: italic;
   color: var(--text-secondary);
   line-height: 1.5;
+  white-space: nowrap;
 }
 
 .theme-wrap {
