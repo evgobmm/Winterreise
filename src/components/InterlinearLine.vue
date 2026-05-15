@@ -101,7 +101,11 @@ const segmentInfo = computed(() => {
         annotated: info.annKeys.length > 0,
         'highlighted-lang': info.annKeys.some(a => a.key === hoveredAnnKey && a.type === 'lang' && !a.isVariant),
         'highlighted-meaning': info.annKeys.some(a => a.key === hoveredAnnKey && a.type === 'meaning' && !a.isVariant),
-        'highlighted-variant': info.annKeys.some(a => a.key === hoveredAnnKey && a.isVariant)
+        'highlighted-variant':
+          info.annKeys.some(a => a.key === hoveredAnnKey && a.isVariant)
+          || (info.seg.variant_ru
+              && !info.annKeys.some(a => a.isVariant)
+              && info.annKeys.some(a => a.key === hoveredAnnKey && !a.isVariant))
       }"
     >
       <span class="ru-row"
@@ -171,19 +175,15 @@ const segmentInfo = computed(() => {
   background: var(--highlight-meaning);
 }
 
-.segment.highlighted-variant .variant-ru,
-.segment.highlighted-meaning .variant-ru {
+.segment.highlighted-variant .variant-ru {
   background: var(--highlight-meaning);
   border-radius: 2px;
   padding: 0 2px;
   margin: 0 -2px;
 }
 
-.segment.highlighted-lang .variant-ru {
+.segment.highlighted-variant.highlighted-lang .variant-ru {
   background: var(--highlight-lang);
-  border-radius: 2px;
-  padding: 0 2px;
-  margin: 0 -2px;
 }
 
 .ru-word {
