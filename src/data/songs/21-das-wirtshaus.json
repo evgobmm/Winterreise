@@ -14,8 +14,7 @@
         {
           "segments": [
             { "ru": "На", "de": "Auf" },
-            { "ru": "некий", "de": "einen" },
-            { "ru": "погост", "de": "Totenacker" }
+            { "ru": "погост", "de": "einen Totenacker" }
           ],
           "annotations": []
         },
@@ -67,7 +66,7 @@
           "segments": [
             { "ru": "Можете быть", "de": "Könnt... sein" },
             { "ru": "наверное,", "de": "wohl" },
-            { "ru": "теми знаками,", "de": "die Zeichen" }
+            { "ru": "знаками,", "de": "die Zeichen" }
           ],
           "annotations": []
         },
@@ -129,7 +128,7 @@
         {
           "segments": [
             { "ru": "Я", "de": "" },
-            { "ru": "—", "de": "Bin", "variant_de": "Und", "variant_ru": "И" },
+            { "ru": "—", "de": "Bin" },
             { "ru": "смертельно", "de": "tödlich" },
             { "ru": "тяжело", "de": "schwer" },
             { "ru": "ранен.", "de": "verletzt" }
