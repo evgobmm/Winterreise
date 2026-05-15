@@ -1,0 +1,187 @@
+{
+  "number": 21,
+  "title_de": "Das Wirtshaus",
+  "title_ru": "Постоялый двор",
+  "stanzas": [
+    {
+      "lines_de": [
+        "Auf einen Totenacker",
+        "Hat mich mein Weg gebracht.",
+        "Allhier will ich einkehren:",
+        "Hab' ich bei mir gedacht."
+      ],
+      "lines_ru": [
+        {
+          "segments": [
+            { "ru": "На", "de": "Auf" },
+            { "ru": "некий", "de": "einen" },
+            { "ru": "погост", "de": "Totenacker" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Привёл", "de": "Hat... gebracht" },
+            { "ru": "меня", "de": "mich" },
+            { "ru": "мой", "de": "mein" },
+            { "ru": "путь.", "de": "Weg" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Здесь", "de": "Allhier" },
+            { "ru": "хочу", "de": "will" },
+            { "ru": "я", "de": "ich" },
+            { "ru": "остановиться:", "de": "einkehren" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Подумал", "de": "Hab'... gedacht" },
+            { "ru": "я", "de": "ich" },
+            { "ru": "про себя.", "de": "bei mir" }
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "lines_de": [
+        "Ihr grünen Totenkränze",
+        "Könnt wohl die Zeichen sein,",
+        "Die müde Wandrer laden",
+        "In's kühle Wirtshaus ein."
+      ],
+      "lines_ru": [
+        {
+          "segments": [
+            { "ru": "Вы,", "de": "Ihr" },
+            { "ru": "зелёные", "de": "grünen" },
+            { "ru": "погребальные венки,", "de": "Totenkränze" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Можете быть", "de": "Könnt... sein" },
+            { "ru": "наверное,", "de": "wohl" },
+            { "ru": "теми знаками,", "de": "die Zeichen" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Которые", "de": "Die" },
+            { "ru": "усталых", "de": "müde" },
+            { "ru": "странников", "de": "Wandrer" },
+            { "ru": "приглашают", "de": "laden... ein" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "В", "de": "In's" },
+            { "ru": "прохладный", "de": "kühle" },
+            { "ru": "постоялый двор.", "de": "Wirtshaus" }
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "lines_de": [
+        "Sind denn in diesem Hause",
+        "Die Kammern all' besetzt?",
+        "Bin matt zum Niedersinken,",
+        "Bin tödlich schwer verletzt."
+      ],
+      "lines_ru": [
+        {
+          "segments": [
+            { "ru": "Разве", "de": "denn" },
+            { "ru": "в", "de": "in" },
+            { "ru": "этом", "de": "diesem" },
+            { "ru": "доме", "de": "Hause" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Каморки", "de": "Die Kammern" },
+            { "ru": "—", "de": "Sind" },
+            { "ru": "все", "de": "all'" },
+            { "ru": "заняты?", "de": "besetzt" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Я", "de": "" },
+            { "ru": "—", "de": "Bin" },
+            { "ru": "слаб", "de": "matt" },
+            { "ru": "до", "de": "zum" },
+            { "ru": "падения,", "de": "Niedersinken" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Я", "de": "" },
+            { "ru": "—", "de": "Bin", "variant_de": "Und", "variant_ru": "И" },
+            { "ru": "смертельно", "de": "tödlich" },
+            { "ru": "тяжело", "de": "schwer" },
+            { "ru": "ранен.", "de": "verletzt" }
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "lines_de": [
+        "O unbarmherz'ge Schenke,",
+        "Doch weisest du mich ab?",
+        "Nun weiter denn, nur weiter,",
+        "Mein treuer Wanderstab!"
+      ],
+      "lines_ru": [
+        {
+          "segments": [
+            { "ru": "О", "de": "O" },
+            { "ru": "немилосердная", "de": "unbarmherz'ge" },
+            { "ru": "корчма,", "de": "Schenke" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Так", "de": "Doch" },
+            { "ru": "ты", "de": "du" },
+            { "ru": "меня", "de": "mich" },
+            { "ru": "прогоняешь?", "de": "weisest... ab" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Что ж,", "de": "Nun" },
+            { "ru": "дальше", "de": "weiter" },
+            { "ru": "же,", "de": "denn" },
+            { "ru": "только", "de": "nur" },
+            { "ru": "дальше,", "de": "weiter" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Мой", "de": "Mein" },
+            { "ru": "верный", "de": "treuer" },
+            { "ru": "посох странника!", "de": "Wanderstab" }
+          ],
+          "annotations": []
+        }
+      ]
+    }
+  ]
+}
