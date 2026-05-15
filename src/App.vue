@@ -37,6 +37,10 @@ const currentSongFile = computed(() => {
       <p v-else class="placeholder">Выберите песню из списка</p>
     </main>
     <aside class="settings">
+      <div class="credit">
+        Музыка Франца Шуберта<br>
+        Поэзия Вильгельма Мюллера
+      </div>
       <div class="theme-wrap">
         <ThemeToggle />
       </div>

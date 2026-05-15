@@ -64,6 +64,14 @@ body {
   gap: 24px;
 }
 
+.credit {
+  text-align: center;
+  font-size: 0.85rem;
+  font-style: italic;
+  color: var(--text-secondary);
+  line-height: 1.5;
+}
+
 .theme-wrap {
   display: flex;
   justify-content: center;
