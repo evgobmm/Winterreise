@@ -20,10 +20,10 @@
         },
         {
           "segments": [
-            { "ru": "Привёл", "de": "Hat... gebracht" },
-            { "ru": "меня", "de": "mich" },
+            { "ru": "Меня", "de": "mich" },
             { "ru": "мой", "de": "mein" },
-            { "ru": "путь.", "de": "Weg" }
+            { "ru": "путь", "de": "Weg" },
+            { "ru": "привёл.", "de": "Hat... gebracht" }
           ],
           "annotations": []
         },
@@ -38,9 +38,9 @@
         },
         {
           "segments": [
-            { "ru": "Подумал", "de": "Hab'... gedacht" },
-            { "ru": "я", "de": "ich" },
-            { "ru": "про себя.", "de": "bei mir" }
+            { "ru": "Я", "de": "ich" },
+            { "ru": "про себя", "de": "bei mir" },
+            { "ru": "подумал.", "de": "Hab'... gedacht" }
           ],
           "annotations": []
         }
