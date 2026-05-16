@@ -14,7 +14,7 @@
         {
           "segments": [
             { "ru": "На", "de": "Auf" },
-            { "ru": "погост", "de": "einen Totenacker" }
+            { "ru": "мёртвых поле", "de": "einen Totenacker" }
           ],
           "annotations": [
             { "type": "lang", "segment_range": [1, 1], "text": "Totenacker — буквально «мёртвых поле». Даже во время создания цикла отличалось от более нейтрального Friedhof («кладбище»). Поэтому мы выбрали здесь слово «погост»." }
@@ -34,7 +34,7 @@
             { "ru": "Здесь", "de": "Allhier" },
             { "ru": "хочу", "de": "will" },
             { "ru": "я", "de": "ich" },
-            { "ru": "остановиться:", "de": "einkehren" }
+            { "ru": "погостить:", "de": "einkehren" }
           ],
           "annotations": [
             { "type": "lang", "segment_range": [0, 0], "text": "В немецком тогда наряду с hier («здесь») использовалось allhier — более книжный вариант, но смысл тот же." },
@@ -65,7 +65,7 @@
           "segments": [
             { "ru": "Вы,", "de": "Ihr" },
             { "ru": "зелёные", "de": "grünen" },
-            { "ru": "погребальные венки,", "de": "Totenkränze" }
+            { "ru": "мёртвых венки,", "de": "Totenkränze" }
           ],
           "annotations": []
         },
