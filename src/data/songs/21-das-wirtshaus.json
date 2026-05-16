@@ -130,7 +130,9 @@
             { "ru": "до", "de": "zum" },
             { "ru": "изнеможения,", "de": "Niedersinken" }
           ],
-          "annotations": []
+          "annotations": [
+            { "type": "lang", "segment_range": [4, 4], "text": "Niedersinken = nieder («вниз») + sinken («опускаться, тонуть»). То есть matt zum Niedersinken буквально означает «слаб до вниз-опускания». А по смыслу — настолько слаб, что вот-вот упадёт." }
+          ]
         },
         {
           "segments": [
