@@ -165,9 +165,9 @@
         {
           "segments": [
             { "ru": "И всё же", "de": "Doch" },
+            { "ru": "отсылаешь", "de": "weisest... ab" },
             { "ru": "ты", "de": "du" },
-            { "ru": "меня", "de": "mich" },
-            { "ru": "прогоняешь?", "de": "weisest... ab" }
+            { "ru": "меня?", "de": "mich" }
           ],
           "annotations": []
         },
