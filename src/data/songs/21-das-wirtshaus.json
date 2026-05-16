@@ -70,9 +70,10 @@
         },
         {
           "segments": [
-            { "ru": "Можете быть", "de": "Könnt... sein" },
+            { "ru": "Можете,", "de": "Könnt" },
             { "ru": "наверное,", "de": "wohl" },
-            { "ru": "знаками,", "de": "die Zeichen" }
+            { "ru": "знаками", "de": "die Zeichen" },
+            { "ru": "быть,", "de": "sein" }
           ],
           "annotations": []
         },
