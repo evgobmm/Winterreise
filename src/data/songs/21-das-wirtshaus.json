@@ -106,7 +106,7 @@
       "lines_ru": [
         {
           "segments": [
-            { "ru": "Разве", "de": "denn" },
+            { "ru": "Неужели", "de": "denn" },
             { "ru": "в", "de": "in" },
             { "ru": "этом", "de": "diesem" },
             { "ru": "доме", "de": "Hause" }
@@ -128,7 +128,7 @@
             { "ru": "—", "de": "Bin" },
             { "ru": "слаб", "de": "matt" },
             { "ru": "до", "de": "zum" },
-            { "ru": "падения,", "de": "Niedersinken" }
+            { "ru": "изнеможения,", "de": "Niedersinken" }
           ],
           "annotations": []
         },
