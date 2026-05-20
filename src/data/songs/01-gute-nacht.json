@@ -237,9 +237,9 @@
         "Dass man mich trieb hinaus?",
         "Lass irre Hunde heulen",
         "Vor ihres Herren Haus!",
-        "Die Liebe liebt das Wandern,",
+        "Die Liebe liebt das Wandern, —",
         "Gott hat sie so gemacht —",
-        "Von einem zu dem andern —",
+        "Von Einem zu dem Andern —",
         "Fein Liebchen, gute Nacht!"
       ],
       "lines_ru": [
@@ -312,7 +312,7 @@
           "segments": [
             { "ru": "Любовь", "de": "Die Liebe" },
             { "ru": "любит", "de": "liebt" },
-            { "ru": "странствие,", "de": "das Wandern" }
+            { "ru": "странствие, —", "de": "das Wandern" }
           ],
           "annotations": [
             {
@@ -335,9 +335,9 @@
         {
           "segments": [
             { "ru": "От", "de": "Von" },
-            { "ru": "одного", "de": "einem" },
+            { "ru": "Одного", "de": "Einem" },
             { "ru": "к", "de": "zu" },
-            { "ru": "другому —", "de": "dem andern" }
+            { "ru": "Другому —", "de": "dem Andern" }
           ],
           "annotations": []
         },

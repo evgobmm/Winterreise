@@ -6,7 +6,7 @@
     {
       "lines_de": [
         "In die tiefsten Felsengründe",
-        "Lockte mich ein Irrlicht hin.",
+        "Lockte mich ein Irrlicht hin:",
         "Wie ich einen Ausgang finde,",
         "Liegt nicht schwer mir in dem Sinn."
       ],
@@ -31,7 +31,7 @@
           "segments": [
             { "ru": "Заманил", "de": "Lockte... hin" },
             { "ru": "меня", "de": "mich" },
-            { "ru": "блуждающий огонь.", "de": "ein Irrlicht" }
+            { "ru": "блуждающий огонь:", "de": "ein Irrlicht" }
           ],
           "annotations": [
             {
@@ -69,8 +69,8 @@
     },
     {
       "lines_de": [
-        "Bin gewohnt das Irregehen,",
-        "'s führt ja jeder Weg zum Ziel.",
+        "Bin gewohnt das irre Gehen,",
+        "'S führt ja jeder Weg zum Ziel;",
         "Unsre Freuden, unsre Leiden,",
         "Alles eines Irrlichts Spiel!"
       ],
@@ -81,7 +81,7 @@
             { "ru": "—", "de": "Bin" },
             { "ru": "привычен", "de": "gewohnt" },
             { "ru": "к", "de": "" },
-            { "ru": "блужданию,", "de": "das Irregehen" }
+            { "ru": "блужданию,", "de": "das irre Gehen" }
           ],
           "annotations": [
             {
@@ -95,12 +95,12 @@
         },
         {
           "segments": [
-            { "ru": "Ведёт", "de": "'s führt" },
+            { "ru": "Ведёт", "de": "'S führt" },
             { "ru": "ведь", "de": "ja" },
             { "ru": "каждый", "de": "jeder" },
             { "ru": "путь", "de": "Weg" },
             { "ru": "к", "de": "zum" },
-            { "ru": "цели.", "de": "Ziel" }
+            { "ru": "цели;", "de": "Ziel" }
           ],
           "annotations": []
         },
@@ -135,7 +135,7 @@
     {
       "lines_de": [
         "Durch des Bergstroms trockne Rinnen",
-        "Wind' ich ruhig mich hinab.",
+        "Wind' ich ruhig mich hinab —",
         "Jeder Strom wird's Meer gewinnen,",
         "Jedes Leiden auch sein Grab."
       ],
@@ -167,7 +167,7 @@
             { "ru": "Вьюсь", "de": "Wind'... mich" },
             { "ru": "я", "de": "ich" },
             { "ru": "спокойно", "de": "ruhig" },
-            { "ru": "вниз.", "de": "hinab" }
+            { "ru": "вниз —", "de": "hinab" }
           ],
           "annotations": []
         },

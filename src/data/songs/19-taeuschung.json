@@ -5,11 +5,11 @@
   "stanzas": [
     {
       "lines_de": [
-        "Ein Licht tanzt freundlich vor mir her,",
+        "Ein Licht tanzt freundlich vor mir her;",
         "Ich folg' ihm nach die Kreuz und Quer;",
         "Ich folg' ihm gern, und seh's ihm an,",
         "Dass es verlockt den Wandersmann.",
-        "Ach! wer wie ich so elend ist,",
+        "Ach, wer wie ich so elend ist,",
         "Gibt gern sich hin der bunten List,",
         "Die hinter Eis und Nacht und Graus",
         "Ihm weist ein helles, warmes Haus,",
@@ -24,7 +24,7 @@
             { "ru": "дружелюбно", "de": "freundlich" },
             { "ru": "передо", "de": "vor" },
             { "ru": "мной", "de": "mir" },
-            { "ru": "вперёд,", "de": "her" }
+            { "ru": "вперёд;", "de": "her" }
           ],
           "annotations": [
             {
@@ -93,7 +93,7 @@
         },
         {
           "segments": [
-            { "ru": "Ах!", "de": "Ach" },
+            { "ru": "Ах,", "de": "Ach" },
             { "ru": "кто,", "de": "wer" },
             { "ru": "как", "de": "wie" },
             { "ru": "я,", "de": "ich" },

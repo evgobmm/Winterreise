@@ -6,7 +6,7 @@
     {
       "lines_de": [
         "Ich träumte von bunten Blumen,",
-        "So wie sie wohl blühen im Mai;",
+        "So wie sie wohl blühen im Mai,",
         "Ich träumte von grünen Wiesen,",
         "Von lustigem Vogelgeschrei."
       ],
@@ -34,7 +34,7 @@
             { "ru": "наверное,", "de": "wohl" },
             { "ru": "цветут", "de": "blühen" },
             { "ru": "в", "de": "im" },
-            { "ru": "мае;", "de": "Mai" }
+            { "ru": "мае,", "de": "Mai" }
           ],
           "annotations": []
         },

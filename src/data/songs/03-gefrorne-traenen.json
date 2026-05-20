@@ -1,11 +1,11 @@
 {
   "number": 3,
-  "title_de": "Gefror'ne Tränen",
+  "title_de": "Gefrorne Tränen",
   "title_ru": "Замёрзшие слёзы",
   "stanzas": [
     {
       "lines_de": [
-        "Gefror'ne Tropfen fallen",
+        "Gefrorne Tropfen fallen",
         "Von meinen Wangen ab:",
         "Ob es mir denn entgangen,",
         "Dass ich geweinet hab'?"
@@ -13,7 +13,7 @@
       "lines_ru": [
         {
           "segments": [
-            { "ru": "Замёрзшие", "de": "Gefror'ne" },
+            { "ru": "Замёрзшие", "de": "Gefrorne" },
             { "ru": "капли", "de": "Tropfen" },
             { "ru": "спадают", "de": "fallen... ab" }
           ],

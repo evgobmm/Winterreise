@@ -6,7 +6,7 @@
     {
       "lines_de": [
         "Wie hat der Sturm zerrissen",
-        "Des Himmels graues Kleid,",
+        "Des Himmels graues Kleid!",
         "Die Wolkenfetzen flattern",
         "Umher in mattem Streit."
       ],
@@ -64,9 +64,9 @@
     {
       "lines_de": [
         "Und rote Feuerflammen",
-        "Ziehn zwischen ihnen hin,",
+        "Ziehn zwischen ihnen hin.",
         "Das nenn ich einen Morgen",
-        "So recht nach meinem Sinn."
+        "So recht nach meinem Sinn!"
       ],
       "lines_ru": [
         {
@@ -89,7 +89,7 @@
           "segments": [
             { "ru": "Пролегают", "de": "Ziehn... hin" },
             { "ru": "между", "de": "zwischen" },
-            { "ru": "ними,", "de": "ihnen" }
+            { "ru": "ними.", "de": "ihnen" }
           ],
           "annotations": [
             {
@@ -121,7 +121,7 @@
             { "ru": "Как раз", "de": "So recht" },
             { "ru": "мне", "de": "meinem" },
             { "ru": "по", "de": "nach" },
-            { "ru": "душе.", "de": "Sinn" }
+            { "ru": "душе!", "de": "Sinn" }
           ],
           "annotations": []
         }
@@ -130,7 +130,7 @@
     {
       "lines_de": [
         "Mein Herz sieht an dem Himmel",
-        "Gemalt sein eignes Bild,",
+        "Gemalt sein eignes Bild —",
         "Es ist nichts als der Winter,",
         "Der Winter kalt und wild."
       ],
@@ -158,7 +158,7 @@
             { "ru": "Нарисован", "de": "Gemalt" },
             { "ru": "его", "de": "sein" },
             { "ru": "собственный", "de": "eignes" },
-            { "ru": "образ,", "de": "Bild" }
+            { "ru": "образ —", "de": "Bild" }
           ],
           "annotations": []
         },

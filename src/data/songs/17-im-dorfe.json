@@ -5,9 +5,9 @@
   "stanzas": [
     {
       "lines_de": [
-        "Es bellen die Hunde, es rasseln die Ketten,",
+        "Es bellen die Hunde, es rasseln die Ketten.",
         "Es schlafen die Menschen in ihren Betten,",
-        "Träumen sich manches, was sie nicht haben,",
+        "Träumen sich Manches, was sie nicht haben,",
         "Tun sich im Guten und Argen erlaben:"
       ],
       "lines_ru": [
@@ -16,7 +16,7 @@
             { "ru": "Лают", "de": "Es bellen" },
             { "ru": "псы,", "de": "die Hunde" },
             { "ru": "лязгают", "de": "es rasseln" },
-            { "ru": "цепи,", "de": "die Ketten" }
+            { "ru": "цепи.", "de": "die Ketten" }
           ],
           "annotations": [
             {
@@ -41,7 +41,7 @@
         {
           "segments": [
             { "ru": "Снится им", "de": "Träumen sich" },
-            { "ru": "всякое,", "de": "manches" },
+            { "ru": "всякое,", "de": "Manches" },
             { "ru": "чего", "de": "was" },
             { "ru": "у них", "de": "sie" },
             { "ru": "нет,", "de": "nicht haben" }
@@ -86,7 +86,7 @@
     },
     {
       "lines_de": [
-        "Und morgen früh ist alles zerflossen.",
+        "Und morgen früh ist Alles zerflossen. —",
         "Je nun, sie haben ihr Teil genossen,",
         "Und hoffen, was sie noch übrig ließen,",
         "Doch wieder zu finden auf ihren Kissen."
@@ -97,8 +97,8 @@
             { "ru": "И", "de": "Und" },
             { "ru": "завтра", "de": "morgen" },
             { "ru": "утром", "de": "früh" },
-            { "ru": "всё", "de": "alles" },
-            { "ru": "растечётся.", "de": "ist... zerflossen" }
+            { "ru": "всё", "de": "Alles" },
+            { "ru": "растечётся. —", "de": "ist... zerflossen" }
           ],
           "annotations": []
         },
@@ -140,7 +140,7 @@
       "lines_de": [
         "Bellt mich nur fort, ihr wachen Hunde,",
         "Lasst mich nicht ruhn in der Schlummerstunde!",
-        "Ich bin zu Ende mit allen Träumen,",
+        "Ich bin zu Ende mit allen Träumen —",
         "Was will ich unter den Schläfern säumen?"
       ],
       "lines_ru": [
@@ -180,7 +180,7 @@
             { "ru": "покончил", "de": "bin zu Ende" },
             { "ru": "со", "de": "mit" },
             { "ru": "всеми", "de": "allen" },
-            { "ru": "снами-мечтами,", "de": "Träumen" }
+            { "ru": "снами-мечтами —", "de": "Träumen" }
           ],
           "annotations": [
             {

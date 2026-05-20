@@ -139,7 +139,7 @@
         "Ach, und fällt das Blatt zu Boden,",
         "Fällt mit ihm die Hoffnung ab,",
         "Fall' ich selber mit zu Boden,",
-        "Wein' auf meiner Hoffnung Grab."
+        "Wein', wein' auf meiner Hoffnung Grab."
       ],
       "lines_ru": [
         {
@@ -181,7 +181,8 @@
         },
         {
           "segments": [
-            { "ru": "Плачу", "de": "Wein'" },
+            { "ru": "Плачу,", "de": "Wein'," },
+            { "ru": "плачу", "de": "wein'" },
             { "ru": "на", "de": "auf" },
             { "ru": "моей", "de": "meiner" },
             { "ru": "надежды", "de": "Hoffnung" },
@@ -190,7 +191,7 @@
           "annotations": [
             {
               "type": "meaning",
-              "segment_range": [4, 4],
+              "segment_range": [5, 5],
               "text": "Вторая песня подряд (и третья во всём цикле, ещё «Блуждающий огонь» (Irrlicht)) заканчивается словом «могила» (Grab). А прямо перед этим были погребальные «носилки» (в «Седой голове» (Der greise Kopf)). После перезапуска (см. комментарий к песне 13) наступил прямо могильный сезон."
             }
           ]

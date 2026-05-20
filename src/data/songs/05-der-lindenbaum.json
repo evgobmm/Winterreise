@@ -6,7 +6,7 @@
     {
       "lines_de": [
         "Am Brunnen vor dem Tore,",
-        "Da steht ein Lindenbaum;",
+        "Da steht ein Lindenbaum:",
         "Ich träumt' in seinem Schatten",
         "So manchen süßen Traum."
       ],
@@ -30,7 +30,7 @@
           "segments": [
             { "ru": "Тут", "de": "Da" },
             { "ru": "стоит", "de": "steht" },
-            { "ru": "липовое дерево;", "de": "ein Lindenbaum" }
+            { "ru": "липовое дерево:", "de": "ein Lindenbaum" }
           ],
           "annotations": [
             {
@@ -227,7 +227,7 @@
     {
       "lines_de": [
         "Die kalten Winde bliesen",
-        "Mir grad' ins Angesicht;",
+        "Mir grad' in's Angesicht,",
         "Der Hut flog mir vom Kopfe,",
         "Ich wendete mich nicht."
       ],
@@ -244,8 +244,8 @@
           "segments": [
             { "ru": "Мне", "de": "Mir" },
             { "ru": "прямо", "de": "grad'" },
-            { "ru": "в", "de": "ins" },
-            { "ru": "лик;", "de": "Angesicht" }
+            { "ru": "в", "de": "in's" },
+            { "ru": "лик,", "de": "Angesicht" }
           ],
           "annotations": []
         },

@@ -170,7 +170,7 @@
     {
       "lines_de": [
         "Den Tag des ersten Grußes,",
-        "Den Tag, an dem ich ging;",
+        "Den Tag, an dem ich ging,",
         "Um Nam' und Zahlen windet",
         "Sich ein zerbrochner Ring."
       ],
@@ -200,7 +200,7 @@
             { "ru": "День,", "de": "Den Tag" },
             { "ru": "в который", "de": "an dem" },
             { "ru": "я", "de": "ich" },
-            { "ru": "ушёл;", "de": "ging" }
+            { "ru": "ушёл,", "de": "ging" }
           ],
           "annotations": []
         },

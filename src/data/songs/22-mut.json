@@ -57,7 +57,7 @@
     {
       "lines_de": [
         "Höre nicht, was es mir sagt,",
-        "Habe keine Ohren,",
+        "Habe keine Ohren.",
         "Fühle nicht, was es mir klagt,",
         "Klagen ist für Toren."
       ],
@@ -79,7 +79,7 @@
             { "ru": "Я", "de": "" },
             { "ru": "не", "de": "keine" },
             { "ru": "имею", "de": "Habe" },
-            { "ru": "ушей,", "de": "Ohren" }
+            { "ru": "ушей.", "de": "Ohren" }
           ],
           "annotations": []
         },
