@@ -21,6 +21,6 @@
   { "number": 20, "title_de": "Der Wegweiser", "title_ru": "Путевой указатель", "file": "20-der-wegweiser.json", "ready": true },
   { "number": 21, "title_de": "Das Wirtshaus", "title_ru": "Постоялый двор", "file": "21-das-wirtshaus.json", "ready": true },
   { "number": 22, "title_de": "Mut!", "title_ru": "Удаль-мужество!", "file": "22-mut.json", "ready": true },
-  { "number": 23, "title_de": "Die Nebensonnen", "title_ru": "Ложные солнца", "file": "23-die-nebensonnen.json", "ready": false },
+  { "number": 23, "title_de": "Die Nebensonnen", "title_ru": "Ложные солнца", "file": "23-die-nebensonnen.json", "ready": true },
   { "number": 24, "title_de": "Der Leiermann", "title_ru": "Шарманщик", "file": "24-der-leiermann.json", "ready": false }
 ]

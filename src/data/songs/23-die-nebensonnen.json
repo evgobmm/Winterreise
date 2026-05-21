@@ -1,0 +1,133 @@
+{
+  "number": 23,
+  "title_de": "Die Nebensonnen",
+  "title_ru": "Ложные солнца",
+  "stanzas": [
+    {
+      "lines_de": [
+        "Drei Sonnen sah' ich am Himmel stehn,",
+        "Hab' lang' und fest sie angesehn;",
+        "Und sie auch standen da so stier,",
+        "Als wollten sie nicht weg von mir.",
+        "Ach, meine Sonnen seid ihr nicht!",
+        "Schaut Andren doch in's Angesicht!",
+        "Ach, neulich hatt' ich auch wohl drei:",
+        "Nun sind hinab die besten zwei.",
+        "Ging' nur die dritt' erst hinterdrein!",
+        "Im Dunkeln wird mir wohler sein."
+      ],
+      "lines_ru": [
+        {
+          "segments": [
+            { "ru": "Три", "de": "Drei" },
+            { "ru": "солнца", "de": "Sonnen" },
+            { "ru": "видел", "de": "sah'" },
+            { "ru": "я", "de": "ich" },
+            { "ru": "на", "de": "am" },
+            { "ru": "небе", "de": "Himmel" },
+            { "ru": "стоять,", "de": "stehn" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Смотрел", "de": "Hab'... angesehn" },
+            { "ru": "долго", "de": "lang'" },
+            { "ru": "и", "de": "und" },
+            { "ru": "пристально", "de": "fest" },
+            { "ru": "на", "de": "" },
+            { "ru": "них;", "de": "sie" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "И", "de": "Und" },
+            { "ru": "они", "de": "sie" },
+            { "ru": "тоже", "de": "auch" },
+            { "ru": "стояли", "de": "standen" },
+            { "ru": "там", "de": "da" },
+            { "ru": "так", "de": "so" },
+            { "ru": "застывшие,", "de": "stier" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Будто", "de": "Als" },
+            { "ru": "не", "de": "nicht" },
+            { "ru": "хотели", "de": "wollten" },
+            { "ru": "они", "de": "sie" },
+            { "ru": "прочь", "de": "weg" },
+            { "ru": "от", "de": "von" },
+            { "ru": "меня.", "de": "mir" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Ах,", "de": "Ach" },
+            { "ru": "мои", "de": "meine" },
+            { "ru": "солнца", "de": "Sonnen" },
+            { "ru": "—", "de": "seid" },
+            { "ru": "не", "de": "nicht" },
+            { "ru": "вы!", "de": "ihr" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Глядите", "de": "Schaut" },
+            { "ru": "другим", "de": "Andren" },
+            { "ru": "же", "de": "doch" },
+            { "ru": "в", "de": "in's" },
+            { "ru": "лик!", "de": "Angesicht" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Ах,", "de": "Ach" },
+            { "ru": "недавно", "de": "neulich" },
+            { "ru": "было", "de": "hatt'" },
+            { "ru": "у меня", "de": "ich" },
+            { "ru": "тоже", "de": "auch" },
+            { "ru": ", наверное,", "de": "wohl" },
+            { "ru": "три:", "de": "drei" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Теперь", "de": "Nun" },
+            { "ru": "закатились", "de": "sind hinab" },
+            { "ru": "лучшие", "de": "die besten" },
+            { "ru": "два.", "de": "zwei" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Ушло бы", "de": "Ging'" },
+            { "ru": "только", "de": "nur" },
+            { "ru": "третье", "de": "die dritt'" },
+            { "ru": "лишь", "de": "erst" },
+            { "ru": "вслед!", "de": "hinterdrein" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "В", "de": "Im" },
+            { "ru": "темноте", "de": "Dunkeln" },
+            { "ru": "будет", "de": "wird" },
+            { "ru": "мне", "de": "mir" },
+            { "ru": "лучше", "de": "wohler" },
+            { "ru": "быть.", "de": "sein" }
+          ],
+          "annotations": []
+        }
+      ]
+    }
+  ]
+}
