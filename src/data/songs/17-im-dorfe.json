@@ -8,7 +8,11 @@
         "Es bellen die Hunde, es rasseln die Ketten.",
         "Es schlafen die Menschen in ihren Betten,",
         "Träumen sich Manches, was sie nicht haben,",
-        "Tun sich im Guten und Argen erlaben:"
+        "Tun sich im Guten und Argen erlaben:",
+        "Und morgen früh ist Alles zerflossen. —",
+        "Je nun, sie haben ihr Teil genossen,",
+        "Und hoffen, was sie noch übrig ließen,",
+        "Doch wieder zu finden auf ihren Kissen."
       ],
       "lines_ru": [
         {
@@ -81,17 +85,7 @@
               "text": "Erlaben — поэтический глагол. В немецком соединяет два смысла: освежать (восстанавливать силы, особенно едой и питьём) и услаждать."
             }
           ]
-        }
-      ]
-    },
-    {
-      "lines_de": [
-        "Und morgen früh ist Alles zerflossen. —",
-        "Je nun, sie haben ihr Teil genossen,",
-        "Und hoffen, was sie noch übrig ließen,",
-        "Doch wieder zu finden auf ihren Kissen."
-      ],
-      "lines_ru": [
+        },
         {
           "segments": [
             { "ru": "И", "de": "Und" },
