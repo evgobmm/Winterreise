@@ -119,8 +119,8 @@
       "lines_ru": [
         {
           "segments": [
-            { "ru": "Иду", "de": "" },
-            { "ru": "весело", "de": "Lustig" },
+            { "ru": "Весело", "de": "Lustig" },
+            { "ru": "—", "de": "" },
             { "ru": "в", "de": "in... hinein" },
             { "ru": "мир,", "de": "die Welt" }
           ],
