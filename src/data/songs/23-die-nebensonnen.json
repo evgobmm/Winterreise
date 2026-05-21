@@ -87,12 +87,12 @@
         },
         {
           "segments": [
-            { "ru": "Ах,", "de": "Ach" },
+            { "ru": "Ах,", "de": "Ach", "variant_de": "Ja", "variant_ru": "Да," },
             { "ru": "недавно", "de": "neulich" },
             { "ru": "было", "de": "hatt'" },
             { "ru": "у меня", "de": "ich" },
-            { "ru": "тоже", "de": "auch" },
-            { "ru": ", наверное,", "de": "wohl" },
+            { "ru": "тоже,", "de": "auch" },
+            { "ru": "наверное,", "de": "wohl" },
             { "ru": "три:", "de": "drei" }
           ],
           "annotations": []
