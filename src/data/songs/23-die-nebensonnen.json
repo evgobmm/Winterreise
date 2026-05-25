@@ -22,21 +22,21 @@
             { "ru": "Три", "de": "Drei" },
             { "ru": "солнца", "de": "Sonnen" },
             { "ru": "видел", "de": "sah'" },
-            { "ru": "я", "de": "ich" },
+            { "ru": "я:", "de": "ich" },
             { "ru": "на", "de": "am" },
             { "ru": "небе", "de": "Himmel" },
-            { "ru": "стоять,", "de": "stehn" }
+            { "ru": "стояли,", "de": "stehn" }
           ],
           "annotations": []
         },
         {
           "segments": [
-            { "ru": "Смотрел", "de": "Hab'... angesehn" },
-            { "ru": "долго", "de": "lang'" },
+            { "ru": "Долго", "de": "lang'" },
             { "ru": "и", "de": "und" },
             { "ru": "пристально", "de": "fest" },
             { "ru": "на", "de": "" },
-            { "ru": "них;", "de": "sie" }
+            { "ru": "них", "de": "sie" },
+            { "ru": "смотрел;", "de": "Hab'... angesehn" }
           ],
           "annotations": []
         },
