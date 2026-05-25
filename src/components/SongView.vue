@@ -3,6 +3,7 @@ import { ref, computed, nextTick, onMounted, onUnmounted } from 'vue'
 import InterlinearLine from './InterlinearLine.vue'
 import AnnotationsPanel from './AnnotationsPanel.vue'
 import FootnoteMark from './FootnoteMark.vue'
+import { renderText } from '../utils/renderText.js'
 
 const songModules = import.meta.glob('../data/songs/*.json', { eager: true })
 
@@ -427,7 +428,7 @@ function getLineDeParts(stanza, lineIndex) {
       ]"
       :style="{ top: hoveredY + 'px', left: tooltipLeft + 'px', width: tooltipWidth + 'px' }"
     >
-      {{ hoveredTooltip.text }}
+      <span v-html="renderText(hoveredTooltip.text)"></span>
     </div>
 
     <div

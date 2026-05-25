@@ -1,4 +1,6 @@
 <script setup>
+import { renderText } from '../utils/renderText.js'
+
 defineProps({
   annotations: Array,
   type: String,
@@ -27,7 +29,7 @@ function toSuperscript(n) {
         {{ ann.segments.map(s => ann.target === 'variant' ? (s.variant_ru || s.ru) : s.ru).join(' ') }}
       </span>
       <span class="annotation-sep"> || </span>
-      <span class="annotation-text">{{ ann.text }}</span>
+      <span class="annotation-text" v-html="renderText(ann.text)"></span>
     </div>
   </section>
 </template>
