@@ -10,7 +10,7 @@
         "Und sie auch standen da so stier,",
         "Als wollten sie nicht weg von mir.",
         "Ach, meine Sonnen seid ihr nicht!",
-        "Schaut Andren doch in's Angesicht!",
+        "Schaut Andern doch in's Angesicht!",
         "Ach, neulich hatt' ich auch wohl drei:",
         "Nun sind hinab die besten zwei.",
         "Ging' nur die dritt' erst hinterdrein!",
@@ -78,7 +78,7 @@
         {
           "segments": [
             { "ru": "Глядите", "de": "Schaut" },
-            { "ru": "другим", "de": "Andren" },
+            { "ru": "другим", "de": "Andern" },
             { "ru": "же", "de": "doch" },
             { "ru": "в", "de": "in's" },
             { "ru": "лик!", "de": "Angesicht" }

@@ -138,9 +138,9 @@
     {
       "lines_de": [
         "Lustig in die Welt hinein",
-        "Gegen Wind und Wetter!",
+        "Gegen Wind und Wetter;",
         "Will kein Gott auf Erden sein,",
-        "Sind wir selber Götter."
+        "Sind wir selber Götter!"
       ],
       "lines_ru": [
         {
@@ -157,7 +157,7 @@
             { "ru": "Против", "de": "Gegen" },
             { "ru": "ветра", "de": "Wind" },
             { "ru": "и", "de": "und" },
-            { "ru": "непогоды!", "de": "Wetter" }
+            { "ru": "непогоды;", "de": "Wetter" }
           ],
           "annotations": [
             {
@@ -191,7 +191,7 @@
             { "ru": "Мы", "de": "wir" },
             { "ru": "сами", "de": "selber" },
             { "ru": "—", "de": "Sind" },
-            { "ru": "боги.", "de": "Götter" }
+            { "ru": "боги!", "de": "Götter" }
           ],
           "annotations": []
         }
