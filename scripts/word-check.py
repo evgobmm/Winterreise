@@ -263,27 +263,51 @@ def main():
             ru_futures.append(ex.submit(brns, ru))
 
         print(f"=== DE→RU словари ({len(de_tasks)} источников) ===\n")
+        de_results = []
         for fut in de_futures:
             name, url, status, text = fut.result()
+            de_results.append((name, url, status, text))
             print(f"### {name}  [{status}]")
             print(f"  URL: {url}")
             if text:
                 print(f"  {text[:700]}")
             print()
 
+        ru_results = []
         if ru_candidates:
             print(f"\n=== RU→DE обратная сверка ({len(ru_candidates)} кандидатов × 2 источника) ===\n")
             for fut in ru_futures:
                 name, url, status, text = fut.result()
+                ru_results.append((name, url, status, text))
                 print(f"### {name}  [{status}]")
                 print(f"  URL: {url}")
                 if text:
                     print(f"  {text[:700]}")
                 print()
 
+    all_results = de_results + ru_results
+
+    # Блок обязательных ручных WebFetch: ⚠ SPA/JS-источники не парсятся скриптом —
+    # без ручного WebFetch они НЕ считаются проверенными.
+    manual = [(n, u) for (n, u, s, t) in all_results if "⚠" in s]
+    print("\n=== ⚠ ОБЯЗАТЕЛЬНЫЙ РУЧНОЙ WebFetch (иначе источник НЕ проверен) ===")
+    if manual:
+        for n, u in manual:
+            print(f"  [ ] {n}: {u}")
+    else:
+        print("  (нет ⚠ источников — все загрузились)")
+
+    # Чеклист таблицы-доказательства: заполнить цитатой/❌ ПЕРЕД словом «проверено».
+    print("\n=== ЧЕКЛИСТ ТАБЛИЦЫ-ДОКАЗАТЕЛЬСТВА (вывести в чат заполненным) ===")
+    print("Каждая строка: цитата ≥3-5 слов из статьи ЛИБО ❌+причина. Пустых ячеек нет.")
+    for n, u, s, t in all_results:
+        mark = "❌" if "❌" in s else ("⚠→WebFetch!" if "⚠" in s else "✓ цитата?")
+        print(f"  [{mark}] {n}")
+
     print("\n=== ПРАВИЛО ===")
-    print("Без вывода ВСЕХ источников в чате — заявлять «исследование проведено» ЗАПРЕЩЕНО.")
-    print("⚠ источники (SPA / partial HTML) — обязательны к WebFetch вручную; вывод привести в чат.")
+    print("«Полная проверка/проверено» — ТОЛЬКО при полностью заполненной таблице-доказательстве")
+    print("(конкретная цитата из КАЖДОГО источника ИЛИ ❌+причина). Иначе — «ЧАСТИЧНАЯ, пропущены: …».")
+    print("⚠ источники обязательны к ручному WebFetch с выводом в чат; без цитаты источник НЕ проверен.")
 
 
 if __name__ == "__main__":
