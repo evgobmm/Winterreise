@@ -138,7 +138,7 @@
       "lines_de": [
         "In eines Köhlers engem Haus",
         "Hab' Obdach ich gefunden;",
-        "Doch meine Glieder ruh'n nicht aus:",
+        "Doch meine Glieder ruhn nicht aus:",
         "So brennen ihre Wunden."
       ],
       "lines_ru": [
@@ -173,7 +173,7 @@
             { "ru": "мои", "de": "meine" },
             { "ru": "члены", "de": "Glieder" },
             { "ru": "не", "de": "nicht" },
-            { "ru": "отдыхают", "de": "ruh'n" },
+            { "ru": "отдыхают", "de": "ruhn" },
             { "ru": "до конца:", "de": "aus" }
           ],
           "annotations": [

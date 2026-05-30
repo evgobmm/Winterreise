@@ -65,7 +65,7 @@
       "lines_de": [
         "Und rote Feuerflammen",
         "Ziehn zwischen ihnen hin.",
-        "Das nenn ich einen Morgen",
+        "Das nenn' ich einen Morgen",
         "So recht nach meinem Sinn!"
       ],
       "lines_ru": [
@@ -102,7 +102,7 @@
         {
           "segments": [
             { "ru": "Это", "de": "Das" },
-            { "ru": "называю", "de": "nenn" },
+            { "ru": "называю", "de": "nenn'" },
             { "ru": "я", "de": "ich" },
             { "ru": "утром", "de": "einen Morgen" }
           ],
@@ -132,7 +132,7 @@
         "Mein Herz sieht an dem Himmel",
         "Gemalt sein eignes Bild —",
         "Es ist nichts als der Winter,",
-        "Der Winter kalt und wild."
+        "Der Winter kalt und wild!"
       ],
       "lines_ru": [
         {
@@ -176,7 +176,7 @@
             { "ru": "Зима", "de": "Der Winter" },
             { "ru": "холодная", "de": "kalt" },
             { "ru": "и", "de": "und" },
-            { "ru": "буйная.", "de": "wild" }
+            { "ru": "буйная!", "de": "wild" }
           ],
           "annotations": []
         }

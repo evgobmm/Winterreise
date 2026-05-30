@@ -92,7 +92,7 @@
         "Er hätt' es eher bemerken sollen,",
         "Des Hauses aufgestecktes Schild,",
         "So hätt' er nimmer suchen wollen",
-        "Im Haus ein treues Frauenbild."
+        "Im Haus' ein treues Frauenbild."
       ],
       "lines_ru": [
         {
@@ -156,7 +156,7 @@
         {
           "segments": [
             { "ru": "В", "de": "Im" },
-            { "ru": "доме", "de": "Haus" },
+            { "ru": "доме", "de": "Haus'" },
             { "ru": "верной", "de": "ein treues" },
             { "ru": "женщины образ.", "de": "Frauenbild" }
           ],

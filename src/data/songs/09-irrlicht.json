@@ -70,7 +70,7 @@
     {
       "lines_de": [
         "Bin gewohnt das irre Gehen,",
-        "'S führt ja jeder Weg zum Ziel;",
+        "'S führt ja jeder Weg zum Ziel:",
         "Unsre Freuden, unsre Leiden,",
         "Alles eines Irrlichts Spiel!"
       ],
@@ -100,7 +100,7 @@
             { "ru": "каждый", "de": "jeder" },
             { "ru": "путь", "de": "Weg" },
             { "ru": "к", "de": "zum" },
-            { "ru": "цели;", "de": "Ziel" }
+            { "ru": "цели:", "de": "Ziel" }
           ],
           "annotations": []
         },

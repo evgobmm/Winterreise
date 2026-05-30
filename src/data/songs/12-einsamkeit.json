@@ -12,7 +12,7 @@
     {
       "lines_de": [
         "Wie eine trübe Wolke",
-        "Durch heit're Lüfte geht,",
+        "Durch heitre Lüfte geht,",
         "Wenn in der Tanne Wipfel",
         "Ein mattes Lüftchen weht:"
       ],
@@ -41,7 +41,7 @@
         {
           "segments": [
             { "ru": "По", "de": "Durch" },
-            { "ru": "ясно-весёлым", "de": "heit're" },
+            { "ru": "ясно-весёлым", "de": "heitre" },
             { "ru": "воздушным просторам", "de": "Lüfte" },
             { "ru": "идёт,", "de": "geht" }
           ],
