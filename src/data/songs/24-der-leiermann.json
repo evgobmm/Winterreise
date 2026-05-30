@@ -1,0 +1,230 @@
+{
+  "number": 24,
+  "title_de": "Der Leiermann",
+  "title_ru": "Шарманщик",
+  "stanzas": [
+    {
+      "lines_de": [
+        "Drüben hinter'm Dorfe",
+        "Steht ein Leiermann,",
+        "Und mit starren Fingern",
+        "Dreht er was er kann."
+      ],
+      "lines_ru": [
+        {
+          "segments": [
+            { "ru": "Вон там", "de": "Drüben" },
+            { "ru": "за", "de": "hinter'm" },
+            { "ru": "деревней", "de": "Dorfe" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Стоит", "de": "Steht" },
+            { "ru": "шарманщик,", "de": "ein Leiermann" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "И", "de": "Und" },
+            { "ru": "застывшими", "de": "mit starren" },
+            { "ru": "пальцами", "de": "Fingern" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Крутит", "de": "Dreht" },
+            { "ru": "он,", "de": "er" },
+            { "ru": "что", "de": "was" },
+            { "ru": "может.", "de": "er kann" }
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "lines_de": [
+        "Barfuß auf dem Eise",
+        "Wankt er hin und her;",
+        "Und sein kleiner Teller",
+        "Bleibt ihm immer leer."
+      ],
+      "lines_ru": [
+        {
+          "segments": [
+            { "ru": "Босой", "de": "Barfuß" },
+            { "ru": "на", "de": "auf" },
+            { "ru": "льду", "de": "dem Eise" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Шатается", "de": "Wankt" },
+            { "ru": "он", "de": "er" },
+            { "ru": "туда", "de": "hin" },
+            { "ru": "и", "de": "und" },
+            { "ru": "сюда;", "de": "her" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "И", "de": "Und" },
+            { "ru": "его", "de": "sein" },
+            { "ru": "маленькая", "de": "kleiner" },
+            { "ru": "тарелка", "de": "Teller" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Остаётся", "de": "Bleibt" },
+            { "ru": "у него", "de": "ihm" },
+            { "ru": "всегда", "de": "immer" },
+            { "ru": "пустой.", "de": "leer" }
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "lines_de": [
+        "Keiner mag ihn hören,",
+        "Keiner sieht ihn an;",
+        "Und die Hunde knurren",
+        "Um den alten Mann."
+      ],
+      "lines_ru": [
+        {
+          "segments": [
+            { "ru": "Никто", "de": "Keiner" },
+            { "ru": "не", "de": "" },
+            { "ru": "хочет", "de": "mag" },
+            { "ru": "его", "de": "ihn" },
+            { "ru": "слушать,", "de": "hören" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Никто", "de": "Keiner" },
+            { "ru": "на него", "de": "ihn" },
+            { "ru": "не", "de": "" },
+            { "ru": "смотрит;", "de": "sieht... an" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "И", "de": "Und" },
+            { "ru": "псы", "de": "die Hunde" },
+            { "ru": "рычат", "de": "knurren" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Вокруг", "de": "Um" },
+            { "ru": "старого", "de": "den alten" },
+            { "ru": "человека.", "de": "Mann" }
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "lines_de": [
+        "Und er lässt es gehen",
+        "Alles, wie es will,",
+        "Dreht, und seine Leier",
+        "Steht ihm nimmer still."
+      ],
+      "lines_ru": [
+        {
+          "segments": [
+            { "ru": "И", "de": "Und" },
+            { "ru": "он", "de": "er" },
+            { "ru": "пускает", "de": "lässt" },
+            { "ru": "это", "de": "es" },
+            { "ru": "идти", "de": "gehen" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Всё,", "de": "Alles" },
+            { "ru": "как", "de": "wie" },
+            { "ru": "оно", "de": "es" },
+            { "ru": "хочет,", "de": "will" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Крутит,", "de": "Dreht" },
+            { "ru": "и", "de": "und" },
+            { "ru": "его", "de": "seine" },
+            { "ru": "шарманка", "de": "Leier" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Никогда", "de": "nimmer" },
+            { "ru": "у него", "de": "ihm" },
+            { "ru": "не замирает.", "de": "Steht... still" }
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "lines_de": [
+        "Wunderlicher Alter,",
+        "Soll ich mit dir gehn?",
+        "Willst zu meinen Liedern",
+        "Deine Leier drehn?"
+      ],
+      "lines_ru": [
+        {
+          "segments": [
+            { "ru": "Странный", "de": "Wunderlicher" },
+            { "ru": "старик,", "de": "Alter" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Должен ли", "de": "Soll" },
+            { "ru": "я", "de": "ich" },
+            { "ru": "с", "de": "mit" },
+            { "ru": "тобой", "de": "dir" },
+            { "ru": "идти?", "de": "gehn" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Хочешь ли", "de": "Willst" },
+            { "ru": "под", "de": "zu" },
+            { "ru": "мои", "de": "meinen" },
+            { "ru": "песни", "de": "Liedern" }
+          ],
+          "annotations": []
+        },
+        {
+          "segments": [
+            { "ru": "Свою", "de": "Deine" },
+            { "ru": "шарманку", "de": "Leier" },
+            { "ru": "крутить?", "de": "drehn" }
+          ],
+          "annotations": []
+        }
+      ]
+    }
+  ]
+}
