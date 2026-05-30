@@ -1,7 +1,7 @@
 {
   "number": 24,
   "title_de": "Der Leiermann",
-  "title_ru": "Шарманщик",
+  "title_ru": "Лирник",
   "stanzas": [
     {
       "lines_de": [
@@ -22,7 +22,7 @@
         {
           "segments": [
             { "ru": "Стоит", "de": "Steht" },
-            { "ru": "шарманщик,", "de": "ein Leiermann" }
+            { "ru": "лирник,", "de": "ein Leiermann" }
           ],
           "annotations": []
         },
@@ -168,7 +168,7 @@
             { "ru": "Крутит,", "de": "Dreht" },
             { "ru": "и", "de": "und" },
             { "ru": "его", "de": "seine" },
-            { "ru": "шарманка", "de": "Leier" }
+            { "ru": "колёсная лира", "de": "Leier" }
           ],
           "annotations": []
         },
@@ -219,7 +219,7 @@
         {
           "segments": [
             { "ru": "Свою", "de": "Deine" },
-            { "ru": "шарманку", "de": "Leier" },
+            { "ru": "колёсную лиру", "de": "Leier" },
             { "ru": "крутить?", "de": "drehn" }
           ],
           "annotations": []
