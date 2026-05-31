@@ -42,7 +42,6 @@ const currentSongFile = computed(() => {
       Поэзия Вильгельма Мюллера
     </aside>
     <aside class="settings">
-      <PerformancePlayer :song-number="currentSongNumber" />
       <div class="theme-wrap">
         <ThemeToggle />
       </div>
@@ -66,6 +65,7 @@ const currentSongFile = computed(() => {
           Язык
         </label>
       </div>
+      <PerformancePlayer :song-number="currentSongNumber" />
     </aside>
   </div>
 </template>
