@@ -13,7 +13,7 @@ body {
 
 .app {
   display: grid;
-  grid-template-columns: 260px 1fr auto 340px;
+  grid-template-columns: 260px 1fr 340px;
   min-height: 100vh;
 }
 
@@ -64,22 +64,20 @@ body {
   gap: 24px;
 }
 
-.credit-column {
-  padding: 32px 16px;
-  position: sticky;
-  top: 0;
-  align-self: start;
+.settings-top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.credit {
   text-align: center;
   font-size: 1rem;
   font-style: italic;
   color: var(--text-secondary);
   line-height: 1.5;
   white-space: nowrap;
-}
-
-.theme-wrap {
-  display: flex;
-  justify-content: center;
 }
 
 .annotations-controls {
@@ -91,27 +89,36 @@ body {
 .annotations-checkbox {
   display: flex;
   align-items: center;
-  gap: 6px;
-  font-size: 0.85rem;
+  gap: 7px;
+  font-size: 1rem;
   color: var(--text-secondary);
   cursor: pointer;
 }
 
 .annotations-checkbox input {
   cursor: pointer;
+  accent-color: var(--text-secondary);
 }
 
 .annotations-sub {
   display: flex;
   align-items: center;
-  gap: 4px;
-  padding-left: 20px;
-  font-size: 0.8rem;
+  gap: 6px;
+  padding-left: 22px;
+  font-size: 0.95rem;
   cursor: pointer;
 }
 
 .annotations-sub input {
   cursor: pointer;
+}
+
+.meaning-check input {
+  accent-color: var(--color-meaning);
+}
+
+.lang-check input {
+  accent-color: var(--color-lang);
 }
 
 .annotations-sub.disabled {

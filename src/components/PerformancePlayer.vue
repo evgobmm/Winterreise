@@ -36,7 +36,7 @@ const embedSrc = computed(() =>
     >
       <span class="perf-note">♪</span>
       <span class="perf-label">Исполнения</span>
-      <span class="perf-caret">{{ expanded ? '▾' : '▸' }}</span>
+      <span class="perf-chevron" :class="{ open: expanded }"></span>
     </button>
 
     <div v-if="expanded" class="perf-body">
@@ -105,9 +105,19 @@ const embedSrc = computed(() =>
   text-align: left;
 }
 
-.perf-caret {
-  color: var(--text-secondary);
-  font-size: 0.75rem;
+.perf-chevron {
+  flex-shrink: 0;
+  width: 7px;
+  height: 7px;
+  margin-right: 3px;
+  border-right: 1.6px solid var(--text-secondary);
+  border-bottom: 1.6px solid var(--text-secondary);
+  transform: rotate(-45deg);
+  transition: transform 0.2s ease;
+}
+
+.perf-chevron.open {
+  transform: rotate(45deg);
 }
 
 .perf-body {

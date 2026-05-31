@@ -37,33 +37,33 @@ const currentSongFile = computed(() => {
       />
       <p v-else class="placeholder">Выберите песню из списка</p>
     </main>
-    <aside class="credit-column">
-      Музыка Франца Шуберта<br>
-      Поэзия Вильгельма Мюллера
-    </aside>
     <aside class="settings">
-      <div class="theme-wrap">
+      <div class="settings-top">
+        <div class="annotations-controls">
+          <label class="annotations-checkbox">
+            <input type="checkbox" v-model="showAnnotations" />
+            Пояснения
+          </label>
+          <label
+            class="annotations-sub meaning-check"
+            :class="{ disabled: !showAnnotations }"
+          >
+            <input type="checkbox" v-model="showMeaning" :disabled="!showAnnotations" />
+            Смысл
+          </label>
+          <label
+            class="annotations-sub lang-check"
+            :class="{ disabled: !showAnnotations }"
+          >
+            <input type="checkbox" v-model="showLang" :disabled="!showAnnotations" />
+            Язык
+          </label>
+        </div>
         <ThemeToggle />
       </div>
-      <div class="annotations-controls">
-        <label class="annotations-checkbox">
-          <input type="checkbox" v-model="showAnnotations" />
-          Пояснения
-        </label>
-        <label
-          class="annotations-sub meaning-check"
-          :class="{ disabled: !showAnnotations }"
-        >
-          <input type="checkbox" v-model="showMeaning" :disabled="!showAnnotations" />
-          Смысл
-        </label>
-        <label
-          class="annotations-sub lang-check"
-          :class="{ disabled: !showAnnotations }"
-        >
-          <input type="checkbox" v-model="showLang" :disabled="!showAnnotations" />
-          Язык
-        </label>
+      <div class="credit">
+        Музыка Франца Шуберта<br>
+        Поэзия Вильгельма Мюллера
       </div>
       <PerformancePlayer :song-number="currentSongNumber" />
     </aside>
