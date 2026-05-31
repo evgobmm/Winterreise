@@ -63,7 +63,9 @@ const currentSongFile = computed(() => {
             Язык
           </label>
         </div>
-        <ThemeToggle />
+        <div class="theme-slot">
+          <ThemeToggle />
+        </div>
       </div>
       <PerformancePlayer :song-number="currentSongNumber" />
     </aside>

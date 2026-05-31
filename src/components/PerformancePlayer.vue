@@ -79,7 +79,7 @@ const embedSrc = computed(() =>
   width: 100%;
   padding: 7px 10px;
   font-family: inherit;
-  font-size: 0.9rem;
+  font-size: 1rem;
   color: var(--text);
   background: var(--sidebar-bg);
   border: 1px solid var(--border);
@@ -133,9 +133,9 @@ const embedSrc = computed(() =>
 }
 
 .perf-name {
-  padding: 5px 8px;
+  padding: 6px 9px;
   font-family: inherit;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   line-height: 1.25;
   text-align: left;
   color: var(--text-secondary);
@@ -172,7 +172,7 @@ const embedSrc = computed(() =>
 }
 
 .perf-none {
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   color: var(--text-secondary);
   font-style: italic;
 }

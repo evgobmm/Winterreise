@@ -30,9 +30,9 @@ function applyTheme() {
   background: none;
   border: 1px solid var(--border);
   border-radius: 50%;
-  width: 36px;
-  height: 36px;
-  font-size: 1.2rem;
+  width: 46px;
+  height: 46px;
+  font-size: 1.55rem;
   cursor: pointer;
   color: var(--text);
   display: flex;
