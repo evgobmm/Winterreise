@@ -8,7 +8,7 @@ const props = defineProps({
 
 const performers = data.performers
 const expanded = ref(false)
-const enlarged = ref(false)
+const enlarged = ref(true)
 
 const savedPerformer = localStorage.getItem('performer')
 const performer = ref(
@@ -16,8 +16,8 @@ const performer = ref(
 )
 watch(performer, v => localStorage.setItem('performer', v))
 
-// closing the panel also drops the enlarged state
-watch(expanded, v => { if (!v) enlarged.value = false })
+// the player opens enlarged (~2×) every time the panel is expanded
+watch(expanded, v => { enlarged.value = v })
 
 const videoId = computed(() => {
   const entry = data.videos[String(props.songNumber)]
