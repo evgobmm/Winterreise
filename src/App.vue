@@ -3,6 +3,7 @@ import { ref, computed } from 'vue'
 import SongList from './components/SongList.vue'
 import SongView from './components/SongView.vue'
 import ThemeToggle from './components/ThemeToggle.vue'
+import PerformancePlayer from './components/PerformancePlayer.vue'
 import songsIndex from './data/index.json'
 
 const currentSongNumber = ref(1)
@@ -41,6 +42,7 @@ const currentSongFile = computed(() => {
       Поэзия Вильгельма Мюллера
     </aside>
     <aside class="settings">
+      <PerformancePlayer :song-number="currentSongNumber" />
       <div class="theme-wrap">
         <ThemeToggle />
       </div>
