@@ -465,6 +465,7 @@ function getLineDeParts(stanza, lineIndex) {
 
 .title-ru {
   font-weight: normal;
+  font-style: normal;
   color: var(--text-secondary);
 }
 
