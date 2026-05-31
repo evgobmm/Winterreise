@@ -232,9 +232,9 @@
         },
         {
           "segments": [
-            { "ru": "Никогда", "de": "nimmer" },
-            { "ru": "у него", "de": "ihm" },
-            { "ru": "не замирает.", "de": "Steht... still" }
+            { "ru": "У него", "de": "ihm" },
+            { "ru": "никогда", "de": "nimmer" },
+            { "ru": "не останавливается.", "de": "Steht... still" }
           ],
           "annotations": []
         }
