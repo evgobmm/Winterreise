@@ -5,6 +5,7 @@
   --text-secondary: #6b6b6b;
   --border: #d4d0c8;
   --accent: #8b4513;
+  --accent-hover: #743a12;
   --highlight: #fff3cd;
   --link: #5a3a1a;
   --de-text: #888;
@@ -22,6 +23,7 @@
   --text-secondary: #888;
   --border: #444;
   --accent: #c4915e;
+  --accent-hover: #a3743f;
   --highlight: #3a3520;
   --link: #c4915e;
   --de-text: #777;

@@ -46,6 +46,10 @@ defineEmits(['select'])
   color: #fff;
 }
 
+.song-list li.active:hover:not(.disabled) {
+  background: var(--accent-hover);
+}
+
 .song-list li.disabled {
   opacity: 0.4;
   cursor: default;
