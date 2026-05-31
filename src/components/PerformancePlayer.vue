@@ -47,7 +47,7 @@ const embedSrc = computed(() =>
           class="perf-name"
           :class="{ active: p.id === performer }"
           @click="performer = p.id"
-        >{{ p.name }}</button>
+        ><span class="perf-pname">{{ p.name }}</span><span class="perf-year">{{ p.year }}</span></button>
       </div>
 
       <div v-if="videoId" class="perf-frame">
@@ -133,6 +133,10 @@ const embedSrc = computed(() =>
 }
 
 .perf-name {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
   padding: 6px 9px;
   font-family: inherit;
   font-size: 0.9rem;
@@ -144,6 +148,12 @@ const embedSrc = computed(() =>
   border-radius: 4px;
   cursor: pointer;
   transition: all 0.15s;
+}
+
+.perf-year {
+  flex-shrink: 0;
+  opacity: 0.6;
+  font-size: 0.85em;
 }
 
 .perf-name:hover {
