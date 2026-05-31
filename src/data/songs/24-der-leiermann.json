@@ -180,7 +180,7 @@
             { "ru": "Крутит,", "de": "Dreht" },
             { "ru": "и", "de": "und" },
             { "ru": "его", "de": "seine" },
-            { "ru": "колёсная лира", "de": "Leier" }
+            { "ru": "лира", "de": "Leier" }
           ],
           "annotations": []
         },
@@ -231,7 +231,7 @@
         {
           "segments": [
             { "ru": "Свою", "de": "Deine" },
-            { "ru": "колёсную лиру", "de": "Leier" },
+            { "ru": "лиру", "de": "Leier" },
             { "ru": "крутить?", "de": "drehn" }
           ],
           "annotations": []
