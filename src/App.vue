@@ -38,7 +38,11 @@ const currentSongFile = computed(() => {
       <p v-else class="placeholder">Выберите песню из списка</p>
     </main>
     <aside class="settings">
-      <div class="settings-top">
+      <div class="credit">
+        Музыка Франца Шуберта<br>
+        Поэзия Вильгельма Мюллера
+      </div>
+      <div class="settings-controls">
         <div class="annotations-controls">
           <label class="annotations-checkbox">
             <input type="checkbox" v-model="showAnnotations" />
@@ -60,10 +64,6 @@ const currentSongFile = computed(() => {
           </label>
         </div>
         <ThemeToggle />
-      </div>
-      <div class="credit">
-        Музыка Франца Шуберта<br>
-        Поэзия Вильгельма Мюллера
       </div>
       <PerformancePlayer :song-number="currentSongNumber" />
     </aside>
