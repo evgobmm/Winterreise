@@ -1,11 +1,10 @@
 import { ref, watch } from 'vue'
 
 // Режим «Зима»: холодная палитра фона + снег/метель.
-// Состояние запоминается в localStorage (как тема).
-const stored =
-  localStorage.getItem('winter') === '1' || localStorage.getItem('snow') === '1'
+// Состояние запоминается в localStorage (как тема). По умолчанию — выключено.
+localStorage.removeItem('snow') // чистим устаревший ключ прежней версии (просто снег)
 
-export const winterEnabled = ref(stored)
+export const winterEnabled = ref(localStorage.getItem('winter') === '1')
 
 function apply(v) {
   document.documentElement.setAttribute('data-season', v ? 'winter' : 'none')
