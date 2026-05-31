@@ -8,16 +8,12 @@ const props = defineProps({
 
 const performers = data.performers
 const expanded = ref(false)
-const enlarged = ref(true)
 
 const savedPerformer = localStorage.getItem('performer')
 const performer = ref(
   performers.some(p => p.id === savedPerformer) ? savedPerformer : performers[0].id
 )
 watch(performer, v => localStorage.setItem('performer', v))
-
-// the player opens enlarged (~2×) every time the panel is expanded
-watch(expanded, v => { enlarged.value = v })
 
 const videoId = computed(() => {
   const entry = data.videos[String(props.songNumber)]
@@ -54,7 +50,7 @@ const embedSrc = computed(() =>
         >{{ p.name }}</button>
       </div>
 
-      <div v-if="videoId" class="perf-frame" :class="{ enlarged }">
+      <div v-if="videoId" class="perf-frame">
         <iframe
           :key="videoId"
           :src="embedSrc"
@@ -63,11 +59,6 @@ const embedSrc = computed(() =>
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen
         ></iframe>
-        <button
-          class="perf-size"
-          :title="enlarged ? 'Меньше' : 'Крупнее'"
-          @click="enlarged = !enlarged"
-        >{{ enlarged ? '⤡' : '⤢' }}</button>
       </div>
       <p v-else class="perf-none">Для этой песни записи нет.</p>
     </div>
@@ -134,7 +125,7 @@ const embedSrc = computed(() =>
 .perf-name {
   padding: 5px 8px;
   font-family: inherit;
-  font-size: 0.78rem;
+  font-size: 0.8rem;
   line-height: 1.25;
   text-align: left;
   color: var(--text-secondary);
@@ -156,7 +147,6 @@ const embedSrc = computed(() =>
 }
 
 .perf-frame {
-  position: relative;
   width: 100%;
   aspect-ratio: 16 / 9;
   border-radius: 6px;
@@ -165,47 +155,10 @@ const embedSrc = computed(() =>
 }
 
 .perf-frame iframe {
-  position: absolute;
-  inset: 0;
   width: 100%;
   height: 100%;
   border: 0;
-}
-
-/* Enlarged: float a 2× player anchored to the bottom-right corner */
-.perf-frame.enlarged {
-  position: fixed;
-  right: 24px;
-  bottom: 24px;
-  width: 440px;
-  max-width: 84vw;
-  height: auto;
-  z-index: 300;
-  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.35);
-}
-
-.perf-size {
-  position: absolute;
-  top: 4px;
-  right: 4px;
-  width: 22px;
-  height: 22px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 0.85rem;
-  line-height: 1;
-  color: #fff;
-  background: rgba(0, 0, 0, 0.55);
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  z-index: 2;
-  transition: background 0.15s;
-}
-
-.perf-size:hover {
-  background: rgba(0, 0, 0, 0.8);
+  display: block;
 }
 
 .perf-none {

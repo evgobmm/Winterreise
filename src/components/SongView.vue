@@ -132,7 +132,7 @@ const meaningAnnotations = computed(() => collectAnnotations('meaning'))
 
 const TOOLTIP_VERT_MARGIN = 16
 const TOOLTIP_HORIZ_GAP = 8
-const SETTINGS_COLUMN = 230
+const SETTINGS_COLUMN = 340
 const SETTINGS_RESERVE = SETTINGS_COLUMN + TOOLTIP_HORIZ_GAP
 const TOOLTIP_MIN_WIDTH = 200
 const TOOLTIP_MAX_WIDTH = 280
