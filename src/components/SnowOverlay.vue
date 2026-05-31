@@ -1,23 +1,23 @@
 <script setup>
-// Падающий снег: каждый «хлопок» — внешний span (вертикальное падение)
-// с вложенным span (независимое покачивание по горизонтали).
-// Всё на transform → GPU, плавно и дёшево.
-const COUNT = 60
+// Метель: каждый «хлопок» — внешний span (падение по диагонали с ветром)
+// с вложенным span (независимое покачивание). Всё на transform → GPU.
+const COUNT = 100
 
 const rand = (min, max) => min + Math.random() * (max - min)
 
 const flakes = Array.from({ length: COUNT }, (_, id) => {
-  const fallDuration = rand(9, 18)
+  const fallDuration = rand(7, 14)
   const swayDuration = rand(2.5, 5)
   return {
     id,
-    left: rand(0, 100),
-    size: rand(2, 6),
-    opacity: rand(0.35, 0.85),
-    blur: Math.random() < 0.45 ? rand(0.4, 1.1) : 0,
+    left: rand(-5, 100),
+    size: rand(1.5, 6),
+    opacity: rand(0.3, 0.9),
+    blur: Math.random() < 0.45 ? rand(0.4, 1.2) : 0,
     fallDuration,
     fallDelay: -rand(0, fallDuration),
-    drift: rand(6, 28),
+    wind: rand(7, 17),
+    drift: rand(6, 26),
     swayDuration,
     swayDelay: -rand(0, swayDuration)
   }
@@ -33,7 +33,8 @@ const flakes = Array.from({ length: COUNT }, (_, id) => {
       :style="{
         left: f.left + 'vw',
         animationDuration: f.fallDuration + 's',
-        animationDelay: f.fallDelay + 's'
+        animationDelay: f.fallDelay + 's',
+        '--wind': f.wind + 'vw'
       }"
     >
       <span
@@ -83,8 +84,8 @@ const flakes = Array.from({ length: COUNT }, (_, id) => {
 }
 
 @keyframes snow-fall {
-  from { transform: translateY(-10vh); }
-  to { transform: translateY(110vh); }
+  from { transform: translate(0, -10vh); }
+  to { transform: translate(var(--wind), 110vh); }
 }
 
 @keyframes snow-sway {

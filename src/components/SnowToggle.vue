@@ -1,14 +1,14 @@
 <script setup>
-import { snowEnabled, toggleSnow } from '../utils/snow.js'
+import { winterEnabled, toggleWinter } from '../utils/snow.js'
 </script>
 
 <template>
   <button
     class="snow-toggle"
-    :class="{ active: snowEnabled }"
-    @click="toggleSnow"
-    :title="snowEnabled ? 'Выключить снег' : 'Включить снег'"
-  >❅</button>
+    :class="{ active: winterEnabled }"
+    @click="toggleWinter"
+    :title="winterEnabled ? 'Вернуть обычный вид' : 'Зима'"
+  >{{ winterEnabled ? '❀' : '❅' }}</button>
 </template>
 
 <style scoped>

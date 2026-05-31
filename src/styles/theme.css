@@ -39,3 +39,38 @@
   --highlight-meaning: #3a3520;
   --snow: rgba(255, 255, 255, 0.8);
 }
+
+/* Режим «Зима» — холодная палитра поверх светлой базы */
+[data-season="winter"] {
+  --bg: #e3edf8;
+  --sidebar-bg: #d3e1f0;
+  --text: #243340;
+  --text-secondary: #5a7082;
+  --border: #bfd1e1;
+  --highlight: #cfe3f6;
+  --de-text: #6d8597;
+  --annotation-bg: #dbe8f4;
+  --snow: rgba(130, 158, 190, 0.72);
+}
+
+/* «Зима» в тёмной теме — морозная ночь */
+[data-theme="dark"][data-season="winter"] {
+  --bg: #0e1a28;
+  --sidebar-bg: #13212f;
+  --text: #c6d6e4;
+  --text-secondary: #7c92a7;
+  --border: #28394b;
+  --highlight: #1b3047;
+  --de-text: #6a8094;
+  --annotation-bg: #15232f;
+  --snow: rgba(255, 255, 255, 0.88);
+}
+
+/* Небо-градиент: морозно-голубое поле под снегом */
+html[data-season="winter"] body {
+  background: linear-gradient(180deg, #d6e4f3 0%, #e3edf8 100%);
+}
+
+html[data-theme="dark"][data-season="winter"] body {
+  background: linear-gradient(180deg, #0c1622 0%, #0a1018 100%);
+}
