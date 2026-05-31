@@ -44,8 +44,8 @@
           "segments": [
             { "ru": "Крутит", "de": "Dreht" },
             { "ru": "он,", "de": "er" },
-            { "ru": "как только", "de": "was" },
-            { "ru": "может.", "de": "er kann" }
+            { "ru": "как только", "de": "was er" },
+            { "ru": "может.", "de": "kann" }
           ],
           "annotations": [
             {
