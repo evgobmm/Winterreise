@@ -4,6 +4,9 @@ import SongList from './components/SongList.vue'
 import SongView from './components/SongView.vue'
 import ThemeToggle from './components/ThemeToggle.vue'
 import PerformancePlayer from './components/PerformancePlayer.vue'
+import SnowToggle from './components/SnowToggle.vue'
+import SnowOverlay from './components/SnowOverlay.vue'
+import { snowEnabled } from './utils/snow.js'
 import songsIndex from './data/index.json'
 
 const currentSongNumber = ref(1)
@@ -65,9 +68,11 @@ const currentSongFile = computed(() => {
         </div>
         <div class="theme-slot">
           <ThemeToggle />
+          <SnowToggle />
         </div>
       </div>
       <PerformancePlayer :song-number="currentSongNumber" />
     </aside>
+    <SnowOverlay v-if="snowEnabled" />
   </div>
 </template>

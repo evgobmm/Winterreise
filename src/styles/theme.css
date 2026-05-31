@@ -18,6 +18,7 @@
   --color-meaning: #8b4513;
   --highlight-lang: #e8f0fa;
   --highlight-meaning: #fff3cd;
+  --snow: rgba(120, 145, 180, 0.6);
 }
 
 [data-theme="dark"] {
@@ -36,4 +37,5 @@
   --color-meaning: #c4915e;
   --highlight-lang: #1a2a3a;
   --highlight-meaning: #3a3520;
+  --snow: rgba(255, 255, 255, 0.8);
 }
