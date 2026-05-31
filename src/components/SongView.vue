@@ -460,6 +460,10 @@ function getLineDeParts(stanza, lineIndex) {
 
 .song-header h2 {
   font-size: 1.5rem;
+}
+
+/* Курсив — маркер немецкого оригинала (только левая колонка) */
+.col-de h2 {
   font-style: italic;
 }
 
