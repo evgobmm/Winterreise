@@ -277,8 +277,7 @@
         },
         {
           "segments": [
-            { "ru": "Должен ли", "de": "Soll" },
-            { "ru": "я", "de": "ich" },
+            { "ru": "Мне", "de": "Soll ich" },
             { "ru": "с", "de": "mit" },
             { "ru": "тобой", "de": "dir" },
             { "ru": "идти?", "de": "gehn" }
@@ -287,7 +286,7 @@
         },
         {
           "segments": [
-            { "ru": "Хочешь ли", "de": "Willst" },
+            { "ru": "Хочешь", "de": "Willst" },
             { "ru": "под", "de": "zu" },
             { "ru": "мои", "de": "meinen" },
             { "ru": "песни", "de": "Liedern" }
