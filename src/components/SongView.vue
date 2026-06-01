@@ -338,9 +338,14 @@ function getLineDeParts(stanza, lineIndex) {
   if (!line || !lineDe) return null
   const variantSeg = line.segments.find(s => s.variant_de)
   if (!variantSeg) return null
-  const mainWord = variantSeg.de
-  const idx = lineDe.indexOf(mainWord)
-  if (idx === -1) return null
+  // Вариант надстраивается только над различающимся словом (существительным),
+  // а не над общим артиклем: для «артикль + существительное» (напр. «den Wegen»)
+  // берём последнее слово («Wegen»), чтобы «Straßen» встало над «Wegen», а не над «den Wegen».
+  const fullIdx = lineDe.indexOf(variantSeg.de)
+  if (fullIdx === -1) return null
+  const deWords = variantSeg.de.split(/\s+/)
+  const mainWord = deWords[deWords.length - 1]
+  const idx = fullIdx + variantSeg.de.lastIndexOf(mainWord)
   return {
     before: lineDe.substring(0, idx),
     main: mainWord,
