@@ -12,6 +12,9 @@ const props = defineProps({
 
 const emit = defineEmits(['close'])
 
+// Метка сборки (vite define) — для сверки «какая версия реально открыта»
+const buildTs = typeof __BUILD_TS__ !== 'undefined' ? __BUILD_TS__ : '?'
+
 // Локальные копии настроек: всё, что выбирается в этом меню, живёт только здесь
 // и не трогает состояние приложения — ни до печати, ни после закрытия.
 const pAnn = ref(props.showAnnotations)
@@ -271,6 +274,7 @@ onUnmounted(() => document.body.classList.remove('printing-songs'))
         </div>
 
         <div class="print-actions">
+          <span class="print-build">сборка {{ buildTs }}</span>
           <button class="print-go" :disabled="!selectedSongs.length" @click="doPrint">
             Печать{{ selectedSongs.length > 1 ? ` (${selectedSongs.length})` : '' }}
           </button>
@@ -426,6 +430,14 @@ onUnmounted(() => document.body.classList.remove('printing-songs'))
   cursor: pointer;
   accent-color: var(--accent);
   flex-shrink: 0;
+}
+
+.print-build {
+  margin-right: auto;
+  align-self: center;
+  font-size: 0.72rem;
+  color: var(--text-secondary);
+  opacity: 0.7;
 }
 
 .print-actions {
