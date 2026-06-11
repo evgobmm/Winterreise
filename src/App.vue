@@ -32,8 +32,10 @@ function updateSeoTags(n) {
   if (canonical) canonical.href = n === 1 ? base : `${base}?song=${n}`
   const desc = document.querySelector('meta[name="description"]')
   const song = songsIndex.find(s => s.number === n)
-  // Песня 1 = главная: привычный title и общее описание; для остальных — свои
-  if (song && n !== 1) {
+  // Чистый корень (без ?song) — «обложка» с общим титулом; явно выбранная
+  // песня (?song=N, включая N=1) — титул песни, единообразно для всех 24.
+  const hasSongParam = new URLSearchParams(window.location.search).has('song')
+  if (song && (n !== 1 || hasSongParam)) {
     document.title = `${n}. ${song.title_de} — ${song.title_ru} | Winterreise — Зимний путь`
     if (desc) desc.content = `«${song.title_de}» («${song.title_ru}») — песня ${n} из 24 цикла Шуберта «Зимний путь» (Winterreise): немецкий текст, пословный русский перевод, комментарии к языку и смыслу.`
   } else {
@@ -55,7 +57,6 @@ const currentSongFile = computed(() => {
 <template>
   <div class="app">
     <aside class="sidebar">
-      <h1 class="app-title">Winterreise<br><small>Зимнее путешествие</small></h1>
       <SongList
         :songs="songsIndex"
         :current="currentSongNumber"
@@ -73,9 +74,14 @@ const currentSongFile = computed(() => {
       <p v-else class="placeholder">Выберите песню из списка</p>
     </main>
     <aside class="settings">
-      <div class="credit">
-        Музыка Франца Шуберта<br>
-        Поэзия Вильгельма Мюллера
+      <div class="masthead">
+        <h1 class="masthead-title">Winterreise</h1>
+        <div class="masthead-subtitle">Зимнее путешествие</div>
+        <div class="credit">
+          Музыка Франца Шуберта<br>
+          Поэзия Вильгельма Мюллера
+        </div>
+        <div class="masthead-tagline">Точный семантический подстрочник с&nbsp;пояснениями</div>
       </div>
       <div class="settings-controls">
         <div class="annotations-controls">

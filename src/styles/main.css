@@ -40,20 +40,35 @@ body {
   top: 0;
 }
 
-.app-title {
-  font-family: var(--font-display);
-  font-size: 1.95rem;
-  font-weight: 700;
-  margin-bottom: 12px;
-  color: var(--text);
-  line-height: 1.15;
+/* Титульный блок в правой колонке */
+.masthead {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
 }
 
-.app-title small {
-  font-family: var(--font-sans);
-  font-size: 1.2rem;
-  font-weight: normal;
+.masthead-title {
+  font-family: var(--font-display);
+  font-size: 1.85rem;
+  font-weight: 700;
+  line-height: 1.1;
+  color: var(--text);
+}
+
+.masthead-subtitle {
+  font-family: var(--font-serif);
+  font-size: 1.05rem;
   color: var(--text-secondary);
+  margin-bottom: 14px;
+}
+
+/* Голос издания (не Шуберта и не Мюллера) — гротеск, без курсива */
+.masthead-tagline {
+  font-family: var(--font-sans);
+  font-size: 0.82rem;
+  line-height: 1.45;
+  color: var(--text-secondary);
+  margin-top: 12px;
 }
 
 .content {
@@ -160,7 +175,11 @@ body {
 }
 
 @media print {
-  .settings {
+  /* Титульный блок печатаем, элементы управления — нет */
+  .settings > :not(.masthead) {
     display: none;
+  }
+  .settings {
+    position: static;
   }
 }
