@@ -43,9 +43,10 @@ body {
 /* Заголовок списка песен: на уровне названия песни в центре;
    первая песня — примерно на уровне первой строки поэтического текста */
 .sidebar-title {
-  font-size: 1.05rem;
+  font-family: var(--font-serif);
+  font-size: 1.35rem;
   font-weight: 600;
-  margin: 14px 10px 30px;
+  margin: 11px 10px 26px;
   color: var(--text);
 }
 

@@ -13,10 +13,16 @@ defineProps({
 <style scoped>
 .footnote-mark {
   cursor: pointer;
-  /* Обычные цифры в sup вместо юникод-суперскриптов (⁰⁴⁵… нет во многих
-     шрифтах — браузер брал их из запасного, и «10» прыгало по вертикали) */
-  font-size: 0.68em;
-  line-height: 0;
+  /* Обычные цифры вместо юникод-суперскриптов (⁰⁴⁵… нет во многих шрифтах —
+     браузер брал их из запасного, и «10» прыгало по вертикали).
+     Подъём — через relative/top: vertical-align игнорируется во флекс-строках
+     слов (.ru-row — inline-flex), а этот способ работает в любом контексте. */
+  font-size: 0.66em;
+  line-height: 1;
+  vertical-align: baseline;
+  align-self: baseline;
+  position: relative;
+  top: -0.55em;
   margin-left: 2px;
   font-style: normal;
 }
