@@ -247,10 +247,11 @@ body {
     --border: #bbb;
     --de-text: #666;
     --annotation-bg: #fff;
-    /* Печать чёрно-белая: типы сносок не различаются цветом
-       (поэтому нумерация в печати сквозная) */
-    --color-lang: #1a1a1a;
-    --color-meaning: #1a1a1a;
+    /* Цвета типов: в цветной печати различимы (тёмно-синий / тёмно-сепия),
+       в ч/б оба ложатся практически чёрным (близкая к тексту светлота) —
+       поэтому нумерация в печати всё равно сквозная */
+    --color-lang: #1c2a45;
+    --color-meaning: #3a2817;
   }
 
   /* На печати лист встаёт в поток (на экране он спрятан за краем — см. ниже) */
@@ -333,6 +334,17 @@ body {
   min-width: 0;
 }
 
+/* Мобильные паддинги вариантных строк (они действуют и в печати из-за ширины
+   листа <900px) печатному листу не нужны: вёрстка тут десктопная, варианты
+   не наезжают. Без нейтрализации экранный замер расходится с печатью. */
+.print-sheet .print-song .line-pair.with-variant .line-de {
+  padding-top: 0;
+}
+
+.print-sheet .print-song .line-pair.with-variant .col-ru {
+  padding-top: 0;
+}
+
 /* Строфа никогда не разбивается между страницами */
 .print-sheet .print-song .stanza {
   margin-bottom: 26px;
@@ -358,9 +370,10 @@ body {
 /* Пункты комментариев МОЖНО рвать между страницами (прозу — можно,
    в отличие от строф) — страницы заполняются без «сирот»-пунктов */
 
-/* Принудительный перенос разрыва (ставит rebalanceNotes, когда ужатие
+/* Принудительный перенос разрыва (ставит rebalance*, когда ужатие
    не убирает «огрызок»: последняя страница получает ~полстраницы) */
-.print-sheet .print-song .annotation-item.print-break-before {
+.print-sheet .print-song .annotation-item.print-break-before,
+.print-sheet .print-song .line-pair.print-break-before {
   break-before: page;
   page-break-before: always;
 }

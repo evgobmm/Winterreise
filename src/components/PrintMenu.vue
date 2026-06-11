@@ -46,7 +46,10 @@ const sheetRef = ref(null)
 // Полезная высота страницы A4 при полях 20мм сверху / 18мм снизу
 const MM = 96 / 25.4
 const PAGE_H = (297 - 20 - 18) * MM
-const MIN_FILL = 0.2
+// Жёсткое требование — последняя страница ≥20%; рабочий порог с запасом:
+// экранная модель расходится с печатным движком на величину до ~10% страницы
+// (потери на границах строк), поэтому целимся в ≥32%.
+const SAFE_FILL = 0.32
 
 function blockH(el) {
   const cs = getComputedStyle(el)
@@ -55,6 +58,7 @@ function blockH(el) {
 
 // Жадная симуляция печатной разбивки: блоки неразрывны (строфы, пункты
 // комментариев) — блок, не влезающий в остаток страницы, уходит на следующую.
+// Блок выше целой страницы движок всё равно рвёт — учитываем перетекание.
 function paginate(blocks) {
   let pages = 1
   let y = 0
@@ -63,7 +67,11 @@ function paginate(blocks) {
       pages += 1
       y = 0
     }
-    y = Math.min(y + h, PAGE_H)
+    y += h
+    while (y > PAGE_H) {
+      pages += 1
+      y -= PAGE_H
+    }
   }
   return { pages, lastFill: y / PAGE_H }
 }
@@ -128,6 +136,26 @@ function rebalanceNotes(songEl) {
   }
 }
 
+// Перебалансировка текста: только когда хвост неустраним ужатием (например,
+// строфа выше страницы — её всё равно рвёт движок). Разрыв переносится на
+// границу пары строк, чтобы последней странице досталось ~полстраницы.
+function rebalanceText(songEl) {
+  const pairs = [...songEl.querySelectorAll('.line-pair')]
+  let acc = 0
+  for (let i = pairs.length - 1; i > 0; i--) {
+    acc += blockH(pairs[i])
+    if (acc >= PAGE_H / 2) {
+      pairs[i].classList.add('print-break-before')
+      return
+    }
+  }
+}
+
+function clearTextBreaks(songEl) {
+  songEl.querySelectorAll('.line-pair.print-break-before')
+    .forEach(e => e.classList.remove('print-break-before'))
+}
+
 // Подгонка кегля ступенями (1-3), без результата — возврат как было.
 // alwaysPack=true (текст): пробуем всегда, успех — только меньше страниц
 // (неразрывные строфы оставляют пустоты — лёгкое ужатие может убрать страницу).
@@ -137,13 +165,19 @@ function rebalanceNotes(songEl) {
 function fitFragment(el, attr, measure, alwaysPack) {
   el.removeAttribute(attr)
   const base = measure()
+  // Страница «впритык» (>93%): мельчайший дрейф печатного рендера даст
+  // перелив на 1-2 строки — превентивно лёгкая первая ступень
+  if (base.lastFill > 0.93) {
+    el.setAttribute(attr, '1')
+    return
+  }
   if (base.pages <= 1) return
-  if (!alwaysPack && base.lastFill >= MIN_FILL) return
+  if (!alwaysPack && base.lastFill >= SAFE_FILL) return
   let applied = 0
   for (let lvl = 1; lvl <= 3; lvl++) {
     el.setAttribute(attr, String(lvl))
     const m = measure()
-    if (m.pages < base.pages || (!alwaysPack && m.lastFill >= MIN_FILL)) {
+    if (m.pages < base.pages || (!alwaysPack && m.lastFill >= SAFE_FILL)) {
       applied = lvl
       break
     }
@@ -156,12 +190,25 @@ function fitFragment(el, attr, measure, alwaysPack) {
 function autoFitPrint() {
   const songs = sheetRef.value ? sheetRef.value.querySelectorAll('.print-song') : []
   for (const el of songs) {
+    clearTextBreaks(el)
     fitFragment(el, 'data-compact-text', () => paginate(textBlocks(el)), true)
+    const textAfter = paginate(textBlocks(el))
+    el.setAttribute('data-dbg-text', `${textAfter.pages}p ${Math.round(textAfter.lastFill * 100)}%`)
+    // Перебалансировка текста допустима, только если строфы и так рвутся
+    // движком (строфа выше страницы) — иначе запрет на разрыв строф священен
+    if (
+      textAfter.pages > 1 &&
+      textAfter.lastFill < SAFE_FILL &&
+      textBlocks(el).some(h => h > PAGE_H)
+    ) {
+      rebalanceText(el)
+    }
     if (el.querySelector('.annotations-columns')) {
       clearForcedBreaks(el)
       fitFragment(el, 'data-compact-notes', () => notesMetrics(el), false)
       const after = notesMetrics(el)
-      if (after.pages > 1 && after.lastFill < MIN_FILL) {
+      el.setAttribute('data-dbg-notes', `${after.pages}p ${Math.round(after.lastFill * 100)}%`)
+      if (after.pages > 1 && after.lastFill < SAFE_FILL) {
         rebalanceNotes(el)
       }
     }
