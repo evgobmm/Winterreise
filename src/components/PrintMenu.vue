@@ -78,12 +78,54 @@ function textBlocks(songEl) {
   return blocks
 }
 
-// Комментарии — сплошной поток (пункты разрешено рвать между страницами)
+// Комментарии — построчная модель: движок рвёт прозу только по границам
+// строк, заголовок панели не отрывается от первого пункта. Блок = строка
+// (+приклеенный заголовок, +нижний отступ пункта у его последней строки).
+function notesLineBlocks(songEl) {
+  const blocks = []
+  for (const panel of songEl.querySelectorAll('.annotations-panel')) {
+    const h3 = panel.querySelector('h3')
+    const pcs = getComputedStyle(panel)
+    let glue = (h3 ? blockH(h3) : 0) + (parseFloat(pcs.marginTop) || 0)
+    for (const it of panel.querySelectorAll('.annotation-item')) {
+      const cs = getComputedStyle(it)
+      const lineH = parseFloat(cs.lineHeight) || 20
+      const lines = Math.max(1, Math.round(it.offsetHeight / lineH))
+      const mb = parseFloat(cs.marginBottom) || 0
+      for (let i = 0; i < lines; i++) {
+        blocks.push({
+          h: lineH + (i === 0 ? glue : 0) + (i === lines - 1 ? mb : 0),
+          itemEl: i === 0 ? it : null
+        })
+        if (i === 0) glue = 0
+      }
+    }
+  }
+  return blocks
+}
+
 function notesMetrics(songEl) {
-  const notes = songEl.querySelector('.annotations-columns')
-  const h = notes ? notes.offsetHeight : 0
-  const pages = Math.max(1, Math.ceil(h / PAGE_H))
-  return { pages, lastFill: (h - (pages - 1) * PAGE_H) / PAGE_H }
+  return paginate(notesLineBlocks(songEl).map(b => b.h))
+}
+
+// Гарантия от «огрызка», когда ужатие не помогло: переносим разрыв страницы
+// раньше — на границу пункта так, чтобы последней странице досталось около
+// полустраницы. Устойчиво к мелким расхождениям модели и реального рендера.
+function clearForcedBreaks(songEl) {
+  songEl.querySelectorAll('.annotation-item.print-break-before')
+    .forEach(e => e.classList.remove('print-break-before'))
+}
+
+function rebalanceNotes(songEl) {
+  const blocks = notesLineBlocks(songEl)
+  let acc = 0
+  for (let i = blocks.length - 1; i > 0; i--) {
+    acc += blocks[i].h
+    if (acc >= PAGE_H / 2 && blocks[i].itemEl) {
+      blocks[i].itemEl.classList.add('print-break-before')
+      return
+    }
+  }
 }
 
 // Подгонка кегля ступенями (1-3), без результата — возврат как было.
@@ -116,7 +158,12 @@ function autoFitPrint() {
   for (const el of songs) {
     fitFragment(el, 'data-compact-text', () => paginate(textBlocks(el)), true)
     if (el.querySelector('.annotations-columns')) {
+      clearForcedBreaks(el)
       fitFragment(el, 'data-compact-notes', () => notesMetrics(el), false)
+      const after = notesMetrics(el)
+      if (after.pages > 1 && after.lastFill < MIN_FILL) {
+        rebalanceNotes(el)
+      }
     }
   }
 }
@@ -195,6 +242,7 @@ onUnmounted(() => document.body.classList.remove('printing-songs'))
         <SongView
           :song-file="s.file"
           :number="s.number"
+          :continuous-numbering="true"
           :show-annotations="pAnn"
           :show-lang="pLang"
           :show-meaning="pMeaning"

@@ -13,7 +13,10 @@ const props = defineProps({
   showLang: Boolean,
   showMeaning: Boolean,
   // Номер перед немецким названием (используется только печатным листом)
-  number: { type: Number, default: 0 }
+  number: { type: Number, default: 0 },
+  // Сквозная нумерация сносок: Язык продолжает счёт после Смысла
+  // (для чёрно-белой печати, где типы не различить цветом)
+  continuousNumbering: { type: Boolean, default: false }
 })
 
 const song = computed(() => {
@@ -67,8 +70,11 @@ const annNumberMap = computed(() => {
   const result = new Map()
   for (const type of ['lang', 'meaning']) {
     byType[type].sort((a, b) => a.footS !== b.footS ? a.footS - b.footS : a.footL !== b.footL ? a.footL - b.footL : a.footSeg - b.footSeg)
-    byType[type].forEach((item, i) => { result.set(item.key, i + 1) })
   }
+  // Сквозной режим: Язык продолжает нумерацию после Смысла (если Смысл показан)
+  const langOffset = props.continuousNumbering && props.showMeaning ? byType.meaning.length : 0
+  byType.meaning.forEach((item, i) => { result.set(item.key, i + 1) })
+  byType.lang.forEach((item, i) => { result.set(item.key, langOffset + i + 1) })
   return result
 })
 

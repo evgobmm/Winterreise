@@ -242,13 +242,15 @@ body {
   html:root[data-theme="dark"] {
     --bg: #fff;
     --sidebar-bg: #fff;
-    --text: #2c2c2c;
-    --text-secondary: #6b6b6b;
-    --border: #d4d0c8;
-    --de-text: #888;
+    --text: #1a1a1a;
+    --text-secondary: #555;
+    --border: #bbb;
+    --de-text: #666;
     --annotation-bg: #fff;
-    --color-lang: #2e6da4;
-    --color-meaning: #8b4513;
+    /* Печать чёрно-белая: типы сносок не различаются цветом
+       (поэтому нумерация в печати сквозная) */
+    --color-lang: #1a1a1a;
+    --color-meaning: #1a1a1a;
   }
 
   /* На печати лист встаёт в поток (на экране он спрятан за краем — см. ниже) */
@@ -355,6 +357,13 @@ body {
 
 /* Пункты комментариев МОЖНО рвать между страницами (прозу — можно,
    в отличие от строф) — страницы заполняются без «сирот»-пунктов */
+
+/* Принудительный перенос разрыва (ставит rebalanceNotes, когда ужатие
+   не убирает «огрызок»: последняя страница получает ~полстраницы) */
+.print-sheet .print-song .annotation-item.print-break-before {
+  break-before: page;
+  page-break-before: always;
+}
 
 .print-sheet .print-song .annotations-panel h3 {
   break-after: avoid;
