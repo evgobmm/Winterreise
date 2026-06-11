@@ -9,6 +9,17 @@ import SnowOverlay from './components/SnowOverlay.vue'
 import { winterEnabled } from './utils/snow.js'
 import songsIndex from './data/index.json'
 
+// Выключатель собственных заходов: один раз открыть ?stats=off — этот браузер
+// перестаёт учитываться в GoatCounter (штатный флажок skipgc); обратно — ?stats=on.
+const statsParam = new URLSearchParams(window.location.search).get('stats')
+if (statsParam === 'off') {
+  localStorage.setItem('skipgc', 't')
+  alert('Ваши заходы из этого браузера исключены из статистики.')
+} else if (statsParam === 'on') {
+  localStorage.removeItem('skipgc')
+  alert('Заходы из этого браузера снова учитываются в статистике.')
+}
+
 // Deep-link: ?song=N открывает песню N; при переключении URL обновляется
 // (replaceState — без засорения истории), остальные параметры (?admin=...) сохраняются.
 const songParam = Number(new URLSearchParams(window.location.search).get('song'))
@@ -23,7 +34,7 @@ watch(currentSongNumber, (n) => {
   updateSeoTags(n)
   // GoatCounter считает только загрузку страницы; переключение песни без
   // перезагрузки отправляем как «виртуальный просмотр» — видна статистика по песням
-  if (window.goatcounter && window.goatcounter.count) {
+  if (window.goatcounter && window.goatcounter.count && localStorage.getItem('skipgc') !== 't') {
     window.goatcounter.count({
       path: location.pathname + location.search,
       title: document.title
