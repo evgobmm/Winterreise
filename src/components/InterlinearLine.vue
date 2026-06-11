@@ -20,28 +20,36 @@ function isVisible(annOrFn) {
   return true
 }
 
-const emit = defineEmits(['hoverAnn'])
+const emit = defineEmits(['hoverAnn', 'tapAnn'])
 
-function onHover(info, isVariantHover, event) {
-  let key = null
+function resolveAnnKey(info, isVariantHover) {
   if (isVariantHover) {
     if (info.variantFootnote && isVisible(info.variantFootnote)) {
-      key = info.variantFootnote.key
-    } else {
-      const variantAnn = info.annKeys.find(a => a.isVariant && isVisible(a))
-      const mainAnn = info.annKeys.find(a => !a.isVariant && isVisible(a))
-      key = (variantAnn && variantAnn.key) || (mainAnn && mainAnn.key) || null
+      return info.variantFootnote.key
     }
-  } else {
-    if (info.footnote && isVisible(info.footnote)) {
-      key = info.footnote.key
-    } else {
-      const mainAnn = info.annKeys.find(a => !a.isVariant && isVisible(a))
-      key = (mainAnn && mainAnn.key) || null
-    }
+    const variantAnn = info.annKeys.find(a => a.isVariant && isVisible(a))
+    const mainAnn = info.annKeys.find(a => !a.isVariant && isVisible(a))
+    return (variantAnn && variantAnn.key) || (mainAnn && mainAnn.key) || null
   }
+  if (info.footnote && isVisible(info.footnote)) {
+    return info.footnote.key
+  }
+  const mainAnn = info.annKeys.find(a => !a.isVariant && isVisible(a))
+  return (mainAnn && mainAnn.key) || null
+}
+
+function onHover(info, isVariantHover, event) {
+  const key = resolveAnnKey(info, isVariantHover)
   if (key) {
     emit('hoverAnn', { key, y: event.currentTarget.getBoundingClientRect().top })
+  }
+}
+
+// Тап по сноске (мобильное окошко); выбор ключа — тот же, что у наведения
+function onTap(info, isVariantHover) {
+  const key = resolveAnnKey(info, isVariantHover)
+  if (key) {
+    emit('tapAnn', key)
   }
 }
 
@@ -139,6 +147,7 @@ const segmentInfo = computed(() => {
             v-if="isVisible(info.variantFootnote)"
             :index="info.variantFootnote.displayIndex"
             :type="info.variantFootnote.type"
+            @click.stop="onTap(info, true)"
           />
         </span>
         <span class="ru-word">{{ info.seg.ru || '\u00A0' }}</span>
@@ -146,6 +155,7 @@ const segmentInfo = computed(() => {
           v-if="isVisible(info.footnote)"
           :index="info.footnote.displayIndex"
           :type="info.footnote.type"
+          @click.stop="onTap(info, false)"
         />
       </span>
       <span class="de-gloss">

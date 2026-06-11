@@ -22,6 +22,27 @@ if (statsParam === 'off') {
 
 // Deep-link: ?song=N открывает песню N; при переключении URL обновляется
 // (replaceState — без засорения истории), остальные параметры (?admin=...) сохраняются.
+// Плавающие кнопки (мобильные): появляются при любом касании, гаснут через 3 с
+const quickNavVisible = ref(false)
+let quickNavTimer = null
+
+function pokeQuickNav() {
+  if (!window.matchMedia('(max-width: 900px)').matches) return
+  quickNavVisible.value = true
+  clearTimeout(quickNavTimer)
+  quickNavTimer = setTimeout(() => { quickNavVisible.value = false }, 3000)
+}
+window.addEventListener('touchstart', pokeQuickNav, { passive: true })
+
+function quickScrollTop() {
+  window.scrollTo({ top: 0, behavior: 'smooth' })
+}
+
+function quickScrollPlayer() {
+  const el = document.querySelector('.performance')
+  if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' })
+}
+
 const songParam = Number(new URLSearchParams(window.location.search).get('song'))
 const currentSongNumber = ref(
   songsIndex.some(s => s.number === songParam) ? songParam : 1
@@ -175,5 +196,12 @@ const currentSongFile = computed(() => {
       <PerformancePlayer :song-number="currentSongNumber" />
     </aside>
     <SnowOverlay v-if="winterEnabled" />
+    <!-- Плавающие кнопки (только мобильная раскладка): наверх / к исполнениям -->
+    <div class="quick-nav" :class="{ 'qn-visible': quickNavVisible }">
+      <button class="qn-btn" aria-label="Наверх" @click="quickScrollTop">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="5 14.5 12 7.5 19 14.5" /></svg>
+      </button>
+      <button class="qn-btn qn-note" aria-label="К исполнениям" @click="quickScrollPlayer">♪</button>
+    </div>
   </div>
 </template>

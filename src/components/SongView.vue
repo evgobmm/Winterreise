@@ -1,5 +1,5 @@
 <script setup>
-import { ref, computed, nextTick, onMounted, onUnmounted } from 'vue'
+import { ref, computed, watch, nextTick, onMounted, onUnmounted } from 'vue'
 import InterlinearLine from './InterlinearLine.vue'
 import AnnotationsPanel from './AnnotationsPanel.vue'
 import FootnoteMark from './FootnoteMark.vue'
@@ -332,6 +332,23 @@ function onTitleHover(key, event) {
   handleHover({ key, y: event.currentTarget.getBoundingClientRect().top })
 }
 
+// Тап по сноске (только мобильная раскладка) — модальное окошко с пояснением
+const tappedAnnKey = ref(null)
+
+function handleTap(key) {
+  if (!window.matchMedia('(max-width: 900px)').matches) return
+  tappedAnnKey.value = key
+}
+
+const tappedTooltip = computed(() => {
+  if (!tappedAnnKey.value) return null
+  return annDataByKey.value.get(tappedAnnKey.value) || null
+})
+
+watch(() => props.songFile, () => {
+  tappedAnnKey.value = null
+})
+
 function getLineDeParts(stanza, lineIndex) {
   const line = stanza.lines_ru[lineIndex]
   const lineDe = stanza.lines_de[lineIndex]
@@ -380,6 +397,7 @@ function getLineDeParts(stanza, lineIndex) {
           :key="fn.key"
           :index="fn.displayIndex"
           :type="fn.type"
+          @click.stop="handleTap(fn.key)"
         /></h2>
       </div>
     </header>
@@ -394,6 +412,7 @@ function getLineDeParts(stanza, lineIndex) {
           v-for="(lineRu, li) in stanza.lines_ru"
           :key="li"
           class="line-pair"
+          :class="{ 'with-variant': lineRu.segments.some(s => s.variant_ru || s.variant_de) }"
         >
           <div class="col-de">
             <p v-if="stanza.lines_de[li]" class="line-de">
@@ -416,6 +435,7 @@ function getLineDeParts(stanza, lineIndex) {
               :show-lang="showLang"
               :show-meaning="showMeaning"
               @hover-ann="handleHover"
+              @tap-ann="handleTap"
             />
           </div>
         </div>
@@ -434,6 +454,19 @@ function getLineDeParts(stanza, lineIndex) {
       :style="{ top: hoveredY + 'px', left: tooltipLeft + 'px', width: tooltipWidth + 'px' }"
     >
       <span v-html="renderText(hoveredTooltip.text)"></span>
+    </div>
+
+    <!-- Мобильное окошко пояснения (открывается тапом по сноске) -->
+    <div
+      v-if="tappedTooltip"
+      class="tap-popup-backdrop"
+      @click="tappedAnnKey = null"
+    >
+      <div class="tap-popup" :class="'tap-popup-' + tappedTooltip.type" @click.stop>
+        <button class="tap-popup-close" aria-label="Закрыть" @click="tappedAnnKey = null">✕</button>
+        <div class="tap-popup-type">{{ tappedTooltip.type === 'lang' ? 'язык' : 'смысл' }}</div>
+        <div class="tap-popup-text" v-html="renderText(tappedTooltip.text)"></div>
+      </div>
     </div>
 
     <div
@@ -597,9 +630,85 @@ function getLineDeParts(stanza, lineIndex) {
     gap: 28px;
   }
 
-  /* Наведения на тач-экране нет; пояснения читаются в панелях ниже */
+  /* Наведения на тач-экране нет; пояснения читаются в панелях ниже или тапом */
   .hover-tooltip {
     display: none;
+  }
+
+  /* Строки с поднятым вариантом (Wegen/Straßen, путях/дорогах) — даём
+     надстройке воздух, чтобы она не налезала на соседнюю строку */
+  .line-pair.with-variant .line-de {
+    padding-top: 1.35em;
+  }
+
+  .line-pair.with-variant .col-ru {
+    padding-top: 1.45rem;
+  }
+
+  /* Окошко пояснения по тапу */
+  .tap-popup-backdrop {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.35);
+    z-index: 90;
+  }
+
+  .tap-popup {
+    position: fixed;
+    left: 12px;
+    right: 12px;
+    bottom: 12px;
+    max-height: 65vh;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    background: var(--bg);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 14px 42px 16px 14px;
+    box-shadow: 0 8px 28px rgba(0, 0, 0, 0.25);
+    white-space: pre-line;
+  }
+
+  .tap-popup-lang {
+    border-left: 3px solid var(--color-lang);
+  }
+
+  .tap-popup-meaning {
+    border-left: 3px solid var(--color-meaning);
+  }
+
+  .tap-popup-type {
+    font-family: var(--font-sans);
+    font-size: 0.75rem;
+    letter-spacing: 0.05em;
+    margin-bottom: 6px;
+  }
+
+  .tap-popup-lang .tap-popup-type {
+    color: var(--color-lang);
+  }
+
+  .tap-popup-meaning .tap-popup-type {
+    color: var(--color-meaning);
+  }
+
+  .tap-popup-text {
+    font-size: 0.95rem;
+    line-height: 1.55;
+    color: var(--text);
+  }
+
+  .tap-popup-close {
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    width: 36px;
+    height: 36px;
+    border: none;
+    background: none;
+    color: var(--text-secondary);
+    font-size: 1.15rem;
+    cursor: pointer;
   }
 }
 

@@ -38,4 +38,13 @@ defineProps({
 .footnote-mark:hover {
   text-decoration: underline;
 }
+
+/* Мобильная: увеличенная зона тапа вокруг маленькой цифры (без сдвига вёрстки) */
+@media (max-width: 900px) {
+  .footnote-mark::after {
+    content: '';
+    position: absolute;
+    inset: -10px -9px;
+  }
+}
 </style>
