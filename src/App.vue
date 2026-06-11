@@ -57,6 +57,7 @@ const currentSongFile = computed(() => {
 <template>
   <div class="app">
     <aside class="sidebar">
+      <div class="sidebar-title">Песни</div>
       <SongList
         :songs="songsIndex"
         :current="currentSongNumber"
