@@ -11,7 +11,9 @@ const props = defineProps({
   songFile: String,
   showAnnotations: Boolean,
   showLang: Boolean,
-  showMeaning: Boolean
+  showMeaning: Boolean,
+  // Номер перед немецким названием (используется только печатным листом)
+  number: { type: Number, default: 0 }
 })
 
 const song = computed(() => {
@@ -381,7 +383,7 @@ function getLineDeParts(stanza, lineIndex) {
             'title-highlighted-lang': titleFootnotes.some(fn => fn.visible && fn.key === hoveredAnnKey && fn.type === 'lang'),
             'title-highlighted-meaning': titleFootnotes.some(fn => fn.visible && fn.key === hoveredAnnKey && fn.type === 'meaning')
           }"
-        >{{ song.title_de }}</h2>
+        >{{ (number ? number + '. ' : '') + song.title_de }}</h2>
       </div>
       <div class="col-ru">
         <h2

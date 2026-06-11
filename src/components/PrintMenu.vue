@@ -43,9 +43,9 @@ const selectedSongs = computed(() =>
 const printing = ref(false)
 const sheetRef = ref(null)
 
-// Полезная высота страницы A4 при полях 14мм (для оценки разбиения на страницы)
+// Полезная высота страницы A4 при полях 20мм сверху / 18мм снизу
 const MM = 96 / 25.4
-const PAGE_H = (297 - 2 * 14) * MM
+const PAGE_H = (297 - 20 - 18) * MM
 const MIN_FILL = 0.2
 
 function blockH(el) {
@@ -78,17 +78,12 @@ function textBlocks(songEl) {
   return blocks
 }
 
-// Комментарии: заголовок панели приклеен к её первому пункту, пункты целиком
-function notesBlocks(songEl) {
-  const blocks = []
-  for (const panel of songEl.querySelectorAll('.annotations-panel')) {
-    const h3 = panel.querySelector('h3')
-    const items = [...panel.querySelectorAll('.annotation-item')]
-    items.forEach((it, i) => {
-      blocks.push(blockH(it) + (i === 0 && h3 ? blockH(h3) : 0))
-    })
-  }
-  return blocks
+// Комментарии — сплошной поток (пункты разрешено рвать между страницами)
+function notesMetrics(songEl) {
+  const notes = songEl.querySelector('.annotations-columns')
+  const h = notes ? notes.offsetHeight : 0
+  const pages = Math.max(1, Math.ceil(h / PAGE_H))
+  return { pages, lastFill: (h - (pages - 1) * PAGE_H) / PAGE_H }
 }
 
 // Подгонка кегля ступенями (1-3), без результата — возврат как было.
@@ -97,15 +92,15 @@ function notesBlocks(songEl) {
 // alwaysPack=false (пояснения): пробуем только при «огрызке» (<20% страницы),
 // успех — меньше страниц либо заполнение последней ≥20%.
 // Одностраничный фрагмент не трогаем (его не ужать в ноль страниц).
-function fitFragment(el, attr, getBlocks, alwaysPack) {
+function fitFragment(el, attr, measure, alwaysPack) {
   el.removeAttribute(attr)
-  const base = paginate(getBlocks())
+  const base = measure()
   if (base.pages <= 1) return
   if (!alwaysPack && base.lastFill >= MIN_FILL) return
   let applied = 0
   for (let lvl = 1; lvl <= 3; lvl++) {
     el.setAttribute(attr, String(lvl))
-    const m = paginate(getBlocks())
+    const m = measure()
     if (m.pages < base.pages || (!alwaysPack && m.lastFill >= MIN_FILL)) {
       applied = lvl
       break
@@ -119,9 +114,9 @@ function fitFragment(el, attr, getBlocks, alwaysPack) {
 function autoFitPrint() {
   const songs = sheetRef.value ? sheetRef.value.querySelectorAll('.print-song') : []
   for (const el of songs) {
-    fitFragment(el, 'data-compact-text', () => textBlocks(el), true)
+    fitFragment(el, 'data-compact-text', () => paginate(textBlocks(el)), true)
     if (el.querySelector('.annotations-columns')) {
-      fitFragment(el, 'data-compact-notes', () => notesBlocks(el), false)
+      fitFragment(el, 'data-compact-notes', () => notesMetrics(el), false)
     }
   }
 }
@@ -199,6 +194,7 @@ onUnmounted(() => document.body.classList.remove('printing-songs'))
       >
         <SongView
           :song-file="s.file"
+          :number="s.number"
           :show-annotations="pAnn"
           :show-lang="pLang"
           :show-meaning="pMeaning"
