@@ -20,7 +20,28 @@ watch(currentSongNumber, (n) => {
   const url = new URL(window.location.href)
   url.searchParams.set('song', String(n))
   history.replaceState(null, '', url.pathname + url.search + url.hash)
+  updateSeoTags(n)
 })
+
+// Canonical и description зависят от выбранной песни. Статический canonical
+// склеил бы все ?song=N в одну страницу — обновляем из приложения (поисковик
+// читает значения после рендера; пользователю не видно). ?song=1 ≡ корню.
+function updateSeoTags(n) {
+  const base = window.location.origin + window.location.pathname
+  const canonical = document.querySelector('link[rel="canonical"]')
+  if (canonical) canonical.href = n === 1 ? base : `${base}?song=${n}`
+  const desc = document.querySelector('meta[name="description"]')
+  const song = songsIndex.find(s => s.number === n)
+  // Песня 1 = главная: привычный title и общее описание; для остальных — свои
+  if (song && n !== 1) {
+    document.title = `${n}. ${song.title_de} — ${song.title_ru} | Winterreise — Зимний путь`
+    if (desc) desc.content = `«${song.title_de}» («${song.title_ru}») — песня ${n} из 24 цикла Шуберта «Зимний путь» (Winterreise): немецкий текст, пословный русский перевод, комментарии к языку и смыслу.`
+  } else {
+    document.title = 'Winterreise — Зимний путь'
+    if (desc) desc.content = 'Все 24 песни цикла Франца Шуберта «Зимний путь» (Winterreise) на стихи Вильгельма Мюллера: немецкий текст, пословный русский перевод, комментарии к языку и смыслу.'
+  }
+}
+updateSeoTags(currentSongNumber.value)
 const showAnnotations = ref(true)
 const showLang = ref(true)
 const showMeaning = ref(true)
