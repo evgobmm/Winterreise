@@ -276,14 +276,27 @@ body {
 .print-sheet .print-song {
   /* Собственный боковой отступ: страховка полей, даже если @page проигнорирован */
   padding: 0 5mm;
+  /* База масштабирования: все кегли листа ниже заданы в em */
+  font-size: 1rem;
 }
 
-/* Шапка песни — две колонки, как на сайте */
+/* Кегли в em — ужимаются ступенями вместе с контейнером */
+.print-sheet .print-song .song-header h2 { font-size: 1.5em; }
+.print-sheet .print-song .line-de { font-size: 1em; }
+.print-sheet .print-song .ru-word { font-size: 1em; }
+.print-sheet .print-song .variant-ru { font-size: 1em; }
+.print-sheet .print-song .de-gloss { font-size: 0.75em; }
+.print-sheet .print-song .annotations-panel h3 { font-size: 1em; }
+.print-sheet .print-song .annotation-item { font-size: 0.9em; }
+
+/* Шапка песни — две колонки, как на сайте; не отрывается от первой строфы */
 .print-sheet .print-song .song-header {
   display: flex;
   flex-direction: row;
   gap: 28px;
   margin-bottom: 24px;
+  break-after: avoid;
+  page-break-after: avoid;
 }
 
 .print-sheet .print-song .song-header .col-de {
@@ -309,16 +322,22 @@ body {
   min-width: 0;
 }
 
+/* Строфа никогда не разбивается между страницами */
 .print-sheet .print-song .stanza {
   margin-bottom: 26px;
+  break-inside: avoid;
+  page-break-inside: avoid;
 }
 
-/* Комментарии: друг под другом во всю ширину (узкие колонки прозы плохо
-   рвутся между страницами); пункты целиком, заголовок не отрывается */
+/* Комментарии: всегда с новой страницы (поэтому без линии-отбивки),
+   друг под другом во всю ширину; пункты целиком, заголовок не отрывается */
 .print-sheet .print-song .annotations-columns {
   display: block;
-  margin-top: 28px;
-  padding-top: 16px;
+  break-before: page;
+  page-break-before: always;
+  border-top: none;
+  margin-top: 0;
+  padding-top: 0;
 }
 
 .print-sheet .print-song .annotations-columns > * + * {
@@ -335,10 +354,18 @@ body {
   page-break-after: avoid;
 }
 
-/* Ступени автоужатия пояснений (выставляет autoFitNotes перед печатью) */
-.print-song[data-compact="1"] .annotation-item { font-size: 0.86rem; }
-.print-song[data-compact="2"] .annotation-item { font-size: 0.82rem; }
-.print-song[data-compact="3"] .annotation-item { font-size: 0.78rem; }
+/* Ступени автоужатия (выставляет autoFitPrint перед печатью):
+   текст — «немного», пояснения — заметнее */
+.print-song[data-compact-text="1"] .song-header,
+.print-song[data-compact-text="1"] .song-body { font-size: 0.97em; }
+.print-song[data-compact-text="2"] .song-header,
+.print-song[data-compact-text="2"] .song-body { font-size: 0.94em; }
+.print-song[data-compact-text="3"] .song-header,
+.print-song[data-compact-text="3"] .song-body { font-size: 0.91em; }
+
+.print-song[data-compact-notes="1"] .annotations-columns { font-size: 0.95em; }
+.print-song[data-compact-notes="2"] .annotations-columns { font-size: 0.9em; }
+.print-song[data-compact-notes="3"] .annotations-columns { font-size: 0.85em; }
 
 /* ============ Мобильная раскладка (≤900px) ============
    На десктопе (>900px) ни одно из правил ниже не действует;

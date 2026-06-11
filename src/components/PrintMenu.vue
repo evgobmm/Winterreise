@@ -46,26 +46,83 @@ const sheetRef = ref(null)
 // Полезная высота страницы A4 при полях 14мм (для оценки разбиения на страницы)
 const MM = 96 / 25.4
 const PAGE_H = (297 - 2 * 14) * MM
+const MIN_FILL = 0.2
 
-// Если песня свешивается на следующую страницу меньше чем на 20% страницы —
-// пробуем ступенями ужать кегль пояснений, чтобы убрать «огрызок»;
-// не помогло ни на одной ступени — возвращаем нормальный кегль.
-function autoFitNotes() {
+function blockH(el) {
+  const cs = getComputedStyle(el)
+  return el.offsetHeight + (parseFloat(cs.marginTop) || 0) + (parseFloat(cs.marginBottom) || 0)
+}
+
+// Жадная симуляция печатной разбивки: блоки неразрывны (строфы, пункты
+// комментариев) — блок, не влезающий в остаток страницы, уходит на следующую.
+function paginate(blocks) {
+  let pages = 1
+  let y = 0
+  for (const h of blocks) {
+    if (y > 0 && y + h > PAGE_H) {
+      pages += 1
+      y = 0
+    }
+    y = Math.min(y + h, PAGE_H)
+  }
+  return { pages, lastFill: y / PAGE_H }
+}
+
+// Текстовая часть песни: шапка приклеена к первой строфе, далее строфы целиком
+function textBlocks(songEl) {
+  const header = songEl.querySelector('.song-header')
+  const stanzas = [...songEl.querySelectorAll('.stanza')]
+  if (!stanzas.length) return []
+  const blocks = [(header ? blockH(header) : 0) + blockH(stanzas[0])]
+  for (const st of stanzas.slice(1)) blocks.push(blockH(st))
+  return blocks
+}
+
+// Комментарии: заголовок панели приклеен к её первому пункту, пункты целиком
+function notesBlocks(songEl) {
+  const blocks = []
+  for (const panel of songEl.querySelectorAll('.annotations-panel')) {
+    const h3 = panel.querySelector('h3')
+    const items = [...panel.querySelectorAll('.annotation-item')]
+    items.forEach((it, i) => {
+      blocks.push(blockH(it) + (i === 0 && h3 ? blockH(h3) : 0))
+    })
+  }
+  return blocks
+}
+
+// Подгонка кегля ступенями (1-3), без результата — возврат как было.
+// alwaysPack=true (текст): пробуем всегда, успех — только меньше страниц
+// (неразрывные строфы оставляют пустоты — лёгкое ужатие может убрать страницу).
+// alwaysPack=false (пояснения): пробуем только при «огрызке» (<20% страницы),
+// успех — меньше страниц либо заполнение последней ≥20%.
+// Одностраничный фрагмент не трогаем (его не ужать в ноль страниц).
+function fitFragment(el, attr, getBlocks, alwaysPack) {
+  el.removeAttribute(attr)
+  const base = paginate(getBlocks())
+  if (base.pages <= 1) return
+  if (!alwaysPack && base.lastFill >= MIN_FILL) return
+  let applied = 0
+  for (let lvl = 1; lvl <= 3; lvl++) {
+    el.setAttribute(attr, String(lvl))
+    const m = paginate(getBlocks())
+    if (m.pages < base.pages || (!alwaysPack && m.lastFill >= MIN_FILL)) {
+      applied = lvl
+      break
+    }
+  }
+  if (!applied) el.removeAttribute(attr)
+}
+
+// Текст и комментарии — независимые фрагменты (комментарии начинаются
+// с новой страницы), каждый подгоняется отдельно.
+function autoFitPrint() {
   const songs = sheetRef.value ? sheetRef.value.querySelectorAll('.print-song') : []
   for (const el of songs) {
-    el.removeAttribute('data-compact')
-    const pages0 = Math.ceil(el.offsetHeight / PAGE_H)
-    const tail0 = el.offsetHeight - (pages0 - 1) * PAGE_H
-    if (pages0 <= 1 || tail0 >= 0.2 * PAGE_H) continue
-    let applied = 0
-    for (let lvl = 1; lvl <= 3; lvl++) {
-      el.setAttribute('data-compact', String(lvl))
-      if (Math.ceil(el.offsetHeight / PAGE_H) < pages0) {
-        applied = lvl
-        break
-      }
+    fitFragment(el, 'data-compact-text', () => textBlocks(el), true)
+    if (el.querySelector('.annotations-columns')) {
+      fitFragment(el, 'data-compact-notes', () => notesBlocks(el), false)
     }
-    if (!applied) el.removeAttribute('data-compact')
   }
 }
 
@@ -75,7 +132,7 @@ async function doPrint() {
   document.body.classList.add('printing-songs')
   await nextTick()
   if (document.fonts && document.fonts.ready) await document.fonts.ready
-  autoFitNotes()
+  autoFitPrint()
   window.print()
   document.body.classList.remove('printing-songs')
   printing.value = false
