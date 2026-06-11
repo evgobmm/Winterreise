@@ -21,6 +21,14 @@ watch(currentSongNumber, (n) => {
   url.searchParams.set('song', String(n))
   history.replaceState(null, '', url.pathname + url.search + url.hash)
   updateSeoTags(n)
+  // GoatCounter считает только загрузку страницы; переключение песни без
+  // перезагрузки отправляем как «виртуальный просмотр» — видна статистика по песням
+  if (window.goatcounter && window.goatcounter.count) {
+    window.goatcounter.count({
+      path: location.pathname + location.search,
+      title: document.title
+    })
+  }
 })
 
 // Canonical и description зависят от выбранной песни. Статический canonical
