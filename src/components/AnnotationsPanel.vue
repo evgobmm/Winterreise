@@ -7,13 +7,6 @@ defineProps({
   title: String
 })
 
-const superscripts = ['', '\u00B9', '\u00B2', '\u00B3', '\u2074', '\u2075', '\u2076', '\u2077', '\u2078', '\u2079']
-const digitMap = ['\u2070', '\u00B9', '\u00B2', '\u00B3', '\u2074', '\u2075', '\u2076', '\u2077', '\u2078', '\u2079']
-
-function toSuperscript(n) {
-  if (n < 10) return superscripts[n]
-  return String(n).split('').map(d => digitMap[parseInt(d)]).join('')
-}
 </script>
 
 <template>
@@ -24,7 +17,7 @@ function toSuperscript(n) {
       :key="ann.index"
       class="annotation-item"
     >
-      <span class="annotation-index" :class="'index-' + type">{{ toSuperscript(ann.index) }}</span>
+      <sup class="annotation-index" :class="'index-' + type">{{ ann.index }}</sup>
       <span class="annotation-ref">
         {{ ann.segments.map(s => ann.target === 'variant' ? (s.variant_ru || s.ru) : s.ru).join(' ') }}
       </span>
@@ -53,6 +46,11 @@ function toSuperscript(n) {
   margin-bottom: 10px;
   font-size: 0.9rem;
   line-height: 1.5;
+}
+
+.annotation-index {
+  font-size: 0.68em;
+  line-height: 0;
 }
 
 .index-lang {
