@@ -574,6 +574,35 @@ function getLineDeParts(stanza, lineIndex) {
   border-left: 3px solid var(--color-meaning);
 }
 
+/* Мобильная раскладка: колонки складываются в столбик; на десктопе не действует */
+@media (max-width: 900px) {
+  .song-header {
+    flex-direction: column;
+    gap: 0;
+    margin-bottom: 22px;
+  }
+
+  .line-pair {
+    flex-direction: column;
+    gap: 4px;
+    margin-bottom: 18px;
+  }
+
+  .col-de {
+    flex: none;
+  }
+
+  .annotations-columns {
+    flex-direction: column;
+    gap: 28px;
+  }
+
+  /* Наведения на тач-экране нет; пояснения читаются в панелях ниже */
+  .hover-tooltip {
+    display: none;
+  }
+}
+
 @media print {
   .hover-tooltip {
     display: none;

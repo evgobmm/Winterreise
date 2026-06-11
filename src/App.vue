@@ -75,6 +75,49 @@ const currentSongFile = computed(() => {
 
 <template>
   <div class="app">
+    <!-- Мобильная шапка: на десктопе display:none, на раскладку шире 900px не влияет -->
+    <header class="mobile-head">
+      <div class="mobile-brand">Winterreise · Зимнее путешествие</div>
+      <div class="mobile-nav">
+        <button
+          class="mob-arrow"
+          :disabled="currentSongNumber <= 1"
+          aria-label="Предыдущая песня"
+          @click="currentSongNumber--"
+        >‹</button>
+        <select
+          class="mob-select"
+          :value="currentSongNumber"
+          aria-label="Выбор песни"
+          @change="currentSongNumber = Number($event.target.value)"
+        >
+          <option v-for="s in songsIndex" :key="s.number" :value="s.number">
+            {{ s.number }}. {{ s.title_de }} — {{ s.title_ru }}
+          </option>
+        </select>
+        <button
+          class="mob-arrow"
+          :disabled="currentSongNumber >= songsIndex.length"
+          aria-label="Следующая песня"
+          @click="currentSongNumber++"
+        >›</button>
+      </div>
+      <div class="mobile-controls">
+        <label class="mob-check">
+          <input type="checkbox" v-model="showAnnotations" /> Пояснения
+        </label>
+        <label class="mob-check mob-meaning" :class="{ disabled: !showAnnotations }">
+          <input type="checkbox" v-model="showMeaning" :disabled="!showAnnotations" /> Смысл
+        </label>
+        <label class="mob-check mob-lang" :class="{ disabled: !showAnnotations }">
+          <input type="checkbox" v-model="showLang" :disabled="!showAnnotations" /> Язык
+        </label>
+        <span class="mob-toggles">
+          <ThemeToggle />
+          <SnowToggle />
+        </span>
+      </div>
+    </header>
     <aside class="sidebar">
       <div class="sidebar-title">Песни</div>
       <SongList

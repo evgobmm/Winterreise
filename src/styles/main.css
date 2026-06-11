@@ -193,3 +193,148 @@ body {
     position: static;
   }
 }
+
+/* ============ Мобильная раскладка (≤900px) ============
+   На десктопе (>900px) ни одно из правил ниже не действует;
+   единственное «десктопное» правило — спрятать мобильную шапку. */
+.mobile-head {
+  display: none;
+}
+
+@media (max-width: 900px) {
+  .app {
+    display: block;
+  }
+
+  .sidebar {
+    display: none;
+  }
+
+  /* Шапка: бренд, навигация по песням, управление */
+  .mobile-head {
+    display: block;
+    padding: 12px 16px 10px;
+    background: var(--sidebar-bg);
+    border-bottom: 1px solid var(--border);
+  }
+
+  .mobile-brand {
+    font-family: var(--font-display);
+    font-size: 1.15rem;
+    font-weight: 600;
+    text-align: center;
+    color: var(--text);
+    margin-bottom: 10px;
+  }
+
+  .mobile-nav {
+    display: flex;
+    gap: 8px;
+  }
+
+  .mob-arrow {
+    flex: 0 0 44px;
+    height: 42px;
+    font-size: 1.5rem;
+    line-height: 1;
+    color: var(--text);
+    background: var(--bg);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    cursor: pointer;
+  }
+
+  .mob-arrow:disabled {
+    opacity: 0.35;
+    cursor: default;
+  }
+
+  .mob-select {
+    flex: 1;
+    min-width: 0;
+    height: 42px;
+    padding: 0 8px;
+    font-family: var(--font-sans);
+    font-size: 0.95rem;
+    color: var(--text);
+    background: var(--bg);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+  }
+
+  .mobile-controls {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px 14px;
+    margin-top: 10px;
+    font-family: var(--font-sans);
+    font-size: 0.92rem;
+    color: var(--text-secondary);
+  }
+
+  .mob-check {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    cursor: pointer;
+  }
+
+  .mob-check input {
+    accent-color: var(--text-secondary);
+  }
+
+  .mob-meaning {
+    color: var(--color-meaning);
+  }
+
+  .mob-meaning input {
+    accent-color: var(--color-meaning);
+  }
+
+  .mob-lang {
+    color: var(--color-lang);
+  }
+
+  .mob-lang input {
+    accent-color: var(--color-lang);
+  }
+
+  .mob-check.disabled {
+    opacity: 0.4;
+  }
+
+  .mob-toggles {
+    display: flex;
+    gap: 8px;
+    margin-left: auto;
+  }
+
+  /* Кружки темы/зимы компактнее (важность — для перевеса scoped-стилей компонентов) */
+  .mob-toggles .theme-toggle,
+  .mob-toggles .snow-toggle {
+    width: 36px !important;
+    height: 36px !important;
+    font-size: 1.1rem !important;
+  }
+
+  /* Контент и нижний колофон */
+  .content {
+    padding: 20px 16px 8px;
+    max-width: none;
+  }
+
+  .settings {
+    position: static;
+    height: auto;
+    padding: 4px 16px 36px;
+    border-top: 1px solid var(--border);
+    margin-top: 24px;
+    gap: 18px;
+  }
+
+  /* Переключатели уже в шапке — внизу остаются титул-колофон и «Исполнения» */
+  .settings-controls {
+    display: none;
+  }
+}
