@@ -184,27 +184,36 @@ body {
   color: var(--color-lang);
 }
 
-/* Кнопка печати (станок) — под «Исполнениями», по центру */
-.print-row {
-  display: flex;
-  justify-content: center;
-}
-
+/* Кнопка печати — прямоугольник в пару к «Исполнениям»: слева станок, справа подпись */
 .press-btn {
-  width: 46px;
-  height: 46px;
-  border: 1px solid var(--border);
-  border-radius: 50%;
-  background: none;
-  color: var(--text);
   display: flex;
   align-items: center;
-  justify-content: center;
+  gap: 8px;
+  width: 100%;
+  padding: 7px 10px;
+  font-family: inherit;
+  font-size: 1rem;
+  color: var(--text);
+  background: var(--sidebar-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
   cursor: pointer;
+  transition: background 0.15s;
 }
 
 .press-btn:hover {
   background: var(--highlight);
+}
+
+.press-icon {
+  display: flex;
+  color: var(--accent);
+  flex-shrink: 0;
+}
+
+.press-label {
+  flex: 1;
+  text-align: left;
 }
 
 @media print {
@@ -219,6 +228,83 @@ body {
   /* Печать из меню печати: виден только печатный лист с выбранными песнями */
   body.printing-songs .app {
     display: none !important;
+  }
+
+  /* ===== Типографика печатного листа (книжная) ===== */
+  @page {
+    margin: 17mm 15mm;
+  }
+
+  /* Бумага всегда белая, палитра всегда светлая — независимо от темы экрана.
+     html:root — специфичность выше, чем у :root в theme.css (он в бандле позже) */
+  html:root,
+  html:root[data-theme="dark"] {
+    --bg: #fff;
+    --sidebar-bg: #fff;
+    --text: #2c2c2c;
+    --text-secondary: #6b6b6b;
+    --border: #d4d0c8;
+    --de-text: #888;
+    --annotation-bg: #fff;
+    --color-lang: #2e6da4;
+    --color-meaning: #8b4513;
+  }
+
+  /* Шапка песни: немецкое название, под ним русское, воздух после */
+  body.printing-songs .print-sheet .song-header {
+    display: block;
+    margin-bottom: 24px;
+  }
+
+  body.printing-songs .print-sheet .song-header h2 {
+    font-size: 1.5rem;
+  }
+
+  body.printing-songs .print-sheet .title-ru {
+    font-size: 1.1rem;
+    margin-top: 2px;
+  }
+
+  /* Ритм: пара строк (DE+RU) — плотно; между парами умеренно; строфы — явно */
+  body.printing-songs .print-sheet .line-pair {
+    display: block;
+    margin-bottom: 13px;
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+
+  body.printing-songs .print-sheet .line-de {
+    margin-bottom: 3px;
+    line-height: 1.4;
+  }
+
+  body.printing-songs .print-sheet .interlinear-line {
+    margin-bottom: 0;
+  }
+
+  body.printing-songs .print-sheet .stanza {
+    margin-bottom: 30px;
+  }
+
+  /* Комментарии: отбивка от текста, пункты не рвать между страницами */
+  body.printing-songs .print-sheet .annotations-columns {
+    display: block;
+    margin-top: 30px;
+    padding-top: 18px;
+  }
+
+  body.printing-songs .print-sheet .annotations-columns > * + * {
+    margin-top: 22px;
+  }
+
+  body.printing-songs .print-sheet .annotation-item {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+
+  body.printing-songs .print-sheet .annotations-panel h3 {
+    break-after: avoid;
+    page-break-after: avoid;
   }
 }
 

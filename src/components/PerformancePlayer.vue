@@ -34,7 +34,15 @@ const embedSrc = computed(() =>
       :class="{ open: expanded }"
       @click="expanded = !expanded"
     >
-      <span class="perf-note">♪</span>
+      <span class="perf-note">
+        <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+          <ellipse cx="6.2" cy="18.8" rx="2.9" ry="2.1" transform="rotate(-14 6.2 18.8)" />
+          <ellipse cx="17" cy="16.9" rx="2.9" ry="2.1" transform="rotate(-14 17 16.9)" />
+          <rect x="8.3" y="6.2" width="1.4" height="12.6" />
+          <rect x="19.1" y="4.4" width="1.4" height="12.5" />
+          <polygon points="8.3,6.2 20.5,4.4 20.5,7.6 8.3,9.4" />
+        </svg>
+      </span>
       <span class="perf-label">Исполнения</span>
       <span class="perf-chevron" :class="{ open: expanded }"></span>
     </button>
@@ -97,7 +105,9 @@ const embedSrc = computed(() =>
 }
 
 .perf-note {
+  display: flex;
   color: var(--accent);
+  flex-shrink: 0;
 }
 
 .perf-label {
