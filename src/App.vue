@@ -1,5 +1,5 @@
 <script setup>
-import { ref, computed } from 'vue'
+import { ref, computed, watch } from 'vue'
 import SongList from './components/SongList.vue'
 import SongView from './components/SongView.vue'
 import ThemeToggle from './components/ThemeToggle.vue'
@@ -9,7 +9,18 @@ import SnowOverlay from './components/SnowOverlay.vue'
 import { winterEnabled } from './utils/snow.js'
 import songsIndex from './data/index.json'
 
-const currentSongNumber = ref(1)
+// Deep-link: ?song=N открывает песню N; при переключении URL обновляется
+// (replaceState — без засорения истории), остальные параметры (?admin=...) сохраняются.
+const songParam = Number(new URLSearchParams(window.location.search).get('song'))
+const currentSongNumber = ref(
+  songsIndex.some(s => s.number === songParam) ? songParam : 1
+)
+
+watch(currentSongNumber, (n) => {
+  const url = new URL(window.location.href)
+  url.searchParams.set('song', String(n))
+  history.replaceState(null, '', url.pathname + url.search + url.hash)
+})
 const showAnnotations = ref(true)
 const showLang = ref(true)
 const showMeaning = ref(true)

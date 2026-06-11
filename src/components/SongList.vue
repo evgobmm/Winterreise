@@ -14,10 +14,20 @@ defineEmits(['select'])
         v-for="song in songs"
         :key="song.number"
         :class="{ active: song.number === current, disabled: !song.ready }"
-        @click="song.ready && $emit('select', song.number)"
       >
-        <span class="song-number">{{ song.number }}.</span>
-        <span class="song-title">{{ song.title_de }}</span>
+        <a
+          v-if="song.ready"
+          class="song-link"
+          :href="`?song=${song.number}`"
+          @click.exact.prevent="$emit('select', song.number)"
+        >
+          <span class="song-number">{{ song.number }}.</span>
+          <span class="song-title">{{ song.title_de }}</span>
+        </a>
+        <span v-else class="song-link">
+          <span class="song-number">{{ song.number }}.</span>
+          <span class="song-title">{{ song.title_de }}</span>
+        </span>
       </li>
     </ul>
   </nav>
@@ -29,12 +39,18 @@ defineEmits(['select'])
 }
 
 .song-list li {
-  padding: 6px 10px;
   cursor: pointer;
   border-radius: 4px;
   font-size: 0.9rem;
+}
+
+/* Ссылка заполняет пункт меню и выглядит ровно как раньше выглядел li */
+.song-link {
   display: flex;
   gap: 6px;
+  padding: 6px 10px;
+  color: inherit;
+  text-decoration: none;
 }
 
 .song-list li:hover:not(.disabled) {
