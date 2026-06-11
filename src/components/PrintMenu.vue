@@ -12,9 +12,6 @@ const props = defineProps({
 
 const emit = defineEmits(['close'])
 
-// Метка сборки (vite define) — для сверки «какая версия реально открыта»
-const buildTs = typeof __BUILD_TS__ !== 'undefined' ? __BUILD_TS__ : '?'
-
 // Локальные копии настроек: всё, что выбирается в этом меню, живёт только здесь
 // и не трогает состояние приложения — ни до печати, ни после закрытия.
 const pAnn = ref(props.showAnnotations)
@@ -46,9 +43,9 @@ const selectedSongs = computed(() =>
 const printing = ref(false)
 const sheetRef = ref(null)
 
-// Полезная высота страницы A4 при полях 20мм сверху / 18мм снизу
+// Полезная высота страницы A4 при полях 24мм сверху / 20мм снизу
 const MM = 96 / 25.4
-const PAGE_H = (297 - 20 - 18) * MM
+const PAGE_H = (297 - 24 - 20) * MM
 // Жёсткое требование — последняя страница ≥20%; рабочий порог с запасом:
 // экранная модель расходится с печатным движком на величину до ~10% страницы
 // (потери на границах строк), поэтому целимся в ≥32%.
@@ -274,7 +271,6 @@ onUnmounted(() => document.body.classList.remove('printing-songs'))
         </div>
 
         <div class="print-actions">
-          <span class="print-build">сборка {{ buildTs }}</span>
           <button class="print-go" :disabled="!selectedSongs.length" @click="doPrint">
             Печать{{ selectedSongs.length > 1 ? ` (${selectedSongs.length})` : '' }}
           </button>
@@ -430,14 +426,6 @@ onUnmounted(() => document.body.classList.remove('printing-songs'))
   cursor: pointer;
   accent-color: var(--accent);
   flex-shrink: 0;
-}
-
-.print-build {
-  margin-right: auto;
-  align-self: center;
-  font-size: 0.72rem;
-  color: var(--text-secondary);
-  opacity: 0.7;
 }
 
 .print-actions {
