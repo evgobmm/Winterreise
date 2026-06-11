@@ -38,15 +38,44 @@ const selectedSongs = computed(() =>
   songsIndex.filter(s => selected.value.has(s.number))
 )
 
-// На время печати рендерим скрытый «печатный лист» с выбранными песнями;
-// body.printing-songs прячет приложение в @media print (правило в main.css).
+// На время печати рендерим «печатный лист» с выбранными песнями (на экране он
+// спрятан за краем); body.printing-songs прячет приложение в @media print.
 const printing = ref(false)
+const sheetRef = ref(null)
+
+// Полезная высота страницы A4 при полях 14мм (для оценки разбиения на страницы)
+const MM = 96 / 25.4
+const PAGE_H = (297 - 2 * 14) * MM
+
+// Если песня свешивается на следующую страницу меньше чем на 20% страницы —
+// пробуем ступенями ужать кегль пояснений, чтобы убрать «огрызок»;
+// не помогло ни на одной ступени — возвращаем нормальный кегль.
+function autoFitNotes() {
+  const songs = sheetRef.value ? sheetRef.value.querySelectorAll('.print-song') : []
+  for (const el of songs) {
+    el.removeAttribute('data-compact')
+    const pages0 = Math.ceil(el.offsetHeight / PAGE_H)
+    const tail0 = el.offsetHeight - (pages0 - 1) * PAGE_H
+    if (pages0 <= 1 || tail0 >= 0.2 * PAGE_H) continue
+    let applied = 0
+    for (let lvl = 1; lvl <= 3; lvl++) {
+      el.setAttribute('data-compact', String(lvl))
+      if (Math.ceil(el.offsetHeight / PAGE_H) < pages0) {
+        applied = lvl
+        break
+      }
+    }
+    if (!applied) el.removeAttribute('data-compact')
+  }
+}
 
 async function doPrint() {
   if (!selectedSongs.value.length) return
   printing.value = true
   document.body.classList.add('printing-songs')
   await nextTick()
+  if (document.fonts && document.fonts.ready) await document.fonts.ready
+  autoFitNotes()
   window.print()
   document.body.classList.remove('printing-songs')
   printing.value = false
@@ -104,8 +133,8 @@ onUnmounted(() => document.body.classList.remove('printing-songs'))
       </div>
     </div>
 
-    <!-- Печатный лист: на экране скрыт, существует только в @media print -->
-    <div v-if="printing" class="print-sheet">
+    <!-- Печатный лист: на экране спрятан за краем (линейка для измерений) -->
+    <div v-if="printing" ref="sheetRef" class="print-sheet">
       <div
         v-for="s in selectedSongs"
         :key="s.number"
@@ -295,18 +324,11 @@ onUnmounted(() => document.body.classList.remove('printing-songs'))
   background: var(--highlight);
 }
 
-/* Печатный лист: на экране не существует */
-.print-sheet {
-  display: none;
-}
-
+/* Сам лист (.print-sheet) оформлен в main.css: на экране спрятан за краем
+   и служит линейкой для измерений, на печати встаёт в поток */
 @media print {
   .print-backdrop {
     display: none;
-  }
-
-  .print-sheet {
-    display: block;
   }
 
   .print-song {

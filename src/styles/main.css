@@ -230,9 +230,10 @@ body {
     display: none !important;
   }
 
-  /* ===== Типографика печатного листа (книжная) ===== */
+  /* ===== Печать из меню печати ===== */
   @page {
-    margin: 17mm 15mm;
+    /* 14мм сверху/снизу — место и для браузерных колонтитулов (номера страниц) */
+    margin: 14mm 11mm;
   }
 
   /* Бумага всегда белая, палитра всегда светлая — независимо от темы экрана.
@@ -250,63 +251,94 @@ body {
     --color-meaning: #8b4513;
   }
 
-  /* Шапка песни: немецкое название, под ним русское, воздух после */
-  body.printing-songs .print-sheet .song-header {
-    display: block;
-    margin-bottom: 24px;
-  }
-
-  body.printing-songs .print-sheet .song-header h2 {
-    font-size: 1.5rem;
-  }
-
-  body.printing-songs .print-sheet .title-ru {
-    font-size: 1.1rem;
-    margin-top: 2px;
-  }
-
-  /* Ритм: пара строк (DE+RU) — плотно; между парами умеренно; строфы — явно */
-  body.printing-songs .print-sheet .line-pair {
-    display: block;
-    margin-bottom: 13px;
-    break-inside: avoid;
-    page-break-inside: avoid;
-  }
-
-  body.printing-songs .print-sheet .line-de {
-    margin-bottom: 3px;
-    line-height: 1.4;
-  }
-
-  body.printing-songs .print-sheet .interlinear-line {
-    margin-bottom: 0;
-  }
-
-  body.printing-songs .print-sheet .stanza {
-    margin-bottom: 30px;
-  }
-
-  /* Комментарии: отбивка от текста, пункты не рвать между страницами */
-  body.printing-songs .print-sheet .annotations-columns {
-    display: block;
-    margin-top: 30px;
-    padding-top: 18px;
-  }
-
-  body.printing-songs .print-sheet .annotations-columns > * + * {
-    margin-top: 22px;
-  }
-
-  body.printing-songs .print-sheet .annotation-item {
-    break-inside: avoid;
-    page-break-inside: avoid;
-  }
-
-  body.printing-songs .print-sheet .annotations-panel h3 {
-    break-after: avoid;
-    page-break-after: avoid;
+  /* На печати лист встаёт в поток (на экране он спрятан за краем — см. ниже) */
+  .print-sheet {
+    position: static !important;
+    left: auto !important;
+    width: auto !important;
+    visibility: visible !important;
   }
 }
+
+/* ===== Печатный лист: вёрстка как на сайте (две колонки) =====
+   Правила действуют и на экране, и на печати: на экране лист спрятан за краем
+   (visibility:hidden) и служит «линейкой» — на нём до печати измеряются высоты
+   песен для автоподбора кегля пояснений. Ширина = полезной ширине листа A4. */
+.print-sheet {
+  position: fixed;
+  left: -300vw;
+  top: 0;
+  width: 188mm;
+  visibility: hidden;
+  background: #fff;
+}
+
+.print-sheet .print-song {
+  /* Собственный боковой отступ: страховка полей, даже если @page проигнорирован */
+  padding: 0 5mm;
+}
+
+/* Шапка песни — две колонки, как на сайте */
+.print-sheet .print-song .song-header {
+  display: flex;
+  flex-direction: row;
+  gap: 28px;
+  margin-bottom: 24px;
+}
+
+.print-sheet .print-song .song-header .col-de {
+  flex: 0 0 295px;
+}
+
+/* Пара строк: DE слева (как на сайте), RU с глоссами справа; не рвать по страницам */
+.print-sheet .print-song .line-pair {
+  display: flex;
+  flex-direction: row;
+  gap: 28px;
+  margin-bottom: 10px;
+  break-inside: avoid;
+  page-break-inside: avoid;
+}
+
+.print-sheet .print-song .line-pair .col-de {
+  flex: 0 0 295px;
+}
+
+.print-sheet .print-song .line-pair .col-ru {
+  flex: 1;
+  min-width: 0;
+}
+
+.print-sheet .print-song .stanza {
+  margin-bottom: 26px;
+}
+
+/* Комментарии: друг под другом во всю ширину (узкие колонки прозы плохо
+   рвутся между страницами); пункты целиком, заголовок не отрывается */
+.print-sheet .print-song .annotations-columns {
+  display: block;
+  margin-top: 28px;
+  padding-top: 16px;
+}
+
+.print-sheet .print-song .annotations-columns > * + * {
+  margin-top: 22px;
+}
+
+.print-sheet .print-song .annotation-item {
+  break-inside: avoid;
+  page-break-inside: avoid;
+}
+
+.print-sheet .print-song .annotations-panel h3 {
+  break-after: avoid;
+  page-break-after: avoid;
+}
+
+/* Ступени автоужатия пояснений (выставляет autoFitNotes перед печатью) */
+.print-song[data-compact="1"] .annotation-item { font-size: 0.86rem; }
+.print-song[data-compact="2"] .annotation-item { font-size: 0.82rem; }
+.print-song[data-compact="3"] .annotation-item { font-size: 0.78rem; }
 
 /* ============ Мобильная раскладка (≤900px) ============
    На десктопе (>900px) ни одно из правил ниже не действует;
