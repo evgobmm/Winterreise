@@ -6,6 +6,7 @@ import ThemeToggle from './components/ThemeToggle.vue'
 import PerformancePlayer from './components/PerformancePlayer.vue'
 import SnowToggle from './components/SnowToggle.vue'
 import SnowOverlay from './components/SnowOverlay.vue'
+import PrintMenu from './components/PrintMenu.vue'
 import { winterEnabled } from './utils/snow.js'
 import songsIndex from './data/index.json'
 
@@ -22,6 +23,8 @@ if (statsParam === 'off') {
 
 // Deep-link: ?song=N открывает песню N; при переключении URL обновляется
 // (replaceState — без засорения истории), остальные параметры (?admin=...) сохраняются.
+const printMenuOpen = ref(false)
+
 // Плавающие кнопки (мобильные): появляются при любом касании, гаснут через 3 с
 const quickNavVisible = ref(false)
 let quickNavTimer = null
@@ -194,8 +197,31 @@ const currentSongFile = computed(() => {
         </div>
       </div>
       <PerformancePlayer :song-number="currentSongNumber" />
+      <!-- Печать (только десктоп): ручной типографский станок начала XIX века -->
+      <div class="print-row">
+        <button class="press-btn" title="Печать…" aria-label="Печать" @click="printMenuOpen = true">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="5" y="3" width="14" height="11" rx="0.8" />
+            <line x1="9.4" y1="5.6" x2="14.6" y2="5.6" />
+            <line x1="12" y1="5.6" x2="12" y2="9" />
+            <line x1="8" y1="9" x2="16" y2="9" stroke-width="2.4" />
+            <line x1="6.4" y1="14" x2="6.4" y2="17" />
+            <line x1="17.6" y1="14" x2="17.6" y2="17" />
+            <line x1="3.4" y1="17.5" x2="20.6" y2="17.5" stroke-width="2" />
+            <line x1="5.2" y1="20.6" x2="18.8" y2="20.6" stroke-width="1.9" />
+          </svg>
+        </button>
+      </div>
     </aside>
     <SnowOverlay v-if="winterEnabled" />
+    <PrintMenu
+      v-if="printMenuOpen"
+      :current-song-number="currentSongNumber"
+      :show-annotations="showAnnotations"
+      :show-lang="showLang"
+      :show-meaning="showMeaning"
+      @close="printMenuOpen = false"
+    />
     <!-- Плавающие кнопки (только мобильная раскладка): наверх / к исполнениям -->
     <div class="quick-nav" :class="{ 'qn-visible': quickNavVisible }">
       <button class="qn-btn" aria-label="Наверх" @click="quickScrollTop">

@@ -184,6 +184,29 @@ body {
   color: var(--color-lang);
 }
 
+/* Кнопка печати (станок) — под «Исполнениями», по центру */
+.print-row {
+  display: flex;
+  justify-content: center;
+}
+
+.press-btn {
+  width: 46px;
+  height: 46px;
+  border: 1px solid var(--border);
+  border-radius: 50%;
+  background: none;
+  color: var(--text);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.press-btn:hover {
+  background: var(--highlight);
+}
+
 @media print {
   /* Титульный блок печатаем, элементы управления — нет */
   .settings > :not(.masthead) {
@@ -191,6 +214,11 @@ body {
   }
   .settings {
     position: static;
+  }
+
+  /* Печать из меню печати: виден только печатный лист с выбранными песнями */
+  body.printing-songs .app {
+    display: none !important;
   }
 }
 
@@ -339,6 +367,11 @@ body {
 
   /* Переключатели уже в шапке — внизу остаются титул-колофон и «Исполнения» */
   .settings-controls {
+    display: none;
+  }
+
+  /* Печать — функция только компьютерной версии */
+  .print-row {
     display: none;
   }
 
