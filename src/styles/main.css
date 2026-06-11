@@ -234,10 +234,17 @@ body {
   @page {
     /* Жёстко A4: вся модель разбивки на страницы считает в этой геометрии;
        на другой бумаге браузер масштабирует лист пропорционально — у всех
-       выходит одна и та же разбивка. Поля просторные со всех сторон;
-       нижнее — с местом для номеров страниц браузера */
+       выходит одна и та же разбивка. Поля просторные со всех сторон. */
     size: A4;
     margin: 24mm 16mm 20mm;
+
+    /* Собственные номера страниц — браузерные колонтитулы не нужны */
+    @bottom-center {
+      content: counter(page);
+      font-family: Georgia, 'Times New Roman', serif;
+      font-size: 9.5pt;
+      color: #777;
+    }
   }
 
   /* Бумага всегда белая, палитра всегда светлая — независимо от темы экрана.
@@ -285,8 +292,9 @@ body {
 .print-sheet .print-song {
   /* Собственный боковой отступ: страховка полей, даже если @page проигнорирован */
   padding: 0 5mm;
-  /* База масштабирования: все кегли листа ниже заданы в em */
-  font-size: 1rem;
+  /* База масштабирования (все кегли листа в em): печатный кегль компактнее
+     экранного — на страницу помещается больше при книжной читабельности */
+  font-size: 0.9rem;
 }
 
 /* Кегли в em — ужимаются ступенями вместе с контейнером */
@@ -298,13 +306,11 @@ body {
 .print-sheet .print-song .annotations-panel h3 { font-size: 1em; }
 .print-sheet .print-song .annotation-item { font-size: 0.9em; }
 
-/* Текстовая часть — по центру листа */
+/* Текстовая часть — во всю ширину листа; колонки в em: немецкая сжимается
+   вместе с кеглем, освобождая русскому подстрочнику всё больше места */
 .print-sheet .print-song .song-header,
 .print-sheet .print-song .song-body {
-  width: 620px;
-  max-width: 100%;
-  margin-left: auto;
-  margin-right: auto;
+  width: 100%;
 }
 
 /* Шапка песни — две колонки, как на сайте; не отрывается от первой строфы */
@@ -318,21 +324,21 @@ body {
 }
 
 .print-sheet .print-song .song-header .col-de {
-  flex: 0 0 295px;
+  flex: 0 0 22em;
 }
 
 /* Пара строк: DE слева (как на сайте), RU с глоссами справа; не рвать по страницам */
 .print-sheet .print-song .line-pair {
   display: flex;
   flex-direction: row;
-  gap: 28px;
+  gap: 1.6em;
   margin-bottom: 10px;
   break-inside: avoid;
   page-break-inside: avoid;
 }
 
 .print-sheet .print-song .line-pair .col-de {
-  flex: 0 0 295px;
+  flex: 0 0 22em;
 }
 
 .print-sheet .print-song .line-pair .col-ru {
@@ -349,6 +355,26 @@ body {
 
 .print-sheet .print-song .line-pair.with-variant .col-ru {
   padding-top: 0;
+}
+
+/* Варианты (Wegen/Straßen, путях/дорогах): надстройка над словом в печати
+   работает плохо — выводим в строку через косую черту */
+.print-sheet .print-song .de-variant-word {
+  position: static;
+  white-space: normal;
+}
+
+.print-sheet .print-song .de-variant-word::after {
+  content: " / ";
+}
+
+.print-sheet .print-song .variant-ru {
+  position: static;
+  white-space: normal;
+}
+
+.print-sheet .print-song .variant-ru::after {
+  content: " / ";
 }
 
 /* Строфа никогда не разбивается между страницами */
@@ -390,13 +416,23 @@ body {
 }
 
 /* Ступени автоужатия (выставляет autoFitPrint перед печатью):
-   текст — «немного», пояснения — заметнее */
+   у текста лестница длиннее — для запрета переносов поэтических строк */
 .print-song[data-compact-text="1"] .song-header,
 .print-song[data-compact-text="1"] .song-body { font-size: 0.97em; }
 .print-song[data-compact-text="2"] .song-header,
 .print-song[data-compact-text="2"] .song-body { font-size: 0.94em; }
 .print-song[data-compact-text="3"] .song-header,
 .print-song[data-compact-text="3"] .song-body { font-size: 0.91em; }
+.print-song[data-compact-text="4"] .song-header,
+.print-song[data-compact-text="4"] .song-body { font-size: 0.88em; }
+.print-song[data-compact-text="5"] .song-header,
+.print-song[data-compact-text="5"] .song-body { font-size: 0.85em; }
+.print-song[data-compact-text="6"] .song-header,
+.print-song[data-compact-text="6"] .song-body { font-size: 0.82em; }
+.print-song[data-compact-text="7"] .song-header,
+.print-song[data-compact-text="7"] .song-body { font-size: 0.79em; }
+.print-song[data-compact-text="8"] .song-header,
+.print-song[data-compact-text="8"] .song-body { font-size: 0.76em; }
 
 .print-song[data-compact-notes="1"] .annotations-columns { font-size: 0.95em; }
 .print-song[data-compact-notes="2"] .annotations-columns { font-size: 0.9em; }

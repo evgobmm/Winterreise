@@ -136,6 +136,52 @@ function rebalanceNotes(songEl) {
   }
 }
 
+// Поэтическая строка не должна переноситься: ищем переносы в DE-строках
+// (высота больше одной текстовой строки) и в RU-подстрочнике (сегменты
+// ушли на второй ряд).
+function hasWraps(songEl) {
+  for (const ln of songEl.querySelectorAll('.col-de .line-de')) {
+    const lh = parseFloat(getComputedStyle(ln).lineHeight) || 20
+    if (ln.offsetHeight > lh * 1.6) return true
+  }
+  for (const il of songEl.querySelectorAll('.col-ru .interlinear-line')) {
+    const segs = il.children
+    if (segs.length > 1 && segs[segs.length - 1].offsetTop > segs[0].offsetTop + 4) {
+      return true
+    }
+  }
+  return false
+}
+
+const TEXT_LVL_MAX = 8
+
+// Текст: (1) минимальный кегль, при котором ни одна поэтическая строка не
+// переносится; (2) поверх — упаковка: минимальный уровень, дающий наименьшее
+// число страниц (плотные страницы без лишнего ужатия).
+function fitText(el) {
+  const setLvl = (l) => {
+    if (l > 0) el.setAttribute('data-compact-text', String(l))
+    else el.removeAttribute('data-compact-text')
+  }
+  let wrapLvl = 0
+  for (; wrapLvl < TEXT_LVL_MAX; wrapLvl++) {
+    setLvl(wrapLvl)
+    if (!hasWraps(el)) break
+  }
+  setLvl(wrapLvl)
+  let best = wrapLvl
+  let bestPages = paginate(textBlocks(el)).pages
+  for (let l = wrapLvl + 1; l <= TEXT_LVL_MAX; l++) {
+    setLvl(l)
+    const p = paginate(textBlocks(el)).pages
+    if (p < bestPages) {
+      best = l
+      bestPages = p
+    }
+  }
+  setLvl(best)
+}
+
 // Перебалансировка текста: только когда хвост неустраним ужатием (например,
 // строфа выше страницы — её всё равно рвёт движок). Разрыв переносится на
 // границу пары строк, чтобы последней странице досталось ~полстраницы.
@@ -191,7 +237,7 @@ function autoFitPrint() {
   const songs = sheetRef.value ? sheetRef.value.querySelectorAll('.print-song') : []
   for (const el of songs) {
     clearTextBreaks(el)
-    fitFragment(el, 'data-compact-text', () => paginate(textBlocks(el)), true)
+    fitText(el)
     const textAfter = paginate(textBlocks(el))
     el.setAttribute('data-dbg-text', `${textAfter.pages}p ${Math.round(textAfter.lastFill * 100)}%`)
     // Перебалансировка текста допустима, только если строфы и так рвутся
