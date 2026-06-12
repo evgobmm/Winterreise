@@ -21,7 +21,9 @@ async function copyAddress() {
     copied.value = true
     setTimeout(() => { copied.value = false }, 2000)
   } catch (e) {
-    /* буфер недоступен — адрес виден текстом, можно выделить вручную */
+    // Буфер недоступен (редко) — показываем адрес во всплывающем окне браузера,
+    // чтобы человек всё же мог его взять; в самом окне адрес не выводим
+    window.prompt('Скопируйте адрес:', ADDRESS)
   }
 }
 </script>
@@ -38,6 +40,14 @@ async function copyAddress() {
         </p>
         <p class="fb-sign">Евгений Обухов</p>
 
+        <button class="fb-copy-main" @click="copyAddress">
+          {{ copied ? 'Адрес скопирован' : 'Скопировать адрес моей электронной почты' }}
+        </button>
+
+        <p class="fb-form-intro">
+          Если вы пользуетесь почтовой программой, можно воспользоваться формой:
+        </p>
+
         <textarea
           v-model="message"
           class="fb-area"
@@ -51,12 +61,6 @@ async function copyAddress() {
           </button>
           <button class="fb-cancel" @click="emit('close')">Отмена</button>
         </div>
-
-        <p class="fb-fallback">
-          Кнопка откроет вашу почтовую программу. Если это неудобно — напишите
-          напрямую: <span class="fb-address">{{ ADDRESS }}</span>
-          <button class="fb-copy" @click="copyAddress">{{ copied ? 'скопировано' : 'скопировать' }}</button>
-        </p>
       </div>
     </div>
   </Teleport>
@@ -106,7 +110,32 @@ async function copyAddress() {
   font-style: italic;
   text-align: right;
   color: var(--text-secondary);
-  margin: 6px 0 14px;
+  margin: 6px 0 16px;
+}
+
+/* Кнопка копирования адреса (сам адрес не показываем) */
+.fb-copy-main {
+  width: 100%;
+  font-family: inherit;
+  font-size: 0.92rem;
+  color: var(--link);
+  background: var(--sidebar-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 9px 12px;
+  cursor: pointer;
+}
+
+.fb-copy-main:hover {
+  background: var(--highlight);
+}
+
+.fb-form-intro {
+  margin: 18px 0 8px;
+  padding-top: 16px;
+  border-top: 1px solid var(--border);
+  font-size: 0.88rem;
+  color: var(--text-secondary);
 }
 
 .fb-area {
@@ -167,36 +196,6 @@ async function copyAddress() {
 }
 
 .fb-cancel:hover {
-  background: var(--highlight);
-}
-
-.fb-fallback {
-  margin-top: 14px;
-  padding-top: 12px;
-  border-top: 1px solid var(--border);
-  font-size: 0.82rem;
-  line-height: 1.5;
-  color: var(--text-secondary);
-}
-
-.fb-address {
-  color: var(--link);
-  user-select: all;
-}
-
-.fb-copy {
-  margin-left: 6px;
-  font-family: inherit;
-  font-size: 0.78rem;
-  color: var(--link);
-  background: none;
-  border: 1px solid var(--border);
-  border-radius: 4px;
-  padding: 1px 7px;
-  cursor: pointer;
-}
-
-.fb-copy:hover {
   background: var(--highlight);
 }
 

@@ -216,12 +216,7 @@ body {
   text-align: left;
 }
 
-/* Письмо автору — кружок в стиле кнопок темы и зимы */
-.feedback-row {
-  display: flex;
-  justify-content: center;
-}
-
+/* Письмо автору — кружок в стиле кнопок темы и зимы (в одном ряду с ними) */
 .letter-btn {
   width: 46px;
   height: 46px;
