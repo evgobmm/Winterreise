@@ -32,7 +32,7 @@ async function copyAddress() {
   <Teleport to="body">
     <div class="fb-backdrop" @click="emit('close')">
       <div class="fb-menu" @click.stop>
-        <h3 class="fb-title">Письмо автору</h3>
+        <h3 class="fb-title">Письмо</h3>
 
         <p class="fb-text">
           Вы можете написать мне о найденных ошибках, неточностях, предложить

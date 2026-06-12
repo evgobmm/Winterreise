@@ -196,13 +196,6 @@ const currentSongFile = computed(() => {
         <div class="theme-slot">
           <ThemeToggle />
           <SnowToggle />
-          <button class="letter-btn" title="Написать автору" aria-label="Написать автору" @click="feedbackOpen = true">
-            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
-              <rect x="3" y="5" width="18" height="14" rx="0.8" />
-              <path d="M3 6.6 L12 13.4 L21 6.6" />
-              <circle cx="12" cy="13.6" r="2.5" fill="currentColor" stroke="none" />
-            </svg>
-          </button>
         </div>
       </div>
       <PerformancePlayer :song-number="currentSongNumber" />
@@ -222,6 +215,16 @@ const currentSongFile = computed(() => {
             </svg>
           </span>
           <span class="press-label">Печать</span>
+        </button>
+      </div>
+      <!-- Письмо: конверт с сургучной печатью, по вертикали под снежинкой -->
+      <div class="feedback-row">
+        <button class="letter-btn" title="Письмо" aria-label="Письмо" @click="feedbackOpen = true">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="3" y="5" width="18" height="14" rx="0.8" />
+            <path d="M3 6.6 L12 13.4 L21 6.6" />
+            <circle cx="12" cy="13.6" r="2.5" fill="currentColor" stroke="none" />
+          </svg>
         </button>
       </div>
     </aside>
