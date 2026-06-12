@@ -238,12 +238,27 @@ const currentSongFile = computed(() => {
       @close="printMenuOpen = false"
     />
     <FeedbackMenu v-if="feedbackOpen" @close="feedbackOpen = false" />
-    <!-- Плавающие кнопки (только мобильная раскладка): наверх / к исполнениям -->
+    <!-- Плавающие кнопки (только мобильная раскладка): наверх / к исполнениям / письмо -->
     <div class="quick-nav" :class="{ 'qn-visible': quickNavVisible }">
       <button class="qn-btn" aria-label="Наверх" @click="quickScrollTop">
         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="5 14.5 12 7.5 19 14.5" /></svg>
       </button>
-      <button class="qn-btn qn-note" aria-label="К исполнениям" @click="quickScrollPlayer">♪</button>
+      <button class="qn-btn" aria-label="К исполнениям" @click="quickScrollPlayer">
+        <svg width="19" height="19" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+          <ellipse cx="6.2" cy="18.8" rx="2.9" ry="2.1" transform="rotate(-14 6.2 18.8)" />
+          <ellipse cx="17" cy="16.9" rx="2.9" ry="2.1" transform="rotate(-14 17 16.9)" />
+          <rect x="8.3" y="6.2" width="1.4" height="12.6" />
+          <rect x="19.1" y="4.4" width="1.4" height="12.5" />
+          <polygon points="8.3,6.2 20.5,4.4 20.5,7.6 8.3,9.4" />
+        </svg>
+      </button>
+      <button class="qn-btn" aria-label="Письмо" @click="feedbackOpen = true">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="3" y="5" width="18" height="14" rx="0.8" />
+          <path d="M3 6.6 L12 13.4 L21 6.6" />
+          <circle cx="12" cy="13.6" r="2.5" fill="currentColor" stroke="none" />
+        </svg>
+      </button>
     </div>
   </div>
 </template>

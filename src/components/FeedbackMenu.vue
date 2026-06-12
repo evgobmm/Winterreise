@@ -57,7 +57,7 @@ async function copyAddress() {
 
         <div class="fb-actions">
           <button class="fb-send" :disabled="!message.trim()" @click="send">
-            Отправить письмом
+            Отправить
           </button>
           <button class="fb-cancel" @click="emit('close')">Отмена</button>
         </div>
