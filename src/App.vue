@@ -7,6 +7,7 @@ import PerformancePlayer from './components/PerformancePlayer.vue'
 import SnowToggle from './components/SnowToggle.vue'
 import SnowOverlay from './components/SnowOverlay.vue'
 import PrintMenu from './components/PrintMenu.vue'
+import FeedbackMenu from './components/FeedbackMenu.vue'
 import { winterEnabled } from './utils/snow.js'
 import songsIndex from './data/index.json'
 
@@ -24,6 +25,7 @@ if (statsParam === 'off') {
 // Deep-link: ?song=N открывает песню N; при переключении URL обновляется
 // (replaceState — без засорения истории), остальные параметры (?admin=...) сохраняются.
 const printMenuOpen = ref(false)
+const feedbackOpen = ref(false)
 
 // Плавающие кнопки (мобильные): появляются при любом касании, гаснут через 3 с
 const quickNavVisible = ref(false)
@@ -215,6 +217,19 @@ const currentSongFile = computed(() => {
           <span class="press-label">Печать</span>
         </button>
       </div>
+      <!-- Письмо автору: конверт с сургучной печатью (форма обратной связи) -->
+      <div class="feedback-row">
+        <button class="press-btn" @click="feedbackOpen = true">
+          <span class="press-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="3" y="5" width="18" height="14" rx="0.8" />
+              <path d="M3 6.6 L12 13.4 L21 6.6" />
+              <circle cx="12" cy="13.6" r="2.5" fill="currentColor" stroke="none" />
+            </svg>
+          </span>
+          <span class="press-label">Написать автору</span>
+        </button>
+      </div>
     </aside>
     <SnowOverlay v-if="winterEnabled" />
     <PrintMenu
@@ -225,6 +240,7 @@ const currentSongFile = computed(() => {
       :show-meaning="showMeaning"
       @close="printMenuOpen = false"
     />
+    <FeedbackMenu v-if="feedbackOpen" @close="feedbackOpen = false" />
     <!-- Плавающие кнопки (только мобильная раскладка): наверх / к исполнениям -->
     <div class="quick-nav" :class="{ 'qn-visible': quickNavVisible }">
       <button class="qn-btn" aria-label="Наверх" @click="quickScrollTop">
