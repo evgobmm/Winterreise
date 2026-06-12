@@ -82,10 +82,10 @@ function updateSeoTags(n) {
   const hasSongParam = new URLSearchParams(window.location.search).has('song')
   if (song && (n !== 1 || hasSongParam)) {
     document.title = `${n}. ${song.title_de} — ${song.title_ru} | Winterreise — Зимний путь`
-    if (desc) desc.content = `«${song.title_de}» («${song.title_ru}») — песня ${n} из 24 цикла Шуберта «Зимний путь» (Winterreise): немецкий текст, пословный русский перевод, комментарии к языку и смыслу.`
+    if (desc) desc.content = `«${song.title_de}» («${song.title_ru}») — песня ${n} из 24 цикла Шуберта «Зимний путь» (Winterreise): немецкий текст, точный семантический перевод, комментарии.`
   } else {
-    document.title = 'Winterreise — Зимний путь'
-    if (desc) desc.content = 'Все 24 песни цикла Франца Шуберта «Зимний путь» (Winterreise) на стихи Вильгельма Мюллера: немецкий текст, пословный русский перевод, комментарии к языку и смыслу.'
+    document.title = 'Winterreise — Зимний путь: точный подстрочный семантический перевод'
+    if (desc) desc.content = 'Все 24 песни цикла Шуберта «Зимний путь»: немецкий текст, точный семантический перевод, комментарии.'
   }
 }
 updateSeoTags(currentSongNumber.value)
