@@ -112,7 +112,13 @@
             { "ru": "вялым", "de": "trägem" },
             { "ru": "шагом,", "de": "mit... Fuß" }
           ],
-          "annotations": []
+          "annotations": [
+            {
+              "type": "lang",
+              "segment_range": [1, 2],
+              "text": "Дословно: «с вялой (mit trägem) ногой (Fuß)»."
+            }
+          ]
         },
         {
           "segments": [
