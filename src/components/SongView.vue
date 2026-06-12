@@ -4,6 +4,7 @@ import InterlinearLine from './InterlinearLine.vue'
 import AnnotationsPanel from './AnnotationsPanel.vue'
 import FootnoteMark from './FootnoteMark.vue'
 import { renderText } from '../utils/renderText.js'
+import { lastEnd, sliceRanges } from '../utils/ranges.js'
 
 const songModules = import.meta.glob('../data/songs/*.json', { eager: true })
 
@@ -48,14 +49,14 @@ const annNumberMap = computed(() => {
           footL -= stanzas[footS].lines_ru.length
           footS++
         }
-        let footSeg = ann.segment_range[1]
+        let footSeg = lastEnd(ann.segment_range)
         if (span > 1) {
           if (ann.continuation_ranges && ann.continuation_ranges.length > 0) {
             let lastRange = null
             for (let ci = ann.continuation_ranges.length - 1; ci >= 0; ci--) {
               if (ann.continuation_ranges[ci] !== null) { lastRange = ann.continuation_ranges[ci]; break }
             }
-            footSeg = lastRange ? lastRange[1] : ann.segment_range[1]
+            footSeg = lastRange ? lastEnd(lastRange) : lastEnd(ann.segment_range)
           } else {
             const footStanza = stanzas[footS]
             if (footStanza && footStanza.lines_ru[footL]) {
@@ -103,7 +104,7 @@ function collectAnnotations(type) {
       for (let a = 0; a < (line.annotations || []).length; a++) {
         const ann = line.annotations[a]
         if ((ann.type || 'meaning') === type) {
-          const segments = line.segments.slice(ann.segment_range[0], ann.segment_range[1] + 1)
+          const segments = sliceRanges(line.segments, ann.segment_range)
           if (ann.continuation_ranges) {
             for (let c = 0; c < ann.continuation_ranges.length; c++) {
               const cr = ann.continuation_ranges[c]
@@ -115,7 +116,7 @@ function collectAnnotations(type) {
               }
               const nextLine = tS < stanzas.length ? stanzas[tS].lines_ru[tL] : null
               if (nextLine) {
-                segments.push(...nextLine.segments.slice(cr[0], cr[1] + 1))
+                segments.push(...sliceRanges(nextLine.segments, cr))
               }
             }
           }

@@ -1,6 +1,7 @@
 <script setup>
 import { computed } from 'vue'
 import FootnoteMark from './FootnoteMark.vue'
+import { inRanges, lastEnd } from '../utils/ranges.js'
 
 const props = defineProps({
   line: Object,
@@ -69,7 +70,7 @@ const segmentInfo = computed(() => {
     if (props.line.annotations) {
       for (let a = 0; a < props.line.annotations.length; a++) {
         const ann = props.line.annotations[a]
-        if (i >= ann.segment_range[0] && i <= ann.segment_range[1]) {
+        if (inRanges(i, ann.segment_range)) {
           const key = `${props.annKeyPrefix}-${a}`
           const type = ann.type || 'meaning'
           const isVariant = ann.target === 'variant'
@@ -81,7 +82,7 @@ const segmentInfo = computed(() => {
             primaryLocalIndex = a
           }
 
-          const isLastOfThis = i === ann.segment_range[1] && !(ann.line_span && ann.line_span > 1)
+          const isLastOfThis = i === lastEnd(ann.segment_range) && !(ann.line_span && ann.line_span > 1)
           if (isLastOfThis) {
             const displayIndex = props.annNumberMap.get(key) || 0
             const fn = { key, type, displayIndex, text: ann.text }
@@ -96,7 +97,7 @@ const segmentInfo = computed(() => {
     }
 
     for (const inh of props.inheritedAnnotations) {
-      const inRange = !inh.segmentRange || (i >= inh.segmentRange[0] && i <= inh.segmentRange[1])
+      const inRange = !inh.segmentRange || inRanges(i, inh.segmentRange)
       if (inRange) {
         annKeys.push({ key: inh.key, type: inh.type })
         if (primaryKey === null) {
@@ -104,7 +105,7 @@ const segmentInfo = computed(() => {
           primaryType = inh.type
         }
         if (inh.isLastSpannedLine) {
-          const lastSeg = inh.segmentRange ? inh.segmentRange[1] : props.line.segments.length - 1
+          const lastSeg = inh.segmentRange ? lastEnd(inh.segmentRange) : props.line.segments.length - 1
           if (i === lastSeg) {
             footnote = { key: inh.key, type: inh.type, displayIndex: inh.displayIndex, text: inh.text }
           }
