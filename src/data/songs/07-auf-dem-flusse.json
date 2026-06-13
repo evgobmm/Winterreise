@@ -270,10 +270,10 @@
         },
         {
           "segments": [
-            { "ru": "Уж не", "de": "Ob... wohl" },
+            { "ru": "Уж не", "de": "wohl" },
             { "ru": "под", "de": "unter" },
             { "ru": "его", "de": "seiner" },
-            { "ru": "ли", "de": "" },
+            { "ru": "ли", "de": "Ob" },
             { "ru": "коркой", "de": "Rinde" }
           ],
           "annotations": [
