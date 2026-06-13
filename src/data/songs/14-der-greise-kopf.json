@@ -93,11 +93,11 @@
         {
           "segments": [
             { "ru": "Так что", "de": "Dass" },
-            { "ru": "мне", "de": "mir's" },
+            { "ru": "мне", "de": "mir" },
             { "ru": "от", "de": "vor" },
             { "ru": "моей", "de": "meiner" },
             { "ru": "юности", "de": "Jugend" },
-            { "ru": "страшно —", "de": "graut" }
+            { "ru": "страшно —", "de": "'s... graut" }
           ],
           "annotations": []
         },
