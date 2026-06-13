@@ -37,10 +37,10 @@
         },
         {
           "segments": [
-            { "ru": "Неужели", "de": "Ob es... denn" },
+            { "ru": "Неужели", "de": "Ob... denn" },
             { "ru": "от", "de": "" },
             { "ru": "меня", "de": "mir" },
-            { "ru": "ускользнуло,", "de": "entgangen" }
+            { "ru": "ускользнуло,", "de": "es... entgangen" }
           ],
           "annotations": [
             {
