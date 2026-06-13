@@ -215,7 +215,7 @@
             { "ru": "имени", "de": "Nam'" },
             { "ru": "и", "de": "und" },
             { "ru": "чисел", "de": "Zahlen" },
-            { "ru": "вьётся", "de": "windet sich" }
+            { "ru": "вьётся", "de": "windet Sich" }
           ],
           "annotations": []
         },
@@ -270,7 +270,7 @@
         },
         {
           "segments": [
-            { "ru": "Уж не", "de": "wohl" },
+            { "ru": "Уж не", "de": "Wohl" },
             { "ru": "под", "de": "unter" },
             { "ru": "его", "de": "seiner" },
             { "ru": "ли", "de": "Ob" },
