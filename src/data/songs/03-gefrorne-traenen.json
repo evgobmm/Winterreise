@@ -77,7 +77,7 @@
       "lines_ru": [
         {
           "segments": [
-            { "ru": "Эх", "de": "Ei" },
+            { "ru": "Эх,", "de": "Ei" },
             { "ru": "слёзы,", "de": "Tränen" },
             { "ru": "мои", "de": "meine" },
             { "ru": "слёзы,", "de": "Tränen" }
