@@ -148,6 +148,7 @@ const segmentInfo = computed(() => {
             v-if="isVisible(info.variantFootnote)"
             :index="info.variantFootnote.displayIndex"
             :type="info.variantFootnote.type"
+            :anchor-key="info.variantFootnote.key"
             @click.stop="onTap(info, true)"
           />
         </span>
@@ -156,6 +157,7 @@ const segmentInfo = computed(() => {
           v-if="isVisible(info.footnote)"
           :index="info.footnote.displayIndex"
           :type="info.footnote.type"
+          :anchor-key="info.footnote.key"
           @click.stop="onTap(info, false)"
         />
       </span>

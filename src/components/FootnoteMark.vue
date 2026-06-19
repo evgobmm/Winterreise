@@ -1,13 +1,20 @@
 <script setup>
 defineProps({
   index: Number,
-  type: String
+  type: String,
+  // Якорь для прокрутки из нижних панелей: id вида fn-<ключ аннотации>
+  anchorKey: { type: String, default: null }
 })
 
 </script>
 
 <template>
-  <sup class="footnote-mark" :class="'mark-' + type" :title="'Сноска ' + index">{{ index }}</sup>
+  <sup
+    class="footnote-mark"
+    :class="'mark-' + type"
+    :id="anchorKey ? 'fn-' + anchorKey : undefined"
+    :title="'Сноска ' + index"
+  >{{ index }}</sup>
 </template>
 
 <style scoped>

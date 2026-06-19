@@ -7,15 +7,23 @@ defineProps({
   title: String
 })
 
+// Клик по аннотации в панели → прокрутка к соответствующему месту в переводе
+defineEmits(['goto'])
+
 </script>
 
 <template>
-  <section class="annotations-panel">
+  <section class="annotations-panel" :class="'apanel-' + type">
     <h3 :class="'panel-title-' + type">{{ title }}</h3>
     <div
       v-for="ann in annotations"
       :key="ann.index"
       class="annotation-item"
+      role="button"
+      tabindex="0"
+      title="Перейти к месту в переводе"
+      @click="$emit('goto', ann.key)"
+      @keydown.enter="$emit('goto', ann.key)"
     >
       <sup class="annotation-index" :class="'index-' + type">{{ ann.index }}</sup>
       <span class="annotation-ref">
@@ -46,6 +54,24 @@ defineProps({
   margin-bottom: 10px;
   font-size: 0.9rem;
   line-height: 1.5;
+  cursor: pointer;
+  padding: 3px 6px;
+  margin-left: -6px;
+  margin-right: -6px;
+  border-radius: 5px;
+  transition: background 0.12s;
+}
+
+.apanel-lang .annotation-item:hover,
+.apanel-lang .annotation-item:focus-visible {
+  background: var(--highlight-lang);
+  outline: none;
+}
+
+.apanel-meaning .annotation-item:hover,
+.apanel-meaning .annotation-item:focus-visible {
+  background: var(--highlight-meaning);
+  outline: none;
 }
 
 .annotation-index {

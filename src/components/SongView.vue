@@ -88,6 +88,7 @@ function collectAnnotations(type) {
     if ((ann.type || 'meaning') === type) {
       const displayNum = annNumberMap.value.get(`title-${a}`) || 0
       items.push({
+        key: `title-${a}`,
         text: ann.text,
         type: ann.type || 'meaning',
         target: null,
@@ -122,6 +123,7 @@ function collectAnnotations(type) {
           }
           const displayNum = annNumberMap.value.get(`${s}-${l}-${a}`) || 0
           items.push({
+            key: `${s}-${l}-${a}`,
             text: ann.text,
             type: ann.type || 'meaning',
             target: ann.target || null,
@@ -356,7 +358,26 @@ const tappedTooltip = computed(() => {
 
 watch(() => props.songFile, () => {
   tappedAnnKey.value = null
+  flashKey.value = null
 })
+
+// Переход из нижних панелей к месту в переводе: подсветка-вспышка + прокрутка к сноске-якорю.
+// Подсветку ведёт highlightKey (наведение ИЛИ вспышка), всплывающую подсказку — только наведение.
+const flashKey = ref(null)
+let flashTimer = null
+const highlightKey = computed(() => hoveredAnnKey.value || flashKey.value)
+
+function goto(key) {
+  handleHover(null)         // снять возможную подсказку/наведение
+  tappedAnnKey.value = null // закрыть мобильное окошко, если открыто
+  flashKey.value = key
+  clearTimeout(flashTimer)
+  flashTimer = setTimeout(() => { flashKey.value = null }, 2000)
+  nextTick(() => {
+    const el = document.getElementById('fn-' + key)
+    if (el) el.scrollIntoView({ behavior: 'smooth', block: 'center' })
+  })
+}
 
 function getLineDeParts(stanza, lineIndex) {
   const line = stanza.lines_ru[lineIndex]
@@ -387,8 +408,8 @@ function getLineDeParts(stanza, lineIndex) {
       <div class="col-de">
         <h2
           :class="{
-            'title-highlighted-lang': titleFootnotes.some(fn => fn.visible && fn.key === hoveredAnnKey && fn.type === 'lang'),
-            'title-highlighted-meaning': titleFootnotes.some(fn => fn.visible && fn.key === hoveredAnnKey && fn.type === 'meaning')
+            'title-highlighted-lang': titleFootnotes.some(fn => fn.visible && fn.key === highlightKey && fn.type === 'lang'),
+            'title-highlighted-meaning': titleFootnotes.some(fn => fn.visible && fn.key === highlightKey && fn.type === 'meaning')
           }"
         >{{ (number ? number + '. ' : '') + song.title_de }}</h2>
       </div>
@@ -396,8 +417,8 @@ function getLineDeParts(stanza, lineIndex) {
         <h2
           class="title-ru"
           :class="{
-            'title-highlighted-lang': titleFootnotes.some(fn => fn.visible && fn.key === hoveredAnnKey && fn.type === 'lang'),
-            'title-highlighted-meaning': titleFootnotes.some(fn => fn.visible && fn.key === hoveredAnnKey && fn.type === 'meaning')
+            'title-highlighted-lang': titleFootnotes.some(fn => fn.visible && fn.key === highlightKey && fn.type === 'lang'),
+            'title-highlighted-meaning': titleFootnotes.some(fn => fn.visible && fn.key === highlightKey && fn.type === 'meaning')
           }"
           @mouseenter="titleFootnotes.find(fn => fn.visible) ? onTitleHover(titleFootnotes.find(fn => fn.visible).key, $event) : null"
           @mouseleave="handleHover(null)"
@@ -406,6 +427,7 @@ function getLineDeParts(stanza, lineIndex) {
           :key="fn.key"
           :index="fn.displayIndex"
           :type="fn.type"
+          :anchor-key="fn.key"
           @click.stop="handleTap(fn.key)"
         /></h2>
       </div>
@@ -439,7 +461,7 @@ function getLineDeParts(stanza, lineIndex) {
               :ann-number-map="annNumberMap"
               :ann-key-prefix="`${si}-${li}`"
               :inherited-annotations="getInheritedAnnotations(si, li)"
-              :hovered-ann-key="hoveredAnnKey"
+              :hovered-ann-key="highlightKey"
               :show-annotations="showAnnotations"
               :show-lang="showLang"
               :show-meaning="showMeaning"
@@ -487,12 +509,14 @@ function getLineDeParts(stanza, lineIndex) {
         :annotations="meaningAnnotations"
         type="meaning"
         title="Смысл"
+        @goto="goto"
       />
       <AnnotationsPanel
         v-if="showLang && langAnnotations.length"
         :annotations="langAnnotations"
         type="lang"
         title="Язык"
+        @goto="goto"
       />
     </div>
   </article>
