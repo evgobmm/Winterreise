@@ -19,13 +19,16 @@ defineEmits(['goto'])
       v-for="ann in annotations"
       :key="ann.index"
       class="annotation-item"
-      role="button"
-      tabindex="0"
-      title="Перейти к месту в переводе"
-      @click="$emit('goto', ann.key)"
-      @keydown.enter="$emit('goto', ann.key)"
     >
-      <sup class="annotation-index" :class="'index-' + type">{{ ann.index }}</sup>
+      <sup
+        class="annotation-index"
+        :class="'index-' + type"
+        role="button"
+        tabindex="0"
+        title="Перейти к месту в переводе"
+        @click="$emit('goto', ann.key)"
+        @keydown.enter="$emit('goto', ann.key)"
+      >{{ ann.index }}</sup>
       <span class="annotation-ref">
         {{ ann.segments.map(s => ann.target === 'variant' ? (s.variant_ru || s.ru) : s.ru).join(' ') }}
       </span>
@@ -54,29 +57,29 @@ defineEmits(['goto'])
   margin-bottom: 10px;
   font-size: 0.9rem;
   line-height: 1.5;
-  cursor: pointer;
-  padding: 3px 6px;
-  margin-left: -6px;
-  margin-right: -6px;
-  border-radius: 5px;
-  transition: background 0.12s;
 }
 
-.apanel-lang .annotation-item:hover,
-.apanel-lang .annotation-item:focus-visible {
+/* Кликабельна только цифра-номер: по ней — переход к месту в переводе */
+.annotation-index {
+  font-size: 0.68em;
+  line-height: 0;
+  cursor: pointer;
+  padding: 2px 3px;
+  border-radius: 3px;
+  transition: background 0.12s;
+  position: relative;
+}
+
+.apanel-lang .annotation-index:hover,
+.apanel-lang .annotation-index:focus-visible {
   background: var(--highlight-lang);
   outline: none;
 }
 
-.apanel-meaning .annotation-item:hover,
-.apanel-meaning .annotation-item:focus-visible {
+.apanel-meaning .annotation-index:hover,
+.apanel-meaning .annotation-index:focus-visible {
   background: var(--highlight-meaning);
   outline: none;
-}
-
-.annotation-index {
-  font-size: 0.68em;
-  line-height: 0;
 }
 
 .index-lang {
@@ -87,6 +90,15 @@ defineEmits(['goto'])
 .index-meaning {
   color: var(--color-meaning);
   margin-right: 4px;
+}
+
+/* Тач-экран: чуть увеличенная зона нажатия вокруг маленькой цифры */
+@media (max-width: 900px) {
+  .annotation-index::after {
+    content: '';
+    position: absolute;
+    inset: -8px -5px;
+  }
 }
 
 .annotation-ref {
