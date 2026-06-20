@@ -1,0 +1,12105 @@
+{
+ "ab": {
+  "pos": [
+   "sep_prefix"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "ab"
+  ],
+  "ru_candidates": [
+   "спадают",
+   "Опадает",
+   "отсылаешь"
+  ],
+  "n_occ": 3,
+  "songs": [
+   3,
+   16,
+   21
+  ]
+ },
+ "fallen": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Fall",
+   "ab→fallen",
+   "fallen",
+   "fällt",
+   "gefallen"
+  ],
+  "ru_candidates": [
+   "спадают",
+   "Опадает",
+   "отсылаешь",
+   "падаю",
+   "падает"
+  ],
+  "n_occ": 6,
+  "songs": [
+   3,
+   6,
+   16,
+   21
+  ]
+ },
+ "abfallen": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Fällt",
+   "ab→abfallen"
+  ],
+  "ru_candidates": [
+   "спадают",
+   "Опадает",
+   "отсылаешь"
+  ],
+  "n_occ": 3,
+  "songs": [
+   3,
+   16,
+   21
+  ]
+ },
+ "abweisen": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "ab→abweisen",
+   "weisest"
+  ],
+  "ru_candidates": [
+   "спадают",
+   "Опадает",
+   "отсылаешь"
+  ],
+  "n_occ": 3,
+  "songs": [
+   3,
+   16,
+   21
+  ]
+ },
+ "Abendrot": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "das"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Abendrot"
+  ],
+  "ru_candidates": [
+   "вечерней зари"
+  ],
+  "n_occ": 1,
+  "songs": [
+   14
+  ]
+ },
+ "ach": {
+  "pos": [
+   "interj"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Ach",
+   "ach"
+  ],
+  "ru_candidates": [
+   "ах,",
+   "Ах,"
+  ],
+  "n_occ": 7,
+  "songs": [
+   8,
+   12,
+   16,
+   19,
+   23
+  ]
+ },
+ "all": {
+  "pos": [
+   "pronoun"
+  ],
+  "gender": [],
+  "tier": [
+   "function"
+  ],
+  "forms": [
+   "Alles",
+   "all",
+   "allen"
+  ],
+  "ru_candidates": [
+   "все",
+   "всеми",
+   "Всё",
+   "всё",
+   "Всё,"
+  ],
+  "n_occ": 5,
+  "songs": [
+   9,
+   17,
+   21,
+   24
+  ]
+ },
+ "allein": {
+  "pos": [
+   "adv"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "alleine"
+  ],
+  "ru_candidates": [
+   "одиноко"
+  ],
+  "n_occ": 1,
+  "songs": [
+   11
+  ]
+ },
+ "allhier": {
+  "pos": [
+   "adv"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Allhier"
+  ],
+  "ru_candidates": [
+   "Здесь"
+  ],
+  "n_occ": 1,
+  "songs": [
+   21
+  ]
+ },
+ "alt": {
+  "pos": [
+   "adj"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "alten"
+  ],
+  "ru_candidates": [
+   "старого"
+  ],
+  "n_occ": 1,
+  "songs": [
+   24
+  ]
+ },
+ "Alter": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "der"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Alter"
+  ],
+  "ru_candidates": [
+   "старик,"
+  ],
+  "n_occ": 1,
+  "songs": [
+   24
+  ]
+ },
+ "an": {
+  "pos": [
+   "prep"
+  ],
+  "gender": [],
+  "tier": [
+   "function"
+  ],
+  "forms": [
+   "An's"
+  ],
+  "ru_candidates": [
+   "На"
+  ],
+  "n_occ": 1,
+  "songs": [
+   1
+  ]
+ },
+ "ander": {
+  "pos": [
+   "adj",
+   "pronoun"
+  ],
+  "gender": [],
+  "tier": [
+   "function"
+  ],
+  "forms": [
+   "Andern",
+   "andern"
+  ],
+  "ru_candidates": [
+   "Другому —",
+   "другим",
+   "другие"
+  ],
+  "n_occ": 3,
+  "songs": [
+   1,
+   20,
+   23
+  ]
+ },
+ "anders": {
+  "pos": [
+   "adv"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "anders"
+  ],
+  "ru_candidates": [
+   "иначе"
+  ],
+  "n_occ": 1,
+  "songs": [
+   8
+  ]
+ },
+ "Angedenken": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "das"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Angedenken"
+  ],
+  "ru_candidates": [
+   "напоминания"
+  ],
+  "n_occ": 1,
+  "songs": [
+   4
+  ]
+ },
+ "ansehen": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "angesehn"
+  ],
+  "ru_candidates": [
+   "смотрел;"
+  ],
+  "n_occ": 1,
+  "songs": [
+   23
+  ]
+ },
+ "Angesicht": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "das"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Angesicht"
+  ],
+  "ru_candidates": [
+   "лик,",
+   "лик!"
+  ],
+  "n_occ": 2,
+  "songs": [
+   5,
+   23
+  ]
+ },
+ "arg": {
+  "pos": [
+   "adj"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Argen"
+  ],
+  "ru_candidates": [
+   "злом"
+  ],
+  "n_occ": 1,
+  "songs": [
+   17
+  ]
+ },
+ "Arm": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "der"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Arm",
+   "Arme"
+  ],
+  "ru_candidates": [
+   "объятиях?",
+   "под руку"
+  ],
+  "n_occ": 2,
+  "songs": [
+   4,
+   11
+  ]
+ },
+ "arm": {
+  "pos": [
+   "adj"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "armen"
+  ],
+  "ru_candidates": [
+   "бедного"
+  ],
+  "n_occ": 1,
+  "songs": [
+   2
+  ]
+ },
+ "Atem": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "der"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Atem"
+  ],
+  "ru_candidates": [
+   "дыхание"
+  ],
+  "n_occ": 1,
+  "songs": [
+   8
+  ]
+ },
+ "aufstecken": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "aufgestecktes"
+  ],
+  "ru_candidates": [
+   "водружённый"
+  ],
+  "n_occ": 1,
+  "songs": [
+   2
+  ]
+ },
+ "aufspringen": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "aufspringt"
+  ],
+  "ru_candidates": [
+   "подпрыгивает,"
+  ],
+  "n_occ": 1,
+  "songs": [
+   13
+  ]
+ },
+ "Auge": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "das"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Auge",
+   "Augen"
+  ],
+  "ru_candidates": [
+   "глаз",
+   "Глаза"
+  ],
+  "n_occ": 4,
+  "songs": [
+   5,
+   6,
+   11
+  ]
+ },
+ "Ausgang": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "der"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Ausgang"
+  ],
+  "ru_candidates": [
+   "выход"
+  ],
+  "n_occ": 1,
+  "songs": [
+   9
+  ]
+ },
+ "ausstrecken": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "ausgestreckt"
+  ],
+  "ru_candidates": [
+   "распростёртая."
+  ],
+  "n_occ": 1,
+  "songs": [
+   7
+  ]
+ },
+ "Bach": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "der"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Bache"
+  ],
+  "ru_candidates": [
+   "ручье"
+  ],
+  "n_occ": 1,
+  "songs": [
+   7
+  ]
+ },
+ "Bahre": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "die"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Bahre"
+  ],
+  "ru_candidates": [
+   "гроба!"
+  ],
+  "n_occ": 1,
+  "songs": [
+   14
+  ]
+ },
+ "bald": {
+  "pos": [
+   "adv"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "bald"
+  ],
+  "ru_candidates": [
+   "скоро"
+  ],
+  "n_occ": 3,
+  "songs": [
+   6,
+   14,
+   15
+  ]
+ },
+ "barfuß": {
+  "pos": [
+   "adv"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Barfuß"
+  ],
+  "ru_candidates": [
+   "Босиком"
+  ],
+  "n_occ": 1,
+  "songs": [
+   24
+  ]
+ },
+ "begehen": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "begangen"
+  ],
+  "ru_candidates": [
+   "совершил,"
+  ],
+  "n_occ": 1,
+  "songs": [
+   20
+  ]
+ },
+ "beide": {
+  "pos": [
+   "pronoun"
+  ],
+  "gender": [],
+  "tier": [
+   "function"
+  ],
+  "forms": [
+   "beiden"
+  ],
+  "ru_candidates": [
+   "обеими"
+  ],
+  "n_occ": 1,
+  "songs": [
+   8
+  ]
+ },
+ "bellen": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Bellt",
+   "bellen"
+  ],
+  "ru_candidates": [
+   "Лают",
+   "Лая, гоните"
+  ],
+  "n_occ": 2,
+  "songs": [
+   17
+  ]
+ },
+ "bemerken": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "bemerken"
+  ],
+  "ru_candidates": [
+   "заметить"
+  ],
+  "n_occ": 1,
+  "songs": [
+   2
+  ]
+ },
+ "Bergstrom": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "der"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Bergstroms"
+  ],
+  "ru_candidates": [
+   "горной реки"
+  ],
+  "n_occ": 1,
+  "songs": [
+   9
+  ]
+ },
+ "besetzen": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "besetzt"
+  ],
+  "ru_candidates": [
+   "заняты?"
+  ],
+  "n_occ": 1,
+  "songs": [
+   21
+  ]
+ },
+ "gut": {
+  "pos": [
+   "adj"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Guten",
+   "besten",
+   "gute"
+  ],
+  "ru_candidates": [
+   "лучшие",
+   "спокойной",
+   "добром"
+  ],
+  "n_occ": 4,
+  "songs": [
+   1,
+   17,
+   23
+  ]
+ },
+ "Bett": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "das"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Betten"
+  ],
+  "ru_candidates": [
+   "постелях,"
+  ],
+  "n_occ": 1,
+  "songs": [
+   17
+  ]
+ },
+ "Beute": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "die"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Beute"
+  ],
+  "ru_candidates": [
+   "добычу"
+  ],
+  "n_occ": 1,
+  "songs": [
+   15
+  ]
+ },
+ "Bild": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "das"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Bild"
+  ],
+  "ru_candidates": [
+   "образ",
+   "образ?",
+   "образ —"
+  ],
+  "n_occ": 4,
+  "songs": [
+   4,
+   7,
+   18
+  ]
+ },
+ "bis": {
+  "pos": [
+   "conj",
+   "prep"
+  ],
+  "gender": [],
+  "tier": [
+   "function"
+  ],
+  "forms": [
+   "Bis",
+   "bis"
+  ],
+  "ru_candidates": [
+   "Пока",
+   "до",
+   "По сей день"
+  ],
+  "n_occ": 5,
+  "songs": [
+   4,
+   8,
+   14,
+   15
+  ]
+ },
+ "blank": {
+  "pos": [
+   "adj"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "blanken"
+  ],
+  "ru_candidates": [
+   "блестящих"
+  ],
+  "n_occ": 1,
+  "songs": [
+   8
+  ]
+ },
+ "blass": {
+  "pos": [
+   "adj"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "blass"
+  ],
+  "ru_candidates": [
+   "бледно."
+  ],
+  "n_occ": 1,
+  "songs": [
+   4
+  ]
+ },
+ "Blatt": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "das"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Blatt",
+   "Blatte",
+   "Blätter"
+  ],
+  "ru_candidates": [
+   "лист",
+   "лист,",
+   "листом,",
+   "листья",
+   "листья,"
+  ],
+  "n_occ": 6,
+  "songs": [
+   11,
+   16
+  ]
+ },
+ "bleiben": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Bleibt",
+   "bleibe"
+  ],
+  "ru_candidates": [
+   "останавливаюсь",
+   "Остаётся"
+  ],
+  "n_occ": 2,
+  "songs": [
+   16,
+   24
+  ]
+ },
+ "Blick": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "der"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Blick"
+  ],
+  "ru_candidates": [
+   "взором;"
+  ],
+  "n_occ": 1,
+  "songs": [
+   20
+  ]
+ },
+ "blasen": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "bliesen"
+  ],
+  "ru_candidates": [
+   "дули"
+  ],
+  "n_occ": 1,
+  "songs": [
+   5
+  ]
+ },
+ "Blume": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "die"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Blumen"
+  ],
+  "ru_candidates": [
+   "Цветы",
+   "цветы,",
+   "цветы"
+  ],
+  "n_occ": 3,
+  "songs": [
+   4,
+   11
+  ]
+ },
+ "Blumenstrauß": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "der"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Blumenstrauß"
+  ],
+  "ru_candidates": [
+   "букетом цветов."
+  ],
+  "n_occ": 1,
+  "songs": [
+   1
+  ]
+ },
+ "blühen": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "blühen",
+   "blühten"
+  ],
+  "ru_candidates": [
+   "цветут",
+   "цвели,"
+  ],
+  "n_occ": 2,
+  "songs": [
+   8,
+   11
+  ]
+ },
+ "Blüte": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "die"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Blüte"
+  ],
+  "ru_candidates": [
+   "цветок,"
+  ],
+  "n_occ": 1,
+  "songs": [
+   4
+  ]
+ },
+ "Boden": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "der"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Boden"
+  ],
+  "ru_candidates": [
+   "почву",
+   "на землю,"
+  ],
+  "n_occ": 3,
+  "songs": [
+   4,
+   16
+  ]
+ },
+ "Braut": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "die"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Braut"
+  ],
+  "ru_candidates": [
+   "невеста."
+  ],
+  "n_occ": 1,
+  "songs": [
+   2
+  ]
+ },
+ "brennen": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "brennen",
+   "brennt"
+  ],
+  "ru_candidates": [
+   "горят",
+   "Жжёт"
+  ],
+  "n_occ": 2,
+  "songs": [
+   8,
+   10
+  ]
+ },
+ "Brief": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "der"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Brief"
+  ],
+  "ru_candidates": [
+   "письма"
+  ],
+  "n_occ": 1,
+  "songs": [
+   13
+  ]
+ },
+ "bringen": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "bringt",
+   "gebracht"
+  ],
+  "ru_candidates": [
+   "приносит",
+   "привёл."
+  ],
+  "n_occ": 2,
+  "songs": [
+   13,
+   21
+  ]
+ },
+ "Brunnen": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "der"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Brunnen"
+  ],
+  "ru_candidates": [
+   "фонтана-источника"
+  ],
+  "n_occ": 1,
+  "songs": [
+   5
+  ]
+ },
+ "Brust": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "die"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Brust"
+  ],
+  "ru_candidates": [
+   "В груди"
+  ],
+  "n_occ": 1,
+  "songs": [
+   3
+  ]
+ },
+ "bunt": {
+  "pos": [
+   "adj"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "bunte",
+   "bunten"
+  ],
+  "ru_candidates": [
+   "пёстрый",
+   "пёстрые",
+   "пёстрой"
+  ],
+  "n_occ": 3,
+  "songs": [
+   11,
+   16,
+   19
+  ]
+ },
+ "Busen": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "der"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Busen"
+  ],
+  "ru_candidates": [
+   "груди"
+  ],
+  "n_occ": 1,
+  "songs": [
+   22
+  ]
+ },
+ "Bächlein": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "das"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Bächlein"
+  ],
+  "ru_candidates": [
+   "ручеёк"
+  ],
+  "n_occ": 1,
+  "songs": [
+   6
+  ]
+ },
+ "Ball": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "der"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Bäll"
+  ],
+  "ru_candidates": [
+   "шары"
+  ],
+  "n_occ": 1,
+  "songs": [
+   8
+  ]
+ },
+ "Baum": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "der"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Bäumen"
+  ],
+  "ru_candidates": [
+   "деревьях",
+   "деревьями"
+  ],
+  "n_occ": 2,
+  "songs": [
+   16
+  ]
+ },
+ "da": {
+  "pos": [
+   "adv"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Da",
+   "da"
+  ],
+  "ru_candidates": [
+   "Тут",
+   "Когда",
+   "тут?",
+   "Тут и там",
+   "там"
+  ],
+  "n_occ": 13,
+  "songs": [
+   2,
+   5,
+   6,
+   8,
+   10,
+   11,
+   14,
+   16,
+   23
+  ]
+ },
+ "Dach": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "das"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Dach"
+  ],
+  "ru_candidates": [
+   "крыше,",
+   "крыши."
+  ],
+  "n_occ": 2,
+  "songs": [
+   2,
+   11
+  ]
+ },
+ "denken": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "dacht",
+   "gedacht"
+  ],
+  "ru_candidates": [
+   "подумал",
+   "думал.",
+   "подумал."
+  ],
+  "n_occ": 3,
+  "songs": [
+   1,
+   2,
+   21
+  ]
+ },
+ "daher": {
+  "pos": [
+   "adv"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "daher"
+  ],
+  "ru_candidates": [
+   "сюда"
+  ],
+  "n_occ": 1,
+  "songs": [
+   6
+  ]
+ },
+ "dahin": {
+  "pos": [
+   "adv",
+   "sep_prefix"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Dahin",
+   "dahin"
+  ],
+  "ru_candidates": [
+   "навсегда.",
+   "Дальше"
+  ],
+  "n_occ": 2,
+  "songs": [
+   4,
+   12
+  ]
+ },
+ "dahinfließen": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "dahin→dahinfließen"
+  ],
+  "ru_candidates": [
+   "навсегда."
+  ],
+  "n_occ": 1,
+  "songs": [
+   4
+  ]
+ },
+ "darin": {
+  "pos": [
+   "adv"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "darin",
+   "drin"
+  ],
+  "ru_candidates": [
+   "в нём:",
+   "внутри —"
+  ],
+  "n_occ": 2,
+  "songs": [
+   4,
+   19
+  ]
+ },
+ "Decke": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "die"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Decke"
+  ],
+  "ru_candidates": [
+   "покров"
+  ],
+  "n_occ": 1,
+  "songs": [
+   7
+  ]
+ },
+ "nachdenken": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "denke"
+  ],
+  "ru_candidates": [
+   "размышляю"
+  ],
+  "n_occ": 1,
+  "songs": [
+   11
+  ]
+ },
+ "denn": {
+  "pos": [
+   "particle"
+  ],
+  "gender": [],
+  "tier": [
+   "loaded_particle"
+  ],
+  "forms": [
+   "denn"
+  ],
+  "ru_candidates": [
+   "Неужели",
+   "же",
+   "тогда,"
+  ],
+  "n_occ": 6,
+  "songs": [
+   3,
+   4,
+   13,
+   20,
+   21
+  ]
+ },
+ "dieser": {
+  "pos": [
+   "pronoun"
+  ],
+  "gender": [],
+  "tier": [
+   "function"
+  ],
+  "forms": [
+   "diesem",
+   "dieser"
+  ],
+  "ru_candidates": [
+   "этом",
+   "этой",
+   "это"
+  ],
+  "n_occ": 4,
+  "songs": [
+   1,
+   7,
+   14,
+   21
+  ]
+ },
+ "doch": {
+  "pos": [
+   "particle"
+  ],
+  "gender": [],
+  "tier": [
+   "loaded_particle"
+  ],
+  "forms": [
+   "Doch",
+   "doch"
+  ],
+  "ru_candidates": [
+   "ведь",
+   "же",
+   "Но",
+   "Однако",
+   "Всё же"
+  ],
+  "n_occ": 9,
+  "songs": [
+   3,
+   6,
+   10,
+   11,
+   14,
+   17,
+   20,
+   21,
+   23
+  ]
+ },
+ "Dorf": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "das"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Dorfe"
+  ],
+  "ru_candidates": [
+   "деревней"
+  ],
+  "n_occ": 1,
+  "songs": [
+   24
+  ]
+ },
+ "dort": {
+  "pos": [
+   "adv"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "dort"
+  ],
+  "ru_candidates": [
+   "там!",
+   "там,"
+  ],
+  "n_occ": 2,
+  "songs": [
+   5,
+   13
+  ]
+ },
+ "daran": {
+  "pos": [
+   "sep_prefix"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "dran"
+  ],
+  "ru_candidates": [
+   "на него;"
+  ],
+  "n_occ": 1,
+  "songs": [
+   16
+  ]
+ },
+ "daranhängen": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "dran→daranhängen"
+  ],
+  "ru_candidates": [
+   "на него;"
+  ],
+  "n_occ": 1,
+  "songs": [
+   16
+  ]
+ },
+ "drehen": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Dreht",
+   "drehn"
+  ],
+  "ru_candidates": [
+   "крутить?",
+   "Крутит",
+   "Крутит,"
+  ],
+  "n_occ": 3,
+  "songs": [
+   24
+  ]
+ },
+ "drei": {
+  "pos": [
+   "num"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Drei",
+   "drei"
+  ],
+  "ru_candidates": [
+   "Три",
+   "три:"
+  ],
+  "n_occ": 2,
+  "songs": [
+   23
+  ]
+ },
+ "dringen": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "dringt"
+  ],
+  "ru_candidates": [
+   "вырываетесь"
+  ],
+  "n_occ": 1,
+  "songs": [
+   3
+  ]
+ },
+ "drinnen": {
+  "pos": [
+   "adv"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "drinnen"
+  ],
+  "ru_candidates": [
+   "внутри"
+  ],
+  "n_occ": 1,
+  "songs": [
+   2
+  ]
+ },
+ "dritte": {
+  "pos": [
+   "num"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "dritt"
+  ],
+  "ru_candidates": [
+   "третье"
+  ],
+  "n_occ": 1,
+  "songs": [
+   23
+  ]
+ },
+ "drängen": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "drängst"
+  ],
+  "ru_candidates": [
+   "рвёшься"
+  ],
+  "n_occ": 1,
+  "songs": [
+   13
+  ]
+ },
+ "drüben": {
+  "pos": [
+   "adv"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Drüben"
+  ],
+  "ru_candidates": [
+   "По ту сторону,"
+  ],
+  "n_occ": 1,
+  "songs": [
+   24
+  ]
+ },
+ "Dunkelheit": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "die"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Dunkelheit"
+  ],
+  "ru_candidates": [
+   "темноте."
+  ],
+  "n_occ": 1,
+  "songs": [
+   1
+  ]
+ },
+ "Dunkel": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "das"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Dunkeln"
+  ],
+  "ru_candidates": [
+   "темноте"
+  ],
+  "n_occ": 2,
+  "songs": [
+   5,
+   23
+  ]
+ },
+ "durchdringen": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Durchdringen"
+  ],
+  "ru_candidates": [
+   "Прорвать"
+  ],
+  "n_occ": 1,
+  "songs": [
+   4
+  ]
+ },
+ "durchstreichen": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Durchstrich"
+  ],
+  "ru_candidates": [
+   "Пересекла"
+  ],
+  "n_occ": 1,
+  "songs": [
+   4
+  ]
+ },
+ "durchziehen": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "durchziehen"
+  ],
+  "ru_candidates": [
+   "пройдёшь —"
+  ],
+  "n_occ": 1,
+  "songs": [
+   6
+  ]
+ },
+ "durstig": {
+  "pos": [
+   "adj"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Durstig"
+  ],
+  "ru_candidates": [
+   "С жаждой"
+  ],
+  "n_occ": 1,
+  "songs": [
+   6
+  ]
+ },
+ "Ehe": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "die"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Eh"
+  ],
+  "ru_candidates": [
+   "браке —"
+  ],
+  "n_occ": 1,
+  "songs": [
+   1
+  ]
+ },
+ "eher": {
+  "pos": [
+   "adv"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "eher"
+  ],
+  "ru_candidates": [
+   "раньше"
+  ],
+  "n_occ": 1,
+  "songs": [
+   2
+  ]
+ },
+ "ei": {
+  "pos": [
+   "interj"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Ei"
+  ],
+  "ru_candidates": [
+   "Эх,"
+  ],
+  "n_occ": 1,
+  "songs": [
+   3
+  ]
+ },
+ "eigen": {
+  "pos": [
+   "adj"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "eignes"
+  ],
+  "ru_candidates": [
+   "собственный"
+  ],
+  "n_occ": 1,
+  "songs": [
+   18
+  ]
+ },
+ "eilen": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "eilt"
+  ],
+  "ru_candidates": [
+   "спешил"
+  ],
+  "n_occ": 1,
+  "songs": [
+   8
+  ]
+ },
+ "einziehen": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "eingezogen"
+  ],
+  "ru_candidates": [
+   "пришёл,"
+  ],
+  "n_occ": 1,
+  "songs": [
+   1
+  ]
+ },
+ "einkehren": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "einkehren"
+  ],
+  "ru_candidates": [
+   "погостить:"
+  ],
+  "n_occ": 1,
+  "songs": [
+   21
+  ]
+ },
+ "einmal": {
+  "pos": [
+   "adv"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "einmal"
+  ],
+  "ru_candidates": [
+   "раз",
+   "разок"
+  ],
+  "n_occ": 2,
+  "songs": [
+   8,
+   13
+  ]
+ },
+ "einsam": {
+  "pos": [
+   "adj"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Einsam"
+  ],
+  "ru_candidates": [
+   "Одиноко"
+  ],
+  "n_occ": 1,
+  "songs": [
+   12
+  ]
+ },
+ "Eis": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "das"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Eis",
+   "Eise"
+  ],
+  "ru_candidates": [
+   "лёд.",
+   "лёд",
+   "льду",
+   "льдом,",
+   "в оцепенении леденеете,"
+  ],
+  "n_occ": 7,
+  "songs": [
+   3,
+   4,
+   6,
+   8,
+   19,
+   24
+  ]
+ },
+ "elend": {
+  "pos": [
+   "adj"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "elend"
+  ],
+  "ru_candidates": [
+   "жалок,",
+   "несчастен.",
+   "жалок-несчастен-обездолен,"
+  ],
+  "n_occ": 3,
+  "songs": [
+   12,
+   19
+  ]
+ },
+ "empfangen": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "empfangen"
+  ],
+  "ru_candidates": [
+   "принял,"
+  ],
+  "n_occ": 1,
+  "songs": [
+   8
+  ]
+ },
+ "Ende": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "das"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Ende"
+  ],
+  "ru_candidates": [
+   "покончил"
+  ],
+  "n_occ": 1,
+  "songs": [
+   17
+  ]
+ },
+ "endlich": {
+  "pos": [
+   "adv"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "endlich"
+  ],
+  "ru_candidates": [
+   "наконец"
+  ],
+  "n_occ": 1,
+  "songs": [
+   15
+  ]
+ },
+ "eng": {
+  "pos": [
+   "adj"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "engem"
+  ],
+  "ru_candidates": [
+   "тесном"
+  ],
+  "n_occ": 1,
+  "songs": [
+   10
+  ]
+ },
+ "entfernt": {
+  "pos": [
+   "adj"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Entfernt"
+  ],
+  "ru_candidates": [
+   "Отдалён"
+  ],
+  "n_occ": 1,
+  "songs": [
+   5
+  ]
+ },
+ "entgehen": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "entgangen"
+  ],
+  "ru_candidates": [
+   "ускользнуло,"
+  ],
+  "n_occ": 1,
+  "songs": [
+   3
+  ]
+ },
+ "Erde": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "die"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Erde",
+   "Erden"
+  ],
+  "ru_candidates": [
+   "землю",
+   "земле"
+  ],
+  "n_occ": 2,
+  "songs": [
+   4,
+   22
+  ]
+ },
+ "erfrieren": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "erfroren"
+  ],
+  "ru_candidates": [
+   "угасшее,"
+  ],
+  "n_occ": 1,
+  "songs": [
+   4
+  ]
+ },
+ "erkennen": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Erkennst"
+  ],
+  "ru_candidates": [
+   "Узнаёшь"
+  ],
+  "n_occ": 1,
+  "songs": [
+   7
+  ]
+ },
+ "erlaben": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "erlaben"
+  ],
+  "ru_candidates": [
+   "освежают-услаждают:"
+  ],
+  "n_occ": 1,
+  "songs": [
+   17
+  ]
+ },
+ "erst": {
+  "pos": [
+   "adv"
+  ],
+  "gender": [],
+  "tier": [
+   "loaded_particle"
+  ],
+  "forms": [
+   "erst"
+  ],
+  "ru_candidates": [
+   "лишь"
+  ],
+  "n_occ": 3,
+  "songs": [
+   10,
+   23
+  ]
+ },
+ "erstarren": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "erstarrt"
+  ],
+  "ru_candidates": [
+   "в оцепенении леденеете,"
+  ],
+  "n_occ": 1,
+  "songs": [
+   3
+  ]
+ },
+ "erste": {
+  "pos": [
+   "adj"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "ersten"
+  ],
+  "ru_candidates": [
+   "первого"
+  ],
+  "n_occ": 1,
+  "songs": [
+   7
+  ]
+ },
+ "ersterben": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "erstorben"
+  ],
+  "ru_candidates": [
+   "угасли,",
+   "угасшее,"
+  ],
+  "n_occ": 2,
+  "songs": [
+   4
+  ]
+ },
+ "fassen": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "fassen"
+  ],
+  "ru_candidates": [
+   "схватить?"
+  ],
+  "n_occ": 1,
+  "songs": [
+   15
+  ]
+ },
+ "fein": {
+  "pos": [
+   "adj"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Fein"
+  ],
+  "ru_candidates": [
+   "Пригожая"
+  ],
+  "n_occ": 1,
+  "songs": [
+   1
+  ]
+ },
+ "Felsengrund": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "der"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Felsengründe"
+  ],
+  "ru_candidates": [
+   "скальные ущелья"
+  ],
+  "n_occ": 1,
+  "songs": [
+   9
+  ]
+ },
+ "Felsenhöhe": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "die"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Felsenhöhn"
+  ],
+  "ru_candidates": [
+   "скальные высоты?"
+  ],
+  "n_occ": 1,
+  "songs": [
+   20
+  ]
+ },
+ "Fenster": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "das"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Fenster",
+   "Fenstern"
+  ],
+  "ru_candidates": [
+   "окне?",
+   "окон"
+  ],
+  "n_occ": 2,
+  "songs": [
+   8,
+   11
+  ]
+ },
+ "Fensterscheibe": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "die"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Fensterscheiben"
+  ],
+  "ru_candidates": [
+   "оконных стёклах,"
+  ],
+  "n_occ": 1,
+  "songs": [
+   11
+  ]
+ },
+ "fest": {
+  "pos": [
+   "adj"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "fest"
+  ],
+  "ru_candidates": [
+   "неотрывно"
+  ],
+  "n_occ": 1,
+  "songs": [
+   23
+  ]
+ },
+ "Feuerflamme": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "die"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Feuerflammen"
+  ],
+  "ru_candidates": [
+   "огненные пламена"
+  ],
+  "n_occ": 1,
+  "songs": [
+   18
+  ]
+ },
+ "finden": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "find",
+   "finde",
+   "finden",
+   "findst",
+   "fändest",
+   "gefunden"
+  ],
+  "ru_candidates": [
+   "найду",
+   "найду,",
+   "найти",
+   "найдёшь",
+   "нашёл бы"
+  ],
+  "n_occ": 7,
+  "songs": [
+   4,
+   5,
+   9,
+   10,
+   17
+  ]
+ },
+ "Finger": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "der"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Fingern"
+  ],
+  "ru_candidates": [
+   "пальцами"
+  ],
+  "n_occ": 1,
+  "songs": [
+   24
+  ]
+ },
+ "finster": {
+  "pos": [
+   "adj"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "finster"
+  ],
+  "ru_candidates": [
+   "темно,"
+  ],
+  "n_occ": 1,
+  "songs": [
+   11
+  ]
+ },
+ "flattern": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "flattern"
+  ],
+  "ru_candidates": [
+   "треплются"
+  ],
+  "n_occ": 1,
+  "songs": [
+   18
+  ]
+ },
+ "fliegen": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Fliegt",
+   "flog",
+   "geflogen"
+  ],
+  "ru_candidates": [
+   "летит",
+   "слетела",
+   "летала."
+  ],
+  "n_occ": 3,
+  "songs": [
+   5,
+   15,
+   22
+  ]
+ },
+ "fließen": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Fließt"
+  ],
+  "ru_candidates": [
+   "Утечёт"
+  ],
+  "n_occ": 1,
+  "songs": [
+   4
+  ]
+ },
+ "Flocke": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "die"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Flocken"
+  ],
+  "ru_candidates": [
+   "хлопья"
+  ],
+  "n_occ": 1,
+  "songs": [
+   6
+  ]
+ },
+ "Flur": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "die"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Flur"
+  ],
+  "ru_candidates": [
+   "просторы."
+  ],
+  "n_occ": 1,
+  "songs": [
+   4
+  ]
+ },
+ "Fluss": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "der"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Fluss"
+  ],
+  "ru_candidates": [
+   "речка,"
+  ],
+  "n_occ": 1,
+  "songs": [
+   7
+  ]
+ },
+ "Flüchtling": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "der"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Flüchtling"
+  ],
+  "ru_candidates": [
+   "беглеца."
+  ],
+  "n_occ": 1,
+  "songs": [
+   2
+  ]
+ },
+ "folgen": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Folge",
+   "folg"
+  ],
+  "ru_candidates": [
+   "следую за",
+   "Следуй"
+  ],
+  "n_occ": 3,
+  "songs": [
+   6,
+   19
+  ]
+ },
+ "fort": {
+  "pos": [
+   "adv"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "fort"
+  ],
+  "ru_candidates": [
+   "постоянно.",
+   "сзади",
+   "прочь,"
+  ],
+  "n_occ": 3,
+  "songs": [
+   5,
+   10,
+   17
+  ]
+ },
+ "fragen": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "fragen",
+   "frugen"
+  ],
+  "ru_candidates": [
+   "за дело",
+   "спросить,",
+   "просили"
+  ],
+  "n_occ": 3,
+  "songs": [
+   2,
+   10,
+   13
+  ]
+ },
+ "Frauenbild": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "das"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Frauenbild"
+  ],
+  "ru_candidates": [
+   "женщины образ."
+  ],
+  "n_occ": 1,
+  "songs": [
+   2
+  ]
+ },
+ "fremd": {
+  "pos": [
+   "adj"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Fremd"
+  ],
+  "ru_candidates": [
+   "Чужим"
+  ],
+  "n_occ": 2,
+  "songs": [
+   1
+  ]
+ },
+ "Freude": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "die"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Freud",
+   "Freuden"
+  ],
+  "ru_candidates": [
+   "радости",
+   "радости,"
+  ],
+  "n_occ": 2,
+  "songs": [
+   5,
+   9
+  ]
+ },
+ "freundlich": {
+  "pos": [
+   "adj"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "freundlich"
+  ],
+  "ru_candidates": [
+   "дружелюбно"
+  ],
+  "n_occ": 1,
+  "songs": [
+   19
+  ]
+ },
+ "froh": {
+  "pos": [
+   "adj"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "frohes"
+  ],
+  "ru_candidates": [
+   "радостной"
+  ],
+  "n_occ": 1,
+  "songs": [
+   12
+  ]
+ },
+ "früh": {
+  "pos": [
+   "adv"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "früh"
+  ],
+  "ru_candidates": [
+   "утром"
+  ],
+  "n_occ": 1,
+  "songs": [
+   17
+  ]
+ },
+ "Fuß": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "der"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Fuß",
+   "Füße"
+  ],
+  "ru_candidates": [
+   "шагом,",
+   "Ноги"
+  ],
+  "n_occ": 2,
+  "songs": [
+   10,
+   12
+  ]
+ },
+ "fühlen": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Fühle",
+   "Fühlst",
+   "fühlte"
+  ],
+  "ru_candidates": [
+   "чувствую,",
+   "почувствуешь",
+   "Чувствуешь",
+   "чувствовала"
+  ],
+  "n_occ": 4,
+  "songs": [
+   6,
+   10,
+   22
+  ]
+ },
+ "führen": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "führt"
+  ],
+  "ru_candidates": [
+   "Ведёт"
+  ],
+  "n_occ": 1,
+  "songs": [
+   9
+  ]
+ },
+ "für": {
+  "pos": [
+   "prep"
+  ],
+  "gender": [],
+  "tier": [
+   "function"
+  ],
+  "forms": [
+   "für"
+  ],
+  "ru_candidates": [
+   "для",
+   "непрестанно"
+  ],
+  "n_occ": 4,
+  "songs": [
+   13,
+   15,
+   19,
+   22
+  ]
+ },
+ "ganz": {
+  "pos": [
+   "adj"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "ganzen"
+  ],
+  "ru_candidates": [
+   "Всей",
+   "всё"
+  ],
+  "n_occ": 2,
+  "songs": [
+   3,
+   14
+  ]
+ },
+ "gar": {
+  "pos": [
+   "adv"
+  ],
+  "gender": [],
+  "tier": [
+   "loaded_particle"
+  ],
+  "forms": [
+   "gar"
+  ],
+  "ru_candidates": [
+   "даже",
+   "вправду"
+  ],
+  "n_occ": 2,
+  "songs": [
+   1,
+   3
+  ]
+ },
+ "Gedanke": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "der"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Gedanken"
+  ],
+  "ru_candidates": [
+   "мысли,",
+   "раздумьях"
+  ],
+  "n_occ": 2,
+  "songs": [
+   8,
+   16
+  ]
+ },
+ "freuen": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "gefreuet"
+  ],
+  "ru_candidates": [
+   "обрадовался."
+  ],
+  "n_occ": 1,
+  "songs": [
+   14
+  ]
+ },
+ "gefroren": {
+  "pos": [
+   "adj"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Gefrorne"
+  ],
+  "ru_candidates": [
+   "Замёрзшие"
+  ],
+  "n_occ": 1,
+  "songs": [
+   3
+  ]
+ },
+ "Gefährte": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "der"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Gefährte"
+  ],
+  "ru_candidates": [
+   "спутник,"
+  ],
+  "n_occ": 1,
+  "songs": [
+   1
+  ]
+ },
+ "Gehen": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "das"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Gehen"
+  ],
+  "ru_candidates": [
+   "блужданию,"
+  ],
+  "n_occ": 1,
+  "songs": [
+   9
+  ]
+ },
+ "gehen": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Ging",
+   "gehen",
+   "gehn",
+   "geht",
+   "ging"
+  ],
+  "ru_candidates": [
+   "пройти,",
+   "на самотёк",
+   "идут,",
+   "идти",
+   "идти?"
+  ],
+  "n_occ": 11,
+  "songs": [
+   6,
+   7,
+   12,
+   13,
+   15,
+   20,
+   23,
+   24
+  ]
+ },
+ "hüllen": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "gehüllt"
+  ],
+  "ru_candidates": [
+   "окутан"
+  ],
+  "n_occ": 1,
+  "songs": [
+   1
+  ]
+ },
+ "machen": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "gemacht"
+  ],
+  "ru_candidates": [
+   "создал —"
+  ],
+  "n_occ": 1,
+  "songs": [
+   1
+  ]
+ },
+ "malen": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Gemalt",
+   "malte"
+  ],
+  "ru_candidates": [
+   "Нарисован",
+   "нарисовал"
+  ],
+  "n_occ": 2,
+  "songs": [
+   11,
+   18
+  ]
+ },
+ "genießen": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "genossen"
+  ],
+  "ru_candidates": [
+   "насладились,"
+  ],
+  "n_occ": 1,
+  "songs": [
+   17
+  ]
+ },
+ "gern": {
+  "pos": [
+   "adv"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "gern"
+  ],
+  "ru_candidates": [
+   "охотно,",
+   "охотно"
+  ],
+  "n_occ": 2,
+  "songs": [
+   19
+  ]
+ },
+ "geschehen": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "geschehn"
+  ],
+  "ru_candidates": [
+   "и пришёл конец"
+  ],
+  "n_occ": 1,
+  "songs": [
+   8
+  ]
+ },
+ "Gesell": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "der"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Gesell"
+  ],
+  "ru_candidates": [
+   "дружище!"
+  ],
+  "n_occ": 1,
+  "songs": [
+   8
+  ]
+ },
+ "Geselle": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "der"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Geselle"
+  ],
+  "ru_candidates": [
+   "дружище,"
+  ],
+  "n_occ": 1,
+  "songs": [
+   5
+  ]
+ },
+ "Gesicht": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "das"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Gesicht"
+  ],
+  "ru_candidates": [
+   "лицо,"
+  ],
+  "n_occ": 1,
+  "songs": [
+   22
+  ]
+ },
+ "stoßen": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "gestoßen"
+  ],
+  "ru_candidates": [
+   "ударялся,"
+  ],
+  "n_occ": 1,
+  "songs": [
+   8
+  ]
+ },
+ "streuen": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "gestreuet"
+  ],
+  "ru_candidates": [
+   "рассыпал."
+  ],
+  "n_occ": 1,
+  "songs": [
+   14
+  ]
+ },
+ "weinen": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Wein",
+   "geweinet",
+   "wein"
+  ],
+  "ru_candidates": [
+   "плакал?",
+   "Плачу,",
+   "плачу"
+  ],
+  "n_occ": 3,
+  "songs": [
+   3,
+   16
+  ]
+ },
+ "Gewinn": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "der"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Gewinn"
+  ],
+  "ru_candidates": [
+   "обретение!"
+  ],
+  "n_occ": 1,
+  "songs": [
+   19
+  ]
+ },
+ "gewinnen": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "gewinnen"
+  ],
+  "ru_candidates": [
+   "обретёт,"
+  ],
+  "n_occ": 1,
+  "songs": [
+   9
+  ]
+ },
+ "gewogen": {
+  "pos": [
+   "adj"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "gewogen"
+  ],
+  "ru_candidates": [
+   "благосклонен"
+  ],
+  "n_occ": 1,
+  "songs": [
+   1
+  ]
+ },
+ "gewohnt": {
+  "pos": [
+   "adj"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "gewohnt"
+  ],
+  "ru_candidates": [
+   "привычен"
+  ],
+  "n_occ": 1,
+  "songs": [
+   9
+  ]
+ },
+ "werden": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Ward",
+   "Wirst",
+   "geworden",
+   "ward",
+   "wird"
+  ],
+  "ru_candidates": [
+   "стала,",
+   "пробудился;",
+   "пробудилось;",
+   "стала",
+   "Стала"
+  ],
+  "n_occ": 9,
+  "songs": [
+   6,
+   7,
+   9,
+   11,
+   14,
+   15,
+   23
+  ]
+ },
+ "ziehen": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Ziehn",
+   "gezogen",
+   "zieh",
+   "zieht",
+   "zog"
+  ],
+  "ru_candidates": [
+   "потянулась,",
+   "ухожу.",
+   "влачусь",
+   "Пролегают",
+   "Следует"
+  ],
+  "n_occ": 6,
+  "songs": [
+   1,
+   5,
+   12,
+   15,
+   18
+  ]
+ },
+ "geben": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Gibst",
+   "Gibt"
+  ],
+  "ru_candidates": [
+   "даришь",
+   "отдаёт"
+  ],
+  "n_occ": 2,
+  "songs": [
+   7,
+   19
+  ]
+ },
+ "glauben": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "glaubt"
+  ],
+  "ru_candidates": [
+   "поверил",
+   "поверит"
+  ],
+  "n_occ": 2,
+  "songs": [
+   14
+  ]
+ },
+ "Glied": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "das"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Glieder"
+  ],
+  "ru_candidates": [
+   "члены"
+  ],
+  "n_occ": 1,
+  "songs": [
+   10
+  ]
+ },
+ "glühen": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "glühen",
+   "glühten"
+  ],
+  "ru_candidates": [
+   "пылают, —",
+   "пылали! —"
+  ],
+  "n_occ": 2,
+  "songs": [
+   6,
+   8
+  ]
+ },
+ "glühend": {
+  "pos": [
+   "adj"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "glühend"
+  ],
+  "ru_candidates": [
+   "пылающе"
+  ],
+  "n_occ": 1,
+  "songs": [
+   3
+  ]
+ },
+ "Gott": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "der"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Gott",
+   "Götter"
+  ],
+  "ru_candidates": [
+   "Бог",
+   "бог",
+   "боги!"
+  ],
+  "n_occ": 3,
+  "songs": [
+   1,
+   22
+  ]
+ },
+ "graben": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "grab"
+  ],
+  "ru_candidates": [
+   "врезаю"
+  ],
+  "n_occ": 1,
+  "songs": [
+   7
+  ]
+ },
+ "Grab": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "das"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Grab",
+   "Grabe"
+  ],
+  "ru_candidates": [
+   "могилу.",
+   "могиле.",
+   "могилы!"
+  ],
+  "n_occ": 3,
+  "songs": [
+   9,
+   15,
+   16
+  ]
+ },
+ "gerade": {
+  "pos": [
+   "adv"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "grad"
+  ],
+  "ru_candidates": [
+   "прямо"
+  ],
+  "n_occ": 1,
+  "songs": [
+   5
+  ]
+ },
+ "Gras": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "das"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Gras",
+   "Gräser"
+  ],
+  "ru_candidates": [
+   "траву?",
+   "травы"
+  ],
+  "n_occ": 2,
+  "songs": [
+   4,
+   6
+  ]
+ },
+ "grau": {
+  "pos": [
+   "adj"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "graues"
+  ],
+  "ru_candidates": [
+   "серую"
+  ],
+  "n_occ": 1,
+  "songs": [
+   18
+  ]
+ },
+ "Graus": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "der"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Graus"
+  ],
+  "ru_candidates": [
+   "ужасом"
+  ],
+  "n_occ": 1,
+  "songs": [
+   19
+  ]
+ },
+ "grauen": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "graut"
+  ],
+  "ru_candidates": [
+   "страшно —"
+  ],
+  "n_occ": 1,
+  "songs": [
+   14
+  ]
+ },
+ "Greis": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "der"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Greis",
+   "Greise"
+  ],
+  "ru_candidates": [
+   "старец,",
+   "седой."
+  ],
+  "n_occ": 2,
+  "songs": [
+   14
+  ]
+ },
+ "Gruß": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "der"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Gruß",
+   "Grußes"
+  ],
+  "ru_candidates": [
+   "приветствия.",
+   "приветствия,"
+  ],
+  "n_occ": 2,
+  "songs": [
+   7,
+   12
+  ]
+ },
+ "grün": {
+  "pos": [
+   "adj"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "grüne",
+   "grünen",
+   "grünes"
+  ],
+  "ru_candidates": [
+   "зелёные",
+   "зелёную"
+  ],
+  "n_occ": 4,
+  "songs": [
+   4,
+   11,
+   21
+  ]
+ },
+ "grünen": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "grünt"
+  ],
+  "ru_candidates": [
+   "зазеленеете"
+  ],
+  "n_occ": 1,
+  "songs": [
+   11
+  ]
+ },
+ "Haar": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "das"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Haar",
+   "Haare"
+  ],
+  "ru_candidates": [
+   "волосам",
+   "волосы,"
+  ],
+  "n_occ": 2,
+  "songs": [
+   14
+  ]
+ },
+ "helfen": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "half"
+  ],
+  "ru_candidates": [
+   "помогала,"
+  ],
+  "n_occ": 1,
+  "songs": [
+   10
+  ]
+ },
+ "halten": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "halt",
+   "hielt"
+  ],
+  "ru_candidates": [
+   "буду держать",
+   "поддерживало"
+  ],
+  "n_occ": 2,
+  "songs": [
+   10,
+   11
+  ]
+ },
+ "hart": {
+  "pos": [
+   "adj"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "harter"
+  ],
+  "ru_candidates": [
+   "Твёрдой,"
+  ],
+  "n_occ": 1,
+  "songs": [
+   7
+  ]
+ },
+ "Haupt": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "das"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Haupt"
+  ],
+  "ru_candidates": [
+   "главы"
+  ],
+  "n_occ": 1,
+  "songs": [
+   15
+  ]
+ },
+ "Haus": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "das"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Haus",
+   "Hause",
+   "Hauses"
+  ],
+  "ru_candidates": [
+   "домом",
+   "На доме",
+   "доме",
+   "дом.",
+   "дома."
+  ],
+  "n_occ": 10,
+  "songs": [
+   1,
+   2,
+   6,
+   8,
+   10,
+   19,
+   21
+  ]
+ },
+ "heiter": {
+  "pos": [
+   "adj"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "heitre"
+  ],
+  "ru_candidates": [
+   "ясно-весёлым"
+  ],
+  "n_occ": 1,
+  "songs": [
+   12
+  ]
+ },
+ "heiß": {
+  "pos": [
+   "adj"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "heiß",
+   "heiße",
+   "heißem",
+   "heißen"
+  ],
+  "ru_candidates": [
+   "горячо,",
+   "горячее",
+   "горячим",
+   "горячими"
+  ],
+  "n_occ": 4,
+  "songs": [
+   3,
+   4,
+   6,
+   10
+  ]
+ },
+ "hell": {
+  "pos": [
+   "adj"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "hell",
+   "heller",
+   "helles"
+  ],
+  "ru_candidates": [
+   "звонко,",
+   "звонко",
+   "светлая,",
+   "светлой,",
+   "светлый,"
+  ],
+  "n_occ": 5,
+  "songs": [
+   7,
+   8,
+   12,
+   19,
+   22
+  ]
+ },
+ "her": {
+  "pos": [
+   "adv"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "her"
+  ],
+  "ru_candidates": [
+   "сюда",
+   "доносится.",
+   "вперёд;",
+   "сюда;"
+  ],
+  "n_occ": 4,
+  "songs": [
+   5,
+   13,
+   19,
+   24
+  ]
+ },
+ "Herr": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "der"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Herren"
+  ],
+  "ru_candidates": [
+   "хозяина!"
+  ],
+  "n_occ": 1,
+  "songs": [
+   1
+  ]
+ },
+ "herunter": {
+  "pos": [
+   "sep_prefix"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "herunter"
+  ],
+  "ru_candidates": [
+   "вниз."
+  ],
+  "n_occ": 1,
+  "songs": [
+   22
+  ]
+ },
+ "herunterschütteln": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "herunter→herunterschütteln"
+  ],
+  "ru_candidates": [
+   "вниз."
+  ],
+  "n_occ": 1,
+  "songs": [
+   22
+  ]
+ },
+ "Herz": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "das"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Herz",
+   "Herze",
+   "Herzen"
+  ],
+  "ru_candidates": [
+   "сердце",
+   "сердце моё",
+   "сердце,",
+   "сердце?",
+   "сердце!"
+  ],
+  "n_occ": 14,
+  "songs": [
+   2,
+   4,
+   7,
+   10,
+   11,
+   13,
+   18,
+   22
+  ]
+ },
+ "heulen": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "heulen"
+  ],
+  "ru_candidates": [
+   "воют"
+  ],
+  "n_occ": 1,
+  "songs": [
+   1
+  ]
+ },
+ "heute": {
+  "pos": [
+   "adv"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "heute"
+  ],
+  "ru_candidates": [
+   "сегодня",
+   "По сей день"
+  ],
+  "n_occ": 2,
+  "songs": [
+   5,
+   15
+  ]
+ },
+ "hier": {
+  "pos": [
+   "adv"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Hie",
+   "Hier",
+   "hier"
+  ],
+  "ru_candidates": [
+   "Тут и там",
+   "отсюда?",
+   "здесь",
+   "Здесь"
+  ],
+  "n_occ": 5,
+  "songs": [
+   4,
+   5,
+   11,
+   15,
+   16
+  ]
+ },
+ "Himmel": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "der"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Himmel",
+   "Himmels"
+  ],
+  "ru_candidates": [
+   "небе",
+   "Неба"
+  ],
+  "n_occ": 3,
+  "songs": [
+   18,
+   23
+  ]
+ },
+ "hin": {
+  "pos": [
+   "adv"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "hin"
+  ],
+  "ru_candidates": [
+   "Заманил",
+   "поддерживало",
+   "Пролегают",
+   "отдаёт",
+   "туда"
+  ],
+  "n_occ": 5,
+  "songs": [
+   9,
+   10,
+   18,
+   19,
+   24
+  ]
+ },
+ "hinab": {
+  "pos": [
+   "sep_prefix"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "hinab"
+  ],
+  "ru_candidates": [
+   "вниз —",
+   "закатились"
+  ],
+  "n_occ": 2,
+  "songs": [
+   9,
+   23
+  ]
+ },
+ "sich hinabwinden": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "hinab→sich hinabwinden"
+  ],
+  "ru_candidates": [
+   "вниз —",
+   "закатились"
+  ],
+  "n_occ": 2,
+  "songs": [
+   9,
+   23
+  ]
+ },
+ "hinab sein": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "hinab→hinab sein"
+  ],
+  "ru_candidates": [
+   "вниз —",
+   "закатились"
+  ],
+  "n_occ": 2,
+  "songs": [
+   9,
+   23
+  ]
+ },
+ "hinaus": {
+  "pos": [
+   "sep_prefix"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "hinaus"
+  ],
+  "ru_candidates": [
+   "вон?",
+   "вон;"
+  ],
+  "n_occ": 2,
+  "songs": [
+   1,
+   8
+  ]
+ },
+ "hinaustreiben": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "hinaus→hinaustreiben"
+  ],
+  "ru_candidates": [
+   "вон?",
+   "вон;"
+  ],
+  "n_occ": 2,
+  "songs": [
+   1,
+   8
+  ]
+ },
+ "hinauseilen": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "hinaus→hinauseilen"
+  ],
+  "ru_candidates": [
+   "вон?",
+   "вон;"
+  ],
+  "n_occ": 2,
+  "songs": [
+   1,
+   8
+  ]
+ },
+ "hinein": {
+  "pos": [
+   "sep_prefix"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "hinein"
+  ],
+  "ru_candidates": [
+   "В",
+   "в"
+  ],
+  "n_occ": 2,
+  "songs": [
+   7,
+   22
+  ]
+ },
+ "hineingraben": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "hinein→hineingraben"
+  ],
+  "ru_candidates": [
+   "В",
+   "в"
+  ],
+  "n_occ": 2,
+  "songs": [
+   7,
+   22
+  ]
+ },
+ "hinein (эллипт. наречие)": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "hinein→hinein (эллипт. наречие)"
+  ],
+  "ru_candidates": [
+   "В",
+   "в"
+  ],
+  "n_occ": 2,
+  "songs": [
+   7,
+   22
+  ]
+ },
+ "hinter": {
+  "pos": [
+   "prep"
+  ],
+  "gender": [],
+  "tier": [
+   "function"
+  ],
+  "forms": [
+   "hinter'm"
+  ],
+  "ru_candidates": [
+   "за"
+  ],
+  "n_occ": 1,
+  "songs": [
+   24
+  ]
+ },
+ "hinterdrein": {
+  "pos": [
+   "adv"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "hinterdrein"
+  ],
+  "ru_candidates": [
+   "вслед!"
+  ],
+  "n_occ": 1,
+  "songs": [
+   23
+  ]
+ },
+ "hinwegtauen": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "hinweggetaut"
+  ],
+  "ru_candidates": [
+   "истаял,"
+  ],
+  "n_occ": 1,
+  "songs": [
+   14
+  ]
+ },
+ "hinüber": {
+  "pos": [
+   "sep_prefix"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "hinüber"
+  ],
+  "ru_candidates": [
+   "туда"
+  ],
+  "n_occ": 1,
+  "songs": [
+   13
+  ]
+ },
+ "hinübersehen": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "hinüber→hinübersehen"
+  ],
+  "ru_candidates": [
+   "туда"
+  ],
+  "n_occ": 1,
+  "songs": [
+   13
+  ]
+ },
+ "hoch": {
+  "pos": [
+   "adj"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "hoch"
+  ],
+  "ru_candidates": [
+   "высоко"
+  ],
+  "n_occ": 1,
+  "songs": [
+   13
+  ]
+ },
+ "hoffen": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "hoffen"
+  ],
+  "ru_candidates": [
+   "надеются"
+  ],
+  "n_occ": 1,
+  "songs": [
+   17
+  ]
+ },
+ "Hoffnung": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "die"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Hoffnung"
+  ],
+  "ru_candidates": [
+   "надежду",
+   "надежда,",
+   "надежды"
+  ],
+  "n_occ": 3,
+  "songs": [
+   16
+  ]
+ },
+ "holen": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "holen"
+  ],
+  "ru_candidates": [
+   "переводить,"
+  ],
+  "n_occ": 1,
+  "songs": [
+   8
+  ]
+ },
+ "Hund": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "der"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Hunde"
+  ],
+  "ru_candidates": [
+   "псы",
+   "псы,"
+  ],
+  "n_occ": 4,
+  "songs": [
+   1,
+   17,
+   24
+  ]
+ },
+ "Hut": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "der"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Hut"
+  ],
+  "ru_candidates": [
+   "Шляпа",
+   "шляпу"
+  ],
+  "n_occ": 2,
+  "songs": [
+   5,
+   8
+  ]
+ },
+ "Hahn": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "der"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Hähne"
+  ],
+  "ru_candidates": [
+   "петухи"
+  ],
+  "n_occ": 2,
+  "songs": [
+   11
+  ]
+ },
+ "hängen": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Hänge"
+  ],
+  "ru_candidates": [
+   "Вешаю"
+  ],
+  "n_occ": 1,
+  "songs": [
+   16
+  ]
+ },
+ "haben": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "hätt"
+  ],
+  "ru_candidates": [
+   "бы"
+  ],
+  "n_occ": 2,
+  "songs": [
+   2
+  ]
+ },
+ "hören": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Höre",
+   "hör",
+   "hören"
+  ],
+  "ru_candidates": [
+   "слышу",
+   "слышу,",
+   "не услышишь —",
+   "слушать,"
+  ],
+  "n_occ": 4,
+  "songs": [
+   1,
+   5,
+   22,
+   24
+  ]
+ },
+ "ihr": {
+  "pos": [
+   "pronoun"
+  ],
+  "gender": [],
+  "tier": [
+   "function"
+  ],
+  "forms": [
+   "ihres"
+  ],
+  "ru_candidates": [
+   "своего"
+  ],
+  "n_occ": 1,
+  "songs": [
+   1
+  ]
+ },
+ "immer": {
+  "pos": [
+   "adv"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "immer"
+  ],
+  "ru_candidates": [
+   "постоянно.",
+   "всё",
+   "всегда"
+  ],
+  "n_occ": 3,
+  "songs": [
+   5,
+   24
+  ]
+ },
+ "in": {
+  "pos": [
+   "prep"
+  ],
+  "gender": [],
+  "tier": [
+   "function"
+  ],
+  "forms": [
+   "In's",
+   "in's"
+  ],
+  "ru_candidates": [
+   "в",
+   "В"
+  ],
+  "n_occ": 4,
+  "songs": [
+   5,
+   21,
+   22,
+   23
+  ]
+ },
+ "irr": {
+  "pos": [
+   "adj"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "irre"
+  ],
+  "ru_candidates": [
+   "безумные-блуждающие",
+   "блужданию,"
+  ],
+  "n_occ": 2,
+  "songs": [
+   1,
+   9
+  ]
+ },
+ "Irrlicht": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "das"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Irrlicht",
+   "Irrlichts"
+  ],
+  "ru_candidates": [
+   "блуждающий огонь:",
+   "блуждающего огня"
+  ],
+  "n_occ": 2,
+  "songs": [
+   9
+  ]
+ },
+ "je": {
+  "pos": [
+   "adv",
+   "interj"
+  ],
+  "gender": [],
+  "tier": [
+   "content",
+   "loaded_particle"
+  ],
+  "forms": [
+   "Je",
+   "je"
+  ],
+  "ru_candidates": [
+   "растает хоть когда-нибудь",
+   "Ну что ж,"
+  ],
+  "n_occ": 2,
+  "songs": [
+   4,
+   17
+  ]
+ },
+ "jeder": {
+  "pos": [
+   "pronoun"
+  ],
+  "gender": [],
+  "tier": [
+   "function"
+  ],
+  "forms": [
+   "Jeder",
+   "Jedes",
+   "jedem",
+   "jeden",
+   "jeder"
+  ],
+  "ru_candidates": [
+   "каждого",
+   "каждый",
+   "Каждая",
+   "каждое"
+  ],
+  "n_occ": 5,
+  "songs": [
+   8,
+   9
+  ]
+ },
+ "jener": {
+  "pos": [
+   "pronoun"
+  ],
+  "gender": [],
+  "tier": [
+   "function"
+  ],
+  "forms": [
+   "jenem"
+  ],
+  "ru_candidates": [
+   "того"
+  ],
+  "n_occ": 1,
+  "songs": [
+   5
+  ]
+ },
+ "Jugend": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "die"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Jugend"
+  ],
+  "ru_candidates": [
+   "юности"
+  ],
+  "n_occ": 1,
+  "songs": [
+   14
+  ]
+ },
+ "kalt": {
+  "pos": [
+   "adj"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Kalt",
+   "kalt",
+   "kalten"
+  ],
+  "ru_candidates": [
+   "Холодным",
+   "холодная",
+   "холодно,",
+   "холодно",
+   "Холодные"
+  ],
+  "n_occ": 7,
+  "songs": [
+   4,
+   5,
+   6,
+   7,
+   10,
+   11,
+   18
+  ]
+ },
+ "Kammer": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "die"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Kammern"
+  ],
+  "ru_candidates": [
+   "Каморки"
+  ],
+  "n_occ": 1,
+  "songs": [
+   21
+  ]
+ },
+ "Kampf": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "der"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Kampf"
+  ],
+  "ru_candidates": [
+   "борьбе"
+  ],
+  "n_occ": 1,
+  "songs": [
+   10
+  ]
+ },
+ "können": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Könnt",
+   "kann"
+  ],
+  "ru_candidates": [
+   "не могу",
+   "могу.",
+   "может.",
+   "Можете,"
+  ],
+  "n_occ": 4,
+  "songs": [
+   1,
+   16,
+   21,
+   24
+  ]
+ },
+ "Kette": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "die"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Ketten"
+  ],
+  "ru_candidates": [
+   "цепи."
+  ],
+  "n_occ": 1,
+  "songs": [
+   17
+  ]
+ },
+ "Kind": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "das"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Kind"
+  ],
+  "ru_candidates": [
+   "дитя"
+  ],
+  "n_occ": 1,
+  "songs": [
+   2
+  ]
+ },
+ "Kissen": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "das"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Kissen"
+  ],
+  "ru_candidates": [
+   "подушках."
+  ],
+  "n_occ": 1,
+  "songs": [
+   17
+  ]
+ },
+ "klagen": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Klagen",
+   "klagt"
+  ],
+  "ru_candidates": [
+   "Жаловаться",
+   "жалуется,"
+  ],
+  "n_occ": 2,
+  "songs": [
+   22
+  ]
+ },
+ "klar": {
+  "pos": [
+   "adj"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "klaren"
+  ],
+  "ru_candidates": [
+   "Прозрачные"
+  ],
+  "n_occ": 1,
+  "songs": [
+   8
+  ]
+ },
+ "Kleid": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "das"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Kleid"
+  ],
+  "ru_candidates": [
+   "одежду!"
+  ],
+  "n_occ": 1,
+  "songs": [
+   18
+  ]
+ },
+ "klein": {
+  "pos": [
+   "adj"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "kleiner"
+  ],
+  "ru_candidates": [
+   "маленькая"
+  ],
+  "n_occ": 1,
+  "songs": [
+   24
+  ]
+ },
+ "klingen": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "klingt"
+  ],
+  "ru_candidates": [
+   "доносится."
+  ],
+  "n_occ": 1,
+  "songs": [
+   13
+  ]
+ },
+ "knurren": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "knurren"
+  ],
+  "ru_candidates": [
+   "рычат"
+  ],
+  "n_occ": 1,
+  "songs": [
+   24
+  ]
+ },
+ "kommen": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Komm",
+   "Kömmt",
+   "kommt"
+  ],
+  "ru_candidates": [
+   "Приди",
+   "приходит"
+  ],
+  "n_occ": 3,
+  "songs": [
+   5,
+   8,
+   13
+  ]
+ },
+ "Kopf": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "der"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Kopf",
+   "Kopfe"
+  ],
+  "ru_candidates": [
+   "голова",
+   "головы,"
+  ],
+  "n_occ": 2,
+  "songs": [
+   5,
+   14
+  ]
+ },
+ "Kreuz": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "das"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Kreuz"
+  ],
+  "ru_candidates": [
+   "то туда, то сюда;"
+  ],
+  "n_occ": 1,
+  "songs": [
+   19
+  ]
+ },
+ "Krähe": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "die"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Krähe",
+   "Krähen"
+  ],
+  "ru_candidates": [
+   "Ворона",
+   "Ворона,",
+   "Вороны"
+  ],
+  "n_occ": 4,
+  "songs": [
+   8,
+   15
+  ]
+ },
+ "krähen": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "krähten"
+  ],
+  "ru_candidates": [
+   "прокукарекали,"
+  ],
+  "n_occ": 2,
+  "songs": [
+   11
+  ]
+ },
+ "Köhler": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "der"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Köhlers"
+  ],
+  "ru_candidates": [
+   "угольщика"
+  ],
+  "n_occ": 1,
+  "songs": [
+   10
+  ]
+ },
+ "kühl": {
+  "pos": [
+   "adj"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "kühle",
+   "kühler"
+  ],
+  "ru_candidates": [
+   "прохладный",
+   "прохладная"
+  ],
+  "n_occ": 2,
+  "songs": [
+   3,
+   21
+  ]
+ },
+ "küssen": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "küssen"
+  ],
+  "ru_candidates": [
+   "целовать,"
+  ],
+  "n_occ": 1,
+  "songs": [
+   4
+  ]
+ },
+ "Kuss": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "der"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Küssen"
+  ],
+  "ru_candidates": [
+   "поцелуи,"
+  ],
+  "n_occ": 1,
+  "songs": [
+   11
+  ]
+ },
+ "lachen": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "lacht"
+  ],
+  "ru_candidates": [
+   "смеётесь,"
+  ],
+  "n_occ": 1,
+  "songs": [
+   11
+  ]
+ },
+ "laden": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "laden"
+  ],
+  "ru_candidates": [
+   "приглашают"
+  ],
+  "n_occ": 1,
+  "songs": [
+   21
+  ]
+ },
+ "lang": {
+  "pos": [
+   "adv"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "lang",
+   "länger"
+  ],
+  "ru_candidates": [
+   "Долго",
+   "дольше"
+  ],
+  "n_occ": 2,
+  "songs": [
+   1,
+   23
+  ]
+ },
+ "lassen": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Lass",
+   "Lasst",
+   "lass",
+   "ließen",
+   "lässt"
+  ],
+  "ru_candidates": [
+   "Пусть",
+   "дай",
+   "Не давайте",
+   "оставили,",
+   "пускает"
+  ],
+  "n_occ": 5,
+  "songs": [
+   1,
+   15,
+   17,
+   24
+  ]
+ },
+ "Last": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "die"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Last"
+  ],
+  "ru_candidates": [
+   "тяжести,"
+  ],
+  "n_occ": 1,
+  "songs": [
+   10
+  ]
+ },
+ "lau": {
+  "pos": [
+   "adj"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "lau",
+   "lauer"
+  ],
+  "ru_candidates": [
+   "негорячи,",
+   "тепловатый"
+  ],
+  "n_occ": 2,
+  "songs": [
+   3,
+   6
+  ]
+ },
+ "Lauf": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "der"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Lauf"
+  ],
+  "ru_candidates": [
+   "ход?"
+  ],
+  "n_occ": 1,
+  "songs": [
+   6
+  ]
+ },
+ "laut": {
+  "pos": [
+   "adv"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "laut"
+  ],
+  "ru_candidates": [
+   "громко."
+  ],
+  "n_occ": 1,
+  "songs": [
+   2
+  ]
+ },
+ "Leben": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "das"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Leben"
+  ],
+  "ru_candidates": [
+   "жизни,"
+  ],
+  "n_occ": 1,
+  "songs": [
+   12
+  ]
+ },
+ "leer": {
+  "pos": [
+   "adj"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "leer"
+  ],
+  "ru_candidates": [
+   "пустой."
+  ],
+  "n_occ": 1,
+  "songs": [
+   24
+  ]
+ },
+ "legen": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "lege"
+  ],
+  "ru_candidates": [
+   "ложусь;"
+  ],
+  "n_occ": 1,
+  "songs": [
+   10
+  ]
+ },
+ "Leib": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "der"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Leib"
+  ],
+  "ru_candidates": [
+   "плоть"
+  ],
+  "n_occ": 1,
+  "songs": [
+   15
+  ]
+ },
+ "Leid": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "das"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Leide"
+  ],
+  "ru_candidates": [
+   "горе"
+  ],
+  "n_occ": 1,
+  "songs": [
+   5
+  ]
+ },
+ "Leiden": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "das"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Leiden"
+  ],
+  "ru_candidates": [
+   "страдания,",
+   "страдание"
+  ],
+  "n_occ": 2,
+  "songs": [
+   9
+  ]
+ },
+ "Leier": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "die"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Leier"
+  ],
+  "ru_candidates": [
+   "лира",
+   "лиру"
+  ],
+  "n_occ": 2,
+  "songs": [
+   24
+  ]
+ },
+ "Leiermann": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "der"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Leiermann"
+  ],
+  "ru_candidates": [
+   "лирник,"
+  ],
+  "n_occ": 1,
+  "songs": [
+   24
+  ]
+ },
+ "Lerche": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "die"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Lerch"
+  ],
+  "ru_candidates": [
+   "Жаворонок"
+  ],
+  "n_occ": 1,
+  "songs": [
+   8
+  ]
+ },
+ "licht": {
+  "pos": [
+   "adj"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "licht"
+  ],
+  "ru_candidates": [
+   "лучезарен!"
+  ],
+  "n_occ": 1,
+  "songs": [
+   12
+  ]
+ },
+ "Licht": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "das"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Licht"
+  ],
+  "ru_candidates": [
+   "Огонь"
+  ],
+  "n_occ": 1,
+  "songs": [
+   19
+  ]
+ },
+ "Liebe": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "die"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Lieb",
+   "Liebe"
+  ],
+  "ru_candidates": [
+   "любовь",
+   "любви,",
+   "Любовь",
+   "любовь,"
+  ],
+  "n_occ": 4,
+  "songs": [
+   1,
+   11
+  ]
+ },
+ "Liebchen": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "das"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Liebchen",
+   "Liebchens"
+  ],
+  "ru_candidates": [
+   "любимая,",
+   "любимую",
+   "любимая",
+   "любимой."
+  ],
+  "n_occ": 4,
+  "songs": [
+   1,
+   2,
+   11,
+   13
+  ]
+ },
+ "lieb": {
+  "pos": [
+   "adj"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "liebe",
+   "liebes"
+  ],
+  "ru_candidates": [
+   "ласковых",
+   "милую",
+   "милая"
+  ],
+  "n_occ": 3,
+  "songs": [
+   5,
+   13,
+   19
+  ]
+ },
+ "Liebste": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "die"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Liebsten"
+  ],
+  "ru_candidates": [
+   "любимой"
+  ],
+  "n_occ": 2,
+  "songs": [
+   6,
+   7
+  ]
+ },
+ "lieben": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "liebt"
+  ],
+  "ru_candidates": [
+   "любит"
+  ],
+  "n_occ": 1,
+  "songs": [
+   1
+  ]
+ },
+ "Lied": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "das"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Liedern"
+  ],
+  "ru_candidates": [
+   "песни"
+  ],
+  "n_occ": 1,
+  "songs": [
+   24
+  ]
+ },
+ "liegen": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Liegst",
+   "Liegt"
+  ],
+  "ru_candidates": [
+   "Лежишь",
+   "тяготит"
+  ],
+  "n_occ": 2,
+  "songs": [
+   7,
+   9
+  ]
+ },
+ "Lindenbaum": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "der"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Lindenbaum",
+   "Lindenbäume"
+  ],
+  "ru_candidates": [
+   "липовое дерево:",
+   "липовые деревья"
+  ],
+  "n_occ": 2,
+  "songs": [
+   5,
+   8
+  ]
+ },
+ "List": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "die"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "List"
+  ],
+  "ru_candidates": [
+   "уловке,"
+  ],
+  "n_occ": 1,
+  "songs": [
+   19
+  ]
+ },
+ "locken": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Lockte"
+  ],
+  "ru_candidates": [
+   "Заманил"
+  ],
+  "n_occ": 1,
+  "songs": [
+   9
+  ]
+ },
+ "Luft": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "die"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Luft",
+   "Lüfte"
+  ],
+  "ru_candidates": [
+   "воздух",
+   "воздушным просторам"
+  ],
+  "n_occ": 2,
+  "songs": [
+   12
+  ]
+ },
+ "lustig": {
+  "pos": [
+   "adj",
+   "adv"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Lustig",
+   "lustig",
+   "lustigem"
+  ],
+  "ru_candidates": [
+   "весело",
+   "Весело",
+   "Весёлый"
+  ],
+  "n_occ": 3,
+  "songs": [
+   7,
+   11,
+   22
+  ]
+ },
+ "Lüftchen": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "das"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Lüftchen"
+  ],
+  "ru_candidates": [
+   "воздушный ветерок"
+  ],
+  "n_occ": 1,
+  "songs": [
+   12
+  ]
+ },
+ "mögen": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Möcht",
+   "mag",
+   "möcht",
+   "mögest"
+  ],
+  "ru_candidates": [
+   "должно быть,",
+   "хочет",
+   "не хотел бы",
+   "Хотел бы",
+   "могла"
+  ],
+  "n_occ": 6,
+  "songs": [
+   1,
+   8,
+   13,
+   24
+  ]
+ },
+ "Mai": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "der"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Mai"
+  ],
+  "ru_candidates": [
+   "Май",
+   "мае,"
+  ],
+  "n_occ": 2,
+  "songs": [
+   1,
+   11
+  ]
+ },
+ "Maid": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "die"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Maid"
+  ],
+  "ru_candidates": [
+   "дева,"
+  ],
+  "n_occ": 1,
+  "songs": [
+   11
+  ]
+ },
+ "mancher": {
+  "pos": [
+   "pronoun"
+  ],
+  "gender": [],
+  "tier": [
+   "function"
+  ],
+  "forms": [
+   "Manche",
+   "Manches",
+   "manche",
+   "manchem",
+   "manchen",
+   "mancher",
+   "manches"
+  ],
+  "ru_candidates": [
+   "не на один",
+   "Не одна",
+   "не одним",
+   "Столько",
+   "не одна"
+  ],
+  "n_occ": 8,
+  "songs": [
+   1,
+   5,
+   6,
+   14,
+   16,
+   17
+  ]
+ },
+ "Mann": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "der"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Mann"
+  ],
+  "ru_candidates": [
+   "человека."
+  ],
+  "n_occ": 1,
+  "songs": [
+   24
+  ]
+ },
+ "matt": {
+  "pos": [
+   "adj"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "matt",
+   "mattem",
+   "mattes"
+  ],
+  "ru_candidates": [
+   "слаб",
+   "слабом",
+   "Слабый"
+  ],
+  "n_occ": 3,
+  "songs": [
+   12,
+   18,
+   21
+  ]
+ },
+ "Matte": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "die"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Matten"
+  ],
+  "ru_candidates": [
+   "лугах"
+  ],
+  "n_occ": 1,
+  "songs": [
+   1
+  ]
+ },
+ "Maß": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "das"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Maßen"
+  ],
+  "ru_candidates": [
+   "меры,"
+  ],
+  "n_occ": 1,
+  "songs": [
+   20
+  ]
+ },
+ "Meer": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "das"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Meer"
+  ],
+  "ru_candidates": [
+   "море"
+  ],
+  "n_occ": 1,
+  "songs": [
+   9
+  ]
+ },
+ "mehr": {
+  "pos": [
+   "adv"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "mehr"
+  ],
+  "ru_candidates": [
+   "не перестану",
+   "уже"
+  ],
+  "n_occ": 2,
+  "songs": [
+   8,
+   15
+  ]
+ },
+ "meinen": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Meinst"
+  ],
+  "ru_candidates": [
+   "Думаешь,"
+  ],
+  "n_occ": 1,
+  "songs": [
+   15
+  ]
+ },
+ "Mensch": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "der"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Menschen"
+  ],
+  "ru_candidates": [
+   "люди",
+   "людей"
+  ],
+  "n_occ": 2,
+  "songs": [
+   17,
+   20
+  ]
+ },
+ "merken": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "merk"
+  ],
+  "ru_candidates": [
+   "замечаю"
+  ],
+  "n_occ": 1,
+  "songs": [
+   10
+  ]
+ },
+ "Mondenschatten": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "der"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Mondenschatten"
+  ],
+  "ru_candidates": [
+   "лунная тень"
+  ],
+  "n_occ": 1,
+  "songs": [
+   1
+  ]
+ },
+ "morgen": {
+  "pos": [
+   "adv"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "morgen"
+  ],
+  "ru_candidates": [
+   "завтра"
+  ],
+  "n_occ": 1,
+  "songs": [
+   17
+  ]
+ },
+ "Morgen": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "der"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Morgen"
+  ],
+  "ru_candidates": [
+   "утром"
+  ],
+  "n_occ": 1,
+  "songs": [
+   18
+  ]
+ },
+ "Morgenlicht": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "das"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Morgenlicht"
+  ],
+  "ru_candidates": [
+   "утреннего света"
+  ],
+  "n_occ": 1,
+  "songs": [
+   14
+  ]
+ },
+ "Morgentau": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "der"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Morgentau"
+  ],
+  "ru_candidates": [
+   "утренняя роса?"
+  ],
+  "n_occ": 1,
+  "songs": [
+   3
+  ]
+ },
+ "munter": {
+  "pos": [
+   "adj"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Muntre",
+   "munter"
+  ],
+  "ru_candidates": [
+   "бодрым",
+   "бодро.",
+   "Оживлённые"
+  ],
+  "n_occ": 3,
+  "songs": [
+   6,
+   10,
+   22
+  ]
+ },
+ "müssen": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Muss",
+   "muss",
+   "musst"
+  ],
+  "ru_candidates": [
+   "Должен",
+   "должен",
+   "должен был"
+  ],
+  "n_occ": 3,
+  "songs": [
+   1,
+   5,
+   20
+  ]
+ },
+ "Mutter": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "die"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Mutter"
+  ],
+  "ru_candidates": [
+   "Мать"
+  ],
+  "n_occ": 1,
+  "songs": [
+   1
+  ]
+ },
+ "Mädchen": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "das"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Mädchen"
+  ],
+  "ru_candidates": [
+   "Девушка"
+  ],
+  "n_occ": 1,
+  "songs": [
+   1
+  ]
+ },
+ "Mädchenauge": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "das"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Mädchenaugen"
+  ],
+  "ru_candidates": [
+   "девичьих глаза"
+  ],
+  "n_occ": 1,
+  "songs": [
+   8
+  ]
+ },
+ "müde": {
+  "pos": [
+   "adj"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "müd",
+   "müde"
+  ],
+  "ru_candidates": [
+   "усталый",
+   "усталых"
+  ],
+  "n_occ": 2,
+  "songs": [
+   10,
+   21
+  ]
+ },
+ "Nacht": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "die"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Nacht"
+  ],
+  "ru_candidates": [
+   "ночи!",
+   "ночи,",
+   "ночью,"
+  ],
+  "n_occ": 4,
+  "songs": [
+   1,
+   5,
+   19
+  ]
+ },
+ "Nachtigall": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "die"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Nachtigall"
+  ],
+  "ru_candidates": [
+   "соловей"
+  ],
+  "n_occ": 1,
+  "songs": [
+   8
+  ]
+ },
+ "Name": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "der"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Nam",
+   "Namen"
+  ],
+  "ru_candidates": [
+   "имени",
+   "Имя"
+  ],
+  "n_occ": 2,
+  "songs": [
+   7
+  ]
+ },
+ "nehmen": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Nimmt",
+   "nehmen"
+  ],
+  "ru_candidates": [
+   "взять",
+   "Возьмёт"
+  ],
+  "n_occ": 2,
+  "songs": [
+   4,
+   6
+  ]
+ },
+ "nennen": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "nenn"
+  ],
+  "ru_candidates": [
+   "называю"
+  ],
+  "n_occ": 1,
+  "songs": [
+   18
+  ]
+ },
+ "neulich": {
+  "pos": [
+   "adv"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "neulich"
+  ],
+  "ru_candidates": [
+   "недавно"
+  ],
+  "n_occ": 1,
+  "songs": [
+   23
+  ]
+ },
+ "Niedersinken": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "das"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Niedersinken"
+  ],
+  "ru_candidates": [
+   "изнеможения,"
+  ],
+  "n_occ": 1,
+  "songs": [
+   21
+  ]
+ },
+ "nimmer": {
+  "pos": [
+   "adv"
+  ],
+  "gender": [],
+  "tier": [
+   "loaded_particle"
+  ],
+  "forms": [
+   "nimmer"
+  ],
+  "ru_candidates": [
+   "никогда"
+  ],
+  "n_occ": 2,
+  "songs": [
+   2,
+   24
+  ]
+ },
+ "noch": {
+  "pos": [
+   "adv"
+  ],
+  "gender": [],
+  "tier": [
+   "loaded_particle"
+  ],
+  "forms": [
+   "Noch",
+   "noch"
+  ],
+  "ru_candidates": [
+   "ещё",
+   "Ещё"
+  ],
+  "n_occ": 7,
+  "songs": [
+   5,
+   8,
+   11,
+   12,
+   14,
+   17,
+   20
+  ]
+ },
+ "nun": {
+  "pos": [
+   "adv"
+  ],
+  "gender": [],
+  "tier": [
+   "loaded_particle"
+  ],
+  "forms": [
+   "Nun",
+   "nun"
+  ],
+  "ru_candidates": [
+   "Теперь",
+   "Ну да,",
+   "Что ж,",
+   "теперь",
+   "Ну что ж,"
+  ],
+  "n_occ": 10,
+  "songs": [
+   1,
+   5,
+   7,
+   10,
+   11,
+   13,
+   15,
+   17,
+   21,
+   23
+  ]
+ },
+ "o": {
+  "pos": [
+   "interj"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "O"
+  ],
+  "ru_candidates": [
+   "О"
+  ],
+  "n_occ": 1,
+  "songs": [
+   21
+  ]
+ },
+ "Obdach": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "das"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Obdach"
+  ],
+  "ru_candidates": [
+   "Кров"
+  ],
+  "n_occ": 1,
+  "songs": [
+   10
+  ]
+ },
+ "oftmals": {
+  "pos": [
+   "adv"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Oftmals"
+  ],
+  "ru_candidates": [
+   "Часто"
+  ],
+  "n_occ": 1,
+  "songs": [
+   16
+  ]
+ },
+ "Ohr": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "das"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Ohren"
+  ],
+  "ru_candidates": [
+   "ушей."
+  ],
+  "n_occ": 1,
+  "songs": [
+   22
+  ]
+ },
+ "Ort": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "der"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Ort"
+  ],
+  "ru_candidates": [
+   "места,"
+  ],
+  "n_occ": 1,
+  "songs": [
+   5
+  ]
+ },
+ "pfeifen": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "pfiff"
+  ],
+  "ru_candidates": [
+   "освистывает"
+  ],
+  "n_occ": 1,
+  "songs": [
+   2
+  ]
+ },
+ "Post": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "die"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Post"
+  ],
+  "ru_candidates": [
+   "Почта",
+   "почта"
+  ],
+  "n_occ": 2,
+  "songs": [
+   13
+  ]
+ },
+ "Posthorn": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "das"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Posthorn"
+  ],
+  "ru_candidates": [
+   "почтовый рожок"
+  ],
+  "n_occ": 1,
+  "songs": [
+   13
+  ]
+ },
+ "Quelle": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "die"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Quelle"
+  ],
+  "ru_candidates": [
+   "источника"
+  ],
+  "n_occ": 1,
+  "songs": [
+   3
+  ]
+ },
+ "quer": {
+  "pos": [
+   "adv"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Quer"
+  ],
+  "ru_candidates": [
+   "то туда, то сюда;"
+  ],
+  "n_occ": 1,
+  "songs": [
+   19
+  ]
+ },
+ "Rabe": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "der"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Raben"
+  ],
+  "ru_candidates": [
+   "во́роны"
+  ],
+  "n_occ": 1,
+  "songs": [
+   11
+  ]
+ },
+ "Rasen": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "der"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Rasen"
+  ],
+  "ru_candidates": [
+   "Трава"
+  ],
+  "n_occ": 1,
+  "songs": [
+   4
+  ]
+ },
+ "rasseln": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "rasseln"
+  ],
+  "ru_candidates": [
+   "лязгают"
+  ],
+  "n_occ": 1,
+  "songs": [
+   17
+  ]
+ },
+ "Rast": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "die"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Rast"
+  ],
+  "ru_candidates": [
+   "привала,"
+  ],
+  "n_occ": 1,
+  "songs": [
+   10
+  ]
+ },
+ "rauschen": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "rauschen",
+   "rauschten",
+   "rauschtest"
+  ],
+  "ru_candidates": [
+   "как шумит:",
+   "шумели,",
+   "шумели",
+   "шумела,"
+  ],
+  "n_occ": 4,
+  "songs": [
+   5,
+   7,
+   8
+  ]
+ },
+ "recht": {
+  "pos": [
+   "adv"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "recht"
+  ],
+  "ru_candidates": [
+   "Как раз"
+  ],
+  "n_occ": 1,
+  "songs": [
+   18
+  ]
+ },
+ "regen": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "regen"
+  ],
+  "ru_candidates": [
+   "встрепенётся!"
+  ],
+  "n_occ": 1,
+  "songs": [
+   10
+  ]
+ },
+ "reich": {
+  "pos": [
+   "adj"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "reiche"
+  ],
+  "ru_candidates": [
+   "богатая"
+  ],
+  "n_occ": 1,
+  "songs": [
+   2
+  ]
+ },
+ "Reif": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "der"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Reif"
+  ],
+  "ru_candidates": [
+   "Иней"
+  ],
+  "n_occ": 1,
+  "songs": [
+   14
+  ]
+ },
+ "Reise": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "die"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Reise",
+   "Reisen"
+  ],
+  "ru_candidates": [
+   "путешествие!",
+   "путешествия"
+  ],
+  "n_occ": 2,
+  "songs": [
+   1,
+   14
+  ]
+ },
+ "reißend": {
+  "pos": [
+   "adj"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "reißend"
+  ],
+  "ru_candidates": [
+   "бурно"
+  ],
+  "n_occ": 1,
+  "songs": [
+   7
+  ]
+ },
+ "rufen": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "riefen"
+  ],
+  "ru_candidates": [
+   "звали"
+  ],
+  "n_occ": 1,
+  "songs": [
+   5
+  ]
+ },
+ "Rinde": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "die"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Rinde"
+  ],
+  "ru_candidates": [
+   "коре",
+   "коркой"
+  ],
+  "n_occ": 3,
+  "songs": [
+   5,
+   7
+  ]
+ },
+ "Ring": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "der"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Ring"
+  ],
+  "ru_candidates": [
+   "кольцо."
+  ],
+  "n_occ": 1,
+  "songs": [
+   7
+  ]
+ },
+ "Rinne": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "die"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Rinnen"
+  ],
+  "ru_candidates": [
+   "канавки",
+   "руслам"
+  ],
+  "n_occ": 2,
+  "songs": [
+   8,
+   9
+  ]
+ },
+ "rot": {
+  "pos": [
+   "adj"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "rote"
+  ],
+  "ru_candidates": [
+   "красные"
+  ],
+  "n_occ": 1,
+  "songs": [
+   18
+  ]
+ },
+ "Ruh": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "die"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Ruh"
+  ],
+  "ru_candidates": [
+   "покоя,",
+   "покой!",
+   "отдохнуть",
+   "покой."
+  ],
+  "n_occ": 5,
+  "songs": [
+   1,
+   5,
+   10,
+   20
+  ]
+ },
+ "Ruhe": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "die"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Ruhe"
+  ],
+  "ru_candidates": [
+   "покой"
+  ],
+  "n_occ": 1,
+  "songs": [
+   5
+  ]
+ },
+ "ruhig": {
+  "pos": [
+   "adj"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "ruhig"
+  ],
+  "ru_candidates": [
+   "спокойно",
+   "спокоен!"
+  ],
+  "n_occ": 2,
+  "songs": [
+   9,
+   12
+  ]
+ },
+ "ruhen": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "ruhn"
+  ],
+  "ru_candidates": [
+   "отдыхают",
+   "покоиться"
+  ],
+  "n_occ": 2,
+  "songs": [
+   10,
+   17
+  ]
+ },
+ "rund": {
+  "pos": [
+   "adj"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "runden"
+  ],
+  "ru_candidates": [
+   "Круглые"
+  ],
+  "n_occ": 1,
+  "songs": [
+   8
+  ]
+ },
+ "Rücken": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "der"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Rücken"
+  ],
+  "ru_candidates": [
+   "Спина"
+  ],
+  "n_occ": 1,
+  "songs": [
+   10
+  ]
+ },
+ "rückwärts": {
+  "pos": [
+   "adv"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "rückwärts"
+  ],
+  "ru_candidates": [
+   "назад"
+  ],
+  "n_occ": 1,
+  "songs": [
+   8
+  ]
+ },
+ "es": {
+  "pos": [
+   "pronoun"
+  ],
+  "gender": [],
+  "tier": [
+   "function"
+  ],
+  "forms": [
+   "S",
+   "s"
+  ],
+  "ru_candidates": [
+   "как шумит:",
+   "вздымается?",
+   "море",
+   "страшно —",
+   "этому?"
+  ],
+  "n_occ": 6,
+  "songs": [
+   5,
+   7,
+   9,
+   14
+  ]
+ },
+ "sacht": {
+  "pos": [
+   "adv"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Sacht",
+   "sacht"
+  ],
+  "ru_candidates": [
+   "Тихо,",
+   "тихо"
+  ],
+  "n_occ": 2,
+  "songs": [
+   1
+  ]
+ },
+ "sagen": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Sag",
+   "sagt"
+  ],
+  "ru_candidates": [
+   "Скажи,",
+   "скажет",
+   "говорит,"
+  ],
+  "n_occ": 3,
+  "songs": [
+   4,
+   6,
+   22
+  ]
+ },
+ "sehen": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "sah",
+   "seh",
+   "seh's",
+   "sehen",
+   "sehn",
+   "sieht"
+  ],
+  "ru_candidates": [
+   "видел?",
+   "видел",
+   "увижу.",
+   "видеть.",
+   "вижу"
+  ],
+  "n_occ": 14,
+  "songs": [
+   1,
+   4,
+   8,
+   11,
+   13,
+   15,
+   16,
+   18,
+   19,
+   20,
+   23,
+   24
+  ]
+ },
+ "Sand": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "der"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Sande"
+  ],
+  "ru_candidates": [
+   "песке"
+  ],
+  "n_occ": 1,
+  "songs": [
+   7
+  ]
+ },
+ "singen": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Sing",
+   "sangen"
+  ],
+  "ru_candidates": [
+   "пели",
+   "Пою"
+  ],
+  "n_occ": 2,
+  "songs": [
+   8,
+   22
+  ]
+ },
+ "saugen": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "saugen"
+  ],
+  "ru_candidates": [
+   "всасывают"
+  ],
+  "n_occ": 1,
+  "songs": [
+   6
+  ]
+ },
+ "Schade": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "der"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Schad"
+  ],
+  "ru_candidates": [
+   "жаль"
+  ],
+  "n_occ": 1,
+  "songs": [
+   1
+  ]
+ },
+ "Schatten": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "der"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Schatten"
+  ],
+  "ru_candidates": [
+   "тени"
+  ],
+  "n_occ": 1,
+  "songs": [
+   5
+  ]
+ },
+ "schauen": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Schaue",
+   "Schaut"
+  ],
+  "ru_candidates": [
+   "Гляжу",
+   "Глядите"
+  ],
+  "n_occ": 2,
+  "songs": [
+   16,
+   23
+  ]
+ },
+ "Scheidegruß": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "der"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Scheidegruß"
+  ],
+  "ru_candidates": [
+   "прощального слова."
+  ],
+  "n_occ": 1,
+  "songs": [
+   7
+  ]
+ },
+ "Schein": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "der"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Schein"
+  ],
+  "ru_candidates": [
+   "блеск"
+  ],
+  "n_occ": 1,
+  "songs": [
+   14
+  ]
+ },
+ "Schenke": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "die"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Schenke"
+  ],
+  "ru_candidates": [
+   "корчма,"
+  ],
+  "n_occ": 1,
+  "songs": [
+   21
+  ]
+ },
+ "scheuen": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "scheun"
+  ],
+  "ru_candidates": [
+   "сторониться —"
+  ],
+  "n_occ": 1,
+  "songs": [
+   20
+  ]
+ },
+ "Schild": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "das"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Schild"
+  ],
+  "ru_candidates": [
+   "знак,"
+  ],
+  "n_occ": 1,
+  "songs": [
+   2
+  ]
+ },
+ "schlafen": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "schlafen"
+  ],
+  "ru_candidates": [
+   "Спят"
+  ],
+  "n_occ": 1,
+  "songs": [
+   17
+  ]
+ },
+ "schließen": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "schließ"
+  ],
+  "ru_candidates": [
+   "закрываю"
+  ],
+  "n_occ": 1,
+  "songs": [
+   11
+  ]
+ },
+ "Schloße": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "die"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Schloßen"
+  ],
+  "ru_candidates": [
+   "градины"
+  ],
+  "n_occ": 1,
+  "songs": [
+   8
+  ]
+ },
+ "Schlummerstunde": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "die"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Schlummerstunde"
+  ],
+  "ru_candidates": [
+   "дрёмы час!"
+  ],
+  "n_occ": 1,
+  "songs": [
+   17
+  ]
+ },
+ "Schläfer": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "der"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Schläfern"
+  ],
+  "ru_candidates": [
+   "спящих"
+  ],
+  "n_occ": 1,
+  "songs": [
+   17
+  ]
+ },
+ "schlagen": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "schlägt"
+  ],
+  "ru_candidates": [
+   "бьётся"
+  ],
+  "n_occ": 1,
+  "songs": [
+   11
+  ]
+ },
+ "Schmerz": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "der"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Schmerzen"
+  ],
+  "ru_candidates": [
+   "мук?",
+   "муки"
+  ],
+  "n_occ": 2,
+  "songs": [
+   2,
+   4
+  ]
+ },
+ "schmelzen": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Schmilzt"
+  ],
+  "ru_candidates": [
+   "растает хоть когда-нибудь"
+  ],
+  "n_occ": 1,
+  "songs": [
+   4
+  ]
+ },
+ "Schnee": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "der"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Schnee"
+  ],
+  "ru_candidates": [
+   "снегом.",
+   "снегу",
+   "снег",
+   "снег;",
+   "Снег,"
+  ],
+  "n_occ": 8,
+  "songs": [
+   1,
+   4,
+   6,
+   8,
+   22
+  ]
+ },
+ "schneiden": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "schnitt"
+  ],
+  "ru_candidates": [
+   "вырезал"
+  ],
+  "n_occ": 1,
+  "songs": [
+   5
+  ]
+ },
+ "Scholle": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "die"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Schollen"
+  ],
+  "ru_candidates": [
+   "льдины,"
+  ],
+  "n_occ": 1,
+  "songs": [
+   6
+  ]
+ },
+ "schon": {
+  "pos": [
+   "adv"
+  ],
+  "gender": [],
+  "tier": [
+   "loaded_particle"
+  ],
+  "forms": [
+   "schon"
+  ],
+  "ru_candidates": [
+   "уже",
+   "и"
+  ],
+  "n_occ": 3,
+  "songs": [
+   2,
+   8,
+   14
+  ]
+ },
+ "schreiben": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Schreib"
+  ],
+  "ru_candidates": [
+   "Напишу"
+  ],
+  "n_occ": 1,
+  "songs": [
+   1
+  ]
+ },
+ "schreien": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "schrien"
+  ],
+  "ru_candidates": [
+   "Кричали"
+  ],
+  "n_occ": 1,
+  "songs": [
+   11
+  ]
+ },
+ "schwarz": {
+  "pos": [
+   "adj"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "schwarze"
+  ],
+  "ru_candidates": [
+   "чёрные"
+  ],
+  "n_occ": 1,
+  "songs": [
+   14
+  ]
+ },
+ "schweigen": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "schweigen"
+  ],
+  "ru_candidates": [
+   "умолкнут,"
+  ],
+  "n_occ": 1,
+  "songs": [
+   4
+  ]
+ },
+ "schwer": {
+  "pos": [
+   "adj"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "schwer"
+  ],
+  "ru_candidates": [
+   "тяготит",
+   "тяжело"
+  ],
+  "n_occ": 2,
+  "songs": [
+   9,
+   21
+  ]
+ },
+ "schwellen": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "schwillt"
+  ],
+  "ru_candidates": [
+   "вздымается?"
+  ],
+  "n_occ": 1,
+  "songs": [
+   7
+  ]
+ },
+ "schön": {
+  "pos": [
+   "adj"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "schönen"
+  ],
+  "ru_candidates": [
+   "прекрасной",
+   "Прекрасная"
+  ],
+  "n_occ": 2,
+  "songs": [
+   2,
+   11
+  ]
+ },
+ "schütteln": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Schüttl"
+  ],
+  "ru_candidates": [
+   "Стряхиваю"
+  ],
+  "n_occ": 1,
+  "songs": [
+   22
+  ]
+ },
+ "Seele": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "die"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Seele"
+  ],
+  "ru_candidates": [
+   "душу"
+  ],
+  "n_occ": 1,
+  "songs": [
+   19
+  ]
+ },
+ "Sehnen": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "das"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Sehnen"
+  ],
+  "ru_candidates": [
+   "тоске:"
+  ],
+  "n_occ": 1,
+  "songs": [
+   6
+  ]
+ },
+ "selber": {
+  "pos": [
+   "pronoun"
+  ],
+  "gender": [],
+  "tier": [
+   "function"
+  ],
+  "forms": [
+   "selber"
+  ],
+  "ru_candidates": [
+   "сам",
+   "сами"
+  ],
+  "n_occ": 2,
+  "songs": [
+   16,
+   22
+  ]
+ },
+ "selbst": {
+  "pos": [
+   "pronoun"
+  ],
+  "gender": [],
+  "tier": [
+   "function"
+  ],
+  "forms": [
+   "selbst"
+  ],
+  "ru_candidates": [
+   "сам"
+  ],
+  "n_occ": 1,
+  "songs": [
+   1
+  ]
+ },
+ "Seligkeit": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "die"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Seligkeit"
+  ],
+  "ru_candidates": [
+   "блаженство."
+  ],
+  "n_occ": 1,
+  "songs": [
+   11
+  ]
+ },
+ "Sinn": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "der"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Sinn"
+  ],
+  "ru_candidates": [
+   "ум.",
+   "душе!"
+  ],
+  "n_occ": 2,
+  "songs": [
+   9,
+   18
+  ]
+ },
+ "sitzen": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "sitz"
+  ],
+  "ru_candidates": [
+   "сижу"
+  ],
+  "n_occ": 1,
+  "songs": [
+   11
+  ]
+ },
+ "so": {
+  "pos": [
+   "adv"
+  ],
+  "gender": [],
+  "tier": [
+   "loaded_particle"
+  ],
+  "forms": [
+   "So",
+   "so"
+  ],
+  "ru_candidates": [
+   "так",
+   "не так",
+   "столь",
+   "такое",
+   "такие"
+  ],
+  "n_occ": 27,
+  "songs": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   7,
+   8,
+   10,
+   11,
+   12,
+   13,
+   18,
+   19,
+   23
+  ]
+ },
+ "Sohle": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "die"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Sohlen"
+  ],
+  "ru_candidates": [
+   "подошвами,"
+  ],
+  "n_occ": 1,
+  "songs": [
+   8
+  ]
+ },
+ "sollen": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Soll",
+   "Sollst",
+   "soll",
+   "sollen",
+   "sollte"
+  ],
+  "ru_candidates": [
+   "мне",
+   "Мне",
+   "следовало:",
+   "не услышишь —",
+   "надлежало бы"
+  ],
+  "n_occ": 6,
+  "songs": [
+   1,
+   2,
+   4,
+   20,
+   24
+  ]
+ },
+ "sonder": {
+  "pos": [
+   "prep"
+  ],
+  "gender": [],
+  "tier": [
+   "function"
+  ],
+  "forms": [
+   "sonder"
+  ],
+  "ru_candidates": [
+   "без"
+  ],
+  "n_occ": 1,
+  "songs": [
+   20
+  ]
+ },
+ "Sonne": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "die"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Sonnen"
+  ],
+  "ru_candidates": [
+   "солнца"
+  ],
+  "n_occ": 2,
+  "songs": [
+   23
+  ]
+ },
+ "Spiel": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "das"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Spiel"
+  ],
+  "ru_candidates": [
+   "игра!"
+  ],
+  "n_occ": 1,
+  "songs": [
+   9
+  ]
+ },
+ "spielen": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Spielt",
+   "spielt"
+  ],
+  "ru_candidates": [
+   "играет"
+  ],
+  "n_occ": 3,
+  "songs": [
+   2,
+   16
+  ]
+ },
+ "spitz": {
+  "pos": [
+   "adj"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "spitzen"
+  ],
+  "ru_candidates": [
+   "Острым"
+  ],
+  "n_occ": 1,
+  "songs": [
+   7
+  ]
+ },
+ "sprechen": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "sprach",
+   "spricht"
+  ],
+  "ru_candidates": [
+   "говорила",
+   "говорит,"
+  ],
+  "n_occ": 2,
+  "songs": [
+   1,
+   22
+  ]
+ },
+ "sprießen": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "sprossen"
+  ],
+  "ru_candidates": [
+   "прорасти"
+  ],
+  "n_occ": 1,
+  "songs": [
+   6
+  ]
+ },
+ "Spur": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "die"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Spur"
+  ],
+  "ru_candidates": [
+   "след,"
+  ],
+  "n_occ": 1,
+  "songs": [
+   4
+  ]
+ },
+ "Stadt": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "die"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Stadt",
+   "Städte"
+  ],
+  "ru_candidates": [
+   "город",
+   "города",
+   "города,",
+   "городов,"
+  ],
+  "n_occ": 6,
+  "songs": [
+   6,
+   8,
+   13,
+   15,
+   20
+  ]
+ },
+ "stehen": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Stehen",
+   "Steht",
+   "standen",
+   "stehen",
+   "stehn",
+   "steht"
+  ],
+  "ru_candidates": [
+   "стояли",
+   "стоять,",
+   "стоят",
+   "стоит",
+   "стоять."
+  ],
+  "n_occ": 10,
+  "songs": [
+   5,
+   8,
+   10,
+   16,
+   20,
+   23,
+   24
+  ]
+ },
+ "starr": {
+  "pos": [
+   "adj"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "starren",
+   "starrer"
+  ],
+  "ru_candidates": [
+   "застывшими",
+   "застывшей"
+  ],
+  "n_occ": 2,
+  "songs": [
+   7,
+   24
+  ]
+ },
+ "starren": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "starrt"
+  ],
+  "ru_candidates": [
+   "застыл/уставился"
+  ],
+  "n_occ": 1,
+  "songs": [
+   4
+  ]
+ },
+ "Steg": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "der"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Stege"
+  ],
+  "ru_candidates": [
+   "тропы"
+  ],
+  "n_occ": 1,
+  "songs": [
+   20
+  ]
+ },
+ "Stein": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "der"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Stein"
+  ],
+  "ru_candidates": [
+   "камнем",
+   "камень"
+  ],
+  "n_occ": 2,
+  "songs": [
+   7,
+   8
+  ]
+ },
+ "Stich": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "der"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Stich"
+  ],
+  "ru_candidates": [
+   "жалом"
+  ],
+  "n_occ": 1,
+  "songs": [
+   10
+  ]
+ },
+ "stier": {
+  "pos": [
+   "adj"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "stier"
+  ],
+  "ru_candidates": [
+   "застылые,"
+  ],
+  "n_occ": 1,
+  "songs": [
+   23
+  ]
+ },
+ "still": {
+  "pos": [
+   "adj"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "still",
+   "stille"
+  ],
+  "ru_candidates": [
+   "тиха",
+   "останавливается.",
+   "тихо"
+  ],
+  "n_occ": 3,
+  "songs": [
+   7,
+   8,
+   24
+  ]
+ },
+ "Stille": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "die"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Still"
+  ],
+  "ru_candidates": [
+   "тишине,"
+  ],
+  "n_occ": 1,
+  "songs": [
+   10
+  ]
+ },
+ "Straße": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "die"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Straße",
+   "Straßen"
+  ],
+  "ru_candidates": [
+   "дорогой",
+   "улицы",
+   "путях,"
+  ],
+  "n_occ": 5,
+  "songs": [
+   6,
+   12,
+   13,
+   20
+  ]
+ },
+ "Streit": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "der"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Streit"
+  ],
+  "ru_candidates": [
+   "споре."
+  ],
+  "n_occ": 2,
+  "songs": [
+   8,
+   18
+  ]
+ },
+ "Strom": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "der"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Strom"
+  ],
+  "ru_candidates": [
+   "река"
+  ],
+  "n_occ": 1,
+  "songs": [
+   9
+  ]
+ },
+ "Stunde": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "die"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Stund",
+   "Stunde"
+  ],
+  "ru_candidates": [
+   "час,",
+   "час"
+  ],
+  "n_occ": 2,
+  "songs": [
+   5,
+   7
+  ]
+ },
+ "Sturm": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "der"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Sturm",
+   "Stürme"
+  ],
+  "ru_candidates": [
+   "Буря",
+   "буре",
+   "буря",
+   "бури"
+  ],
+  "n_occ": 4,
+  "songs": [
+   10,
+   12,
+   18
+  ]
+ },
+ "stören": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "stören"
+  ],
+  "ru_candidates": [
+   "тревожить,"
+  ],
+  "n_occ": 1,
+  "songs": [
+   1
+  ]
+ },
+ "suchen": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Such",
+   "Suche",
+   "such",
+   "suche",
+   "suchen"
+  ],
+  "ru_candidates": [
+   "Ищу",
+   "ищу",
+   "искать"
+  ],
+  "n_occ": 5,
+  "songs": [
+   1,
+   2,
+   4,
+   20
+  ]
+ },
+ "säumen": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "säumen"
+  ],
+  "ru_candidates": [
+   "мешкать?"
+  ],
+  "n_occ": 1,
+  "songs": [
+   17
+  ]
+ },
+ "süß": {
+  "pos": [
+   "adj"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "süßen"
+  ],
+  "ru_candidates": [
+   "сладких"
+  ],
+  "n_occ": 1,
+  "songs": [
+   5
+  ]
+ },
+ "Tag": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "der"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Tag"
+  ],
+  "ru_candidates": [
+   "день:",
+   "День",
+   "День,",
+   "тот день"
+  ],
+  "n_occ": 4,
+  "songs": [
+   7,
+   8
+  ]
+ },
+ "Tanne": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "die"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Tanne"
+  ],
+  "ru_candidates": [
+   "ели"
+  ],
+  "n_occ": 1,
+  "songs": [
+   12
+  ]
+ },
+ "tanzen": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "tanzt"
+  ],
+  "ru_candidates": [
+   "в танце движется"
+  ],
+  "n_occ": 1,
+  "songs": [
+   19
+  ]
+ },
+ "Teil": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "das"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Teil"
+  ],
+  "ru_candidates": [
+   "долей"
+  ],
+  "n_occ": 1,
+  "songs": [
+   17
+  ]
+ },
+ "Teller": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "der"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Teller"
+  ],
+  "ru_candidates": [
+   "тарелка"
+  ],
+  "n_occ": 1,
+  "songs": [
+   24
+  ]
+ },
+ "tief": {
+  "pos": [
+   "adj"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "tiefer",
+   "tiefsten"
+  ],
+  "ru_candidates": [
+   "глубокой",
+   "глубочайшие"
+  ],
+  "n_occ": 2,
+  "songs": [
+   5,
+   9
+  ]
+ },
+ "Tier": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "das"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Tier"
+  ],
+  "ru_candidates": [
+   "существо,"
+  ],
+  "n_occ": 1,
+  "songs": [
+   15
+  ]
+ },
+ "toben": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "tobten"
+  ],
+  "ru_candidates": [
+   "бушевали,"
+  ],
+  "n_occ": 1,
+  "songs": [
+   12
+  ]
+ },
+ "Tor": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "das",
+   "der"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Tor",
+   "Tore",
+   "Toren"
+  ],
+  "ru_candidates": [
+   "воротах",
+   "воротами:",
+   "безумцев."
+  ],
+  "n_occ": 3,
+  "songs": [
+   1,
+   5,
+   22
+  ]
+ },
+ "Totenacker": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "der"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Totenacker"
+  ],
+  "ru_candidates": [
+   "мёртвых поле"
+  ],
+  "n_occ": 1,
+  "songs": [
+   21
+  ]
+ },
+ "Totenkranz": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "der"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Totenkränze"
+  ],
+  "ru_candidates": [
+   "мёртвых венки,"
+  ],
+  "n_occ": 1,
+  "songs": [
+   21
+  ]
+ },
+ "Traum": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "der"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Traum",
+   "Traume"
+  ],
+  "ru_candidates": [
+   "сне",
+   "снов.",
+   "сне-мечте."
+  ],
+  "n_occ": 3,
+  "songs": [
+   1,
+   5,
+   11
+  ]
+ },
+ "treiben": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Treibt",
+   "trieb"
+  ],
+  "ru_candidates": [
+   "Гонит",
+   "прогнали"
+  ],
+  "n_occ": 2,
+  "songs": [
+   1,
+   20
+  ]
+ },
+ "treten": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Tret"
+  ],
+  "ru_candidates": [
+   "шагаю"
+  ],
+  "n_occ": 1,
+  "songs": [
+   8
+  ]
+ },
+ "Treue": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "die"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Treue"
+  ],
+  "ru_candidates": [
+   "Верность"
+  ],
+  "n_occ": 1,
+  "songs": [
+   15
+  ]
+ },
+ "treu": {
+  "pos": [
+   "adj"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "treuer",
+   "treues"
+  ],
+  "ru_candidates": [
+   "верный",
+   "верной"
+  ],
+  "n_occ": 2,
+  "songs": [
+   2,
+   21
+  ]
+ },
+ "Tritt": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "der"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Tritt",
+   "Tritte"
+  ],
+  "ru_candidates": [
+   "поступь.",
+   "шагов"
+  ],
+  "n_occ": 3,
+  "songs": [
+   1,
+   4
+  ]
+ },
+ "trocken": {
+  "pos": [
+   "adj"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "trockne"
+  ],
+  "ru_candidates": [
+   "сухим"
+  ],
+  "n_occ": 1,
+  "songs": [
+   9
+  ]
+ },
+ "Tropfen": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "der"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Tropfen"
+  ],
+  "ru_candidates": [
+   "капли"
+  ],
+  "n_occ": 1,
+  "songs": [
+   3
+  ]
+ },
+ "träge": {
+  "pos": [
+   "adj"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "trägem"
+  ],
+  "ru_candidates": [
+   "вялым"
+  ],
+  "n_occ": 1,
+  "songs": [
+   12
+  ]
+ },
+ "Träne": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "die"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Trän",
+   "Tränen"
+  ],
+  "ru_candidates": [
+   "слеза",
+   "слёзы,",
+   "слезами,",
+   "слезам,",
+   "слёзы"
+  ],
+  "n_occ": 6,
+  "songs": [
+   3,
+   4,
+   6
+  ]
+ },
+ "träumen": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Träumen",
+   "träumt",
+   "träumte"
+  ],
+  "ru_candidates": [
+   "Снится им",
+   "снами-мечтами —",
+   "Мне снилось",
+   "снились"
+  ],
+  "n_occ": 6,
+  "songs": [
+   5,
+   11,
+   17
+  ]
+ },
+ "Träumer": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "der"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Träumer"
+  ],
+  "ru_candidates": [
+   "сновидцем-мечтателем,"
+  ],
+  "n_occ": 1,
+  "songs": [
+   11
+  ]
+ },
+ "trübe": {
+  "pos": [
+   "adj"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "trübe"
+  ],
+  "ru_candidates": [
+   "сумрачен,",
+   "сумрачная"
+  ],
+  "n_occ": 2,
+  "songs": [
+   1,
+   12
+  ]
+ },
+ "tun": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Tun"
+  ],
+  "ru_candidates": [
+   "Знай,"
+  ],
+  "n_occ": 1,
+  "songs": [
+   17
+  ]
+ },
+ "Täuschung": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "die"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Täuschung"
+  ],
+  "ru_candidates": [
+   "обман-иллюзия"
+  ],
+  "n_occ": 1,
+  "songs": [
+   19
+  ]
+ },
+ "tödlich": {
+  "pos": [
+   "adv"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "tödlich"
+  ],
+  "ru_candidates": [
+   "смертельно"
+  ],
+  "n_occ": 1,
+  "songs": [
+   21
+  ]
+ },
+ "töricht": {
+  "pos": [
+   "adj"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "törichtes"
+  ],
+  "ru_candidates": [
+   "безумное"
+  ],
+  "n_occ": 1,
+  "songs": [
+   20
+  ]
+ },
+ "Tür": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "die"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Türe"
+  ],
+  "ru_candidates": [
+   "дверь"
+  ],
+  "n_occ": 1,
+  "songs": [
+   1
+  ]
+ },
+ "Turm": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "der"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Türme"
+  ],
+  "ru_candidates": [
+   "башни"
+  ],
+  "n_occ": 1,
+  "songs": [
+   8
+  ]
+ },
+ "umher": {
+  "pos": [
+   "adv"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Umher"
+  ],
+  "ru_candidates": [
+   "Кругом"
+  ],
+  "n_occ": 1,
+  "songs": [
+   18
+  ]
+ },
+ "unbarmherzig": {
+  "pos": [
+   "adj"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "unbarmherz'ge"
+  ],
+  "ru_candidates": [
+   "немилосердная"
+  ],
+  "n_occ": 1,
+  "songs": [
+   21
+  ]
+ },
+ "Unbeständigkeit": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "die"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Unbeständigkeit"
+  ],
+  "ru_candidates": [
+   "непостоянства!"
+  ],
+  "n_occ": 1,
+  "songs": [
+   8
+  ]
+ },
+ "unbeweglich": {
+  "pos": [
+   "adj"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "unbeweglich"
+  ],
+  "ru_candidates": [
+   "неподвижная"
+  ],
+  "n_occ": 1,
+  "songs": [
+   7
+  ]
+ },
+ "unverrückt": {
+  "pos": [
+   "adj"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Unverrückt"
+  ],
+  "ru_candidates": [
+   "Неподвижно"
+  ],
+  "n_occ": 1,
+  "songs": [
+   20
+  ]
+ },
+ "unwirtbar": {
+  "pos": [
+   "adj"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "unwirtbarem"
+  ],
+  "ru_candidates": [
+   "бесприютном"
+  ],
+  "n_occ": 1,
+  "songs": [
+   10
+  ]
+ },
+ "vergebens": {
+  "pos": [
+   "adv"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "vergebens"
+  ],
+  "ru_candidates": [
+   "тщетно"
+  ],
+  "n_occ": 1,
+  "songs": [
+   4
+  ]
+ },
+ "Verlangen": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "das"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Verlangen"
+  ],
+  "ru_candidates": [
+   "влечение"
+  ],
+  "n_occ": 1,
+  "songs": [
+   20
+  ]
+ },
+ "verlassen": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "verlassen"
+  ],
+  "ru_candidates": [
+   "покинуть?"
+  ],
+  "n_occ": 1,
+  "songs": [
+   15
+  ]
+ },
+ "verletzen": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "verletzt"
+  ],
+  "ru_candidates": [
+   "ранен."
+  ],
+  "n_occ": 1,
+  "songs": [
+   21
+  ]
+ },
+ "verlocken": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "verlockt"
+  ],
+  "ru_candidates": [
+   "завлекает"
+  ],
+  "n_occ": 1,
+  "songs": [
+   19
+  ]
+ },
+ "vermeiden": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "vermeid"
+  ],
+  "ru_candidates": [
+   "избегаю"
+  ],
+  "n_occ": 1,
+  "songs": [
+   20
+  ]
+ },
+ "verschneit": {
+  "pos": [
+   "adj"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "verschneite"
+  ],
+  "ru_candidates": [
+   "заснеженные"
+  ],
+  "n_occ": 1,
+  "songs": [
+   20
+  ]
+ },
+ "versteckt": {
+  "pos": [
+   "adj"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "versteckte"
+  ],
+  "ru_candidates": [
+   "потаённые"
+  ],
+  "n_occ": 1,
+  "songs": [
+   20
+  ]
+ },
+ "verwegen": {
+  "pos": [
+   "adj"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "verwegen"
+  ],
+  "ru_candidates": [
+   "лихое,"
+  ],
+  "n_occ": 1,
+  "songs": [
+   10
+  ]
+ },
+ "Vogelgeschrei": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "das"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Vogelgeschrei"
+  ],
+  "ru_candidates": [
+   "птичий гам."
+  ],
+  "n_occ": 1,
+  "songs": [
+   11
+  ]
+ },
+ "vorbei": {
+  "pos": [
+   "adv"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Vorbei"
+  ],
+  "ru_candidates": [
+   "Мимо"
+  ],
+  "n_occ": 1,
+  "songs": [
+   5
+  ]
+ },
+ "Vorübergehen": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "das"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Vorübergehen"
+  ],
+  "ru_candidates": [
+   "мимоходом"
+  ],
+  "n_occ": 1,
+  "songs": [
+   1
+  ]
+ },
+ "wach": {
+  "pos": [
+   "adj"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "wach",
+   "wachen"
+  ],
+  "ru_candidates": [
+   "пробудился;",
+   "пробудилось;",
+   "бодрствующие"
+  ],
+  "n_occ": 3,
+  "songs": [
+   11,
+   17
+  ]
+ },
+ "Wahn": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "der"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Wahne"
+  ],
+  "ru_candidates": [
+   "ослеплении:"
+  ],
+  "n_occ": 1,
+  "songs": [
+   2
+  ]
+ },
+ "Wandern": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "das"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Wandern"
+  ],
+  "ru_candidates": [
+   "странствие, —",
+   "Странствие"
+  ],
+  "n_occ": 2,
+  "songs": [
+   1,
+   10
+  ]
+ },
+ "wandern": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "wandern",
+   "wandre"
+  ],
+  "ru_candidates": [
+   "странствовать",
+   "странствую"
+  ],
+  "n_occ": 2,
+  "songs": [
+   5,
+   20
+  ]
+ },
+ "Wandersmann": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "der"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Wandersmann"
+  ],
+  "ru_candidates": [
+   "странника."
+  ],
+  "n_occ": 1,
+  "songs": [
+   19
+  ]
+ },
+ "Wanderstab": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "der"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Wanderstab",
+   "Wanderstabe"
+  ],
+  "ru_candidates": [
+   "посох странника!",
+   "посохом странника."
+  ],
+  "n_occ": 2,
+  "songs": [
+   15,
+   21
+  ]
+ },
+ "Wanderer": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "der"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Wandrer"
+  ],
+  "ru_candidates": [
+   "странники",
+   "странников"
+  ],
+  "n_occ": 2,
+  "songs": [
+   20,
+   21
+  ]
+ },
+ "Wange": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "die"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Wangen"
+  ],
+  "ru_candidates": [
+   "щёк:"
+  ],
+  "n_occ": 1,
+  "songs": [
+   3
+  ]
+ },
+ "wanken": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Wankt",
+   "wanken"
+  ],
+  "ru_candidates": [
+   "побрести,",
+   "Шатается"
+  ],
+  "n_occ": 2,
+  "songs": [
+   8,
+   24
+  ]
+ },
+ "wann": {
+  "pos": [
+   "adv"
+  ],
+  "gender": [],
+  "tier": [
+   "function"
+  ],
+  "forms": [
+   "Wann"
+  ],
+  "ru_candidates": [
+   "Когда"
+  ],
+  "n_occ": 2,
+  "songs": [
+   11
+  ]
+ },
+ "sein": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Wär",
+   "war's"
+  ],
+  "ru_candidates": [
+   "и пришёл конец",
+   "Было бы"
+  ],
+  "n_occ": 2,
+  "songs": [
+   1,
+   8
+  ]
+ },
+ "werfen": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "warfen"
+  ],
+  "ru_candidates": [
+   "бросали"
+  ],
+  "n_occ": 1,
+  "songs": [
+   8
+  ]
+ },
+ "warm": {
+  "pos": [
+   "adj"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "warm",
+   "warmes"
+  ],
+  "ru_candidates": [
+   "тепло.",
+   "тёплый"
+  ],
+  "n_occ": 2,
+  "songs": [
+   11,
+   19
+  ]
+ },
+ "was": {
+  "pos": [
+   "pronoun"
+  ],
+  "gender": [],
+  "tier": [
+   "function"
+  ],
+  "forms": [
+   "Was",
+   "was"
+  ],
+  "ru_candidates": [
+   "Зачем",
+   "Что",
+   "как только",
+   "чего",
+   "то, что"
+  ],
+  "n_occ": 12,
+  "songs": [
+   1,
+   2,
+   13,
+   16,
+   17,
+   20,
+   22,
+   24
+  ]
+ },
+ "Weg": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "der"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Weg",
+   "Wege",
+   "Wegen"
+  ],
+  "ru_candidates": [
+   "Путь",
+   "путь",
+   "пути.",
+   "путей,",
+   "путях,"
+  ],
+  "n_occ": 7,
+  "songs": [
+   1,
+   9,
+   10,
+   20,
+   21
+  ]
+ },
+ "weg": {
+  "pos": [
+   "adv"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "weg"
+  ],
+  "ru_candidates": [
+   "удалиться"
+  ],
+  "n_occ": 1,
+  "songs": [
+   23
+  ]
+ },
+ "Weh": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "das"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Weh"
+  ],
+  "ru_candidates": [
+   "горе."
+  ],
+  "n_occ": 1,
+  "songs": [
+   6
+  ]
+ },
+ "wehen": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Weht",
+   "wehen",
+   "weht"
+  ],
+  "ru_candidates": [
+   "дуя.",
+   "Повеет",
+   "веет:"
+  ],
+  "n_occ": 3,
+  "songs": [
+   6,
+   10,
+   12
+  ]
+ },
+ "weich": {
+  "pos": [
+   "adj"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "weiche"
+  ],
+  "ru_candidates": [
+   "мягкий"
+  ],
+  "n_occ": 1,
+  "songs": [
+   6
+  ]
+ },
+ "weilen": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "weilen"
+  ],
+  "ru_candidates": [
+   "оставаться, —"
+  ],
+  "n_occ": 1,
+  "songs": [
+   1
+  ]
+ },
+ "weisen": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Weisen",
+   "weisen",
+   "weist"
+  ],
+  "ru_candidates": [
+   "указать",
+   "Указывают",
+   "указывает"
+  ],
+  "n_occ": 3,
+  "songs": [
+   1,
+   19,
+   20
+  ]
+ },
+ "Weiser": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "der"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Weiser"
+  ],
+  "ru_candidates": [
+   "Указатели",
+   "Один указатель"
+  ],
+  "n_occ": 2,
+  "songs": [
+   20
+  ]
+ },
+ "weit": {
+  "pos": [
+   "adj"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "weit"
+  ],
+  "ru_candidates": [
+   "далеко"
+  ],
+  "n_occ": 2,
+  "songs": [
+   14,
+   15
+  ]
+ },
+ "weiter": {
+  "pos": [
+   "adv"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "weiter"
+  ],
+  "ru_candidates": [
+   "дальше",
+   "дальше,"
+  ],
+  "n_occ": 2,
+  "songs": [
+   21
+  ]
+ },
+ "weiß": {
+  "pos": [
+   "adj"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "weißen"
+  ],
+  "ru_candidates": [
+   "белых",
+   "белый"
+  ],
+  "n_occ": 2,
+  "songs": [
+   1,
+   14
+  ]
+ },
+ "wissen": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "weißt"
+  ],
+  "ru_candidates": [
+   "знаешь"
+  ],
+  "n_occ": 1,
+  "songs": [
+   6
+  ]
+ },
+ "welch": {
+  "pos": [
+   "pronoun"
+  ],
+  "gender": [],
+  "tier": [
+   "function"
+  ],
+  "forms": [
+   "Welch"
+  ],
+  "ru_candidates": [
+   "Какое"
+  ],
+  "n_occ": 1,
+  "songs": [
+   20
+  ]
+ },
+ "Welt": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "die"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Welt"
+  ],
+  "ru_candidates": [
+   "мир",
+   "мир,"
+  ],
+  "n_occ": 3,
+  "songs": [
+   1,
+   12,
+   22
+  ]
+ },
+ "wenden": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "wendete"
+  ],
+  "ru_candidates": [
+   "обернулся."
+  ],
+  "n_occ": 1,
+  "songs": [
+   5
+  ]
+ },
+ "wenn": {
+  "pos": [
+   "conj"
+  ],
+  "gender": [],
+  "tier": [
+   "function"
+  ],
+  "forms": [
+   "Wenn"
+  ],
+  "ru_candidates": [
+   "Когда",
+   "Если",
+   "Пока"
+  ],
+  "n_occ": 4,
+  "songs": [
+   4,
+   6,
+   12,
+   22
+  ]
+ },
+ "wer": {
+  "pos": [
+   "pronoun"
+  ],
+  "gender": [],
+  "tier": [
+   "function"
+  ],
+  "forms": [
+   "Wer",
+   "wer"
+  ],
+  "ru_candidates": [
+   "Кто",
+   "кто,"
+  ],
+  "n_occ": 4,
+  "songs": [
+   4,
+   11,
+   14,
+   19
+  ]
+ },
+ "Wetter": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "das"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Wetter"
+  ],
+  "ru_candidates": [
+   "непогоды;"
+  ],
+  "n_occ": 1,
+  "songs": [
+   22
+  ]
+ },
+ "Wetterfahne": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "die"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Wetterfahne"
+  ],
+  "ru_candidates": [
+   "флюгером"
+  ],
+  "n_occ": 1,
+  "songs": [
+   2
+  ]
+ },
+ "wieder": {
+  "pos": [
+   "adv"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "wieder"
+  ],
+  "ru_candidates": [
+   "и",
+   "вновь,",
+   "снова",
+   "снова,"
+  ],
+  "n_occ": 7,
+  "songs": [
+   1,
+   4,
+   8,
+   11,
+   14,
+   17
+  ]
+ },
+ "Wiese": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "die"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Wiesen"
+  ],
+  "ru_candidates": [
+   "луга,"
+  ],
+  "n_occ": 1,
+  "songs": [
+   11
+  ]
+ },
+ "wild": {
+  "pos": [
+   "adj"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "wild",
+   "wilder"
+  ],
+  "ru_candidates": [
+   "буйное",
+   "буйная!",
+   "буйная"
+  ],
+  "n_occ": 3,
+  "songs": [
+   7,
+   10,
+   18
+  ]
+ },
+ "Wild": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "das"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Wildes"
+  ],
+  "ru_candidates": [
+   "зверя"
+  ],
+  "n_occ": 1,
+  "songs": [
+   1
+  ]
+ },
+ "wollen": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Will",
+   "Willst",
+   "will",
+   "wollen",
+   "wollten",
+   "wolltet"
+  ],
+  "ru_candidates": [
+   "Хочу",
+   "хочет",
+   "хочу",
+   "мне",
+   "само пойдёт,"
+  ],
+  "n_occ": 13,
+  "songs": [
+   1,
+   2,
+   3,
+   4,
+   6,
+   13,
+   15,
+   17,
+   21,
+   22,
+   23,
+   24
+  ]
+ },
+ "Wind": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "der"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Wind",
+   "Winde"
+  ],
+  "ru_candidates": [
+   "Ветер",
+   "ветер,",
+   "Вьюсь",
+   "ветер",
+   "ветра"
+  ],
+  "n_occ": 7,
+  "songs": [
+   2,
+   5,
+   6,
+   9,
+   16,
+   22
+  ]
+ },
+ "winden": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "windet"
+  ],
+  "ru_candidates": [
+   "вьётся"
+  ],
+  "n_occ": 1,
+  "songs": [
+   7
+  ]
+ },
+ "Winter": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "der"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Winter",
+   "Winters"
+  ],
+  "ru_candidates": [
+   "зимой",
+   "зима,",
+   "Зима",
+   "зимы"
+  ],
+  "n_occ": 4,
+  "songs": [
+   3,
+   11,
+   18
+  ]
+ },
+ "Wipfel": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "der"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Wipfel"
+  ],
+  "ru_candidates": [
+   "верхушке"
+  ],
+  "n_occ": 1,
+  "songs": [
+   12
+  ]
+ },
+ "Wirtshaus": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "das"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Wirtshaus"
+  ],
+  "ru_candidates": [
+   "постоялый двор."
+  ],
+  "n_occ": 1,
+  "songs": [
+   21
+  ]
+ },
+ "wo": {
+  "pos": [
+   "adv"
+  ],
+  "gender": [],
+  "tier": [
+   "function"
+  ],
+  "forms": [
+   "Wo"
+  ],
+  "ru_candidates": [
+   "Где",
+   "По которым"
+  ],
+  "n_occ": 5,
+  "songs": [
+   4,
+   13,
+   20
+  ]
+ },
+ "wohin": {
+  "pos": [
+   "adv"
+  ],
+  "gender": [],
+  "tier": [
+   "function"
+  ],
+  "forms": [
+   "wohin"
+  ],
+  "ru_candidates": [
+   "куда"
+  ],
+  "n_occ": 1,
+  "songs": [
+   6
+  ]
+ },
+ "wohl": {
+  "pos": [
+   "adv",
+   "particle"
+  ],
+  "gender": [],
+  "tier": [
+   "content",
+   "loaded_particle"
+  ],
+  "forms": [
+   "Wohl",
+   "wohl",
+   "wohler"
+  ],
+  "ru_candidates": [
+   "Уж не",
+   "наверное,",
+   "целых",
+   "лучше"
+  ],
+  "n_occ": 8,
+  "songs": [
+   7,
+   11,
+   13,
+   15,
+   21,
+   23
+  ]
+ },
+ "Wolke": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "die"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Wolke"
+  ],
+  "ru_candidates": [
+   "туча"
+  ],
+  "n_occ": 1,
+  "songs": [
+   12
+  ]
+ },
+ "Wolkenfetzen": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "der"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Wolkenfetzen"
+  ],
+  "ru_candidates": [
+   "Облаков клочья"
+  ],
+  "n_occ": 1,
+  "songs": [
+   18
+  ]
+ },
+ "Wonne": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "die"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Wonne"
+  ],
+  "ru_candidates": [
+   "Нега"
+  ],
+  "n_occ": 1,
+  "songs": [
+   11
+  ]
+ },
+ "Wort": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "das"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Wort"
+  ],
+  "ru_candidates": [
+   "слов;"
+  ],
+  "n_occ": 1,
+  "songs": [
+   5
+  ]
+ },
+ "Wunde": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "die"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Wunden"
+  ],
+  "ru_candidates": [
+   "раны."
+  ],
+  "n_occ": 1,
+  "songs": [
+   10
+  ]
+ },
+ "wunderlich": {
+  "pos": [
+   "adj"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Wunderlicher",
+   "wunderlich",
+   "wunderliches"
+  ],
+  "ru_candidates": [
+   "странно,",
+   "Странный",
+   "странное"
+  ],
+  "n_occ": 3,
+  "songs": [
+   13,
+   15,
+   24
+  ]
+ },
+ "Wurm": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "der"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Wurm"
+  ],
+  "ru_candidates": [
+   "червь"
+  ],
+  "n_occ": 1,
+  "songs": [
+   10
+  ]
+ },
+ "wählen": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "wählen"
+  ],
+  "ru_candidates": [
+   "Выбирать"
+  ],
+  "n_occ": 1,
+  "songs": [
+   1
+  ]
+ },
+ "Wüstenei": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "die"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Wüsteneien"
+  ],
+  "ru_candidates": [
+   "глухие края?"
+  ],
+  "n_occ": 1,
+  "songs": [
+   20
+  ]
+ },
+ "Zahl": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "die"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Zahlen"
+  ],
+  "ru_candidates": [
+   "чисел"
+  ],
+  "n_occ": 1,
+  "songs": [
+   7
+  ]
+ },
+ "Zeichen": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "das"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Zeichen"
+  ],
+  "ru_candidates": [
+   "знаками"
+  ],
+  "n_occ": 1,
+  "songs": [
+   21
+  ]
+ },
+ "Zeit": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "die"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Zeit"
+  ],
+  "ru_candidates": [
+   "время:"
+  ],
+  "n_occ": 1,
+  "songs": [
+   1
+  ]
+ },
+ "zerbrechen": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "zerbrochner"
+  ],
+  "ru_candidates": [
+   "Разбитое"
+  ],
+  "n_occ": 1,
+  "songs": [
+   7
+  ]
+ },
+ "zerfließen": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "zerflossen"
+  ],
+  "ru_candidates": [
+   "растечётся. —"
+  ],
+  "n_occ": 1,
+  "songs": [
+   17
+  ]
+ },
+ "zerrinnen": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "zerrinnt"
+  ],
+  "ru_candidates": [
+   "истает."
+  ],
+  "n_occ": 1,
+  "songs": [
+   6
+  ]
+ },
+ "zerreißen": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "zerrissen"
+  ],
+  "ru_candidates": [
+   "разорвала"
+  ],
+  "n_occ": 1,
+  "songs": [
+   18
+  ]
+ },
+ "zerschmelzen": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "zerschmelzen"
+  ],
+  "ru_candidates": [
+   "истопить"
+  ],
+  "n_occ": 1,
+  "songs": [
+   3
+  ]
+ },
+ "zerspringen": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "zerspringt"
+  ],
+  "ru_candidates": [
+   "расколется"
+  ],
+  "n_occ": 1,
+  "songs": [
+   6
+  ]
+ },
+ "Ziel": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "das"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Ziel"
+  ],
+  "ru_candidates": [
+   "цели:"
+  ],
+  "n_occ": 1,
+  "songs": [
+   9
+  ]
+ },
+ "zittern": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Zittr",
+   "zittern"
+  ],
+  "ru_candidates": [
+   "дрожать",
+   "Дрожу"
+  ],
+  "n_occ": 2,
+  "songs": [
+   16
+  ]
+ },
+ "zumachen": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "zugemacht"
+  ],
+  "ru_candidates": [
+   "закрыл."
+  ],
+  "n_occ": 1,
+  "songs": [
+   5
+  ]
+ },
+ "zurück": {
+  "pos": [
+   "sep_prefix"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "zurück",
+   "zurücke"
+  ],
+  "ru_candidates": [
+   "обратно.",
+   "обратно"
+  ],
+  "n_occ": 2,
+  "songs": [
+   8,
+   20
+  ]
+ },
+ "zurückgehen": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "zurück→zurückgehen"
+  ],
+  "ru_candidates": [
+   "обратно."
+  ],
+  "n_occ": 1,
+  "songs": [
+   20
+  ]
+ },
+ "zurückwanken": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "zurücke→zurückwanken"
+  ],
+  "ru_candidates": [
+   "обратно"
+  ],
+  "n_occ": 1,
+  "songs": [
+   8
+  ]
+ },
+ "zwei": {
+  "pos": [
+   "num"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "zwei"
+  ],
+  "ru_candidates": [
+   "два",
+   "два."
+  ],
+  "n_occ": 2,
+  "songs": [
+   8,
+   23
+  ]
+ },
+ "Zweig": {
+  "pos": [
+   "noun"
+  ],
+  "gender": [
+   "der"
+  ],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "Zweige"
+  ],
+  "ru_candidates": [
+   "ветви"
+  ],
+  "n_occ": 1,
+  "songs": [
+   5
+  ]
+ },
+ "über": {
+  "pos": [
+   "prep"
+  ],
+  "gender": [],
+  "tier": [
+   "function"
+  ],
+  "forms": [
+   "über's"
+  ],
+  "ru_candidates": [
+   "по"
+  ],
+  "n_occ": 1,
+  "songs": [
+   14
+  ]
+ },
+ "überdecken": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "überdeckt"
+  ],
+  "ru_candidates": [
+   "покрыла,"
+  ],
+  "n_occ": 1,
+  "songs": [
+   7
+  ]
+ },
+ "übrig": {
+  "pos": [
+   "adj"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "übrig"
+  ],
+  "ru_candidates": [
+   "оставили,"
+  ],
+  "n_occ": 1,
+  "songs": [
+   17
+  ]
+ },
+ "ausziehen": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "(разорв. приставка П1)"
+  ],
+  "ru_candidates": [],
+  "n_occ": 1,
+  "songs": [
+   1
+  ]
+ },
+ "mitziehen": {
+  "pos": [
+   "verb"
+  ],
+  "gender": [],
+  "tier": [
+   "content"
+  ],
+  "forms": [
+   "(разорв. приставка П1)"
+  ],
+  "ru_candidates": [],
+  "n_occ": 1,
+  "songs": [
+   1
+  ]
+ }
+}

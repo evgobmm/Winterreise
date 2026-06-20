@@ -3,3 +3,16 @@ dist
 .DS_Store
 *.local
 schubert-scores/
+research/raw/
+research/chunks/
+research/lemmas_out/
+research/ru_chunks/
+research/ru_lemmas_out/
+research/review_chunks/
+# массовые выдержки из © словарей — не перераздаём (регенерируются скриптами)
+research/tables/
+research/dossiers/
+scripts/__pycache__/
+__pycache__/
+*.timestamp-*.mjs
+research/*.log

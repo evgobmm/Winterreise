@@ -1,0 +1,13873 @@
+{
+ "Fremd": {
+  "count": 2,
+  "occ": [
+   0,
+   3
+  ],
+  "songs": [
+   1
+  ],
+  "samples": [
+   "Fremd bin ich eingezogen,",
+   "Fremd zieh' ich wieder aus."
+  ],
+  "is_function": false
+ },
+ "ich": {
+  "count": 52,
+  "occ": [
+   1,
+   4,
+   56,
+   60,
+   120,
+   132,
+   194,
+   255,
+   261,
+   265,
+   351,
+   392,
+   403,
+   514,
+   529,
+   563,
+   576,
+   586,
+   642,
+   648,
+   664,
+   695,
+   711,
+   715,
+   717,
+   751,
+   860,
+   869,
+   884,
+   905,
+   937,
+   975,
+   1004,
+   1102,
+   1125,
+   1126,
+   1141,
+   1212,
+   1236,
+   1285,
+   1320,
+   1339,
+   1358,
+   1369,
+   1378,
+   1395,
+   1397,
+   1454,
+   1464,
+   1510,
+   1548,
+   1628
+  ],
+  "songs": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14,
+   16,
+   17,
+   18,
+   19,
+   20,
+   21,
+   22,
+   23,
+   24
+  ],
+  "samples": [
+   "Fremd bin ich eingezogen,",
+   "Fremd zieh' ich wieder aus.",
+   "Such' ich des Wildes Tritt."
+  ],
+  "is_function": true
+ },
+ "bin": {
+  "count": 4,
+  "occ": [
+   2,
+   393,
+   714,
+   1207
+  ],
+  "songs": [
+   1,
+   5,
+   10,
+   17
+  ],
+  "samples": [
+   "Fremd bin ich eingezogen,",
+   "Nun bin ich manche Stunde",
+   "Nun merk' ich erst, wie müd' ich bin,"
+  ],
+  "is_function": true
+ },
+ "eingezogen": {
+  "count": 1,
+  "occ": [
+   2
+  ],
+  "songs": [
+   1
+  ],
+  "samples": [
+   "Fremd bin ich eingezogen,"
+  ],
+  "is_function": false
+ },
+ "wieder": {
+  "count": 7,
+  "occ": [
+   5,
+   305,
+   572,
+   650,
+   870,
+   1017,
+   1189
+  ],
+  "songs": [
+   1,
+   4,
+   8,
+   11,
+   14,
+   17
+  ],
+  "samples": [
+   "Fremd zieh' ich wieder aus.",
+   "Schmilzt je das Herz mir wieder,",
+   "Ich möcht' nicht wieder Atem holen,"
+  ],
+  "is_function": false
+ },
+ "zieh": {
+  "count": 2,
+  "occ": [
+   6,
+   904
+  ],
+  "songs": [
+   1,
+   12
+  ],
+  "samples": [
+   "Fremd zieh' ich wieder aus.",
+   "So zieh' ich meine Straße"
+  ],
+  "is_function": false
+ },
+ "aus": {
+  "count": 7,
+  "occ": [
+   6,
+   138,
+   215,
+   411,
+   469,
+   758,
+   972
+  ],
+  "songs": [
+   1,
+   2,
+   3,
+   6,
+   10,
+   13
+  ],
+  "samples": [
+   "Fremd zieh' ich wieder aus.",
+   "Sie pfiff' den armen Flüchtling aus.",
+   "Und / Ihr dringt doch aus der Quelle"
+  ],
+  "is_function": true
+ },
+ "Der": {
+  "count": 13,
+  "occ": [
+   7,
+   28,
+   122,
+   161,
+   217,
+   270,
+   382,
+   482,
+   736,
+   740,
+   833,
+   995,
+   1255
+  ],
+  "songs": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   7,
+   10,
+   11,
+   14,
+   18
+  ],
+  "samples": [
+   "Der Mai war mir gewogen",
+   "Der Weg gehüllt in Schnee.",
+   "Der Wind spielt mit der Wetterfahne"
+  ],
+  "is_function": true
+ },
+ "Mai": {
+  "count": 2,
+  "occ": [
+   7,
+   797
+  ],
+  "songs": [
+   1,
+   11
+  ],
+  "samples": [
+   "Der Mai war mir gewogen",
+   "So wie sie wohl blühen im Mai,"
+  ],
+  "is_function": false
+ },
+ "war": {
+  "count": 4,
+  "occ": [
+   8,
+   731,
+   813,
+   1056
+  ],
+  "songs": [
+   1,
+   10,
+   11,
+   15
+  ],
+  "samples": [
+   "Der Mai war mir gewogen",
+   "Es war zu kalt zum Stehen,",
+   "Da war es kalt und finster,"
+  ],
+  "is_function": true
+ },
+ "mir": {
+  "count": 21,
+  "occ": [
+   10,
+   41,
+   191,
+   288,
+   304,
+   364,
+   368,
+   385,
+   558,
+   637,
+   669,
+   1021,
+   1053,
+   1263,
+   1327,
+   1398,
+   1450,
+   1472,
+   1481,
+   1533,
+   1564
+  ],
+  "songs": [
+   1,
+   3,
+   4,
+   5,
+   8,
+   9,
+   14,
+   15,
+   19,
+   20,
+   21,
+   22,
+   23
+  ],
+  "samples": [
+   "Der Mai war mir gewogen",
+   "Muss selbst den Weg mir weisen",
+   "Ob es mir denn entgangen,"
+  ],
+  "is_function": true
+ },
+ "gewogen": {
+  "count": 1,
+  "occ": [
+   11
+  ],
+  "songs": [
+   1
+  ],
+  "samples": [
+   "Der Mai war mir gewogen"
+  ],
+  "is_function": false
+ },
+ "Mit": {
+  "count": 5,
+  "occ": [
+   12,
+   251,
+   497,
+   515,
+   783
+  ],
+  "songs": [
+   1,
+   4,
+   7,
+   10
+  ],
+  "samples": [
+   "Mit manchem Blumenstrauß.",
+   "Mit meinen heißen Tränen,",
+   "Mit harter, starrer Rinde"
+  ],
+  "is_function": true
+ },
+ "manchem": {
+  "count": 1,
+  "occ": [
+   13
+  ],
+  "songs": [
+   1
+  ],
+  "samples": [
+   "Mit manchem Blumenstrauß."
+  ],
+  "is_function": false
+ },
+ "Blumenstrauß": {
+  "count": 1,
+  "occ": [
+   14
+  ],
+  "songs": [
+   1
+  ],
+  "samples": [
+   "Mit manchem Blumenstrauß."
+  ],
+  "is_function": false
+ },
+ "Das": {
+  "count": 3,
+  "occ": [
+   15,
+   720,
+   1234
+  ],
+  "songs": [
+   1,
+   10,
+   18
+  ],
+  "samples": [
+   "Das Mädchen sprach von Liebe,",
+   "Das Wandern hielt mich munter hin",
+   "Das nenn' ich einen Morgen"
+  ],
+  "is_function": true
+ },
+ "Mädchen": {
+  "count": 1,
+  "occ": [
+   15
+  ],
+  "songs": [
+   1
+  ],
+  "samples": [
+   "Das Mädchen sprach von Liebe,"
+  ],
+  "is_function": false
+ },
+ "sprach": {
+  "count": 1,
+  "occ": [
+   16
+  ],
+  "songs": [
+   1
+  ],
+  "samples": [
+   "Das Mädchen sprach von Liebe,"
+  ],
+  "is_function": false
+ },
+ "von": {
+  "count": 12,
+  "occ": [
+   17,
+   21,
+   281,
+   290,
+   397,
+   444,
+   598,
+   788,
+   799,
+   838,
+   846,
+   1532
+  ],
+  "songs": [
+   1,
+   4,
+   5,
+   6,
+   8,
+   11,
+   23
+  ],
+  "samples": [
+   "Das Mädchen sprach von Liebe,",
+   "Die Mutter gar von Eh' —",
+   "Ich nehmen mit von hier?"
+  ],
+  "is_function": true
+ },
+ "Liebe": {
+  "count": 3,
+  "occ": [
+   18,
+   75,
+   841
+  ],
+  "songs": [
+   1,
+   11
+  ],
+  "samples": [
+   "Das Mädchen sprach von Liebe,",
+   "Die Liebe liebt das Wandern, —",
+   "Ich träumte von Lieb' um Liebe,"
+  ],
+  "is_function": false
+ },
+ "Die": {
+  "count": 17,
+  "occ": [
+   19,
+   75,
+   268,
+   355,
+   375,
+   590,
+   614,
+   619,
+   622,
+   727,
+   867,
+   955,
+   1222,
+   1295,
+   1381,
+   1407,
+   1418
+  ],
+  "songs": [
+   1,
+   4,
+   5,
+   8,
+   10,
+   11,
+   13,
+   18,
+   19,
+   20,
+   21
+  ],
+  "samples": [
+   "Die Mutter gar von Eh' —",
+   "Die Liebe liebt das Wandern, —",
+   "Die Blumen sind erstorben,"
+  ],
+  "is_function": true
+ },
+ "Mutter": {
+  "count": 1,
+  "occ": [
+   19
+  ],
+  "songs": [
+   1
+  ],
+  "samples": [
+   "Die Mutter gar von Eh' —"
+  ],
+  "is_function": false
+ },
+ "gar": {
+  "count": 2,
+  "occ": [
+   20,
+   203
+  ],
+  "songs": [
+   1,
+   3
+  ],
+  "samples": [
+   "Die Mutter gar von Eh' —",
+   "Und seid ihr gar so lau,"
+  ],
+  "is_function": false
+ },
+ "Eh": {
+  "count": 1,
+  "occ": [
+   22
+  ],
+  "songs": [
+   1
+  ],
+  "samples": [
+   "Die Mutter gar von Eh' —"
+  ],
+  "is_function": false
+ },
+ "Nun": {
+  "count": 8,
+  "occ": [
+   23,
+   391,
+   708,
+   858,
+   969,
+   1079,
+   1439,
+   1552
+  ],
+  "songs": [
+   1,
+   5,
+   10,
+   11,
+   13,
+   15,
+   21,
+   23
+  ],
+  "samples": [
+   "Nun ist die Welt so trübe,",
+   "Nun bin ich manche Stunde",
+   "Nun merk' ich erst, wie müd' ich bin,"
+  ],
+  "is_function": false
+ },
+ "ist": {
+  "count": 11,
+  "occ": [
+   24,
+   180,
+   294,
+   478,
+   1015,
+   1100,
+   1176,
+   1252,
+   1286,
+   1313,
+   1484
+  ],
+  "songs": [
+   1,
+   2,
+   4,
+   6,
+   14,
+   16,
+   17,
+   18,
+   19,
+   22
+  ],
+  "samples": [
+   "Nun ist die Welt so trübe,",
+   "Ihr Kind ist eine reiche Braut.",
+   "Mein Herz ist wie erstorben,"
+  ],
+  "is_function": true
+ },
+ "die": {
+  "count": 31,
+  "occ": [
+   25,
+   105,
+   241,
+   256,
+   425,
+   465,
+   578,
+   640,
+   658,
+   806,
+   818,
+   826,
+   852,
+   922,
+   928,
+   933,
+   970,
+   1138,
+   1152,
+   1154,
+   1156,
+   1269,
+   1321,
+   1323,
+   1349,
+   1356,
+   1405,
+   1490,
+   1554,
+   1558,
+   1606
+  ],
+  "songs": [
+   1,
+   4,
+   6,
+   8,
+   9,
+   11,
+   12,
+   13,
+   16,
+   17,
+   19,
+   20,
+   21,
+   22,
+   23,
+   24
+  ],
+  "samples": [
+   "Nun ist die Welt so trübe,",
+   "Sacht, sacht die Türe zu!",
+   "Durchstrich die grüne Flur."
+  ],
+  "is_function": true
+ },
+ "Welt": {
+  "count": 3,
+  "occ": [
+   25,
+   928,
+   1490
+  ],
+  "songs": [
+   1,
+   12,
+   22
+  ],
+  "samples": [
+   "Nun ist die Welt so trübe,",
+   "Ach, dass die Welt so licht!",
+   "Lustig in die Welt hinein"
+  ],
+  "is_function": false
+ },
+ "so": {
+  "count": 18,
+  "occ": [
+   26,
+   80,
+   170,
+   204,
+   218,
+   272,
+   483,
+   554,
+   774,
+   874,
+   923,
+   929,
+   938,
+   940,
+   950,
+   965,
+   1287,
+   1525
+  ],
+  "songs": [
+   1,
+   2,
+   3,
+   4,
+   7,
+   10,
+   11,
+   12,
+   13,
+   19,
+   23
+  ],
+  "samples": [
+   "Nun ist die Welt so trübe,",
+   "Gott hat sie so gemacht —",
+   "Wie auf dem Dach, nur nicht so laut."
+  ],
+  "is_function": false
+ },
+ "trübe": {
+  "count": 2,
+  "occ": [
+   27,
+   890
+  ],
+  "songs": [
+   1,
+   12
+  ],
+  "samples": [
+   "Nun ist die Welt so trübe,",
+   "Wie eine trübe Wolke"
+  ],
+  "is_function": false
+ },
+ "Weg": {
+  "count": 4,
+  "occ": [
+   28,
+   40,
+   679,
+   1391
+  ],
+  "songs": [
+   1,
+   9,
+   21
+  ],
+  "samples": [
+   "Der Weg gehüllt in Schnee.",
+   "Muss selbst den Weg mir weisen",
+   "'S führt ja jeder Weg zum Ziel:"
+  ],
+  "is_function": false
+ },
+ "gehüllt": {
+  "count": 1,
+  "occ": [
+   29
+  ],
+  "songs": [
+   1
+  ],
+  "samples": [
+   "Der Weg gehüllt in Schnee."
+  ],
+  "is_function": false
+ },
+ "in": {
+  "count": 21,
+  "occ": [
+   30,
+   134,
+   319,
+   327,
+   334,
+   348,
+   415,
+   435,
+   540,
+   639,
+   670,
+   767,
+   778,
+   897,
+   1107,
+   1157,
+   1204,
+   1225,
+   1348,
+   1415,
+   1489
+  ],
+  "songs": [
+   1,
+   2,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   12,
+   16,
+   17,
+   18,
+   20,
+   21,
+   22
+  ],
+  "samples": [
+   "Der Weg gehüllt in Schnee.",
+   "Da dacht' ich schon in meinem Wahne,",
+   "Ich träumt' in seinem Schatten"
+  ],
+  "is_function": true
+ },
+ "Schnee": {
+  "count": 8,
+  "occ": [
+   30,
+   231,
+   250,
+   416,
+   439,
+   441,
+   569,
+   1449
+  ],
+  "songs": [
+   1,
+   4,
+   6,
+   8,
+   22
+  ],
+  "samples": [
+   "Der Weg gehüllt in Schnee.",
+   "Ich such' im Schnee vergebens",
+   "Durchdringen Eis und Schnee"
+  ],
+  "is_function": false
+ },
+ "Ich": {
+  "count": 15,
+  "occ": [
+   31,
+   228,
+   243,
+   277,
+   318,
+   325,
+   342,
+   388,
+   570,
+   787,
+   798,
+   837,
+   1206,
+   1265,
+   1270
+  ],
+  "songs": [
+   1,
+   4,
+   5,
+   8,
+   11,
+   17,
+   19
+  ],
+  "samples": [
+   "Ich kann zu meiner Reisen",
+   "Ich such' im Schnee vergebens",
+   "Ich will den Boden küssen,"
+  ],
+  "is_function": true
+ },
+ "kann": {
+  "count": 3,
+  "occ": [
+   32,
+   1128,
+   1578
+  ],
+  "songs": [
+   1,
+   16,
+   24
+  ],
+  "samples": [
+   "Ich kann zu meiner Reisen",
+   "Zittr' ich, was ich zittern kann.",
+   "Dreht er was er kann."
+  ],
+  "is_function": false
+ },
+ "nicht": {
+  "count": 20,
+  "occ": [
+   32,
+   94,
+   102,
+   170,
+   389,
+   571,
+   577,
+   667,
+   728,
+   756,
+   935,
+   1045,
+   1066,
+   1080,
+   1164,
+   1201,
+   1468,
+   1477,
+   1528,
+   1538
+  ],
+  "songs": [
+   1,
+   2,
+   5,
+   8,
+   9,
+   10,
+   12,
+   14,
+   15,
+   17,
+   22,
+   23
+  ],
+  "samples": [
+   "Ich kann zu meiner Reisen",
+   "Will dich im Traum nicht stören,",
+   "Sollst meinen Tritt nicht hören —"
+  ],
+  "is_function": true
+ },
+ "zu": {
+  "count": 17,
+  "occ": [
+   33,
+   84,
+   106,
+   208,
+   362,
+   367,
+   587,
+   732,
+   1007,
+   1078,
+   1100,
+   1134,
+   1144,
+   1190,
+   1207,
+   1355,
+   1633
+  ],
+  "songs": [
+   1,
+   3,
+   5,
+   8,
+   10,
+   14,
+   15,
+   16,
+   17,
+   20,
+   24
+  ],
+  "samples": [
+   "Ich kann zu meiner Reisen",
+   "Von Einem zu dem Andern —",
+   "Sacht, sacht die Türe zu!"
+  ],
+  "is_function": true
+ },
+ "meiner": {
+  "count": 6,
+  "occ": [
+   34,
+   479,
+   518,
+   1023,
+   1043,
+   1148
+  ],
+  "songs": [
+   1,
+   6,
+   7,
+   14,
+   16
+  ],
+  "samples": [
+   "Ich kann zu meiner Reisen",
+   "Da ist meiner Liebsten Haus.",
+   "Den Namen meiner Liebsten"
+  ],
+  "is_function": true
+ },
+ "Reisen": {
+  "count": 1,
+  "occ": [
+   35
+  ],
+  "songs": [
+   1
+  ],
+  "samples": [
+   "Ich kann zu meiner Reisen"
+  ],
+  "is_function": false
+ },
+ "wählen": {
+  "count": 1,
+  "occ": [
+   36
+  ],
+  "songs": [
+   1
+  ],
+  "samples": [
+   "Nicht wählen mit der Zeit:"
+  ],
+  "is_function": false
+ },
+ "mit": {
+  "count": 14,
+  "occ": [
+   37,
+   46,
+   124,
+   164,
+   280,
+   463,
+   910,
+   1052,
+   1121,
+   1136,
+   1143,
+   1208,
+   1573,
+   1629
+  ],
+  "songs": [
+   1,
+   2,
+   4,
+   6,
+   12,
+   15,
+   16,
+   17,
+   24
+  ],
+  "samples": [
+   "Nicht wählen mit der Zeit:",
+   "Es zieht ein Mondenschatten",
+   "Der Wind spielt mit der Wetterfahne"
+  ],
+  "is_function": true
+ },
+ "der": {
+  "count": 18,
+  "occ": [
+   37,
+   125,
+   216,
+   438,
+   588,
+   608,
+   638,
+   779,
+   899,
+   943,
+   973,
+   1055,
+   1120,
+   1205,
+   1217,
+   1254,
+   1293,
+   1449
+  ],
+  "songs": [
+   1,
+   2,
+   3,
+   6,
+   8,
+   10,
+   12,
+   13,
+   15,
+   16,
+   17,
+   18,
+   19,
+   22
+  ],
+  "samples": [
+   "Nicht wählen mit der Zeit:",
+   "Der Wind spielt mit der Wetterfahne",
+   "Und / Ihr dringt doch aus der Quelle"
+  ],
+  "is_function": true
+ },
+ "Zeit": {
+  "count": 1,
+  "occ": [
+   37
+  ],
+  "songs": [
+   1
+  ],
+  "samples": [
+   "Nicht wählen mit der Zeit:"
+  ],
+  "is_function": false
+ },
+ "Muss": {
+  "count": 1,
+  "occ": [
+   38
+  ],
+  "songs": [
+   1
+  ],
+  "samples": [
+   "Muss selbst den Weg mir weisen"
+  ],
+  "is_function": false
+ },
+ "selbst": {
+  "count": 1,
+  "occ": [
+   39
+  ],
+  "songs": [
+   1
+  ],
+  "samples": [
+   "Muss selbst den Weg mir weisen"
+  ],
+  "is_function": false
+ },
+ "den": {
+  "count": 14,
+  "occ": [
+   40,
+   53,
+   139,
+   165,
+   245,
+   416,
+   823,
+   832,
+   1096,
+   1105,
+   1214,
+   1281,
+   1353,
+   1609
+  ],
+  "songs": [
+   1,
+   2,
+   4,
+   6,
+   11,
+   16,
+   17,
+   19,
+   20,
+   24
+  ],
+  "samples": [
+   "Muss selbst den Weg mir weisen",
+   "Und auf den weißen Matten",
+   "Sie pfiff' den armen Flüchtling aus."
+  ],
+  "is_function": true
+ },
+ "weisen": {
+  "count": 1,
+  "occ": [
+   42
+  ],
+  "songs": [
+   1
+  ],
+  "samples": [
+   "Muss selbst den Weg mir weisen"
+  ],
+  "is_function": false
+ },
+ "In": {
+  "count": 4,
+  "occ": [
+   43,
+   510,
+   657,
+   746
+  ],
+  "songs": [
+   1,
+   7,
+   9,
+   10
+  ],
+  "samples": [
+   "In dieser Dunkelheit.",
+   "In deine Decke grab' ich",
+   "In die tiefsten Felsengründe"
+  ],
+  "is_function": true
+ },
+ "dieser": {
+  "count": 2,
+  "occ": [
+   44,
+   1049
+  ],
+  "songs": [
+   1,
+   14
+  ],
+  "samples": [
+   "In dieser Dunkelheit.",
+   "Auf dieser ganzen Reise!"
+  ],
+  "is_function": false
+ },
+ "Dunkelheit": {
+  "count": 1,
+  "occ": [
+   45
+  ],
+  "songs": [
+   1
+  ],
+  "samples": [
+   "In dieser Dunkelheit."
+  ],
+  "is_function": false
+ },
+ "Es": {
+  "count": 8,
+  "occ": [
+   46,
+   333,
+   557,
+   731,
+   817,
+   1151,
+   1155,
+   1251
+  ],
+  "songs": [
+   1,
+   5,
+   8,
+   10,
+   11,
+   17,
+   18
+  ],
+  "samples": [
+   "Es zieht ein Mondenschatten",
+   "Es zog in Freud' und Leide",
+   "Es brennt mir unter beiden Sohlen,"
+  ],
+  "is_function": true
+ },
+ "zieht": {
+  "count": 1,
+  "occ": [
+   46
+  ],
+  "songs": [
+   1
+  ],
+  "samples": [
+   "Es zieht ein Mondenschatten"
+  ],
+  "is_function": false
+ },
+ "ein": {
+  "count": 15,
+  "occ": [
+   47,
+   159,
+   317,
+   420,
+   430,
+   469,
+   536,
+   662,
+   944,
+   976,
+   1008,
+   1304,
+   1344,
+   1410,
+   1571
+  ],
+  "songs": [
+   1,
+   2,
+   5,
+   6,
+   7,
+   9,
+   13,
+   14,
+   19,
+   20,
+   21,
+   24
+  ],
+  "samples": [
+   "Es zieht ein Mondenschatten",
+   "Im Haus' ein treues Frauenbild.",
+   "Da steht ein Lindenbaum:"
+  ],
+  "is_function": true
+ },
+ "Mondenschatten": {
+  "count": 1,
+  "occ": [
+   47
+  ],
+  "songs": [
+   1
+  ],
+  "samples": [
+   "Es zieht ein Mondenschatten"
+  ],
+  "is_function": false
+ },
+ "Als": {
+  "count": 5,
+  "occ": [
+   48,
+   221,
+   361,
+   931,
+   1527
+  ],
+  "songs": [
+   1,
+   3,
+   5,
+   12,
+   23
+  ],
+  "samples": [
+   "Als mein Gefährte mit,",
+   "Als wolltet ihr zerschmelzen",
+   "Als riefen sie mir zu:"
+  ],
+  "is_function": true
+ },
+ "mein": {
+  "count": 8,
+  "occ": [
+   49,
+   765,
+   809,
+   855,
+   885,
+   1060,
+   1390,
+   1458
+  ],
+  "songs": [
+   1,
+   10,
+   11,
+   15,
+   21,
+   22
+  ],
+  "samples": [
+   "Als mein Gefährte mit,",
+   "Auch du, mein Herz, in Kampf und Sturm",
+   "Da ward mein Auge wach;"
+  ],
+  "is_function": true
+ },
+ "Gefährte": {
+  "count": 1,
+  "occ": [
+   50
+  ],
+  "songs": [
+   1
+  ],
+  "samples": [
+   "Als mein Gefährte mit,"
+  ],
+  "is_function": false
+ },
+ "Und": {
+  "count": 26,
+  "occ": [
+   51,
+   200,
+   212,
+   357,
+   400,
+   432,
+   437,
+   520,
+   626,
+   804,
+   850,
+   863,
+   986,
+   1009,
+   1042,
+   1101,
+   1172,
+   1182,
+   1228,
+   1307,
+   1357,
+   1520,
+   1572,
+   1587,
+   1605,
+   1611
+  ],
+  "songs": [
+   1,
+   3,
+   5,
+   6,
+   7,
+   8,
+   11,
+   13,
+   14,
+   16,
+   17,
+   18,
+   19,
+   20,
+   23,
+   24
+  ],
+  "samples": [
+   "Und auf den weißen Matten",
+   "Und seid ihr gar so lau,",
+   "Und / Ihr dringt doch aus der Quelle"
+  ],
+  "is_function": true
+ },
+ "auf": {
+  "count": 10,
+  "occ": [
+   52,
+   167,
+   462,
+   566,
+   1147,
+   1191,
+   1352,
+   1355,
+   1500,
+   1580
+  ],
+  "songs": [
+   1,
+   2,
+   6,
+   8,
+   16,
+   17,
+   20,
+   22,
+   24
+  ],
+  "samples": [
+   "Und auf den weißen Matten",
+   "Wie auf dem Dach, nur nicht so laut.",
+   "Nimmt dich bald das Bächlein auf."
+  ],
+  "is_function": true
+ },
+ "weißen": {
+  "count": 2,
+  "occ": [
+   53,
+   996
+  ],
+  "songs": [
+   1,
+   14
+  ],
+  "samples": [
+   "Und auf den weißen Matten",
+   "Der Reif hat einen weißen Schein"
+  ],
+  "is_function": false
+ },
+ "Matten": {
+  "count": 1,
+  "occ": [
+   54
+  ],
+  "songs": [
+   1
+  ],
+  "samples": [
+   "Und auf den weißen Matten"
+  ],
+  "is_function": false
+ },
+ "Such": {
+  "count": 1,
+  "occ": [
+   55
+  ],
+  "songs": [
+   1
+  ],
+  "samples": [
+   "Such' ich des Wildes Tritt."
+  ],
+  "is_function": false
+ },
+ "des": {
+  "count": 3,
+  "occ": [
+   57,
+   525,
+   693
+  ],
+  "songs": [
+   1,
+   7,
+   9
+  ],
+  "samples": [
+   "Such' ich des Wildes Tritt.",
+   "Den Tag des ersten Grußes,",
+   "Durch des Bergstroms trockne Rinnen"
+  ],
+  "is_function": true
+ },
+ "Wildes": {
+  "count": 1,
+  "occ": [
+   57
+  ],
+  "songs": [
+   1
+  ],
+  "samples": [
+   "Such' ich des Wildes Tritt."
+  ],
+  "is_function": false
+ },
+ "Tritt": {
+  "count": 2,
+  "occ": [
+   58,
+   101
+  ],
+  "songs": [
+   1
+  ],
+  "samples": [
+   "Such' ich des Wildes Tritt.",
+   "Sollst meinen Tritt nicht hören —"
+  ],
+  "is_function": false
+ },
+ "Was": {
+  "count": 6,
+  "occ": [
+   59,
+   172,
+   946,
+   961,
+   1211,
+   1317
+  ],
+  "songs": [
+   1,
+   2,
+   13,
+   17,
+   20
+  ],
+  "samples": [
+   "Was soll ich länger weilen,",
+   "Was fragen sie nach meinen Schmerzen?",
+   "Was hat es, dass es so hoch aufspringt,"
+  ],
+  "is_function": false
+ },
+ "soll": {
+  "count": 1,
+  "occ": [
+   60
+  ],
+  "songs": [
+   1
+  ],
+  "samples": [
+   "Was soll ich länger weilen,"
+  ],
+  "is_function": false
+ },
+ "länger": {
+  "count": 1,
+  "occ": [
+   61
+  ],
+  "songs": [
+   1
+  ],
+  "samples": [
+   "Was soll ich länger weilen,"
+  ],
+  "is_function": false
+ },
+ "weilen": {
+  "count": 1,
+  "occ": [
+   62
+  ],
+  "songs": [
+   1
+  ],
+  "samples": [
+   "Was soll ich länger weilen,"
+  ],
+  "is_function": false
+ },
+ "Dass": {
+  "count": 6,
+  "occ": [
+   63,
+   193,
+   206,
+   1020,
+   1278,
+   1338
+  ],
+  "songs": [
+   1,
+   3,
+   14,
+   19,
+   20
+  ],
+  "samples": [
+   "Dass man mich trieb hinaus?",
+   "Dass ich geweinet hab'?",
+   "Dass ihr erstarrt zu Eise,"
+  ],
+  "is_function": true
+ },
+ "mich": {
+  "count": 19,
+  "occ": [
+   64,
+   340,
+   390,
+   583,
+   604,
+   661,
+   694,
+   719,
+   722,
+   744,
+   1011,
+   1068,
+   1088,
+   1195,
+   1202,
+   1315,
+   1347,
+   1389,
+   1438
+  ],
+  "songs": [
+   1,
+   5,
+   8,
+   9,
+   10,
+   14,
+   15,
+   17,
+   19,
+   20,
+   21
+  ],
+  "samples": [
+   "Dass man mich trieb hinaus?",
+   "Zu ihm mich immer fort.",
+   "Ich wendete mich nicht."
+  ],
+  "is_function": true
+ },
+ "man": {
+  "count": 1,
+  "occ": [
+   65
+  ],
+  "songs": [
+   1
+  ],
+  "samples": [
+   "Dass man mich trieb hinaus?"
+  ],
+  "is_function": true
+ },
+ "trieb": {
+  "count": 1,
+  "occ": [
+   65
+  ],
+  "songs": [
+   1
+  ],
+  "samples": [
+   "Dass man mich trieb hinaus?"
+  ],
+  "is_function": false
+ },
+ "hinaus": {
+  "count": 2,
+  "occ": [
+   66,
+   589
+  ],
+  "songs": [
+   1,
+   8
+  ],
+  "samples": [
+   "Dass man mich trieb hinaus?",
+   "So eilt' ich zu der Stadt hinaus;"
+  ],
+  "is_function": false
+ },
+ "Lass": {
+  "count": 1,
+  "occ": [
+   67
+  ],
+  "songs": [
+   1
+  ],
+  "samples": [
+   "Lass irre Hunde heulen"
+  ],
+  "is_function": false
+ },
+ "irre": {
+  "count": 2,
+  "occ": [
+   68,
+   675
+  ],
+  "songs": [
+   1,
+   9
+  ],
+  "samples": [
+   "Lass irre Hunde heulen",
+   "Bin gewohnt das irre Gehen,"
+  ],
+  "is_function": false
+ },
+ "Hunde": {
+  "count": 4,
+  "occ": [
+   69,
+   1152,
+   1200,
+   1606
+  ],
+  "songs": [
+   1,
+   17,
+   24
+  ],
+  "samples": [
+   "Lass irre Hunde heulen",
+   "Es bellen die Hunde, es rasseln die Ketten.",
+   "Bellt mich nur fort, ihr wachen Hunde,"
+  ],
+  "is_function": false
+ },
+ "heulen": {
+  "count": 1,
+  "occ": [
+   70
+  ],
+  "songs": [
+   1
+  ],
+  "samples": [
+   "Lass irre Hunde heulen"
+  ],
+  "is_function": false
+ },
+ "Vor": {
+  "count": 2,
+  "occ": [
+   71,
+   652
+  ],
+  "songs": [
+   1,
+   8
+  ],
+  "samples": [
+   "Vor ihres Herren Haus!",
+   "Vor ihrem Hause stille stehn."
+  ],
+  "is_function": true
+ },
+ "Haus": {
+  "count": 7,
+  "occ": [
+   72,
+   126,
+   158,
+   481,
+   600,
+   748,
+   1306
+  ],
+  "songs": [
+   1,
+   2,
+   6,
+   8,
+   10,
+   19
+  ],
+  "samples": [
+   "Vor ihres Herren Haus!",
+   "Auf meines schönen Liebchens Haus.",
+   "Im Haus' ein treues Frauenbild."
+  ],
+  "is_function": false
+ },
+ "ihres": {
+  "count": 1,
+  "occ": [
+   73
+  ],
+  "songs": [
+   1
+  ],
+  "samples": [
+   "Vor ihres Herren Haus!"
+  ],
+  "is_function": false
+ },
+ "Herren": {
+  "count": 1,
+  "occ": [
+   74
+  ],
+  "songs": [
+   1
+  ],
+  "samples": [
+   "Vor ihres Herren Haus!"
+  ],
+  "is_function": false
+ },
+ "liebt": {
+  "count": 1,
+  "occ": [
+   76
+  ],
+  "songs": [
+   1
+  ],
+  "samples": [
+   "Die Liebe liebt das Wandern, —"
+  ],
+  "is_function": false
+ },
+ "das": {
+  "count": 8,
+  "occ": [
+   77,
+   304,
+   422,
+   433,
+   461,
+   675,
+   873,
+   1133
+  ],
+  "songs": [
+   1,
+   4,
+   6,
+   9,
+   11,
+   16
+  ],
+  "samples": [
+   "Die Liebe liebt das Wandern, —",
+   "Schmilzt je das Herz mir wieder,",
+   "Durstig ein das heiße Weh."
+  ],
+  "is_function": true
+ },
+ "Wandern": {
+  "count": 2,
+  "occ": [
+   77,
+   720
+  ],
+  "songs": [
+   1,
+   10
+  ],
+  "samples": [
+   "Die Liebe liebt das Wandern, —",
+   "Das Wandern hielt mich munter hin"
+  ],
+  "is_function": false
+ },
+ "Gott": {
+  "count": 2,
+  "occ": [
+   78,
+   1499
+  ],
+  "songs": [
+   1,
+   22
+  ],
+  "samples": [
+   "Gott hat sie so gemacht —",
+   "Will kein Gott auf Erden sein,"
+  ],
+  "is_function": false
+ },
+ "sie": {
+  "count": 11,
+  "occ": [
+   79,
+   174,
+   237,
+   363,
+   793,
+   1163,
+   1178,
+   1185,
+   1518,
+   1521,
+   1530
+  ],
+  "songs": [
+   1,
+   2,
+   4,
+   5,
+   11,
+   17,
+   23
+  ],
+  "samples": [
+   "Gott hat sie so gemacht —",
+   "Was fragen sie nach meinen Schmerzen?",
+   "Wo sie an meinem Arme"
+  ],
+  "is_function": true
+ },
+ "hat": {
+  "count": 4,
+  "occ": [
+   81,
+   947,
+   1001,
+   1218
+  ],
+  "songs": [
+   1,
+   13,
+   14,
+   18
+  ],
+  "samples": [
+   "Gott hat sie so gemacht —",
+   "Was hat es, dass es so hoch aufspringt,",
+   "Mir über's Haar gestreuet."
+  ],
+  "is_function": true
+ },
+ "gemacht": {
+  "count": 1,
+  "occ": [
+   81
+  ],
+  "songs": [
+   1
+  ],
+  "samples": [
+   "Gott hat sie so gemacht —"
+  ],
+  "is_function": false
+ },
+ "Von": {
+  "count": 7,
+  "occ": [
+   82,
+   186,
+   802,
+   842,
+   844,
+   847,
+   942
+  ],
+  "songs": [
+   1,
+   3,
+   11,
+   13
+  ],
+  "samples": [
+   "Von Einem zu dem Andern —",
+   "Von meinen Wangen ab:",
+   "Von lustigem Vogelgeschrei."
+  ],
+  "is_function": true
+ },
+ "Einem": {
+  "count": 1,
+  "occ": [
+   83
+  ],
+  "songs": [
+   1
+  ],
+  "samples": [
+   "Von Einem zu dem Andern —"
+  ],
+  "is_function": true
+ },
+ "dem": {
+  "count": 10,
+  "occ": [
+   85,
+   168,
+   314,
+   528,
+   670,
+   866,
+   1085,
+   1112,
+   1245,
+   1581
+  ],
+  "songs": [
+   1,
+   2,
+   5,
+   7,
+   9,
+   11,
+   15,
+   16,
+   18,
+   24
+  ],
+  "samples": [
+   "Von Einem zu dem Andern —",
+   "Wie auf dem Dach, nur nicht so laut.",
+   "Am Brunnen vor dem Tore,"
+  ],
+  "is_function": true
+ },
+ "Andern": {
+  "count": 2,
+  "occ": [
+   85,
+   1541
+  ],
+  "songs": [
+   1,
+   23
+  ],
+  "samples": [
+   "Von Einem zu dem Andern —",
+   "Schaut Andern doch in's Angesicht!"
+  ],
+  "is_function": false
+ },
+ "Fein": {
+  "count": 1,
+  "occ": [
+   86
+  ],
+  "songs": [
+   1
+  ],
+  "samples": [
+   "Fein Liebchen, gute Nacht!"
+  ],
+  "is_function": false
+ },
+ "Liebchen": {
+  "count": 3,
+  "occ": [
+   87,
+   886,
+   977
+  ],
+  "songs": [
+   1,
+   11,
+   13
+  ],
+  "samples": [
+   "Fein Liebchen, gute Nacht!",
+   "Wann halt' ich mein Liebchen im Arm?",
+   "Wo ich ein liebes Liebchen hatt',"
+  ],
+  "is_function": false
+ },
+ "gute": {
+  "count": 2,
+  "occ": [
+   88,
+   112
+  ],
+  "songs": [
+   1
+  ],
+  "samples": [
+   "Fein Liebchen, gute Nacht!",
+   "An's Tor dir gute Nacht,"
+  ],
+  "is_function": false
+ },
+ "Nacht": {
+  "count": 4,
+  "occ": [
+   89,
+   113,
+   349,
+   1299
+  ],
+  "songs": [
+   1,
+   5,
+   19
+  ],
+  "samples": [
+   "Fein Liebchen, gute Nacht!",
+   "An's Tor dir gute Nacht,",
+   "Vorbei in tiefer Nacht,"
+  ],
+  "is_function": false
+ },
+ "Will": {
+  "count": 2,
+  "occ": [
+   90,
+   1497
+  ],
+  "songs": [
+   1,
+   22
+  ],
+  "samples": [
+   "Will dich im Traum nicht stören,",
+   "Will kein Gott auf Erden sein,"
+  ],
+  "is_function": false
+ },
+ "dich": {
+  "count": 6,
+  "occ": [
+   91,
+   119,
+   459,
+   501,
+   633,
+   960
+  ],
+  "songs": [
+   1,
+   6,
+   7,
+   8,
+   13
+  ],
+  "samples": [
+   "Will dich im Traum nicht stören,",
+   "An dich hab' ich gedacht.",
+   "Nimmt dich bald das Bächlein auf."
+  ],
+  "is_function": true
+ },
+ "im": {
+  "count": 10,
+  "occ": [
+   92,
+   108,
+   230,
+   353,
+   617,
+   796,
+   835,
+   887,
+   1167,
+   1460
+  ],
+  "songs": [
+   1,
+   4,
+   5,
+   8,
+   11,
+   17,
+   22
+  ],
+  "samples": [
+   "Will dich im Traum nicht stören,",
+   "Schreib' im Vorübergehen",
+   "Ich such' im Schnee vergebens"
+  ],
+  "is_function": true
+ },
+ "Traum": {
+  "count": 2,
+  "occ": [
+   93,
+   324
+  ],
+  "songs": [
+   1,
+   5
+  ],
+  "samples": [
+   "Will dich im Traum nicht stören,",
+   "So manchen süßen Traum."
+  ],
+  "is_function": false
+ },
+ "stören": {
+  "count": 1,
+  "occ": [
+   95
+  ],
+  "songs": [
+   1
+  ],
+  "samples": [
+   "Will dich im Traum nicht stören,"
+  ],
+  "is_function": false
+ },
+ "Wär": {
+  "count": 1,
+  "occ": [
+   96
+  ],
+  "songs": [
+   1
+  ],
+  "samples": [
+   "Wär' Schad' um deine Ruh',"
+  ],
+  "is_function": false
+ },
+ "Schad": {
+  "count": 1,
+  "occ": [
+   97
+  ],
+  "songs": [
+   1
+  ],
+  "samples": [
+   "Wär' Schad' um deine Ruh',"
+  ],
+  "is_function": false
+ },
+ "um": {
+  "count": 3,
+  "occ": [
+   98,
+   632,
+   840
+  ],
+  "songs": [
+   1,
+   8,
+   11
+  ],
+  "samples": [
+   "Wär' Schad' um deine Ruh',",
+   "Da war's geschehn um dich, Gesell!",
+   "Ich träumte von Lieb' um Liebe,"
+  ],
+  "is_function": true
+ },
+ "deine": {
+  "count": 3,
+  "occ": [
+   98,
+   373,
+   511
+  ],
+  "songs": [
+   1,
+   5,
+   7
+  ],
+  "samples": [
+   "Wär' Schad' um deine Ruh',",
+   "Hier findst du deine Ruh'!",
+   "In deine Decke grab' ich"
+  ],
+  "is_function": true
+ },
+ "Ruh": {
+  "count": 5,
+  "occ": [
+   99,
+   374,
+   718,
+   1363,
+   1366
+  ],
+  "songs": [
+   1,
+   5,
+   10,
+   20
+  ],
+  "samples": [
+   "Wär' Schad' um deine Ruh',",
+   "Hier findst du deine Ruh'!",
+   "Da ich zur Ruh' mich lege;"
+  ],
+  "is_function": false
+ },
+ "meinen": {
+  "count": 8,
+  "occ": [
+   100,
+   176,
+   187,
+   251,
+   412,
+   456,
+   596,
+   1634
+  ],
+  "songs": [
+   1,
+   2,
+   3,
+   4,
+   6,
+   8,
+   24
+  ],
+  "samples": [
+   "Sollst meinen Tritt nicht hören —",
+   "Was fragen sie nach meinen Schmerzen?",
+   "Von meinen Wangen ab:"
+  ],
+  "is_function": true
+ },
+ "Sollst": {
+  "count": 1,
+  "occ": [
+   102
+  ],
+  "songs": [
+   1
+  ],
+  "samples": [
+   "Sollst meinen Tritt nicht hören —"
+  ],
+  "is_function": false
+ },
+ "hören": {
+  "count": 2,
+  "occ": [
+   102,
+   1599
+  ],
+  "songs": [
+   1,
+   24
+  ],
+  "samples": [
+   "Sollst meinen Tritt nicht hören —",
+   "Keiner mag ihn hören,"
+  ],
+  "is_function": false
+ },
+ "Sacht": {
+  "count": 1,
+  "occ": [
+   103
+  ],
+  "songs": [
+   1
+  ],
+  "samples": [
+   "Sacht, sacht die Türe zu!"
+  ],
+  "is_function": false
+ },
+ "sacht": {
+  "count": 1,
+  "occ": [
+   104
+  ],
+  "songs": [
+   1
+  ],
+  "samples": [
+   "Sacht, sacht die Türe zu!"
+  ],
+  "is_function": false
+ },
+ "Türe": {
+  "count": 1,
+  "occ": [
+   105
+  ],
+  "songs": [
+   1
+  ],
+  "samples": [
+   "Sacht, sacht die Türe zu!"
+  ],
+  "is_function": false
+ },
+ "Schreib": {
+  "count": 1,
+  "occ": [
+   107
+  ],
+  "songs": [
+   1
+  ],
+  "samples": [
+   "Schreib' im Vorübergehen"
+  ],
+  "is_function": false
+ },
+ "Vorübergehen": {
+  "count": 1,
+  "occ": [
+   108
+  ],
+  "songs": [
+   1
+  ],
+  "samples": [
+   "Schreib' im Vorübergehen"
+  ],
+  "is_function": false
+ },
+ "An's": {
+  "count": 1,
+  "occ": [
+   109
+  ],
+  "songs": [
+   1
+  ],
+  "samples": [
+   "An's Tor dir gute Nacht,"
+  ],
+  "is_function": false
+ },
+ "Tor": {
+  "count": 1,
+  "occ": [
+   110
+  ],
+  "songs": [
+   1
+  ],
+  "samples": [
+   "An's Tor dir gute Nacht,"
+  ],
+  "is_function": false
+ },
+ "dir": {
+  "count": 2,
+  "occ": [
+   111,
+   1630
+  ],
+  "songs": [
+   1,
+   24
+  ],
+  "samples": [
+   "An's Tor dir gute Nacht,",
+   "Soll ich mit dir gehn?"
+  ],
+  "is_function": true
+ },
+ "Damit": {
+  "count": 1,
+  "occ": [
+   114
+  ],
+  "songs": [
+   1
+  ],
+  "samples": [
+   "Damit du mögest sehen,"
+  ],
+  "is_function": true
+ },
+ "du": {
+  "count": 12,
+  "occ": [
+   115,
+   372,
+   442,
+   472,
+   482,
+   492,
+   500,
+   544,
+   603,
+   764,
+   964,
+   1437
+  ],
+  "songs": [
+   1,
+   5,
+   6,
+   7,
+   8,
+   10,
+   13,
+   21
+  ],
+  "samples": [
+   "Damit du mögest sehen,",
+   "Hier findst du deine Ruh'!",
+   "Schnee, du weißt von meinem Sehnen:"
+  ],
+  "is_function": true
+ },
+ "mögest": {
+  "count": 1,
+  "occ": [
+   116
+  ],
+  "songs": [
+   1
+  ],
+  "samples": [
+   "Damit du mögest sehen,"
+  ],
+  "is_function": false
+ },
+ "sehen": {
+  "count": 1,
+  "occ": [
+   117
+  ],
+  "songs": [
+   1
+  ],
+  "samples": [
+   "Damit du mögest sehen,"
+  ],
+  "is_function": false
+ },
+ "An": {
+  "count": 3,
+  "occ": [
+   118,
+   609,
+   1084
+  ],
+  "songs": [
+   1,
+   8,
+   15
+  ],
+  "samples": [
+   "An dich hab' ich gedacht.",
+   "An deinen blanken Fenstern sangen",
+   "An dem Wanderstabe."
+  ],
+  "is_function": true
+ },
+ "hab": {
+  "count": 4,
+  "occ": [
+   121,
+   195,
+   356,
+   1011
+  ],
+  "songs": [
+   1,
+   3,
+   5,
+   14
+  ],
+  "samples": [
+   "An dich hab' ich gedacht.",
+   "Dass ich geweinet hab'?",
+   "Die Augen zugemacht."
+  ],
+  "is_function": true
+ },
+ "gedacht": {
+  "count": 2,
+  "occ": [
+   121,
+   1399
+  ],
+  "songs": [
+   1,
+   21
+  ],
+  "samples": [
+   "An dich hab' ich gedacht.",
+   "Hab' ich bei mir gedacht."
+  ],
+  "is_function": false
+ },
+ "Wind": {
+  "count": 6,
+  "occ": [
+   122,
+   161,
+   431,
+   694,
+   1120,
+   1492
+  ],
+  "songs": [
+   2,
+   6,
+   9,
+   16,
+   22
+  ],
+  "samples": [
+   "Der Wind spielt mit der Wetterfahne",
+   "Der Wind spielt drinnen mit den Herzen,",
+   "Weht daher ein lauer Wind,"
+  ],
+  "is_function": false
+ },
+ "spielt": {
+  "count": 2,
+  "occ": [
+   123,
+   162
+  ],
+  "songs": [
+   2
+  ],
+  "samples": [
+   "Der Wind spielt mit der Wetterfahne",
+   "Der Wind spielt drinnen mit den Herzen,"
+  ],
+  "is_function": false
+ },
+ "Wetterfahne": {
+  "count": 1,
+  "occ": [
+   125
+  ],
+  "songs": [
+   2
+  ],
+  "samples": [
+   "Der Wind spielt mit der Wetterfahne"
+  ],
+  "is_function": false
+ },
+ "Auf": {
+  "count": 5,
+  "occ": [
+   126,
+   595,
+   724,
+   1047,
+   1387
+  ],
+  "songs": [
+   2,
+   8,
+   10,
+   14,
+   21
+  ],
+  "samples": [
+   "Auf meines schönen Liebchens Haus.",
+   "Auf meinen Hut von jedem Haus.",
+   "Auf unwirtbarem Wege."
+  ],
+  "is_function": true
+ },
+ "meines": {
+  "count": 1,
+  "occ": [
+   127
+  ],
+  "songs": [
+   2
+  ],
+  "samples": [
+   "Auf meines schönen Liebchens Haus."
+  ],
+  "is_function": true
+ },
+ "schönen": {
+  "count": 2,
+  "occ": [
+   128,
+   842
+  ],
+  "songs": [
+   2,
+   11
+  ],
+  "samples": [
+   "Auf meines schönen Liebchens Haus.",
+   "Von einer schönen Maid,"
+  ],
+  "is_function": false
+ },
+ "Liebchens": {
+  "count": 1,
+  "occ": [
+   129
+  ],
+  "songs": [
+   2
+  ],
+  "samples": [
+   "Auf meines schönen Liebchens Haus."
+  ],
+  "is_function": false
+ },
+ "Da": {
+  "count": 10,
+  "occ": [
+   130,
+   315,
+   350,
+   477,
+   631,
+   716,
+   808,
+   812,
+   854,
+   1002
+  ],
+  "songs": [
+   2,
+   5,
+   6,
+   8,
+   10,
+   11,
+   14
+  ],
+  "samples": [
+   "Da dacht' ich schon in meinem Wahne,",
+   "Da steht ein Lindenbaum:",
+   "Da hab' ich noch im Dunkeln"
+  ],
+  "is_function": false
+ },
+ "dacht": {
+  "count": 1,
+  "occ": [
+   131
+  ],
+  "songs": [
+   2
+  ],
+  "samples": [
+   "Da dacht' ich schon in meinem Wahne,"
+  ],
+  "is_function": false
+ },
+ "schon": {
+  "count": 3,
+  "occ": [
+   133,
+   564,
+   1006
+  ],
+  "songs": [
+   2,
+   8,
+   14
+  ],
+  "samples": [
+   "Da dacht' ich schon in meinem Wahne,",
+   "Tret' ich auch schon auf Eis und Schnee.",
+   "Da glaubt' ich schon ein Greis zu sein,"
+  ],
+  "is_function": false
+ },
+ "meinem": {
+  "count": 6,
+  "occ": [
+   135,
+   238,
+   445,
+   1122,
+   1239,
+   1373
+  ],
+  "songs": [
+   2,
+   4,
+   6,
+   16,
+   18,
+   20
+  ],
+  "samples": [
+   "Da dacht' ich schon in meinem Wahne,",
+   "Wo sie an meinem Arme",
+   "Schnee, du weißt von meinem Sehnen:"
+  ],
+  "is_function": true
+ },
+ "Wahne": {
+  "count": 1,
+  "occ": [
+   136
+  ],
+  "songs": [
+   2
+  ],
+  "samples": [
+   "Da dacht' ich schon in meinem Wahne,"
+  ],
+  "is_function": false
+ },
+ "Sie": {
+  "count": 1,
+  "occ": [
+   137
+  ],
+  "songs": [
+   2
+  ],
+  "samples": [
+   "Sie pfiff' den armen Flüchtling aus."
+  ],
+  "is_function": true
+ },
+ "pfiff": {
+  "count": 1,
+  "occ": [
+   138
+  ],
+  "songs": [
+   2
+  ],
+  "samples": [
+   "Sie pfiff' den armen Flüchtling aus."
+  ],
+  "is_function": false
+ },
+ "armen": {
+  "count": 1,
+  "occ": [
+   139
+  ],
+  "songs": [
+   2
+  ],
+  "samples": [
+   "Sie pfiff' den armen Flüchtling aus."
+  ],
+  "is_function": false
+ },
+ "Flüchtling": {
+  "count": 1,
+  "occ": [
+   140
+  ],
+  "songs": [
+   2
+  ],
+  "samples": [
+   "Sie pfiff' den armen Flüchtling aus."
+  ],
+  "is_function": false
+ },
+ "Er": {
+  "count": 1,
+  "occ": [
+   141
+  ],
+  "songs": [
+   2
+  ],
+  "samples": [
+   "Er hätt' es eher bemerken sollen,"
+  ],
+  "is_function": true
+ },
+ "hätt": {
+  "count": 2,
+  "occ": [
+   142,
+   151
+  ],
+  "songs": [
+   2
+  ],
+  "samples": [
+   "Er hätt' es eher bemerken sollen,",
+   "So hätt' er nimmer suchen wollen"
+  ],
+  "is_function": false
+ },
+ "es": {
+  "count": 14,
+  "occ": [
+   143,
+   192,
+   813,
+   947,
+   949,
+   989,
+   1044,
+   1083,
+   1153,
+   1279,
+   1471,
+   1480,
+   1614,
+   1617
+  ],
+  "songs": [
+   2,
+   3,
+   11,
+   13,
+   14,
+   15,
+   17,
+   19,
+   22,
+   24
+  ],
+  "samples": [
+   "Er hätt' es eher bemerken sollen,",
+   "Ob es mir denn entgangen,",
+   "Da war es kalt und finster,"
+  ],
+  "is_function": true
+ },
+ "eher": {
+  "count": 1,
+  "occ": [
+   144
+  ],
+  "songs": [
+   2
+  ],
+  "samples": [
+   "Er hätt' es eher bemerken sollen,"
+  ],
+  "is_function": false
+ },
+ "bemerken": {
+  "count": 1,
+  "occ": [
+   145
+  ],
+  "songs": [
+   2
+  ],
+  "samples": [
+   "Er hätt' es eher bemerken sollen,"
+  ],
+  "is_function": false
+ },
+ "sollen": {
+  "count": 1,
+  "occ": [
+   146
+  ],
+  "songs": [
+   2
+  ],
+  "samples": [
+   "Er hätt' es eher bemerken sollen,"
+  ],
+  "is_function": false
+ },
+ "Des": {
+  "count": 3,
+  "occ": [
+   147,
+   225,
+   1219
+  ],
+  "songs": [
+   2,
+   3,
+   18
+  ],
+  "samples": [
+   "Des Hauses aufgestecktes Schild,",
+   "Des ganzen Winters Eis.",
+   "Des Himmels graues Kleid!"
+  ],
+  "is_function": true
+ },
+ "Hauses": {
+  "count": 1,
+  "occ": [
+   147
+  ],
+  "songs": [
+   2
+  ],
+  "samples": [
+   "Des Hauses aufgestecktes Schild,"
+  ],
+  "is_function": false
+ },
+ "aufgestecktes": {
+  "count": 1,
+  "occ": [
+   148
+  ],
+  "songs": [
+   2
+  ],
+  "samples": [
+   "Des Hauses aufgestecktes Schild,"
+  ],
+  "is_function": false
+ },
+ "Schild": {
+  "count": 1,
+  "occ": [
+   149
+  ],
+  "songs": [
+   2
+  ],
+  "samples": [
+   "Des Hauses aufgestecktes Schild,"
+  ],
+  "is_function": false
+ },
+ "So": {
+  "count": 9,
+  "occ": [
+   150,
+   322,
+   330,
+   584,
+   759,
+   771,
+   791,
+   903,
+   1238
+  ],
+  "songs": [
+   2,
+   5,
+   8,
+   10,
+   11,
+   12,
+   18
+  ],
+  "samples": [
+   "So hätt' er nimmer suchen wollen",
+   "So manchen süßen Traum.",
+   "So manches liebe Wort;"
+  ],
+  "is_function": false
+ },
+ "er": {
+  "count": 6,
+  "occ": [
+   152,
+   1014,
+   1576,
+   1577,
+   1583,
+   1612
+  ],
+  "songs": [
+   2,
+   14,
+   24
+  ],
+  "samples": [
+   "So hätt' er nimmer suchen wollen",
+   "Doch bald ist er hinweggetaut,",
+   "Dreht er was er kann."
+  ],
+  "is_function": true
+ },
+ "nimmer": {
+  "count": 2,
+  "occ": [
+   153,
+   1623
+  ],
+  "songs": [
+   2,
+   24
+  ],
+  "samples": [
+   "So hätt' er nimmer suchen wollen",
+   "Steht ihm nimmer still."
+  ],
+  "is_function": false
+ },
+ "suchen": {
+  "count": 1,
+  "occ": [
+   154
+  ],
+  "songs": [
+   2
+  ],
+  "samples": [
+   "So hätt' er nimmer suchen wollen"
+  ],
+  "is_function": false
+ },
+ "wollen": {
+  "count": 2,
+  "occ": [
+   156,
+   427
+  ],
+  "songs": [
+   2,
+   6
+  ],
+  "samples": [
+   "So hätt' er nimmer suchen wollen",
+   "Wenn die Gräser sprossen wollen,"
+  ],
+  "is_function": false
+ },
+ "Im": {
+  "count": 3,
+  "occ": [
+   157,
+   507,
+   1561
+  ],
+  "songs": [
+   2,
+   7,
+   23
+  ],
+  "samples": [
+   "Im Haus' ein treues Frauenbild.",
+   "Im Sande ausgestreckt.",
+   "Im Dunkeln wird mir wohler sein."
+  ],
+  "is_function": true
+ },
+ "treues": {
+  "count": 1,
+  "occ": [
+   159
+  ],
+  "songs": [
+   2
+  ],
+  "samples": [
+   "Im Haus' ein treues Frauenbild."
+  ],
+  "is_function": false
+ },
+ "Frauenbild": {
+  "count": 1,
+  "occ": [
+   160
+  ],
+  "songs": [
+   2
+  ],
+  "samples": [
+   "Im Haus' ein treues Frauenbild."
+  ],
+  "is_function": false
+ },
+ "drinnen": {
+  "count": 1,
+  "occ": [
+   163
+  ],
+  "songs": [
+   2
+  ],
+  "samples": [
+   "Der Wind spielt drinnen mit den Herzen,"
+  ],
+  "is_function": false
+ },
+ "Herzen": {
+  "count": 2,
+  "occ": [
+   165,
+   844
+  ],
+  "songs": [
+   2,
+   11
+  ],
+  "samples": [
+   "Der Wind spielt drinnen mit den Herzen,",
+   "Von Herzen und von Küssen,"
+  ],
+  "is_function": false
+ },
+ "Wie": {
+  "count": 8,
+  "occ": [
+   166,
+   209,
+   490,
+   601,
+   663,
+   889,
+   1026,
+   1216
+  ],
+  "songs": [
+   2,
+   3,
+   7,
+   8,
+   9,
+   12,
+   14,
+   18
+  ],
+  "samples": [
+   "Wie auf dem Dach, nur nicht so laut.",
+   "Wie kühler Morgentau?",
+   "Wie still bist du geworden,"
+  ],
+  "is_function": true
+ },
+ "Dach": {
+  "count": 2,
+  "occ": [
+   168,
+   820
+  ],
+  "songs": [
+   2,
+   11
+  ],
+  "samples": [
+   "Wie auf dem Dach, nur nicht so laut.",
+   "Es schrien die Raben vom Dach."
+  ],
+  "is_function": false
+ },
+ "nur": {
+  "count": 5,
+  "occ": [
+   169,
+   455,
+   1196,
+   1442,
+   1557
+  ],
+  "songs": [
+   2,
+   6,
+   17,
+   21,
+   23
+  ],
+  "samples": [
+   "Wie auf dem Dach, nur nicht so laut.",
+   "Folge nach nur meinen Tränen,",
+   "Bellt mich nur fort, ihr wachen Hunde,"
+  ],
+  "is_function": true
+ },
+ "laut": {
+  "count": 1,
+  "occ": [
+   171
+  ],
+  "songs": [
+   2
+  ],
+  "samples": [
+   "Wie auf dem Dach, nur nicht so laut."
+  ],
+  "is_function": false
+ },
+ "fragen": {
+  "count": 2,
+  "occ": [
+   173,
+   987
+  ],
+  "songs": [
+   2,
+   13
+  ],
+  "samples": [
+   "Was fragen sie nach meinen Schmerzen?",
+   "Und fragen, wie es dort mag gehn,"
+  ],
+  "is_function": false
+ },
+ "nach": {
+  "count": 7,
+  "occ": [
+   175,
+   454,
+   729,
+   864,
+   1111,
+   1240,
+   1268
+  ],
+  "songs": [
+   2,
+   6,
+   10,
+   11,
+   16,
+   18,
+   19
+  ],
+  "samples": [
+   "Was fragen sie nach meinen Schmerzen?",
+   "Folge nach nur meinen Tränen,",
+   "Die Füße frugen nicht nach Rast,"
+  ],
+  "is_function": true
+ },
+ "Schmerzen": {
+  "count": 2,
+  "occ": [
+   177,
+   284
+  ],
+  "songs": [
+   2,
+   4
+  ],
+  "samples": [
+   "Was fragen sie nach meinen Schmerzen?",
+   "Wenn meine Schmerzen schweigen,"
+  ],
+  "is_function": false
+ },
+ "Ihr": {
+  "count": 4,
+  "occ": [
+   178,
+   212,
+   828,
+   1400
+  ],
+  "songs": [
+   2,
+   3,
+   11,
+   21
+  ],
+  "samples": [
+   "Ihr Kind ist eine reiche Braut.",
+   "Und / Ihr dringt doch aus der Quelle",
+   "Ihr lacht wohl über den Träumer,"
+  ],
+  "is_function": true
+ },
+ "Kind": {
+  "count": 1,
+  "occ": [
+   179
+  ],
+  "songs": [
+   2
+  ],
+  "samples": [
+   "Ihr Kind ist eine reiche Braut."
+  ],
+  "is_function": false
+ },
+ "eine": {
+  "count": 4,
+  "occ": [
+   181,
+   262,
+   890,
+   1308
+  ],
+  "songs": [
+   2,
+   4,
+   12,
+   19
+  ],
+  "samples": [
+   "Ihr Kind ist eine reiche Braut.",
+   "Wo find' ich eine Blüte,",
+   "Wie eine trübe Wolke"
+  ],
+  "is_function": true
+ },
+ "reiche": {
+  "count": 1,
+  "occ": [
+   181
+  ],
+  "songs": [
+   2
+  ],
+  "samples": [
+   "Ihr Kind ist eine reiche Braut."
+  ],
+  "is_function": false
+ },
+ "Braut": {
+  "count": 1,
+  "occ": [
+   182
+  ],
+  "songs": [
+   2
+  ],
+  "samples": [
+   "Ihr Kind ist eine reiche Braut."
+  ],
+  "is_function": false
+ },
+ "Gefrorne": {
+  "count": 1,
+  "occ": [
+   183
+  ],
+  "songs": [
+   3
+  ],
+  "samples": [
+   "Gefrorne Tropfen fallen"
+  ],
+  "is_function": false
+ },
+ "Tropfen": {
+  "count": 1,
+  "occ": [
+   184
+  ],
+  "songs": [
+   3
+  ],
+  "samples": [
+   "Gefrorne Tropfen fallen"
+  ],
+  "is_function": false
+ },
+ "fallen": {
+  "count": 1,
+  "occ": [
+   185
+  ],
+  "songs": [
+   3
+  ],
+  "samples": [
+   "Gefrorne Tropfen fallen"
+  ],
+  "is_function": false
+ },
+ "ab": {
+  "count": 3,
+  "occ": [
+   185,
+   1135,
+   1436
+  ],
+  "songs": [
+   3,
+   16,
+   21
+  ],
+  "samples": [
+   "Gefrorne Tropfen fallen",
+   "Fällt mit ihm die Hoffnung ab,",
+   "Doch weisest du mich ab?"
+  ],
+  "is_function": false
+ },
+ "Wangen": {
+  "count": 1,
+  "occ": [
+   188
+  ],
+  "songs": [
+   3
+  ],
+  "samples": [
+   "Von meinen Wangen ab:"
+  ],
+  "is_function": false
+ },
+ "Ob": {
+  "count": 2,
+  "occ": [
+   189,
+   551
+  ],
+  "songs": [
+   3,
+   7
+  ],
+  "samples": [
+   "Ob es mir denn entgangen,",
+   "Ob's unter seiner Rinde"
+  ],
+  "is_function": true
+ },
+ "denn": {
+  "count": 6,
+  "occ": [
+   189,
+   274,
+   962,
+   1318,
+   1414,
+   1441
+  ],
+  "songs": [
+   3,
+   4,
+   13,
+   20,
+   21
+  ],
+  "samples": [
+   "Ob es mir denn entgangen,",
+   "Soll denn kein Angedenken",
+   "Was drängst du denn so wunderlich,"
+  ],
+  "is_function": false
+ },
+ "entgangen": {
+  "count": 1,
+  "occ": [
+   192
+  ],
+  "songs": [
+   3
+  ],
+  "samples": [
+   "Ob es mir denn entgangen,"
+  ],
+  "is_function": false
+ },
+ "geweinet": {
+  "count": 1,
+  "occ": [
+   195
+  ],
+  "songs": [
+   3
+  ],
+  "samples": [
+   "Dass ich geweinet hab'?"
+  ],
+  "is_function": false
+ },
+ "Ei": {
+  "count": 1,
+  "occ": [
+   196
+  ],
+  "songs": [
+   3
+  ],
+  "samples": [
+   "Ei Tränen, meine Tränen,"
+  ],
+  "is_function": false
+ },
+ "Tränen": {
+  "count": 5,
+  "occ": [
+   197,
+   199,
+   253,
+   457,
+   475
+  ],
+  "songs": [
+   3,
+   4,
+   6
+  ],
+  "samples": [
+   "Ei Tränen, meine Tränen,",
+   "Mit meinen heißen Tränen,",
+   "Folge nach nur meinen Tränen,"
+  ],
+  "is_function": false
+ },
+ "meine": {
+  "count": 7,
+  "occ": [
+   198,
+   283,
+   474,
+   754,
+   906,
+   1115,
+   1535
+  ],
+  "songs": [
+   3,
+   4,
+   6,
+   10,
+   12,
+   16,
+   23
+  ],
+  "samples": [
+   "Ei Tränen, meine Tränen,",
+   "Wenn meine Schmerzen schweigen,",
+   "Fühlst du meine Tränen glühen,"
+  ],
+  "is_function": true
+ },
+ "seid": {
+  "count": 2,
+  "occ": [
+   201,
+   1537
+  ],
+  "songs": [
+   3,
+   23
+  ],
+  "samples": [
+   "Und seid ihr gar so lau,",
+   "Ach, meine Sonnen seid ihr nicht!"
+  ],
+  "is_function": true
+ },
+ "ihr": {
+  "count": 10,
+  "occ": [
+   202,
+   207,
+   222,
+   291,
+   299,
+   308,
+   878,
+   1179,
+   1198,
+   1539
+  ],
+  "songs": [
+   3,
+   4,
+   11,
+   17,
+   23
+  ],
+  "samples": [
+   "Und seid ihr gar so lau,",
+   "Dass ihr erstarrt zu Eise,",
+   "Als wolltet ihr zerschmelzen"
+  ],
+  "is_function": true
+ },
+ "lau": {
+  "count": 1,
+  "occ": [
+   205
+  ],
+  "songs": [
+   3
+  ],
+  "samples": [
+   "Und seid ihr gar so lau,"
+  ],
+  "is_function": false
+ },
+ "erstarrt": {
+  "count": 1,
+  "occ": [
+   208
+  ],
+  "songs": [
+   3
+  ],
+  "samples": [
+   "Dass ihr erstarrt zu Eise,"
+  ],
+  "is_function": false
+ },
+ "Eise": {
+  "count": 2,
+  "occ": [
+   208,
+   1581
+  ],
+  "songs": [
+   3,
+   24
+  ],
+  "samples": [
+   "Dass ihr erstarrt zu Eise,",
+   "Barfuß auf dem Eise"
+  ],
+  "is_function": false
+ },
+ "kühler": {
+  "count": 1,
+  "occ": [
+   210
+  ],
+  "songs": [
+   3
+  ],
+  "samples": [
+   "Wie kühler Morgentau?"
+  ],
+  "is_function": false
+ },
+ "Morgentau": {
+  "count": 1,
+  "occ": [
+   211
+  ],
+  "songs": [
+   3
+  ],
+  "samples": [
+   "Wie kühler Morgentau?"
+  ],
+  "is_function": false
+ },
+ "doch": {
+  "count": 4,
+  "occ": [
+   213,
+   449,
+   1334,
+   1542
+  ],
+  "songs": [
+   3,
+   6,
+   20,
+   23
+  ],
+  "samples": [
+   "Und / Ihr dringt doch aus der Quelle",
+   "Sag, wohin doch geht dein Lauf?",
+   "Habe ja doch nichts begangen,"
+  ],
+  "is_function": false
+ },
+ "dringt": {
+  "count": 1,
+  "occ": [
+   214
+  ],
+  "songs": [
+   3
+  ],
+  "samples": [
+   "Und / Ihr dringt doch aus der Quelle"
+  ],
+  "is_function": false
+ },
+ "Quelle": {
+  "count": 1,
+  "occ": [
+   216
+  ],
+  "songs": [
+   3
+  ],
+  "samples": [
+   "Und / Ihr dringt doch aus der Quelle"
+  ],
+  "is_function": false
+ },
+ "Brust": {
+  "count": 1,
+  "occ": [
+   217
+  ],
+  "songs": [
+   3
+  ],
+  "samples": [
+   "Der Brust so glühend heiß,"
+  ],
+  "is_function": false
+ },
+ "glühend": {
+  "count": 1,
+  "occ": [
+   219
+  ],
+  "songs": [
+   3
+  ],
+  "samples": [
+   "Der Brust so glühend heiß,"
+  ],
+  "is_function": false
+ },
+ "heiß": {
+  "count": 1,
+  "occ": [
+   220
+  ],
+  "songs": [
+   3
+  ],
+  "samples": [
+   "Der Brust so glühend heiß,"
+  ],
+  "is_function": false
+ },
+ "wolltet": {
+  "count": 1,
+  "occ": [
+   223
+  ],
+  "songs": [
+   3
+  ],
+  "samples": [
+   "Als wolltet ihr zerschmelzen"
+  ],
+  "is_function": false
+ },
+ "zerschmelzen": {
+  "count": 1,
+  "occ": [
+   224
+  ],
+  "songs": [
+   3
+  ],
+  "samples": [
+   "Als wolltet ihr zerschmelzen"
+  ],
+  "is_function": false
+ },
+ "ganzen": {
+  "count": 2,
+  "occ": [
+   225,
+   1048
+  ],
+  "songs": [
+   3,
+   14
+  ],
+  "samples": [
+   "Des ganzen Winters Eis.",
+   "Auf dieser ganzen Reise!"
+  ],
+  "is_function": false
+ },
+ "Winters": {
+  "count": 1,
+  "occ": [
+   226
+  ],
+  "songs": [
+   3
+  ],
+  "samples": [
+   "Des ganzen Winters Eis."
+  ],
+  "is_function": false
+ },
+ "Eis": {
+  "count": 5,
+  "occ": [
+   227,
+   248,
+   433,
+   567,
+   1297
+  ],
+  "songs": [
+   3,
+   4,
+   6,
+   8,
+   19
+  ],
+  "samples": [
+   "Des ganzen Winters Eis.",
+   "Durchdringen Eis und Schnee",
+   "Und das Eis zerspringt in Schollen,"
+  ],
+  "is_function": false
+ },
+ "such": {
+  "count": 1,
+  "occ": [
+   229
+  ],
+  "songs": [
+   4
+  ],
+  "samples": [
+   "Ich such' im Schnee vergebens"
+  ],
+  "is_function": false
+ },
+ "Nach": {
+  "count": 1,
+  "occ": [
+   229
+  ],
+  "songs": [
+   4
+  ],
+  "samples": [
+   "Ich such' im Schnee vergebens"
+  ],
+  "is_function": true
+ },
+ "vergebens": {
+  "count": 1,
+  "occ": [
+   232
+  ],
+  "songs": [
+   4
+  ],
+  "samples": [
+   "Ich such' im Schnee vergebens"
+  ],
+  "is_function": false
+ },
+ "ihrer": {
+  "count": 1,
+  "occ": [
+   233
+  ],
+  "songs": [
+   4
+  ],
+  "samples": [
+   "Nach ihrer Tritte Spur,"
+  ],
+  "is_function": true
+ },
+ "Tritte": {
+  "count": 1,
+  "occ": [
+   234
+  ],
+  "songs": [
+   4
+  ],
+  "samples": [
+   "Nach ihrer Tritte Spur,"
+  ],
+  "is_function": false
+ },
+ "Spur": {
+  "count": 1,
+  "occ": [
+   235
+  ],
+  "songs": [
+   4
+  ],
+  "samples": [
+   "Nach ihrer Tritte Spur,"
+  ],
+  "is_function": false
+ },
+ "Wo": {
+  "count": 5,
+  "occ": [
+   236,
+   259,
+   263,
+   974,
+   1322
+  ],
+  "songs": [
+   4,
+   13,
+   20
+  ],
+  "samples": [
+   "Wo sie an meinem Arme",
+   "Wo find' ich eine Blüte,",
+   "Wo find' ich grünes Gras?"
+  ],
+  "is_function": false
+ },
+ "an": {
+  "count": 8,
+  "occ": [
+   239,
+   528,
+   580,
+   822,
+   1095,
+   1245,
+   1276,
+   1603
+  ],
+  "songs": [
+   4,
+   7,
+   8,
+   11,
+   16,
+   18,
+   19,
+   24
+  ],
+  "samples": [
+   "Wo sie an meinem Arme",
+   "Den Tag, an dem ich ging,",
+   "Hab' mich an jeden Stein gestoßen,"
+  ],
+  "is_function": true
+ },
+ "Arme": {
+  "count": 1,
+  "occ": [
+   239
+  ],
+  "songs": [
+   4
+  ],
+  "samples": [
+   "Wo sie an meinem Arme"
+  ],
+  "is_function": false
+ },
+ "Durchstrich": {
+  "count": 1,
+  "occ": [
+   240
+  ],
+  "songs": [
+   4
+  ],
+  "samples": [
+   "Durchstrich die grüne Flur."
+  ],
+  "is_function": false
+ },
+ "grüne": {
+  "count": 1,
+  "occ": [
+   241
+  ],
+  "songs": [
+   4
+  ],
+  "samples": [
+   "Durchstrich die grüne Flur."
+  ],
+  "is_function": false
+ },
+ "Flur": {
+  "count": 1,
+  "occ": [
+   242
+  ],
+  "songs": [
+   4
+  ],
+  "samples": [
+   "Durchstrich die grüne Flur."
+  ],
+  "is_function": false
+ },
+ "will": {
+  "count": 4,
+  "occ": [
+   244,
+   1212,
+   1394,
+   1617
+  ],
+  "songs": [
+   4,
+   17,
+   21,
+   24
+  ],
+  "samples": [
+   "Ich will den Boden küssen,",
+   "Was will ich unter den Schläfern säumen?",
+   "Allhier will ich einkehren:"
+  ],
+  "is_function": false
+ },
+ "Boden": {
+  "count": 3,
+  "occ": [
+   245,
+   1134,
+   1144
+  ],
+  "songs": [
+   4,
+   16
+  ],
+  "samples": [
+   "Ich will den Boden küssen,",
+   "Ach, und fällt das Blatt zu Boden,",
+   "Fall' ich selber mit zu Boden,"
+  ],
+  "is_function": false
+ },
+ "küssen": {
+  "count": 1,
+  "occ": [
+   246
+  ],
+  "songs": [
+   4
+  ],
+  "samples": [
+   "Ich will den Boden küssen,"
+  ],
+  "is_function": false
+ },
+ "Durchdringen": {
+  "count": 1,
+  "occ": [
+   247
+  ],
+  "songs": [
+   4
+  ],
+  "samples": [
+   "Durchdringen Eis und Schnee"
+  ],
+  "is_function": false
+ },
+ "und": {
+  "count": 30,
+  "occ": [
+   249,
+   336,
+   469,
+   505,
+   522,
+   533,
+   568,
+   593,
+   615,
+   769,
+   773,
+   815,
+   845,
+   848,
+   916,
+   1058,
+   1094,
+   1130,
+   1169,
+   1257,
+   1269,
+   1274,
+   1298,
+   1300,
+   1364,
+   1466,
+   1493,
+   1515,
+   1585,
+   1619
+  ],
+  "songs": [
+   4,
+   5,
+   6,
+   7,
+   8,
+   10,
+   11,
+   12,
+   15,
+   16,
+   17,
+   18,
+   19,
+   20,
+   22,
+   23,
+   24
+  ],
+  "samples": [
+   "Durchdringen Eis und Schnee",
+   "Es zog in Freud' und Leide",
+   "Muntre Straßen ein und aus:"
+  ],
+  "is_function": true
+ },
+ "heißen": {
+  "count": 1,
+  "occ": [
+   252
+  ],
+  "songs": [
+   4
+  ],
+  "samples": [
+   "Mit meinen heißen Tränen,"
+  ],
+  "is_function": false
+ },
+ "Bis": {
+  "count": 2,
+  "occ": [
+   254,
+   575
+  ],
+  "songs": [
+   4,
+   8
+  ],
+  "samples": [
+   "Bis ich die Erde seh'.",
+   "Bis ich nicht mehr die Türme seh'."
+  ],
+  "is_function": false
+ },
+ "Erde": {
+  "count": 1,
+  "occ": [
+   256
+  ],
+  "songs": [
+   4
+  ],
+  "samples": [
+   "Bis ich die Erde seh'."
+  ],
+  "is_function": false
+ },
+ "seh": {
+  "count": 3,
+  "occ": [
+   258,
+   579,
+   1368
+  ],
+  "songs": [
+   4,
+   8,
+   20
+  ],
+  "samples": [
+   "Bis ich die Erde seh'.",
+   "Bis ich nicht mehr die Türme seh'.",
+   "Einen Weiser seh' ich stehen"
+  ],
+  "is_function": false
+ },
+ "find": {
+  "count": 2,
+  "occ": [
+   260,
+   264
+  ],
+  "songs": [
+   4
+  ],
+  "samples": [
+   "Wo find' ich eine Blüte,",
+   "Wo find' ich grünes Gras?"
+  ],
+  "is_function": false
+ },
+ "Blüte": {
+  "count": 1,
+  "occ": [
+   262
+  ],
+  "songs": [
+   4
+  ],
+  "samples": [
+   "Wo find' ich eine Blüte,"
+  ],
+  "is_function": false
+ },
+ "grünes": {
+  "count": 1,
+  "occ": [
+   266
+  ],
+  "songs": [
+   4
+  ],
+  "samples": [
+   "Wo find' ich grünes Gras?"
+  ],
+  "is_function": false
+ },
+ "Gras": {
+  "count": 1,
+  "occ": [
+   267
+  ],
+  "songs": [
+   4
+  ],
+  "samples": [
+   "Wo find' ich grünes Gras?"
+  ],
+  "is_function": false
+ },
+ "Blumen": {
+  "count": 3,
+  "occ": [
+   268,
+   790,
+   834
+  ],
+  "songs": [
+   4,
+   11
+  ],
+  "samples": [
+   "Die Blumen sind erstorben,",
+   "Ich träumte von bunten Blumen,",
+   "Der Blumen im Winter sah?"
+  ],
+  "is_function": false
+ },
+ "sind": {
+  "count": 2,
+  "occ": [
+   269,
+   1553
+  ],
+  "songs": [
+   4,
+   23
+  ],
+  "samples": [
+   "Die Blumen sind erstorben,",
+   "Nun sind hinab die besten zwei."
+  ],
+  "is_function": true
+ },
+ "erstorben": {
+  "count": 2,
+  "occ": [
+   269,
+   296
+  ],
+  "songs": [
+   4
+  ],
+  "samples": [
+   "Die Blumen sind erstorben,",
+   "Mein Herz ist wie erstorben,"
+  ],
+  "is_function": false
+ },
+ "Rasen": {
+  "count": 1,
+  "occ": [
+   270
+  ],
+  "songs": [
+   4
+  ],
+  "samples": [
+   "Der Rasen sieht so blass."
+  ],
+  "is_function": false
+ },
+ "sieht": {
+  "count": 3,
+  "occ": [
+   271,
+   1244,
+   1602
+  ],
+  "songs": [
+   4,
+   18,
+   24
+  ],
+  "samples": [
+   "Der Rasen sieht so blass.",
+   "Mein Herz sieht an dem Himmel",
+   "Keiner sieht ihn an;"
+  ],
+  "is_function": false
+ },
+ "blass": {
+  "count": 1,
+  "occ": [
+   273
+  ],
+  "songs": [
+   4
+  ],
+  "samples": [
+   "Der Rasen sieht so blass."
+  ],
+  "is_function": false
+ },
+ "kein": {
+  "count": 2,
+  "occ": [
+   275,
+   1498
+  ],
+  "songs": [
+   4,
+   22
+  ],
+  "samples": [
+   "Soll denn kein Angedenken",
+   "Will kein Gott auf Erden sein,"
+  ],
+  "is_function": true
+ },
+ "Angedenken": {
+  "count": 1,
+  "occ": [
+   276
+  ],
+  "songs": [
+   4
+  ],
+  "samples": [
+   "Soll denn kein Angedenken"
+  ],
+  "is_function": false
+ },
+ "Soll": {
+  "count": 2,
+  "occ": [
+   277,
+   1628
+  ],
+  "songs": [
+   4,
+   24
+  ],
+  "samples": [
+   "Ich nehmen mit von hier?",
+   "Soll ich mit dir gehn?"
+  ],
+  "is_function": false
+ },
+ "nehmen": {
+  "count": 1,
+  "occ": [
+   279
+  ],
+  "songs": [
+   4
+  ],
+  "samples": [
+   "Ich nehmen mit von hier?"
+  ],
+  "is_function": false
+ },
+ "hier": {
+  "count": 3,
+  "occ": [
+   281,
+   861,
+   1075
+  ],
+  "songs": [
+   4,
+   11,
+   15
+  ],
+  "samples": [
+   "Ich nehmen mit von hier?",
+   "Nun sitz' ich hier alleine",
+   "Meinst wohl bald als Beute hier"
+  ],
+  "is_function": false
+ },
+ "Wenn": {
+  "count": 4,
+  "occ": [
+   282,
+   424,
+   896,
+   1457
+  ],
+  "songs": [
+   4,
+   6,
+   12,
+   22
+  ],
+  "samples": [
+   "Wenn meine Schmerzen schweigen,",
+   "Wenn die Gräser sprossen wollen,",
+   "Wenn in der Tanne Wipfel"
+  ],
+  "is_function": false
+ },
+ "schweigen": {
+  "count": 1,
+  "occ": [
+   285
+  ],
+  "songs": [
+   4
+  ],
+  "samples": [
+   "Wenn meine Schmerzen schweigen,"
+  ],
+  "is_function": false
+ },
+ "Wer": {
+  "count": 3,
+  "occ": [
+   286,
+   824,
+   1039
+  ],
+  "songs": [
+   4,
+   11,
+   14
+  ],
+  "samples": [
+   "Wer sagt mir dann von ihr?",
+   "Wer malte die Blätter da?",
+   "Wer glaubt's? Und meiner ward es nicht"
+  ],
+  "is_function": false
+ },
+ "sagt": {
+  "count": 2,
+  "occ": [
+   287,
+   1473
+  ],
+  "songs": [
+   4,
+   22
+  ],
+  "samples": [
+   "Wer sagt mir dann von ihr?",
+   "Höre nicht, was es mir sagt,"
+  ],
+  "is_function": false
+ },
+ "dann": {
+  "count": 1,
+  "occ": [
+   289
+  ],
+  "songs": [
+   4
+  ],
+  "samples": [
+   "Wer sagt mir dann von ihr?"
+  ],
+  "is_function": true
+ },
+ "Mein": {
+  "count": 8,
+  "occ": [
+   292,
+   538,
+   953,
+   967,
+   979,
+   993,
+   1242,
+   1444
+  ],
+  "songs": [
+   4,
+   7,
+   13,
+   18,
+   21
+  ],
+  "samples": [
+   "Mein Herz ist wie erstorben,",
+   "Mein Herz, in diesem Bache",
+   "Mein Herz?"
+  ],
+  "is_function": true
+ },
+ "Herz": {
+  "count": 11,
+  "occ": [
+   293,
+   304,
+   539,
+   766,
+   873,
+   954,
+   968,
+   980,
+   994,
+   1243,
+   1459
+  ],
+  "songs": [
+   4,
+   7,
+   10,
+   11,
+   13,
+   18,
+   22
+  ],
+  "samples": [
+   "Mein Herz ist wie erstorben,",
+   "Schmilzt je das Herz mir wieder,",
+   "Mein Herz, in diesem Bache"
+  ],
+  "is_function": false
+ },
+ "wie": {
+  "count": 6,
+  "occ": [
+   295,
+   712,
+   792,
+   988,
+   1284,
+   1616
+  ],
+  "songs": [
+   4,
+   10,
+   11,
+   13,
+   19,
+   24
+  ],
+  "samples": [
+   "Mein Herz ist wie erstorben,",
+   "Nun merk' ich erst, wie müd' ich bin,",
+   "So wie sie wohl blühen im Mai,"
+  ],
+  "is_function": true
+ },
+ "erfroren": {
+  "count": 1,
+  "occ": [
+   296
+  ],
+  "songs": [
+   4
+  ],
+  "samples": [
+   "Mein Herz ist wie erstorben,"
+  ],
+  "is_function": false
+ },
+ "Kalt": {
+  "count": 1,
+  "occ": [
+   297
+  ],
+  "songs": [
+   4
+  ],
+  "samples": [
+   "Kalt starrt ihr Bild darin:"
+  ],
+  "is_function": false
+ },
+ "starrt": {
+  "count": 1,
+  "occ": [
+   298
+  ],
+  "songs": [
+   4
+  ],
+  "samples": [
+   "Kalt starrt ihr Bild darin:"
+  ],
+  "is_function": false
+ },
+ "Bild": {
+  "count": 4,
+  "occ": [
+   300,
+   309,
+   547,
+   1250
+  ],
+  "songs": [
+   4,
+   7,
+   18
+  ],
+  "samples": [
+   "Kalt starrt ihr Bild darin:",
+   "Fließt auch ihr Bild dahin.",
+   "Erkennst du nun dein Bild?"
+  ],
+  "is_function": false
+ },
+ "darin": {
+  "count": 1,
+  "occ": [
+   301
+  ],
+  "songs": [
+   4
+  ],
+  "samples": [
+   "Kalt starrt ihr Bild darin:"
+  ],
+  "is_function": false
+ },
+ "Schmilzt": {
+  "count": 1,
+  "occ": [
+   303
+  ],
+  "songs": [
+   4
+  ],
+  "samples": [
+   "Schmilzt je das Herz mir wieder,"
+  ],
+  "is_function": false
+ },
+ "je": {
+  "count": 1,
+  "occ": [
+   303
+  ],
+  "songs": [
+   4
+  ],
+  "samples": [
+   "Schmilzt je das Herz mir wieder,"
+  ],
+  "is_function": false
+ },
+ "Fließt": {
+  "count": 1,
+  "occ": [
+   306
+  ],
+  "songs": [
+   4
+  ],
+  "samples": [
+   "Fließt auch ihr Bild dahin."
+  ],
+  "is_function": false
+ },
+ "auch": {
+  "count": 7,
+  "occ": [
+   307,
+   344,
+   553,
+   562,
+   702,
+   1522,
+   1549
+  ],
+  "songs": [
+   4,
+   5,
+   7,
+   8,
+   9,
+   23
+  ],
+  "samples": [
+   "Fließt auch ihr Bild dahin.",
+   "Ich musst' auch heute wandern",
+   "Wohl auch so reißend schwillt?"
+  ],
+  "is_function": true
+ },
+ "dahin": {
+  "count": 1,
+  "occ": [
+   310
+  ],
+  "songs": [
+   4
+  ],
+  "samples": [
+   "Fließt auch ihr Bild dahin."
+  ],
+  "is_function": false
+ },
+ "Am": {
+  "count": 1,
+  "occ": [
+   311
+  ],
+  "songs": [
+   5
+  ],
+  "samples": [
+   "Am Brunnen vor dem Tore,"
+  ],
+  "is_function": true
+ },
+ "Brunnen": {
+  "count": 1,
+  "occ": [
+   312
+  ],
+  "songs": [
+   5
+  ],
+  "samples": [
+   "Am Brunnen vor dem Tore,"
+  ],
+  "is_function": false
+ },
+ "vor": {
+  "count": 5,
+  "occ": [
+   313,
+   1022,
+   1104,
+   1262,
+   1372
+  ],
+  "songs": [
+   5,
+   14,
+   16,
+   19,
+   20
+  ],
+  "samples": [
+   "Am Brunnen vor dem Tore,",
+   "Dass mir's vor meiner Jugend graut —",
+   "Und ich bleibe vor den Bäumen"
+  ],
+  "is_function": true
+ },
+ "Tore": {
+  "count": 1,
+  "occ": [
+   314
+  ],
+  "songs": [
+   5
+  ],
+  "samples": [
+   "Am Brunnen vor dem Tore,"
+  ],
+  "is_function": false
+ },
+ "steht": {
+  "count": 1,
+  "occ": [
+   316
+  ],
+  "songs": [
+   5
+  ],
+  "samples": [
+   "Da steht ein Lindenbaum:"
+  ],
+  "is_function": false
+ },
+ "Lindenbaum": {
+  "count": 1,
+  "occ": [
+   317
+  ],
+  "songs": [
+   5
+  ],
+  "samples": [
+   "Da steht ein Lindenbaum:"
+  ],
+  "is_function": false
+ },
+ "träumt": {
+  "count": 1,
+  "occ": [
+   318
+  ],
+  "songs": [
+   5
+  ],
+  "samples": [
+   "Ich träumt' in seinem Schatten"
+  ],
+  "is_function": false
+ },
+ "seinem": {
+  "count": 1,
+  "occ": [
+   320
+  ],
+  "songs": [
+   5
+  ],
+  "samples": [
+   "Ich träumt' in seinem Schatten"
+  ],
+  "is_function": true
+ },
+ "Schatten": {
+  "count": 1,
+  "occ": [
+   321
+  ],
+  "songs": [
+   5
+  ],
+  "samples": [
+   "Ich träumt' in seinem Schatten"
+  ],
+  "is_function": false
+ },
+ "manchen": {
+  "count": 1,
+  "occ": [
+   322
+  ],
+  "songs": [
+   5
+  ],
+  "samples": [
+   "So manchen süßen Traum."
+  ],
+  "is_function": false
+ },
+ "süßen": {
+  "count": 1,
+  "occ": [
+   323
+  ],
+  "songs": [
+   5
+  ],
+  "samples": [
+   "So manchen süßen Traum."
+  ],
+  "is_function": false
+ },
+ "schnitt": {
+  "count": 1,
+  "occ": [
+   326
+  ],
+  "songs": [
+   5
+  ],
+  "samples": [
+   "Ich schnitt in seine Rinde"
+  ],
+  "is_function": false
+ },
+ "seine": {
+  "count": 3,
+  "occ": [
+   328,
+   358,
+   1620
+  ],
+  "songs": [
+   5,
+   24
+  ],
+  "samples": [
+   "Ich schnitt in seine Rinde",
+   "Und seine Zweige rauschten,",
+   "Dreht, und seine Leier"
+  ],
+  "is_function": true
+ },
+ "Rinde": {
+  "count": 3,
+  "occ": [
+   329,
+   499,
+   552
+  ],
+  "songs": [
+   5,
+   7
+  ],
+  "samples": [
+   "Ich schnitt in seine Rinde",
+   "Mit harter, starrer Rinde",
+   "Ob's unter seiner Rinde"
+  ],
+  "is_function": false
+ },
+ "manches": {
+  "count": 1,
+  "occ": [
+   330
+  ],
+  "songs": [
+   5
+  ],
+  "samples": [
+   "So manches liebe Wort;"
+  ],
+  "is_function": false
+ },
+ "liebe": {
+  "count": 2,
+  "occ": [
+   331,
+   1308
+  ],
+  "songs": [
+   5,
+   19
+  ],
+  "samples": [
+   "So manches liebe Wort;",
+   "Und eine liebe Seele drin —"
+  ],
+  "is_function": false
+ },
+ "Wort": {
+  "count": 1,
+  "occ": [
+   332
+  ],
+  "songs": [
+   5
+  ],
+  "samples": [
+   "So manches liebe Wort;"
+  ],
+  "is_function": false
+ },
+ "zog": {
+  "count": 1,
+  "occ": [
+   333
+  ],
+  "songs": [
+   5
+  ],
+  "samples": [
+   "Es zog in Freud' und Leide"
+  ],
+  "is_function": false
+ },
+ "Freud": {
+  "count": 1,
+  "occ": [
+   335
+  ],
+  "songs": [
+   5
+  ],
+  "samples": [
+   "Es zog in Freud' und Leide"
+  ],
+  "is_function": false
+ },
+ "Leide": {
+  "count": 1,
+  "occ": [
+   337
+  ],
+  "songs": [
+   5
+  ],
+  "samples": [
+   "Es zog in Freud' und Leide"
+  ],
+  "is_function": false
+ },
+ "Zu": {
+  "count": 1,
+  "occ": [
+   338
+  ],
+  "songs": [
+   5
+  ],
+  "samples": [
+   "Zu ihm mich immer fort."
+  ],
+  "is_function": true
+ },
+ "ihm": {
+  "count": 8,
+  "occ": [
+   339,
+   464,
+   1137,
+   1267,
+   1272,
+   1277,
+   1592,
+   1622
+  ],
+  "songs": [
+   5,
+   6,
+   16,
+   19,
+   24
+  ],
+  "samples": [
+   "Zu ihm mich immer fort.",
+   "Wirst mit ihm die Stadt durchziehen,",
+   "Fällt mit ihm die Hoffnung ab,"
+  ],
+  "is_function": true
+ },
+ "immer": {
+  "count": 3,
+  "occ": [
+   341,
+   401,
+   1593
+  ],
+  "songs": [
+   5,
+   24
+  ],
+  "samples": [
+   "Zu ihm mich immer fort.",
+   "Und immer hör' ich's rauschen:",
+   "Bleibt ihm immer leer."
+  ],
+  "is_function": false
+ },
+ "fort": {
+  "count": 3,
+  "occ": [
+   341,
+   742,
+   1197
+  ],
+  "songs": [
+   5,
+   10,
+   17
+  ],
+  "samples": [
+   "Zu ihm mich immer fort.",
+   "Der Sturm half fort mich wehen.",
+   "Bellt mich nur fort, ihr wachen Hunde,"
+  ],
+  "is_function": false
+ },
+ "musst": {
+  "count": 1,
+  "occ": [
+   343
+  ],
+  "songs": [
+   5
+  ],
+  "samples": [
+   "Ich musst' auch heute wandern"
+  ],
+  "is_function": false
+ },
+ "heute": {
+  "count": 2,
+  "occ": [
+   345,
+   1057
+  ],
+  "songs": [
+   5,
+   15
+  ],
+  "samples": [
+   "Ich musst' auch heute wandern",
+   "Ist bis heute für und für"
+  ],
+  "is_function": false
+ },
+ "wandern": {
+  "count": 1,
+  "occ": [
+   346
+  ],
+  "songs": [
+   5
+  ],
+  "samples": [
+   "Ich musst' auch heute wandern"
+  ],
+  "is_function": false
+ },
+ "Vorbei": {
+  "count": 1,
+  "occ": [
+   347
+  ],
+  "songs": [
+   5
+  ],
+  "samples": [
+   "Vorbei in tiefer Nacht,"
+  ],
+  "is_function": false
+ },
+ "tiefer": {
+  "count": 1,
+  "occ": [
+   348
+  ],
+  "songs": [
+   5
+  ],
+  "samples": [
+   "Vorbei in tiefer Nacht,"
+  ],
+  "is_function": false
+ },
+ "noch": {
+  "count": 6,
+  "occ": [
+   352,
+   643,
+   932,
+   1028,
+   1186,
+   1382
+  ],
+  "songs": [
+   5,
+   8,
+   12,
+   14,
+   17,
+   20
+  ],
+  "samples": [
+   "Da hab' ich noch im Dunkeln",
+   "Möcht' ich noch einmal rückwärts sehn,",
+   "Als noch die Stürme tobten,"
+  ],
+  "is_function": false
+ },
+ "Dunkeln": {
+  "count": 2,
+  "occ": [
+   354,
+   1562
+  ],
+  "songs": [
+   5,
+   23
+  ],
+  "samples": [
+   "Da hab' ich noch im Dunkeln",
+   "Im Dunkeln wird mir wohler sein."
+  ],
+  "is_function": false
+ },
+ "Augen": {
+  "count": 3,
+  "occ": [
+   355,
+   413,
+   867
+  ],
+  "songs": [
+   5,
+   6,
+   11
+  ],
+  "samples": [
+   "Die Augen zugemacht.",
+   "Manche Trän' aus meinen Augen",
+   "Die Augen schließ' ich wieder,"
+  ],
+  "is_function": false
+ },
+ "zugemacht": {
+  "count": 1,
+  "occ": [
+   356
+  ],
+  "songs": [
+   5
+  ],
+  "samples": [
+   "Die Augen zugemacht."
+  ],
+  "is_function": false
+ },
+ "Zweige": {
+  "count": 1,
+  "occ": [
+   359
+  ],
+  "songs": [
+   5
+  ],
+  "samples": [
+   "Und seine Zweige rauschten,"
+  ],
+  "is_function": false
+ },
+ "rauschten": {
+  "count": 2,
+  "occ": [
+   360,
+   624
+  ],
+  "songs": [
+   5,
+   8
+  ],
+  "samples": [
+   "Und seine Zweige rauschten,",
+   "Die klaren Rinnen rauschten hell,"
+  ],
+  "is_function": false
+ },
+ "riefen": {
+  "count": 1,
+  "occ": [
+   362
+  ],
+  "songs": [
+   5
+  ],
+  "samples": [
+   "Als riefen sie mir zu:"
+  ],
+  "is_function": false
+ },
+ "Komm": {
+  "count": 1,
+  "occ": [
+   365
+  ],
+  "songs": [
+   5
+  ],
+  "samples": [
+   "Komm her zu mir, Geselle,"
+  ],
+  "is_function": false
+ },
+ "her": {
+  "count": 4,
+  "occ": [
+   366,
+   945,
+   1264,
+   1586
+  ],
+  "songs": [
+   5,
+   13,
+   19,
+   24
+  ],
+  "samples": [
+   "Komm her zu mir, Geselle,",
+   "Von der Straße her ein Posthorn klingt.",
+   "Ein Licht tanzt freundlich vor mir her;"
+  ],
+  "is_function": false
+ },
+ "Geselle": {
+  "count": 1,
+  "occ": [
+   369
+  ],
+  "songs": [
+   5
+  ],
+  "samples": [
+   "Komm her zu mir, Geselle,"
+  ],
+  "is_function": false
+ },
+ "Hier": {
+  "count": 1,
+  "occ": [
+   370
+  ],
+  "songs": [
+   5
+  ],
+  "samples": [
+   "Hier findst du deine Ruh'!"
+  ],
+  "is_function": false
+ },
+ "findst": {
+  "count": 1,
+  "occ": [
+   371
+  ],
+  "songs": [
+   5
+  ],
+  "samples": [
+   "Hier findst du deine Ruh'!"
+  ],
+  "is_function": false
+ },
+ "kalten": {
+  "count": 2,
+  "occ": [
+   375,
+   418
+  ],
+  "songs": [
+   5,
+   6
+  ],
+  "samples": [
+   "Die kalten Winde bliesen",
+   "Seine kalten Flocken saugen"
+  ],
+  "is_function": false
+ },
+ "Winde": {
+  "count": 1,
+  "occ": [
+   376
+  ],
+  "songs": [
+   5
+  ],
+  "samples": [
+   "Die kalten Winde bliesen"
+  ],
+  "is_function": false
+ },
+ "bliesen": {
+  "count": 1,
+  "occ": [
+   377
+  ],
+  "songs": [
+   5
+  ],
+  "samples": [
+   "Die kalten Winde bliesen"
+  ],
+  "is_function": false
+ },
+ "Mir": {
+  "count": 2,
+  "occ": [
+   378,
+   998
+  ],
+  "songs": [
+   5,
+   14
+  ],
+  "samples": [
+   "Mir grad' in's Angesicht,",
+   "Mir über's Haar gestreuet."
+  ],
+  "is_function": true
+ },
+ "grad": {
+  "count": 1,
+  "occ": [
+   379
+  ],
+  "songs": [
+   5
+  ],
+  "samples": [
+   "Mir grad' in's Angesicht,"
+  ],
+  "is_function": false
+ },
+ "in's": {
+  "count": 3,
+  "occ": [
+   380,
+   1451,
+   1543
+  ],
+  "songs": [
+   5,
+   22,
+   23
+  ],
+  "samples": [
+   "Mir grad' in's Angesicht,",
+   "Fliegt der Schnee mir in's Gesicht,",
+   "Schaut Andern doch in's Angesicht!"
+  ],
+  "is_function": false
+ },
+ "Angesicht": {
+  "count": 2,
+  "occ": [
+   381,
+   1544
+  ],
+  "songs": [
+   5,
+   23
+  ],
+  "samples": [
+   "Mir grad' in's Angesicht,",
+   "Schaut Andern doch in's Angesicht!"
+  ],
+  "is_function": false
+ },
+ "Hut": {
+  "count": 2,
+  "occ": [
+   382,
+   597
+  ],
+  "songs": [
+   5,
+   8
+  ],
+  "samples": [
+   "Der Hut flog mir vom Kopfe,",
+   "Auf meinen Hut von jedem Haus."
+  ],
+  "is_function": false
+ },
+ "flog": {
+  "count": 1,
+  "occ": [
+   383
+  ],
+  "songs": [
+   5
+  ],
+  "samples": [
+   "Der Hut flog mir vom Kopfe,"
+  ],
+  "is_function": false
+ },
+ "vom": {
+  "count": 2,
+  "occ": [
+   386,
+   819
+  ],
+  "songs": [
+   5,
+   11
+  ],
+  "samples": [
+   "Der Hut flog mir vom Kopfe,",
+   "Es schrien die Raben vom Dach."
+  ],
+  "is_function": true
+ },
+ "Kopfe": {
+  "count": 1,
+  "occ": [
+   387
+  ],
+  "songs": [
+   5
+  ],
+  "samples": [
+   "Der Hut flog mir vom Kopfe,"
+  ],
+  "is_function": false
+ },
+ "wendete": {
+  "count": 1,
+  "occ": [
+   390
+  ],
+  "songs": [
+   5
+  ],
+  "samples": [
+   "Ich wendete mich nicht."
+  ],
+  "is_function": false
+ },
+ "manche": {
+  "count": 1,
+  "occ": [
+   394
+  ],
+  "songs": [
+   5
+  ],
+  "samples": [
+   "Nun bin ich manche Stunde"
+  ],
+  "is_function": false
+ },
+ "Stunde": {
+  "count": 1,
+  "occ": [
+   395
+  ],
+  "songs": [
+   5
+  ],
+  "samples": [
+   "Nun bin ich manche Stunde"
+  ],
+  "is_function": false
+ },
+ "Entfernt": {
+  "count": 1,
+  "occ": [
+   396
+  ],
+  "songs": [
+   5
+  ],
+  "samples": [
+   "Entfernt von jenem Ort,"
+  ],
+  "is_function": false
+ },
+ "jenem": {
+  "count": 1,
+  "occ": [
+   398
+  ],
+  "songs": [
+   5
+  ],
+  "samples": [
+   "Entfernt von jenem Ort,"
+  ],
+  "is_function": false
+ },
+ "Ort": {
+  "count": 1,
+  "occ": [
+   399
+  ],
+  "songs": [
+   5
+  ],
+  "samples": [
+   "Entfernt von jenem Ort,"
+  ],
+  "is_function": false
+ },
+ "hör": {
+  "count": 1,
+  "occ": [
+   402
+  ],
+  "songs": [
+   5
+  ],
+  "samples": [
+   "Und immer hör' ich's rauschen:"
+  ],
+  "is_function": false
+ },
+ "s": {
+  "count": 5,
+  "occ": [
+   404,
+   556,
+   700,
+   1025,
+   1041
+  ],
+  "songs": [
+   5,
+   7,
+   9,
+   14
+  ],
+  "samples": [
+   "Und immer hör' ich's rauschen:",
+   "Wohl auch so reißend schwillt?",
+   "Jeder Strom wird's Meer gewinnen,"
+  ],
+  "is_function": false
+ },
+ "rauschen": {
+  "count": 1,
+  "occ": [
+   404
+  ],
+  "songs": [
+   5
+  ],
+  "samples": [
+   "Und immer hör' ich's rauschen:"
+  ],
+  "is_function": false
+ },
+ "Du": {
+  "count": 3,
+  "occ": [
+   405,
+   486,
+   606
+  ],
+  "songs": [
+   5,
+   7,
+   8
+  ],
+  "samples": [
+   "Du fändest Ruhe dort!",
+   "Du heller, wilder Fluss,",
+   "Du Stadt der Unbeständigkeit!"
+  ],
+  "is_function": true
+ },
+ "fändest": {
+  "count": 1,
+  "occ": [
+   406
+  ],
+  "songs": [
+   5
+  ],
+  "samples": [
+   "Du fändest Ruhe dort!"
+  ],
+  "is_function": false
+ },
+ "Ruhe": {
+  "count": 1,
+  "occ": [
+   407
+  ],
+  "songs": [
+   5
+  ],
+  "samples": [
+   "Du fändest Ruhe dort!"
+  ],
+  "is_function": false
+ },
+ "dort": {
+  "count": 2,
+  "occ": [
+   408,
+   990
+  ],
+  "songs": [
+   5,
+   13
+  ],
+  "samples": [
+   "Du fändest Ruhe dort!",
+   "Und fragen, wie es dort mag gehn,"
+  ],
+  "is_function": false
+ },
+ "Manche": {
+  "count": 1,
+  "occ": [
+   409
+  ],
+  "songs": [
+   6
+  ],
+  "samples": [
+   "Manche Trän' aus meinen Augen"
+  ],
+  "is_function": false
+ },
+ "Trän": {
+  "count": 1,
+  "occ": [
+   410
+  ],
+  "songs": [
+   6
+  ],
+  "samples": [
+   "Manche Trän' aus meinen Augen"
+  ],
+  "is_function": false
+ },
+ "Ist": {
+  "count": 2,
+  "occ": [
+   414,
+   1062
+  ],
+  "songs": [
+   6,
+   15
+  ],
+  "samples": [
+   "Ist gefallen in den Schnee;",
+   "Um mein Haupt geflogen."
+  ],
+  "is_function": true
+ },
+ "gefallen": {
+  "count": 1,
+  "occ": [
+   414
+  ],
+  "songs": [
+   6
+  ],
+  "samples": [
+   "Ist gefallen in den Schnee;"
+  ],
+  "is_function": false
+ },
+ "Seine": {
+  "count": 1,
+  "occ": [
+   417
+  ],
+  "songs": [
+   6
+  ],
+  "samples": [
+   "Seine kalten Flocken saugen"
+  ],
+  "is_function": true
+ },
+ "Flocken": {
+  "count": 1,
+  "occ": [
+   419
+  ],
+  "songs": [
+   6
+  ],
+  "samples": [
+   "Seine kalten Flocken saugen"
+  ],
+  "is_function": false
+ },
+ "saugen": {
+  "count": 1,
+  "occ": [
+   420
+  ],
+  "songs": [
+   6
+  ],
+  "samples": [
+   "Seine kalten Flocken saugen"
+  ],
+  "is_function": false
+ },
+ "Durstig": {
+  "count": 1,
+  "occ": [
+   421
+  ],
+  "songs": [
+   6
+  ],
+  "samples": [
+   "Durstig ein das heiße Weh."
+  ],
+  "is_function": false
+ },
+ "heiße": {
+  "count": 1,
+  "occ": [
+   422
+  ],
+  "songs": [
+   6
+  ],
+  "samples": [
+   "Durstig ein das heiße Weh."
+  ],
+  "is_function": false
+ },
+ "Weh": {
+  "count": 1,
+  "occ": [
+   423
+  ],
+  "songs": [
+   6
+  ],
+  "samples": [
+   "Durstig ein das heiße Weh."
+  ],
+  "is_function": false
+ },
+ "Gräser": {
+  "count": 1,
+  "occ": [
+   425
+  ],
+  "songs": [
+   6
+  ],
+  "samples": [
+   "Wenn die Gräser sprossen wollen,"
+  ],
+  "is_function": false
+ },
+ "sprossen": {
+  "count": 1,
+  "occ": [
+   426
+  ],
+  "songs": [
+   6
+  ],
+  "samples": [
+   "Wenn die Gräser sprossen wollen,"
+  ],
+  "is_function": false
+ },
+ "Weht": {
+  "count": 1,
+  "occ": [
+   428
+  ],
+  "songs": [
+   6
+  ],
+  "samples": [
+   "Weht daher ein lauer Wind,"
+  ],
+  "is_function": false
+ },
+ "daher": {
+  "count": 1,
+  "occ": [
+   429
+  ],
+  "songs": [
+   6
+  ],
+  "samples": [
+   "Weht daher ein lauer Wind,"
+  ],
+  "is_function": false
+ },
+ "lauer": {
+  "count": 1,
+  "occ": [
+   430
+  ],
+  "songs": [
+   6
+  ],
+  "samples": [
+   "Weht daher ein lauer Wind,"
+  ],
+  "is_function": false
+ },
+ "zerspringt": {
+  "count": 1,
+  "occ": [
+   434
+  ],
+  "songs": [
+   6
+  ],
+  "samples": [
+   "Und das Eis zerspringt in Schollen,"
+  ],
+  "is_function": false
+ },
+ "Schollen": {
+  "count": 1,
+  "occ": [
+   436
+  ],
+  "songs": [
+   6
+  ],
+  "samples": [
+   "Und das Eis zerspringt in Schollen,"
+  ],
+  "is_function": false
+ },
+ "weiche": {
+  "count": 1,
+  "occ": [
+   438
+  ],
+  "songs": [
+   6
+  ],
+  "samples": [
+   "Und der weiche Schnee zerrinnt."
+  ],
+  "is_function": false
+ },
+ "zerrinnt": {
+  "count": 1,
+  "occ": [
+   440
+  ],
+  "songs": [
+   6
+  ],
+  "samples": [
+   "Und der weiche Schnee zerrinnt."
+  ],
+  "is_function": false
+ },
+ "weißt": {
+  "count": 1,
+  "occ": [
+   443
+  ],
+  "songs": [
+   6
+  ],
+  "samples": [
+   "Schnee, du weißt von meinem Sehnen:"
+  ],
+  "is_function": false
+ },
+ "Sehnen": {
+  "count": 1,
+  "occ": [
+   446
+  ],
+  "songs": [
+   6
+  ],
+  "samples": [
+   "Schnee, du weißt von meinem Sehnen:"
+  ],
+  "is_function": false
+ },
+ "Sag": {
+  "count": 1,
+  "occ": [
+   447
+  ],
+  "songs": [
+   6
+  ],
+  "samples": [
+   "Sag, wohin doch geht dein Lauf?"
+  ],
+  "is_function": false
+ },
+ "wohin": {
+  "count": 1,
+  "occ": [
+   448
+  ],
+  "songs": [
+   6
+  ],
+  "samples": [
+   "Sag, wohin doch geht dein Lauf?"
+  ],
+  "is_function": false
+ },
+ "geht": {
+  "count": 2,
+  "occ": [
+   450,
+   895
+  ],
+  "songs": [
+   6,
+   12
+  ],
+  "samples": [
+   "Sag, wohin doch geht dein Lauf?",
+   "Durch heitre Lüfte geht,"
+  ],
+  "is_function": false
+ },
+ "dein": {
+  "count": 2,
+  "occ": [
+   451,
+   546
+  ],
+  "songs": [
+   6,
+   7
+  ],
+  "samples": [
+   "Sag, wohin doch geht dein Lauf?",
+   "Erkennst du nun dein Bild?"
+  ],
+  "is_function": true
+ },
+ "Lauf": {
+  "count": 1,
+  "occ": [
+   452
+  ],
+  "songs": [
+   6
+  ],
+  "samples": [
+   "Sag, wohin doch geht dein Lauf?"
+  ],
+  "is_function": false
+ },
+ "Folge": {
+  "count": 1,
+  "occ": [
+   453
+  ],
+  "songs": [
+   6
+  ],
+  "samples": [
+   "Folge nach nur meinen Tränen,"
+  ],
+  "is_function": false
+ },
+ "Nimmt": {
+  "count": 1,
+  "occ": [
+   458
+  ],
+  "songs": [
+   6
+  ],
+  "samples": [
+   "Nimmt dich bald das Bächlein auf."
+  ],
+  "is_function": false
+ },
+ "bald": {
+  "count": 3,
+  "occ": [
+   460,
+   1013,
+   1072
+  ],
+  "songs": [
+   6,
+   14,
+   15
+  ],
+  "samples": [
+   "Nimmt dich bald das Bächlein auf.",
+   "Doch bald ist er hinweggetaut,",
+   "Meinst wohl bald als Beute hier"
+  ],
+  "is_function": false
+ },
+ "Bächlein": {
+  "count": 1,
+  "occ": [
+   461
+  ],
+  "songs": [
+   6
+  ],
+  "samples": [
+   "Nimmt dich bald das Bächlein auf."
+  ],
+  "is_function": false
+ },
+ "Stadt": {
+  "count": 5,
+  "occ": [
+   465,
+   588,
+   607,
+   973,
+   1055
+  ],
+  "songs": [
+   6,
+   8,
+   13,
+   15
+  ],
+  "samples": [
+   "Wirst mit ihm die Stadt durchziehen,",
+   "So eilt' ich zu der Stadt hinaus;",
+   "Du Stadt der Unbeständigkeit!"
+  ],
+  "is_function": false
+ },
+ "Wirst": {
+  "count": 1,
+  "occ": [
+   466
+  ],
+  "songs": [
+   6
+  ],
+  "samples": [
+   "Wirst mit ihm die Stadt durchziehen,"
+  ],
+  "is_function": false
+ },
+ "durchziehen": {
+  "count": 1,
+  "occ": [
+   466
+  ],
+  "songs": [
+   6
+  ],
+  "samples": [
+   "Wirst mit ihm die Stadt durchziehen,"
+  ],
+  "is_function": false
+ },
+ "Muntre": {
+  "count": 1,
+  "occ": [
+   467
+  ],
+  "songs": [
+   6
+  ],
+  "samples": [
+   "Muntre Straßen ein und aus:"
+  ],
+  "is_function": false
+ },
+ "Straßen": {
+  "count": 2,
+  "occ": [
+   468,
+   1353
+  ],
+  "songs": [
+   6,
+   20
+  ],
+  "samples": [
+   "Muntre Straßen ein und aus:",
+   "Weiser stehen auf den Wegen,"
+  ],
+  "is_function": false
+ },
+ "Fühlst": {
+  "count": 2,
+  "occ": [
+   471,
+   776
+  ],
+  "songs": [
+   6,
+   10
+  ],
+  "samples": [
+   "Fühlst du meine Tränen glühen,",
+   "Fühlst in der Still' erst deinen Wurm"
+  ],
+  "is_function": false
+ },
+ "glühen": {
+  "count": 1,
+  "occ": [
+   476
+  ],
+  "songs": [
+   6
+  ],
+  "samples": [
+   "Fühlst du meine Tränen glühen,"
+  ],
+  "is_function": false
+ },
+ "Liebsten": {
+  "count": 2,
+  "occ": [
+   480,
+   519
+  ],
+  "songs": [
+   6,
+   7
+  ],
+  "samples": [
+   "Da ist meiner Liebsten Haus.",
+   "Den Namen meiner Liebsten"
+  ],
+  "is_function": false
+ },
+ "lustig": {
+  "count": 1,
+  "occ": [
+   484
+  ],
+  "songs": [
+   7
+  ],
+  "samples": [
+   "Der du so lustig rauschtest,"
+  ],
+  "is_function": false
+ },
+ "rauschtest": {
+  "count": 1,
+  "occ": [
+   485
+  ],
+  "songs": [
+   7
+  ],
+  "samples": [
+   "Der du so lustig rauschtest,"
+  ],
+  "is_function": false
+ },
+ "heller": {
+  "count": 1,
+  "occ": [
+   487
+  ],
+  "songs": [
+   7
+  ],
+  "samples": [
+   "Du heller, wilder Fluss,"
+  ],
+  "is_function": false
+ },
+ "wilder": {
+  "count": 1,
+  "occ": [
+   488
+  ],
+  "songs": [
+   7
+  ],
+  "samples": [
+   "Du heller, wilder Fluss,"
+  ],
+  "is_function": false
+ },
+ "Fluss": {
+  "count": 1,
+  "occ": [
+   489
+  ],
+  "songs": [
+   7
+  ],
+  "samples": [
+   "Du heller, wilder Fluss,"
+  ],
+  "is_function": false
+ },
+ "still": {
+  "count": 2,
+  "occ": [
+   491,
+   1625
+  ],
+  "songs": [
+   7,
+   24
+  ],
+  "samples": [
+   "Wie still bist du geworden,",
+   "Steht ihm nimmer still."
+  ],
+  "is_function": false
+ },
+ "bist": {
+  "count": 1,
+  "occ": [
+   493
+  ],
+  "songs": [
+   7
+  ],
+  "samples": [
+   "Wie still bist du geworden,"
+  ],
+  "is_function": true
+ },
+ "geworden": {
+  "count": 1,
+  "occ": [
+   493
+  ],
+  "songs": [
+   7
+  ],
+  "samples": [
+   "Wie still bist du geworden,"
+  ],
+  "is_function": false
+ },
+ "keinen": {
+  "count": 2,
+  "occ": [
+   494,
+   956
+  ],
+  "songs": [
+   7,
+   13
+  ],
+  "samples": [
+   "Gibst keinen Scheidegruß.",
+   "Die Post bringt keinen Brief für dich:"
+  ],
+  "is_function": true
+ },
+ "Gibst": {
+  "count": 1,
+  "occ": [
+   495
+  ],
+  "songs": [
+   7
+  ],
+  "samples": [
+   "Gibst keinen Scheidegruß."
+  ],
+  "is_function": false
+ },
+ "Scheidegruß": {
+  "count": 1,
+  "occ": [
+   496
+  ],
+  "songs": [
+   7
+  ],
+  "samples": [
+   "Gibst keinen Scheidegruß."
+  ],
+  "is_function": false
+ },
+ "harter": {
+  "count": 1,
+  "occ": [
+   497
+  ],
+  "songs": [
+   7
+  ],
+  "samples": [
+   "Mit harter, starrer Rinde"
+  ],
+  "is_function": false
+ },
+ "starrer": {
+  "count": 1,
+  "occ": [
+   498
+  ],
+  "songs": [
+   7
+  ],
+  "samples": [
+   "Mit harter, starrer Rinde"
+  ],
+  "is_function": false
+ },
+ "Hast": {
+  "count": 1,
+  "occ": [
+   502
+  ],
+  "songs": [
+   7
+  ],
+  "samples": [
+   "Hast du dich überdeckt,"
+  ],
+  "is_function": true
+ },
+ "überdeckt": {
+  "count": 1,
+  "occ": [
+   502
+  ],
+  "songs": [
+   7
+  ],
+  "samples": [
+   "Hast du dich überdeckt,"
+  ],
+  "is_function": false
+ },
+ "Liegst": {
+  "count": 1,
+  "occ": [
+   503
+  ],
+  "songs": [
+   7
+  ],
+  "samples": [
+   "Liegst kalt und unbeweglich"
+  ],
+  "is_function": false
+ },
+ "kalt": {
+  "count": 4,
+  "occ": [
+   504,
+   733,
+   814,
+   1256
+  ],
+  "songs": [
+   7,
+   10,
+   11,
+   18
+  ],
+  "samples": [
+   "Liegst kalt und unbeweglich",
+   "Es war zu kalt zum Stehen,",
+   "Da war es kalt und finster,"
+  ],
+  "is_function": false
+ },
+ "unbeweglich": {
+  "count": 1,
+  "occ": [
+   506
+  ],
+  "songs": [
+   7
+  ],
+  "samples": [
+   "Liegst kalt und unbeweglich"
+  ],
+  "is_function": false
+ },
+ "Sande": {
+  "count": 1,
+  "occ": [
+   508
+  ],
+  "songs": [
+   7
+  ],
+  "samples": [
+   "Im Sande ausgestreckt."
+  ],
+  "is_function": false
+ },
+ "ausgestreckt": {
+  "count": 1,
+  "occ": [
+   509
+  ],
+  "songs": [
+   7
+  ],
+  "samples": [
+   "Im Sande ausgestreckt."
+  ],
+  "is_function": false
+ },
+ "hinein": {
+  "count": 2,
+  "occ": [
+   510,
+   1489
+  ],
+  "songs": [
+   7,
+   22
+  ],
+  "samples": [
+   "In deine Decke grab' ich",
+   "Lustig in die Welt hinein"
+  ],
+  "is_function": false
+ },
+ "Decke": {
+  "count": 1,
+  "occ": [
+   512
+  ],
+  "songs": [
+   7
+  ],
+  "samples": [
+   "In deine Decke grab' ich"
+  ],
+  "is_function": false
+ },
+ "grab": {
+  "count": 1,
+  "occ": [
+   513
+  ],
+  "songs": [
+   7
+  ],
+  "samples": [
+   "In deine Decke grab' ich"
+  ],
+  "is_function": false
+ },
+ "einem": {
+  "count": 1,
+  "occ": [
+   515
+  ],
+  "songs": [
+   7
+  ],
+  "samples": [
+   "Mit einem spitzen Stein"
+  ],
+  "is_function": true
+ },
+ "spitzen": {
+  "count": 1,
+  "occ": [
+   515
+  ],
+  "songs": [
+   7
+  ],
+  "samples": [
+   "Mit einem spitzen Stein"
+  ],
+  "is_function": false
+ },
+ "Stein": {
+  "count": 2,
+  "occ": [
+   516,
+   582
+  ],
+  "songs": [
+   7,
+   8
+  ],
+  "samples": [
+   "Mit einem spitzen Stein",
+   "Hab' mich an jeden Stein gestoßen,"
+  ],
+  "is_function": false
+ },
+ "Den": {
+  "count": 3,
+  "occ": [
+   517,
+   524,
+   527
+  ],
+  "songs": [
+   7
+  ],
+  "samples": [
+   "Den Namen meiner Liebsten",
+   "Den Tag des ersten Grußes,",
+   "Den Tag, an dem ich ging,"
+  ],
+  "is_function": true
+ },
+ "Namen": {
+  "count": 1,
+  "occ": [
+   517
+  ],
+  "songs": [
+   7
+  ],
+  "samples": [
+   "Den Namen meiner Liebsten"
+  ],
+  "is_function": false
+ },
+ "Stund": {
+  "count": 1,
+  "occ": [
+   521
+  ],
+  "songs": [
+   7
+  ],
+  "samples": [
+   "Und Stund' und Tag hinein:"
+  ],
+  "is_function": false
+ },
+ "Tag": {
+  "count": 4,
+  "occ": [
+   523,
+   524,
+   527,
+   638
+  ],
+  "songs": [
+   7,
+   8
+  ],
+  "samples": [
+   "Und Stund' und Tag hinein:",
+   "Den Tag des ersten Grußes,",
+   "Den Tag, an dem ich ging,"
+  ],
+  "is_function": false
+ },
+ "ersten": {
+  "count": 1,
+  "occ": [
+   525
+  ],
+  "songs": [
+   7
+  ],
+  "samples": [
+   "Den Tag des ersten Grußes,"
+  ],
+  "is_function": false
+ },
+ "Grußes": {
+  "count": 1,
+  "occ": [
+   526
+  ],
+  "songs": [
+   7
+  ],
+  "samples": [
+   "Den Tag des ersten Grußes,"
+  ],
+  "is_function": false
+ },
+ "ging": {
+  "count": 2,
+  "occ": [
+   530,
+   1385
+  ],
+  "songs": [
+   7,
+   20
+  ],
+  "samples": [
+   "Den Tag, an dem ich ging,",
+   "Die noch Keiner ging zurück."
+  ],
+  "is_function": false
+ },
+ "Um": {
+  "count": 3,
+  "occ": [
+   531,
+   1059,
+   1608
+  ],
+  "songs": [
+   7,
+   15,
+   24
+  ],
+  "samples": [
+   "Um Nam' und Zahlen windet",
+   "Um mein Haupt geflogen.",
+   "Um den alten Mann."
+  ],
+  "is_function": true
+ },
+ "Nam": {
+  "count": 1,
+  "occ": [
+   532
+  ],
+  "songs": [
+   7
+  ],
+  "samples": [
+   "Um Nam' und Zahlen windet"
+  ],
+  "is_function": false
+ },
+ "Zahlen": {
+  "count": 1,
+  "occ": [
+   534
+  ],
+  "songs": [
+   7
+  ],
+  "samples": [
+   "Um Nam' und Zahlen windet"
+  ],
+  "is_function": false
+ },
+ "windet": {
+  "count": 1,
+  "occ": [
+   535
+  ],
+  "songs": [
+   7
+  ],
+  "samples": [
+   "Um Nam' und Zahlen windet"
+  ],
+  "is_function": false
+ },
+ "Sich": {
+  "count": 1,
+  "occ": [
+   535
+  ],
+  "songs": [
+   7
+  ],
+  "samples": [
+   "Um Nam' und Zahlen windet"
+  ],
+  "is_function": true
+ },
+ "zerbrochner": {
+  "count": 1,
+  "occ": [
+   536
+  ],
+  "songs": [
+   7
+  ],
+  "samples": [
+   "Sich ein zerbrochner Ring."
+  ],
+  "is_function": false
+ },
+ "Ring": {
+  "count": 1,
+  "occ": [
+   537
+  ],
+  "songs": [
+   7
+  ],
+  "samples": [
+   "Sich ein zerbrochner Ring."
+  ],
+  "is_function": false
+ },
+ "diesem": {
+  "count": 2,
+  "occ": [
+   541,
+   1416
+  ],
+  "songs": [
+   7,
+   21
+  ],
+  "samples": [
+   "Mein Herz, in diesem Bache",
+   "Sind denn in diesem Hause"
+  ],
+  "is_function": false
+ },
+ "Bache": {
+  "count": 1,
+  "occ": [
+   542
+  ],
+  "songs": [
+   7
+  ],
+  "samples": [
+   "Mein Herz, in diesem Bache"
+  ],
+  "is_function": false
+ },
+ "Erkennst": {
+  "count": 1,
+  "occ": [
+   543
+  ],
+  "songs": [
+   7
+  ],
+  "samples": [
+   "Erkennst du nun dein Bild?"
+  ],
+  "is_function": false
+ },
+ "nun": {
+  "count": 2,
+  "occ": [
+   545,
+   1177
+  ],
+  "songs": [
+   7,
+   17
+  ],
+  "samples": [
+   "Erkennst du nun dein Bild?",
+   "Je nun, sie haben ihr Teil genossen,"
+  ],
+  "is_function": false
+ },
+ "Wohl": {
+  "count": 1,
+  "occ": [
+   548
+  ],
+  "songs": [
+   7
+  ],
+  "samples": [
+   "Ob's unter seiner Rinde"
+  ],
+  "is_function": false
+ },
+ "unter": {
+  "count": 3,
+  "occ": [
+   549,
+   559,
+   1213
+  ],
+  "songs": [
+   7,
+   8,
+   17
+  ],
+  "samples": [
+   "Ob's unter seiner Rinde",
+   "Es brennt mir unter beiden Sohlen,",
+   "Was will ich unter den Schläfern säumen?"
+  ],
+  "is_function": true
+ },
+ "seiner": {
+  "count": 1,
+  "occ": [
+   550
+  ],
+  "songs": [
+   7
+  ],
+  "samples": [
+   "Ob's unter seiner Rinde"
+  ],
+  "is_function": true
+ },
+ "reißend": {
+  "count": 1,
+  "occ": [
+   555
+  ],
+  "songs": [
+   7
+  ],
+  "samples": [
+   "Wohl auch so reißend schwillt?"
+  ],
+  "is_function": false
+ },
+ "schwillt": {
+  "count": 1,
+  "occ": [
+   556
+  ],
+  "songs": [
+   7
+  ],
+  "samples": [
+   "Wohl auch so reißend schwillt?"
+  ],
+  "is_function": false
+ },
+ "brennt": {
+  "count": 1,
+  "occ": [
+   557
+  ],
+  "songs": [
+   8
+  ],
+  "samples": [
+   "Es brennt mir unter beiden Sohlen,"
+  ],
+  "is_function": false
+ },
+ "beiden": {
+  "count": 1,
+  "occ": [
+   560
+  ],
+  "songs": [
+   8
+  ],
+  "samples": [
+   "Es brennt mir unter beiden Sohlen,"
+  ],
+  "is_function": false
+ },
+ "Sohlen": {
+  "count": 1,
+  "occ": [
+   561
+  ],
+  "songs": [
+   8
+  ],
+  "samples": [
+   "Es brennt mir unter beiden Sohlen,"
+  ],
+  "is_function": false
+ },
+ "Tret": {
+  "count": 1,
+  "occ": [
+   565
+  ],
+  "songs": [
+   8
+  ],
+  "samples": [
+   "Tret' ich auch schon auf Eis und Schnee."
+  ],
+  "is_function": false
+ },
+ "möcht": {
+  "count": 1,
+  "occ": [
+   571
+  ],
+  "songs": [
+   8
+  ],
+  "samples": [
+   "Ich möcht' nicht wieder Atem holen,"
+  ],
+  "is_function": false
+ },
+ "Atem": {
+  "count": 1,
+  "occ": [
+   573
+  ],
+  "songs": [
+   8
+  ],
+  "samples": [
+   "Ich möcht' nicht wieder Atem holen,"
+  ],
+  "is_function": false
+ },
+ "holen": {
+  "count": 1,
+  "occ": [
+   574
+  ],
+  "songs": [
+   8
+  ],
+  "samples": [
+   "Ich möcht' nicht wieder Atem holen,"
+  ],
+  "is_function": false
+ },
+ "mehr": {
+  "count": 2,
+  "occ": [
+   577,
+   1082
+  ],
+  "songs": [
+   8,
+   15
+  ],
+  "samples": [
+   "Bis ich nicht mehr die Türme seh'.",
+   "Nun, es wird nicht weit mehr gehn"
+  ],
+  "is_function": false
+ },
+ "Türme": {
+  "count": 1,
+  "occ": [
+   578
+  ],
+  "songs": [
+   8
+  ],
+  "samples": [
+   "Bis ich nicht mehr die Türme seh'."
+  ],
+  "is_function": false
+ },
+ "jeden": {
+  "count": 1,
+  "occ": [
+   581
+  ],
+  "songs": [
+   8
+  ],
+  "samples": [
+   "Hab' mich an jeden Stein gestoßen,"
+  ],
+  "is_function": false
+ },
+ "Hab": {
+  "count": 5,
+  "occ": [
+   583,
+   752,
+   1016,
+   1399,
+   1519
+  ],
+  "songs": [
+   8,
+   10,
+   14,
+   21,
+   23
+  ],
+  "samples": [
+   "Hab' mich an jeden Stein gestoßen,",
+   "Hab' Obdach ich gefunden;",
+   "Hab' wieder schwarze Haare,"
+  ],
+  "is_function": true
+ },
+ "gestoßen": {
+  "count": 1,
+  "occ": [
+   583
+  ],
+  "songs": [
+   8
+  ],
+  "samples": [
+   "Hab' mich an jeden Stein gestoßen,"
+  ],
+  "is_function": false
+ },
+ "eilt": {
+  "count": 1,
+  "occ": [
+   585
+  ],
+  "songs": [
+   8
+  ],
+  "samples": [
+   "So eilt' ich zu der Stadt hinaus;"
+  ],
+  "is_function": false
+ },
+ "Krähen": {
+  "count": 1,
+  "occ": [
+   590
+  ],
+  "songs": [
+   8
+  ],
+  "samples": [
+   "Die Krähen warfen Bäll' und Schloßen"
+  ],
+  "is_function": false
+ },
+ "warfen": {
+  "count": 1,
+  "occ": [
+   591
+  ],
+  "songs": [
+   8
+  ],
+  "samples": [
+   "Die Krähen warfen Bäll' und Schloßen"
+  ],
+  "is_function": false
+ },
+ "Bäll": {
+  "count": 1,
+  "occ": [
+   592
+  ],
+  "songs": [
+   8
+  ],
+  "samples": [
+   "Die Krähen warfen Bäll' und Schloßen"
+  ],
+  "is_function": false
+ },
+ "Schloßen": {
+  "count": 1,
+  "occ": [
+   594
+  ],
+  "songs": [
+   8
+  ],
+  "samples": [
+   "Die Krähen warfen Bäll' und Schloßen"
+  ],
+  "is_function": false
+ },
+ "jedem": {
+  "count": 1,
+  "occ": [
+   599
+  ],
+  "songs": [
+   8
+  ],
+  "samples": [
+   "Auf meinen Hut von jedem Haus."
+  ],
+  "is_function": false
+ },
+ "anders": {
+  "count": 1,
+  "occ": [
+   602
+  ],
+  "songs": [
+   8
+  ],
+  "samples": [
+   "Wie anders hast du mich empfangen,"
+  ],
+  "is_function": false
+ },
+ "hast": {
+  "count": 1,
+  "occ": [
+   605
+  ],
+  "songs": [
+   8
+  ],
+  "samples": [
+   "Wie anders hast du mich empfangen,"
+  ],
+  "is_function": true
+ },
+ "empfangen": {
+  "count": 1,
+  "occ": [
+   605
+  ],
+  "songs": [
+   8
+  ],
+  "samples": [
+   "Wie anders hast du mich empfangen,"
+  ],
+  "is_function": false
+ },
+ "Unbeständigkeit": {
+  "count": 1,
+  "occ": [
+   608
+  ],
+  "songs": [
+   8
+  ],
+  "samples": [
+   "Du Stadt der Unbeständigkeit!"
+  ],
+  "is_function": false
+ },
+ "deinen": {
+  "count": 2,
+  "occ": [
+   610,
+   781
+  ],
+  "songs": [
+   8,
+   10
+  ],
+  "samples": [
+   "An deinen blanken Fenstern sangen",
+   "Fühlst in der Still' erst deinen Wurm"
+  ],
+  "is_function": true
+ },
+ "blanken": {
+  "count": 1,
+  "occ": [
+   611
+  ],
+  "songs": [
+   8
+  ],
+  "samples": [
+   "An deinen blanken Fenstern sangen"
+  ],
+  "is_function": false
+ },
+ "Fenstern": {
+  "count": 1,
+  "occ": [
+   612
+  ],
+  "songs": [
+   8
+  ],
+  "samples": [
+   "An deinen blanken Fenstern sangen"
+  ],
+  "is_function": false
+ },
+ "sangen": {
+  "count": 1,
+  "occ": [
+   613
+  ],
+  "songs": [
+   8
+  ],
+  "samples": [
+   "An deinen blanken Fenstern sangen"
+  ],
+  "is_function": false
+ },
+ "Lerch": {
+  "count": 1,
+  "occ": [
+   614
+  ],
+  "songs": [
+   8
+  ],
+  "samples": [
+   "Die Lerch' und Nachtigall im Streit."
+  ],
+  "is_function": false
+ },
+ "Nachtigall": {
+  "count": 1,
+  "occ": [
+   616
+  ],
+  "songs": [
+   8
+  ],
+  "samples": [
+   "Die Lerch' und Nachtigall im Streit."
+  ],
+  "is_function": false
+ },
+ "Streit": {
+  "count": 2,
+  "occ": [
+   618,
+   1227
+  ],
+  "songs": [
+   8,
+   18
+  ],
+  "samples": [
+   "Die Lerch' und Nachtigall im Streit.",
+   "Umher in mattem Streit."
+  ],
+  "is_function": false
+ },
+ "runden": {
+  "count": 1,
+  "occ": [
+   619
+  ],
+  "songs": [
+   8
+  ],
+  "samples": [
+   "Die runden Lindenbäume blühten,"
+  ],
+  "is_function": false
+ },
+ "Lindenbäume": {
+  "count": 1,
+  "occ": [
+   620
+  ],
+  "songs": [
+   8
+  ],
+  "samples": [
+   "Die runden Lindenbäume blühten,"
+  ],
+  "is_function": false
+ },
+ "blühten": {
+  "count": 1,
+  "occ": [
+   621
+  ],
+  "songs": [
+   8
+  ],
+  "samples": [
+   "Die runden Lindenbäume blühten,"
+  ],
+  "is_function": false
+ },
+ "klaren": {
+  "count": 1,
+  "occ": [
+   622
+  ],
+  "songs": [
+   8
+  ],
+  "samples": [
+   "Die klaren Rinnen rauschten hell,"
+  ],
+  "is_function": false
+ },
+ "Rinnen": {
+  "count": 2,
+  "occ": [
+   623,
+   692
+  ],
+  "songs": [
+   8,
+   9
+  ],
+  "samples": [
+   "Die klaren Rinnen rauschten hell,",
+   "Durch des Bergstroms trockne Rinnen"
+  ],
+  "is_function": false
+ },
+ "hell": {
+  "count": 2,
+  "occ": [
+   625,
+   1465
+  ],
+  "songs": [
+   8,
+   22
+  ],
+  "samples": [
+   "Die klaren Rinnen rauschten hell,",
+   "Sing' ich hell und munter."
+  ],
+  "is_function": false
+ },
+ "ach": {
+  "count": 1,
+  "occ": [
+   627
+  ],
+  "songs": [
+   8
+  ],
+  "samples": [
+   "Und ach, zwei Mädchenaugen glühten! —"
+  ],
+  "is_function": false
+ },
+ "zwei": {
+  "count": 2,
+  "occ": [
+   628,
+   1555
+  ],
+  "songs": [
+   8,
+   23
+  ],
+  "samples": [
+   "Und ach, zwei Mädchenaugen glühten! —",
+   "Nun sind hinab die besten zwei."
+  ],
+  "is_function": false
+ },
+ "Mädchenaugen": {
+  "count": 1,
+  "occ": [
+   629
+  ],
+  "songs": [
+   8
+  ],
+  "samples": [
+   "Und ach, zwei Mädchenaugen glühten! —"
+  ],
+  "is_function": false
+ },
+ "glühten": {
+  "count": 1,
+  "occ": [
+   630
+  ],
+  "songs": [
+   8
+  ],
+  "samples": [
+   "Und ach, zwei Mädchenaugen glühten! —"
+  ],
+  "is_function": false
+ },
+ "war's": {
+  "count": 1,
+  "occ": [
+   632
+  ],
+  "songs": [
+   8
+  ],
+  "samples": [
+   "Da war's geschehn um dich, Gesell!"
+  ],
+  "is_function": false
+ },
+ "geschehn": {
+  "count": 1,
+  "occ": [
+   632
+  ],
+  "songs": [
+   8
+  ],
+  "samples": [
+   "Da war's geschehn um dich, Gesell!"
+  ],
+  "is_function": false
+ },
+ "Gesell": {
+  "count": 1,
+  "occ": [
+   634
+  ],
+  "songs": [
+   8
+  ],
+  "samples": [
+   "Da war's geschehn um dich, Gesell!"
+  ],
+  "is_function": false
+ },
+ "Kömmt": {
+  "count": 1,
+  "occ": [
+   636
+  ],
+  "songs": [
+   8
+  ],
+  "samples": [
+   "Kömmt mir der Tag in die Gedanken,"
+  ],
+  "is_function": false
+ },
+ "Gedanken": {
+  "count": 2,
+  "occ": [
+   640,
+   1108
+  ],
+  "songs": [
+   8,
+   16
+  ],
+  "samples": [
+   "Kömmt mir der Tag in die Gedanken,",
+   "Oftmals in Gedanken stehn."
+  ],
+  "is_function": false
+ },
+ "Möcht": {
+  "count": 2,
+  "occ": [
+   641,
+   647
+  ],
+  "songs": [
+   8
+  ],
+  "samples": [
+   "Möcht' ich noch einmal rückwärts sehn,",
+   "Möcht' ich zurücke wieder wanken,"
+  ],
+  "is_function": false
+ },
+ "einmal": {
+  "count": 2,
+  "occ": [
+   644,
+   983
+  ],
+  "songs": [
+   8,
+   13
+  ],
+  "samples": [
+   "Möcht' ich noch einmal rückwärts sehn,",
+   "Willst wohl einmal hinüber sehn,"
+  ],
+  "is_function": false
+ },
+ "rückwärts": {
+  "count": 1,
+  "occ": [
+   645
+  ],
+  "songs": [
+   8
+  ],
+  "samples": [
+   "Möcht' ich noch einmal rückwärts sehn,"
+  ],
+  "is_function": false
+ },
+ "sehn": {
+  "count": 4,
+  "occ": [
+   646,
+   985,
+   1090,
+   1100
+  ],
+  "songs": [
+   8,
+   13,
+   15,
+   16
+  ],
+  "samples": [
+   "Möcht' ich noch einmal rückwärts sehn,",
+   "Willst wohl einmal hinüber sehn,",
+   "Krähe, lass mich endlich sehn"
+  ],
+  "is_function": false
+ },
+ "zurücke": {
+  "count": 1,
+  "occ": [
+   649
+  ],
+  "songs": [
+   8
+  ],
+  "samples": [
+   "Möcht' ich zurücke wieder wanken,"
+  ],
+  "is_function": false
+ },
+ "wanken": {
+  "count": 1,
+  "occ": [
+   651
+  ],
+  "songs": [
+   8
+  ],
+  "samples": [
+   "Möcht' ich zurücke wieder wanken,"
+  ],
+  "is_function": false
+ },
+ "ihrem": {
+  "count": 1,
+  "occ": [
+   653
+  ],
+  "songs": [
+   8
+  ],
+  "samples": [
+   "Vor ihrem Hause stille stehn."
+  ],
+  "is_function": true
+ },
+ "Hause": {
+  "count": 2,
+  "occ": [
+   654,
+   1417
+  ],
+  "songs": [
+   8,
+   21
+  ],
+  "samples": [
+   "Vor ihrem Hause stille stehn.",
+   "Sind denn in diesem Hause"
+  ],
+  "is_function": false
+ },
+ "stille": {
+  "count": 1,
+  "occ": [
+   655
+  ],
+  "songs": [
+   8
+  ],
+  "samples": [
+   "Vor ihrem Hause stille stehn."
+  ],
+  "is_function": false
+ },
+ "stehn": {
+  "count": 3,
+  "occ": [
+   656,
+   1109,
+   1513
+  ],
+  "songs": [
+   8,
+   16,
+   23
+  ],
+  "samples": [
+   "Vor ihrem Hause stille stehn.",
+   "Oftmals in Gedanken stehn.",
+   "Drei Sonnen sah' ich am Himmel stehn,"
+  ],
+  "is_function": false
+ },
+ "tiefsten": {
+  "count": 1,
+  "occ": [
+   658
+  ],
+  "songs": [
+   9
+  ],
+  "samples": [
+   "In die tiefsten Felsengründe"
+  ],
+  "is_function": false
+ },
+ "Felsengründe": {
+  "count": 1,
+  "occ": [
+   659
+  ],
+  "songs": [
+   9
+  ],
+  "samples": [
+   "In die tiefsten Felsengründe"
+  ],
+  "is_function": false
+ },
+ "Lockte": {
+  "count": 1,
+  "occ": [
+   660
+  ],
+  "songs": [
+   9
+  ],
+  "samples": [
+   "Lockte mich ein Irrlicht hin:"
+  ],
+  "is_function": false
+ },
+ "hin": {
+  "count": 5,
+  "occ": [
+   660,
+   721,
+   1231,
+   1290,
+   1584
+  ],
+  "songs": [
+   9,
+   10,
+   18,
+   19,
+   24
+  ],
+  "samples": [
+   "Lockte mich ein Irrlicht hin:",
+   "Das Wandern hielt mich munter hin",
+   "Ziehn zwischen ihnen hin."
+  ],
+  "is_function": false
+ },
+ "Irrlicht": {
+  "count": 1,
+  "occ": [
+   662
+  ],
+  "songs": [
+   9
+  ],
+  "samples": [
+   "Lockte mich ein Irrlicht hin:"
+  ],
+  "is_function": false
+ },
+ "einen": {
+  "count": 5,
+  "occ": [
+   665,
+   996,
+   1112,
+   1237,
+   1388
+  ],
+  "songs": [
+   9,
+   14,
+   16,
+   18,
+   21
+  ],
+  "samples": [
+   "Wie ich einen Ausgang finde,",
+   "Der Reif hat einen weißen Schein",
+   "Schaue nach dem einen Blatte,"
+  ],
+  "is_function": true
+ },
+ "Ausgang": {
+  "count": 1,
+  "occ": [
+   665
+  ],
+  "songs": [
+   9
+  ],
+  "samples": [
+   "Wie ich einen Ausgang finde,"
+  ],
+  "is_function": false
+ },
+ "finde": {
+  "count": 1,
+  "occ": [
+   666
+  ],
+  "songs": [
+   9
+  ],
+  "samples": [
+   "Wie ich einen Ausgang finde,"
+  ],
+  "is_function": false
+ },
+ "Liegt": {
+  "count": 1,
+  "occ": [
+   668
+  ],
+  "songs": [
+   9
+  ],
+  "samples": [
+   "Liegt nicht schwer mir in dem Sinn."
+  ],
+  "is_function": false
+ },
+ "schwer": {
+  "count": 2,
+  "occ": [
+   668,
+   1430
+  ],
+  "songs": [
+   9,
+   21
+  ],
+  "samples": [
+   "Liegt nicht schwer mir in dem Sinn.",
+   "Bin tödlich schwer verletzt."
+  ],
+  "is_function": false
+ },
+ "Sinn": {
+  "count": 2,
+  "occ": [
+   670,
+   1241
+  ],
+  "songs": [
+   9,
+   18
+  ],
+  "samples": [
+   "Liegt nicht schwer mir in dem Sinn.",
+   "So recht nach meinem Sinn!"
+  ],
+  "is_function": false
+ },
+ "Bin": {
+  "count": 3,
+  "occ": [
+   672,
+   1423,
+   1428
+  ],
+  "songs": [
+   9,
+   21
+  ],
+  "samples": [
+   "Bin gewohnt das irre Gehen,",
+   "Bin matt zum Niedersinken,",
+   "Bin tödlich schwer verletzt."
+  ],
+  "is_function": true
+ },
+ "gewohnt": {
+  "count": 1,
+  "occ": [
+   673
+  ],
+  "songs": [
+   9
+  ],
+  "samples": [
+   "Bin gewohnt das irre Gehen,"
+  ],
+  "is_function": false
+ },
+ "Gehen": {
+  "count": 1,
+  "occ": [
+   675
+  ],
+  "songs": [
+   9
+  ],
+  "samples": [
+   "Bin gewohnt das irre Gehen,"
+  ],
+  "is_function": false
+ },
+ "S": {
+  "count": 1,
+  "occ": [
+   676
+  ],
+  "songs": [
+   9
+  ],
+  "samples": [
+   "'S führt ja jeder Weg zum Ziel:"
+  ],
+  "is_function": false
+ },
+ "führt": {
+  "count": 1,
+  "occ": [
+   676
+  ],
+  "songs": [
+   9
+  ],
+  "samples": [
+   "'S führt ja jeder Weg zum Ziel:"
+  ],
+  "is_function": false
+ },
+ "ja": {
+  "count": 3,
+  "occ": [
+   677,
+   969,
+   1333
+  ],
+  "songs": [
+   9,
+   13,
+   20
+  ],
+  "samples": [
+   "'S führt ja jeder Weg zum Ziel:",
+   "Nun ja, die Post kommt aus der Stadt,",
+   "Habe ja doch nichts begangen,"
+  ],
+  "is_function": true
+ },
+ "jeder": {
+  "count": 1,
+  "occ": [
+   678
+  ],
+  "songs": [
+   9
+  ],
+  "samples": [
+   "'S führt ja jeder Weg zum Ziel:"
+  ],
+  "is_function": false
+ },
+ "zum": {
+  "count": 6,
+  "occ": [
+   680,
+   734,
+   1033,
+   1038,
+   1092,
+   1425
+  ],
+  "songs": [
+   9,
+   10,
+   14,
+   15,
+   21
+  ],
+  "samples": [
+   "'S führt ja jeder Weg zum Ziel:",
+   "Es war zu kalt zum Stehen,",
+   "Vom Abendrot zum Morgenlicht"
+  ],
+  "is_function": true
+ },
+ "Ziel": {
+  "count": 1,
+  "occ": [
+   681
+  ],
+  "songs": [
+   9
+  ],
+  "samples": [
+   "'S führt ja jeder Weg zum Ziel:"
+  ],
+  "is_function": false
+ },
+ "Unsre": {
+  "count": 1,
+  "occ": [
+   682
+  ],
+  "songs": [
+   9
+  ],
+  "samples": [
+   "Unsre Freuden, unsre Leiden,"
+  ],
+  "is_function": true
+ },
+ "Freuden": {
+  "count": 1,
+  "occ": [
+   683
+  ],
+  "songs": [
+   9
+  ],
+  "samples": [
+   "Unsre Freuden, unsre Leiden,"
+  ],
+  "is_function": false
+ },
+ "unsre": {
+  "count": 1,
+  "occ": [
+   684
+  ],
+  "songs": [
+   9
+  ],
+  "samples": [
+   "Unsre Freuden, unsre Leiden,"
+  ],
+  "is_function": true
+ },
+ "Leiden": {
+  "count": 2,
+  "occ": [
+   685,
+   704
+  ],
+  "songs": [
+   9
+  ],
+  "samples": [
+   "Unsre Freuden, unsre Leiden,",
+   "Jedes Leiden auch sein Grab."
+  ],
+  "is_function": false
+ },
+ "Alles": {
+  "count": 3,
+  "occ": [
+   686,
+   1175,
+   1615
+  ],
+  "songs": [
+   9,
+   17,
+   24
+  ],
+  "samples": [
+   "Alles eines Irrlichts Spiel!",
+   "Und morgen früh ist Alles zerflossen. —",
+   "Alles, wie es will,"
+  ],
+  "is_function": false
+ },
+ "eines": {
+  "count": 2,
+  "occ": [
+   688,
+   749
+  ],
+  "songs": [
+   9,
+   10
+  ],
+  "samples": [
+   "Alles eines Irrlichts Spiel!",
+   "In eines Köhlers engem Haus"
+  ],
+  "is_function": true
+ },
+ "Irrlichts": {
+  "count": 1,
+  "occ": [
+   688
+  ],
+  "songs": [
+   9
+  ],
+  "samples": [
+   "Alles eines Irrlichts Spiel!"
+  ],
+  "is_function": false
+ },
+ "Spiel": {
+  "count": 1,
+  "occ": [
+   689
+  ],
+  "songs": [
+   9
+  ],
+  "samples": [
+   "Alles eines Irrlichts Spiel!"
+  ],
+  "is_function": false
+ },
+ "Durch": {
+  "count": 4,
+  "occ": [
+   690,
+   892,
+   911,
+   1330
+  ],
+  "songs": [
+   9,
+   12,
+   20
+  ],
+  "samples": [
+   "Durch des Bergstroms trockne Rinnen",
+   "Durch heitre Lüfte geht,",
+   "Durch helles, frohes Leben,"
+  ],
+  "is_function": true
+ },
+ "trockne": {
+  "count": 1,
+  "occ": [
+   691
+  ],
+  "songs": [
+   9
+  ],
+  "samples": [
+   "Durch des Bergstroms trockne Rinnen"
+  ],
+  "is_function": false
+ },
+ "Bergstroms": {
+  "count": 1,
+  "occ": [
+   693
+  ],
+  "songs": [
+   9
+  ],
+  "samples": [
+   "Durch des Bergstroms trockne Rinnen"
+  ],
+  "is_function": false
+ },
+ "ruhig": {
+  "count": 2,
+  "occ": [
+   696,
+   924
+  ],
+  "songs": [
+   9,
+   12
+  ],
+  "samples": [
+   "Wind' ich ruhig mich hinab —",
+   "Ach, dass die Luft so ruhig!"
+  ],
+  "is_function": false
+ },
+ "hinab": {
+  "count": 2,
+  "occ": [
+   697,
+   1553
+  ],
+  "songs": [
+   9,
+   23
+  ],
+  "samples": [
+   "Wind' ich ruhig mich hinab —",
+   "Nun sind hinab die besten zwei."
+  ],
+  "is_function": false
+ },
+ "Jeder": {
+  "count": 1,
+  "occ": [
+   698
+  ],
+  "songs": [
+   9
+  ],
+  "samples": [
+   "Jeder Strom wird's Meer gewinnen,"
+  ],
+  "is_function": false
+ },
+ "Strom": {
+  "count": 1,
+  "occ": [
+   699
+  ],
+  "songs": [
+   9
+  ],
+  "samples": [
+   "Jeder Strom wird's Meer gewinnen,"
+  ],
+  "is_function": false
+ },
+ "Meer": {
+  "count": 1,
+  "occ": [
+   700
+  ],
+  "songs": [
+   9
+  ],
+  "samples": [
+   "Jeder Strom wird's Meer gewinnen,"
+  ],
+  "is_function": false
+ },
+ "wird": {
+  "count": 3,
+  "occ": [
+   701,
+   1083,
+   1563
+  ],
+  "songs": [
+   9,
+   15,
+   23
+  ],
+  "samples": [
+   "Jeder Strom wird's Meer gewinnen,",
+   "Nun, es wird nicht weit mehr gehn",
+   "Im Dunkeln wird mir wohler sein."
+  ],
+  "is_function": false
+ },
+ "gewinnen": {
+  "count": 1,
+  "occ": [
+   701
+  ],
+  "songs": [
+   9
+  ],
+  "samples": [
+   "Jeder Strom wird's Meer gewinnen,"
+  ],
+  "is_function": false
+ },
+ "Jedes": {
+  "count": 1,
+  "occ": [
+   703
+  ],
+  "songs": [
+   9
+  ],
+  "samples": [
+   "Jedes Leiden auch sein Grab."
+  ],
+  "is_function": false
+ },
+ "sein": {
+  "count": 7,
+  "occ": [
+   706,
+   1007,
+   1248,
+   1406,
+   1502,
+   1566,
+   1588
+  ],
+  "songs": [
+   9,
+   14,
+   18,
+   21,
+   22,
+   23,
+   24
+  ],
+  "samples": [
+   "Jedes Leiden auch sein Grab.",
+   "Da glaubt' ich schon ein Greis zu sein,",
+   "Gemalt sein eignes Bild —"
+  ],
+  "is_function": true
+ },
+ "Grab": {
+  "count": 2,
+  "occ": [
+   707,
+   1150
+  ],
+  "songs": [
+   9,
+   16
+  ],
+  "samples": [
+   "Jedes Leiden auch sein Grab.",
+   "Wein', wein' auf meiner Hoffnung Grab."
+  ],
+  "is_function": false
+ },
+ "erst": {
+  "count": 3,
+  "occ": [
+   709,
+   777,
+   1559
+  ],
+  "songs": [
+   10,
+   23
+  ],
+  "samples": [
+   "Nun merk' ich erst, wie müd' ich bin,",
+   "Fühlst in der Still' erst deinen Wurm",
+   "Ging' nur die dritt' erst hinterdrein!"
+  ],
+  "is_function": false
+ },
+ "merk": {
+  "count": 1,
+  "occ": [
+   710
+  ],
+  "songs": [
+   10
+  ],
+  "samples": [
+   "Nun merk' ich erst, wie müd' ich bin,"
+  ],
+  "is_function": false
+ },
+ "müd": {
+  "count": 1,
+  "occ": [
+   713
+  ],
+  "songs": [
+   10
+  ],
+  "samples": [
+   "Nun merk' ich erst, wie müd' ich bin,"
+  ],
+  "is_function": false
+ },
+ "zur": {
+  "count": 2,
+  "occ": [
+   718,
+   1029
+  ],
+  "songs": [
+   10,
+   14
+  ],
+  "samples": [
+   "Da ich zur Ruh' mich lege;",
+   "Wie weit noch bis zur Bahre!"
+  ],
+  "is_function": true
+ },
+ "lege": {
+  "count": 1,
+  "occ": [
+   719
+  ],
+  "songs": [
+   10
+  ],
+  "samples": [
+   "Da ich zur Ruh' mich lege;"
+  ],
+  "is_function": false
+ },
+ "hielt": {
+  "count": 1,
+  "occ": [
+   721
+  ],
+  "songs": [
+   10
+  ],
+  "samples": [
+   "Das Wandern hielt mich munter hin"
+  ],
+  "is_function": false
+ },
+ "munter": {
+  "count": 2,
+  "occ": [
+   723,
+   1467
+  ],
+  "songs": [
+   10,
+   22
+  ],
+  "samples": [
+   "Das Wandern hielt mich munter hin",
+   "Sing' ich hell und munter."
+  ],
+  "is_function": false
+ },
+ "unwirtbarem": {
+  "count": 1,
+  "occ": [
+   725
+  ],
+  "songs": [
+   10
+  ],
+  "samples": [
+   "Auf unwirtbarem Wege."
+  ],
+  "is_function": false
+ },
+ "Wege": {
+  "count": 2,
+  "occ": [
+   726,
+   1321
+  ],
+  "songs": [
+   10,
+   20
+  ],
+  "samples": [
+   "Auf unwirtbarem Wege.",
+   "Was vermeid' ich denn die Wege,"
+  ],
+  "is_function": false
+ },
+ "Füße": {
+  "count": 1,
+  "occ": [
+   727
+  ],
+  "songs": [
+   10
+  ],
+  "samples": [
+   "Die Füße frugen nicht nach Rast,"
+  ],
+  "is_function": false
+ },
+ "frugen": {
+  "count": 1,
+  "occ": [
+   729
+  ],
+  "songs": [
+   10
+  ],
+  "samples": [
+   "Die Füße frugen nicht nach Rast,"
+  ],
+  "is_function": false
+ },
+ "Rast": {
+  "count": 1,
+  "occ": [
+   730
+  ],
+  "songs": [
+   10
+  ],
+  "samples": [
+   "Die Füße frugen nicht nach Rast,"
+  ],
+  "is_function": false
+ },
+ "Stehen": {
+  "count": 1,
+  "occ": [
+   735
+  ],
+  "songs": [
+   10
+  ],
+  "samples": [
+   "Es war zu kalt zum Stehen,"
+  ],
+  "is_function": false
+ },
+ "Rücken": {
+  "count": 1,
+  "occ": [
+   736
+  ],
+  "songs": [
+   10
+  ],
+  "samples": [
+   "Der Rücken fühlte keine Last,"
+  ],
+  "is_function": false
+ },
+ "keine": {
+  "count": 2,
+  "occ": [
+   737,
+   1474
+  ],
+  "songs": [
+   10,
+   22
+  ],
+  "samples": [
+   "Der Rücken fühlte keine Last,",
+   "Habe keine Ohren."
+  ],
+  "is_function": true
+ },
+ "fühlte": {
+  "count": 1,
+  "occ": [
+   738
+  ],
+  "songs": [
+   10
+  ],
+  "samples": [
+   "Der Rücken fühlte keine Last,"
+  ],
+  "is_function": false
+ },
+ "Last": {
+  "count": 1,
+  "occ": [
+   739
+  ],
+  "songs": [
+   10
+  ],
+  "samples": [
+   "Der Rücken fühlte keine Last,"
+  ],
+  "is_function": false
+ },
+ "Sturm": {
+  "count": 3,
+  "occ": [
+   740,
+   770,
+   1217
+  ],
+  "songs": [
+   10,
+   18
+  ],
+  "samples": [
+   "Der Sturm half fort mich wehen.",
+   "Auch du, mein Herz, in Kampf und Sturm",
+   "Wie hat der Sturm zerrissen"
+  ],
+  "is_function": false
+ },
+ "half": {
+  "count": 1,
+  "occ": [
+   741
+  ],
+  "songs": [
+   10
+  ],
+  "samples": [
+   "Der Sturm half fort mich wehen."
+  ],
+  "is_function": false
+ },
+ "wehen": {
+  "count": 1,
+  "occ": [
+   745
+  ],
+  "songs": [
+   10
+  ],
+  "samples": [
+   "Der Sturm half fort mich wehen."
+  ],
+  "is_function": false
+ },
+ "engem": {
+  "count": 1,
+  "occ": [
+   747
+  ],
+  "songs": [
+   10
+  ],
+  "samples": [
+   "In eines Köhlers engem Haus"
+  ],
+  "is_function": false
+ },
+ "Köhlers": {
+  "count": 1,
+  "occ": [
+   749
+  ],
+  "songs": [
+   10
+  ],
+  "samples": [
+   "In eines Köhlers engem Haus"
+  ],
+  "is_function": false
+ },
+ "Obdach": {
+  "count": 1,
+  "occ": [
+   750
+  ],
+  "songs": [
+   10
+  ],
+  "samples": [
+   "Hab' Obdach ich gefunden;"
+  ],
+  "is_function": false
+ },
+ "gefunden": {
+  "count": 1,
+  "occ": [
+   752
+  ],
+  "songs": [
+   10
+  ],
+  "samples": [
+   "Hab' Obdach ich gefunden;"
+  ],
+  "is_function": false
+ },
+ "Doch": {
+  "count": 5,
+  "occ": [
+   753,
+   821,
+   1012,
+   1188,
+   1435
+  ],
+  "songs": [
+   10,
+   11,
+   14,
+   17,
+   21
+  ],
+  "samples": [
+   "Doch meine Glieder ruhn nicht aus:",
+   "Doch an den Fensterscheiben,",
+   "Doch bald ist er hinweggetaut,"
+  ],
+  "is_function": false
+ },
+ "Glieder": {
+  "count": 1,
+  "occ": [
+   755
+  ],
+  "songs": [
+   10
+  ],
+  "samples": [
+   "Doch meine Glieder ruhn nicht aus:"
+  ],
+  "is_function": false
+ },
+ "ruhn": {
+  "count": 2,
+  "occ": [
+   757,
+   1203
+  ],
+  "songs": [
+   10,
+   17
+  ],
+  "samples": [
+   "Doch meine Glieder ruhn nicht aus:",
+   "Lasst mich nicht ruhn in der Schlummerstunde!"
+  ],
+  "is_function": false
+ },
+ "brennen": {
+  "count": 1,
+  "occ": [
+   760
+  ],
+  "songs": [
+   10
+  ],
+  "samples": [
+   "So brennen ihre Wunden."
+  ],
+  "is_function": false
+ },
+ "ihre": {
+  "count": 1,
+  "occ": [
+   761
+  ],
+  "songs": [
+   10
+  ],
+  "samples": [
+   "So brennen ihre Wunden."
+  ],
+  "is_function": true
+ },
+ "Wunden": {
+  "count": 1,
+  "occ": [
+   762
+  ],
+  "songs": [
+   10
+  ],
+  "samples": [
+   "So brennen ihre Wunden."
+  ],
+  "is_function": false
+ },
+ "Auch": {
+  "count": 1,
+  "occ": [
+   763
+  ],
+  "songs": [
+   10
+  ],
+  "samples": [
+   "Auch du, mein Herz, in Kampf und Sturm"
+  ],
+  "is_function": true
+ },
+ "Kampf": {
+  "count": 1,
+  "occ": [
+   768
+  ],
+  "songs": [
+   10
+  ],
+  "samples": [
+   "Auch du, mein Herz, in Kampf und Sturm"
+  ],
+  "is_function": false
+ },
+ "wild": {
+  "count": 2,
+  "occ": [
+   772,
+   1258
+  ],
+  "songs": [
+   10,
+   18
+  ],
+  "samples": [
+   "So wild und so verwegen,",
+   "Der Winter kalt und wild!"
+  ],
+  "is_function": false
+ },
+ "verwegen": {
+  "count": 1,
+  "occ": [
+   775
+  ],
+  "songs": [
+   10
+  ],
+  "samples": [
+   "So wild und so verwegen,"
+  ],
+  "is_function": false
+ },
+ "Still": {
+  "count": 1,
+  "occ": [
+   779
+  ],
+  "songs": [
+   10
+  ],
+  "samples": [
+   "Fühlst in der Still' erst deinen Wurm"
+  ],
+  "is_function": false
+ },
+ "Wurm": {
+  "count": 1,
+  "occ": [
+   782
+  ],
+  "songs": [
+   10
+  ],
+  "samples": [
+   "Fühlst in der Still' erst deinen Wurm"
+  ],
+  "is_function": false
+ },
+ "heißem": {
+  "count": 1,
+  "occ": [
+   784
+  ],
+  "songs": [
+   10
+  ],
+  "samples": [
+   "Mit heißem Stich sich regen!"
+  ],
+  "is_function": false
+ },
+ "Stich": {
+  "count": 1,
+  "occ": [
+   785
+  ],
+  "songs": [
+   10
+  ],
+  "samples": [
+   "Mit heißem Stich sich regen!"
+  ],
+  "is_function": false
+ },
+ "sich": {
+  "count": 4,
+  "occ": [
+   786,
+   1160,
+   1166,
+   1292
+  ],
+  "songs": [
+   10,
+   17,
+   19
+  ],
+  "samples": [
+   "Mit heißem Stich sich regen!",
+   "Träumen sich Manches, was sie nicht haben,",
+   "Tun sich im Guten und Argen erlaben:"
+  ],
+  "is_function": true
+ },
+ "regen": {
+  "count": 1,
+  "occ": [
+   786
+  ],
+  "songs": [
+   10
+  ],
+  "samples": [
+   "Mit heißem Stich sich regen!"
+  ],
+  "is_function": false
+ },
+ "träumte": {
+  "count": 3,
+  "occ": [
+   788,
+   799,
+   838
+  ],
+  "songs": [
+   11
+  ],
+  "samples": [
+   "Ich träumte von bunten Blumen,",
+   "Ich träumte von grünen Wiesen,",
+   "Ich träumte von Lieb' um Liebe,"
+  ],
+  "is_function": false
+ },
+ "bunten": {
+  "count": 2,
+  "occ": [
+   789,
+   1293
+  ],
+  "songs": [
+   11,
+   19
+  ],
+  "samples": [
+   "Ich träumte von bunten Blumen,",
+   "Gibt gern sich hin der bunten List,"
+  ],
+  "is_function": false
+ },
+ "wohl": {
+  "count": 6,
+  "occ": [
+   794,
+   830,
+   982,
+   1071,
+   1404,
+   1550
+  ],
+  "songs": [
+   11,
+   13,
+   15,
+   21,
+   23
+  ],
+  "samples": [
+   "So wie sie wohl blühen im Mai,",
+   "Ihr lacht wohl über den Träumer,",
+   "Willst wohl einmal hinüber sehn,"
+  ],
+  "is_function": false
+ },
+ "blühen": {
+  "count": 1,
+  "occ": [
+   795
+  ],
+  "songs": [
+   11
+  ],
+  "samples": [
+   "So wie sie wohl blühen im Mai,"
+  ],
+  "is_function": false
+ },
+ "grünen": {
+  "count": 2,
+  "occ": [
+   800,
+   1401
+  ],
+  "songs": [
+   11,
+   21
+  ],
+  "samples": [
+   "Ich träumte von grünen Wiesen,",
+   "Ihr grünen Totenkränze"
+  ],
+  "is_function": false
+ },
+ "Wiesen": {
+  "count": 1,
+  "occ": [
+   801
+  ],
+  "songs": [
+   11
+  ],
+  "samples": [
+   "Ich träumte von grünen Wiesen,"
+  ],
+  "is_function": false
+ },
+ "lustigem": {
+  "count": 1,
+  "occ": [
+   802
+  ],
+  "songs": [
+   11
+  ],
+  "samples": [
+   "Von lustigem Vogelgeschrei."
+  ],
+  "is_function": false
+ },
+ "Vogelgeschrei": {
+  "count": 1,
+  "occ": [
+   803
+  ],
+  "songs": [
+   11
+  ],
+  "samples": [
+   "Von lustigem Vogelgeschrei."
+  ],
+  "is_function": false
+ },
+ "als": {
+  "count": 4,
+  "occ": [
+   805,
+   851,
+   1073,
+   1253
+  ],
+  "songs": [
+   11,
+   15,
+   18
+  ],
+  "samples": [
+   "Und als die Hähne krähten,",
+   "Meinst wohl bald als Beute hier",
+   "Es ist nichts als der Winter,"
+  ],
+  "is_function": true
+ },
+ "Hähne": {
+  "count": 2,
+  "occ": [
+   806,
+   852
+  ],
+  "songs": [
+   11
+  ],
+  "samples": [
+   "Und als die Hähne krähten,"
+  ],
+  "is_function": false
+ },
+ "krähten": {
+  "count": 2,
+  "occ": [
+   807,
+   853
+  ],
+  "songs": [
+   11
+  ],
+  "samples": [
+   "Und als die Hähne krähten,"
+  ],
+  "is_function": false
+ },
+ "Auge": {
+  "count": 1,
+  "occ": [
+   810
+  ],
+  "songs": [
+   11
+  ],
+  "samples": [
+   "Da ward mein Auge wach;"
+  ],
+  "is_function": false
+ },
+ "ward": {
+  "count": 3,
+  "occ": [
+   811,
+   857,
+   1046
+  ],
+  "songs": [
+   11,
+   14
+  ],
+  "samples": [
+   "Da ward mein Auge wach;",
+   "Da ward mein Herze wach;",
+   "Wer glaubt's? Und meiner ward es nicht"
+  ],
+  "is_function": false
+ },
+ "wach": {
+  "count": 2,
+  "occ": [
+   811,
+   857
+  ],
+  "songs": [
+   11
+  ],
+  "samples": [
+   "Da ward mein Auge wach;",
+   "Da ward mein Herze wach;"
+  ],
+  "is_function": false
+ },
+ "finster": {
+  "count": 1,
+  "occ": [
+   816
+  ],
+  "songs": [
+   11
+  ],
+  "samples": [
+   "Da war es kalt und finster,"
+  ],
+  "is_function": false
+ },
+ "schrien": {
+  "count": 1,
+  "occ": [
+   817
+  ],
+  "songs": [
+   11
+  ],
+  "samples": [
+   "Es schrien die Raben vom Dach."
+  ],
+  "is_function": false
+ },
+ "Raben": {
+  "count": 1,
+  "occ": [
+   818
+  ],
+  "songs": [
+   11
+  ],
+  "samples": [
+   "Es schrien die Raben vom Dach."
+  ],
+  "is_function": false
+ },
+ "Fensterscheiben": {
+  "count": 1,
+  "occ": [
+   823
+  ],
+  "songs": [
+   11
+  ],
+  "samples": [
+   "Doch an den Fensterscheiben,"
+  ],
+  "is_function": false
+ },
+ "malte": {
+  "count": 1,
+  "occ": [
+   825
+  ],
+  "songs": [
+   11
+  ],
+  "samples": [
+   "Wer malte die Blätter da?"
+  ],
+  "is_function": false
+ },
+ "Blätter": {
+  "count": 2,
+  "occ": [
+   826,
+   879
+  ],
+  "songs": [
+   11
+  ],
+  "samples": [
+   "Wer malte die Blätter da?",
+   "Wann grünt ihr Blätter am Fenster?"
+  ],
+  "is_function": false
+ },
+ "da": {
+  "count": 3,
+  "occ": [
+   827,
+   1094,
+   1524
+  ],
+  "songs": [
+   11,
+   16,
+   23
+  ],
+  "samples": [
+   "Wer malte die Blätter da?",
+   "Hie und da ist an den Bäumen",
+   "Und sie auch standen da so stier,"
+  ],
+  "is_function": false
+ },
+ "lacht": {
+  "count": 1,
+  "occ": [
+   829
+  ],
+  "songs": [
+   11
+  ],
+  "samples": [
+   "Ihr lacht wohl über den Träumer,"
+  ],
+  "is_function": false
+ },
+ "über": {
+  "count": 1,
+  "occ": [
+   831
+  ],
+  "songs": [
+   11
+  ],
+  "samples": [
+   "Ihr lacht wohl über den Träumer,"
+  ],
+  "is_function": true
+ },
+ "Träumer": {
+  "count": 1,
+  "occ": [
+   832
+  ],
+  "songs": [
+   11
+  ],
+  "samples": [
+   "Ihr lacht wohl über den Träumer,"
+  ],
+  "is_function": false
+ },
+ "Winter": {
+  "count": 3,
+  "occ": [
+   835,
+   1254,
+   1255
+  ],
+  "songs": [
+   11,
+   18
+  ],
+  "samples": [
+   "Der Blumen im Winter sah?",
+   "Es ist nichts als der Winter,",
+   "Der Winter kalt und wild!"
+  ],
+  "is_function": false
+ },
+ "sah": {
+  "count": 2,
+  "occ": [
+   836,
+   1509
+  ],
+  "songs": [
+   11,
+   23
+  ],
+  "samples": [
+   "Der Blumen im Winter sah?",
+   "Drei Sonnen sah' ich am Himmel stehn,"
+  ],
+  "is_function": false
+ },
+ "Lieb": {
+  "count": 1,
+  "occ": [
+   839
+  ],
+  "songs": [
+   11
+  ],
+  "samples": [
+   "Ich träumte von Lieb' um Liebe,"
+  ],
+  "is_function": false
+ },
+ "einer": {
+  "count": 1,
+  "occ": [
+   842
+  ],
+  "songs": [
+   11
+  ],
+  "samples": [
+   "Von einer schönen Maid,"
+  ],
+  "is_function": true
+ },
+ "Maid": {
+  "count": 1,
+  "occ": [
+   843
+  ],
+  "songs": [
+   11
+  ],
+  "samples": [
+   "Von einer schönen Maid,"
+  ],
+  "is_function": false
+ },
+ "Küssen": {
+  "count": 1,
+  "occ": [
+   846
+  ],
+  "songs": [
+   11
+  ],
+  "samples": [
+   "Von Herzen und von Küssen,"
+  ],
+  "is_function": false
+ },
+ "Wonne": {
+  "count": 1,
+  "occ": [
+   847
+  ],
+  "songs": [
+   11
+  ],
+  "samples": [
+   "Von Wonne und Seligkeit."
+  ],
+  "is_function": false
+ },
+ "Seligkeit": {
+  "count": 1,
+  "occ": [
+   849
+  ],
+  "songs": [
+   11
+  ],
+  "samples": [
+   "Von Wonne und Seligkeit."
+  ],
+  "is_function": false
+ },
+ "Herze": {
+  "count": 1,
+  "occ": [
+   856
+  ],
+  "songs": [
+   11
+  ],
+  "samples": [
+   "Da ward mein Herze wach;"
+  ],
+  "is_function": false
+ },
+ "sitz": {
+  "count": 1,
+  "occ": [
+   859
+  ],
+  "songs": [
+   11
+  ],
+  "samples": [
+   "Nun sitz' ich hier alleine"
+  ],
+  "is_function": false
+ },
+ "alleine": {
+  "count": 1,
+  "occ": [
+   862
+  ],
+  "songs": [
+   11
+  ],
+  "samples": [
+   "Nun sitz' ich hier alleine"
+  ],
+  "is_function": false
+ },
+ "denke": {
+  "count": 1,
+  "occ": [
+   864
+  ],
+  "songs": [
+   11
+  ],
+  "samples": [
+   "Und denke dem Traume nach."
+  ],
+  "is_function": false
+ },
+ "Traume": {
+  "count": 1,
+  "occ": [
+   866
+  ],
+  "songs": [
+   11
+  ],
+  "samples": [
+   "Und denke dem Traume nach."
+  ],
+  "is_function": false
+ },
+ "schließ": {
+  "count": 1,
+  "occ": [
+   868
+  ],
+  "songs": [
+   11
+  ],
+  "samples": [
+   "Die Augen schließ' ich wieder,"
+  ],
+  "is_function": false
+ },
+ "Noch": {
+  "count": 1,
+  "occ": [
+   871
+  ],
+  "songs": [
+   11
+  ],
+  "samples": [
+   "Noch schlägt das Herz so warm."
+  ],
+  "is_function": false
+ },
+ "schlägt": {
+  "count": 1,
+  "occ": [
+   872
+  ],
+  "songs": [
+   11
+  ],
+  "samples": [
+   "Noch schlägt das Herz so warm."
+  ],
+  "is_function": false
+ },
+ "warm": {
+  "count": 1,
+  "occ": [
+   875
+  ],
+  "songs": [
+   11
+  ],
+  "samples": [
+   "Noch schlägt das Herz so warm."
+  ],
+  "is_function": false
+ },
+ "Wann": {
+  "count": 2,
+  "occ": [
+   876,
+   882
+  ],
+  "songs": [
+   11
+  ],
+  "samples": [
+   "Wann grünt ihr Blätter am Fenster?",
+   "Wann halt' ich mein Liebchen im Arm?"
+  ],
+  "is_function": false
+ },
+ "grünt": {
+  "count": 1,
+  "occ": [
+   877
+  ],
+  "songs": [
+   11
+  ],
+  "samples": [
+   "Wann grünt ihr Blätter am Fenster?"
+  ],
+  "is_function": false
+ },
+ "am": {
+  "count": 2,
+  "occ": [
+   880,
+   1511
+  ],
+  "songs": [
+   11,
+   23
+  ],
+  "samples": [
+   "Wann grünt ihr Blätter am Fenster?",
+   "Drei Sonnen sah' ich am Himmel stehn,"
+  ],
+  "is_function": true
+ },
+ "Fenster": {
+  "count": 1,
+  "occ": [
+   881
+  ],
+  "songs": [
+   11
+  ],
+  "samples": [
+   "Wann grünt ihr Blätter am Fenster?"
+  ],
+  "is_function": false
+ },
+ "halt": {
+  "count": 1,
+  "occ": [
+   883
+  ],
+  "songs": [
+   11
+  ],
+  "samples": [
+   "Wann halt' ich mein Liebchen im Arm?"
+  ],
+  "is_function": false
+ },
+ "Arm": {
+  "count": 1,
+  "occ": [
+   888
+  ],
+  "songs": [
+   11
+  ],
+  "samples": [
+   "Wann halt' ich mein Liebchen im Arm?"
+  ],
+  "is_function": false
+ },
+ "Wolke": {
+  "count": 1,
+  "occ": [
+   891
+  ],
+  "songs": [
+   12
+  ],
+  "samples": [
+   "Wie eine trübe Wolke"
+  ],
+  "is_function": false
+ },
+ "heitre": {
+  "count": 1,
+  "occ": [
+   893
+  ],
+  "songs": [
+   12
+  ],
+  "samples": [
+   "Durch heitre Lüfte geht,"
+  ],
+  "is_function": false
+ },
+ "Lüfte": {
+  "count": 1,
+  "occ": [
+   894
+  ],
+  "songs": [
+   12
+  ],
+  "samples": [
+   "Durch heitre Lüfte geht,"
+  ],
+  "is_function": false
+ },
+ "Wipfel": {
+  "count": 1,
+  "occ": [
+   898
+  ],
+  "songs": [
+   12
+  ],
+  "samples": [
+   "Wenn in der Tanne Wipfel"
+  ],
+  "is_function": false
+ },
+ "Tanne": {
+  "count": 1,
+  "occ": [
+   899
+  ],
+  "songs": [
+   12
+  ],
+  "samples": [
+   "Wenn in der Tanne Wipfel"
+  ],
+  "is_function": false
+ },
+ "Ein": {
+  "count": 2,
+  "occ": [
+   900,
+   1259
+  ],
+  "songs": [
+   12,
+   19
+  ],
+  "samples": [
+   "Ein mattes Lüftchen weht:",
+   "Ein Licht tanzt freundlich vor mir her;"
+  ],
+  "is_function": true
+ },
+ "mattes": {
+  "count": 1,
+  "occ": [
+   900
+  ],
+  "songs": [
+   12
+  ],
+  "samples": [
+   "Ein mattes Lüftchen weht:"
+  ],
+  "is_function": false
+ },
+ "Lüftchen": {
+  "count": 1,
+  "occ": [
+   901
+  ],
+  "songs": [
+   12
+  ],
+  "samples": [
+   "Ein mattes Lüftchen weht:"
+  ],
+  "is_function": false
+ },
+ "weht": {
+  "count": 1,
+  "occ": [
+   902
+  ],
+  "songs": [
+   12
+  ],
+  "samples": [
+   "Ein mattes Lüftchen weht:"
+  ],
+  "is_function": false
+ },
+ "Straße": {
+  "count": 3,
+  "occ": [
+   907,
+   943,
+   1376
+  ],
+  "songs": [
+   12,
+   13,
+   20
+  ],
+  "samples": [
+   "So zieh' ich meine Straße",
+   "Von der Straße her ein Posthorn klingt.",
+   "Eine Straße muss ich gehen,"
+  ],
+  "is_function": false
+ },
+ "Dahin": {
+  "count": 1,
+  "occ": [
+   908
+  ],
+  "songs": [
+   12
+  ],
+  "samples": [
+   "Dahin mit trägem Fuß,"
+  ],
+  "is_function": false
+ },
+ "trägem": {
+  "count": 1,
+  "occ": [
+   909
+  ],
+  "songs": [
+   12
+  ],
+  "samples": [
+   "Dahin mit trägem Fuß,"
+  ],
+  "is_function": false
+ },
+ "Fuß": {
+  "count": 1,
+  "occ": [
+   910
+  ],
+  "songs": [
+   12
+  ],
+  "samples": [
+   "Dahin mit trägem Fuß,"
+  ],
+  "is_function": false
+ },
+ "helles": {
+  "count": 2,
+  "occ": [
+   912,
+   1304
+  ],
+  "songs": [
+   12,
+   19
+  ],
+  "samples": [
+   "Durch helles, frohes Leben,",
+   "Ihm weist ein helles, warmes Haus,"
+  ],
+  "is_function": false
+ },
+ "frohes": {
+  "count": 1,
+  "occ": [
+   913
+  ],
+  "songs": [
+   12
+  ],
+  "samples": [
+   "Durch helles, frohes Leben,"
+  ],
+  "is_function": false
+ },
+ "Leben": {
+  "count": 1,
+  "occ": [
+   914
+  ],
+  "songs": [
+   12
+  ],
+  "samples": [
+   "Durch helles, frohes Leben,"
+  ],
+  "is_function": false
+ },
+ "Einsam": {
+  "count": 1,
+  "occ": [
+   915
+  ],
+  "songs": [
+   12
+  ],
+  "samples": [
+   "Einsam und ohne Gruß."
+  ],
+  "is_function": false
+ },
+ "ohne": {
+  "count": 1,
+  "occ": [
+   917
+  ],
+  "songs": [
+   12
+  ],
+  "samples": [
+   "Einsam und ohne Gruß."
+  ],
+  "is_function": true
+ },
+ "Gruß": {
+  "count": 1,
+  "occ": [
+   918
+  ],
+  "songs": [
+   12
+  ],
+  "samples": [
+   "Einsam und ohne Gruß."
+  ],
+  "is_function": false
+ },
+ "Ach": {
+  "count": 6,
+  "occ": [
+   919,
+   925,
+   1129,
+   1282,
+   1534,
+   1545
+  ],
+  "songs": [
+   12,
+   16,
+   19,
+   23
+  ],
+  "samples": [
+   "Ach, dass die Luft so ruhig!",
+   "Ach, dass die Welt so licht!",
+   "Ach, und fällt das Blatt zu Boden,"
+  ],
+  "is_function": false
+ },
+ "dass": {
+  "count": 3,
+  "occ": [
+   920,
+   926,
+   948
+  ],
+  "songs": [
+   12,
+   13
+  ],
+  "samples": [
+   "Ach, dass die Luft so ruhig!",
+   "Ach, dass die Welt so licht!",
+   "Was hat es, dass es so hoch aufspringt,"
+  ],
+  "is_function": true
+ },
+ "Luft": {
+  "count": 1,
+  "occ": [
+   922
+  ],
+  "songs": [
+   12
+  ],
+  "samples": [
+   "Ach, dass die Luft so ruhig!"
+  ],
+  "is_function": false
+ },
+ "licht": {
+  "count": 1,
+  "occ": [
+   930
+  ],
+  "songs": [
+   12
+  ],
+  "samples": [
+   "Ach, dass die Welt so licht!"
+  ],
+  "is_function": false
+ },
+ "Stürme": {
+  "count": 1,
+  "occ": [
+   933
+  ],
+  "songs": [
+   12
+  ],
+  "samples": [
+   "Als noch die Stürme tobten,"
+  ],
+  "is_function": false
+ },
+ "tobten": {
+  "count": 1,
+  "occ": [
+   934
+  ],
+  "songs": [
+   12
+  ],
+  "samples": [
+   "Als noch die Stürme tobten,"
+  ],
+  "is_function": false
+ },
+ "War": {
+  "count": 1,
+  "occ": [
+   936
+  ],
+  "songs": [
+   12
+  ],
+  "samples": [
+   "War ich so elend, so elend nicht."
+  ],
+  "is_function": true
+ },
+ "elend": {
+  "count": 3,
+  "occ": [
+   939,
+   941,
+   1288
+  ],
+  "songs": [
+   12,
+   19
+  ],
+  "samples": [
+   "War ich so elend, so elend nicht.",
+   "Ach, wer wie ich so elend ist,"
+  ],
+  "is_function": false
+ },
+ "Posthorn": {
+  "count": 1,
+  "occ": [
+   944
+  ],
+  "songs": [
+   13
+  ],
+  "samples": [
+   "Von der Straße her ein Posthorn klingt."
+  ],
+  "is_function": false
+ },
+ "klingt": {
+  "count": 1,
+  "occ": [
+   945
+  ],
+  "songs": [
+   13
+  ],
+  "samples": [
+   "Von der Straße her ein Posthorn klingt."
+  ],
+  "is_function": false
+ },
+ "hoch": {
+  "count": 1,
+  "occ": [
+   951
+  ],
+  "songs": [
+   13
+  ],
+  "samples": [
+   "Was hat es, dass es so hoch aufspringt,"
+  ],
+  "is_function": false
+ },
+ "aufspringt": {
+  "count": 1,
+  "occ": [
+   952
+  ],
+  "songs": [
+   13
+  ],
+  "samples": [
+   "Was hat es, dass es so hoch aufspringt,"
+  ],
+  "is_function": false
+ },
+ "Post": {
+  "count": 2,
+  "occ": [
+   955,
+   970
+  ],
+  "songs": [
+   13
+  ],
+  "samples": [
+   "Die Post bringt keinen Brief für dich:",
+   "Nun ja, die Post kommt aus der Stadt,"
+  ],
+  "is_function": false
+ },
+ "bringt": {
+  "count": 1,
+  "occ": [
+   957
+  ],
+  "songs": [
+   13
+  ],
+  "samples": [
+   "Die Post bringt keinen Brief für dich:"
+  ],
+  "is_function": false
+ },
+ "Brief": {
+  "count": 1,
+  "occ": [
+   958
+  ],
+  "songs": [
+   13
+  ],
+  "samples": [
+   "Die Post bringt keinen Brief für dich:"
+  ],
+  "is_function": false
+ },
+ "für": {
+  "count": 5,
+  "occ": [
+   959,
+   1058,
+   1058,
+   1314,
+   1485
+  ],
+  "songs": [
+   13,
+   15,
+   19,
+   22
+  ],
+  "samples": [
+   "Die Post bringt keinen Brief für dich:",
+   "Ist bis heute für und für",
+   "Nur Täuschung ist für mich Gewinn!"
+  ],
+  "is_function": false
+ },
+ "drängst": {
+  "count": 1,
+  "occ": [
+   963
+  ],
+  "songs": [
+   13
+  ],
+  "samples": [
+   "Was drängst du denn so wunderlich,"
+  ],
+  "is_function": false
+ },
+ "wunderlich": {
+  "count": 1,
+  "occ": [
+   966
+  ],
+  "songs": [
+   13
+  ],
+  "samples": [
+   "Was drängst du denn so wunderlich,"
+  ],
+  "is_function": false
+ },
+ "kommt": {
+  "count": 1,
+  "occ": [
+   971
+  ],
+  "songs": [
+   13
+  ],
+  "samples": [
+   "Nun ja, die Post kommt aus der Stadt,"
+  ],
+  "is_function": false
+ },
+ "liebes": {
+  "count": 1,
+  "occ": [
+   976
+  ],
+  "songs": [
+   13
+  ],
+  "samples": [
+   "Wo ich ein liebes Liebchen hatt',"
+  ],
+  "is_function": false
+ },
+ "hatt": {
+  "count": 2,
+  "occ": [
+   978,
+   1547
+  ],
+  "songs": [
+   13,
+   23
+  ],
+  "samples": [
+   "Wo ich ein liebes Liebchen hatt',",
+   "Ach, neulich hatt' ich auch wohl drei:"
+  ],
+  "is_function": true
+ },
+ "Willst": {
+  "count": 3,
+  "occ": [
+   981,
+   1067,
+   1632
+  ],
+  "songs": [
+   13,
+   15,
+   24
+  ],
+  "samples": [
+   "Willst wohl einmal hinüber sehn,",
+   "Willst mich nicht verlassen?",
+   "Willst zu meinen Liedern"
+  ],
+  "is_function": false
+ },
+ "hinüber": {
+  "count": 1,
+  "occ": [
+   984
+  ],
+  "songs": [
+   13
+  ],
+  "samples": [
+   "Willst wohl einmal hinüber sehn,"
+  ],
+  "is_function": false
+ },
+ "mag": {
+  "count": 2,
+  "occ": [
+   991,
+   1597
+  ],
+  "songs": [
+   13,
+   24
+  ],
+  "samples": [
+   "Und fragen, wie es dort mag gehn,",
+   "Keiner mag ihn hören,"
+  ],
+  "is_function": false
+ },
+ "gehn": {
+  "count": 4,
+  "occ": [
+   992,
+   1083,
+   1325,
+   1631
+  ],
+  "songs": [
+   13,
+   15,
+   20,
+   24
+  ],
+  "samples": [
+   "Und fragen, wie es dort mag gehn,",
+   "Nun, es wird nicht weit mehr gehn",
+   "Wo die andern Wandrer gehn,"
+  ],
+  "is_function": false
+ },
+ "Reif": {
+  "count": 1,
+  "occ": [
+   995
+  ],
+  "songs": [
+   14
+  ],
+  "samples": [
+   "Der Reif hat einen weißen Schein"
+  ],
+  "is_function": false
+ },
+ "Schein": {
+  "count": 1,
+  "occ": [
+   997
+  ],
+  "songs": [
+   14
+  ],
+  "samples": [
+   "Der Reif hat einen weißen Schein"
+  ],
+  "is_function": false
+ },
+ "über's": {
+  "count": 1,
+  "occ": [
+   999
+  ],
+  "songs": [
+   14
+  ],
+  "samples": [
+   "Mir über's Haar gestreuet."
+  ],
+  "is_function": false
+ },
+ "Haar": {
+  "count": 1,
+  "occ": [
+   1000
+  ],
+  "songs": [
+   14
+  ],
+  "samples": [
+   "Mir über's Haar gestreuet."
+  ],
+  "is_function": false
+ },
+ "gestreuet": {
+  "count": 1,
+  "occ": [
+   1001
+  ],
+  "songs": [
+   14
+  ],
+  "samples": [
+   "Mir über's Haar gestreuet."
+  ],
+  "is_function": false
+ },
+ "glaubt": {
+  "count": 2,
+  "occ": [
+   1003,
+   1040
+  ],
+  "songs": [
+   14
+  ],
+  "samples": [
+   "Da glaubt' ich schon ein Greis zu sein,",
+   "Wer glaubt's? Und meiner ward es nicht"
+  ],
+  "is_function": false
+ },
+ "Greis": {
+  "count": 1,
+  "occ": [
+   1008
+  ],
+  "songs": [
+   14
+  ],
+  "samples": [
+   "Da glaubt' ich schon ein Greis zu sein,"
+  ],
+  "is_function": false
+ },
+ "sehr": {
+  "count": 1,
+  "occ": [
+   1010
+  ],
+  "songs": [
+   14
+  ],
+  "samples": [
+   "Und hab' mich sehr gefreuet."
+  ],
+  "is_function": true
+ },
+ "gefreuet": {
+  "count": 1,
+  "occ": [
+   1011
+  ],
+  "songs": [
+   14
+  ],
+  "samples": [
+   "Und hab' mich sehr gefreuet."
+  ],
+  "is_function": false
+ },
+ "hinweggetaut": {
+  "count": 1,
+  "occ": [
+   1015
+  ],
+  "songs": [
+   14
+  ],
+  "samples": [
+   "Doch bald ist er hinweggetaut,"
+  ],
+  "is_function": false
+ },
+ "schwarze": {
+  "count": 1,
+  "occ": [
+   1018
+  ],
+  "songs": [
+   14
+  ],
+  "samples": [
+   "Hab' wieder schwarze Haare,"
+  ],
+  "is_function": false
+ },
+ "Haare": {
+  "count": 1,
+  "occ": [
+   1019
+  ],
+  "songs": [
+   14
+  ],
+  "samples": [
+   "Hab' wieder schwarze Haare,"
+  ],
+  "is_function": false
+ },
+ "Jugend": {
+  "count": 1,
+  "occ": [
+   1024
+  ],
+  "songs": [
+   14
+  ],
+  "samples": [
+   "Dass mir's vor meiner Jugend graut —"
+  ],
+  "is_function": false
+ },
+ "graut": {
+  "count": 1,
+  "occ": [
+   1025
+  ],
+  "songs": [
+   14
+  ],
+  "samples": [
+   "Dass mir's vor meiner Jugend graut —"
+  ],
+  "is_function": false
+ },
+ "weit": {
+  "count": 2,
+  "occ": [
+   1027,
+   1081
+  ],
+  "songs": [
+   14,
+   15
+  ],
+  "samples": [
+   "Wie weit noch bis zur Bahre!",
+   "Nun, es wird nicht weit mehr gehn"
+  ],
+  "is_function": false
+ },
+ "bis": {
+  "count": 3,
+  "occ": [
+   1029,
+   1057,
+   1092
+  ],
+  "songs": [
+   14,
+   15
+  ],
+  "samples": [
+   "Wie weit noch bis zur Bahre!",
+   "Ist bis heute für und für",
+   "Treue bis zum Grabe!"
+  ],
+  "is_function": false
+ },
+ "Bahre": {
+  "count": 1,
+  "occ": [
+   1030
+  ],
+  "songs": [
+   14
+  ],
+  "samples": [
+   "Wie weit noch bis zur Bahre!"
+  ],
+  "is_function": false
+ },
+ "Vom": {
+  "count": 1,
+  "occ": [
+   1031
+  ],
+  "songs": [
+   14
+  ],
+  "samples": [
+   "Vom Abendrot zum Morgenlicht"
+  ],
+  "is_function": true
+ },
+ "Abendrot": {
+  "count": 1,
+  "occ": [
+   1032
+  ],
+  "songs": [
+   14
+  ],
+  "samples": [
+   "Vom Abendrot zum Morgenlicht"
+  ],
+  "is_function": false
+ },
+ "Morgenlicht": {
+  "count": 1,
+  "occ": [
+   1034
+  ],
+  "songs": [
+   14
+  ],
+  "samples": [
+   "Vom Abendrot zum Morgenlicht"
+  ],
+  "is_function": false
+ },
+ "Ward": {
+  "count": 1,
+  "occ": [
+   1035
+  ],
+  "songs": [
+   14
+  ],
+  "samples": [
+   "Ward mancher Kopf zum Greise."
+  ],
+  "is_function": false
+ },
+ "mancher": {
+  "count": 1,
+  "occ": [
+   1036
+  ],
+  "songs": [
+   14
+  ],
+  "samples": [
+   "Ward mancher Kopf zum Greise."
+  ],
+  "is_function": false
+ },
+ "Kopf": {
+  "count": 1,
+  "occ": [
+   1037
+  ],
+  "songs": [
+   14
+  ],
+  "samples": [
+   "Ward mancher Kopf zum Greise."
+  ],
+  "is_function": false
+ },
+ "Greise": {
+  "count": 1,
+  "occ": [
+   1038
+  ],
+  "songs": [
+   14
+  ],
+  "samples": [
+   "Ward mancher Kopf zum Greise."
+  ],
+  "is_function": false
+ },
+ "Reise": {
+  "count": 1,
+  "occ": [
+   1050
+  ],
+  "songs": [
+   14
+  ],
+  "samples": [
+   "Auf dieser ganzen Reise!"
+  ],
+  "is_function": false
+ },
+ "Eine": {
+  "count": 2,
+  "occ": [
+   1051,
+   1375
+  ],
+  "songs": [
+   15,
+   20
+  ],
+  "samples": [
+   "Eine Krähe war mit mir",
+   "Eine Straße muss ich gehen,"
+  ],
+  "is_function": true
+ },
+ "Krähe": {
+  "count": 3,
+  "occ": [
+   1051,
+   1063,
+   1086
+  ],
+  "songs": [
+   15
+  ],
+  "samples": [
+   "Eine Krähe war mit mir",
+   "Krähe, wunderliches Tier,",
+   "Krähe, lass mich endlich sehn"
+  ],
+  "is_function": false
+ },
+ "Aus": {
+  "count": 1,
+  "occ": [
+   1054
+  ],
+  "songs": [
+   15
+  ],
+  "samples": [
+   "Aus der Stadt gezogen,"
+  ],
+  "is_function": true
+ },
+ "gezogen": {
+  "count": 1,
+  "occ": [
+   1056
+  ],
+  "songs": [
+   15
+  ],
+  "samples": [
+   "Aus der Stadt gezogen,"
+  ],
+  "is_function": false
+ },
+ "Haupt": {
+  "count": 1,
+  "occ": [
+   1061
+  ],
+  "songs": [
+   15
+  ],
+  "samples": [
+   "Um mein Haupt geflogen."
+  ],
+  "is_function": false
+ },
+ "geflogen": {
+  "count": 1,
+  "occ": [
+   1062
+  ],
+  "songs": [
+   15
+  ],
+  "samples": [
+   "Um mein Haupt geflogen."
+  ],
+  "is_function": false
+ },
+ "wunderliches": {
+  "count": 1,
+  "occ": [
+   1064
+  ],
+  "songs": [
+   15
+  ],
+  "samples": [
+   "Krähe, wunderliches Tier,"
+  ],
+  "is_function": false
+ },
+ "Tier": {
+  "count": 1,
+  "occ": [
+   1065
+  ],
+  "songs": [
+   15
+  ],
+  "samples": [
+   "Krähe, wunderliches Tier,"
+  ],
+  "is_function": false
+ },
+ "verlassen": {
+  "count": 1,
+  "occ": [
+   1069
+  ],
+  "songs": [
+   15
+  ],
+  "samples": [
+   "Willst mich nicht verlassen?"
+  ],
+  "is_function": false
+ },
+ "Meinst": {
+  "count": 1,
+  "occ": [
+   1070
+  ],
+  "songs": [
+   15
+  ],
+  "samples": [
+   "Meinst wohl bald als Beute hier"
+  ],
+  "is_function": false
+ },
+ "Beute": {
+  "count": 1,
+  "occ": [
+   1074
+  ],
+  "songs": [
+   15
+  ],
+  "samples": [
+   "Meinst wohl bald als Beute hier"
+  ],
+  "is_function": false
+ },
+ "Meinen": {
+  "count": 1,
+  "occ": [
+   1076
+  ],
+  "songs": [
+   15
+  ],
+  "samples": [
+   "Meinen Leib zu fassen?"
+  ],
+  "is_function": true
+ },
+ "Leib": {
+  "count": 1,
+  "occ": [
+   1077
+  ],
+  "songs": [
+   15
+  ],
+  "samples": [
+   "Meinen Leib zu fassen?"
+  ],
+  "is_function": false
+ },
+ "fassen": {
+  "count": 1,
+  "occ": [
+   1078
+  ],
+  "songs": [
+   15
+  ],
+  "samples": [
+   "Meinen Leib zu fassen?"
+  ],
+  "is_function": false
+ },
+ "Wanderstabe": {
+  "count": 1,
+  "occ": [
+   1085
+  ],
+  "songs": [
+   15
+  ],
+  "samples": [
+   "An dem Wanderstabe."
+  ],
+  "is_function": false
+ },
+ "lass": {
+  "count": 1,
+  "occ": [
+   1087
+  ],
+  "songs": [
+   15
+  ],
+  "samples": [
+   "Krähe, lass mich endlich sehn"
+  ],
+  "is_function": false
+ },
+ "endlich": {
+  "count": 1,
+  "occ": [
+   1089
+  ],
+  "songs": [
+   15
+  ],
+  "samples": [
+   "Krähe, lass mich endlich sehn"
+  ],
+  "is_function": false
+ },
+ "Treue": {
+  "count": 1,
+  "occ": [
+   1091
+  ],
+  "songs": [
+   15
+  ],
+  "samples": [
+   "Treue bis zum Grabe!"
+  ],
+  "is_function": false
+ },
+ "Grabe": {
+  "count": 1,
+  "occ": [
+   1093
+  ],
+  "songs": [
+   15
+  ],
+  "samples": [
+   "Treue bis zum Grabe!"
+  ],
+  "is_function": false
+ },
+ "Hie": {
+  "count": 1,
+  "occ": [
+   1094
+  ],
+  "songs": [
+   16
+  ],
+  "samples": [
+   "Hie und da ist an den Bäumen"
+  ],
+  "is_function": false
+ },
+ "Bäumen": {
+  "count": 2,
+  "occ": [
+   1096,
+   1105
+  ],
+  "songs": [
+   16
+  ],
+  "samples": [
+   "Hie und da ist an den Bäumen",
+   "Und ich bleibe vor den Bäumen"
+  ],
+  "is_function": false
+ },
+ "Manches": {
+  "count": 2,
+  "occ": [
+   1097,
+   1161
+  ],
+  "songs": [
+   16,
+   17
+  ],
+  "samples": [
+   "Manches bunte Blatt zu sehn,",
+   "Träumen sich Manches, was sie nicht haben,"
+  ],
+  "is_function": false
+ },
+ "bunte": {
+  "count": 1,
+  "occ": [
+   1098
+  ],
+  "songs": [
+   16
+  ],
+  "samples": [
+   "Manches bunte Blatt zu sehn,"
+  ],
+  "is_function": false
+ },
+ "Blatt": {
+  "count": 2,
+  "occ": [
+   1099,
+   1133
+  ],
+  "songs": [
+   16
+  ],
+  "samples": [
+   "Manches bunte Blatt zu sehn,",
+   "Ach, und fällt das Blatt zu Boden,"
+  ],
+  "is_function": false
+ },
+ "bleibe": {
+  "count": 1,
+  "occ": [
+   1103
+  ],
+  "songs": [
+   16
+  ],
+  "samples": [
+   "Und ich bleibe vor den Bäumen"
+  ],
+  "is_function": false
+ },
+ "Oftmals": {
+  "count": 1,
+  "occ": [
+   1106
+  ],
+  "songs": [
+   16
+  ],
+  "samples": [
+   "Oftmals in Gedanken stehn."
+  ],
+  "is_function": false
+ },
+ "Schaue": {
+  "count": 1,
+  "occ": [
+   1110
+  ],
+  "songs": [
+   16
+  ],
+  "samples": [
+   "Schaue nach dem einen Blatte,"
+  ],
+  "is_function": false
+ },
+ "Blatte": {
+  "count": 2,
+  "occ": [
+   1113,
+   1123
+  ],
+  "songs": [
+   16
+  ],
+  "samples": [
+   "Schaue nach dem einen Blatte,",
+   "Spielt der Wind mit meinem Blatte,"
+  ],
+  "is_function": false
+ },
+ "Hänge": {
+  "count": 1,
+  "occ": [
+   1114
+  ],
+  "songs": [
+   16
+  ],
+  "samples": [
+   "Hänge meine Hoffnung dran;"
+  ],
+  "is_function": false
+ },
+ "Hoffnung": {
+  "count": 3,
+  "occ": [
+   1116,
+   1138,
+   1149
+  ],
+  "songs": [
+   16
+  ],
+  "samples": [
+   "Hänge meine Hoffnung dran;",
+   "Fällt mit ihm die Hoffnung ab,",
+   "Wein', wein' auf meiner Hoffnung Grab."
+  ],
+  "is_function": false
+ },
+ "dran": {
+  "count": 1,
+  "occ": [
+   1117
+  ],
+  "songs": [
+   16
+  ],
+  "samples": [
+   "Hänge meine Hoffnung dran;"
+  ],
+  "is_function": false
+ },
+ "Spielt": {
+  "count": 1,
+  "occ": [
+   1119
+  ],
+  "songs": [
+   16
+  ],
+  "samples": [
+   "Spielt der Wind mit meinem Blatte,"
+  ],
+  "is_function": false
+ },
+ "Zittr": {
+  "count": 1,
+  "occ": [
+   1124
+  ],
+  "songs": [
+   16
+  ],
+  "samples": [
+   "Zittr' ich, was ich zittern kann."
+  ],
+  "is_function": false
+ },
+ "was": {
+  "count": 6,
+  "occ": [
+   1126,
+   1162,
+   1184,
+   1470,
+   1479,
+   1577
+  ],
+  "songs": [
+   16,
+   17,
+   22,
+   24
+  ],
+  "samples": [
+   "Zittr' ich, was ich zittern kann.",
+   "Träumen sich Manches, was sie nicht haben,",
+   "Und hoffen, was sie noch übrig ließen,"
+  ],
+  "is_function": false
+ },
+ "zittern": {
+  "count": 1,
+  "occ": [
+   1127
+  ],
+  "songs": [
+   16
+  ],
+  "samples": [
+   "Zittr' ich, was ich zittern kann."
+  ],
+  "is_function": false
+ },
+ "fällt": {
+  "count": 1,
+  "occ": [
+   1132
+  ],
+  "songs": [
+   16
+  ],
+  "samples": [
+   "Ach, und fällt das Blatt zu Boden,"
+  ],
+  "is_function": false
+ },
+ "Fällt": {
+  "count": 1,
+  "occ": [
+   1135
+  ],
+  "songs": [
+   16
+  ],
+  "samples": [
+   "Fällt mit ihm die Hoffnung ab,"
+  ],
+  "is_function": false
+ },
+ "Fall": {
+  "count": 1,
+  "occ": [
+   1140
+  ],
+  "songs": [
+   16
+  ],
+  "samples": [
+   "Fall' ich selber mit zu Boden,"
+  ],
+  "is_function": false
+ },
+ "selber": {
+  "count": 2,
+  "occ": [
+   1142,
+   1504
+  ],
+  "songs": [
+   16,
+   22
+  ],
+  "samples": [
+   "Fall' ich selber mit zu Boden,",
+   "Sind wir selber Götter!"
+  ],
+  "is_function": false
+ },
+ "Wein": {
+  "count": 1,
+  "occ": [
+   1145
+  ],
+  "songs": [
+   16
+  ],
+  "samples": [
+   "Wein', wein' auf meiner Hoffnung Grab."
+  ],
+  "is_function": false
+ },
+ "wein": {
+  "count": 1,
+  "occ": [
+   1146
+  ],
+  "songs": [
+   16
+  ],
+  "samples": [
+   "Wein', wein' auf meiner Hoffnung Grab."
+  ],
+  "is_function": false
+ },
+ "bellen": {
+  "count": 1,
+  "occ": [
+   1151
+  ],
+  "songs": [
+   17
+  ],
+  "samples": [
+   "Es bellen die Hunde, es rasseln die Ketten."
+  ],
+  "is_function": false
+ },
+ "rasseln": {
+  "count": 1,
+  "occ": [
+   1153
+  ],
+  "songs": [
+   17
+  ],
+  "samples": [
+   "Es bellen die Hunde, es rasseln die Ketten."
+  ],
+  "is_function": false
+ },
+ "Ketten": {
+  "count": 1,
+  "occ": [
+   1154
+  ],
+  "songs": [
+   17
+  ],
+  "samples": [
+   "Es bellen die Hunde, es rasseln die Ketten."
+  ],
+  "is_function": false
+ },
+ "schlafen": {
+  "count": 1,
+  "occ": [
+   1155
+  ],
+  "songs": [
+   17
+  ],
+  "samples": [
+   "Es schlafen die Menschen in ihren Betten,"
+  ],
+  "is_function": false
+ },
+ "Menschen": {
+  "count": 2,
+  "occ": [
+   1156,
+   1340
+  ],
+  "songs": [
+   17,
+   20
+  ],
+  "samples": [
+   "Es schlafen die Menschen in ihren Betten,",
+   "Dass ich Menschen sollte scheun —"
+  ],
+  "is_function": false
+ },
+ "ihren": {
+  "count": 2,
+  "occ": [
+   1158,
+   1192
+  ],
+  "songs": [
+   17
+  ],
+  "samples": [
+   "Es schlafen die Menschen in ihren Betten,",
+   "Doch wieder zu finden auf ihren Kissen."
+  ],
+  "is_function": true
+ },
+ "Betten": {
+  "count": 1,
+  "occ": [
+   1159
+  ],
+  "songs": [
+   17
+  ],
+  "samples": [
+   "Es schlafen die Menschen in ihren Betten,"
+  ],
+  "is_function": false
+ },
+ "Träumen": {
+  "count": 2,
+  "occ": [
+   1160,
+   1210
+  ],
+  "songs": [
+   17
+  ],
+  "samples": [
+   "Träumen sich Manches, was sie nicht haben,",
+   "Ich bin zu Ende mit allen Träumen —"
+  ],
+  "is_function": false
+ },
+ "haben": {
+  "count": 2,
+  "occ": [
+   1164,
+   1181
+  ],
+  "songs": [
+   17
+  ],
+  "samples": [
+   "Träumen sich Manches, was sie nicht haben,",
+   "Je nun, sie haben ihr Teil genossen,"
+  ],
+  "is_function": true
+ },
+ "Tun": {
+  "count": 1,
+  "occ": [
+   1165
+  ],
+  "songs": [
+   17
+  ],
+  "samples": [
+   "Tun sich im Guten und Argen erlaben:"
+  ],
+  "is_function": false
+ },
+ "Guten": {
+  "count": 1,
+  "occ": [
+   1168
+  ],
+  "songs": [
+   17
+  ],
+  "samples": [
+   "Tun sich im Guten und Argen erlaben:"
+  ],
+  "is_function": false
+ },
+ "Argen": {
+  "count": 1,
+  "occ": [
+   1170
+  ],
+  "songs": [
+   17
+  ],
+  "samples": [
+   "Tun sich im Guten und Argen erlaben:"
+  ],
+  "is_function": false
+ },
+ "erlaben": {
+  "count": 1,
+  "occ": [
+   1171
+  ],
+  "songs": [
+   17
+  ],
+  "samples": [
+   "Tun sich im Guten und Argen erlaben:"
+  ],
+  "is_function": false
+ },
+ "morgen": {
+  "count": 1,
+  "occ": [
+   1173
+  ],
+  "songs": [
+   17
+  ],
+  "samples": [
+   "Und morgen früh ist Alles zerflossen. —"
+  ],
+  "is_function": false
+ },
+ "früh": {
+  "count": 1,
+  "occ": [
+   1174
+  ],
+  "songs": [
+   17
+  ],
+  "samples": [
+   "Und morgen früh ist Alles zerflossen. —"
+  ],
+  "is_function": false
+ },
+ "zerflossen": {
+  "count": 1,
+  "occ": [
+   1176
+  ],
+  "songs": [
+   17
+  ],
+  "samples": [
+   "Und morgen früh ist Alles zerflossen. —"
+  ],
+  "is_function": false
+ },
+ "Je": {
+  "count": 1,
+  "occ": [
+   1177
+  ],
+  "songs": [
+   17
+  ],
+  "samples": [
+   "Je nun, sie haben ihr Teil genossen,"
+  ],
+  "is_function": false
+ },
+ "Teil": {
+  "count": 1,
+  "occ": [
+   1180
+  ],
+  "songs": [
+   17
+  ],
+  "samples": [
+   "Je nun, sie haben ihr Teil genossen,"
+  ],
+  "is_function": false
+ },
+ "genossen": {
+  "count": 1,
+  "occ": [
+   1181
+  ],
+  "songs": [
+   17
+  ],
+  "samples": [
+   "Je nun, sie haben ihr Teil genossen,"
+  ],
+  "is_function": false
+ },
+ "hoffen": {
+  "count": 1,
+  "occ": [
+   1183
+  ],
+  "songs": [
+   17
+  ],
+  "samples": [
+   "Und hoffen, was sie noch übrig ließen,"
+  ],
+  "is_function": false
+ },
+ "übrig": {
+  "count": 1,
+  "occ": [
+   1187
+  ],
+  "songs": [
+   17
+  ],
+  "samples": [
+   "Und hoffen, was sie noch übrig ließen,"
+  ],
+  "is_function": false
+ },
+ "ließen": {
+  "count": 1,
+  "occ": [
+   1187
+  ],
+  "songs": [
+   17
+  ],
+  "samples": [
+   "Und hoffen, was sie noch übrig ließen,"
+  ],
+  "is_function": false
+ },
+ "finden": {
+  "count": 1,
+  "occ": [
+   1190
+  ],
+  "songs": [
+   17
+  ],
+  "samples": [
+   "Doch wieder zu finden auf ihren Kissen."
+  ],
+  "is_function": false
+ },
+ "Kissen": {
+  "count": 1,
+  "occ": [
+   1193
+  ],
+  "songs": [
+   17
+  ],
+  "samples": [
+   "Doch wieder zu finden auf ihren Kissen."
+  ],
+  "is_function": false
+ },
+ "Bellt": {
+  "count": 1,
+  "occ": [
+   1194
+  ],
+  "songs": [
+   17
+  ],
+  "samples": [
+   "Bellt mich nur fort, ihr wachen Hunde,"
+  ],
+  "is_function": false
+ },
+ "wachen": {
+  "count": 1,
+  "occ": [
+   1199
+  ],
+  "songs": [
+   17
+  ],
+  "samples": [
+   "Bellt mich nur fort, ihr wachen Hunde,"
+  ],
+  "is_function": false
+ },
+ "Lasst": {
+  "count": 1,
+  "occ": [
+   1201
+  ],
+  "songs": [
+   17
+  ],
+  "samples": [
+   "Lasst mich nicht ruhn in der Schlummerstunde!"
+  ],
+  "is_function": false
+ },
+ "Schlummerstunde": {
+  "count": 1,
+  "occ": [
+   1205
+  ],
+  "songs": [
+   17
+  ],
+  "samples": [
+   "Lasst mich nicht ruhn in der Schlummerstunde!"
+  ],
+  "is_function": false
+ },
+ "Ende": {
+  "count": 1,
+  "occ": [
+   1207
+  ],
+  "songs": [
+   17
+  ],
+  "samples": [
+   "Ich bin zu Ende mit allen Träumen —"
+  ],
+  "is_function": false
+ },
+ "allen": {
+  "count": 1,
+  "occ": [
+   1209
+  ],
+  "songs": [
+   17
+  ],
+  "samples": [
+   "Ich bin zu Ende mit allen Träumen —"
+  ],
+  "is_function": false
+ },
+ "Schläfern": {
+  "count": 1,
+  "occ": [
+   1214
+  ],
+  "songs": [
+   17
+  ],
+  "samples": [
+   "Was will ich unter den Schläfern säumen?"
+  ],
+  "is_function": false
+ },
+ "säumen": {
+  "count": 1,
+  "occ": [
+   1215
+  ],
+  "songs": [
+   17
+  ],
+  "samples": [
+   "Was will ich unter den Schläfern säumen?"
+  ],
+  "is_function": false
+ },
+ "zerrissen": {
+  "count": 1,
+  "occ": [
+   1218
+  ],
+  "songs": [
+   18
+  ],
+  "samples": [
+   "Wie hat der Sturm zerrissen"
+  ],
+  "is_function": false
+ },
+ "Himmels": {
+  "count": 1,
+  "occ": [
+   1219
+  ],
+  "songs": [
+   18
+  ],
+  "samples": [
+   "Des Himmels graues Kleid!"
+  ],
+  "is_function": false
+ },
+ "graues": {
+  "count": 1,
+  "occ": [
+   1220
+  ],
+  "songs": [
+   18
+  ],
+  "samples": [
+   "Des Himmels graues Kleid!"
+  ],
+  "is_function": false
+ },
+ "Kleid": {
+  "count": 1,
+  "occ": [
+   1221
+  ],
+  "songs": [
+   18
+  ],
+  "samples": [
+   "Des Himmels graues Kleid!"
+  ],
+  "is_function": false
+ },
+ "Wolkenfetzen": {
+  "count": 1,
+  "occ": [
+   1222
+  ],
+  "songs": [
+   18
+  ],
+  "samples": [
+   "Die Wolkenfetzen flattern"
+  ],
+  "is_function": false
+ },
+ "flattern": {
+  "count": 1,
+  "occ": [
+   1223
+  ],
+  "songs": [
+   18
+  ],
+  "samples": [
+   "Die Wolkenfetzen flattern"
+  ],
+  "is_function": false
+ },
+ "Umher": {
+  "count": 1,
+  "occ": [
+   1224
+  ],
+  "songs": [
+   18
+  ],
+  "samples": [
+   "Umher in mattem Streit."
+  ],
+  "is_function": false
+ },
+ "mattem": {
+  "count": 1,
+  "occ": [
+   1226
+  ],
+  "songs": [
+   18
+  ],
+  "samples": [
+   "Umher in mattem Streit."
+  ],
+  "is_function": false
+ },
+ "rote": {
+  "count": 1,
+  "occ": [
+   1229
+  ],
+  "songs": [
+   18
+  ],
+  "samples": [
+   "Und rote Feuerflammen"
+  ],
+  "is_function": false
+ },
+ "Feuerflammen": {
+  "count": 1,
+  "occ": [
+   1230
+  ],
+  "songs": [
+   18
+  ],
+  "samples": [
+   "Und rote Feuerflammen"
+  ],
+  "is_function": false
+ },
+ "Ziehn": {
+  "count": 1,
+  "occ": [
+   1231
+  ],
+  "songs": [
+   18
+  ],
+  "samples": [
+   "Ziehn zwischen ihnen hin."
+  ],
+  "is_function": false
+ },
+ "zwischen": {
+  "count": 1,
+  "occ": [
+   1232
+  ],
+  "songs": [
+   18
+  ],
+  "samples": [
+   "Ziehn zwischen ihnen hin."
+  ],
+  "is_function": true
+ },
+ "ihnen": {
+  "count": 1,
+  "occ": [
+   1233
+  ],
+  "songs": [
+   18
+  ],
+  "samples": [
+   "Ziehn zwischen ihnen hin."
+  ],
+  "is_function": true
+ },
+ "nenn": {
+  "count": 1,
+  "occ": [
+   1235
+  ],
+  "songs": [
+   18
+  ],
+  "samples": [
+   "Das nenn' ich einen Morgen"
+  ],
+  "is_function": false
+ },
+ "Morgen": {
+  "count": 1,
+  "occ": [
+   1237
+  ],
+  "songs": [
+   18
+  ],
+  "samples": [
+   "Das nenn' ich einen Morgen"
+  ],
+  "is_function": false
+ },
+ "recht": {
+  "count": 1,
+  "occ": [
+   1238
+  ],
+  "songs": [
+   18
+  ],
+  "samples": [
+   "So recht nach meinem Sinn!"
+  ],
+  "is_function": false
+ },
+ "Himmel": {
+  "count": 2,
+  "occ": [
+   1246,
+   1512
+  ],
+  "songs": [
+   18,
+   23
+  ],
+  "samples": [
+   "Mein Herz sieht an dem Himmel",
+   "Drei Sonnen sah' ich am Himmel stehn,"
+  ],
+  "is_function": false
+ },
+ "Gemalt": {
+  "count": 1,
+  "occ": [
+   1247
+  ],
+  "songs": [
+   18
+  ],
+  "samples": [
+   "Gemalt sein eignes Bild —"
+  ],
+  "is_function": false
+ },
+ "eignes": {
+  "count": 1,
+  "occ": [
+   1249
+  ],
+  "songs": [
+   18
+  ],
+  "samples": [
+   "Gemalt sein eignes Bild —"
+  ],
+  "is_function": false
+ },
+ "nichts": {
+  "count": 2,
+  "occ": [
+   1253,
+   1335
+  ],
+  "songs": [
+   18,
+   20
+  ],
+  "samples": [
+   "Es ist nichts als der Winter,",
+   "Habe ja doch nichts begangen,"
+  ],
+  "is_function": true
+ },
+ "Licht": {
+  "count": 1,
+  "occ": [
+   1259
+  ],
+  "songs": [
+   19
+  ],
+  "samples": [
+   "Ein Licht tanzt freundlich vor mir her;"
+  ],
+  "is_function": false
+ },
+ "tanzt": {
+  "count": 1,
+  "occ": [
+   1260
+  ],
+  "songs": [
+   19
+  ],
+  "samples": [
+   "Ein Licht tanzt freundlich vor mir her;"
+  ],
+  "is_function": false
+ },
+ "freundlich": {
+  "count": 1,
+  "occ": [
+   1261
+  ],
+  "songs": [
+   19
+  ],
+  "samples": [
+   "Ein Licht tanzt freundlich vor mir her;"
+  ],
+  "is_function": false
+ },
+ "folg": {
+  "count": 2,
+  "occ": [
+   1266,
+   1271
+  ],
+  "songs": [
+   19
+  ],
+  "samples": [
+   "Ich folg' ihm nach die Kreuz und Quer;",
+   "Ich folg' ihm gern, und seh's ihm an,"
+  ],
+  "is_function": false
+ },
+ "Kreuz": {
+  "count": 1,
+  "occ": [
+   1269
+  ],
+  "songs": [
+   19
+  ],
+  "samples": [
+   "Ich folg' ihm nach die Kreuz und Quer;"
+  ],
+  "is_function": false
+ },
+ "Quer": {
+  "count": 1,
+  "occ": [
+   1269
+  ],
+  "songs": [
+   19
+  ],
+  "samples": [
+   "Ich folg' ihm nach die Kreuz und Quer;"
+  ],
+  "is_function": false
+ },
+ "gern": {
+  "count": 2,
+  "occ": [
+   1273,
+   1291
+  ],
+  "songs": [
+   19
+  ],
+  "samples": [
+   "Ich folg' ihm gern, und seh's ihm an,",
+   "Gibt gern sich hin der bunten List,"
+  ],
+  "is_function": false
+ },
+ "seh's": {
+  "count": 1,
+  "occ": [
+   1275
+  ],
+  "songs": [
+   19
+  ],
+  "samples": [
+   "Ich folg' ihm gern, und seh's ihm an,"
+  ],
+  "is_function": false
+ },
+ "verlockt": {
+  "count": 1,
+  "occ": [
+   1280
+  ],
+  "songs": [
+   19
+  ],
+  "samples": [
+   "Dass es verlockt den Wandersmann."
+  ],
+  "is_function": false
+ },
+ "Wandersmann": {
+  "count": 1,
+  "occ": [
+   1281
+  ],
+  "songs": [
+   19
+  ],
+  "samples": [
+   "Dass es verlockt den Wandersmann."
+  ],
+  "is_function": false
+ },
+ "wer": {
+  "count": 1,
+  "occ": [
+   1283
+  ],
+  "songs": [
+   19
+  ],
+  "samples": [
+   "Ach, wer wie ich so elend ist,"
+  ],
+  "is_function": false
+ },
+ "Gibt": {
+  "count": 1,
+  "occ": [
+   1290
+  ],
+  "songs": [
+   19
+  ],
+  "samples": [
+   "Gibt gern sich hin der bunten List,"
+  ],
+  "is_function": false
+ },
+ "List": {
+  "count": 1,
+  "occ": [
+   1294
+  ],
+  "songs": [
+   19
+  ],
+  "samples": [
+   "Gibt gern sich hin der bunten List,"
+  ],
+  "is_function": false
+ },
+ "hinter": {
+  "count": 1,
+  "occ": [
+   1296
+  ],
+  "songs": [
+   19
+  ],
+  "samples": [
+   "Die hinter Eis und Nacht und Graus"
+  ],
+  "is_function": true
+ },
+ "Graus": {
+  "count": 1,
+  "occ": [
+   1301
+  ],
+  "songs": [
+   19
+  ],
+  "samples": [
+   "Die hinter Eis und Nacht und Graus"
+  ],
+  "is_function": false
+ },
+ "Ihm": {
+  "count": 1,
+  "occ": [
+   1302
+  ],
+  "songs": [
+   19
+  ],
+  "samples": [
+   "Ihm weist ein helles, warmes Haus,"
+  ],
+  "is_function": true
+ },
+ "weist": {
+  "count": 1,
+  "occ": [
+   1303
+  ],
+  "songs": [
+   19
+  ],
+  "samples": [
+   "Ihm weist ein helles, warmes Haus,"
+  ],
+  "is_function": false
+ },
+ "warmes": {
+  "count": 1,
+  "occ": [
+   1305
+  ],
+  "songs": [
+   19
+  ],
+  "samples": [
+   "Ihm weist ein helles, warmes Haus,"
+  ],
+  "is_function": false
+ },
+ "Seele": {
+  "count": 1,
+  "occ": [
+   1309
+  ],
+  "songs": [
+   19
+  ],
+  "samples": [
+   "Und eine liebe Seele drin —"
+  ],
+  "is_function": false
+ },
+ "drin": {
+  "count": 1,
+  "occ": [
+   1310
+  ],
+  "songs": [
+   19
+  ],
+  "samples": [
+   "Und eine liebe Seele drin —"
+  ],
+  "is_function": false
+ },
+ "Nur": {
+  "count": 1,
+  "occ": [
+   1311
+  ],
+  "songs": [
+   19
+  ],
+  "samples": [
+   "Nur Täuschung ist für mich Gewinn!"
+  ],
+  "is_function": true
+ },
+ "Täuschung": {
+  "count": 1,
+  "occ": [
+   1312
+  ],
+  "songs": [
+   19
+  ],
+  "samples": [
+   "Nur Täuschung ist für mich Gewinn!"
+  ],
+  "is_function": false
+ },
+ "Gewinn": {
+  "count": 1,
+  "occ": [
+   1316
+  ],
+  "songs": [
+   19
+  ],
+  "samples": [
+   "Nur Täuschung ist für mich Gewinn!"
+  ],
+  "is_function": false
+ },
+ "vermeid": {
+  "count": 1,
+  "occ": [
+   1319
+  ],
+  "songs": [
+   20
+  ],
+  "samples": [
+   "Was vermeid' ich denn die Wege,"
+  ],
+  "is_function": false
+ },
+ "andern": {
+  "count": 1,
+  "occ": [
+   1323
+  ],
+  "songs": [
+   20
+  ],
+  "samples": [
+   "Wo die andern Wandrer gehn,"
+  ],
+  "is_function": false
+ },
+ "Wandrer": {
+  "count": 2,
+  "occ": [
+   1324,
+   1409
+  ],
+  "songs": [
+   20,
+   21
+  ],
+  "samples": [
+   "Wo die andern Wandrer gehn,",
+   "Die müde Wandrer laden"
+  ],
+  "is_function": false
+ },
+ "Suche": {
+  "count": 1,
+  "occ": [
+   1326
+  ],
+  "songs": [
+   20
+  ],
+  "samples": [
+   "Suche mir versteckte Stege"
+  ],
+  "is_function": false
+ },
+ "versteckte": {
+  "count": 1,
+  "occ": [
+   1328
+  ],
+  "songs": [
+   20
+  ],
+  "samples": [
+   "Suche mir versteckte Stege"
+  ],
+  "is_function": false
+ },
+ "Stege": {
+  "count": 1,
+  "occ": [
+   1329
+  ],
+  "songs": [
+   20
+  ],
+  "samples": [
+   "Suche mir versteckte Stege"
+  ],
+  "is_function": false
+ },
+ "verschneite": {
+  "count": 1,
+  "occ": [
+   1331
+  ],
+  "songs": [
+   20
+  ],
+  "samples": [
+   "Durch verschneite Felsenhöhn?"
+  ],
+  "is_function": false
+ },
+ "Felsenhöhn": {
+  "count": 1,
+  "occ": [
+   1332
+  ],
+  "songs": [
+   20
+  ],
+  "samples": [
+   "Durch verschneite Felsenhöhn?"
+  ],
+  "is_function": false
+ },
+ "Habe": {
+  "count": 2,
+  "occ": [
+   1337,
+   1475
+  ],
+  "songs": [
+   20,
+   22
+  ],
+  "samples": [
+   "Habe ja doch nichts begangen,",
+   "Habe keine Ohren."
+  ],
+  "is_function": true
+ },
+ "begangen": {
+  "count": 1,
+  "occ": [
+   1337
+  ],
+  "songs": [
+   20
+  ],
+  "samples": [
+   "Habe ja doch nichts begangen,"
+  ],
+  "is_function": false
+ },
+ "sollte": {
+  "count": 1,
+  "occ": [
+   1341
+  ],
+  "songs": [
+   20
+  ],
+  "samples": [
+   "Dass ich Menschen sollte scheun —"
+  ],
+  "is_function": false
+ },
+ "scheun": {
+  "count": 1,
+  "occ": [
+   1342
+  ],
+  "songs": [
+   20
+  ],
+  "samples": [
+   "Dass ich Menschen sollte scheun —"
+  ],
+  "is_function": false
+ },
+ "Welch": {
+  "count": 1,
+  "occ": [
+   1343
+  ],
+  "songs": [
+   20
+  ],
+  "samples": [
+   "Welch ein törichtes Verlangen"
+  ],
+  "is_function": false
+ },
+ "törichtes": {
+  "count": 1,
+  "occ": [
+   1344
+  ],
+  "songs": [
+   20
+  ],
+  "samples": [
+   "Welch ein törichtes Verlangen"
+  ],
+  "is_function": false
+ },
+ "Verlangen": {
+  "count": 1,
+  "occ": [
+   1345
+  ],
+  "songs": [
+   20
+  ],
+  "samples": [
+   "Welch ein törichtes Verlangen"
+  ],
+  "is_function": false
+ },
+ "Treibt": {
+  "count": 1,
+  "occ": [
+   1346
+  ],
+  "songs": [
+   20
+  ],
+  "samples": [
+   "Treibt mich in die Wüsteneien?"
+  ],
+  "is_function": false
+ },
+ "Wüsteneien": {
+  "count": 1,
+  "occ": [
+   1349
+  ],
+  "songs": [
+   20
+  ],
+  "samples": [
+   "Treibt mich in die Wüsteneien?"
+  ],
+  "is_function": false
+ },
+ "Weiser": {
+  "count": 2,
+  "occ": [
+   1350,
+   1367
+  ],
+  "songs": [
+   20
+  ],
+  "samples": [
+   "Weiser stehen auf den Wegen,",
+   "Einen Weiser seh' ich stehen"
+  ],
+  "is_function": false
+ },
+ "stehen": {
+  "count": 2,
+  "occ": [
+   1351,
+   1370
+  ],
+  "songs": [
+   20
+  ],
+  "samples": [
+   "Weiser stehen auf den Wegen,",
+   "Einen Weiser seh' ich stehen"
+  ],
+  "is_function": false
+ },
+ "Wegen": {
+  "count": 1,
+  "occ": [
+   1353
+  ],
+  "songs": [
+   20
+  ],
+  "samples": [
+   "Weiser stehen auf den Wegen,"
+  ],
+  "is_function": false
+ },
+ "Weisen": {
+  "count": 1,
+  "occ": [
+   1354
+  ],
+  "songs": [
+   20
+  ],
+  "samples": [
+   "Weisen auf die Städte zu,"
+  ],
+  "is_function": false
+ },
+ "Städte": {
+  "count": 1,
+  "occ": [
+   1356
+  ],
+  "songs": [
+   20
+  ],
+  "samples": [
+   "Weisen auf die Städte zu,"
+  ],
+  "is_function": false
+ },
+ "wandre": {
+  "count": 1,
+  "occ": [
+   1359
+  ],
+  "songs": [
+   20
+  ],
+  "samples": [
+   "Und ich wandre sonder Maßen,"
+  ],
+  "is_function": false
+ },
+ "sonder": {
+  "count": 1,
+  "occ": [
+   1360
+  ],
+  "songs": [
+   20
+  ],
+  "samples": [
+   "Und ich wandre sonder Maßen,"
+  ],
+  "is_function": false
+ },
+ "Maßen": {
+  "count": 1,
+  "occ": [
+   1361
+  ],
+  "songs": [
+   20
+  ],
+  "samples": [
+   "Und ich wandre sonder Maßen,"
+  ],
+  "is_function": false
+ },
+ "Ohne": {
+  "count": 1,
+  "occ": [
+   1362
+  ],
+  "songs": [
+   20
+  ],
+  "samples": [
+   "Ohne Ruh', und suche Ruh'."
+  ],
+  "is_function": true
+ },
+ "suche": {
+  "count": 1,
+  "occ": [
+   1365
+  ],
+  "songs": [
+   20
+  ],
+  "samples": [
+   "Ohne Ruh', und suche Ruh'."
+  ],
+  "is_function": false
+ },
+ "Einen": {
+  "count": 1,
+  "occ": [
+   1367
+  ],
+  "songs": [
+   20
+  ],
+  "samples": [
+   "Einen Weiser seh' ich stehen"
+  ],
+  "is_function": true
+ },
+ "Unverrückt": {
+  "count": 1,
+  "occ": [
+   1371
+  ],
+  "songs": [
+   20
+  ],
+  "samples": [
+   "Unverrückt vor meinem Blick;"
+  ],
+  "is_function": false
+ },
+ "Blick": {
+  "count": 1,
+  "occ": [
+   1374
+  ],
+  "songs": [
+   20
+  ],
+  "samples": [
+   "Unverrückt vor meinem Blick;"
+  ],
+  "is_function": false
+ },
+ "muss": {
+  "count": 1,
+  "occ": [
+   1377
+  ],
+  "songs": [
+   20
+  ],
+  "samples": [
+   "Eine Straße muss ich gehen,"
+  ],
+  "is_function": false
+ },
+ "gehen": {
+  "count": 2,
+  "occ": [
+   1379,
+   1614
+  ],
+  "songs": [
+   20,
+   24
+  ],
+  "samples": [
+   "Eine Straße muss ich gehen,",
+   "Und er lässt es gehen"
+  ],
+  "is_function": false
+ },
+ "Keiner": {
+  "count": 3,
+  "occ": [
+   1383,
+   1595,
+   1600
+  ],
+  "songs": [
+   20,
+   24
+  ],
+  "samples": [
+   "Die noch Keiner ging zurück.",
+   "Keiner mag ihn hören,",
+   "Keiner sieht ihn an;"
+  ],
+  "is_function": true
+ },
+ "zurück": {
+  "count": 1,
+  "occ": [
+   1386
+  ],
+  "songs": [
+   20
+  ],
+  "samples": [
+   "Die noch Keiner ging zurück."
+  ],
+  "is_function": false
+ },
+ "Totenacker": {
+  "count": 1,
+  "occ": [
+   1388
+  ],
+  "songs": [
+   21
+  ],
+  "samples": [
+   "Auf einen Totenacker"
+  ],
+  "is_function": false
+ },
+ "Hat": {
+  "count": 1,
+  "occ": [
+   1392
+  ],
+  "songs": [
+   21
+  ],
+  "samples": [
+   "Hat mich mein Weg gebracht."
+  ],
+  "is_function": true
+ },
+ "gebracht": {
+  "count": 1,
+  "occ": [
+   1392
+  ],
+  "songs": [
+   21
+  ],
+  "samples": [
+   "Hat mich mein Weg gebracht."
+  ],
+  "is_function": false
+ },
+ "Allhier": {
+  "count": 1,
+  "occ": [
+   1393
+  ],
+  "songs": [
+   21
+  ],
+  "samples": [
+   "Allhier will ich einkehren:"
+  ],
+  "is_function": false
+ },
+ "einkehren": {
+  "count": 1,
+  "occ": [
+   1396
+  ],
+  "songs": [
+   21
+  ],
+  "samples": [
+   "Allhier will ich einkehren:"
+  ],
+  "is_function": false
+ },
+ "bei": {
+  "count": 1,
+  "occ": [
+   1398
+  ],
+  "songs": [
+   21
+  ],
+  "samples": [
+   "Hab' ich bei mir gedacht."
+  ],
+  "is_function": true
+ },
+ "Totenkränze": {
+  "count": 1,
+  "occ": [
+   1402
+  ],
+  "songs": [
+   21
+  ],
+  "samples": [
+   "Ihr grünen Totenkränze"
+  ],
+  "is_function": false
+ },
+ "Könnt": {
+  "count": 1,
+  "occ": [
+   1403
+  ],
+  "songs": [
+   21
+  ],
+  "samples": [
+   "Könnt wohl die Zeichen sein,"
+  ],
+  "is_function": false
+ },
+ "Zeichen": {
+  "count": 1,
+  "occ": [
+   1405
+  ],
+  "songs": [
+   21
+  ],
+  "samples": [
+   "Könnt wohl die Zeichen sein,"
+  ],
+  "is_function": false
+ },
+ "müde": {
+  "count": 1,
+  "occ": [
+   1408
+  ],
+  "songs": [
+   21
+  ],
+  "samples": [
+   "Die müde Wandrer laden"
+  ],
+  "is_function": false
+ },
+ "laden": {
+  "count": 1,
+  "occ": [
+   1410
+  ],
+  "songs": [
+   21
+  ],
+  "samples": [
+   "Die müde Wandrer laden"
+  ],
+  "is_function": false
+ },
+ "In's": {
+  "count": 1,
+  "occ": [
+   1411
+  ],
+  "songs": [
+   21
+  ],
+  "samples": [
+   "In's kühle Wirtshaus ein."
+  ],
+  "is_function": false
+ },
+ "kühle": {
+  "count": 1,
+  "occ": [
+   1412
+  ],
+  "songs": [
+   21
+  ],
+  "samples": [
+   "In's kühle Wirtshaus ein."
+  ],
+  "is_function": false
+ },
+ "Wirtshaus": {
+  "count": 1,
+  "occ": [
+   1413
+  ],
+  "songs": [
+   21
+  ],
+  "samples": [
+   "In's kühle Wirtshaus ein."
+  ],
+  "is_function": false
+ },
+ "Kammern": {
+  "count": 1,
+  "occ": [
+   1418
+  ],
+  "songs": [
+   21
+  ],
+  "samples": [
+   "Die Kammern all' besetzt?"
+  ],
+  "is_function": false
+ },
+ "Sind": {
+  "count": 2,
+  "occ": [
+   1419,
+   1505
+  ],
+  "songs": [
+   21,
+   22
+  ],
+  "samples": [
+   "Die Kammern all' besetzt?",
+   "Sind wir selber Götter!"
+  ],
+  "is_function": true
+ },
+ "all": {
+  "count": 1,
+  "occ": [
+   1420
+  ],
+  "songs": [
+   21
+  ],
+  "samples": [
+   "Die Kammern all' besetzt?"
+  ],
+  "is_function": false
+ },
+ "besetzt": {
+  "count": 1,
+  "occ": [
+   1421
+  ],
+  "songs": [
+   21
+  ],
+  "samples": [
+   "Die Kammern all' besetzt?"
+  ],
+  "is_function": false
+ },
+ "matt": {
+  "count": 1,
+  "occ": [
+   1424
+  ],
+  "songs": [
+   21
+  ],
+  "samples": [
+   "Bin matt zum Niedersinken,"
+  ],
+  "is_function": false
+ },
+ "Niedersinken": {
+  "count": 1,
+  "occ": [
+   1426
+  ],
+  "songs": [
+   21
+  ],
+  "samples": [
+   "Bin matt zum Niedersinken,"
+  ],
+  "is_function": false
+ },
+ "tödlich": {
+  "count": 1,
+  "occ": [
+   1429
+  ],
+  "songs": [
+   21
+  ],
+  "samples": [
+   "Bin tödlich schwer verletzt."
+  ],
+  "is_function": false
+ },
+ "verletzt": {
+  "count": 1,
+  "occ": [
+   1431
+  ],
+  "songs": [
+   21
+  ],
+  "samples": [
+   "Bin tödlich schwer verletzt."
+  ],
+  "is_function": false
+ },
+ "O": {
+  "count": 1,
+  "occ": [
+   1432
+  ],
+  "songs": [
+   21
+  ],
+  "samples": [
+   "O unbarmherz'ge Schenke,"
+  ],
+  "is_function": false
+ },
+ "unbarmherz'ge": {
+  "count": 1,
+  "occ": [
+   1433
+  ],
+  "songs": [
+   21
+  ],
+  "samples": [
+   "O unbarmherz'ge Schenke,"
+  ],
+  "is_function": false
+ },
+ "Schenke": {
+  "count": 1,
+  "occ": [
+   1434
+  ],
+  "songs": [
+   21
+  ],
+  "samples": [
+   "O unbarmherz'ge Schenke,"
+  ],
+  "is_function": false
+ },
+ "weisest": {
+  "count": 1,
+  "occ": [
+   1436
+  ],
+  "songs": [
+   21
+  ],
+  "samples": [
+   "Doch weisest du mich ab?"
+  ],
+  "is_function": false
+ },
+ "weiter": {
+  "count": 2,
+  "occ": [
+   1440,
+   1443
+  ],
+  "songs": [
+   21
+  ],
+  "samples": [
+   "Nun weiter denn, nur weiter,"
+  ],
+  "is_function": false
+ },
+ "treuer": {
+  "count": 1,
+  "occ": [
+   1445
+  ],
+  "songs": [
+   21
+  ],
+  "samples": [
+   "Mein treuer Wanderstab!"
+  ],
+  "is_function": false
+ },
+ "Wanderstab": {
+  "count": 1,
+  "occ": [
+   1446
+  ],
+  "songs": [
+   21
+  ],
+  "samples": [
+   "Mein treuer Wanderstab!"
+  ],
+  "is_function": false
+ },
+ "Fliegt": {
+  "count": 1,
+  "occ": [
+   1448
+  ],
+  "songs": [
+   22
+  ],
+  "samples": [
+   "Fliegt der Schnee mir in's Gesicht,"
+  ],
+  "is_function": false
+ },
+ "Gesicht": {
+  "count": 1,
+  "occ": [
+   1452
+  ],
+  "songs": [
+   22
+  ],
+  "samples": [
+   "Fliegt der Schnee mir in's Gesicht,"
+  ],
+  "is_function": false
+ },
+ "Schüttl": {
+  "count": 1,
+  "occ": [
+   1453
+  ],
+  "songs": [
+   22
+  ],
+  "samples": [
+   "Schüttl' ich ihn herunter."
+  ],
+  "is_function": false
+ },
+ "ihn": {
+  "count": 3,
+  "occ": [
+   1455,
+   1598,
+   1604
+  ],
+  "songs": [
+   22,
+   24
+  ],
+  "samples": [
+   "Schüttl' ich ihn herunter.",
+   "Keiner mag ihn hören,",
+   "Keiner sieht ihn an;"
+  ],
+  "is_function": true
+ },
+ "herunter": {
+  "count": 1,
+  "occ": [
+   1456
+  ],
+  "songs": [
+   22
+  ],
+  "samples": [
+   "Schüttl' ich ihn herunter."
+  ],
+  "is_function": false
+ },
+ "Busen": {
+  "count": 1,
+  "occ": [
+   1461
+  ],
+  "songs": [
+   22
+  ],
+  "samples": [
+   "Wenn mein Herz im Busen spricht,"
+  ],
+  "is_function": false
+ },
+ "spricht": {
+  "count": 1,
+  "occ": [
+   1462
+  ],
+  "songs": [
+   22
+  ],
+  "samples": [
+   "Wenn mein Herz im Busen spricht,"
+  ],
+  "is_function": false
+ },
+ "Sing": {
+  "count": 1,
+  "occ": [
+   1463
+  ],
+  "songs": [
+   22
+  ],
+  "samples": [
+   "Sing' ich hell und munter."
+  ],
+  "is_function": false
+ },
+ "Höre": {
+  "count": 1,
+  "occ": [
+   1469
+  ],
+  "songs": [
+   22
+  ],
+  "samples": [
+   "Höre nicht, was es mir sagt,"
+  ],
+  "is_function": false
+ },
+ "Ohren": {
+  "count": 1,
+  "occ": [
+   1476
+  ],
+  "songs": [
+   22
+  ],
+  "samples": [
+   "Habe keine Ohren."
+  ],
+  "is_function": false
+ },
+ "Fühle": {
+  "count": 1,
+  "occ": [
+   1478
+  ],
+  "songs": [
+   22
+  ],
+  "samples": [
+   "Fühle nicht, was es mir klagt,"
+  ],
+  "is_function": false
+ },
+ "klagt": {
+  "count": 1,
+  "occ": [
+   1482
+  ],
+  "songs": [
+   22
+  ],
+  "samples": [
+   "Fühle nicht, was es mir klagt,"
+  ],
+  "is_function": false
+ },
+ "Klagen": {
+  "count": 1,
+  "occ": [
+   1483
+  ],
+  "songs": [
+   22
+  ],
+  "samples": [
+   "Klagen ist für Toren."
+  ],
+  "is_function": false
+ },
+ "Toren": {
+  "count": 1,
+  "occ": [
+   1486
+  ],
+  "songs": [
+   22
+  ],
+  "samples": [
+   "Klagen ist für Toren."
+  ],
+  "is_function": false
+ },
+ "Lustig": {
+  "count": 1,
+  "occ": [
+   1487
+  ],
+  "songs": [
+   22
+  ],
+  "samples": [
+   "Lustig in die Welt hinein"
+  ],
+  "is_function": false
+ },
+ "Gegen": {
+  "count": 1,
+  "occ": [
+   1491
+  ],
+  "songs": [
+   22
+  ],
+  "samples": [
+   "Gegen Wind und Wetter;"
+  ],
+  "is_function": true
+ },
+ "Wetter": {
+  "count": 1,
+  "occ": [
+   1494
+  ],
+  "songs": [
+   22
+  ],
+  "samples": [
+   "Gegen Wind und Wetter;"
+  ],
+  "is_function": false
+ },
+ "Erden": {
+  "count": 1,
+  "occ": [
+   1501
+  ],
+  "songs": [
+   22
+  ],
+  "samples": [
+   "Will kein Gott auf Erden sein,"
+  ],
+  "is_function": false
+ },
+ "wir": {
+  "count": 1,
+  "occ": [
+   1503
+  ],
+  "songs": [
+   22
+  ],
+  "samples": [
+   "Sind wir selber Götter!"
+  ],
+  "is_function": true
+ },
+ "Götter": {
+  "count": 1,
+  "occ": [
+   1506
+  ],
+  "songs": [
+   22
+  ],
+  "samples": [
+   "Sind wir selber Götter!"
+  ],
+  "is_function": false
+ },
+ "Drei": {
+  "count": 1,
+  "occ": [
+   1507
+  ],
+  "songs": [
+   23
+  ],
+  "samples": [
+   "Drei Sonnen sah' ich am Himmel stehn,"
+  ],
+  "is_function": false
+ },
+ "Sonnen": {
+  "count": 2,
+  "occ": [
+   1508,
+   1536
+  ],
+  "songs": [
+   23
+  ],
+  "samples": [
+   "Drei Sonnen sah' ich am Himmel stehn,",
+   "Ach, meine Sonnen seid ihr nicht!"
+  ],
+  "is_function": false
+ },
+ "lang": {
+  "count": 1,
+  "occ": [
+   1514
+  ],
+  "songs": [
+   23
+  ],
+  "samples": [
+   "Hab' lang' und fest sie angesehn;"
+  ],
+  "is_function": false
+ },
+ "fest": {
+  "count": 1,
+  "occ": [
+   1516
+  ],
+  "songs": [
+   23
+  ],
+  "samples": [
+   "Hab' lang' und fest sie angesehn;"
+  ],
+  "is_function": false
+ },
+ "angesehn": {
+  "count": 1,
+  "occ": [
+   1519
+  ],
+  "songs": [
+   23
+  ],
+  "samples": [
+   "Hab' lang' und fest sie angesehn;"
+  ],
+  "is_function": false
+ },
+ "standen": {
+  "count": 1,
+  "occ": [
+   1523
+  ],
+  "songs": [
+   23
+  ],
+  "samples": [
+   "Und sie auch standen da so stier,"
+  ],
+  "is_function": false
+ },
+ "stier": {
+  "count": 1,
+  "occ": [
+   1526
+  ],
+  "songs": [
+   23
+  ],
+  "samples": [
+   "Und sie auch standen da so stier,"
+  ],
+  "is_function": false
+ },
+ "wollten": {
+  "count": 1,
+  "occ": [
+   1529
+  ],
+  "songs": [
+   23
+  ],
+  "samples": [
+   "Als wollten sie nicht weg von mir."
+  ],
+  "is_function": false
+ },
+ "weg": {
+  "count": 1,
+  "occ": [
+   1531
+  ],
+  "songs": [
+   23
+  ],
+  "samples": [
+   "Als wollten sie nicht weg von mir."
+  ],
+  "is_function": false
+ },
+ "Schaut": {
+  "count": 1,
+  "occ": [
+   1540
+  ],
+  "songs": [
+   23
+  ],
+  "samples": [
+   "Schaut Andern doch in's Angesicht!"
+  ],
+  "is_function": false
+ },
+ "Ja": {
+  "count": 1,
+  "occ": [
+   1545
+  ],
+  "songs": [
+   23
+  ],
+  "samples": [
+   "Ach, neulich hatt' ich auch wohl drei:"
+  ],
+  "is_function": true
+ },
+ "neulich": {
+  "count": 1,
+  "occ": [
+   1546
+  ],
+  "songs": [
+   23
+  ],
+  "samples": [
+   "Ach, neulich hatt' ich auch wohl drei:"
+  ],
+  "is_function": false
+ },
+ "drei": {
+  "count": 1,
+  "occ": [
+   1551
+  ],
+  "songs": [
+   23
+  ],
+  "samples": [
+   "Ach, neulich hatt' ich auch wohl drei:"
+  ],
+  "is_function": false
+ },
+ "besten": {
+  "count": 1,
+  "occ": [
+   1554
+  ],
+  "songs": [
+   23
+  ],
+  "samples": [
+   "Nun sind hinab die besten zwei."
+  ],
+  "is_function": false
+ },
+ "Ging": {
+  "count": 1,
+  "occ": [
+   1556
+  ],
+  "songs": [
+   23
+  ],
+  "samples": [
+   "Ging' nur die dritt' erst hinterdrein!"
+  ],
+  "is_function": false
+ },
+ "dritt": {
+  "count": 1,
+  "occ": [
+   1558
+  ],
+  "songs": [
+   23
+  ],
+  "samples": [
+   "Ging' nur die dritt' erst hinterdrein!"
+  ],
+  "is_function": false
+ },
+ "hinterdrein": {
+  "count": 1,
+  "occ": [
+   1560
+  ],
+  "songs": [
+   23
+  ],
+  "samples": [
+   "Ging' nur die dritt' erst hinterdrein!"
+  ],
+  "is_function": false
+ },
+ "wohler": {
+  "count": 1,
+  "occ": [
+   1565
+  ],
+  "songs": [
+   23
+  ],
+  "samples": [
+   "Im Dunkeln wird mir wohler sein."
+  ],
+  "is_function": false
+ },
+ "Drüben": {
+  "count": 1,
+  "occ": [
+   1567
+  ],
+  "songs": [
+   24
+  ],
+  "samples": [
+   "Drüben hinter'm Dorfe"
+  ],
+  "is_function": false
+ },
+ "hinter'm": {
+  "count": 1,
+  "occ": [
+   1568
+  ],
+  "songs": [
+   24
+  ],
+  "samples": [
+   "Drüben hinter'm Dorfe"
+  ],
+  "is_function": false
+ },
+ "Dorfe": {
+  "count": 1,
+  "occ": [
+   1569
+  ],
+  "songs": [
+   24
+  ],
+  "samples": [
+   "Drüben hinter'm Dorfe"
+  ],
+  "is_function": false
+ },
+ "Steht": {
+  "count": 2,
+  "occ": [
+   1570,
+   1625
+  ],
+  "songs": [
+   24
+  ],
+  "samples": [
+   "Steht ein Leiermann,",
+   "Steht ihm nimmer still."
+  ],
+  "is_function": false
+ },
+ "Leiermann": {
+  "count": 1,
+  "occ": [
+   1571
+  ],
+  "songs": [
+   24
+  ],
+  "samples": [
+   "Steht ein Leiermann,"
+  ],
+  "is_function": false
+ },
+ "starren": {
+  "count": 1,
+  "occ": [
+   1573
+  ],
+  "songs": [
+   24
+  ],
+  "samples": [
+   "Und mit starren Fingern"
+  ],
+  "is_function": false
+ },
+ "Fingern": {
+  "count": 1,
+  "occ": [
+   1574
+  ],
+  "songs": [
+   24
+  ],
+  "samples": [
+   "Und mit starren Fingern"
+  ],
+  "is_function": false
+ },
+ "Dreht": {
+  "count": 2,
+  "occ": [
+   1575,
+   1618
+  ],
+  "songs": [
+   24
+  ],
+  "samples": [
+   "Dreht er was er kann.",
+   "Dreht, und seine Leier"
+  ],
+  "is_function": false
+ },
+ "Barfuß": {
+  "count": 1,
+  "occ": [
+   1579
+  ],
+  "songs": [
+   24
+  ],
+  "samples": [
+   "Barfuß auf dem Eise"
+  ],
+  "is_function": false
+ },
+ "Wankt": {
+  "count": 1,
+  "occ": [
+   1582
+  ],
+  "songs": [
+   24
+  ],
+  "samples": [
+   "Wankt er hin und her;"
+  ],
+  "is_function": false
+ },
+ "kleiner": {
+  "count": 1,
+  "occ": [
+   1589
+  ],
+  "songs": [
+   24
+  ],
+  "samples": [
+   "Und sein kleiner Teller"
+  ],
+  "is_function": false
+ },
+ "Teller": {
+  "count": 1,
+  "occ": [
+   1590
+  ],
+  "songs": [
+   24
+  ],
+  "samples": [
+   "Und sein kleiner Teller"
+  ],
+  "is_function": false
+ },
+ "Bleibt": {
+  "count": 1,
+  "occ": [
+   1591
+  ],
+  "songs": [
+   24
+  ],
+  "samples": [
+   "Bleibt ihm immer leer."
+  ],
+  "is_function": false
+ },
+ "leer": {
+  "count": 1,
+  "occ": [
+   1594
+  ],
+  "songs": [
+   24
+  ],
+  "samples": [
+   "Bleibt ihm immer leer."
+  ],
+  "is_function": false
+ },
+ "knurren": {
+  "count": 1,
+  "occ": [
+   1607
+  ],
+  "songs": [
+   24
+  ],
+  "samples": [
+   "Und die Hunde knurren"
+  ],
+  "is_function": false
+ },
+ "alten": {
+  "count": 1,
+  "occ": [
+   1609
+  ],
+  "songs": [
+   24
+  ],
+  "samples": [
+   "Um den alten Mann."
+  ],
+  "is_function": false
+ },
+ "Mann": {
+  "count": 1,
+  "occ": [
+   1610
+  ],
+  "songs": [
+   24
+  ],
+  "samples": [
+   "Um den alten Mann."
+  ],
+  "is_function": false
+ },
+ "lässt": {
+  "count": 1,
+  "occ": [
+   1613
+  ],
+  "songs": [
+   24
+  ],
+  "samples": [
+   "Und er lässt es gehen"
+  ],
+  "is_function": false
+ },
+ "Leier": {
+  "count": 2,
+  "occ": [
+   1621,
+   1637
+  ],
+  "songs": [
+   24
+  ],
+  "samples": [
+   "Dreht, und seine Leier",
+   "Deine Leier drehn?"
+  ],
+  "is_function": false
+ },
+ "Wunderlicher": {
+  "count": 1,
+  "occ": [
+   1626
+  ],
+  "songs": [
+   24
+  ],
+  "samples": [
+   "Wunderlicher Alter,"
+  ],
+  "is_function": false
+ },
+ "Alter": {
+  "count": 1,
+  "occ": [
+   1627
+  ],
+  "songs": [
+   24
+  ],
+  "samples": [
+   "Wunderlicher Alter,"
+  ],
+  "is_function": false
+ },
+ "Liedern": {
+  "count": 1,
+  "occ": [
+   1635
+  ],
+  "songs": [
+   24
+  ],
+  "samples": [
+   "Willst zu meinen Liedern"
+  ],
+  "is_function": false
+ },
+ "Deine": {
+  "count": 1,
+  "occ": [
+   1636
+  ],
+  "songs": [
+   24
+  ],
+  "samples": [
+   "Deine Leier drehn?"
+  ],
+  "is_function": true
+ },
+ "drehn": {
+  "count": 1,
+  "occ": [
+   1638
+  ],
+  "songs": [
+   24
+  ],
+  "samples": [
+   "Deine Leier drehn?"
+  ],
+  "is_function": false
+ }
+}

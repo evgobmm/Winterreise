@@ -1,0 +1,7459 @@
+{
+ "ab": {
+  "form": "ab",
+  "lemma": "ab",
+  "pos": "sep_prefix",
+  "gender": null,
+  "tier": "content",
+  "varies": true,
+  "variants": [
+   "fallen",
+   "abfallen",
+   "abweisen"
+  ],
+  "note": "Sample 1 «Gefrorne Tropfen fallen» — без ab (fallen); «Fällt ... ab»→abfallen; «weisest du mich ab»→abweisen"
+ },
+ "Abendrot": {
+  "form": "Abendrot",
+  "lemma": "Abendrot",
+  "pos": "noun",
+  "gender": "das",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": ""
+ },
+ "ach": {
+  "form": "ach",
+  "lemma": "ach",
+  "pos": "interj",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": ""
+ },
+ "Ach": {
+  "form": "Ach",
+  "lemma": "ach",
+  "pos": "interj",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": ""
+ },
+ "all": {
+  "form": "all",
+  "lemma": "all",
+  "pos": "pronoun",
+  "gender": null,
+  "tier": "function",
+  "varies": false,
+  "variants": [],
+  "note": "all' = постпозитивное all (die Kammern all'), местоименно-квантифицирующее"
+ },
+ "alleine": {
+  "form": "alleine",
+  "lemma": "allein",
+  "pos": "adv",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "alleine — разг./усил. вариант allein"
+ },
+ "allen": {
+  "form": "allen",
+  "lemma": "all",
+  "pos": "pronoun",
+  "gender": null,
+  "tier": "function",
+  "varies": false,
+  "variants": [],
+  "note": "mit allen Träumen — квантор"
+ },
+ "Alles": {
+  "form": "Alles",
+  "lemma": "all",
+  "pos": "pronoun",
+  "gender": null,
+  "tier": "function",
+  "varies": false,
+  "variants": [],
+  "note": "субстантивированное alles"
+ },
+ "Allhier": {
+  "form": "Allhier",
+  "lemma": "allhier",
+  "pos": "adv",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "устар. усиленное hier"
+ },
+ "alten": {
+  "form": "alten",
+  "lemma": "alt",
+  "pos": "adj",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": ""
+ },
+ "Alter": {
+  "form": "Alter",
+  "lemma": "Alter",
+  "pos": "noun",
+  "gender": "der",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "субстантивир. der Alte (старик), здесь звательно Wunderlicher Alter"
+ },
+ "An's": {
+  "form": "An's",
+  "lemma": "an",
+  "pos": "prep",
+  "gender": null,
+  "tier": "function",
+  "varies": false,
+  "variants": [],
+  "note": "стяжение an+das (An's Tor)"
+ },
+ "Andern": {
+  "form": "Andern",
+  "lemma": "ander",
+  "pos": "pronoun",
+  "gender": null,
+  "tier": "function",
+  "varies": false,
+  "variants": [],
+  "note": "субстантивир. der Andere / Andern (другие)"
+ },
+ "andern": {
+  "form": "andern",
+  "lemma": "ander",
+  "pos": "adj",
+  "gender": null,
+  "tier": "function",
+  "varies": false,
+  "variants": [],
+  "note": "die andern Wandrer — атрибутивно"
+ },
+ "anders": {
+  "form": "anders",
+  "lemma": "anders",
+  "pos": "adv",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Wie anders — наречие (иначе)"
+ },
+ "Angedenken": {
+  "form": "Angedenken",
+  "lemma": "Angedenken",
+  "pos": "noun",
+  "gender": "das",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "das Angedenken (воспоминание/сувенир)"
+ },
+ "angesehn": {
+  "form": "angesehn",
+  "lemma": "ansehen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Part.II angesehen, синкопа -e- без апострофа"
+ },
+ "Angesicht": {
+  "form": "Angesicht",
+  "lemma": "Angesicht",
+  "pos": "noun",
+  "gender": "das",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": ""
+ },
+ "Argen": {
+  "form": "Argen",
+  "lemma": "arg",
+  "pos": "adj",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "субстантивир. im Argen (в дурном/злом); лемма — положит. форма arg"
+ },
+ "Arm": {
+  "form": "Arm",
+  "lemma": "Arm",
+  "pos": "noun",
+  "gender": "der",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": ""
+ },
+ "Arme": {
+  "form": "Arme",
+  "lemma": "Arm",
+  "pos": "noun",
+  "gender": "der",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "an meinem Arme — Dat.Sg. (рука), der Arm"
+ },
+ "armen": {
+  "form": "armen",
+  "lemma": "arm",
+  "pos": "adj",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "den armen Flüchtling"
+ },
+ "Atem": {
+  "form": "Atem",
+  "lemma": "Atem",
+  "pos": "noun",
+  "gender": "der",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": ""
+ },
+ "aufgestecktes": {
+  "form": "aufgestecktes",
+  "lemma": "aufstecken",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Part.II aufgesteckt, склонённое атрибут.; лемма — глагол aufstecken"
+ },
+ "aufspringt": {
+  "form": "aufspringt",
+  "lemma": "aufspringen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": ""
+ },
+ "Auge": {
+  "form": "Auge",
+  "lemma": "Auge",
+  "pos": "noun",
+  "gender": "das",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": ""
+ },
+ "Augen": {
+  "form": "Augen",
+  "lemma": "Auge",
+  "pos": "noun",
+  "gender": "das",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Pl. от das Auge"
+ },
+ "Ausgang": {
+  "form": "Ausgang",
+  "lemma": "Ausgang",
+  "pos": "noun",
+  "gender": "der",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": ""
+ },
+ "ausgestreckt": {
+  "form": "ausgestreckt",
+  "lemma": "ausstrecken",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Part.II (im Sande ausgestreckt)"
+ },
+ "Bache": {
+  "form": "Bache",
+  "lemma": "Bach",
+  "pos": "noun",
+  "gender": "der",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Dat.Sg. in diesem Bache, der Bach"
+ },
+ "Bahre": {
+  "form": "Bahre",
+  "lemma": "Bahre",
+  "pos": "noun",
+  "gender": "die",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "die Bahre (носилки)"
+ },
+ "bald": {
+  "form": "bald",
+  "lemma": "bald",
+  "pos": "adv",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": ""
+ },
+ "Barfuß": {
+  "form": "Barfuß",
+  "lemma": "barfuß",
+  "pos": "adv",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "barfuß auf dem Eise — наречие (босиком)"
+ },
+ "begangen": {
+  "form": "begangen",
+  "lemma": "begehen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Part.II nichts begangen (совершить)"
+ },
+ "beiden": {
+  "form": "beiden",
+  "lemma": "beide",
+  "pos": "pronoun",
+  "gender": null,
+  "tier": "function",
+  "varies": false,
+  "variants": [],
+  "note": "unter beiden Sohlen — квантор/числ.-мест."
+ },
+ "bellen": {
+  "form": "bellen",
+  "lemma": "bellen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": ""
+ },
+ "Bellt": {
+  "form": "Bellt",
+  "lemma": "bellen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Imp./3.Sg. bellt"
+ },
+ "bemerken": {
+  "form": "bemerken",
+  "lemma": "bemerken",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Inf."
+ },
+ "Bergstroms": {
+  "form": "Bergstroms",
+  "lemma": "Bergstrom",
+  "pos": "noun",
+  "gender": "der",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Gen.Sg. des Bergstroms, der Bergstrom"
+ },
+ "besetzt": {
+  "form": "besetzt",
+  "lemma": "besetzen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Part.II (die Kammern all' besetzt)"
+ },
+ "besten": {
+  "form": "besten",
+  "lemma": "gut",
+  "pos": "adj",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "превосх. от gut (besten zwei); лемма — положит. форма gut"
+ },
+ "Betten": {
+  "form": "Betten",
+  "lemma": "Bett",
+  "pos": "noun",
+  "gender": "das",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Pl. от das Bett"
+ },
+ "Beute": {
+  "form": "Beute",
+  "lemma": "Beute",
+  "pos": "noun",
+  "gender": "die",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "die Beute (добыча)"
+ },
+ "Bild": {
+  "form": "Bild",
+  "lemma": "Bild",
+  "pos": "noun",
+  "gender": "das",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": ""
+ },
+ "Bis": {
+  "form": "Bis",
+  "lemma": "bis",
+  "pos": "conj",
+  "gender": null,
+  "tier": "function",
+  "varies": false,
+  "variants": [],
+  "note": "Bis ich die Erde seh' — союз"
+ },
+ "bis": {
+  "form": "bis",
+  "lemma": "bis",
+  "pos": "prep",
+  "gender": null,
+  "tier": "function",
+  "varies": false,
+  "variants": [],
+  "note": "bis zur Bahre / bis zum Grabe — предлог; «bis heute»"
+ },
+ "blanken": {
+  "form": "blanken",
+  "lemma": "blank",
+  "pos": "adj",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": ""
+ },
+ "blass": {
+  "form": "blass",
+  "lemma": "blass",
+  "pos": "adj",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": ""
+ },
+ "Blatt": {
+  "form": "Blatt",
+  "lemma": "Blatt",
+  "pos": "noun",
+  "gender": "das",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": ""
+ },
+ "Blatte": {
+  "form": "Blatte",
+  "lemma": "Blatt",
+  "pos": "noun",
+  "gender": "das",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Dat.Sg. dem Blatte, das Blatt"
+ },
+ "bleibe": {
+  "form": "bleibe",
+  "lemma": "bleiben",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "1.Sg. ich bleibe"
+ },
+ "Bleibt": {
+  "form": "Bleibt",
+  "lemma": "bleiben",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "3.Sg. bleibt"
+ },
+ "Blick": {
+  "form": "Blick",
+  "lemma": "Blick",
+  "pos": "noun",
+  "gender": "der",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": ""
+ },
+ "bliesen": {
+  "form": "bliesen",
+  "lemma": "blasen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Prät.Pl. от blasen (дуть); Winde bliesen"
+ },
+ "Blumen": {
+  "form": "Blumen",
+  "lemma": "Blume",
+  "pos": "noun",
+  "gender": "die",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Pl. от die Blume"
+ },
+ "Blumenstrauß": {
+  "form": "Blumenstrauß",
+  "lemma": "Blumenstrauß",
+  "pos": "noun",
+  "gender": "der",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "ß после долгого au сохраняется"
+ },
+ "Blätter": {
+  "form": "Blätter",
+  "lemma": "Blatt",
+  "pos": "noun",
+  "gender": "das",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Pl. от das Blatt (листья)"
+ },
+ "blühen": {
+  "form": "blühen",
+  "lemma": "blühen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": ""
+ },
+ "blühten": {
+  "form": "blühten",
+  "lemma": "blühen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Prät.Pl. blühten"
+ },
+ "Blüte": {
+  "form": "Blüte",
+  "lemma": "Blüte",
+  "pos": "noun",
+  "gender": "die",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "die Blüte (цвет/цветок); ср. Blumen — различать"
+ },
+ "Boden": {
+  "form": "Boden",
+  "lemma": "Boden",
+  "pos": "noun",
+  "gender": "der",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": ""
+ },
+ "Braut": {
+  "form": "Braut",
+  "lemma": "Braut",
+  "pos": "noun",
+  "gender": "die",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "die Braut (невеста)"
+ },
+ "brennen": {
+  "form": "brennen",
+  "lemma": "brennen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": ""
+ },
+ "brennt": {
+  "form": "brennt",
+  "lemma": "brennen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": []
+ },
+ "Brief": {
+  "form": "Brief",
+  "lemma": "Brief",
+  "pos": "noun",
+  "gender": "der",
+  "tier": "content",
+  "varies": false,
+  "variants": []
+ },
+ "bringt": {
+  "form": "bringt",
+  "lemma": "bringen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": []
+ },
+ "Brunnen": {
+  "form": "Brunnen",
+  "lemma": "Brunnen",
+  "pos": "noun",
+  "gender": "der",
+  "tier": "content",
+  "varies": false,
+  "variants": []
+ },
+ "Brust": {
+  "form": "Brust",
+  "lemma": "Brust",
+  "pos": "noun",
+  "gender": "die",
+  "tier": "content",
+  "varies": false,
+  "variants": []
+ },
+ "bunte": {
+  "form": "bunte",
+  "lemma": "bunt",
+  "pos": "adj",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": []
+ },
+ "bunten": {
+  "form": "bunten",
+  "lemma": "bunt",
+  "pos": "adj",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": []
+ },
+ "Busen": {
+  "form": "Busen",
+  "lemma": "Busen",
+  "pos": "noun",
+  "gender": "der",
+  "tier": "content",
+  "varies": false,
+  "variants": []
+ },
+ "Bächlein": {
+  "form": "Bächlein",
+  "lemma": "Bächlein",
+  "pos": "noun",
+  "gender": "das",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "уменьш. от Bach"
+ },
+ "Bäll": {
+  "form": "Bäll",
+  "lemma": "Ball",
+  "pos": "noun",
+  "gender": "der",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Bäll'=Bälle, мн.ч."
+ },
+ "Bäumen": {
+  "form": "Bäumen",
+  "lemma": "Baum",
+  "pos": "noun",
+  "gender": "der",
+  "tier": "content",
+  "varies": false,
+  "variants": []
+ },
+ "Da": {
+  "form": "Da",
+  "lemma": "da",
+  "pos": "adv",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "темпорально-локальное наречие («тогда»/«тут»)"
+ },
+ "da": {
+  "form": "da",
+  "lemma": "da",
+  "pos": "adv",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "локальное наречие («тут»/«там»; hie und da)"
+ },
+ "Dach": {
+  "form": "Dach",
+  "lemma": "Dach",
+  "pos": "noun",
+  "gender": "das",
+  "tier": "content",
+  "varies": false,
+  "variants": []
+ },
+ "dacht": {
+  "form": "dacht",
+  "lemma": "denken",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "dacht'=dachte, претерит"
+ },
+ "daher": {
+  "form": "daher",
+  "lemma": "daher",
+  "pos": "adv",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "направит. наречие «сюда» (Weht daher)"
+ },
+ "dahin": {
+  "form": "dahin",
+  "lemma": "dahin",
+  "pos": "sep_prefix",
+  "gender": null,
+  "tier": "content",
+  "varies": true,
+  "variants": [
+   "dahinfließen"
+  ],
+  "note": "Fließt ... dahin → dahinfließen"
+ },
+ "Dahin": {
+  "form": "Dahin",
+  "lemma": "dahin",
+  "pos": "adv",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Dahin mit trägem Fuß — самостоят. направит. наречие «туда», глагол эллиптирован"
+ },
+ "darin": {
+  "form": "darin",
+  "lemma": "darin",
+  "pos": "adv",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "местоименное наречие «в нём» (starrt ihr Bild darin)"
+ },
+ "Decke": {
+  "form": "Decke",
+  "lemma": "Decke",
+  "pos": "noun",
+  "gender": "die",
+  "tier": "content",
+  "varies": false,
+  "variants": []
+ },
+ "denke": {
+  "form": "denke",
+  "lemma": "nachdenken",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "denke ... nach → nachdenken (отделяемая nach в строке)"
+ },
+ "denn": {
+  "form": "denn",
+  "lemma": "denn",
+  "pos": "particle",
+  "gender": null,
+  "tier": "loaded_particle",
+  "varies": false,
+  "variants": []
+ },
+ "diesem": {
+  "form": "diesem",
+  "lemma": "dieser",
+  "pos": "pronoun",
+  "gender": null,
+  "tier": "function",
+  "varies": false,
+  "variants": [],
+  "note": "указат. местоимение/детерминатив"
+ },
+ "dieser": {
+  "form": "dieser",
+  "lemma": "dieser",
+  "pos": "pronoun",
+  "gender": null,
+  "tier": "function",
+  "varies": false,
+  "variants": []
+ },
+ "doch": {
+  "form": "doch",
+  "lemma": "doch",
+  "pos": "particle",
+  "gender": null,
+  "tier": "loaded_particle",
+  "varies": false,
+  "variants": []
+ },
+ "Doch": {
+  "form": "Doch",
+  "lemma": "doch",
+  "pos": "particle",
+  "gender": null,
+  "tier": "loaded_particle",
+  "varies": false,
+  "variants": [],
+  "note": "в начале строки часто противит. «но/однако»"
+ },
+ "Dorfe": {
+  "form": "Dorfe",
+  "lemma": "Dorf",
+  "pos": "noun",
+  "gender": "das",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Dorfe — дат. на -e"
+ },
+ "dort": {
+  "form": "dort",
+  "lemma": "dort",
+  "pos": "adv",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": []
+ },
+ "dran": {
+  "form": "dran",
+  "lemma": "daran",
+  "pos": "sep_prefix",
+  "gender": null,
+  "tier": "content",
+  "varies": true,
+  "variants": [
+   "daranhängen"
+  ],
+  "note": "dran=daran; Hänge ... dran → daranhängen"
+ },
+ "drehn": {
+  "form": "drehn",
+  "lemma": "drehen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "drehn=drehen (синкопа -e-)"
+ },
+ "Dreht": {
+  "form": "Dreht",
+  "lemma": "drehen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": []
+ },
+ "Drei": {
+  "form": "Drei",
+  "lemma": "drei",
+  "pos": "num",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": []
+ },
+ "drei": {
+  "form": "drei",
+  "lemma": "drei",
+  "pos": "num",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": []
+ },
+ "drin": {
+  "form": "drin",
+  "lemma": "darin",
+  "pos": "adv",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "drin=darin, локат. «внутри/в нём»"
+ },
+ "dringt": {
+  "form": "dringt",
+  "lemma": "dringen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": []
+ },
+ "drinnen": {
+  "form": "drinnen",
+  "lemma": "drinnen",
+  "pos": "adv",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": []
+ },
+ "dritt": {
+  "form": "dritt",
+  "lemma": "dritte",
+  "pos": "num",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "die dritt'=die dritte, порядк. числит."
+ },
+ "drängst": {
+  "form": "drängst",
+  "lemma": "drängen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": []
+ },
+ "Drüben": {
+  "form": "Drüben",
+  "lemma": "drüben",
+  "pos": "adv",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": []
+ },
+ "Dunkelheit": {
+  "form": "Dunkelheit",
+  "lemma": "Dunkelheit",
+  "pos": "noun",
+  "gender": "die",
+  "tier": "content",
+  "varies": false,
+  "variants": []
+ },
+ "Dunkeln": {
+  "form": "Dunkeln",
+  "lemma": "Dunkel",
+  "pos": "noun",
+  "gender": "das",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "im Dunkeln — субстантивир. прил., das Dunkel"
+ },
+ "Durchdringen": {
+  "form": "Durchdringen",
+  "lemma": "durchdringen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "неотделяемое durch- (пронзать/пробивать)"
+ },
+ "Durchstrich": {
+  "form": "Durchstrich",
+  "lemma": "durchstreichen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Durchstrich=durchstrich, претерит (бродил/исходил по)"
+ },
+ "durchziehen": {
+  "form": "durchziehen",
+  "lemma": "durchziehen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "die Stadt durchziehen — проходить через"
+ },
+ "Durstig": {
+  "form": "Durstig",
+  "lemma": "durstig",
+  "pos": "adj",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": []
+ },
+ "Eh": {
+  "form": "Eh",
+  "lemma": "Ehe",
+  "pos": "noun",
+  "gender": "die",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Eh'=Ehe (брак)"
+ },
+ "eher": {
+  "form": "eher",
+  "lemma": "eher",
+  "pos": "adv",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "«раньше/скорее»"
+ },
+ "Ei": {
+  "form": "Ei",
+  "lemma": "ei",
+  "pos": "interj",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "междометие (Ei Tränen)"
+ },
+ "eignes": {
+  "form": "eignes",
+  "lemma": "eigen",
+  "pos": "adj",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "eignes=eigenes"
+ },
+ "eilt": {
+  "form": "eilt",
+  "lemma": "eilen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "eilt'=eilte, претерит"
+ },
+ "eingezogen": {
+  "form": "eingezogen",
+  "lemma": "einziehen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "bin ... eingezogen (вошёл/прибыл)"
+ },
+ "einkehren": {
+  "form": "einkehren",
+  "lemma": "einkehren",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "завернуть на постой"
+ },
+ "einmal": {
+  "form": "einmal",
+  "lemma": "einmal",
+  "pos": "adv",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": []
+ },
+ "Einsam": {
+  "form": "Einsam",
+  "lemma": "einsam",
+  "pos": "adj",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": []
+ },
+ "Eis": {
+  "form": "Eis",
+  "lemma": "Eis",
+  "pos": "noun",
+  "gender": "das",
+  "tier": "content",
+  "varies": false,
+  "variants": []
+ },
+ "Eise": {
+  "form": "Eise",
+  "lemma": "Eis",
+  "pos": "noun",
+  "gender": "das",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Eise — дат. на -e"
+ },
+ "elend": {
+  "form": "elend",
+  "lemma": "elend",
+  "pos": "adj",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": []
+ },
+ "empfangen": {
+  "form": "empfangen",
+  "lemma": "empfangen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "hast du mich empfangen — принимать/встречать"
+ },
+ "Ende": {
+  "form": "Ende",
+  "lemma": "Ende",
+  "pos": "noun",
+  "gender": "das",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "zu Ende sein mit — идиом. оборот"
+ },
+ "endlich": {
+  "form": "endlich",
+  "lemma": "endlich",
+  "pos": "adv",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": []
+ },
+ "engem": {
+  "form": "engem",
+  "lemma": "eng",
+  "pos": "adj",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "engem — дат. ед."
+ },
+ "Entfernt": {
+  "form": "Entfernt",
+  "lemma": "entfernt",
+  "pos": "adj",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Entfernt von jenem Ort — адъект. причастие «удалён/вдали от» (от entfernen)"
+ },
+ "entgangen": {
+  "form": "entgangen",
+  "lemma": "entgehen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Ob es mir entgangen — ускользнуть/быть упущенным"
+ },
+ "Erde": {
+  "form": "Erde",
+  "lemma": "Erde",
+  "pos": "noun",
+  "gender": "die",
+  "tier": "content",
+  "varies": false,
+  "variants": []
+ },
+ "Erden": {
+  "form": "Erden",
+  "lemma": "Erde",
+  "pos": "noun",
+  "gender": "die",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "auf Erden — застывшая дативная форма, лемма Erde"
+ },
+ "erfroren": {
+  "form": "erfroren",
+  "lemma": "erfrieren",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "sung-вариант к erstorben (П.4); Part.II от erfrieren — замёрзнуть"
+ },
+ "Erkennst": {
+  "form": "Erkennst",
+  "lemma": "erkennen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": []
+ },
+ "erlaben": {
+  "form": "erlaben",
+  "lemma": "erlaben",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "возвратное sich erlaben — освежаться-услаждаться"
+ },
+ "erst": {
+  "form": "erst",
+  "lemma": "erst",
+  "pos": "adv",
+  "gender": null,
+  "tier": "loaded_particle",
+  "varies": false,
+  "variants": [],
+  "note": "временной контраст «лишь/только»"
+ },
+ "erstarrt": {
+  "form": "erstarrt",
+  "lemma": "erstarren",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "ihr erstarrt — Präsens 2 л. мн.ч. от erstarren (оцепенеть, застыть)"
+ },
+ "ersten": {
+  "form": "ersten",
+  "lemma": "erste",
+  "pos": "adj",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "порядковое прилагательное (erster Gruß)"
+ },
+ "erstorben": {
+  "form": "erstorben",
+  "lemma": "ersterben",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Part.II от ersterben — угаснуть/отмереть"
+ },
+ "Fall": {
+  "form": "Fall",
+  "lemma": "fallen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Fall' ich — элизия Fall'(e), Präsens 1 л. от fallen (не сущ. der Fall)"
+ },
+ "fallen": {
+  "form": "fallen",
+  "lemma": "fallen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": []
+ },
+ "fassen": {
+  "form": "fassen",
+  "lemma": "fassen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": []
+ },
+ "Fein": {
+  "form": "Fein",
+  "lemma": "fein",
+  "pos": "adj",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Fein Liebchen — несклоняемое прил.-обращение «милая/нежная»"
+ },
+ "Felsengründe": {
+  "form": "Felsengründe",
+  "lemma": "Felsengrund",
+  "pos": "noun",
+  "gender": "der",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "мн.ч. Felsengründe; компаунд Felsen+Grund"
+ },
+ "Felsenhöhn": {
+  "form": "Felsenhöhn",
+  "lemma": "Felsenhöhe",
+  "pos": "noun",
+  "gender": "die",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Felsenhöhn — синкопа -e- (Höhn=Höhen), мн.ч.; лемма Felsenhöhe"
+ },
+ "Fenster": {
+  "form": "Fenster",
+  "lemma": "Fenster",
+  "pos": "noun",
+  "gender": "das",
+  "tier": "content",
+  "varies": false,
+  "variants": []
+ },
+ "Fenstern": {
+  "form": "Fenstern",
+  "lemma": "Fenster",
+  "pos": "noun",
+  "gender": "das",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Dat.мн. Fenstern"
+ },
+ "Fensterscheiben": {
+  "form": "Fensterscheiben",
+  "lemma": "Fensterscheibe",
+  "pos": "noun",
+  "gender": "die",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "мн.ч.; компаунд Fenster+Scheibe (оконное стекло)"
+ },
+ "fest": {
+  "form": "fest",
+  "lemma": "fest",
+  "pos": "adj",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "здесь наречно «неотрывно/крепко»"
+ },
+ "Feuerflammen": {
+  "form": "Feuerflammen",
+  "lemma": "Feuerflamme",
+  "pos": "noun",
+  "gender": "die",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "мн.ч.; компаунд Feuer+Flamme"
+ },
+ "find": {
+  "form": "find",
+  "lemma": "finden",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "find' — элизия find'(e), Präsens 1 л."
+ },
+ "finde": {
+  "form": "finde",
+  "lemma": "finden",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": []
+ },
+ "finden": {
+  "form": "finden",
+  "lemma": "finden",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": []
+ },
+ "findst": {
+  "form": "findst",
+  "lemma": "finden",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "findst=findest, Präsens 2 л."
+ },
+ "Fingern": {
+  "form": "Fingern",
+  "lemma": "Finger",
+  "pos": "noun",
+  "gender": "der",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Dat.мн. Fingern"
+ },
+ "finster": {
+  "form": "finster",
+  "lemma": "finster",
+  "pos": "adj",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": []
+ },
+ "flattern": {
+  "form": "flattern",
+  "lemma": "flattern",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": []
+ },
+ "Fliegt": {
+  "form": "Fliegt",
+  "lemma": "fliegen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": []
+ },
+ "Fließt": {
+  "form": "Fließt",
+  "lemma": "fließen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": []
+ },
+ "Flocken": {
+  "form": "Flocken",
+  "lemma": "Flocke",
+  "pos": "noun",
+  "gender": "die",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "мн.ч. (снежные хлопья)"
+ },
+ "flog": {
+  "form": "flog",
+  "lemma": "fliegen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Prät. от fliegen"
+ },
+ "Flur": {
+  "form": "Flur",
+  "lemma": "Flur",
+  "pos": "noun",
+  "gender": "die",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "die Flur — поле/луг (поэт.)"
+ },
+ "Fluss": {
+  "form": "Fluss",
+  "lemma": "Fluss",
+  "pos": "noun",
+  "gender": "der",
+  "tier": "content",
+  "varies": false,
+  "variants": []
+ },
+ "Flüchtling": {
+  "form": "Flüchtling",
+  "lemma": "Flüchtling",
+  "pos": "noun",
+  "gender": "der",
+  "tier": "content",
+  "varies": false,
+  "variants": []
+ },
+ "folg": {
+  "form": "folg",
+  "lemma": "folgen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "folg' — элизия, Präsens 1 л. (folg' nach — nachfolgen)"
+ },
+ "Folge": {
+  "form": "Folge",
+  "lemma": "folgen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Folge nach — императив от nachfolgen (не сущ. die Folge)"
+ },
+ "fort": {
+  "form": "fort",
+  "lemma": "fort",
+  "pos": "adv",
+  "gender": null,
+  "tier": "content",
+  "varies": true,
+  "variants": [
+   "immerfort",
+   "forthelfen",
+   "fortbellen"
+  ],
+  "note": "напр.-наречие: «immer fort» П.5 (непрестанно); «half fort» П.10 — forthelfen; «Bellt mich fort» П.17 — отгонять лаем (fort=прочь)"
+ },
+ "fragen": {
+  "form": "fragen",
+  "lemma": "fragen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "fragen nach — спрашивать о/что за дело до"
+ },
+ "Frauenbild": {
+  "form": "Frauenbild",
+  "lemma": "Frauenbild",
+  "pos": "noun",
+  "gender": "das",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "компаунд Frauen+Bild"
+ },
+ "Fremd": {
+  "form": "Fremd",
+  "lemma": "fremd",
+  "pos": "adj",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "здесь предикативно/наречно «чужим»"
+ },
+ "Freud": {
+  "form": "Freud",
+  "lemma": "Freude",
+  "pos": "noun",
+  "gender": "die",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Freud' — апокопа -e, лемма Freude"
+ },
+ "Freuden": {
+  "form": "Freuden",
+  "lemma": "Freude",
+  "pos": "noun",
+  "gender": "die",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "мн.ч. Freuden"
+ },
+ "freundlich": {
+  "form": "freundlich",
+  "lemma": "freundlich",
+  "pos": "adj",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "здесь наречно «приветливо»"
+ },
+ "frohes": {
+  "form": "frohes",
+  "lemma": "froh",
+  "pos": "adj",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": []
+ },
+ "frugen": {
+  "form": "frugen",
+  "lemma": "fragen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "frugen — стар./диал. Prät. мн.ч. от fragen (совр. fragten)"
+ },
+ "früh": {
+  "form": "früh",
+  "lemma": "früh",
+  "pos": "adv",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "morgen früh — наречие «рано»"
+ },
+ "Fuß": {
+  "form": "Fuß",
+  "lemma": "Fuß",
+  "pos": "noun",
+  "gender": "der",
+  "tier": "content",
+  "varies": false,
+  "variants": []
+ },
+ "fällt": {
+  "form": "fällt",
+  "lemma": "fallen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "fällt das Blatt — простой fallen"
+ },
+ "Fällt": {
+  "form": "Fällt",
+  "lemma": "abfallen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Fällt ... ab — отделяемый abfallen (опадать); основа fallen + приставка ab"
+ },
+ "fändest": {
+  "form": "fändest",
+  "lemma": "finden",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Konj.II от finden (fändest=würdest finden)"
+ },
+ "Fühle": {
+  "form": "Fühle",
+  "lemma": "fühlen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Fühle nicht — императив от fühlen"
+ },
+ "Fühlst": {
+  "form": "Fühlst",
+  "lemma": "fühlen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": []
+ },
+ "fühlte": {
+  "form": "fühlte",
+  "lemma": "fühlen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Prät. от fühlen"
+ },
+ "führt": {
+  "form": "führt",
+  "lemma": "führen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": []
+ },
+ "für": {
+  "form": "für",
+  "lemma": "für",
+  "pos": "prep",
+  "gender": null,
+  "tier": "function",
+  "varies": false,
+  "variants": [],
+  "note": "базовый предлог; «für und für» П.15 — идиома «непрестанно»"
+ },
+ "Füße": {
+  "form": "Füße",
+  "lemma": "Fuß",
+  "pos": "noun",
+  "gender": "der",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "мн.ч. Füße"
+ },
+ "ganzen": {
+  "form": "ganzen",
+  "lemma": "ganz",
+  "pos": "adj",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": []
+ },
+ "gar": {
+  "form": "gar",
+  "lemma": "gar",
+  "pos": "adv",
+  "gender": null,
+  "tier": "loaded_particle",
+  "varies": false,
+  "variants": [],
+  "note": "усилительная частица «даже/совсем»"
+ },
+ "gebracht": {
+  "form": "gebracht",
+  "lemma": "bringen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Part.II от bringen"
+ },
+ "gedacht": {
+  "form": "gedacht",
+  "lemma": "denken",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Part.II от denken; bei mir gedacht — подумал про себя"
+ },
+ "Gedanken": {
+  "form": "Gedanken",
+  "lemma": "Gedanke",
+  "pos": "noun",
+  "gender": "der",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "мн./косв. Gedanken, лемма der Gedanke"
+ },
+ "gefallen": {
+  "form": "gefallen",
+  "lemma": "fallen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Part.II от fallen (ist gefallen — упал)"
+ },
+ "geflogen": {
+  "form": "geflogen",
+  "lemma": "fliegen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Part.II от fliegen"
+ },
+ "gefreuet": {
+  "form": "gefreuet",
+  "lemma": "freuen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Part. II refl. sich freuen; XIX -et"
+ },
+ "Gefrorne": {
+  "form": "Gefrorne",
+  "lemma": "gefroren",
+  "pos": "adj",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "субстантивир./атрибут. Part. II от gefrieren, здесь прил. 'замёрзшие'"
+ },
+ "gefunden": {
+  "form": "gefunden",
+  "lemma": "finden",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Part. II"
+ },
+ "Gefährte": {
+  "form": "Gefährte",
+  "lemma": "Gefährte",
+  "pos": "noun",
+  "gender": "der",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "der Gefährte — спутник"
+ },
+ "Gehen": {
+  "form": "Gehen",
+  "lemma": "Gehen",
+  "pos": "noun",
+  "gender": "das",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "субстантивир. инфинитив das irre Gehen"
+ },
+ "gehen": {
+  "form": "gehen",
+  "lemma": "gehen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "инфинитив"
+ },
+ "gehn": {
+  "form": "gehn",
+  "lemma": "gehen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "синкопа -e-, инфинитив"
+ },
+ "geht": {
+  "form": "geht",
+  "lemma": "gehen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "3 л. ед.ч."
+ },
+ "gehüllt": {
+  "form": "gehüllt",
+  "lemma": "hüllen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Part. II gehüllt in Schnee"
+ },
+ "gemacht": {
+  "form": "gemacht",
+  "lemma": "machen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Part. II"
+ },
+ "Gemalt": {
+  "form": "Gemalt",
+  "lemma": "malen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Part. II (с заглавной — начало строки)"
+ },
+ "genossen": {
+  "form": "genossen",
+  "lemma": "genießen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Part. II"
+ },
+ "gern": {
+  "form": "gern",
+  "lemma": "gern",
+  "pos": "adv",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "наречие охотно"
+ },
+ "geschehn": {
+  "form": "geschehn",
+  "lemma": "geschehen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Part. II, синкопа; war's geschehn um dich"
+ },
+ "Gesell": {
+  "form": "Gesell",
+  "lemma": "Gesell",
+  "pos": "noun",
+  "gender": "der",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "der Gesell(e) — апокопа звательной формы"
+ },
+ "Geselle": {
+  "form": "Geselle",
+  "lemma": "Geselle",
+  "pos": "noun",
+  "gender": "der",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "der Geselle — дружище"
+ },
+ "Gesicht": {
+  "form": "Gesicht",
+  "lemma": "Gesicht",
+  "pos": "noun",
+  "gender": "das",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "das Gesicht — лицо"
+ },
+ "gestoßen": {
+  "form": "gestoßen",
+  "lemma": "stoßen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Part. II refl. sich stoßen an"
+ },
+ "gestreuet": {
+  "form": "gestreuet",
+  "lemma": "streuen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Part. II, XIX -et"
+ },
+ "geweinet": {
+  "form": "geweinet",
+  "lemma": "weinen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Part. II, XIX -et"
+ },
+ "Gewinn": {
+  "form": "Gewinn",
+  "lemma": "Gewinn",
+  "pos": "noun",
+  "gender": "der",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "der Gewinn — выигрыш/прибыль"
+ },
+ "gewinnen": {
+  "form": "gewinnen",
+  "lemma": "gewinnen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "инфинитив; wird's Meer gewinnen — обретёт"
+ },
+ "gewogen": {
+  "form": "gewogen",
+  "lemma": "gewogen",
+  "pos": "adj",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "прил. 'благосклонный' (jmdm. gewogen sein); от wägen, но лексикализовано"
+ },
+ "gewohnt": {
+  "form": "gewohnt",
+  "lemma": "gewohnt",
+  "pos": "adj",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "прил./стат. Part. 'привычный'; gewohnt sein etw. zu tun"
+ },
+ "geworden": {
+  "form": "geworden",
+  "lemma": "werden",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Part. II; still geworden — стала"
+ },
+ "gezogen": {
+  "form": "gezogen",
+  "lemma": "ziehen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Part. II; aus der Stadt gezogen"
+ },
+ "Gibst": {
+  "form": "Gibst",
+  "lemma": "geben",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "2 л. ед.ч. (с заглавной — начало строки)"
+ },
+ "Gibt": {
+  "form": "Gibt",
+  "lemma": "geben",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "3 л. ед.ч. refl. gibt sich hin (hin → sep_prefix отдельно)"
+ },
+ "ging": {
+  "form": "ging",
+  "lemma": "gehen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Prät. 1/3 л.; ich ging / Keiner ging zurück"
+ },
+ "Ging": {
+  "form": "Ging",
+  "lemma": "gehen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Konj. II Ging' (с заглавной — начало строки)"
+ },
+ "glaubt": {
+  "form": "glaubt",
+  "lemma": "glauben",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "glaubt'/glaubt's; Prät./Präs."
+ },
+ "Glieder": {
+  "form": "Glieder",
+  "lemma": "Glied",
+  "pos": "noun",
+  "gender": "das",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "das Glied, мн. Glieder — члены тела"
+ },
+ "glühen": {
+  "form": "glühen",
+  "lemma": "glühen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "инфинитив (AcI: fühlst ... glühen)"
+ },
+ "glühend": {
+  "form": "glühend",
+  "lemma": "glühend",
+  "pos": "adj",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Part. I как нареч. степени 'glühend heiß'"
+ },
+ "glühten": {
+  "form": "glühten",
+  "lemma": "glühen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Prät. 3 л. мн.ч."
+ },
+ "Gott": {
+  "form": "Gott",
+  "lemma": "Gott",
+  "pos": "noun",
+  "gender": "der",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "der Gott"
+ },
+ "grab": {
+  "form": "grab",
+  "lemma": "graben",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "grab' ich — 1 л. ед.ч. от graben (вырезаю/выцарапываю)"
+ },
+ "Grab": {
+  "form": "Grab",
+  "lemma": "Grab",
+  "pos": "noun",
+  "gender": "das",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "das Grab — могила"
+ },
+ "Grabe": {
+  "form": "Grabe",
+  "lemma": "Grab",
+  "pos": "noun",
+  "gender": "das",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Dat. с -e: bis zum Grabe"
+ },
+ "grad": {
+  "form": "grad",
+  "lemma": "gerade",
+  "pos": "adv",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "grad' = gerade, наречие 'прямо'"
+ },
+ "Gras": {
+  "form": "Gras",
+  "lemma": "Gras",
+  "pos": "noun",
+  "gender": "das",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "das Gras"
+ },
+ "graues": {
+  "form": "graues",
+  "lemma": "grau",
+  "pos": "adj",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "склон. форма graues Kleid"
+ },
+ "Graus": {
+  "form": "Graus",
+  "lemma": "Graus",
+  "pos": "noun",
+  "gender": "der",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "der Graus — ужас (Eis und Nacht und Graus)"
+ },
+ "graut": {
+  "form": "graut",
+  "lemma": "grauen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "безличн. mir graut (vor) — мне страшно; от grauen 'наводить ужас', не grauen 'седеть'"
+ },
+ "Greis": {
+  "form": "Greis",
+  "lemma": "Greis",
+  "pos": "noun",
+  "gender": "der",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "der Greis — старик"
+ },
+ "Greise": {
+  "form": "Greise",
+  "lemma": "Greis",
+  "pos": "noun",
+  "gender": "der",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Dat.: zum Greise"
+ },
+ "Gruß": {
+  "form": "Gruß",
+  "lemma": "Gruß",
+  "pos": "noun",
+  "gender": "der",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "der Gruß — привет"
+ },
+ "Grußes": {
+  "form": "Grußes",
+  "lemma": "Gruß",
+  "pos": "noun",
+  "gender": "der",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Gen.: des ersten Grußes"
+ },
+ "Gräser": {
+  "form": "Gräser",
+  "lemma": "Gras",
+  "pos": "noun",
+  "gender": "das",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "мн.ч. die Gräser — травы"
+ },
+ "grüne": {
+  "form": "grüne",
+  "lemma": "grün",
+  "pos": "adj",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "склон. форма die grüne Flur"
+ },
+ "grünen": {
+  "form": "grünen",
+  "lemma": "grün",
+  "pos": "adj",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "склон. форма; von grünen Wiesen / grünen Totenkränze"
+ },
+ "grünes": {
+  "form": "grünes",
+  "lemma": "grün",
+  "pos": "adj",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "склон. форма grünes Gras"
+ },
+ "grünt": {
+  "form": "grünt",
+  "lemma": "grünen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "3 л. ед.ч. глагола grünen (зеленеть)"
+ },
+ "gute": {
+  "form": "gute",
+  "lemma": "gut",
+  "pos": "adj",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "склон. форма gute Nacht"
+ },
+ "Guten": {
+  "form": "Guten",
+  "lemma": "gut",
+  "pos": "adj",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "субстантивир. im Guten und Argen — в добром и злом"
+ },
+ "Götter": {
+  "form": "Götter",
+  "lemma": "Gott",
+  "pos": "noun",
+  "gender": "der",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "мн.ч. die Götter — боги (политеистич.)"
+ },
+ "Haar": {
+  "form": "Haar",
+  "lemma": "Haar",
+  "pos": "noun",
+  "gender": "das",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "das Haar"
+ },
+ "Haare": {
+  "form": "Haare",
+  "lemma": "Haar",
+  "pos": "noun",
+  "gender": "das",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "мн.ч. die Haare — волосы"
+ },
+ "half": {
+  "form": "half",
+  "lemma": "helfen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Prät. 3 л.; Sturm half fort mich wehen"
+ },
+ "halt": {
+  "form": "halt",
+  "lemma": "halten",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "halt' ich — 1 л. ед.ч.; im Arm halten — держу"
+ },
+ "harter": {
+  "form": "harter",
+  "lemma": "hart",
+  "pos": "adj",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "склон. форма harter, starrer Rinde"
+ },
+ "Haupt": {
+  "form": "Haupt",
+  "lemma": "Haupt",
+  "pos": "noun",
+  "gender": "das",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "das Haupt — голова (gehoben)"
+ },
+ "Haus": {
+  "form": "Haus",
+  "lemma": "Haus",
+  "pos": "noun",
+  "gender": "das",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "das Haus; Haus' с апострофом (Dat. -e)"
+ },
+ "Hause": {
+  "form": "Hause",
+  "lemma": "Haus",
+  "pos": "noun",
+  "gender": "das",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Dativ от Haus"
+ },
+ "Hauses": {
+  "form": "Hauses",
+  "lemma": "Haus",
+  "pos": "noun",
+  "gender": "das",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Genitiv"
+ },
+ "heitre": {
+  "form": "heitre",
+  "lemma": "heiter",
+  "pos": "adj",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": ""
+ },
+ "heiß": {
+  "form": "heiß",
+  "lemma": "heiß",
+  "pos": "adj",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": ""
+ },
+ "heiße": {
+  "form": "heiße",
+  "lemma": "heiß",
+  "pos": "adj",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": ""
+ },
+ "heißem": {
+  "form": "heißem",
+  "lemma": "heiß",
+  "pos": "adj",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": ""
+ },
+ "heißen": {
+  "form": "heißen",
+  "lemma": "heiß",
+  "pos": "adj",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": ""
+ },
+ "hell": {
+  "form": "hell",
+  "lemma": "hell",
+  "pos": "adj",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "в П.8 наречно (rauschten hell), но лемма та же"
+ },
+ "heller": {
+  "form": "heller",
+  "lemma": "hell",
+  "pos": "adj",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "здесь не компаратив, а склонённая форма (Du heller Fluss)"
+ },
+ "helles": {
+  "form": "helles",
+  "lemma": "hell",
+  "pos": "adj",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": ""
+ },
+ "her": {
+  "form": "her",
+  "lemma": "her",
+  "pos": "adv",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "направит. наречие; в Von der Straße her klingt, vor mir her — к глаголу"
+ },
+ "Herren": {
+  "form": "Herren",
+  "lemma": "Herr",
+  "pos": "noun",
+  "gender": "der",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Genitiv (ihres Herren Haus)"
+ },
+ "herunter": {
+  "form": "herunter",
+  "lemma": "herunter",
+  "pos": "sep_prefix",
+  "gender": null,
+  "tier": "content",
+  "varies": true,
+  "variants": [
+   "herunterschütteln"
+  ],
+  "note": "Schüttl' ... herunter → herunterschütteln"
+ },
+ "Herz": {
+  "form": "Herz",
+  "lemma": "Herz",
+  "pos": "noun",
+  "gender": "das",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": ""
+ },
+ "Herze": {
+  "form": "Herze",
+  "lemma": "Herz",
+  "pos": "noun",
+  "gender": "das",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "архаич. форма Nom./Akk. ед.ч."
+ },
+ "Herzen": {
+  "form": "Herzen",
+  "lemma": "Herz",
+  "pos": "noun",
+  "gender": "das",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "мн.ч. (mit den Herzen) / Dativ (von Herzen)"
+ },
+ "heulen": {
+  "form": "heulen",
+  "lemma": "heulen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": ""
+ },
+ "heute": {
+  "form": "heute",
+  "lemma": "heute",
+  "pos": "adv",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": ""
+ },
+ "Hie": {
+  "form": "Hie",
+  "lemma": "hier",
+  "pos": "adv",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "архаич./поэт. форма hie (hie und da = тут и там)"
+ },
+ "hielt": {
+  "form": "hielt",
+  "lemma": "halten",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Prät. от halten (hielt mich munter hin — отделяемое hin к halten)"
+ },
+ "hier": {
+  "form": "hier",
+  "lemma": "hier",
+  "pos": "adv",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": ""
+ },
+ "Hier": {
+  "form": "Hier",
+  "lemma": "hier",
+  "pos": "adv",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": ""
+ },
+ "Himmel": {
+  "form": "Himmel",
+  "lemma": "Himmel",
+  "pos": "noun",
+  "gender": "der",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": ""
+ },
+ "Himmels": {
+  "form": "Himmels",
+  "lemma": "Himmel",
+  "pos": "noun",
+  "gender": "der",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Genitiv"
+ },
+ "hin": {
+  "form": "hin",
+  "lemma": "hin",
+  "pos": "adv",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "направит. наречие/отделяемое (lockte ... hin, hielt ... hin, ziehn ... hin)"
+ },
+ "hinab": {
+  "form": "hinab",
+  "lemma": "hinab",
+  "pos": "sep_prefix",
+  "gender": null,
+  "tier": "content",
+  "varies": true,
+  "variants": [
+   "sich hinabwinden",
+   "hinab sein"
+  ],
+  "note": "Wind' ich mich hinab → sich hinabwinden (П.9); sind hinab → hinab sein/Verlust (П.23)"
+ },
+ "hinaus": {
+  "form": "hinaus",
+  "lemma": "hinaus",
+  "pos": "sep_prefix",
+  "gender": null,
+  "tier": "content",
+  "varies": true,
+  "variants": [
+   "hinaustreiben",
+   "hinauseilen"
+  ],
+  "note": "trieb hinaus → hinaustreiben (П.1); eilt' hinaus → hinauseilen (П.8)"
+ },
+ "hinein": {
+  "form": "hinein",
+  "lemma": "hinein",
+  "pos": "sep_prefix",
+  "gender": null,
+  "tier": "content",
+  "varies": true,
+  "variants": [
+   "hineingraben",
+   "hinein (эллипт. наречие)"
+  ],
+  "note": "grab' ... hinein → hineingraben (П.7); Lustig in die Welt hinein — наречие без глагола, эллипсис (П.22)"
+ },
+ "hinter'm": {
+  "form": "hinter'm",
+  "lemma": "hinter",
+  "pos": "prep",
+  "gender": null,
+  "tier": "function",
+  "varies": false,
+  "variants": [],
+  "note": "hinter'm = hinter dem (предлог + слитный артикль)"
+ },
+ "hinterdrein": {
+  "form": "hinterdrein",
+  "lemma": "hinterdrein",
+  "pos": "adv",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "вслед, позади (Ging' ... hinterdrein)"
+ },
+ "hinweggetaut": {
+  "form": "hinweggetaut",
+  "lemma": "hinwegtauen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Part. II от hinwegtauen (растаять прочь); ist hinweggetaut"
+ },
+ "hinüber": {
+  "form": "hinüber",
+  "lemma": "hinüber",
+  "pos": "sep_prefix",
+  "gender": null,
+  "tier": "content",
+  "varies": true,
+  "variants": [
+   "hinübersehen"
+  ],
+  "note": "einmal hinüber sehn → hinübersehen"
+ },
+ "hoch": {
+  "form": "hoch",
+  "lemma": "hoch",
+  "pos": "adj",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "здесь наречно (so hoch aufspringt), лемма та же"
+ },
+ "hoffen": {
+  "form": "hoffen",
+  "lemma": "hoffen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": ""
+ },
+ "Hoffnung": {
+  "form": "Hoffnung",
+  "lemma": "Hoffnung",
+  "pos": "noun",
+  "gender": "die",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": ""
+ },
+ "holen": {
+  "form": "holen",
+  "lemma": "holen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Atem holen — вдыхать"
+ },
+ "Hunde": {
+  "form": "Hunde",
+  "lemma": "Hund",
+  "pos": "noun",
+  "gender": "der",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "мн.ч."
+ },
+ "Hut": {
+  "form": "Hut",
+  "lemma": "Hut",
+  "pos": "noun",
+  "gender": "der",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "шляпа — der Hut (≠ die Hut 'защита')"
+ },
+ "Hähne": {
+  "form": "Hähne",
+  "lemma": "Hahn",
+  "pos": "noun",
+  "gender": "der",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "мн.ч. (петухи)"
+ },
+ "Hänge": {
+  "form": "Hänge",
+  "lemma": "hängen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "1 л. ед.ч. транзит. hängen (Hänge meine Hoffnung dran — вешаю)"
+ },
+ "hätt": {
+  "form": "hätt",
+  "lemma": "haben",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "hätt' = Konj. II hätte от haben (вспомог., hätt' ... sollen/wollen)"
+ },
+ "hör": {
+  "form": "hör",
+  "lemma": "hören",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "hör' = höre, 1 л. ед.ч."
+ },
+ "Höre": {
+  "form": "Höre",
+  "lemma": "hören",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "императив (Höre nicht)"
+ },
+ "hören": {
+  "form": "hören",
+  "lemma": "hören",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": ""
+ },
+ "ihres": {
+  "form": "ihres",
+  "lemma": "ihr",
+  "pos": "pronoun",
+  "gender": null,
+  "tier": "function",
+  "varies": false,
+  "variants": [],
+  "note": "притяжат. местоим., Gen. (ihres Herren Haus)"
+ },
+ "immer": {
+  "form": "immer",
+  "lemma": "immer",
+  "pos": "adv",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "в immer fort (П.5) — часть immerfort, но как форма = immer"
+ },
+ "in's": {
+  "form": "in's",
+  "lemma": "in",
+  "pos": "prep",
+  "gender": null,
+  "tier": "function",
+  "varies": false,
+  "variants": [],
+  "note": "in's = in das (предлог + слитный артикль)"
+ },
+ "In's": {
+  "form": "In's",
+  "lemma": "in",
+  "pos": "prep",
+  "gender": null,
+  "tier": "function",
+  "varies": false,
+  "variants": [],
+  "note": "in's = in das"
+ },
+ "irre": {
+  "form": "irre",
+  "lemma": "irr",
+  "pos": "adj",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "irre Hunde (блуждающие/шальные), irre Gehen — adj.; лемма irr/irre"
+ },
+ "Irrlicht": {
+  "form": "Irrlicht",
+  "lemma": "Irrlicht",
+  "pos": "noun",
+  "gender": "das",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "блуждающий огонёк"
+ },
+ "Irrlichts": {
+  "form": "Irrlichts",
+  "lemma": "Irrlicht",
+  "pos": "noun",
+  "gender": "das",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Genitiv"
+ },
+ "je": {
+  "form": "je",
+  "lemma": "je",
+  "pos": "adv",
+  "gender": null,
+  "tier": "loaded_particle",
+  "varies": false,
+  "variants": [],
+  "note": "je = хоть когда-нибудь (Schmilzt je das Herz)"
+ },
+ "Je": {
+  "form": "Je",
+  "lemma": "je",
+  "pos": "interj",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Je nun! — восклицание/частица 'ну что ж' (П.17), отлично от наречия je"
+ },
+ "jedem": {
+  "form": "jedem",
+  "lemma": "jeder",
+  "pos": "pronoun",
+  "gender": null,
+  "tier": "function",
+  "varies": false,
+  "variants": [],
+  "note": "неопр./дистрибут. местоим.-прилаг., Dat."
+ },
+ "jeden": {
+  "form": "jeden",
+  "lemma": "jeder",
+  "pos": "pronoun",
+  "gender": null,
+  "tier": "function",
+  "varies": false,
+  "variants": [],
+  "note": "Akk. м.р. (jeden Stein)"
+ },
+ "jeder": {
+  "form": "jeder",
+  "lemma": "jeder",
+  "pos": "pronoun",
+  "gender": null,
+  "tier": "function",
+  "varies": false,
+  "variants": [],
+  "note": "jeder Weg"
+ },
+ "Jeder": {
+  "form": "Jeder",
+  "lemma": "jeder",
+  "pos": "pronoun",
+  "gender": null,
+  "tier": "function",
+  "varies": false,
+  "variants": [],
+  "note": "Jeder Strom"
+ },
+ "Jedes": {
+  "form": "Jedes",
+  "lemma": "jeder",
+  "pos": "pronoun",
+  "gender": null,
+  "tier": "function",
+  "varies": false,
+  "variants": [],
+  "note": "Jedes Leiden, ср.р."
+ },
+ "jenem": {
+  "form": "jenem",
+  "lemma": "jener",
+  "pos": "pronoun",
+  "gender": null,
+  "tier": "function",
+  "varies": false,
+  "variants": [],
+  "note": "указат. местоим., Dat. (von jenem Ort)"
+ },
+ "Jugend": {
+  "form": "Jugend",
+  "lemma": "Jugend",
+  "pos": "noun",
+  "gender": "die",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": ""
+ },
+ "Kalt": {
+  "form": "Kalt",
+  "lemma": "kalt",
+  "pos": "adj",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "здесь наречно (Kalt starrt), лемма та же"
+ },
+ "kalt": {
+  "form": "kalt",
+  "lemma": "kalt",
+  "pos": "adj",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": ""
+ },
+ "kalten": {
+  "form": "kalten",
+  "lemma": "kalt",
+  "pos": "adj",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "склонённая форма мн.ч."
+ },
+ "Kammern": {
+  "form": "Kammern",
+  "lemma": "Kammer",
+  "pos": "noun",
+  "gender": "die",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Pl. Kammern → Kammer"
+ },
+ "Kampf": {
+  "form": "Kampf",
+  "lemma": "Kampf",
+  "pos": "noun",
+  "gender": "der",
+  "tier": "content",
+  "varies": false,
+  "variants": []
+ },
+ "kann": {
+  "form": "kann",
+  "lemma": "können",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "модальный глагол"
+ },
+ "Ketten": {
+  "form": "Ketten",
+  "lemma": "Kette",
+  "pos": "noun",
+  "gender": "die",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Pl. Ketten → Kette"
+ },
+ "Kind": {
+  "form": "Kind",
+  "lemma": "Kind",
+  "pos": "noun",
+  "gender": "das",
+  "tier": "content",
+  "varies": false,
+  "variants": []
+ },
+ "Kissen": {
+  "form": "Kissen",
+  "lemma": "Kissen",
+  "pos": "noun",
+  "gender": "das",
+  "tier": "content",
+  "varies": false,
+  "variants": []
+ },
+ "Klagen": {
+  "form": "Klagen",
+  "lemma": "klagen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "субстантивированный инфинитив Klagen → лемма klagen"
+ },
+ "klagt": {
+  "form": "klagt",
+  "lemma": "klagen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": []
+ },
+ "klaren": {
+  "form": "klaren",
+  "lemma": "klar",
+  "pos": "adj",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": []
+ },
+ "Kleid": {
+  "form": "Kleid",
+  "lemma": "Kleid",
+  "pos": "noun",
+  "gender": "das",
+  "tier": "content",
+  "varies": false,
+  "variants": []
+ },
+ "kleiner": {
+  "form": "kleiner",
+  "lemma": "klein",
+  "pos": "adj",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "склонённая форма kleiner → klein (не компаратив в контексте sein kleiner Teller)"
+ },
+ "klingt": {
+  "form": "klingt",
+  "lemma": "klingen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": []
+ },
+ "knurren": {
+  "form": "knurren",
+  "lemma": "knurren",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": []
+ },
+ "Komm": {
+  "form": "Komm",
+  "lemma": "kommen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "императив Komm her"
+ },
+ "kommt": {
+  "form": "kommt",
+  "lemma": "kommen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": []
+ },
+ "Kopf": {
+  "form": "Kopf",
+  "lemma": "Kopf",
+  "pos": "noun",
+  "gender": "der",
+  "tier": "content",
+  "varies": false,
+  "variants": []
+ },
+ "Kopfe": {
+  "form": "Kopfe",
+  "lemma": "Kopf",
+  "pos": "noun",
+  "gender": "der",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Dat. Kopfe → Kopf"
+ },
+ "Kreuz": {
+  "form": "Kreuz",
+  "lemma": "Kreuz",
+  "pos": "noun",
+  "gender": "das",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "в идиоме die Kreuz und Quer; лемма Kreuz"
+ },
+ "Krähe": {
+  "form": "Krähe",
+  "lemma": "Krähe",
+  "pos": "noun",
+  "gender": "die",
+  "tier": "content",
+  "varies": false,
+  "variants": []
+ },
+ "Krähen": {
+  "form": "Krähen",
+  "lemma": "Krähe",
+  "pos": "noun",
+  "gender": "die",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Pl. Krähen → Krähe (П.8 die Krähen warfen)"
+ },
+ "krähten": {
+  "form": "krähten",
+  "lemma": "krähen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Prät. krähten → krähen (петухи кричали)"
+ },
+ "Köhlers": {
+  "form": "Köhlers",
+  "lemma": "Köhler",
+  "pos": "noun",
+  "gender": "der",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Gen. Köhlers → Köhler (угольщик)"
+ },
+ "Kömmt": {
+  "form": "Kömmt",
+  "lemma": "kommen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "архаич./диал. вариант kommt (Kömmt) → kommen"
+ },
+ "Könnt": {
+  "form": "Könnt",
+  "lemma": "können",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Konj.II könnt (könnten) → können"
+ },
+ "kühle": {
+  "form": "kühle",
+  "lemma": "kühl",
+  "pos": "adj",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": []
+ },
+ "kühler": {
+  "form": "kühler",
+  "lemma": "kühl",
+  "pos": "adj",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "склонённая форма kühler Morgentau → kühl (не компаратив)"
+ },
+ "küssen": {
+  "form": "küssen",
+  "lemma": "küssen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": []
+ },
+ "Küssen": {
+  "form": "Küssen",
+  "lemma": "Kuss",
+  "pos": "noun",
+  "gender": "der",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Dat.Pl. Küssen → Kuss (von Herzen und von Küssen)"
+ },
+ "lacht": {
+  "form": "lacht",
+  "lemma": "lachen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": []
+ },
+ "laden": {
+  "form": "laden",
+  "lemma": "laden",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "приглашать/манить (die Wandrer laden)"
+ },
+ "lang": {
+  "form": "lang",
+  "lemma": "lang",
+  "pos": "adv",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Hab' lang' und fest sie angesehn — наречие (долго)"
+ },
+ "Lass": {
+  "form": "Lass",
+  "lemma": "lassen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "императив Lass irre Hunde heulen"
+ },
+ "lass": {
+  "form": "lass",
+  "lemma": "lassen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "императив lass mich sehn"
+ },
+ "Lasst": {
+  "form": "Lasst",
+  "lemma": "lassen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "императив мн. Lasst mich nicht ruhn"
+ },
+ "Last": {
+  "form": "Last",
+  "lemma": "Last",
+  "pos": "noun",
+  "gender": "die",
+  "tier": "content",
+  "varies": false,
+  "variants": []
+ },
+ "lau": {
+  "form": "lau",
+  "lemma": "lau",
+  "pos": "adj",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": []
+ },
+ "lauer": {
+  "form": "lauer",
+  "lemma": "lau",
+  "pos": "adj",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "склонённая форма ein lauer Wind → lau"
+ },
+ "Lauf": {
+  "form": "Lauf",
+  "lemma": "Lauf",
+  "pos": "noun",
+  "gender": "der",
+  "tier": "content",
+  "varies": false,
+  "variants": []
+ },
+ "laut": {
+  "form": "laut",
+  "lemma": "laut",
+  "pos": "adv",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "nur nicht so laut — наречие (громко)"
+ },
+ "Leben": {
+  "form": "Leben",
+  "lemma": "Leben",
+  "pos": "noun",
+  "gender": "das",
+  "tier": "content",
+  "varies": false,
+  "variants": []
+ },
+ "leer": {
+  "form": "leer",
+  "lemma": "leer",
+  "pos": "adj",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": []
+ },
+ "lege": {
+  "form": "lege",
+  "lemma": "legen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "возвратн. mich lege → legen"
+ },
+ "Leib": {
+  "form": "Leib",
+  "lemma": "Leib",
+  "pos": "noun",
+  "gender": "der",
+  "tier": "content",
+  "varies": false,
+  "variants": []
+ },
+ "Leide": {
+  "form": "Leide",
+  "lemma": "Leid",
+  "pos": "noun",
+  "gender": "das",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Dat. Leide (in Freud' und Leide) → Leid"
+ },
+ "Leiden": {
+  "form": "Leiden",
+  "lemma": "Leiden",
+  "pos": "noun",
+  "gender": "das",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "субстантив das Leiden; Pl. Leiden — та же лемма Leiden (страдание)"
+ },
+ "Leier": {
+  "form": "Leier",
+  "lemma": "Leier",
+  "pos": "noun",
+  "gender": "die",
+  "tier": "content",
+  "varies": false,
+  "variants": []
+ },
+ "Leiermann": {
+  "form": "Leiermann",
+  "lemma": "Leiermann",
+  "pos": "noun",
+  "gender": "der",
+  "tier": "content",
+  "varies": false,
+  "variants": []
+ },
+ "Lerch": {
+  "form": "Lerch",
+  "lemma": "Lerche",
+  "pos": "noun",
+  "gender": "die",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "элизия Lerch' → Lerche"
+ },
+ "licht": {
+  "form": "licht",
+  "lemma": "licht",
+  "pos": "adj",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "dass die Welt so licht — прилаг. (светла); регистр по Adelung"
+ },
+ "Licht": {
+  "form": "Licht",
+  "lemma": "Licht",
+  "pos": "noun",
+  "gender": "das",
+  "tier": "content",
+  "varies": false,
+  "variants": []
+ },
+ "Lieb": {
+  "form": "Lieb",
+  "lemma": "Liebe",
+  "pos": "noun",
+  "gender": "die",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "элизия Lieb' (von Lieb' um Liebe) → Liebe"
+ },
+ "Liebchen": {
+  "form": "Liebchen",
+  "lemma": "Liebchen",
+  "pos": "noun",
+  "gender": "das",
+  "tier": "content",
+  "varies": false,
+  "variants": []
+ },
+ "Liebchens": {
+  "form": "Liebchens",
+  "lemma": "Liebchen",
+  "pos": "noun",
+  "gender": "das",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Gen. Liebchens → Liebchen"
+ },
+ "Liebe": {
+  "form": "Liebe",
+  "lemma": "Liebe",
+  "pos": "noun",
+  "gender": "die",
+  "tier": "content",
+  "varies": false,
+  "variants": []
+ },
+ "liebe": {
+  "form": "liebe",
+  "lemma": "lieb",
+  "pos": "adj",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "склонённое liebe Wort / liebe Seele → lieb (прилаг., не сущ. Liebe)"
+ },
+ "liebes": {
+  "form": "liebes",
+  "lemma": "lieb",
+  "pos": "adj",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "склонённое liebes Liebchen → lieb"
+ },
+ "Liebsten": {
+  "form": "Liebsten",
+  "lemma": "Liebste",
+  "pos": "noun",
+  "gender": "die",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "субстантивир. прил. meiner Liebsten — возлюбленная; лемма die Liebste"
+ },
+ "liebt": {
+  "form": "liebt",
+  "lemma": "lieben",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Die Liebe liebt das Wandern → lieben"
+ },
+ "Liedern": {
+  "form": "Liedern",
+  "lemma": "Lied",
+  "pos": "noun",
+  "gender": "das",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Dat.Pl. Liedern → Lied"
+ },
+ "Liegst": {
+  "form": "Liegst",
+  "lemma": "liegen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": []
+ },
+ "Liegt": {
+  "form": "Liegt",
+  "lemma": "liegen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": []
+ },
+ "ließen": {
+  "form": "ließen",
+  "lemma": "lassen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Prät. ließen (übrig ließen) → lassen"
+ },
+ "Lindenbaum": {
+  "form": "Lindenbaum",
+  "lemma": "Lindenbaum",
+  "pos": "noun",
+  "gender": "der",
+  "tier": "content",
+  "varies": false,
+  "variants": []
+ },
+ "Lindenbäume": {
+  "form": "Lindenbäume",
+  "lemma": "Lindenbaum",
+  "pos": "noun",
+  "gender": "der",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Pl. → Sg. Lindenbaum"
+ },
+ "List": {
+  "form": "List",
+  "lemma": "List",
+  "pos": "noun",
+  "gender": "die",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "хитрость, коварство"
+ },
+ "Lockte": {
+  "form": "Lockte",
+  "lemma": "locken",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Prät. lockte"
+ },
+ "Luft": {
+  "form": "Luft",
+  "lemma": "Luft",
+  "pos": "noun",
+  "gender": "die",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": ""
+ },
+ "lustig": {
+  "form": "lustig",
+  "lemma": "lustig",
+  "pos": "adv",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "наречие при rauschtest"
+ },
+ "Lustig": {
+  "form": "Lustig",
+  "lemma": "lustig",
+  "pos": "adv",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "наречие-возглас"
+ },
+ "lustigem": {
+  "form": "lustigem",
+  "lemma": "lustig",
+  "pos": "adj",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "склон. форма"
+ },
+ "länger": {
+  "form": "länger",
+  "lemma": "lang",
+  "pos": "adv",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "компаратив temporal «дольше»; лемма lang"
+ },
+ "lässt": {
+  "form": "lässt",
+  "lemma": "lassen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "3 л. ед. lassen"
+ },
+ "Lüftchen": {
+  "form": "Lüftchen",
+  "lemma": "Lüftchen",
+  "pos": "noun",
+  "gender": "das",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "деминутив от Luft"
+ },
+ "Lüfte": {
+  "form": "Lüfte",
+  "lemma": "Luft",
+  "pos": "noun",
+  "gender": "die",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Pl. → Sg. Luft"
+ },
+ "mag": {
+  "form": "mag",
+  "lemma": "mögen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "модальный mögen; S13 эпистемич. «должно быть», S24 «хочет/может»"
+ },
+ "Mai": {
+  "form": "Mai",
+  "lemma": "Mai",
+  "pos": "noun",
+  "gender": "der",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": ""
+ },
+ "Maid": {
+  "form": "Maid",
+  "lemma": "Maid",
+  "pos": "noun",
+  "gender": "die",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "поэт. дева"
+ },
+ "malte": {
+  "form": "malte",
+  "lemma": "malen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Prät. malte"
+ },
+ "manche": {
+  "form": "manche",
+  "lemma": "mancher",
+  "pos": "pronoun",
+  "gender": null,
+  "tier": "function",
+  "varies": false,
+  "variants": [],
+  "note": "неопредел. местоим.-детерминатив; цит. форма m. mancher"
+ },
+ "Manche": {
+  "form": "Manche",
+  "lemma": "mancher",
+  "pos": "pronoun",
+  "gender": null,
+  "tier": "function",
+  "varies": false,
+  "variants": [],
+  "note": ""
+ },
+ "manchem": {
+  "form": "manchem",
+  "lemma": "mancher",
+  "pos": "pronoun",
+  "gender": null,
+  "tier": "function",
+  "varies": false,
+  "variants": [],
+  "note": ""
+ },
+ "manchen": {
+  "form": "manchen",
+  "lemma": "mancher",
+  "pos": "pronoun",
+  "gender": null,
+  "tier": "function",
+  "varies": false,
+  "variants": [],
+  "note": ""
+ },
+ "mancher": {
+  "form": "mancher",
+  "lemma": "mancher",
+  "pos": "pronoun",
+  "gender": null,
+  "tier": "function",
+  "varies": false,
+  "variants": [],
+  "note": ""
+ },
+ "manches": {
+  "form": "manches",
+  "lemma": "mancher",
+  "pos": "pronoun",
+  "gender": null,
+  "tier": "function",
+  "varies": false,
+  "variants": [],
+  "note": "атрибут. «manches liebe Wort»"
+ },
+ "Manches": {
+  "form": "Manches",
+  "lemma": "mancher",
+  "pos": "pronoun",
+  "gender": null,
+  "tier": "function",
+  "varies": false,
+  "variants": [],
+  "note": "субстантивир. «многое/кое-что»; лемма mancher"
+ },
+ "Mann": {
+  "form": "Mann",
+  "lemma": "Mann",
+  "pos": "noun",
+  "gender": "der",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": ""
+ },
+ "matt": {
+  "form": "matt",
+  "lemma": "matt",
+  "pos": "adj",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Adelung «слабый», предикатив"
+ },
+ "mattem": {
+  "form": "mattem",
+  "lemma": "matt",
+  "pos": "adj",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "склон. форма"
+ },
+ "Matten": {
+  "form": "Matten",
+  "lemma": "Matte",
+  "pos": "noun",
+  "gender": "die",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Pl. от die Matte (луг/альп. луговина)"
+ },
+ "mattes": {
+  "form": "mattes",
+  "lemma": "matt",
+  "pos": "adj",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "склон. форма"
+ },
+ "Maßen": {
+  "form": "Maßen",
+  "lemma": "Maß",
+  "pos": "noun",
+  "gender": "das",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "идиома «sonder Maßen» = безмерно; форма Pl. от das Maß"
+ },
+ "Meer": {
+  "form": "Meer",
+  "lemma": "Meer",
+  "pos": "noun",
+  "gender": "das",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": ""
+ },
+ "mehr": {
+  "form": "mehr",
+  "lemma": "mehr",
+  "pos": "adv",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "«nicht mehr» — больше не; наречие"
+ },
+ "Meinst": {
+  "form": "Meinst",
+  "lemma": "meinen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "2 л. ед. (подразум. ты)"
+ },
+ "Menschen": {
+  "form": "Menschen",
+  "lemma": "Mensch",
+  "pos": "noun",
+  "gender": "der",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Pl. → Sg. Mensch"
+ },
+ "merk": {
+  "form": "merk",
+  "lemma": "merken",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "merk' = merke; здесь «замечаю»"
+ },
+ "Mondenschatten": {
+  "form": "Mondenschatten",
+  "lemma": "Mondenschatten",
+  "pos": "noun",
+  "gender": "der",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "лунная тень; цит. форма с -en-"
+ },
+ "morgen": {
+  "form": "morgen",
+  "lemma": "morgen",
+  "pos": "adv",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "наречие «завтра» (строчное)"
+ },
+ "Morgen": {
+  "form": "Morgen",
+  "lemma": "Morgen",
+  "pos": "noun",
+  "gender": "der",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "сущ. «утро»"
+ },
+ "Morgenlicht": {
+  "form": "Morgenlicht",
+  "lemma": "Morgenlicht",
+  "pos": "noun",
+  "gender": "das",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": ""
+ },
+ "Morgentau": {
+  "form": "Morgentau",
+  "lemma": "Morgentau",
+  "pos": "noun",
+  "gender": "der",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "утренняя роса; der Tau"
+ },
+ "munter": {
+  "form": "munter",
+  "lemma": "munter",
+  "pos": "adj",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "S10 нареч. при hielt, S22 нареч. при sing'; лемма munter"
+ },
+ "Muntre": {
+  "form": "Muntre",
+  "lemma": "munter",
+  "pos": "adj",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "склон. форма munter+e (выпад -e- середины)"
+ },
+ "Muss": {
+  "form": "Muss",
+  "lemma": "müssen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "1 л. ед. müssen"
+ },
+ "muss": {
+  "form": "muss",
+  "lemma": "müssen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "1 л. ед. müssen"
+ },
+ "musst": {
+  "form": "musst",
+  "lemma": "müssen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "musst' = musste, Prät."
+ },
+ "Mutter": {
+  "form": "Mutter",
+  "lemma": "Mutter",
+  "pos": "noun",
+  "gender": "die",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": ""
+ },
+ "Mädchen": {
+  "form": "Mädchen",
+  "lemma": "Mädchen",
+  "pos": "noun",
+  "gender": "das",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": ""
+ },
+ "Mädchenaugen": {
+  "form": "Mädchenaugen",
+  "lemma": "Mädchenauge",
+  "pos": "noun",
+  "gender": "das",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Pl. → Sg. Mädchenauge (das Auge)"
+ },
+ "möcht": {
+  "form": "möcht",
+  "lemma": "mögen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Konj. II möchte (möcht'); модальный mögen"
+ },
+ "Möcht": {
+  "form": "Möcht",
+  "lemma": "mögen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Konj. II möchte; модальный mögen"
+ },
+ "mögest": {
+  "form": "mögest",
+  "lemma": "mögen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Konj. I mögest, 2 л. ед."
+ },
+ "müd": {
+  "form": "müd",
+  "lemma": "müde",
+  "pos": "adj",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "müd' = müde (апокопа)"
+ },
+ "müde": {
+  "form": "müde",
+  "lemma": "müde",
+  "pos": "adj",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "«die müde Wandrer» — атрибут"
+ },
+ "Nacht": {
+  "form": "Nacht",
+  "lemma": "Nacht",
+  "pos": "noun",
+  "gender": "die",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": ""
+ },
+ "Nachtigall": {
+  "form": "Nachtigall",
+  "lemma": "Nachtigall",
+  "pos": "noun",
+  "gender": "die",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "соловей"
+ },
+ "Nam": {
+  "form": "Nam",
+  "lemma": "Name",
+  "pos": "noun",
+  "gender": "der",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Nam' = Name (апокопа -e); слаб. склон."
+ },
+ "Namen": {
+  "form": "Namen",
+  "lemma": "Name",
+  "pos": "noun",
+  "gender": "der",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Akk. Namen → Sg. Name"
+ },
+ "nehmen": {
+  "form": "nehmen",
+  "lemma": "nehmen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": ""
+ },
+ "nenn": {
+  "form": "nenn",
+  "lemma": "nennen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "nenn' = nenne, 1 л. ед."
+ },
+ "neulich": {
+  "form": "neulich",
+  "lemma": "neulich",
+  "pos": "adv",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "недавно"
+ },
+ "Niedersinken": {
+  "form": "Niedersinken",
+  "lemma": "Niedersinken",
+  "pos": "noun",
+  "gender": "das",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "субстантив. инфинитив niedersinken → das Niedersinken"
+ },
+ "nimmer": {
+  "form": "nimmer",
+  "lemma": "nimmer",
+  "pos": "adv",
+  "gender": null,
+  "tier": "loaded_particle",
+  "varies": false,
+  "variants": [],
+  "note": "никогда/уже не; смыслонесущее отрицат. наречие"
+ },
+ "Nimmt": {
+  "form": "Nimmt",
+  "lemma": "nehmen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "«nimmt ... auf» → aufnehmen; здесь основа nehmen, приставка auf отдельно"
+ },
+ "noch": {
+  "form": "noch",
+  "lemma": "noch",
+  "pos": "adv",
+  "gender": null,
+  "tier": "loaded_particle",
+  "varies": false,
+  "variants": [],
+  "note": "ещё; смыслонесущая частица/наречие"
+ },
+ "Noch": {
+  "form": "Noch",
+  "lemma": "noch",
+  "pos": "adv",
+  "gender": null,
+  "tier": "loaded_particle",
+  "varies": false,
+  "variants": [],
+  "note": "ещё; смыслонесущая частица/наречие"
+ },
+ "Nun": {
+  "form": "Nun",
+  "lemma": "nun",
+  "pos": "adv",
+  "gender": null,
+  "tier": "loaded_particle",
+  "varies": false,
+  "variants": [],
+  "note": "temporal/discourse «теперь/ну да»"
+ },
+ "nun": {
+  "form": "nun",
+  "lemma": "nun",
+  "pos": "adv",
+  "gender": null,
+  "tier": "loaded_particle",
+  "varies": false,
+  "variants": [],
+  "note": "в Je nun — дискурсивная частица"
+ },
+ "O": {
+  "form": "O",
+  "lemma": "o",
+  "pos": "interj",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "восклицательное междометие при обращении"
+ },
+ "Obdach": {
+  "form": "Obdach",
+  "lemma": "Obdach",
+  "pos": "noun",
+  "gender": "das",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": ""
+ },
+ "Oftmals": {
+  "form": "Oftmals",
+  "lemma": "oftmals",
+  "pos": "adv",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": ""
+ },
+ "Ohren": {
+  "form": "Ohren",
+  "lemma": "Ohr",
+  "pos": "noun",
+  "gender": "das",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "мн.ч. → ед. Ohr"
+ },
+ "Ort": {
+  "form": "Ort",
+  "lemma": "Ort",
+  "pos": "noun",
+  "gender": "der",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": ""
+ },
+ "pfiff": {
+  "form": "pfiff",
+  "lemma": "pfeifen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "pfiff' aus → auspfeifen (отделяемая приставка aus отдельной формой); здесь корневой глагол pfeifen"
+ },
+ "Post": {
+  "form": "Post",
+  "lemma": "Post",
+  "pos": "noun",
+  "gender": "die",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "почта/почтовая карета"
+ },
+ "Posthorn": {
+  "form": "Posthorn",
+  "lemma": "Posthorn",
+  "pos": "noun",
+  "gender": "das",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": ""
+ },
+ "Quelle": {
+  "form": "Quelle",
+  "lemma": "Quelle",
+  "pos": "noun",
+  "gender": "die",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": ""
+ },
+ "Quer": {
+  "form": "Quer",
+  "lemma": "quer",
+  "pos": "adv",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "идиома die Kreuz und Quer (вдоль и поперёк); капитализация устойчивого выражения"
+ },
+ "Raben": {
+  "form": "Raben",
+  "lemma": "Rabe",
+  "pos": "noun",
+  "gender": "der",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "мн.ч. → ед. Rabe"
+ },
+ "Rasen": {
+  "form": "Rasen",
+  "lemma": "Rasen",
+  "pos": "noun",
+  "gender": "der",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "газон/дёрн"
+ },
+ "rasseln": {
+  "form": "rasseln",
+  "lemma": "rasseln",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": ""
+ },
+ "Rast": {
+  "form": "Rast",
+  "lemma": "Rast",
+  "pos": "noun",
+  "gender": "die",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": ""
+ },
+ "rauschen": {
+  "form": "rauschen",
+  "lemma": "rauschen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": ""
+ },
+ "rauschten": {
+  "form": "rauschten",
+  "lemma": "rauschen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "претерит мн.ч."
+ },
+ "rauschtest": {
+  "form": "rauschtest",
+  "lemma": "rauschen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "претерит 2 л. ед."
+ },
+ "recht": {
+  "form": "recht",
+  "lemma": "recht",
+  "pos": "adv",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "So recht nach meinem Sinn — наречие «как раз/вполне»"
+ },
+ "regen": {
+  "form": "regen",
+  "lemma": "regen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "sich regen — шевелиться/встрепенуться"
+ },
+ "reiche": {
+  "form": "reiche",
+  "lemma": "reich",
+  "pos": "adj",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "склон. форма → reich"
+ },
+ "Reif": {
+  "form": "Reif",
+  "lemma": "Reif",
+  "pos": "noun",
+  "gender": "der",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "иней"
+ },
+ "Reise": {
+  "form": "Reise",
+  "lemma": "Reise",
+  "pos": "noun",
+  "gender": "die",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": ""
+ },
+ "Reisen": {
+  "form": "Reisen",
+  "lemma": "Reise",
+  "pos": "noun",
+  "gender": "die",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "zu meiner Reisen — поэт. форма Dat. ед.; лемма Reise"
+ },
+ "reißend": {
+  "form": "reißend",
+  "lemma": "reißend",
+  "pos": "adj",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "part. I как прилагательное «бурный/стремительный» (so reißend schwillt)"
+ },
+ "riefen": {
+  "form": "riefen",
+  "lemma": "rufen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "претерит мн.ч. от rufen; rufen ... zu → zurufen (zu отдельной формой)"
+ },
+ "Rinde": {
+  "form": "Rinde",
+  "lemma": "Rinde",
+  "pos": "noun",
+  "gender": "die",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "кора"
+ },
+ "Ring": {
+  "form": "Ring",
+  "lemma": "Ring",
+  "pos": "noun",
+  "gender": "der",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": ""
+ },
+ "Rinnen": {
+  "form": "Rinnen",
+  "lemma": "Rinne",
+  "pos": "noun",
+  "gender": "die",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "мн.ч. → ед. Rinne (русло/жёлоб)"
+ },
+ "rote": {
+  "form": "rote",
+  "lemma": "rot",
+  "pos": "adj",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "склон. форма → rot"
+ },
+ "Ruh": {
+  "form": "Ruh",
+  "lemma": "Ruh",
+  "pos": "noun",
+  "gender": "die",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Ruh' (апокопа -e) — поэт. вариант Ruhe; лемма Ruh/Ruhe"
+ },
+ "Ruhe": {
+  "form": "Ruhe",
+  "lemma": "Ruhe",
+  "pos": "noun",
+  "gender": "die",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": ""
+ },
+ "ruhig": {
+  "form": "ruhig",
+  "lemma": "ruhig",
+  "pos": "adj",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "в 1-м sample адвербиально, во 2-м предикативно; лемма ruhig"
+ },
+ "ruhn": {
+  "form": "ruhn",
+  "lemma": "ruhen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "синкопа -e- → ruhen; ruhn ... aus → ausruhen (aus отдельной формой)"
+ },
+ "runden": {
+  "form": "runden",
+  "lemma": "rund",
+  "pos": "adj",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "склон. форма → rund"
+ },
+ "Rücken": {
+  "form": "Rücken",
+  "lemma": "Rücken",
+  "pos": "noun",
+  "gender": "der",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "спина"
+ },
+ "rückwärts": {
+  "form": "rückwärts",
+  "lemma": "rückwärts",
+  "pos": "adv",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": ""
+ },
+ "s": {
+  "form": "s",
+  "lemma": "es",
+  "pos": "pronoun",
+  "gender": null,
+  "tier": "function",
+  "varies": false,
+  "variants": [],
+  "note": "'s = энклитическое es (формальный субъект/местоимение): hör' ich's, wird's"
+ },
+ "S": {
+  "form": "S",
+  "lemma": "es",
+  "pos": "pronoun",
+  "gender": null,
+  "tier": "function",
+  "varies": false,
+  "variants": [],
+  "note": "'S führt = es führt; формальный субъект"
+ },
+ "Sacht": {
+  "form": "Sacht",
+  "lemma": "sacht",
+  "pos": "adv",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "тихо/осторожно (наречие)"
+ },
+ "sacht": {
+  "form": "sacht",
+  "lemma": "sacht",
+  "pos": "adv",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": ""
+ },
+ "Sag": {
+  "form": "Sag",
+  "lemma": "sagen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "императив Sag(') от sagen"
+ },
+ "sagt": {
+  "form": "sagt",
+  "lemma": "sagen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "през. 3 л. ед."
+ },
+ "sah": {
+  "form": "sah",
+  "lemma": "sehen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "претерит от sehen (sah'/sah)"
+ },
+ "Sande": {
+  "form": "Sande",
+  "lemma": "Sand",
+  "pos": "noun",
+  "gender": "der",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Dat. ед. с -e → лемма Sand"
+ },
+ "sangen": {
+  "form": "sangen",
+  "lemma": "singen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "претерит мн.ч. от singen"
+ },
+ "saugen": {
+  "form": "saugen",
+  "lemma": "saugen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": ""
+ },
+ "Schad": {
+  "form": "Schad",
+  "lemma": "Schade",
+  "pos": "noun",
+  "gender": "der",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Schad' (Wär' Schad' um) — предикативное Schade «жаль»; лемма Schade"
+ },
+ "Schatten": {
+  "form": "Schatten",
+  "lemma": "Schatten",
+  "pos": "noun",
+  "gender": "der",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": ""
+ },
+ "Schaue": {
+  "form": "Schaue",
+  "lemma": "schauen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "императив Schaue от schauen; schauen nach"
+ },
+ "Schaut": {
+  "form": "Schaut",
+  "lemma": "schauen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "императив мн. Schaut; schaut ... in → транзитив с предлогом, не отделяемая приставка"
+ },
+ "Scheidegruß": {
+  "form": "Scheidegruß",
+  "lemma": "Scheidegruß",
+  "pos": "noun",
+  "gender": "der",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "прощальный привет"
+ },
+ "Schein": {
+  "form": "Schein",
+  "lemma": "Schein",
+  "pos": "noun",
+  "gender": "der",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "блеск/сияние"
+ },
+ "Schenke": {
+  "form": "Schenke",
+  "lemma": "Schenke",
+  "pos": "noun",
+  "gender": "die",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "трактир/корчма"
+ },
+ "scheun": {
+  "form": "scheun",
+  "lemma": "scheuen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "синкопа scheun → scheuen; sich/Menschen scheuen «сторониться»"
+ },
+ "Schild": {
+  "form": "Schild",
+  "lemma": "Schild",
+  "pos": "noun",
+  "gender": "das",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "das Schild = вывеска (aufgestecktes Schild); ≠ der Schild «щит»"
+ },
+ "schlafen": {
+  "form": "schlafen",
+  "lemma": "schlafen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": ""
+ },
+ "schließ": {
+  "form": "schließ",
+  "lemma": "schließen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "schließ' ich → през. 1 л.; лемма schließen"
+ },
+ "Schloßen": {
+  "form": "Schloßen",
+  "lemma": "Schloße",
+  "pos": "noun",
+  "gender": "die",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Schloßen = градины; ед. Schloße/Schlosse (поэт. мн.); не от Schloss «замок»"
+ },
+ "Schlummerstunde": {
+  "form": "Schlummerstunde",
+  "lemma": "Schlummerstunde",
+  "pos": "noun",
+  "gender": "die",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "час дремоты"
+ },
+ "Schläfern": {
+  "form": "Schläfern",
+  "lemma": "Schläfer",
+  "pos": "noun",
+  "gender": "der",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Dat. мн. → ед. Schläfer «спящий»"
+ },
+ "schlägt": {
+  "form": "schlägt",
+  "lemma": "schlagen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "през. 3 л. ед. от schlagen; das Herz schlägt"
+ },
+ "Schmerzen": {
+  "form": "Schmerzen",
+  "lemma": "Schmerz",
+  "pos": "noun",
+  "gender": "der",
+  "tier": "content",
+  "varies": false,
+  "variants": []
+ },
+ "Schmilzt": {
+  "form": "Schmilzt",
+  "lemma": "schmelzen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "3 Sg. mit Umlaut: schmilzt"
+ },
+ "Schnee": {
+  "form": "Schnee",
+  "lemma": "Schnee",
+  "pos": "noun",
+  "gender": "der",
+  "tier": "content",
+  "varies": false,
+  "variants": []
+ },
+ "schnitt": {
+  "form": "schnitt",
+  "lemma": "schneiden",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Prät. von schneiden"
+ },
+ "Schollen": {
+  "form": "Schollen",
+  "lemma": "Scholle",
+  "pos": "noun",
+  "gender": "die",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Eisschollen"
+ },
+ "schon": {
+  "form": "schon",
+  "lemma": "schon",
+  "pos": "adv",
+  "gender": null,
+  "tier": "loaded_particle",
+  "varies": false,
+  "variants": []
+ },
+ "Schreib": {
+  "form": "Schreib",
+  "lemma": "schreiben",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Imp. Schreib'"
+ },
+ "schrien": {
+  "form": "schrien",
+  "lemma": "schreien",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Prät. Pl. schrien"
+ },
+ "schwarze": {
+  "form": "schwarze",
+  "lemma": "schwarz",
+  "pos": "adj",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": []
+ },
+ "schweigen": {
+  "form": "schweigen",
+  "lemma": "schweigen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": []
+ },
+ "schwer": {
+  "form": "schwer",
+  "lemma": "schwer",
+  "pos": "adj",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "hier auch adverbial (schwer verletzt)"
+ },
+ "schwillt": {
+  "form": "schwillt",
+  "lemma": "schwellen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "3 Sg. mit Umlaut: schwillt"
+ },
+ "schönen": {
+  "form": "schönen",
+  "lemma": "schön",
+  "pos": "adj",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": []
+ },
+ "Schüttl": {
+  "form": "Schüttl",
+  "lemma": "schütteln",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Imp. Schüttl' (synkop.); trennb. herunterschütteln im Kontext"
+ },
+ "Seele": {
+  "form": "Seele",
+  "lemma": "Seele",
+  "pos": "noun",
+  "gender": "die",
+  "tier": "content",
+  "varies": false,
+  "variants": []
+ },
+ "seh": {
+  "form": "seh",
+  "lemma": "sehen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "1 Sg. seh'"
+ },
+ "seh's": {
+  "form": "seh's",
+  "lemma": "sehen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "seh' + es; hier ansehen (seh's ihm an)"
+ },
+ "sehen": {
+  "form": "sehen",
+  "lemma": "sehen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": []
+ },
+ "sehn": {
+  "form": "sehn",
+  "lemma": "sehen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Inf. mit Synkope -e-"
+ },
+ "Sehnen": {
+  "form": "Sehnen",
+  "lemma": "Sehnen",
+  "pos": "noun",
+  "gender": "das",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "substantiv. Inf. (das Sehnen)"
+ },
+ "selber": {
+  "form": "selber",
+  "lemma": "selber",
+  "pos": "pronoun",
+  "gender": null,
+  "tier": "function",
+  "varies": false,
+  "variants": []
+ },
+ "selbst": {
+  "form": "selbst",
+  "lemma": "selbst",
+  "pos": "pronoun",
+  "gender": null,
+  "tier": "function",
+  "varies": false,
+  "variants": []
+ },
+ "Seligkeit": {
+  "form": "Seligkeit",
+  "lemma": "Seligkeit",
+  "pos": "noun",
+  "gender": "die",
+  "tier": "content",
+  "varies": false,
+  "variants": []
+ },
+ "sieht": {
+  "form": "sieht",
+  "lemma": "sehen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "3 Sg.; П24 ansehen (sieht ihn an)"
+ },
+ "Sing": {
+  "form": "Sing",
+  "lemma": "singen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "1 Sg. Sing' ich"
+ },
+ "Sinn": {
+  "form": "Sinn",
+  "lemma": "Sinn",
+  "pos": "noun",
+  "gender": "der",
+  "tier": "content",
+  "varies": false,
+  "variants": []
+ },
+ "sitz": {
+  "form": "sitz",
+  "lemma": "sitzen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "1 Sg. sitz'"
+ },
+ "so": {
+  "form": "so",
+  "lemma": "so",
+  "pos": "adv",
+  "gender": null,
+  "tier": "loaded_particle",
+  "varies": false,
+  "variants": []
+ },
+ "So": {
+  "form": "So",
+  "lemma": "so",
+  "pos": "adv",
+  "gender": null,
+  "tier": "loaded_particle",
+  "varies": false,
+  "variants": [],
+  "note": "Satzanfang; in So manchen/So hätt' Gradpartikel bzw. Folge"
+ },
+ "Sohlen": {
+  "form": "Sohlen",
+  "lemma": "Sohle",
+  "pos": "noun",
+  "gender": "die",
+  "tier": "content",
+  "varies": false,
+  "variants": []
+ },
+ "soll": {
+  "form": "soll",
+  "lemma": "sollen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Modalverb"
+ },
+ "Soll": {
+  "form": "Soll",
+  "lemma": "sollen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Modalverb, Satzanfang"
+ },
+ "sollen": {
+  "form": "sollen",
+  "lemma": "sollen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Modalverb (hätt'... sollen)"
+ },
+ "Sollst": {
+  "form": "Sollst",
+  "lemma": "sollen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "2 Sg., Satzanfang"
+ },
+ "sollte": {
+  "form": "sollte",
+  "lemma": "sollen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Konj./Prät."
+ },
+ "sonder": {
+  "form": "sonder",
+  "lemma": "sonder",
+  "pos": "prep",
+  "gender": null,
+  "tier": "function",
+  "varies": false,
+  "variants": [],
+  "note": "veraltete Präp. mit Akk. = ohne; sonder Maßen"
+ },
+ "Sonnen": {
+  "form": "Sonnen",
+  "lemma": "Sonne",
+  "pos": "noun",
+  "gender": "die",
+  "tier": "content",
+  "varies": false,
+  "variants": []
+ },
+ "Spiel": {
+  "form": "Spiel",
+  "lemma": "Spiel",
+  "pos": "noun",
+  "gender": "das",
+  "tier": "content",
+  "varies": false,
+  "variants": []
+ },
+ "spielt": {
+  "form": "spielt",
+  "lemma": "spielen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": []
+ },
+ "Spielt": {
+  "form": "Spielt",
+  "lemma": "spielen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Satzanfang (V1-Bedingung)"
+ },
+ "spitzen": {
+  "form": "spitzen",
+  "lemma": "spitz",
+  "pos": "adj",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": []
+ },
+ "sprach": {
+  "form": "sprach",
+  "lemma": "sprechen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Prät."
+ },
+ "spricht": {
+  "form": "spricht",
+  "lemma": "sprechen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "3 Sg."
+ },
+ "sprossen": {
+  "form": "sprossen",
+  "lemma": "sprießen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Nebenform sprossen → Lemma sprießen"
+ },
+ "Spur": {
+  "form": "Spur",
+  "lemma": "Spur",
+  "pos": "noun",
+  "gender": "die",
+  "tier": "content",
+  "varies": false,
+  "variants": []
+ },
+ "Stadt": {
+  "form": "Stadt",
+  "lemma": "Stadt",
+  "pos": "noun",
+  "gender": "die",
+  "tier": "content",
+  "varies": false,
+  "variants": []
+ },
+ "standen": {
+  "form": "standen",
+  "lemma": "stehen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Prät. Pl. von stehen"
+ },
+ "starren": {
+  "form": "starren",
+  "lemma": "starr",
+  "pos": "adj",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "mit starren Fingern (Attr.)"
+ },
+ "starrer": {
+  "form": "starrer",
+  "lemma": "starr",
+  "pos": "adj",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": []
+ },
+ "starrt": {
+  "form": "starrt",
+  "lemma": "starren",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "3 Sg.; erstarrt/uavstarren – festgefroren + Blick"
+ },
+ "Stege": {
+  "form": "Stege",
+  "lemma": "Steg",
+  "pos": "noun",
+  "gender": "der",
+  "tier": "content",
+  "varies": false,
+  "variants": []
+ },
+ "Stehen": {
+  "form": "Stehen",
+  "lemma": "stehen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "substantiv. Inf. (zum Stehen)"
+ },
+ "stehen": {
+  "form": "stehen",
+  "lemma": "stehen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": []
+ },
+ "stehn": {
+  "form": "stehn",
+  "lemma": "stehen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Inf. mit Synkope"
+ },
+ "steht": {
+  "form": "steht",
+  "lemma": "stehen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": []
+ },
+ "Steht": {
+  "form": "Steht",
+  "lemma": "stehen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Satzanfang; Steht... still = stillstehen"
+ },
+ "Stein": {
+  "form": "Stein",
+  "lemma": "Stein",
+  "pos": "noun",
+  "gender": "der",
+  "tier": "content",
+  "varies": false,
+  "variants": []
+ },
+ "Stich": {
+  "form": "Stich",
+  "lemma": "Stich",
+  "pos": "noun",
+  "gender": "der",
+  "tier": "content",
+  "varies": false,
+  "variants": []
+ },
+ "stier": {
+  "form": "stier",
+  "lemma": "stier",
+  "pos": "adj",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "starr-glasig (Blick)"
+ },
+ "still": {
+  "form": "still",
+  "lemma": "still",
+  "pos": "adj",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "in Steht... still adverbial (stillstehen)"
+ },
+ "Still": {
+  "form": "Still",
+  "lemma": "Stille",
+  "pos": "noun",
+  "gender": "die",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "in der Still' = in der Stille (apokop.)"
+ },
+ "stille": {
+  "form": "stille",
+  "lemma": "still",
+  "pos": "adj",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "adverbial: stille stehn"
+ },
+ "Straße": {
+  "form": "Straße",
+  "lemma": "Straße",
+  "pos": "noun",
+  "gender": "die",
+  "tier": "content",
+  "varies": false,
+  "variants": []
+ },
+ "Straßen": {
+  "form": "Straßen",
+  "lemma": "Straße",
+  "pos": "noun",
+  "gender": "die",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": ""
+ },
+ "Streit": {
+  "form": "Streit",
+  "lemma": "Streit",
+  "pos": "noun",
+  "gender": "der",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": ""
+ },
+ "Strom": {
+  "form": "Strom",
+  "lemma": "Strom",
+  "pos": "noun",
+  "gender": "der",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": ""
+ },
+ "Stund": {
+  "form": "Stund",
+  "lemma": "Stunde",
+  "pos": "noun",
+  "gender": "die",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Stund' — апокопа -e"
+ },
+ "Stunde": {
+  "form": "Stunde",
+  "lemma": "Stunde",
+  "pos": "noun",
+  "gender": "die",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": ""
+ },
+ "Sturm": {
+  "form": "Sturm",
+  "lemma": "Sturm",
+  "pos": "noun",
+  "gender": "der",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": ""
+ },
+ "Städte": {
+  "form": "Städte",
+  "lemma": "Stadt",
+  "pos": "noun",
+  "gender": "die",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "мн.ч. с умлаутом"
+ },
+ "stören": {
+  "form": "stören",
+  "lemma": "stören",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": ""
+ },
+ "Stürme": {
+  "form": "Stürme",
+  "lemma": "Sturm",
+  "pos": "noun",
+  "gender": "der",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "мн.ч. с умлаутом"
+ },
+ "Such": {
+  "form": "Such",
+  "lemma": "suchen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Such' ich — апокопа -e, 1 л. ед."
+ },
+ "such": {
+  "form": "such",
+  "lemma": "suchen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "such' — апокопа -e"
+ },
+ "Suche": {
+  "form": "Suche",
+  "lemma": "suchen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "1 л. ед. ч."
+ },
+ "suche": {
+  "form": "suche",
+  "lemma": "suchen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "1 л. ед. ч."
+ },
+ "suchen": {
+  "form": "suchen",
+  "lemma": "suchen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": ""
+ },
+ "säumen": {
+  "form": "säumen",
+  "lemma": "säumen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Adelung «мешкать»"
+ },
+ "süßen": {
+  "form": "süßen",
+  "lemma": "süß",
+  "pos": "adj",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": ""
+ },
+ "Tag": {
+  "form": "Tag",
+  "lemma": "Tag",
+  "pos": "noun",
+  "gender": "der",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": ""
+ },
+ "Tanne": {
+  "form": "Tanne",
+  "lemma": "Tanne",
+  "pos": "noun",
+  "gender": "die",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": ""
+ },
+ "tanzt": {
+  "form": "tanzt",
+  "lemma": "tanzen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "3 л. ед. ч."
+ },
+ "Teil": {
+  "form": "Teil",
+  "lemma": "Teil",
+  "pos": "noun",
+  "gender": "das",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "ihr Teil — доля; ср.р. в значении «часть/доля»"
+ },
+ "Teller": {
+  "form": "Teller",
+  "lemma": "Teller",
+  "pos": "noun",
+  "gender": "der",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": ""
+ },
+ "tiefer": {
+  "form": "tiefer",
+  "lemma": "tief",
+  "pos": "adj",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "in tiefer Nacht — склон. форма позитива (не компаратив)"
+ },
+ "tiefsten": {
+  "form": "tiefsten",
+  "lemma": "tief",
+  "pos": "adj",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "превосх. степень"
+ },
+ "Tier": {
+  "form": "Tier",
+  "lemma": "Tier",
+  "pos": "noun",
+  "gender": "das",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": ""
+ },
+ "tobten": {
+  "form": "tobten",
+  "lemma": "toben",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Müller-орф. tobten = tobten/tobten; претерит мн.ч."
+ },
+ "Tor": {
+  "form": "Tor",
+  "lemma": "Tor",
+  "pos": "noun",
+  "gender": "das",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "An's Tor — ворота, ср.р.; Th→T"
+ },
+ "Tore": {
+  "form": "Tore",
+  "lemma": "Tor",
+  "pos": "noun",
+  "gender": "das",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "vor dem Tore — ворота, ср.р., Dat. -e; Th→T"
+ },
+ "Toren": {
+  "form": "Toren",
+  "lemma": "Tor",
+  "pos": "noun",
+  "gender": "der",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "für Toren — глупцы/безумцы, м.р. (слабое скл.), отличать от das Tor"
+ },
+ "Totenacker": {
+  "form": "Totenacker",
+  "lemma": "Totenacker",
+  "pos": "noun",
+  "gender": "der",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "кладбище; Th→T"
+ },
+ "Totenkränze": {
+  "form": "Totenkränze",
+  "lemma": "Totenkranz",
+  "pos": "noun",
+  "gender": "der",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "мн.ч.; Th→T"
+ },
+ "Traum": {
+  "form": "Traum",
+  "lemma": "Traum",
+  "pos": "noun",
+  "gender": "der",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": ""
+ },
+ "Traume": {
+  "form": "Traume",
+  "lemma": "Traum",
+  "pos": "noun",
+  "gender": "der",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Dat. -e"
+ },
+ "Treibt": {
+  "form": "Treibt",
+  "lemma": "treiben",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "3 л. ед. ч."
+ },
+ "Tret": {
+  "form": "Tret",
+  "lemma": "treten",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Tret' ich — апокопа -e, 1 л. ед."
+ },
+ "Treue": {
+  "form": "Treue",
+  "lemma": "Treue",
+  "pos": "noun",
+  "gender": "die",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": ""
+ },
+ "treuer": {
+  "form": "treuer",
+  "lemma": "treu",
+  "pos": "adj",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "склон. форма (treuer Wanderstab)"
+ },
+ "treues": {
+  "form": "treues",
+  "lemma": "treu",
+  "pos": "adj",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "склон. форма"
+ },
+ "trieb": {
+  "form": "trieb",
+  "lemma": "treiben",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "претерит; trieb hinaus → hinaustreiben/treiben"
+ },
+ "Tritt": {
+  "form": "Tritt",
+  "lemma": "Tritt",
+  "pos": "noun",
+  "gender": "der",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "шаг/след"
+ },
+ "Tritte": {
+  "form": "Tritte",
+  "lemma": "Tritt",
+  "pos": "noun",
+  "gender": "der",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Gen. мн.ч. (ihrer Tritte Spur)"
+ },
+ "trockne": {
+  "form": "trockne",
+  "lemma": "trocken",
+  "pos": "adj",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "trockne = trockene, синкопа -e-"
+ },
+ "Tropfen": {
+  "form": "Tropfen",
+  "lemma": "Tropfen",
+  "pos": "noun",
+  "gender": "der",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "мн.ч. = ед.ч. форма"
+ },
+ "trägem": {
+  "form": "trägem",
+  "lemma": "träge",
+  "pos": "adj",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Adelung «mit Widerwillen» → вялый"
+ },
+ "Trän": {
+  "form": "Trän",
+  "lemma": "Träne",
+  "pos": "noun",
+  "gender": "die",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Trän' — апокопа -e; Th→T"
+ },
+ "Tränen": {
+  "form": "Tränen",
+  "lemma": "Träne",
+  "pos": "noun",
+  "gender": "die",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "мн.ч.; Th→T"
+ },
+ "Träumen": {
+  "form": "Träumen",
+  "lemma": "träumen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Träumen sich Manches — глагол (3 л. мн. с инверсией); во 2-м sample mit allen Träumen — субстантив. инф. от того же корня, но цитир. лемма глагола"
+ },
+ "Träumer": {
+  "form": "Träumer",
+  "lemma": "Träumer",
+  "pos": "noun",
+  "gender": "der",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "сновидец/мечтатель"
+ },
+ "träumt": {
+  "form": "träumt",
+  "lemma": "träumen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "träumt' — претерит 1 л. (Ich träumt')"
+ },
+ "träumte": {
+  "form": "träumte",
+  "lemma": "träumen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "претерит 1 л."
+ },
+ "trübe": {
+  "form": "trübe",
+  "lemma": "trübe",
+  "pos": "adj",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Adelung erste Grad der Unlust → сумрачный"
+ },
+ "Tun": {
+  "form": "Tun",
+  "lemma": "tun",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Tun sich... erlaben — tun-перифраза (вспомог.), не сущ.; Th→T"
+ },
+ "Täuschung": {
+  "form": "Täuschung",
+  "lemma": "Täuschung",
+  "pos": "noun",
+  "gender": "die",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "обман-иллюзия"
+ },
+ "tödlich": {
+  "form": "tödlich",
+  "lemma": "tödlich",
+  "pos": "adv",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "наречие при verletzt; Th→T"
+ },
+ "törichtes": {
+  "form": "törichtes",
+  "lemma": "töricht",
+  "pos": "adj",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Adelung «ehedem unsinnig, toll» → безумное; склон. форма; Th→T (thöricht)"
+ },
+ "Türe": {
+  "form": "Türe",
+  "lemma": "Tür",
+  "pos": "noun",
+  "gender": "die",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Türe — вариантная форма с -e; Th→T"
+ },
+ "Türme": {
+  "form": "Türme",
+  "lemma": "Turm",
+  "pos": "noun",
+  "gender": "der",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "мн.ч. с умлаутом; Th→T"
+ },
+ "Umher": {
+  "form": "Umher",
+  "lemma": "umher",
+  "pos": "adv",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "наречие «вокруг»"
+ },
+ "unbarmherz'ge": {
+  "form": "unbarmherz'ge",
+  "lemma": "unbarmherzig",
+  "pos": "adj",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "unbarmherz'ge = unbarmherzige, синкопа -i-; склон. форма"
+ },
+ "Unbeständigkeit": {
+  "form": "Unbeständigkeit",
+  "lemma": "Unbeständigkeit",
+  "pos": "noun",
+  "gender": "die",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "непостоянство"
+ },
+ "unbeweglich": {
+  "form": "unbeweglich",
+  "lemma": "unbeweglich",
+  "pos": "adj",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "неподвижный (предикатив)"
+ },
+ "Unverrückt": {
+  "form": "Unverrückt",
+  "lemma": "unverrückt",
+  "pos": "adj",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "неподвижно/неотрывно (предикатив/нареч. при стоянии)"
+ },
+ "unwirtbarem": {
+  "form": "unwirtbarem",
+  "lemma": "unwirtbar",
+  "pos": "adj",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "негостеприимный/бесприютный; склон. форма Dat."
+ },
+ "vergebens": {
+  "form": "vergebens",
+  "lemma": "vergebens",
+  "pos": "adv",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "напрасно"
+ },
+ "Verlangen": {
+  "form": "Verlangen",
+  "lemma": "Verlangen",
+  "pos": "noun",
+  "gender": "das",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "субстантивированный инфинитив; das Verlangen — страстное стремление"
+ },
+ "verlassen": {
+  "form": "verlassen",
+  "lemma": "verlassen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": ""
+ },
+ "verletzt": {
+  "form": "verletzt",
+  "lemma": "verletzen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Part. II в составе пассива/предиката: schwer verletzt"
+ },
+ "verlockt": {
+  "form": "verlockt",
+  "lemma": "verlocken",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "3 л. ед.ч.: verlockt den Wandersmann"
+ },
+ "vermeid": {
+  "form": "vermeid",
+  "lemma": "vermeiden",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "элизия vermeid' = vermeide (1 л. ед.ч.)"
+ },
+ "verschneite": {
+  "form": "verschneite",
+  "lemma": "verschneit",
+  "pos": "adj",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "причастное прилагательное (занесённый снегом), склон. форма"
+ },
+ "versteckte": {
+  "form": "versteckte",
+  "lemma": "versteckt",
+  "pos": "adj",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "причастное прилагательное (скрытый, потайной), склон. форма"
+ },
+ "verwegen": {
+  "form": "verwegen",
+  "lemma": "verwegen",
+  "pos": "adj",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": ""
+ },
+ "Vogelgeschrei": {
+  "form": "Vogelgeschrei",
+  "lemma": "Vogelgeschrei",
+  "pos": "noun",
+  "gender": "das",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "птичий крик/гомон"
+ },
+ "Vorbei": {
+  "form": "Vorbei",
+  "lemma": "vorbei",
+  "pos": "adv",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "наречие (мимо); прописная — начало строки"
+ },
+ "Vorübergehen": {
+  "form": "Vorübergehen",
+  "lemma": "Vorübergehen",
+  "pos": "noun",
+  "gender": "das",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "субстантивированный инфинитив: im Vorübergehen — мимоходом"
+ },
+ "wach": {
+  "form": "wach",
+  "lemma": "wach",
+  "pos": "adj",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "предикатив: ward ... wach (проснулся)"
+ },
+ "wachen": {
+  "form": "wachen",
+  "lemma": "wach",
+  "pos": "adj",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "склон. форма прил. wach: wachen Hunde — бодрствующие псы (не глагол wachen)"
+ },
+ "Wahne": {
+  "form": "Wahne",
+  "lemma": "Wahn",
+  "pos": "noun",
+  "gender": "der",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Dat. ед.ч. с -e: in meinem Wahne — в (само)обольщении"
+ },
+ "Wandern": {
+  "form": "Wandern",
+  "lemma": "Wandern",
+  "pos": "noun",
+  "gender": "das",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "субстантивированный инфинитив: das Wandern — странствование"
+ },
+ "wandern": {
+  "form": "wandern",
+  "lemma": "wandern",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "инфинитив-глагол: musst' ... wandern"
+ },
+ "Wandersmann": {
+  "form": "Wandersmann",
+  "lemma": "Wandersmann",
+  "pos": "noun",
+  "gender": "der",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "путник, странник"
+ },
+ "Wanderstab": {
+  "form": "Wanderstab",
+  "lemma": "Wanderstab",
+  "pos": "noun",
+  "gender": "der",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "посох странника"
+ },
+ "Wanderstabe": {
+  "form": "Wanderstabe",
+  "lemma": "Wanderstab",
+  "pos": "noun",
+  "gender": "der",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Dat. ед.ч. с -e: an dem Wanderstabe"
+ },
+ "wandre": {
+  "form": "wandre",
+  "lemma": "wandern",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "1 л. ед.ч. с синкопой: ich wandre"
+ },
+ "Wandrer": {
+  "form": "Wandrer",
+  "lemma": "Wanderer",
+  "pos": "noun",
+  "gender": "der",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "синкопа Wandrer = Wanderer; путник"
+ },
+ "Wangen": {
+  "form": "Wangen",
+  "lemma": "Wange",
+  "pos": "noun",
+  "gender": "die",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "мн.ч.: von meinen Wangen — со щёк"
+ },
+ "wanken": {
+  "form": "wanken",
+  "lemma": "wanken",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "шататься, брести нетвёрдо"
+ },
+ "Wankt": {
+  "form": "Wankt",
+  "lemma": "wanken",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "3 л. ед.ч.: Wankt er hin und her"
+ },
+ "Wann": {
+  "form": "Wann",
+  "lemma": "wann",
+  "pos": "adv",
+  "gender": null,
+  "tier": "function",
+  "varies": false,
+  "variants": [],
+  "note": "вопросительное наречие времени (когда)"
+ },
+ "war's": {
+  "form": "war's",
+  "lemma": "sein",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "war + 's (es): da war's geschehn — Prät. от sein"
+ },
+ "ward": {
+  "form": "ward",
+  "lemma": "werden",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "архаич. Prät. от werden (= wurde); в 1820-х стандартно"
+ },
+ "Ward": {
+  "form": "Ward",
+  "lemma": "werden",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "архаич. Prät. от werden (= wurde); прописная — начало строки"
+ },
+ "warfen": {
+  "form": "warfen",
+  "lemma": "werfen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Prät. мн.ч.: Krähen warfen — вороны бросали"
+ },
+ "warm": {
+  "form": "warm",
+  "lemma": "warm",
+  "pos": "adj",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "здесь предикатив-наречие: schlägt ... so warm"
+ },
+ "warmes": {
+  "form": "warmes",
+  "lemma": "warm",
+  "pos": "adj",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "склон. форма ср.р.: warmes Haus"
+ },
+ "Was": {
+  "form": "Was",
+  "lemma": "was",
+  "pos": "pronoun",
+  "gender": null,
+  "tier": "function",
+  "varies": false,
+  "variants": [],
+  "note": "вопросит. местоимение; в Was soll/fragen — оттенок «зачем/что за дело»"
+ },
+ "was": {
+  "form": "was",
+  "lemma": "was",
+  "pos": "pronoun",
+  "gender": null,
+  "tier": "function",
+  "varies": false,
+  "variants": [],
+  "note": "относит./вопросит. местоимение"
+ },
+ "Weg": {
+  "form": "Weg",
+  "lemma": "Weg",
+  "pos": "noun",
+  "gender": "der",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "путь, дорога"
+ },
+ "weg": {
+  "form": "weg",
+  "lemma": "weg",
+  "pos": "adv",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "наречие (прочь): nicht weg von mir"
+ },
+ "Wege": {
+  "form": "Wege",
+  "lemma": "Weg",
+  "pos": "noun",
+  "gender": "der",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Dat. ед.ч. (-e) или мн.ч.: auf ... Wege / die Wege"
+ },
+ "Wegen": {
+  "form": "Wegen",
+  "lemma": "Weg",
+  "pos": "noun",
+  "gender": "der",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Dat. мн.ч.: auf den Wegen (sung-вариант к Straßen)"
+ },
+ "Weh": {
+  "form": "Weh",
+  "lemma": "Weh",
+  "pos": "noun",
+  "gender": "das",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "скорбь, боль: das heiße Weh"
+ },
+ "wehen": {
+  "form": "wehen",
+  "lemma": "wehen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "инфинитив: mich wehen (нести ветром)"
+ },
+ "Weht": {
+  "form": "Weht",
+  "lemma": "wehen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "3 л. ед.ч.: Weht ... ein lauer Wind; прописная — начало строки"
+ },
+ "weht": {
+  "form": "weht",
+  "lemma": "wehen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "3 л. ед.ч.: ein Lüftchen weht"
+ },
+ "weiche": {
+  "form": "weiche",
+  "lemma": "weich",
+  "pos": "adj",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "склон. форма: der weiche Schnee — мягкий"
+ },
+ "weilen": {
+  "form": "weilen",
+  "lemma": "weilen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "медлить, задерживаться"
+ },
+ "Wein": {
+  "form": "Wein",
+  "lemma": "weinen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "императив Wein'! = weine (плачь); элизия -e; не вино (Wein der)"
+ },
+ "wein": {
+  "form": "wein",
+  "lemma": "weinen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "императив wein'! = weine (плачь); повтор той же строки"
+ },
+ "weisen": {
+  "form": "weisen",
+  "lemma": "weisen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "инфинитив: den Weg weisen — указывать путь"
+ },
+ "Weisen": {
+  "form": "Weisen",
+  "lemma": "weisen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "3 л. мн.ч.: (Weiser) Weisen ... zu — указатели указывают (на города); отделяемое zu"
+ },
+ "Weiser": {
+  "form": "Weiser",
+  "lemma": "Weiser",
+  "pos": "noun",
+  "gender": "der",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "указатель (Wegweiser); различать с морф. парой Wegweiser/Weiser"
+ },
+ "weisest": {
+  "form": "weisest",
+  "lemma": "abweisen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "2 л. ед.ч. отделяемого abweisen: weisest du mich ab — отвергаешь; связь с weisen/Weiser"
+ },
+ "weist": {
+  "form": "weist",
+  "lemma": "weisen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "3 л. ед.ч.: weist ein Haus — указывает на дом"
+ },
+ "weit": {
+  "form": "weit",
+  "lemma": "weit",
+  "pos": "adj",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "здесь наречно: wie weit / nicht weit (далеко)"
+ },
+ "weiter": {
+  "form": "weiter",
+  "lemma": "weiter",
+  "pos": "adv",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "наречие (дальше, вперёд): nun weiter, nur weiter"
+ },
+ "weißen": {
+  "form": "weißen",
+  "lemma": "weiß",
+  "pos": "adj",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "склон. форма прил. weiß (белый): weißen Matten / Schein"
+ },
+ "weißt": {
+  "form": "weißt",
+  "lemma": "wissen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "2 л. ед.ч.: du weißt von — знаешь (не weiß-белый)"
+ },
+ "Welch": {
+  "form": "Welch",
+  "lemma": "welch",
+  "pos": "pronoun",
+  "gender": null,
+  "tier": "function",
+  "varies": false,
+  "variants": [],
+  "note": "восклицат. местоим.-детерминатив: Welch ein ... (какое)"
+ },
+ "Welt": {
+  "form": "Welt",
+  "lemma": "Welt",
+  "pos": "noun",
+  "gender": "die",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "мир, свет"
+ },
+ "wendete": {
+  "form": "wendete",
+  "lemma": "wenden",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Prät. возвр.: wendete mich — обернулся"
+ },
+ "Wenn": {
+  "form": "Wenn",
+  "lemma": "wenn",
+  "pos": "conj",
+  "gender": null,
+  "tier": "function",
+  "varies": false,
+  "variants": [],
+  "note": "союз (когда/если)"
+ },
+ "Wer": {
+  "form": "Wer",
+  "lemma": "wer",
+  "pos": "pronoun",
+  "gender": null,
+  "tier": "function",
+  "varies": false,
+  "variants": [],
+  "note": "вопросит. местоимение (кто)"
+ },
+ "wer": {
+  "form": "wer",
+  "lemma": "wer",
+  "pos": "pronoun",
+  "gender": null,
+  "tier": "function",
+  "varies": false,
+  "variants": [],
+  "note": "относит./обобщающее местоимение: wer wie ich (кто)"
+ },
+ "Wetter": {
+  "form": "Wetter",
+  "lemma": "Wetter",
+  "pos": "noun",
+  "gender": "das",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "непогода: Wind und Wetter"
+ },
+ "Wetterfahne": {
+  "form": "Wetterfahne",
+  "lemma": "Wetterfahne",
+  "pos": "noun",
+  "gender": "die",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "флюгер"
+ },
+ "wieder": {
+  "form": "wieder",
+  "lemma": "wieder",
+  "pos": "adv",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "наречие (снова, обратно)"
+ },
+ "Wiesen": {
+  "form": "Wiesen",
+  "lemma": "Wiese",
+  "pos": "noun",
+  "gender": "die",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Pl. → Sg. Wiese"
+ },
+ "wild": {
+  "form": "wild",
+  "lemma": "wild",
+  "pos": "adj",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": ""
+ },
+ "wilder": {
+  "form": "wilder",
+  "lemma": "wild",
+  "pos": "adj",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "склон. форма (wilder Fluss), не компаратив"
+ },
+ "Wildes": {
+  "form": "Wildes",
+  "lemma": "Wild",
+  "pos": "noun",
+  "gender": "das",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Gen. des Wildes — дичь, зверь"
+ },
+ "Will": {
+  "form": "Will",
+  "lemma": "wollen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "1 л. ед. wollen (хочу)"
+ },
+ "will": {
+  "form": "will",
+  "lemma": "wollen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "wollen (хочу/хочет)"
+ },
+ "Willst": {
+  "form": "Willst",
+  "lemma": "wollen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "2 л. ед. wollen"
+ },
+ "Wind": {
+  "form": "Wind",
+  "lemma": "Wind",
+  "pos": "noun",
+  "gender": "der",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": ""
+ },
+ "Winde": {
+  "form": "Winde",
+  "lemma": "Wind",
+  "pos": "noun",
+  "gender": "der",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Pl. die Winde → Sg. Wind"
+ },
+ "windet": {
+  "form": "windet",
+  "lemma": "winden",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "winden — виться/обвивать"
+ },
+ "Winter": {
+  "form": "Winter",
+  "lemma": "Winter",
+  "pos": "noun",
+  "gender": "der",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": ""
+ },
+ "Winters": {
+  "form": "Winters",
+  "lemma": "Winter",
+  "pos": "noun",
+  "gender": "der",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Gen. des Winters"
+ },
+ "Wipfel": {
+  "form": "Wipfel",
+  "lemma": "Wipfel",
+  "pos": "noun",
+  "gender": "der",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "верхушка дерева"
+ },
+ "wird": {
+  "form": "wird",
+  "lemma": "werden",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "3 л. ед. werden (Futur/станет)"
+ },
+ "Wirst": {
+  "form": "Wirst",
+  "lemma": "werden",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "2 л. ед. werden (Futur)"
+ },
+ "Wirtshaus": {
+  "form": "Wirtshaus",
+  "lemma": "Wirtshaus",
+  "pos": "noun",
+  "gender": "das",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "трактир/постоялый двор"
+ },
+ "Wo": {
+  "form": "Wo",
+  "lemma": "wo",
+  "pos": "adv",
+  "gender": null,
+  "tier": "function",
+  "varies": false,
+  "variants": [],
+  "note": "вопрос./относит. наречие места"
+ },
+ "wohin": {
+  "form": "wohin",
+  "lemma": "wohin",
+  "pos": "adv",
+  "gender": null,
+  "tier": "function",
+  "varies": false,
+  "variants": [],
+  "note": "вопрос. наречие направления"
+ },
+ "Wohl": {
+  "form": "Wohl",
+  "lemma": "wohl",
+  "pos": "particle",
+  "gender": null,
+  "tier": "loaded_particle",
+  "varies": false,
+  "variants": [],
+  "note": "модальная частица (П.07 Ob's... wohl → «уж»)"
+ },
+ "wohl": {
+  "form": "wohl",
+  "lemma": "wohl",
+  "pos": "particle",
+  "gender": null,
+  "tier": "loaded_particle",
+  "varies": false,
+  "variants": [],
+  "note": "модальная частица (наверное)"
+ },
+ "wohler": {
+  "form": "wohler",
+  "lemma": "wohl",
+  "pos": "adv",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "компаратив наречия wohl (хорошо/легче на душе), не модальная частица"
+ },
+ "Wolke": {
+  "form": "Wolke",
+  "lemma": "Wolke",
+  "pos": "noun",
+  "gender": "die",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": ""
+ },
+ "Wolkenfetzen": {
+  "form": "Wolkenfetzen",
+  "lemma": "Wolkenfetzen",
+  "pos": "noun",
+  "gender": "der",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "клочья облаков (Pl.=Sg. формой)"
+ },
+ "wollen": {
+  "form": "wollen",
+  "lemma": "wollen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": ""
+ },
+ "wollten": {
+  "form": "wollten",
+  "lemma": "wollen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Konj./Prät. wollen"
+ },
+ "wolltet": {
+  "form": "wolltet",
+  "lemma": "wollen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Konj. II 2 л. мн. wollen"
+ },
+ "Wonne": {
+  "form": "Wonne",
+  "lemma": "Wonne",
+  "pos": "noun",
+  "gender": "die",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "блаженство"
+ },
+ "Wort": {
+  "form": "Wort",
+  "lemma": "Wort",
+  "pos": "noun",
+  "gender": "das",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": ""
+ },
+ "Wunden": {
+  "form": "Wunden",
+  "lemma": "Wunde",
+  "pos": "noun",
+  "gender": "die",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Pl. → Sg. Wunde"
+ },
+ "wunderlich": {
+  "form": "wunderlich",
+  "lemma": "wunderlich",
+  "pos": "adj",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "здесь предик./нареч. (странно)"
+ },
+ "Wunderlicher": {
+  "form": "Wunderlicher",
+  "lemma": "wunderlich",
+  "pos": "adj",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "склон. форма (Wunderlicher Alter — обращение)"
+ },
+ "wunderliches": {
+  "form": "wunderliches",
+  "lemma": "wunderlich",
+  "pos": "adj",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "склон. ср.р. (wunderliches Tier)"
+ },
+ "Wurm": {
+  "form": "Wurm",
+  "lemma": "Wurm",
+  "pos": "noun",
+  "gender": "der",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "червь"
+ },
+ "wählen": {
+  "form": "wählen",
+  "lemma": "wählen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "выбирать"
+ },
+ "Wär": {
+  "form": "Wär",
+  "lemma": "sein",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Wär' = wäre, Konj. II от sein (было бы)"
+ },
+ "Wüsteneien": {
+  "form": "Wüsteneien",
+  "lemma": "Wüstenei",
+  "pos": "noun",
+  "gender": "die",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Pl. → Sg. Wüstenei (пустошь/глушь)"
+ },
+ "Zahlen": {
+  "form": "Zahlen",
+  "lemma": "Zahl",
+  "pos": "noun",
+  "gender": "die",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Pl. → Sg. Zahl (число)"
+ },
+ "Zeichen": {
+  "form": "Zeichen",
+  "lemma": "Zeichen",
+  "pos": "noun",
+  "gender": "das",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "знак (Pl.=Sg. формой)"
+ },
+ "Zeit": {
+  "form": "Zeit",
+  "lemma": "Zeit",
+  "pos": "noun",
+  "gender": "die",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": ""
+ },
+ "zerbrochner": {
+  "form": "zerbrochner",
+  "lemma": "zerbrechen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Part. II zerbrochen (адъект., разбитый); инфинитив zerbrechen"
+ },
+ "zerflossen": {
+  "form": "zerflossen",
+  "lemma": "zerfließen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Part. II zerflossen (растеклось)"
+ },
+ "zerrinnt": {
+  "form": "zerrinnt",
+  "lemma": "zerrinnen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "3 л. ед. (тает/растекается)"
+ },
+ "zerrissen": {
+  "form": "zerrissen",
+  "lemma": "zerreißen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Part. II zerrissen (разорвал)"
+ },
+ "zerschmelzen": {
+  "form": "zerschmelzen",
+  "lemma": "zerschmelzen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "растаять/расплавиться"
+ },
+ "zerspringt": {
+  "form": "zerspringt",
+  "lemma": "zerspringen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "3 л. ед. (раскалывается)"
+ },
+ "zieh": {
+  "form": "zieh",
+  "lemma": "ziehen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "zieh' = ziehe, 1 л. ед. (с aus → ausziehen, но базовый глагол ziehen)"
+ },
+ "Ziehn": {
+  "form": "Ziehn",
+  "lemma": "ziehen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "ziehn = ziehen, 3 л. мн. (синкопа без апострофа)"
+ },
+ "zieht": {
+  "form": "zieht",
+  "lemma": "ziehen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "3 л. ед."
+ },
+ "Ziel": {
+  "form": "Ziel",
+  "lemma": "Ziel",
+  "pos": "noun",
+  "gender": "das",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "цель"
+ },
+ "zittern": {
+  "form": "zittern",
+  "lemma": "zittern",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "дрожать/трепетать"
+ },
+ "Zittr": {
+  "form": "Zittr",
+  "lemma": "zittern",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Zittr' = zittre, имп./1 л. ед. zittern"
+ },
+ "zog": {
+  "form": "zog",
+  "lemma": "ziehen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Prät. от ziehen (тянулось/шло)"
+ },
+ "zugemacht": {
+  "form": "zugemacht",
+  "lemma": "zumachen",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Part. II от zumachen (закрыл); zu — отдел. приставка"
+ },
+ "zurück": {
+  "form": "zurück",
+  "lemma": "zurück",
+  "pos": "sep_prefix",
+  "gender": null,
+  "tier": "content",
+  "varies": true,
+  "variants": [
+   "zurückgehen"
+  ],
+  "note": "ging zurück → zurückgehen"
+ },
+ "zurücke": {
+  "form": "zurücke",
+  "lemma": "zurück",
+  "pos": "sep_prefix",
+  "gender": null,
+  "tier": "content",
+  "varies": true,
+  "variants": [
+   "zurückwanken"
+  ],
+  "note": "поэт. форма zurücke; zurücke wanken → zurückwanken (направит.)"
+ },
+ "zwei": {
+  "form": "zwei",
+  "lemma": "zwei",
+  "pos": "num",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "числительное два"
+ },
+ "Zweige": {
+  "form": "Zweige",
+  "lemma": "Zweig",
+  "pos": "noun",
+  "gender": "der",
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Pl. → Sg. Zweig (ветвь)"
+ },
+ "über's": {
+  "form": "über's",
+  "lemma": "über",
+  "pos": "prep",
+  "gender": null,
+  "tier": "function",
+  "varies": false,
+  "variants": [],
+  "note": "über's = über das (стяжение предлог+артикль)"
+ },
+ "überdeckt": {
+  "form": "überdeckt",
+  "lemma": "überdecken",
+  "pos": "verb",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "Part. II от überdecken (неотдел., укрыл)"
+ },
+ "übrig": {
+  "form": "übrig",
+  "lemma": "übrig",
+  "pos": "adj",
+  "gender": null,
+  "tier": "content",
+  "varies": false,
+  "variants": [],
+  "note": "übrig ließen — оставшийся (здесь предик./наречн.)"
+ }
+}

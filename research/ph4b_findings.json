@@ -1,0 +1,447 @@
+[
+ {
+  "seg_id": 223,
+  "lemma": "wollen",
+  "song": 3,
+  "current_ru": "хотели бы",
+  "issue_type": "inconsistent_render",
+  "severity": "medium",
+  "evidence_1820": "Wollen ... mod хотеть, желать; стремиться (БНРС); Grimm/Pfeifer: wollen verwandt mit wählen, Wille (модальный глагол воли)",
+  "context_note": "Строка «Als wolltet ihr zerschmelzen» — ирреальное сравнение Als + Konjunktiv II. По конвенции цикла (правило 26: «После «словно/как будто» — прошедшее без «бы»»; и явно «Als+Konj.II — единообразно «Словно» (П.03, 05, 23)») три параллельных места должны передаваться единообразно. Но: П.3 seg 223 «Als wolltet ihr» → «Словно вы ХОТЕЛИ БЫ истопить» (с «бы»), тогда как П.23 seg 1529 «Als wollten sie nicht weg» → «Словно не ХОТЕЛИ они» (без «бы»), а П.5 «Als riefen sie» → «Словно ЗВАЛИ они» (без «бы»). П.3 выбивается из тройки, которую правило 26 прямо называет как требующую единообразия; аннотации, оправдывающей исключение для П.3, нет.",
+  "proposal": "Привести П.3 к виду без «бы»: «Словно вы хотели истопить» — единообразно с П.05/П.23, как предписывает правило 26. Либо, если «бы» сохраняется сознательно, добавить обоснование и пересмотреть П.05/П.23.",
+  "alternatives": [
+   "Словно вы хотели истопить",
+   "оставить «хотели бы», но тогда выровнять П.05/П.23 в ту же сторону и зафиксировать решение"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "seg_id": 1469,
+  "lemma": "hören",
+  "song": 22,
+  "current_ru": "слышу,",
+  "issue_type": "imprecise",
+  "severity": "low",
+  "evidence_1820": "Adelung: «Hören ... I. Einen Schall zu empfinden suchen ... 2) Durch das Gehör ... ein Vorstellung ... zu erhalten suchen»; БНРС: «nicht hören wollen — пропускать мимо ушей»",
+  "context_note": "Строка «Höre nicht, was es mir sagt» в паре с «Habe keine Ohren» (не имею ушей) — герой намеренно НЕ ВНИМАЕТ тому, что говорит ему сердце (es = Herz из ст.0 «Wenn mein Herz im Busen spricht»). Здесь активен адвербиальный смысл Adelung I (hören auf etw. = слушать/внимать, ср. идиому «nicht hören wollen — пропускать мимо ушей»), а не Adelung II (физическое восприятие звука). При этом то же hören в П.24 «Keiner mag ihn hören» переведено как «слушать» (внимать), а здесь — «слышу» (воспринимать), при том что контекст П.22 — именно отказ внимать речи. Также форма Höre/Habe/Fühle грамматически двусмысленна (1 л. ед. индикатив vs императив-самопризыв под стать заглавию «Mut!»); выбор 1 л. индикатива оправдан параллелью со ст.0 («Schüttl' ich», «Sing' ich»), но не сопровождён аннотацией.",
+  "proposal": "Рассмотреть «не слушаю»/«не внимаю» (передаёт волевой отказ внимать речи сердца, согласуется с «не имею ушей» и с рендером «слушать» в П.24); как минимум — lang-аннотация о смысле hören здесь (внимать, а не воспринимать) и о двусмысленности формы Höre.",
+  "alternatives": [
+   "Не слушаю",
+   "Не внимаю"
+  ],
+  "confidence": "low"
+ },
+ {
+  "seg_id": 742,
+  "lemma": "fort",
+  "song": 10,
+  "current_ru": "сзади",
+  "issue_type": "lost_meaning",
+  "severity": "medium",
+  "evidence_1820": "Adelung: «1. Des Ortes. 1) Eigentlich. (a) Vorwärts. Immer weiter fort.»; Grimm: «das positive fort! meint age! ... sowol das protinus, vorwärts».",
+  "context_note": "Строка «Der Sturm half fort mich wehen» — буря помогала дуть/гнать героя ВПЕРЁД (fort = vorwärts/weiter, направление движения, в которое дует буря). Сегмент даёт «сзади», то есть переосмысливает сцену через позицию бури (она у героя за спиной), а не передаёт лексическое значение самого fort. Сама lang-аннотация на этом сегменте прямо фиксирует: «Дословно вперёд (fort) меня дуть», то есть файл документирует, что fort = вперёд, тогда как глосса слова — «сзади». Значение направления (вперёд/дальше) на уровне слова потеряно; смысл удержан лишь реинтерпретацией картины. Ср. П.05 immer fort → дуративное «постоянно» (законно) и П.17 fort → «прочь» (Adelung 1.1.b «von einem Orte weg» — верно); «сзади» среди засвидетельствованных значений fort отсутствует.",
+  "proposal": "Передать направительное значение fort на уровне слова: «вперёд» (или «дальше»), как и указывает аннотация «дословно вперёд». Например, рамка с глаголом: «вперёд… дуя» / «дуя… дальше», fort в сегмент под «вперёд».",
+  "alternatives": [
+   "вперёд",
+   "дальше",
+   "вперёд… дуя (рамка fort… wehen)"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "seg_id": 729,
+  "lemma": "fragen",
+  "song": 10,
+  "current_ru": "просили",
+  "issue_type": "imprecise",
+  "severity": "low",
+  "evidence_1820": "Adelung: «Figürlich, sich um etwas bekümmern, Sorge dafür tragen, es achten ... mit dem Vorworte nach. ... Im Hochdeutschen nur noch verneinungsweise ... Er fragt nichts nach dem Gelde, er achtet es nicht.»",
+  "context_note": "«Die Füße frugen nicht nach Rast» — отрицательное fragen nach = «не заботиться о / не нуждаться в / не искать» (Adelung фигуративно, verneinungsweise). Рендер «просили» (= bitten) слегка смещает к значению «просить/требовать», размывая различие fragen/bitten. В олицетворении «ноги не просили привала» читается естественно и смысл «ноги не искали/не нуждались в отдыхе» в целом сохранён, поэтому проблема мелкая. Можно ближе к идиоме: «не спрашивали об отдыхе» / «не помышляли об отдыхе» / «не нуждались в привале».",
+  "proposal": "Рассмотреть передачу ближе к fragen nach (= не заботиться/не искать): «Ноги не спрашивали об отдыхе» либо «не нуждались в привале»; «просили» соответствует bitten, а не fragen.",
+  "alternatives": [
+   "не спрашивали о привале",
+   "не нуждались в привале",
+   "не помышляли об отдыхе"
+  ],
+  "confidence": "low"
+ },
+ {
+  "seg_id": 331,
+  "lemma": "lieb",
+  "song": 5,
+  "current_ru": "ласковых",
+  "issue_type": "inconsistent_render",
+  "severity": "medium",
+  "evidence_1820": "Lieb ... 1) Angenehm, was mit einem merklichen Gerade des Vergnügens empfunden wird ... 2) In engerm Verstande, was man liebt und hoch schätzet, dessen Besitz man mit Vergnügen empfindet (Adelung)",
+  "context_note": "«So manches liebe Wort» — слова, вырезанные на коре липы (параллель к «manchen süßen Traum» предыдущей строфы): дорогие/любовные слова. Та же лемма lieb передана в цикле как «милый»: П.13 «ein liebes Liebchen» → «милая любимая», П.19 «eine liebe Seele» → «милую душу». В П.5 — единственное «ласковых», без сигнализирующей аннотации. «Ласковый» по значению ближе к zärtlich/liebevoll (обратная сверка: ласковый → zärtlich, anschmiegsam, liebevoll, freundlich, а не lieb), вносит оттенок нежности/ласки при говорящем («ласковое слово» = слово, сказанное с лаской кому-то), которого у lieb нет: здесь это дорогие/любовные слова (вероятно, имя возлюбленной). Adelung даёт для lieb «angenehm / was man liebt und hoch schätzet» — без специфической коннотации ласки.",
+  "proposal": "милых (милое слово) — единообразно с П.13/19 и точнее по значению lieb; либо «любовных», если подчеркнуть, что это слова любви",
+  "alternatives": [
+   "милых",
+   "любовных",
+   "дорогих"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "seg_id": 655,
+  "lemma": "still",
+  "song": 8,
+  "current_ru": "тихо",
+  "issue_type": "lost_meaning",
+  "severity": "low",
+  "evidence_1820": "In Absicht auf die Bewegung, keine Bewegung habend, wo es im schärfsten Verstande nur als ein Nebenwort üblich ist... Stille stehen.",
+  "context_note": "Строка «Vor ihrem Hause stille stehn» (хотел бы... перед её домом stille stehn). Adelung первой же иллюстрацией приводит «Stille stehen» именно под значением движения (keine Bewegung habend) — то есть «остановиться/стоять неподвижно», лексикализованное stillstehen. Наш рендер «тихо» (= бесшумно, sound-sense) сдвигает к адельунговскому второму значению (alles Lautes beraubt). Романтический контекст (стоять безмолвно у её дома) делает sound-чтение допустимым, но первичный смысл фразы — «застыть/остановиться». Важно: проект сам передаёт тот же глагол stillstehen в П.24 как «без движения/останавливается» (seg 1625), а unbeweglich в П.7 — «неподвижный»; то есть motion-sense закреплён за этой семьёй. Конвенция CLAUDE.md (прав.28) явно относит П.08 к семье «тих-», поэтому выбор СОЗНАТЕЛЬНЫЙ и документирован — отсюда низкая уверенность; флагирую лишь как потенциальный разнобой/потерю halt-значения для внимания рецензента.",
+  "proposal": "Оставить «тихо» как документированную конвенцию допустимо; при желании единообразия с П.24 рассмотреть «неподвижно стоять» либо добавить краткую glossа/аннотацию, что stille stehn здесь — «стоять неподвижно/застыть» (тот же глагол, что stillstehen в П.24), а не только «бесшумно».",
+  "alternatives": [
+   "неподвижно стоять",
+   "застыть"
+  ],
+  "confidence": "low"
+ },
+ {
+  "seg_id": 983,
+  "lemma": "einmal",
+  "song": 13,
+  "current_ru": "разок",
+  "issue_type": "inconsistent_render",
+  "severity": "low",
+  "evidence_1820": "A) éinmal, semel, ἅπαξ. 1) der blosze accusativ: éinmal ( gethan oder gesagt ) ist keinmal",
+  "context_note": "Строка 13.s3l0 «Willst wohl einmal hinüber sehn» переведена «Хочешь, наверное, разок туда посмотреть». То же слово einmal в 8.s4l1 «Möcht' ich noch einmal rückwärts sehn» переведено нейтрально «раз» («ещё раз посмотреть»). Grimm даёт einmal только как нейтральное semel/«один раз», без уменьшительно-ласкательного оттенка; в немецком у наречия einmal нет диминутива. Русское «разок» вносит разговорно-ласкательный нюанс, которого в DE нет (ср. правило «не добавлять отсутствующих оттенков — уменьшит. суффиксы»), и расходится с рендером того же einmal в П.8 («раз»), нарушая конвенцию «одно DE через цикл — один RU» (правило 28). Аннотации, оправдывающей диминутив, на сегменте нет. Смягчающий фактор: интимно-уговаривающий регистр обращения к собственному сердцу в П.13 (с wohl «наверное») отчасти мотивирует ласковую форму — поэтому severity low. Остальные леммы чанка (Dach крыше/крыши — падеж; dahin Дальше/навсегда — оба значения у Adelung/Grimm и аннотированы; darin в нём/внутри — анафора vs абсолют; Erde землю/земле «auf Erden» — падеж/устойчивая формула; ersterben угасли/угасшее — сознательный, аннотированный выбор с признанием «оттенка возвышенности») проблем не дают.",
+  "proposal": "Привести к нейтральному «раз» как в П.8, единообразно по циклу: «Хочешь, наверное, раз туда посмотреть».",
+  "alternatives": [
+   "раз",
+   "оставить «разок», но добавить сигнализацию: диминутив — сознательный выбор под уговаривающий регистр обращения к сердцу (тогда это не разнобой, а мотивированное отступление)"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "seg_id": 495,
+  "lemma": "geben",
+  "song": 7,
+  "current_ru": "даришь",
+  "issue_type": "imprecise",
+  "severity": "low",
+  "evidence_1820": "Geben ... 1. Eigentlich, darreichen, in die Hand reichen, als ein allgemeiner Ausdruck, der das Eigenthum an und für sich unentschieden lässet, von der körperlichen Überreichung",
+  "context_note": "«Gibst keinen Scheidegruß» — олицетворённая речка «не даёт/не подаёт» прощального слова. В Adelung базовое значение geben подчёркнуто НЕЙТРАЛЬНО («das Eigenthum unentschieden»), а «schenken» (=дарить) — отдельный фигуральный подсмысл (2.1: «Unentgeldlich geben, schenken»). Русское «дарить» вносит оттенок подарка/безвозмездного дара, которого в нейтральном geben здесь нет (рус. конвенция «не добавлять отсутствующих оттенков», прав.21/29). При этом «дарить слово/привет/взгляд» — устойчивая поэтическая коллокация, где «подарочный» оттенок ослаблен, и для лирической персонификации речки она допустима; в аннотации «даришь» прямо подаётся как «дословно». Поэтому правка маргинальна. Второе вхождение (song 19, seg 1290 «Gibt... hin» → «отдаёт») — это отделяемый глагол sich hingeben, прямой разбор «отдаёт... себя» (прав.1, канонический пример CLAUDE.md), законно и не трогаем.",
+  "proposal": "Рассмотреть нейтральное «даёшь» (или «подаёшь») вместо «даришь», чтобы не вносить оттенок «schenken/дар»; либо оставить «даришь» как сознательную лирическую коллокацию (тогда оттенок отметить в аннотации, что уже фактически сделано глоссой «Дословно»).",
+  "alternatives": [
+   "даёшь",
+   "не подаёшь (с keinen)",
+   "оставить «даришь» как поэтическую коллокацию"
+  ],
+  "confidence": "low"
+ },
+ {
+  "seg_id": 430,
+  "lemma": "lau",
+  "song": 6,
+  "current_ru": "тепловатый",
+  "issue_type": "register",
+  "severity": "low",
+  "evidence_1820": "Adelung: \"In der Dichtkunst auch von der angenehmen gelinden Wärme der Luft. Laue Lüfte, Wohlgerüche Laden uns zum Tanz\"; Campe: \"Eine laue Luft, die von den Sonnenstrahlen ein wenig erwärmte, für das Gefühl angenehme Luft\"",
+  "context_note": "Песня 6 «Wasserflut», строфа 2: «Wenn die Gräser sprossen wollen, / Weht daher ein lauer Wind, / Und das Eis zerspringt in Schollen» — весенний оттепельный ветер, который ломает лёд и растапливает снег. Здесь у lau поэтический смысл по Adelung/Campe — «angenehme gelinde Wärme der Luft» (приятная мягкая тёплота воздуха), коннотация ПОЛОЖИТЕЛЬНАЯ. Это контекстуально отлично от lau в Песне 3 («so lau» о замёрзших слезах), где активен депрециативный смысл «недостаточность жара» (rule 24, своя аннотация). Русское «тепловатый» несёт именно депрециативный оттенок («тёплый в смысле не горячий, никакой» — формулировка из аннотации самой Песни 3), что противоречит положительному поэтическому смыслу «laue Lüfte». Кроме того «тепловатый ветер» — нестандартная коллокация (звучит как чуть тёплый/тепловатый, тепид); естественная и поэтически уместная коллокация для оттепельного ветра — «тёплый ветер». Регистр «тепловатый» нейтрально-разговорный, не поэтический, тогда как Adelung помечает этот смысл «in der Dichtkunst».",
+  "proposal": "Заменить «тепловатый» на «тёплый» (передаёт мягкую тёплоту весеннего ветра, естественная коллокация «тёплый ветер», соответствует поэтическому «gelinde Wärme» Adelung/Campe). Это РАЗНЫЙ контекстный смысл против Песни 3, поэтому разные рендеры законны (rule 28) — но текущий рендер импортирует депрециативный оттенок не к месту.",
+  "alternatives": [
+   "тёплый",
+   "мягкий"
+  ],
+  "confidence": "low"
+ },
+ {
+  "seg_id": 276,
+  "lemma": "Angedenken",
+  "song": 4,
+  "current_ru": "напоминания",
+  "issue_type": "imprecise",
+  "severity": "medium",
+  "evidence_1820": "Adelung: «Das Angedenken... das verlängerte Andenken... saget jenes nichts mehr als dieses»; Campe: «Das Gedenken, Andenken an eine Sache»",
+  "context_note": "Строка «Soll denn kein Angedenken / Ich nehmen mit von hier?» — классический «предметный» случай Angedenken: его берут (mit von hier nehmen) как осязаемый памятный знак (keepsake). Все словари дают Angedenken = Andenken: «воспоминание, память» (БНРС), «сувенир» (Univ.), Wiktionary [1] «kleiner Gegenstand, der Erinnerungen... hervorrufen soll». Ни один источник не даёт «напоминание/reminder». Русское «напоминание» (Ушаков: «Обращение, напоминающее о чём-нибудь») означает АКТ/знак, побуждающий вспомнить, а не памятный предмет, хранимый ради памяти. Это сдвиг смысла: DE Angedenken здесь = «(вещь) на память», тогда как RU «напоминание» = «то, что напоминает/уведомляет». CLAUDE.md прав.35 прямо называет этот случай: «Angedenken = воспоминание+сувенир (с mitnehmen → предметное)». Аннотация песни смягчает выбор («герой хочет унести какое-то осязаемое напоминание»), то есть выбор отчасти осознан, поэтому severity medium, не high.",
+  "proposal": "Передать значение «(что-то) на память / памятный знак»: рассмотреть «памяти» (как «на память») либо компаунд по прав.45 «памятный-знак»/«память-сувенир»; при сохранении сегментации — «памятки» как более точное к keepsake, чем «напоминания».",
+  "alternatives": [
+   "памяти (в обороте «на память»)",
+   "памятного знака",
+   "память-сувенир (компаунд, прав.45)",
+   "памятки"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "seg_id": 148,
+  "lemma": "aufstecken",
+  "song": 2,
+  "current_ru": "водружённый",
+  "issue_type": "register",
+  "severity": "low",
+  "evidence_1820": "Adelung: «2) Auf etwas, besonders auf einen höhern Ort stecken. Ein Licht aufstecken, auf den Leuchter. Eine Flagge aufstecken, sie oben an dem Mastbaum befestigen. Den Pferden Heu aufstecken, auf die Raufe.»",
+  "context_note": "«Des Hauses aufgestecktes Schild» — знак/вывеска/флюгер, укреплённый высоко на доме. У Adelung'а aufstecken — нейтрально-бытовое (свеча на подсвечник, сено в ясли, флаг на мачту), без торжественной окраски. RU «водружённый» (от «водрузить») несёт оттенок торжественного, церемониального поднятия ввысь (ср. «водрузить знамя»), которого у нейтрального aufstecken нет (прав.29: не украшать поэтизмами обычное у Müller'а). Опора на БНРС «eine Fahne aufstecken — водрузить знамя» оправдывает выбор для флагоподобного предмета, поэтому отклонение мягкое.",
+  "proposal": "Рассмотреть более нейтральное «укреплённый»/«выставленный»/«установленный» вместо торжественного «водружённый»; либо оставить, признав, что предмет действительно поднят высоко на доме и БНРС санкционирует «водрузить» для флагоподобного крепления.",
+  "alternatives": [
+   "укреплённый",
+   "выставленный",
+   "установленный",
+   "поднятый"
+  ],
+  "confidence": "low"
+ },
+ {
+  "seg_id": 240,
+  "lemma": "durchstreichen",
+  "song": 4,
+  "current_ru": "Пересекла",
+  "issue_type": "imprecise",
+  "severity": "low",
+  "evidence_1820": "Adelung: «Flüchtig durchwandern ... Wie ängstlich ward von mir der ganze Hain durchstrichen! Wiel.»; Grimm 1b: «flüchtig durchwandern pervagari, durchstreifen, durchirren».",
+  "context_note": "Строка «Wo sie an meinem Arme / Durchstrich die grüne Flur» — герой вспоминает, как любимая под руку с ним неспешно ходила/бродила по зелёным просторам (Flur). Доминирующий смысл 1820-х у durchstreichen — «flüchtig durchwandern» (бродить/прохаживаться насквозь, исходить пространство), а не «пересечь из края в край». «Пересекла» выводит на первый план геометрию пересечения линии/границы и приглушает оттенок неспешного променада/блуждания, который и есть ядро durchstreichen. Сама аннотация признаёт основу «бродить», «двигаться», но финальный RU склонён к «пересечь/пройти насквозь». Смысл траверса в основном сохранён, выбор сигнализирован аннотацией, поэтому низкая важность.",
+  "proposal": "Рассмотреть рендер ближе к «бродить/прохаживаться насквозь»: «Прошлась по» / «Бродила по» зелёным просторам — сохраняет оттенок неспешного блуждания durchstreichen.",
+  "alternatives": [
+   "Прошлась (по)",
+   "Исходила",
+   "Бродила (по)"
+  ],
+  "confidence": "low"
+ },
+ {
+  "seg_id": 242,
+  "lemma": "Flur",
+  "song": 4,
+  "current_ru": "просторы",
+  "issue_type": "imprecise",
+  "severity": "medium",
+  "evidence_1820": "Adelung: «ebenes, flaches Feld, es sey Weide oder Getreidefeld, in der edlen oder höhern Schreibart… auf der grünen Flur»; Grimm: «campus, ager, seges, pascua… auf unsrer flur sind schönre schäferinnen»; Campe: «Ein ebenes, flaches Feld, sowol ein Feld das mit Getreide besäet ist, als auch das zur Weide dient».",
+  "context_note": "«Wo sie an meinem Arme / Durchstrich die grüne Flur» — она под руку с ним проходила по зелёному полю/лугу: это конкретный буколический образ открытого возделанного/пастбищного поля (edle/höhere Schreibart), что и подтверждает эпитет grüne (хрестоматийная коллокация «grüne Flur» = зелёное поле/луг, цитируется уже у Adelung). «Просторы» сдвигает к абстрактному «широкое открытое пространство»: обратная сверка RU→DE даёт просторы → die Weiten (БРНС, Multitran), а не Flur; немецко-русские словари для Flur II дают «по́ле, ни́ва; луг» (БНРС), «нива, поле» (Langenscheidt). Выбор сознательный и аннотирован («Die Flur — открытые „просторы“ за пределами леса и поселения»), но сама глосса воспроизводит ту же неточность: теряется ядерное значение 1820-х «(зелёное) поле/луг/нива» — кроме того, число (мн. „просторы“ против ед. Flur).",
+  "proposal": "Передать конкретным «поле»/«луга»/«нива» (ед.ч., elevated, соответствует Adelung „edle Schreibart“): «зелёное поле» или «зелёный луг»; «просторы» оставить лишь как пояснение в аннотации, если важна коннотация открытого незалесённого пространства.",
+  "alternatives": [
+   "поле (зелёное поле)",
+   "луга / луг (зелёный луг)",
+   "нива"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "seg_id": 160,
+  "lemma": "Frauenbild",
+  "song": 2,
+  "current_ru": "женщины образ",
+  "issue_type": "register",
+  "severity": "low",
+  "evidence_1820": "Adelung (Bed. 2): «Überhaupt, eine Person weiblichen Geschlechtes, doch nur im gemeinen Leben, und wenn von geringen Personen die Rede ist, zum Unterschiede von einem Mannsbilde»; Grimm: «frauenbild, n. femina, wie weibsbild und wie mannsbild mas».",
+  "context_note": "«ein treues Frauenbild» — релевантное значение 1820-х — Bed. 2 «(верная) женщина/особа женского пола», параллель Mannsbild = мужчина; буквальная Bed. 1 (Bildniß/Madonna/портрет) контексту не отвечает. Рендер «женщины образ» — СОЗНАТЕЛЬНЫЙ, сигнализированный выбор: meaning-аннотация прямо поясняет, что «во времена Мюллера по смыслу это означало просто „верная женщина“», а буквальный Bild сохранён ради сквозного мотива Bild/«образ» (ihr Bild в П.4, 7). Это не ошибка рендера. Единственный пробел: не отмечен сниженно-разговорный регистр Bed. 2 («nur im gemeinen Leben», «von geringen Personen») — контекстно активный оттенок (горечь, пренебрежение говорящего), отличающий Frauenbild от нейтрального Frau.",
+  "proposal": "Рендер и аннотацию не менять; при желании добавить в meaning-аннотацию одну фразу о сниженно-разговорной окраске Frauenbild в значении «женщина» (в отличие от нейтрального Frau).",
+  "alternatives": [
+   "оставить как есть (рендер мотивирован, значение поясняется аннотацией)",
+   "в аннотации отметить разговорно-сниженный регистр Bed. 2"
+  ],
+  "confidence": "low"
+ },
+ {
+  "seg_id": 1077,
+  "lemma": "Leib",
+  "song": 15,
+  "current_ru": "плоть",
+  "issue_type": "register",
+  "severity": "low",
+  "evidence_1820": "Adelung: «Gewöhnlich wird Leib jetzt nur noch vom thierischen Körper, sofern er der Wohnsitz und das Werkzeug einer Seele ist, gebraucht ... Es ist in dieser eigentlichen Bedeutung mit Körper gleichbedeutend» (Campe).",
+  "context_note": "Ворона рассматривает героя как добычу (Beute) и хочет «meinen Leib zu fassen». В 1820-х Leib — нейтральное обиходное обозначение живого (животного/человеческого) тела, синонимично Körper, противопоставлено душе; БНРС даёт первым «тело, туловище». RU «плоть» по словарям тяготеет к нем. Fleisch (БРНС: плоть → Fleisch первым; Leib лишь во второстепенной статье), а по Ушакову несёт книжно-церковный регистр и оттенок «тела как источника чувственности/похоти», которого у нейтрального Leib нет. Контекст падали/добычи делает «плоть» (мясо, которое ищет ворона-падальщик) защитимым и, вероятно, сознательным выбором, но он добавляет возвышенно-библейскую окраску и сдвиг к Fleisch, отсутствующие у Müller'а. Leib в цикле встречается единожды, конфликта с конвенцией «тело» нет.",
+  "proposal": "Рассмотреть нейтральное «тело» как более точное по регистру 1820-х; либо оставить «плоть» сознательно (контекст добычи/падали), но осознавая привнесённую возвышенно-церковную окраску.",
+  "alternatives": [
+   "тело",
+   "плоть (оставить — контекст падали/добычи)"
+  ],
+  "confidence": "low"
+ },
+ {
+  "seg_id": 930,
+  "lemma": "licht",
+  "song": 12,
+  "current_ru": "лучезарен!",
+  "issue_type": "register",
+  "severity": "low",
+  "evidence_1820": "Adelung: \"welches fast in allen seinen Bedeutungen nur im gemeinen Leben und der vertraulichen Sprechart üblich ist, dagegen die edlere dafür hell gebraucht ... viel eigenes Licht habend; hell\"",
+  "context_note": "Строка «Ach, dass die Welt so licht!» — кульминационное ироническое восклицание; по Adelung licht = «hell» (светлый, полный света). Песня осознанно строит антонимическую пару с П.1: trübe («сумрачный») ↔ licht. При этом hell в этой же и соседней песнях (П.12 helles → «светлой»; П.19 helles → «светлый») передаётся нейтральным «светлый». «Лучезарен» — заметно более возвышенное/сильное слово (с оттенком «испускающий лучи, ослепительный»), чем нейтральное «светел/ясен». По Adelung именно licht — слово gemeines Leben, а edler-эквивалент — hell; то есть более простое DE-слово получило более возвышенный RU-рендер, чем более «благородное» hell. Это даёт асимметрию регистра в паре «сумрачный»↔«лучезарен» и легкое усиление смысла. ОДНАКО: GWB (современник Мюллера) фиксирует, что в поэзии licht «in Bed 1 häufig als signifikant poetischer Ausdruck», что поддерживает поэтический рендер; выбор вплетён в аннотацию П.12 («мир... такой светлый/лучезарный»). Это пограничный регистрово-точностный нюанс, не явная ошибка.",
+  "proposal": "Рассмотреть нейтральный антоним к «сумрачный»: «светел!» / «ясен!», ровнее по регистру с передачей hell как «светлый» и точнее по силе значения licht = «hell».",
+  "alternatives": [
+   "светел!",
+   "ясен!",
+   "светлый!"
+  ],
+  "confidence": "low"
+ },
+ {
+  "seg_id": 1426,
+  "lemma": "Niedersinken",
+  "song": 21,
+  "current_ru": "изнеможения,",
+  "issue_type": "imprecise",
+  "severity": "low",
+  "evidence_1820": "Adelung: «Niedersinken... niederwärts sinken. Die Hände niedersinken lassen... Daher das Niedersinken.»",
+  "context_note": "Строка «Bin matt zum Niedersinken» = «слаб — до Niedersinken». Субстантивированный инфинитив das Niedersinken (Adelung/Campe/Grimm единодушно: «niederwärts, zu Boden sinken») обозначает само ДЕЙСТВИЕ оседания/падения наземь от слабости (Campe: «in die Knie sinken aus Schwäche, Ohnmacht»), а не СОСТОЯНИЕ изнурённости. RU «слаб до изнеможения» подменяет действие (упасть) на причину-состояние (изнеможение), которое смыслово дублирует уже стоящее рядом matt («слаб»): получается «слаб до изнеможения» ≈ «слаб до слабости». Ни один словарь (БНРС, Multitran) не даёт для Niedersinken «изнеможение» — там «падать, упасть (б.ч. без сил), опуститься, тонуть». Отступление сознательное и ЧЕСТНО оговорено в lang-аннотации сегмента («вниз-опускание... настолько слаб, что вот-вот упадёт»), что снижает остроту проблемы; флагирую только как мягкую неточность по прав. 1·32 (приставка nieder- несёт направление «вниз/наземь»).",
+  "proposal": "Сохранить образ оседания наземь: «слаб до падения» (matt zum Niedersinken → «слаб — до падения наземь»), что прямо передаёт nieder- + sinken и снимает тавтологию с matt.",
+  "alternatives": [
+   "до падения",
+   "до того, чтоб упасть",
+   "так слаб, что вот-вот упаду"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "seg_id": 270,
+  "lemma": "Rasen",
+  "song": 4,
+  "current_ru": "Трава",
+  "issue_type": "inconsistent_render",
+  "severity": "low",
+  "evidence_1820": "rasen heiszt zunächst ein rasenstück, ausgestochenes stück erde mit dem graswuchs darauf (Grimm DWB)",
+  "context_note": "В песне 4 Rasen («Der Rasen sieht so blass») и Gras («grünes Gras» двумя строками выше) переданы одним и тем же RU «трава». Rasen — это травяной покров/дёрн/дернина (Grimm: «rasenstück... stück erde mit dem graswuchs darauf»; БНРС: «травяной покров, лужайка, дернина, дёрн, газон»), другое слово, чем Gras (просто трава). Существующая lang-аннотация прямо признаёт расхождение: «Rasen — травяной покров, другое слово, нежели Gras (трава)... но очень близкое по смыслу». То есть выбор сознательный и просигнализирован (правило 6), но лексическое различие Gras/Rasen в одной песне в самом подстрочнике стёрто (ср. правило 28: близкие слова в одной песне — разные RU). «Трава» контекстно защитима (бледнеющая травяная земля), поэтому это лишь минорная непоследовательность, а не ошибка смысла.",
+  "proposal": "Оставить «Трава» допустимо (выбор сознательный, аннотация сигнализирует). Если же реализовать различение Gras≠Rasen в самом RU — взять слово травяного покрова/дёрна, напр. «Дёрн» или «Травяной покров»; это сохранит контраст с «траву» (Gras) выше по тексту.",
+  "alternatives": [
+   "Дёрн",
+   "Травяной покров",
+   "Мурава"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "seg_id": 786,
+  "lemma": "regen",
+  "song": 10,
+  "current_ru": "встрепенётся!",
+  "issue_type": "imprecise",
+  "severity": "low",
+  "evidence_1820": "verb. reg. act. welches mit bewegen gleichbedeutend ist, im Hochdeutschen aber am häufigsten nur von einer geringen, schwachen Bewegung gebraucht wird ... von einer lebhaften, heftigen Bewegung im Hochdeutschen wohl nicht gebraucht",
+  "context_note": "Строка «Fühlst ... deinen Wurm / Mit heißem Stich sich regen!» — герой чувствует, как червь в сердце приходит в движение с горячим жалом. AcI передан «как ... встрепенётся». По Adelung/Campe ядро sich regen в 1820-е — geringe, schwache Bewegung (geringe/leichte Bewegung), а фигуративно «sein Daseyn durch schwache Wirkungen merklich machen» (проявить себя, ожить). БНРС даёт для фигуративного sich regen «шевельнуться, дрогнуть; проявить себя». RU «встрепенуться» вносит оттенок внезапного, энергичного оживления/вздрагивания (часто о птице — взмах крыльев), которого в нейтральном DE-слове нет. Это сознательный поэтический выбор (червь с горячим жалом, оживающий в притихшем сердце) и лежит близко к фигуративному значению, поэтому — на усмотрение: возможно, более нейтральное «шевельнётся/зашевелится» точнее по градации Adelung. Не считать твёрдой ошибкой.",
+  "proposal": "Оставить как сознательный поэтический выбор ИЛИ рассмотреть более нейтральное «шевельнётся» / «зашевелится», точнее отражающее adelunговскую «geringe, schwache Bewegung» и фигуративное «проявить себя».",
+  "alternatives": [
+   "шевельнётся",
+   "зашевелится",
+   "дрогнет"
+  ],
+  "confidence": "low"
+ },
+ {
+  "seg_id": 997,
+  "lemma": "Schein",
+  "song": 14,
+  "current_ru": "блеск",
+  "issue_type": "imprecise",
+  "severity": "medium",
+  "evidence_1820": "Campe: «das eigenthümliche oder auch erborgte Licht eines Körpers... wodurch es von dem schwächern Schimmer und dem stärkern Glanze verschieden ist. Vergl. Schimmer, Flimmer und Glanz.»",
+  "context_note": "«Der Reif hat einen weißen Schein / Mir über's Haar gestreuet» — иней набросил на волосы белый Schein, отчего голова кажется седой; смысл строки в БЛЕДНОЙ БЕЛИЗНЕ/отсвете, а не в яркой искристости. По Campe Schein — средний член триады: слабее Glanz («стронгер Glanze») и сильнее Schimmer. RU «блеск» соответствует именно Glanz (сильный член): БРНС «блеск → Glanz, Schein», Multitran «блеск → Glanz; Schimmer», Ушаков «блеск — яркий, сияющий свет»; БНРС прямо ограничивает «блеск» для Schein узким случаем «блеск (металла и т.п.)», а иней — не металлический блеск. Таким образом «блеск» завышает интенсивность и привносит искристость, которой в weißen Schein инея нет. Schein встречается в цикле единственный раз (П.14), конвенции-контраста с Glanz/Schimmer нет, выбор не обсуждался в истории правок.",
+  "proposal": "белый отсвет / сияние (например «Иней белым отсветом / припорошил мне волосы»), либо «белое сияние»",
+  "alternatives": [
+   "отсвет",
+   "сияние",
+   "белый свет/налёт"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "seg_id": 1360,
+  "lemma": "sonder",
+  "song": 20,
+  "current_ru": "без",
+  "issue_type": "register",
+  "severity": "low",
+  "evidence_1820": "Adelung: «Sonder, ein Vorwort, welches mit ohne gleich bedeutend ist... aber im gemeinen Sprachgebrauche der Hochdeutschen veraltet ist, und nur noch zuweilen gebraucht wird, besonders bey den Dichtern.»",
+  "context_note": "«Und ich wandre sonder Maßen» — sonder Maßen = «ohne Maßen» = «без меры/безмерно»; смысл «без» передан ВЕРНО. Проблема только в регистре: sonder в 1820-х — осознанный поэтический архаизм (Adelung «veraltet... besonders bey den Dichtern»; ср. DWDS «dichterisch», Duden «gehoben veraltend»). Müller выбрал архаичную форму вместо нейтрального ohne. Нейтральное «без» этот поэтико-архаический оттенок утрачивает (прав. 29 — регистр двунаправленно).",
+  "proposal": "Рендер «без» оставить как есть — это единственно верный перевод смысла. В русском НЕТ архаичного/поэтического предлога со значением «без» (есть только «без»/фонетич. «безо»), поэтому правка слова невозможна и НЕ требуется. Потеря регистра неустранима на уровне слова; при желании компенсируется опциональной meaning-аннотацией (sonder — поэтический архаизм вместо нейтрального ohne).",
+  "alternatives": [],
+  "confidence": "high"
+ },
+ {
+  "seg_id": 1260,
+  "lemma": "tanzen",
+  "song": 19,
+  "current_ru": "в танце движется",
+  "issue_type": "imprecise",
+  "severity": "medium",
+  "evidence_1820": "Adelung: «Eigentlich, anhaltend oder zu wiederhohlten Mahlen springen, sich schnell auf und nieder bewegen; in welcher vermuthlich ursprünglichen Bewegung es noch hin und wieder vorkommt. Die Sonnenstrahlen tanzen in den Fluthen.»",
+  "context_note": "Строка «Ein Licht tanzt freundlich vor mir her» — блуждающий огонь «танцует» перед героем. Это ровно тот переносный тип, что Adelung иллюстрирует «Die Sonnenstrahlen tanzen in den Fluthen» (свет/лучи tanzen). Однословный точный эквивалент — «танцует» (BNRS: «Sonnenstrahlen tanzen auf dem Wasser — лучи солнца танцуют»). Направительность передаёт отдельный сегмент her→«вперёд», поэтому глаголу tanzt не нужно вбирать перемещение. Текущая lang-аннотация сама признаёт: «Дословно — танцует... движение уже заложено в глагол танцевать» — то есть «движется» избыточно и аргументация внутренне противоречива (если движение уже в «танцевать», то добавлять «движется» не нужно). Перифраз «в танце движется» разбавляет живость одноглагольного образа и добавляет оттенок (перемещение), который уже покрыт her→«вперёд». Это сознательный, аннотированный выбор, но «танцует» точнее и единообразнее (прав.28 «одно DE = один RU»; прав.45 — компаунд/перифраз только когда нет однословного эквивалента, а здесь он есть).",
+  "proposal": "танцует",
+  "alternatives": [
+   "пляшет"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "seg_id": 899,
+  "lemma": "Tanne",
+  "song": 12,
+  "current_ru": "ели",
+  "issue_type": "imprecise",
+  "severity": "low",
+  "evidence_1820": "Campe: «die gemeine Tanne, Weißtanne, Silbertanne, Edeltanne, der Tannenbaum... (Pinus abies L.)... Rothtanne, Pechtanne heißt die gemeine Fichte, nach einer bei diesen Bäumen nicht seltenen Verwechselung.» Adelung: «eine Art Fichten... die Weiß- oder Edeltanne, welche auch nur Tanne schlechthin heißt.»",
+  "context_note": "«Wenn in der Tanne Wipfel» — единственный хвойный во всём цикле, дифференцировать от Fichte внутри текста не требуется. Строго ботанически Tanne = пихта (Abies), а ель = Fichte (Picea); Campe прямо отмечает, что называние Fichte «Rothtanne» — это «Verwechselung» (путаница). Langenscheidt и лесоводч. словари дают «пихта» первым. Однако источники амбивалентны: Adelung «eine Art Fichten», Grimm «auch die fichte», DWDS/Pfeifer «landschaftlich auch Fichte», БНРС даёт «1. ель; 2. пихта». То есть «ель» — широко засвидетельствованный обиходный эквивалент, и в поэтическом нетерминологическом контексте русское «ель» — естественный образ тёмного хвойного дерева. Расхождение пограничное и защитимое; флагирую как лёгкую неточность, поскольку наиболее авторитетные 1820-е (Adelung+Campe) определяют Tanne именно как Weiß-/Edeltanne = пихта.",
+  "proposal": "Оставить «ель» (защитимо обиходным словоупотреблением), но рассмотреть «пихта» как ботанически точный эквивалент 1820-х; при сохранении «ель» — отметить расхождение Tanne/пихта короткой meaning- или lang-аннотацией.",
+  "alternatives": [
+   "пихты"
+  ],
+  "confidence": "low"
+ },
+ {
+  "seg_id": 1224,
+  "lemma": "umher",
+  "song": 18,
+  "current_ru": "Кругом",
+  "issue_type": "register",
+  "severity": "low",
+  "evidence_1820": "Adelung: «in der anständigern Schreib- und Sprechart für herum gebraucht wird»; Campe: «Umhér, adv. das edlere Wort für herum»",
+  "context_note": "Строка «Umher in mattem Streit» — клочья облаков слабо треплются кругом/на все стороны после бури. По смыслу «Кругом» = «на все стороны, в окружности» передаёт значение Adelung («In unbestimmter Nähe oder Ferne um einen Gegenstand») точно. Замечание чисто регистровое: в 1820-е umher маркировано как более возвышенная/изысканная (anständigere/edlere) форма по отношению к разговорному herum; современный Duden подтверждает «meist gehoben». Русское «Кругом» регистрово нейтрально (БНРС/Langenscheidt дают «кругом, вокруг» одинаково и для umher, и для herum). По правилу 29(a) возвышенное DE желательно передавать возвышенным RU. Это не ошибка смысла, а возможная потеря регистрового оттенка; «Кругом» защитимо как стандартный нейтральный эквивалент, тем более что общий регистр строфы скорее простой.",
+  "proposal": "Оставить «Кругом» допустимо (смысл точен); при желании сохранить возвышенный регистр 1820-х — рассмотреть «Окрест» (поэт./gehoben, период-уместно) или «вкруг».",
+  "alternatives": [
+   "Окрест",
+   "вкруг",
+   "Вокруг"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "seg_id": 891,
+  "lemma": "Wolke",
+  "song": 12,
+  "current_ru": "туча",
+  "issue_type": "imprecise",
+  "severity": "low",
+  "evidence_1820": "Adelung: «Eine Menge wässeriger Dünste, welche in sichtbarer Gestalt in der obern Luft schweben. Eine Regenwolke, Gewitterwolke u. s. f.» — родовое слово для облака любого рода; БНРС даёт первым «о́блако», затем «ту́ча».",
+  "context_note": "Строка «Wie eine trübe Wolke / Durch heitre Lüfte geht». Немецкое Wolke — нейтральное родовое «облако»; тёмно-сумрачную окраску несёт отдельный модификатор trübe (передан как «сумрачная»). RU «туча» само по себе маркировано (Ушаков: «Большое, обычно темное облако, несущее дождь, град, снег»), поэтому пара «сумрачная туча» слегка дублирует/усиливает мрачность, которую DE кодирует только через trübe; нейтральный дефолт для голого Wolke — «облако». Выбор аннотирован (в самой аннотации к сегменту автор колеблется: «„облако/туча“»), контекст одинокого тёмного облака на фоне ясного неба «тучу» поддерживает, и эквивалент засвидетельствован в БНРС/Langenscheidt/Multitran — поэтому это не ошибка, а пограничная точность/регистр. Производный компаунд Wolkenfetzen (П.18) при этом передан нейтральным корнем «облак-» («Облаков клочья»), что подчёркивает: для голого Wolke естественнее было бы «облако».",
+  "proposal": "Рассмотреть «сумрачное облако» (максимально нейтрально-дефолтная пара trübe+Wolke); «туча» оставить допустимо при сознательном акценте на мрачности, но тогда trübe + туча несут оттенок дважды.",
+  "alternatives": [
+   "сумрачное облако",
+   "оставить «туча» как сознательный контекстный выбор (аннотировано)"
+  ],
+  "confidence": "low"
+ },
+ {
+  "seg_id": 233,
+  "lemma": "Wonne",
+  "song": 11,
+  "current_ru": "Нега",
+  "issue_type": "imprecise",
+  "severity": "low",
+  "evidence_1820": "Campe: «Die Wonne ... ein hoher Grad des Vergnügens, der Freude, lebhafte innige Freude, frei von aller unangenehmen Empfindung» (высокая степень удовольствия, радости, живая сердечная радость)",
+  "context_note": "Строка «Von Wonne und Seligkeit» в сне героя о любви; Wonne ↔ «Нега», парное Seligkeit ↔ «блаженство». Wonne встречается в цикле единожды, сквозной конвенции нет, так что дифференциация с «блаженством» оправдана. Однако ядро Wonne (по Campe/DWDS) — это интенсивная радость/восторг/упоение («hoher Grad ... der Freude», DWDS gehoben «beglückendes Gefühl tiefster Freude ... Glückseligkeit»), тогда как русское «нега» несёт прежде всего оттенок томной сладостной истомы / неподвижного довольства / чувственной расслабленности (синонимич. ряд из словаря: «кейф, томление, ласка, удовольствие» наряду с «блаженство, упоение»). «Нега» смягчает интенсивность Wonne и добавляет отсутствующий у Müller'а оттенок истомы/чувственного покоя. Кандидат «нега» подтверждён только Multitran (помета единственного пользователя «фабянь») и обратной сверкой БРНС (нега→Wonne есть), то есть лексикографически допустим, но среди RU-кандидатов наименее точен по интенсивности.",
+  "proposal": "Рассмотреть «упоение» (или «восторг»/«блаженство-восторг») вместо «Нега» — точнее передаёт «hoher Grad der Freude»; либо оставить «Нега» как сознательную поэтическую дифференциацию с парным «блаженство», но осознавать сдвиг акцента (истома вместо восторга).",
+  "alternatives": [
+   "упоение",
+   "восторг",
+   "блаженство (с переразбивкой пары)"
+  ],
+  "confidence": "low"
+ },
+ {
+  "seg_id": 1187,
+  "lemma": "übrig",
+  "song": 17,
+  "current_ru": "оставили,",
+  "issue_type": "lost_meaning",
+  "severity": "low",
+  "evidence_1820": "Adelung: «übrig... was außer der gemeldeten oder bestimmten Quantität eines Dinges eben derselben Art noch da oder vorhanden ist... Übrig haben, mehr als man zur Nothdurft und Bequemlichkeit bedarf»; «Etwas übrig lassen»",
+  "context_note": "Строка «Und hoffen, was sie noch übrig ließen, Doch wieder zu finden» — люди надеются СНОВА найти то, что ещё оставили (в остатке / про запас / непотраченным) — сны-мечты, к которым они вернутся следующей ночью. übrig — отдельное знаменательное прилагательное (noch vorhanden / restlich / mehr als man bedarf), но в подстрочнике слито с ließen в одно RU «оставили» без собственного отражения. «оставили» передаёт lassen, но глушит активный здесь оттенок übrig — «оставшееся / непотраченное / про запас» (именно к НЕ дожитому/недопотреблённому пласту сна они надеются вернуться). Сам проектный pending-файл по П.17 помечает это: «noch übrig ließen → ещё про запас оставили; идиома übrig lassen = оставлять про запас; аннотация желательна». БНРС/Langenscheidt дают семью оставить/оставлять как штатный эквивалент übrig lassen, поэтому «оставили» допустимо как идиоматическая передача фразового глагола (прав.16/4) — это не ошибка значения, а тонкая потеря коннотации остатка/запаса.",
+  "proposal": "Рассмотреть уточнение оттенка «остатка/запаса»: «ещё про запас оставили» (übrig → «про запас» отдельным сегментом с пустым de или в составе) ЛИБО оставить «оставили», но добавить lang/meaning-аннотацию об идиоме übrig lassen = «оставлять про запас / в остатке» (что они надеются вернуться именно к непрожитой, оставленной во сне доле). Минимально — аннотация, как и помечено в pending-записи П.17.",
+  "alternatives": [
+   "ещё про запас оставили",
+   "оставили (без изменения) + аннотация: идиома übrig lassen = «оставлять про запас / непотраченным»",
+   "ещё в остатке оставили"
+  ],
+  "confidence": "medium"
+ }
+]

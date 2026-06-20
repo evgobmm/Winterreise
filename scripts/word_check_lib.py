@@ -80,6 +80,20 @@ def _save_raw(raw_dir, source, ext, content):
     return path
 
 
+def _clean_ru(ru):
+    """Очистить RU-кандидат для поиска: снять пунктуацию/кавычки/тире по краям."""
+    return (ru or "").strip(" \t\n.,!?;:—–-«»\"'()[]").strip()
+
+
+def _academic_general(body, direction):
+    """Извлечь переводы academic.ru. Якорь translate_definition (первая статья) + ШИРОКОЕ окно,
+    чтобы в него попал и общий словарь (Цвиллинг/Универсальный), даже если первым идёт узкий
+    (политехн. и т.п.). direction оставлен для совместимости вызова."""
+    m = re.search(r'class="translate_definition"', body)
+    chunk = body[m.start():] if m else body
+    return _strip(chunk, 1500)
+
+
 def _strip(h, limit=1200):
     t = re.sub(r"<script[^>]*>.*?</script>", " ", h, flags=re.S)
     t = re.sub(r"<style[^>]*>.*?</style>", " ", t, flags=re.S)
@@ -104,33 +118,105 @@ def _latin1_quote(word):
         return urllib.parse.quote(word)
 
 
+def _norm_ortho(s):
+    """Нормализация орфографии для сверки: th→t, ß→ss, dt→t (1820-е ↔ совр.)."""
+    s = html.unescape(s).strip().lower()
+    return s.replace("th", "t").replace("ß", "ss").replace("dt", "t")
+
+
+def _ortho_variants(word):
+    """Орфографические варианты 1820-х: все комбинации t↔th (≤3 t) + ß↔ss + todt.
+    Над-генерация безопасна — попадание принимается только по _norm_ortho-сверке."""
+    import itertools
+    pos = [i for i, c in enumerate(word) if c in "tT"
+           and not (i + 1 < len(word) and word[i + 1] in "hH")]
+    if len(pos) <= 4:
+        combos = []
+        for mask in itertools.product((0, 1), repeat=len(pos)):
+            chosen = {pos[k] for k in range(len(pos)) if mask[k]}
+            # приоритет: оригинал → меньше вставок → начальное th-вставление ПОСЛЕДНИМ
+            # (Th- редко и коллизионно: thot≈tot, thür≈tür).
+            touches_initial = 1 if (pos and pos[0] == 0 and 0 in chosen) else 0
+            out = []
+            for i, c in enumerate(word):
+                out.append(c)
+                if i in chosen:
+                    out.append("h")
+            combos.append(((touches_initial, len(chosen)), "".join(out)))
+        combos.sort(key=lambda x: x[0])
+        cands = [c for _, c in combos]
+    else:
+        cands = [word] + ([word + "h"] if word.endswith("t") else [])
+    # dt-форма (todt) — сразу после оригинала, выше th-вариантов
+    if "tot" in word.lower():
+        cands.insert(1, re.sub("(?i)tot", "todt", word))
+    for c in list(cands):
+        if "ß" in c:
+            cands.append(c.replace("ß", "ss"))
+        if "ss" in c:
+            cands.append(c.replace("ss", "ß"))
+    return list(dict.fromkeys(cands))
+
+
+def _headword_variants(word):
+    """Орфо-варианты + морфологические формы заголовка словаря 1820-х:
+    ±трейлинг -e (Geselle↔Gesell, eng↔enge), причастие -end→-en (glühend→glühen)."""
+    forms = [word]
+    if word.endswith("e"):
+        forms.append(word[:-1])
+    else:
+        forms.append(word + "e")
+    if word.endswith("end"):
+        forms.append(word[:-1])  # glühend → glühen
+    out = []
+    for f in forms:
+        out += _ortho_variants(f)
+    return list(dict.fromkeys(out))
+
+
+def _lemma_match(label, word):
+    """Сверка заголовка словаря с искомым словом: точное норм-совпадение
+    ИЛИ различие лишь на трейлинг -e / причастное -end↔-en."""
+    a, b = _norm_ortho(label), _norm_ortho(word)
+    if a == b:
+        return True
+    if a == b + "e" or a + "e" == b:
+        return True
+    if b.endswith("d") and a == b[:-1]:   # glühen ← glühend
+        return True
+    if a.endswith("d") and b == a[:-1]:
+        return True
+    return False
+
+
 # ---------- A. Толковые 1820-х ----------
 
 def src_adelung(word, raw_dir):
     name, group = "Adelung Wien 1811 (BSB)", "A"
-    # поиск с Latin-1 + орфографич. альтернативы 1820-х
-    alts = [word]
-    if word[:1] in "Tt" and word[:2].lower() != "th":
-        alts.append(word[0] + "h" + word[1:])
-    if word[:3].lower() == "tot":
-        alts.append(word[0] + "od" + word[2:])
+    # поиск с Latin-1 + орфо- и морфо-варианты заголовка 1820-х (t↔th, ß↔ss, ±-e, причастие)
+    alts = _headword_variants(word)
     search_url = ""
+    matched = None
+    fallback = None
     for form in alts:
         search_url = f"https://lexika.digitale-sammlungen.de/adelung/suche/abfrage?lemma={_latin1_quote(form)}"
         ok, code, body = _raw_fetch(search_url)
         if not ok:
             continue
         hits = re.findall(r'href="\.\./lemma/(bsb\d+_\d+_\d+_\d+)"[^>]*>([^<]+)', body)
-        if hits:
-            # выбрать лемму, ближе к искомой (по нормализованной метке)
-            def norm(s): return html.unescape(s).strip().lower()
-            best = None
-            for lid, label in hits:
-                if norm(label) == word.lower():
-                    best = (lid, label); break
-            if best is None:
-                best = (hits[0][0], hits[0][1])
-            lid, label = best
+        if not hits:
+            continue
+        if fallback is None:
+            fallback = (hits[0][0], hits[0][1])
+        for lid, label in hits:
+            if _lemma_match(label, word):
+                matched = (lid, label)
+                break
+        if matched:
+            break
+    use = matched or fallback
+    if use:
+            lid, label = use
             lemma_url = f"https://lexika.digitale-sammlungen.de/adelung/lemma/{lid}"
             ok2, c2, page = _raw_fetch(lemma_url)
             path = _save_raw(raw_dir, "A_adelung", "html", page if ok2 else body)
@@ -154,17 +240,28 @@ def src_adelung(word, raw_dir):
 
 
 def _wbnetz_article(sigle, word, prefer_gram=None):
-    """woerterbuchnetz API: lemma→lemid→article tokens. Возвращает (url, lemmas, text)."""
-    q = urllib.parse.quote(word)
-    lem_url = f"{WBNET_API}/dictionaries/{sigle}/lemmata/lemma/{q}/20/json"
-    ok, code, body = _raw_fetch(lem_url)
-    if not ok:
-        return lem_url, [], f"❌ поиск леммы: {body}"
-    try:
-        lemmas = json.loads(body)
-    except Exception as e:
-        return lem_url, [], f"❌ JSON: {e}"
-    if not isinstance(lemmas, list) or not lemmas:
+    """woerterbuchnetz API: lemma→lemid→article tokens. Возвращает (url, lemmas, text).
+    Перебирает орфографич. варианты 1820-х, принимает по _norm_ortho-сверке метки."""
+    lemmas = []
+    lem_url = ""
+    for form in _headword_variants(word):
+        q = urllib.parse.quote(form)
+        lem_url = f"{WBNET_API}/dictionaries/{sigle}/lemmata/lemma/{q}/20/json"
+        ok, code, body = _raw_fetch(lem_url)
+        if not ok:
+            continue
+        try:
+            cand = json.loads(body)
+        except Exception:
+            cand = []
+        if isinstance(cand, list) and cand:
+            good = [L for L in cand if _lemma_match(L.get("label", ""), word)]
+            if good:
+                lemmas = good
+                break
+            if not lemmas:
+                lemmas = cand  # запасной, продолжаем искать точное норм-совпадение
+    if not lemmas:
         return lem_url, [], "❌ нет леммы"
     # выбрать lemid: предпочесть нужную часть речи, иначе первую
     chosen = lemmas[0]
@@ -200,54 +297,70 @@ def src_campe(word, raw_dir):
 
 def src_grimm(word, raw_dir):
     name, group = "Grimm DWB", "A"
-    url = f"https://www.dwds.de/wb/dwb/{urllib.parse.quote(word.lower())}"
-    ok, code, body = _raw_fetch(url)
-    path = _save_raw(raw_dir, "A_grimm", "html", body if ok else str(body))
-    if not ok:
-        return dict(name=name, group=group, url=url, status="❌", text=str(body), raw=path)
-    if "Diese Seite existiert nicht" in body:
-        return dict(name=name, group=group, url=url, status="❌ нет статьи", text="", raw=path)
-    m = re.search(r'class="dwb-entry"', body)
-    start = m.start() if m else 0
-    # некоторые статьи лидируют огромным списком вложенных композитов
-    # («eingebettete Stichwörter») — пропустить его до первого значения dwb-sense.
-    head_end = body.find("eingebettete Stichw", start)
-    sense = re.search(r'class="dwb-sense"', body)
-    if head_end != -1 and sense and sense.start() > head_end:
-        head = _strip(body[start:head_end], 700)
-        senses = _strip(body[sense.start():], 2200)
-        text = head + " […значения:] " + senses
-    else:
-        text = _strip(body[start:], 2800)
-    return dict(name=name, group=group, url=url, status="✓", text=text, raw=path)
+    url = ""
+    for form in _headword_variants(word):
+        url = f"https://www.dwds.de/wb/dwb/{urllib.parse.quote(form.lower())}"
+        ok, code, body = _raw_fetch(url)
+        if not (ok and 'class="dwb-entry"' in body and "Diese Seite existiert nicht" not in body):
+            continue
+        m = re.search(r'class="dwb-entry"', body)
+        # guard: заголовок статьи совпал с искомым (dwds отдаёт ближайшее) ИЛИ слово —
+        # вложенный Stichwort в статье базового слова (Tritt в статье treten).
+        lead = re.sub(r'^[^>]*>\s*', '', _strip(body[m.start():m.start() + 300], 300))
+        hw = re.match(r'([a-zäöüß]+)', lead.lower())
+        head_ok = hw and _lemma_match(hw.group(1), word)
+        si = body.find("eingebettete Stichw")
+        embedded = si != -1 and re.search(r'\b' + re.escape(form.lower()) + r'\b',
+                                          _strip(body[si:si + 5000], 5000).lower())
+        if not head_ok and not embedded:
+            continue
+        path = _save_raw(raw_dir, "A_grimm", "html", body)
+        start = m.start() if m else 0
+        # некоторые статьи лидируют огромным списком вложенных композитов
+        # («eingebettete Stichwörter») — пропустить его до первого значения dwb-sense.
+        head_end = body.find("eingebettete Stichw", start)
+        sense = re.search(r'class="dwb-sense"', body)
+        if head_end != -1 and sense and sense.start() > head_end:
+            head = _strip(body[start:head_end], 700)
+            senses = _strip(body[sense.start():], 2200)
+            text = head + " […значения:] " + senses
+        else:
+            text = _strip(body[start:], 2800)
+        return dict(name=name, group=group, url=url, status="✓", text=text, raw=path)
+    return dict(name=name, group=group, url=url, status="❌ нет статьи", text="", raw="")
 
 
 # ---------- A'. Современные толковые/этимол. ----------
 
 def src_dwds(word, raw_dir):
     name, group = "DWDS", "A'"
-    url = f"https://www.dwds.de/wb/{urllib.parse.quote(word.lower())}"
-    ok, code, body = _raw_fetch(url)
-    path = _save_raw(raw_dir, "Am_dwds", "html", body if ok else str(body))
-    if not ok:
-        return dict(name=name, group=group, url=url, status="❌", text=str(body), raw=path)
-    m = re.search(r'class="dwdswb-lesart-def"|class="dwdswb-definitionen?"|class="dwdswb-lesarten?"', body)
-    chunk = body[m.start():] if m else body
-    return dict(name=name, group=group, url=url, status="✓", text=_strip(chunk, 1300), raw=path)
+    url = ""
+    for form in _headword_variants(word):
+        url = f"https://www.dwds.de/wb/{urllib.parse.quote(form.lower())}"
+        ok, code, body = _raw_fetch(url)
+        if not (ok and ("dwdswb-lesart" in body or "dwdswb-definition" in body)):
+            continue
+        path = _save_raw(raw_dir, "Am_dwds", "html", body)
+        m = re.search(r'class="dwdswb-lesart-def"|class="dwdswb-definitionen?"|class="dwdswb-lesarten?"', body)
+        chunk = body[m.start():] if m else body
+        return dict(name=name, group=group, url=url, status="✓", text=_strip(chunk, 1300), raw=path)
+    return dict(name=name, group=group, url=url, status="❌ нет статьи", text="", raw="")
 
 
 def src_pfeifer(word, raw_dir):
     name, group = "Pfeifer EtymWb", "A'"
-    url = f"https://www.dwds.de/wb/etymwb/{urllib.parse.quote(word.lower())}"
-    ok, code, body = _raw_fetch(url)
-    path = _save_raw(raw_dir, "Am_pfeifer", "html", body if ok else str(body))
-    if not ok:
-        return dict(name=name, group=group, url=url, status="❌", text=str(body), raw=path)
-    if "Diese Seite existiert nicht" in body:
-        return dict(name=name, group=group, url=url, status="❌ нет статьи", text="", raw=path)
-    m = re.search(r'class="dwdswb-ft-blocktext"|Etymolog|class="dwdswb-etymwb', body)
-    chunk = body[m.start():] if m else body
-    return dict(name=name, group=group, url=url, status="✓", text=_strip(chunk, 1000), raw=path)
+    url = ""
+    for form in _headword_variants(word):
+        url = f"https://www.dwds.de/wb/etymwb/{urllib.parse.quote(form.lower())}"
+        ok, code, body = _raw_fetch(url)
+        # статья только если есть байлайн «(Wolfgang Pfeifer)» (выборочный словарь: у многих слов статьи нет)
+        if not (ok and "(Wolfgang Pfeifer)" in body and "Diese Seite existiert nicht" not in body):
+            continue
+        path = _save_raw(raw_dir, "Am_pfeifer", "html", body)
+        m = re.search(r"\(Wolfgang Pfeifer\)", body)
+        chunk = body[m.end():] if m else body
+        return dict(name=name, group=group, url=url, status="✓", text=_strip(chunk, 1100), raw=path)
+    return dict(name=name, group=group, url=url, status="❌ нет статьи (нет в EtymWb)", text="", raw="")
 
 
 def src_duden(word, raw_dir):
@@ -278,16 +391,19 @@ def src_duden_syn(word, raw_dir):
 
 def src_wiktionary(word, raw_dir):
     name, group = "Wiktionary DE", "A'"
-    url = f"https://de.wiktionary.org/wiki/{urllib.parse.quote(word)}"
-    ok, code, body = _raw_fetch(url)
-    path = _save_raw(raw_dir, "Am_wiktionary", "html", body if ok else str(body))
-    if not ok:
-        return dict(name=name, group=group, url=url, status="❌", text=str(body), raw=path)
-    if "Es existiert noch kein Eintrag" in body or "Diese Seite existiert nicht" in body:
-        return dict(name=name, group=group, url=url, status="❌ нет статьи", text="", raw=path)
-    m = re.search(r'Bedeutungen', body)
-    chunk = body[m.start():] if m else body
-    return dict(name=name, group=group, url=url, status="✓", text=_strip(chunk, 900), raw=path)
+    url = ""
+    for form in _headword_variants(word):
+        url = f"https://de.wiktionary.org/wiki/{urllib.parse.quote(form)}"
+        ok, code, body = _raw_fetch(url)
+        if not ok:
+            continue
+        if "Es existiert noch kein Eintrag" in body or "Diese Seite existiert nicht" in body or "Bedeutungen" not in body:
+            continue
+        path = _save_raw(raw_dir, "Am_wiktionary", "html", body)
+        m = re.search(r'Bedeutungen', body)
+        chunk = body[m.start():] if m else body
+        return dict(name=name, group=group, url=url, status="✓", text=_strip(chunk, 900), raw=path)
+    return dict(name=name, group=group, url=url, status="❌ нет статьи", text="", raw="")
 
 
 def src_leipzig(word, raw_dir):
@@ -329,9 +445,8 @@ def src_bnrs(word, raw_dir):
     path = _save_raw(raw_dir, "B_bnrs", "html", body if ok else str(body))
     if not ok:
         return dict(name=name, group=group, url=url, status=f"❌ {body}", text="", raw=path)
-    m = re.search(r'class="translate_definition"', body) or re.search(r'class="dictionary"', body)
-    chunk = body[m.start():] if m else body
-    return dict(name=name, group=group, url=url, status="✓", text=_strip(chunk, 1100), raw=path)
+    text = _academic_general(body, "немецко-русский")
+    return dict(name=name, group=group, url=url, status="✓", text=text, raw=path)
 
 
 def src_multitran_de(word, raw_dir):
@@ -378,19 +493,18 @@ def src_langenscheidt(word, raw_dir):
 
 def src_brns(ru, raw_dir):
     name, group = f"БРНС (academic.ru) RU→DE «{ru}»", "C"
-    url = f"https://translate.academic.ru/{urllib.parse.quote(ru)}/ru/de/"
+    url = f"https://translate.academic.ru/{urllib.parse.quote(_clean_ru(ru))}/ru/de/"
     ok, code, body = _raw_fetch(url, host_throttle=True)
     path = _save_raw(raw_dir, f"C_brns_{ru}", "html", body if ok else str(body))
     if not ok:
         return dict(name=name, group=group, url=url, status=f"❌ {body}", text="", raw=path)
-    m = re.search(r'class="translate_definition"', body) or re.search(r'class="dictionary"', body)
-    chunk = body[m.start():] if m else body
-    return dict(name=name, group=group, url=url, status="✓", text=_strip(chunk, 900), raw=path)
+    text = _academic_general(body, "русско-немецкий")
+    return dict(name=name, group=group, url=url, status="✓", text=text, raw=path)
 
 
 def src_multitran_ru(ru, raw_dir):
     name, group = f"Multitran RU→DE «{ru}»", "C"
-    url = f"https://www.multitran.com/m.exe?l1=2&l2=3&s={urllib.parse.quote(ru)}"
+    url = f"https://www.multitran.com/m.exe?l1=2&l2=3&s={urllib.parse.quote(_clean_ru(ru))}"
     ok, code, body = _raw_fetch(url)
     path = _save_raw(raw_dir, f"C_multitran_{ru}", "html", body if ok else str(body))
     if not ok:
@@ -404,7 +518,7 @@ def src_multitran_ru(ru, raw_dir):
 
 def src_gufo(ru, raw_dir):
     name, group = f"RU-толковые gufo.me «{ru}»", "D"
-    url = f"https://gufo.me/dict/ushakov/{urllib.parse.quote(ru)}"
+    url = f"https://gufo.me/dict/ushakov/{urllib.parse.quote(_clean_ru(ru))}"
     ok, code, body = _raw_fetch(url)
     path = _save_raw(raw_dir, f"D_gufo_{ru}", "html", body if ok else str(body))
     if not ok:
