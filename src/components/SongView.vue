@@ -535,6 +535,7 @@ function getLineDeParts(stanza, lineIndex) {
 
 /* Курсив — маркер немецкого оригинала (только левая колонка) */
 .col-de h2 {
+  font-family: var(--font-de);
   font-style: italic;
 }
 
@@ -581,6 +582,7 @@ function getLineDeParts(stanza, lineIndex) {
 }
 
 .line-de {
+  font-family: var(--font-de);
   font-style: italic;
   color: var(--text);
   line-height: 1.5;

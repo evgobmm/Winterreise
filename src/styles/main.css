@@ -332,6 +332,13 @@ body {
 .print-sheet .print-song .annotations-panel h3 { font-size: 1em; }
 .print-sheet .print-song .annotation-item { font-size: 0.9em; }
 
+/* Печать оставляем на основном серифе: её постраничная вёрстка тонко настроена.
+   Экранный немецкий стих переведён на отдельный шрифт (--font-de), печать — отдельно. */
+.print-sheet .print-song .col-de h2,
+.print-sheet .print-song .line-de {
+  font-family: var(--font-serif);
+}
+
 /* Текстовая часть — во всю ширину листа; колонки в em: немецкая сжимается
    вместе с кеглем, освобождая русскому подстрочнику всё больше места */
 .print-sheet .print-song .song-header,
