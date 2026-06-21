@@ -584,6 +584,7 @@ function getLineDeParts(stanza, lineIndex) {
 .line-de {
   font-family: var(--font-de);
   font-style: italic;
+  font-size: 1.05rem;
   color: var(--text);
   line-height: 1.5;
 }
