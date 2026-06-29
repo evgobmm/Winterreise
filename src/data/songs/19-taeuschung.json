@@ -49,9 +49,8 @@
         {
           "segments": [
             { "ru": "Я", "de": "Ich" },
-            { "ru": "следую за", "de": "folg'" },
+            { "ru": "следую за", "de": "folg'... nach" },
             { "ru": "ним", "de": "ihm" },
-            { "ru": "вслед", "de": "nach" },
             { "ru": "то туда, то сюда;", "de": "die Kreuz und Quer" }
           ],
           "annotations": [
