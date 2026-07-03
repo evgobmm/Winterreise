@@ -315,7 +315,7 @@
             { "ru": "И", "de": "Und" },
             { "ru": "всё", "de": "immer" },
             { "ru": "слышу", "de": "hör'" },
-            { "ru": "я", "de": "ich" },
+            { "ru": "я,", "de": "ich" },
             { "ru": "как шумит:", "de": "'s rauschen" }
           ],
           "annotations": [
