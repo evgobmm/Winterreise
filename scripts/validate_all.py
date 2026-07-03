@@ -14,7 +14,7 @@ INDEX = os.path.join(os.path.dirname(__file__), '..', 'src', 'data', 'index.json
 SEG_KEYS = {'ru', 'de', 'variant_ru', 'variant_de'}
 ANN_KEYS = {'type', 'segment_range', 'text', 'line_span', 'continuation_ranges', 'target'}
 YO_RE = re.compile(r'\bеще\b|задает|осознается|передает|\bидет\b|найдет|\bчетко\b'
-                   r'|твердой|замерзш|\bсвое\b|\b(?:во|в|о|об|обо|на|при)\s+(?:всем|нем)\b')
+                   r'|твердой|замерзш|\bсвое\b|изможденн|истощенн|потрясенн|удрученн|огорченн|\b(?:во|в|о|об|обо|на|при)\s+(?:всем|нем)\b')
 findings = []
 
 
