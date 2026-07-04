@@ -16,3 +16,4 @@ scripts/__pycache__/
 __pycache__/
 *.timestamp-*.mjs
 research/*.log
+research/audit-2026-07/sources/*.html
