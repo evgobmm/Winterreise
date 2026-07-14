@@ -571,7 +571,7 @@ function getLineDeParts(stanza, lineIndex) {
 }
 
 .col-de {
-  flex: 0 0 340px;
+  flex: 0 0 380px;
   display: flex;
   align-items: flex-start;
 }
